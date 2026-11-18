@@ -1,0 +1,4952 @@
+{
+ "kosu_turu": {
+  "Arap|Maiden": {
+   "kosu": 321,
+   "ort_alan": 12.1,
+   "hp_p10": 10,
+   "hp_medyan": 24,
+   "hp_p90": 33,
+   "favori": 32.4,
+   "hp_lideri": 22.9,
+   "piyasa_ae": {
+    "cins erkek": 1.05,
+    "kilo sırası 4+": 0.92,
+    "HP sırası 3": 1.12,
+    "karma koşuda erkek": 1.05,
+    "kilo sırası 1": 1.04,
+    "cins dişi": 0.93,
+    "HP sırası 2": 1.13,
+    "karma koşuda dişi": 0.85,
+    "HP sırası 1": 1.12,
+    "HP sırası 4+": 0.89,
+    "kilo sırası 2": 0.93,
+    "kilo sırası 3": 1.19
+   }
+  },
+  "İngiliz|Maiden": {
+   "kosu": 317,
+   "ort_alan": 10.9,
+   "hp_p10": 10,
+   "hp_medyan": 25,
+   "hp_p90": 34,
+   "favori": 35.6,
+   "hp_lideri": 17.0,
+   "piyasa_ae": {
+    "cins dişi": 0.96,
+    "kilo sırası 4+": 1.03,
+    "HP sırası 1": 0.96,
+    "karma koşuda dişi": 0.91,
+    "cins erkek": 1.05,
+    "kilo sırası 2": 0.92,
+    "HP sırası 4+": 1.03,
+    "karma koşuda erkek": 1.04,
+    "kilo sırası 1": 0.99,
+    "HP sırası 2": 0.88,
+    "HP sırası 3": 1.11,
+    "kilo sırası 3": 1.12,
+    "cins iğdiş": 0.61
+   }
+  },
+  "İngiliz|Şartlı 4": {
+   "kosu": 197,
+   "ort_alan": 8.4,
+   "hp_p10": 35,
+   "hp_medyan": 57,
+   "hp_p90": 87,
+   "favori": 40.6,
+   "hp_lideri": 23.9,
+   "piyasa_ae": {
+    "cins erkek": 1.09,
+    "kilo sırası 1": 0.85,
+    "HP sırası 1": 0.9,
+    "karma koşuda erkek": 1.05,
+    "HP sırası 4+": 0.94,
+    "cins dişi": 0.92,
+    "kilo sırası 4+": 0.98,
+    "HP sırası 3": 1.08,
+    "karma koşuda dişi": 0.78,
+    "HP sırası 2": 1.23,
+    "kilo sırası 3": 1.18,
+    "cins aygır": 1.03,
+    "kilo sırası 2": 1.16,
+    "cins kısrak": 0.9,
+    "cins iğdiş": 0.83
+   }
+  },
+  "İngiliz|Handikap 15": {
+   "kosu": 161,
+   "ort_alan": 11.0,
+   "hp_p10": 32,
+   "hp_medyan": 45,
+   "hp_p90": 56,
+   "favori": 22.4,
+   "hp_lideri": 10.8,
+   "piyasa_ae": {
+    "cins dişi": 1.02,
+    "kilo sırası 3": 0.91,
+    "HP sırası 3": 0.91,
+    "kilo sırası 2": 1.14,
+    "HP sırası 2": 0.99,
+    "kilo sırası 1": 0.92,
+    "HP sırası 1": 0.98,
+    "kilo sırası 4+": 1.01,
+    "HP sırası 4+": 1.02,
+    "cins erkek": 0.95,
+    "karma koşuda erkek": 0.99,
+    "cins aygır": 1.15,
+    "cins kısrak": 0.97,
+    "karma koşuda dişi": 1.02,
+    "cins iğdiş": 0.75
+   }
+  },
+  "Arap|Şartlı 4": {
+   "kosu": 157,
+   "ort_alan": 10.5,
+   "hp_p10": 37,
+   "hp_medyan": 60,
+   "hp_p90": 87,
+   "favori": 31.2,
+   "hp_lideri": 25.7,
+   "piyasa_ae": {
+    "cins kısrak": 1.1,
+    "kilo sırası 4+": 1.02,
+    "HP sırası 4+": 0.96,
+    "karma koşuda dişi": 1.17,
+    "cins aygır": 0.94,
+    "karma koşuda erkek": 0.97,
+    "HP sırası 1": 1.2,
+    "HP sırası 3": 1.1,
+    "kilo sırası 2": 0.83,
+    "HP sırası 2": 0.72,
+    "kilo sırası 1": 1.02,
+    "kilo sırası 3": 1.11,
+    "cins erkek": 1.02,
+    "cins dişi": 0.97
+   }
+  },
+  "İngiliz|Handikap 16": {
+   "kosu": 155,
+   "ort_alan": 9.9,
+   "hp_p10": 39,
+   "hp_medyan": 56,
+   "hp_p90": 66,
+   "favori": 33.5,
+   "hp_lideri": 11.8,
+   "piyasa_ae": {
+    "cins erkek": 0.97,
+    "kilo sırası 4+": 1.07,
+    "HP sırası 4+": 1.02,
+    "karma koşuda erkek": 1.0,
+    "cins dişi": 1.09,
+    "kilo sırası 3": 0.95,
+    "HP sırası 1": 0.92,
+    "karma koşuda dişi": 1.02,
+    "kilo sırası 2": 0.89,
+    "HP sırası 3": 0.99,
+    "cins iğdiş": 0.85,
+    "kilo sırası 1": 0.81,
+    "cins kısrak": 0.84,
+    "HP sırası 2": 1.02,
+    "cins aygır": 1.06
+   }
+  },
+  "Arap|Handikap 15": {
+   "kosu": 142,
+   "ort_alan": 13.0,
+   "hp_p10": 33,
+   "hp_medyan": 46,
+   "hp_p90": 58,
+   "favori": 26.8,
+   "hp_lideri": 11.4,
+   "piyasa_ae": {
+    "cins kısrak": 0.87,
+    "kilo sırası 2": 0.85,
+    "HP sırası 4+": 1.01,
+    "kilo sırası 1": 1.04,
+    "HP sırası 3": 1.08,
+    "kilo sırası 4+": 0.95,
+    "HP sırası 2": 0.72,
+    "HP sırası 1": 1.11,
+    "karma koşuda dişi": 0.6,
+    "cins aygır": 1.08,
+    "karma koşuda erkek": 1.08,
+    "kilo sırası 3": 1.38,
+    "cins erkek": 1.12,
+    "cins dişi": 0.76
+   }
+  },
+  "İngiliz|Şartlı 5": {
+   "kosu": 142,
+   "ort_alan": 7.8,
+   "hp_p10": 39,
+   "hp_medyan": 67,
+   "hp_p90": 90,
+   "favori": 42.3,
+   "hp_lideri": 29.6,
+   "piyasa_ae": {
+    "cins erkek": 1.04,
+    "kilo sırası 2": 1.11,
+    "HP sırası 1": 1.12,
+    "karma koşuda erkek": 1.03,
+    "kilo sırası 1": 0.93,
+    "HP sırası 3": 0.87,
+    "HP sırası 2": 0.91,
+    "cins dişi": 0.97,
+    "kilo sırası 4+": 0.85,
+    "HP sırası 4+": 1.0,
+    "karma koşuda dişi": 0.85,
+    "cins aygır": 1.06,
+    "cins kısrak": 0.88,
+    "kilo sırası 3": 1.39
+   }
+  },
+  "Arap|Şartlı 5": {
+   "kosu": 127,
+   "ort_alan": 9.9,
+   "hp_p10": 39,
+   "hp_medyan": 69,
+   "hp_p90": 92,
+   "favori": 32.3,
+   "hp_lideri": 18.5,
+   "piyasa_ae": {
+    "cins aygır": 0.98,
+    "kilo sırası 3": 0.76,
+    "HP sırası 4+": 1.03,
+    "karma koşuda erkek": 1.01,
+    "kilo sırası 4+": 1.02,
+    "HP sırası 2": 0.99,
+    "kilo sırası 1": 1.07,
+    "HP sırası 3": 1.13,
+    "HP sırası 1": 0.87,
+    "kilo sırası 2": 0.98,
+    "cins kısrak": 1.08,
+    "karma koşuda dişi": 0.94,
+    "cins dişi": 0.8,
+    "cins erkek": 1.11
+   }
+  },
+  "İngiliz|Şartlı 3": {
+   "kosu": 125,
+   "ort_alan": 9.5,
+   "hp_p10": 27,
+   "hp_medyan": 43,
+   "hp_p90": 80,
+   "favori": 40.8,
+   "hp_lideri": 24.5,
+   "piyasa_ae": {
+    "cins erkek": 1.12,
+    "kilo sırası 3": 0.92,
+    "HP sırası 1": 0.93,
+    "karma koşuda erkek": 1.11,
+    "kilo sırası 1": 1.08,
+    "HP sırası 4+": 0.83,
+    "HP sırası 3": 1.02,
+    "HP sırası 2": 1.5,
+    "kilo sırası 2": 0.97,
+    "cins dişi": 0.93,
+    "kilo sırası 4+": 0.99,
+    "karma koşuda dişi": 0.72,
+    "cins aygır": 1.13,
+    "cins kısrak": 0.66
+   }
+  },
+  "Arap|Handikap 16": {
+   "kosu": 115,
+   "ort_alan": 12.9,
+   "hp_p10": 38,
+   "hp_medyan": 58,
+   "hp_p90": 69,
+   "favori": 26.1,
+   "hp_lideri": 7.8,
+   "piyasa_ae": {
+    "cins aygır": 1.0,
+    "kilo sırası 4+": 1.06,
+    "HP sırası 4+": 1.09,
+    "karma koşuda erkek": 0.99,
+    "HP sırası 3": 0.74,
+    "cins kısrak": 1.02,
+    "karma koşuda dişi": 1.05,
+    "kilo sırası 3": 0.5,
+    "HP sırası 1": 0.86,
+    "HP sırası 2": 0.83,
+    "kilo sırası 1": 0.88,
+    "kilo sırası 2": 1.15
+   }
+  },
+  "İngiliz|Handikap 14": {
+   "kosu": 101,
+   "ort_alan": 11.8,
+   "hp_p10": 29,
+   "hp_medyan": 39,
+   "hp_p90": 47,
+   "favori": 36.6,
+   "hp_lideri": 9.7,
+   "piyasa_ae": {
+    "cins erkek": 1.05,
+    "kilo sırası 4+": 1.06,
+    "HP sırası 4+": 1.03,
+    "karma koşuda erkek": 1.05,
+    "kilo sırası 1": 0.7,
+    "HP sırası 2": 1.24,
+    "HP sırası 1": 0.83,
+    "cins kısrak": 0.68,
+    "kilo sırası 3": 1.14,
+    "karma koşuda dişi": 0.89,
+    "cins aygır": 1.09,
+    "HP sırası 3": 0.9,
+    "cins dişi": 0.99,
+    "kilo sırası 2": 0.9
+   }
+  },
+  "Arap|Şartlı 3": {
+   "kosu": 101,
+   "ort_alan": 11.0,
+   "hp_p10": 31,
+   "hp_medyan": 43,
+   "hp_p90": 81,
+   "favori": 36.6,
+   "hp_lideri": 18.7,
+   "piyasa_ae": {
+    "cins erkek": 1.06,
+    "kilo sırası 1": 0.78,
+    "HP sırası 1": 0.84,
+    "karma koşuda erkek": 1.03,
+    "kilo sırası 3": 0.81,
+    "HP sırası 4+": 1.02,
+    "cins dişi": 0.93,
+    "kilo sırası 4+": 1.18,
+    "HP sırası 3": 1.24,
+    "karma koşuda dişi": 0.81,
+    "kilo sırası 2": 1.03,
+    "HP sırası 2": 1.02,
+    "cins aygır": 1.0,
+    "cins kısrak": 0.96
+   }
+  },
+  "Arap|Handikap 14": {
+   "kosu": 83,
+   "ort_alan": 12.5,
+   "hp_p10": 30,
+   "hp_medyan": 38,
+   "hp_p90": 46,
+   "favori": 30.1,
+   "hp_lideri": 12.0,
+   "piyasa_ae": {
+    "cins aygır": 1.08,
+    "kilo sırası 4+": 1.03,
+    "HP sırası 4+": 1.0,
+    "karma koşuda erkek": 1.1,
+    "kilo sırası 2": 1.06,
+    "HP sırası 1": 1.13,
+    "kilo sırası 3": 1.1,
+    "HP sırası 2": 0.96,
+    "kilo sırası 1": 0.67,
+    "cins kısrak": 0.83,
+    "karma koşuda dişi": 0.61,
+    "HP sırası 3": 0.93,
+    "cins erkek": 1.11,
+    "cins dişi": 0.84
+   }
+  },
+  "İngiliz|Şartlı 1": {
+   "kosu": 78,
+   "ort_alan": 9.6,
+   "hp_p10": 0,
+   "hp_medyan": 0,
+   "hp_p90": 0,
+   "favori": 38.5,
+   "hp_lideri": 0.0,
+   "piyasa_ae": {
+    "cins erkek": 0.92,
+    "kilo sırası 1": 0.96,
+    "karma koşuda erkek": 0.94,
+    "cins dişi": 1.08,
+    "kilo sırası 4+": 1.21,
+    "karma koşuda dişi": 1.22
+   }
+  },
+  "İngiliz|KV 6": {
+   "kosu": 76,
+   "ort_alan": 7.5,
+   "hp_p10": 41,
+   "hp_medyan": 71,
+   "hp_p90": 94,
+   "favori": 35.5,
+   "hp_lideri": 25.0,
+   "piyasa_ae": {
+    "cins erkek": 1.0,
+    "kilo sırası 1": 1.2,
+    "HP sırası 2": 0.99,
+    "karma koşuda erkek": 0.97,
+    "kilo sırası 4+": 0.97,
+    "HP sırası 4+": 1.18,
+    "kilo sırası 2": 0.93,
+    "HP sırası 1": 0.89,
+    "cins dişi": 1.09,
+    "HP sırası 3": 0.66,
+    "karma koşuda dişi": 1.2,
+    "kilo sırası 3": 0.67,
+    "cins aygır": 0.91,
+    "cins kısrak": 0.96
+   }
+  },
+  "İngiliz|Şartlı 19": {
+   "kosu": 66,
+   "ort_alan": 13.2,
+   "hp_p10": 10,
+   "hp_medyan": 26,
+   "hp_p90": 35,
+   "favori": 33.3,
+   "hp_lideri": 8.8,
+   "piyasa_ae": {
+    "cins erkek": 1.24,
+    "kilo sırası 3": 1.55,
+    "HP sırası 2": 1.09,
+    "karma koşuda erkek": 1.22,
+    "kilo sırası 1": 0.85,
+    "HP sırası 1": 0.64,
+    "cins dişi": 0.76,
+    "kilo sırası 4+": 0.99,
+    "karma koşuda dişi": 0.61,
+    "kilo sırası 2": 0.91,
+    "HP sırası 4+": 1.09,
+    "HP sırası 3": 1.07
+   }
+  },
+  "İngiliz|Satış": {
+   "kosu": 66,
+   "ort_alan": 9.5,
+   "hp_p10": 31,
+   "hp_medyan": 52,
+   "hp_p90": 86,
+   "favori": 37.9,
+   "hp_lideri": 17.9,
+   "piyasa_ae": {
+    "cins aygır": 0.93,
+    "kilo sırası 4+": 1.16,
+    "HP sırası 4+": 1.13,
+    "karma koşuda erkek": 0.96,
+    "kilo sırası 1": 0.87,
+    "HP sırası 3": 0.66,
+    "kilo sırası 3": 1.06,
+    "kilo sırası 2": 0.75,
+    "cins kısrak": 1.03,
+    "karma koşuda dişi": 1.11,
+    "HP sırası 2": 1.17,
+    "HP sırası 1": 0.85,
+    "cins erkek": 0.94,
+    "cins dişi": 1.11
+   }
+  },
+  "Arap|KV 6": {
+   "kosu": 65,
+   "ort_alan": 9.0,
+   "hp_p10": 42,
+   "hp_medyan": 72,
+   "hp_p90": 95,
+   "favori": 32.3,
+   "hp_lideri": 25.1,
+   "piyasa_ae": {
+    "cins erkek": 0.97,
+    "kilo sırası 2": 0.88,
+    "HP sırası 3": 1.45,
+    "karma koşuda erkek": 1.0,
+    "kilo sırası 1": 1.27,
+    "HP sırası 1": 0.98,
+    "kilo sırası 4+": 0.78,
+    "HP sırası 4+": 0.98,
+    "HP sırası 2": 0.66,
+    "cins aygır": 1.02,
+    "kilo sırası 3": 1.22,
+    "cins kısrak": 0.93,
+    "karma koşuda dişi": 0.95,
+    "cins dişi": 1.05
+   }
+  },
+  "İngiliz|KV 7": {
+   "kosu": 65,
+   "ort_alan": 7.8,
+   "hp_p10": 51,
+   "hp_medyan": 76,
+   "hp_p90": 94,
+   "favori": 40.0,
+   "hp_lideri": 28.5,
+   "piyasa_ae": {
+    "cins aygır": 0.9,
+    "kilo sırası 4+": 0.99,
+    "HP sırası 4+": 0.94,
+    "karma koşuda erkek": 0.96,
+    "kilo sırası 2": 1.13,
+    "HP sırası 1": 1.1,
+    "HP sırası 3": 1.04,
+    "kilo sırası 3": 0.76,
+    "HP sırası 2": 0.93,
+    "kilo sırası 1": 1.07,
+    "cins erkek": 1.02,
+    "cins dişi": 0.93,
+    "cins kısrak": 1.47,
+    "karma koşuda dişi": 1.23
+   }
+  },
+  "İngiliz|KV 8": {
+   "kosu": 55,
+   "ort_alan": 6.8,
+   "hp_p10": 47,
+   "hp_medyan": 76,
+   "hp_p90": 98,
+   "favori": 50.9,
+   "hp_lideri": 36.1,
+   "piyasa_ae": {
+    "cins aygır": 0.92,
+    "kilo sırası 4+": 0.67,
+    "HP sırası 4+": 0.73,
+    "karma koşuda erkek": 1.1,
+    "kilo sırası 1": 1.02,
+    "HP sırası 1": 1.22,
+    "kilo sırası 3": 1.26,
+    "HP sırası 2": 0.95,
+    "kilo sırası 2": 1.01,
+    "HP sırası 3": 1.1,
+    "cins dişi": 0.74,
+    "cins erkek": 1.16,
+    "karma koşuda dişi": 0.2,
+    "cins kısrak": 0.8
+   }
+  },
+  "Arap|Şartlı 1": {
+   "kosu": 46,
+   "ort_alan": 11.5,
+   "hp_p10": 0,
+   "hp_medyan": 0,
+   "hp_p90": 0,
+   "favori": 43.5,
+   "hp_lideri": 0.0,
+   "piyasa_ae": {
+    "cins dişi": 0.96,
+    "kilo sırası 1": 1.02,
+    "cins erkek": 1.03,
+    "karma koşuda erkek": 1.03,
+    "kilo sırası 4+": 0.71,
+    "karma koşuda dişi": 0.71
+   }
+  },
+  "İngiliz|Handikap 17": {
+   "kosu": 42,
+   "ort_alan": 8.9,
+   "hp_p10": 55,
+   "hp_medyan": 70,
+   "hp_p90": 80,
+   "favori": 33.3,
+   "hp_lideri": 13.1,
+   "piyasa_ae": {
+    "cins aygır": 0.95,
+    "kilo sırası 1": 1.03,
+    "HP sırası 1": 1.1,
+    "karma koşuda erkek": 1.06,
+    "cins dişi": 0.57,
+    "kilo sırası 4+": 0.97,
+    "HP sırası 4+": 0.97,
+    "karma koşuda dişi": 0.58,
+    "kilo sırası 2": 0.64,
+    "HP sırası 2": 0.79,
+    "kilo sırası 3": 1.41,
+    "HP sırası 3": 1.17,
+    "cins erkek": 1.11
+   }
+  },
+  "Arap|KV 7": {
+   "kosu": 42,
+   "ort_alan": 9.5,
+   "hp_p10": 44,
+   "hp_medyan": 79,
+   "hp_p90": 95,
+   "favori": 40.5,
+   "hp_lideri": 16.3,
+   "piyasa_ae": {
+    "cins kısrak": 0.86,
+    "kilo sırası 2": 1.05,
+    "HP sırası 3": 0.78,
+    "kilo sırası 4+": 0.89,
+    "HP sırası 4+": 1.02,
+    "HP sırası 1": 0.69,
+    "kilo sırası 1": 1.13,
+    "cins aygır": 1.04,
+    "karma koşuda erkek": 1.07,
+    "HP sırası 2": 1.66,
+    "cins erkek": 1.07,
+    "kilo sırası 3": 0.96,
+    "karma koşuda dişi": 0.34,
+    "cins dişi": 0.83
+   }
+  },
+  "Arap|Satış": {
+   "kosu": 33,
+   "ort_alan": 13.1,
+   "hp_p10": 20,
+   "hp_medyan": 40,
+   "hp_p90": 80,
+   "favori": 27.3,
+   "hp_lideri": 25.8,
+   "piyasa_ae": {
+    "cins aygır": 0.92,
+    "kilo sırası 4+": 1.02,
+    "HP sırası 1": 1.23,
+    "karma koşuda erkek": 1.05,
+    "HP sırası 4+": 0.87,
+    "cins kısrak": 1.35,
+    "karma koşuda dişi": 0.91,
+    "kilo sırası 1": 1.05,
+    "HP sırası 3": 1.07,
+    "HP sırası 2": 1.02,
+    "kilo sırası 2": 0.84,
+    "cins erkek": 1.35,
+    "cins dişi": 0.68
+   }
+  },
+  "Arap|Handikap 17": {
+   "kosu": 31,
+   "ort_alan": 12.5,
+   "hp_p10": 58,
+   "hp_medyan": 73,
+   "hp_p90": 82,
+   "favori": 16.1,
+   "hp_lideri": 11.3,
+   "piyasa_ae": {
+    "cins aygır": 1.14,
+    "kilo sırası 4+": 1.03,
+    "HP sırası 1": 1.42,
+    "karma koşuda erkek": 1.13,
+    "HP sırası 4+": 0.94,
+    "kilo sırası 1": 1.64,
+    "HP sırası 3": 1.02,
+    "kilo sırası 2": 0.28,
+    "cins kısrak": 0.0,
+    "karma koşuda dişi": 0.0,
+    "HP sırası 2": 0.99,
+    "kilo sırası 3": 1.19
+   }
+  },
+  "Arap|KV 8": {
+   "kosu": 30,
+   "ort_alan": 8.3,
+   "hp_p10": 49,
+   "hp_medyan": 87,
+   "hp_p90": 99,
+   "favori": 36.7,
+   "hp_lideri": 36.7,
+   "piyasa_ae": {
+    "cins aygır": 1.07,
+    "kilo sırası 1": 1.23,
+    "HP sırası 1": 1.25,
+    "karma koşuda erkek": 1.04,
+    "HP sırası 4+": 0.82,
+    "kilo sırası 4+": 0.52,
+    "kilo sırası 2": 1.19,
+    "HP sırası 3": 0.91,
+    "cins kısrak": 0.66,
+    "HP sırası 2": 1.07,
+    "cins erkek": 1.02
+   }
+  },
+  "İngiliz|G3": {
+   "kosu": 28,
+   "ort_alan": 8.1,
+   "hp_p10": 54,
+   "hp_medyan": 94,
+   "hp_p90": 106,
+   "favori": 42.9,
+   "hp_lideri": 30.4,
+   "piyasa_ae": {
+    "cins kısrak": 1.02,
+    "kilo sırası 1": 0.87,
+    "HP sırası 2": 1.09,
+    "kilo sırası 4+": 1.51,
+    "HP sırası 4+": 1.05,
+    "HP sırası 1": 0.91,
+    "cins aygır": 0.75,
+    "karma koşuda erkek": 0.98,
+    "HP sırası 3": 0.98,
+    "cins erkek": 1.23,
+    "cins dişi": 1.1
+   }
+  },
+  "Arap|Şartlı 19": {
+   "kosu": 25,
+   "ort_alan": 13.7,
+   "hp_p10": 10,
+   "hp_medyan": 23,
+   "hp_p90": 33,
+   "favori": 28.0,
+   "hp_lideri": 23.3,
+   "piyasa_ae": {
+    "cins aygır": 1.51,
+    "kilo sırası 1": 1.11,
+    "HP sırası 1": 1.54,
+    "karma koşuda erkek": 1.02,
+    "HP sırası 4+": 0.64,
+    "cins kısrak": 0.43,
+    "kilo sırası 4+": 0.84,
+    "HP sırası 3": 1.11,
+    "karma koşuda dişi": 0.94,
+    "HP sırası 2": 1.67,
+    "kilo sırası 2": 1.25,
+    "cins dişi": 1.12,
+    "cins erkek": 0.9
+   }
+  },
+  "İngiliz|G2": {
+   "kosu": 24,
+   "ort_alan": 9.9,
+   "hp_p10": 51,
+   "hp_medyan": 85,
+   "hp_p90": 105,
+   "favori": 33.3,
+   "hp_lideri": 29.2,
+   "piyasa_ae": {
+    "cins aygır": 0.91,
+    "kilo sırası 1": 0.93,
+    "HP sırası 3": 1.41,
+    "karma koşuda erkek": 0.95,
+    "kilo sırası 4+": 1.28,
+    "HP sırası 4+": 0.63,
+    "HP sırası 1": 1.08,
+    "HP sırası 2": 1.43,
+    "cins erkek": 0.97,
+    "cins kısrak": 0.94,
+    "cins dişi": 1.28,
+    "karma koşuda dişi": 1.44
+   }
+  },
+  "İngiliz|KV 9": {
+   "kosu": 21,
+   "ort_alan": 7.7,
+   "hp_p10": 66,
+   "hp_medyan": 89,
+   "hp_p90": 100,
+   "favori": 47.6,
+   "hp_lideri": 34.9,
+   "piyasa_ae": {
+    "cins aygır": 0.93,
+    "kilo sırası 1": 1.02,
+    "HP sırası 1": 1.06,
+    "karma koşuda erkek": 1.05,
+    "kilo sırası 4+": 0.63,
+    "HP sırası 4+": 0.99,
+    "HP sırası 2": 0.74,
+    "HP sırası 3": 1.12,
+    "cins erkek": 1.03
+   }
+  },
+  "İngiliz|Handikap 21": {
+   "kosu": 18,
+   "ort_alan": 8.4,
+   "hp_p10": 61,
+   "hp_medyan": 78,
+   "hp_p90": 89,
+   "favori": 22.2,
+   "hp_lideri": 16.7,
+   "piyasa_ae": {
+    "cins aygır": 0.84,
+    "kilo sırası 4+": 1.11,
+    "HP sırası 1": 1.6,
+    "karma koşuda erkek": 1.03,
+    "kilo sırası 3": 0.99,
+    "HP sırası 4+": 0.99,
+    "HP sırası 3": 0.59,
+    "kilo sırası 1": 1.32,
+    "cins erkek": 1.36
+   }
+  },
+  "Arap|G3": {
+   "kosu": 16,
+   "ort_alan": 12.6,
+   "hp_p10": 45,
+   "hp_medyan": 86,
+   "hp_p90": 103,
+   "favori": 12.5,
+   "hp_lideri": 18.8,
+   "piyasa_ae": {
+    "cins aygır": 0.97,
+    "kilo sırası 1": 1.14,
+    "HP sırası 2": 2.48,
+    "karma koşuda erkek": 1.01,
+    "HP sırası 4+": 0.55,
+    "kilo sırası 4+": 0.53,
+    "HP sırası 1": 0.84,
+    "cins erkek": 1.0,
+    "cins dişi": 0.97
+   }
+  },
+  "İngiliz|G1": {
+   "kosu": 16,
+   "ort_alan": 11.0,
+   "hp_p10": 64,
+   "hp_medyan": 94,
+   "hp_p90": 106,
+   "favori": 50.0,
+   "hp_lideri": 34.4,
+   "piyasa_ae": {
+    "kilo sırası 1": 0.98,
+    "HP sırası 1": 1.45,
+    "HP sırası 4+": 0.59,
+    "HP sırası 2": 1.28,
+    "cins erkek": 1.15,
+    "karma koşuda erkek": 0.95,
+    "kilo sırası 4+": 1.08,
+    "cins aygır": 0.79
+   }
+  },
+  "Arap|Handikap 21": {
+   "kosu": 16,
+   "ort_alan": 11.2,
+   "hp_p10": 66,
+   "hp_medyan": 80,
+   "hp_p90": 89,
+   "favori": 6.2,
+   "hp_lideri": 12.5,
+   "piyasa_ae": {
+    "cins aygır": 0.99,
+    "kilo sırası 4+": 1.0,
+    "HP sırası 4+": 0.97,
+    "karma koşuda erkek": 0.98,
+    "cins kısrak": 1.07,
+    "HP sırası 2": 0.95
+   }
+  },
+  "İngiliz|Handikap 24": {
+   "kosu": 15,
+   "ort_alan": 7.7,
+   "hp_p10": 83,
+   "hp_medyan": 92,
+   "hp_p90": 100,
+   "favori": 46.7,
+   "hp_lideri": 20.0,
+   "piyasa_ae": {
+    "cins aygır": 0.98,
+    "kilo sırası 4+": 0.99,
+    "HP sırası 4+": 1.02,
+    "karma koşuda erkek": 1.04,
+    "kilo sırası 2": 1.16,
+    "HP sırası 2": 1.28,
+    "kilo sırası 1": 0.93,
+    "HP sırası 1": 0.86,
+    "cins kısrak": 0.98,
+    "kilo sırası 3": 0.96,
+    "HP sırası 3": 0.92,
+    "cins erkek": 1.03
+   }
+  }
+ },
+ "jokey": {
+  "M.DOĞAN": {
+   "genel": {
+    "binis": 239,
+    "kazanma": 32,
+    "alan_ae": 1.5,
+    "piyasa_ae": 1.49
+   },
+   "Arap": {
+    "binis": 101,
+    "kazanma": 12,
+    "alan_ae": 1.43,
+    "piyasa_ae": 1.41
+   },
+   "Şanlıurfa": {
+    "binis": 8,
+    "kazanma": 1,
+    "alan_ae": 1.84,
+    "piyasa_ae": 1.83
+   },
+   "İngiliz": {
+    "binis": 138,
+    "kazanma": 20,
+    "alan_ae": 1.54,
+    "piyasa_ae": 1.55
+   },
+   "Elazığ": {
+    "binis": 206,
+    "kazanma": 31,
+    "alan_ae": 1.66,
+    "piyasa_ae": 1.65
+   },
+   "Diyarbakır": {
+    "binis": 22,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Adana": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "C.ALTUN": {
+   "genel": {
+    "binis": 249,
+    "kazanma": 24,
+    "alan_ae": 1.04,
+    "piyasa_ae": 1.41
+   },
+   "İngiliz": {
+    "binis": 134,
+    "kazanma": 16,
+    "alan_ae": 1.13,
+    "piyasa_ae": 1.37
+   },
+   "Bursa": {
+    "binis": 197,
+    "kazanma": 19,
+    "alan_ae": 1.04,
+    "piyasa_ae": 1.35
+   },
+   "Arap": {
+    "binis": 115,
+    "kazanma": 8,
+    "alan_ae": 0.91,
+    "piyasa_ae": 1.49
+   },
+   "İstanbul": {
+    "binis": 15,
+    "kazanma": 2,
+    "alan_ae": 1.37,
+    "piyasa_ae": 2.74
+   },
+   "Kocaeli": {
+    "binis": 30,
+    "kazanma": 3,
+    "alan_ae": 1.16,
+    "piyasa_ae": 1.76
+   },
+   "İzmir": {
+    "binis": 7,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "A.H.BAYAR": {
+   "genel": {
+    "binis": 366,
+    "kazanma": 33,
+    "alan_ae": 1.07,
+    "piyasa_ae": 1.37
+   },
+   "İngiliz": {
+    "binis": 189,
+    "kazanma": 16,
+    "alan_ae": 0.99,
+    "piyasa_ae": 1.33
+   },
+   "Diyarbakır": {
+    "binis": 96,
+    "kazanma": 14,
+    "alan_ae": 1.66,
+    "piyasa_ae": 1.92
+   },
+   "Arap": {
+    "binis": 177,
+    "kazanma": 17,
+    "alan_ae": 1.17,
+    "piyasa_ae": 1.4
+   },
+   "Şanlıurfa": {
+    "binis": 95,
+    "kazanma": 7,
+    "alan_ae": 0.97,
+    "piyasa_ae": 1.09
+   },
+   "Elazığ": {
+    "binis": 170,
+    "kazanma": 12,
+    "alan_ae": 0.82,
+    "piyasa_ae": 1.18
+   },
+   "Adana": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "B.AKÇAY": {
+   "genel": {
+    "binis": 195,
+    "kazanma": 13,
+    "alan_ae": 0.73,
+    "piyasa_ae": 1.35
+   },
+   "Arap": {
+    "binis": 99,
+    "kazanma": 8,
+    "alan_ae": 0.97,
+    "piyasa_ae": 1.49
+   },
+   "İstanbul": {
+    "binis": 134,
+    "kazanma": 9,
+    "alan_ae": 0.75,
+    "piyasa_ae": 1.41
+   },
+   "İngiliz": {
+    "binis": 96,
+    "kazanma": 5,
+    "alan_ae": 0.52,
+    "piyasa_ae": 1.18
+   },
+   "Kocaeli": {
+    "binis": 54,
+    "kazanma": 4,
+    "alan_ae": 0.77,
+    "piyasa_ae": 1.4
+   },
+   "Bursa": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "A.İNCİ": {
+   "genel": {
+    "binis": 319,
+    "kazanma": 29,
+    "alan_ae": 0.99,
+    "piyasa_ae": 1.32
+   },
+   "İngiliz": {
+    "binis": 141,
+    "kazanma": 16,
+    "alan_ae": 1.15,
+    "piyasa_ae": 1.4
+   },
+   "Bursa": {
+    "binis": 145,
+    "kazanma": 17,
+    "alan_ae": 1.35,
+    "piyasa_ae": 1.81
+   },
+   "İzmir": {
+    "binis": 150,
+    "kazanma": 12,
+    "alan_ae": 0.84,
+    "piyasa_ae": 1.1
+   },
+   "Arap": {
+    "binis": 178,
+    "kazanma": 13,
+    "alan_ae": 0.86,
+    "piyasa_ae": 1.23
+   },
+   "Kocaeli": {
+    "binis": 24,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "B.BÜLBÜL": {
+   "genel": {
+    "binis": 266,
+    "kazanma": 25,
+    "alan_ae": 1.07,
+    "piyasa_ae": 1.32
+   },
+   "İngiliz": {
+    "binis": 124,
+    "kazanma": 11,
+    "alan_ae": 0.94,
+    "piyasa_ae": 1.28
+   },
+   "Bursa": {
+    "binis": 57,
+    "kazanma": 4,
+    "alan_ae": 0.92,
+    "piyasa_ae": 1.19
+   },
+   "Arap": {
+    "binis": 142,
+    "kazanma": 14,
+    "alan_ae": 1.19,
+    "piyasa_ae": 1.35
+   },
+   "İzmir": {
+    "binis": 153,
+    "kazanma": 15,
+    "alan_ae": 1.07,
+    "piyasa_ae": 1.25
+   },
+   "Kocaeli": {
+    "binis": 12,
+    "kazanma": 2,
+    "alan_ae": 1.97,
+    "piyasa_ae": 1.88
+   },
+   "İstanbul": {
+    "binis": 44,
+    "kazanma": 4,
+    "alan_ae": 0.99,
+    "piyasa_ae": 1.59
+   }
+  },
+  "A.KAÇMAZ": {
+   "genel": {
+    "binis": 235,
+    "kazanma": 22,
+    "alan_ae": 1.02,
+    "piyasa_ae": 1.3
+   },
+   "Arap": {
+    "binis": 113,
+    "kazanma": 9,
+    "alan_ae": 0.96,
+    "piyasa_ae": 1.18
+   },
+   "İstanbul": {
+    "binis": 207,
+    "kazanma": 19,
+    "alan_ae": 1.0,
+    "piyasa_ae": 1.34
+   },
+   "İngiliz": {
+    "binis": 122,
+    "kazanma": 13,
+    "alan_ae": 1.06,
+    "piyasa_ae": 1.39
+   },
+   "Bursa": {
+    "binis": 5,
+    "kazanma": 1,
+    "alan_ae": 3.28,
+    "piyasa_ae": 2.18
+   },
+   "Kocaeli": {
+    "binis": 11,
+    "kazanma": 1,
+    "alan_ae": 0.98,
+    "piyasa_ae": 0.97
+   },
+   "Ankara": {
+    "binis": 12,
+    "kazanma": 1,
+    "alan_ae": 0.84,
+    "piyasa_ae": 0.78
+   }
+  },
+  "ER.CANKILIÇ": {
+   "genel": {
+    "binis": 376,
+    "kazanma": 51,
+    "alan_ae": 1.37,
+    "piyasa_ae": 1.29
+   },
+   "Arap": {
+    "binis": 187,
+    "kazanma": 22,
+    "alan_ae": 1.32,
+    "piyasa_ae": 1.17
+   },
+   "İstanbul": {
+    "binis": 153,
+    "kazanma": 10,
+    "alan_ae": 0.7,
+    "piyasa_ae": 0.75
+   },
+   "İngiliz": {
+    "binis": 189,
+    "kazanma": 29,
+    "alan_ae": 1.41,
+    "piyasa_ae": 1.39
+   },
+   "Adana": {
+    "binis": 45,
+    "kazanma": 8,
+    "alan_ae": 2.0,
+    "piyasa_ae": 1.27
+   },
+   "Kocaeli": {
+    "binis": 10,
+    "kazanma": 3,
+    "alan_ae": 3.27,
+    "piyasa_ae": 2.7
+   },
+   "Ankara": {
+    "binis": 137,
+    "kazanma": 23,
+    "alan_ae": 1.49,
+    "piyasa_ae": 1.51
+   },
+   "Bursa": {
+    "binis": 31,
+    "kazanma": 7,
+    "alan_ae": 2.75,
+    "piyasa_ae": 1.86
+   }
+  },
+  "E.BOZDAĞ": {
+   "genel": {
+    "binis": 237,
+    "kazanma": 22,
+    "alan_ae": 1.0,
+    "piyasa_ae": 1.27
+   },
+   "Arap": {
+    "binis": 106,
+    "kazanma": 13,
+    "alan_ae": 1.41,
+    "piyasa_ae": 1.61
+   },
+   "İstanbul": {
+    "binis": 180,
+    "kazanma": 17,
+    "alan_ae": 1.02,
+    "piyasa_ae": 1.49
+   },
+   "İngiliz": {
+    "binis": 131,
+    "kazanma": 9,
+    "alan_ae": 0.7,
+    "piyasa_ae": 0.97
+   },
+   "Kocaeli": {
+    "binis": 36,
+    "kazanma": 3,
+    "alan_ae": 0.88,
+    "piyasa_ae": 0.91
+   },
+   "Bursa": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Ankara": {
+    "binis": 12,
+    "kazanma": 2,
+    "alan_ae": 1.4,
+    "piyasa_ae": 1.22
+   },
+   "İzmir": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.A.AKTÜRK": {
+   "genel": {
+    "binis": 157,
+    "kazanma": 19,
+    "alan_ae": 1.44,
+    "piyasa_ae": 1.25
+   },
+   "İngiliz": {
+    "binis": 76,
+    "kazanma": 6,
+    "alan_ae": 0.92,
+    "piyasa_ae": 0.84
+   },
+   "Diyarbakır": {
+    "binis": 12,
+    "kazanma": 2,
+    "alan_ae": 2.1,
+    "piyasa_ae": 1.22
+   },
+   "Arap": {
+    "binis": 81,
+    "kazanma": 13,
+    "alan_ae": 1.95,
+    "piyasa_ae": 1.6
+   },
+   "Şanlıurfa": {
+    "binis": 11,
+    "kazanma": 1,
+    "alan_ae": 1.26,
+    "piyasa_ae": 0.85
+   },
+   "Elazığ": {
+    "binis": 134,
+    "kazanma": 16,
+    "alan_ae": 1.4,
+    "piyasa_ae": 1.29
+   }
+  },
+  "N.AVCİ": {
+   "genel": {
+    "binis": 600,
+    "kazanma": 125,
+    "alan_ae": 2.0,
+    "piyasa_ae": 1.24
+   },
+   "İngiliz": {
+    "binis": 361,
+    "kazanma": 84,
+    "alan_ae": 2.05,
+    "piyasa_ae": 1.22
+   },
+   "Bursa": {
+    "binis": 206,
+    "kazanma": 40,
+    "alan_ae": 1.92,
+    "piyasa_ae": 1.14
+   },
+   "Arap": {
+    "binis": 239,
+    "kazanma": 41,
+    "alan_ae": 1.92,
+    "piyasa_ae": 1.28
+   },
+   "İzmir": {
+    "binis": 182,
+    "kazanma": 49,
+    "alan_ae": 2.52,
+    "piyasa_ae": 1.38
+   },
+   "Kocaeli": {
+    "binis": 97,
+    "kazanma": 23,
+    "alan_ae": 2.31,
+    "piyasa_ae": 1.42
+   },
+   "İstanbul": {
+    "binis": 101,
+    "kazanma": 11,
+    "alan_ae": 1.04,
+    "piyasa_ae": 0.94
+   },
+   "Ankara": {
+    "binis": 14,
+    "kazanma": 2,
+    "alan_ae": 1.26,
+    "piyasa_ae": 0.84
+   }
+  },
+  "N.DEMİR": {
+   "genel": {
+    "binis": 361,
+    "kazanma": 26,
+    "alan_ae": 0.78,
+    "piyasa_ae": 1.23
+   },
+   "Arap": {
+    "binis": 187,
+    "kazanma": 13,
+    "alan_ae": 0.8,
+    "piyasa_ae": 1.22
+   },
+   "Ankara": {
+    "binis": 164,
+    "kazanma": 12,
+    "alan_ae": 0.72,
+    "piyasa_ae": 1.36
+   },
+   "İngiliz": {
+    "binis": 174,
+    "kazanma": 13,
+    "alan_ae": 0.76,
+    "piyasa_ae": 1.23
+   },
+   "Adana": {
+    "binis": 129,
+    "kazanma": 9,
+    "alan_ae": 0.81,
+    "piyasa_ae": 1.02
+   },
+   "Şanlıurfa": {
+    "binis": 36,
+    "kazanma": 4,
+    "alan_ae": 1.47,
+    "piyasa_ae": 2.2
+   },
+   "Bursa": {
+    "binis": 9,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İstanbul": {
+    "binis": 12,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 11,
+    "kazanma": 1,
+    "alan_ae": 0.93,
+    "piyasa_ae": 2.18
+   }
+  },
+  "R.KETME": {
+   "genel": {
+    "binis": 479,
+    "kazanma": 39,
+    "alan_ae": 0.91,
+    "piyasa_ae": 1.22
+   },
+   "İngiliz": {
+    "binis": 190,
+    "kazanma": 12,
+    "alan_ae": 0.64,
+    "piyasa_ae": 0.96
+   },
+   "Bursa": {
+    "binis": 183,
+    "kazanma": 10,
+    "alan_ae": 0.63,
+    "piyasa_ae": 0.9
+   },
+   "Arap": {
+    "binis": 289,
+    "kazanma": 27,
+    "alan_ae": 1.11,
+    "piyasa_ae": 1.38
+   },
+   "İstanbul": {
+    "binis": 27,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 134,
+    "kazanma": 12,
+    "alan_ae": 0.97,
+    "piyasa_ae": 1.2
+   },
+   "İzmir": {
+    "binis": 128,
+    "kazanma": 16,
+    "alan_ae": 1.36,
+    "piyasa_ae": 1.78
+   },
+   "Ankara": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Antalya": {
+    "binis": 5,
+    "kazanma": 1,
+    "alan_ae": 1.93,
+    "piyasa_ae": 3.6
+   }
+  },
+  "K.YILMAZ": {
+   "genel": {
+    "binis": 230,
+    "kazanma": 20,
+    "alan_ae": 0.93,
+    "piyasa_ae": 1.21
+   },
+   "İngiliz": {
+    "binis": 109,
+    "kazanma": 9,
+    "alan_ae": 0.82,
+    "piyasa_ae": 1.33
+   },
+   "Bursa": {
+    "binis": 49,
+    "kazanma": 4,
+    "alan_ae": 0.94,
+    "piyasa_ae": 1.04
+   },
+   "Arap": {
+    "binis": 121,
+    "kazanma": 11,
+    "alan_ae": 1.04,
+    "piyasa_ae": 1.12
+   },
+   "İzmir": {
+    "binis": 143,
+    "kazanma": 16,
+    "alan_ae": 1.16,
+    "piyasa_ae": 1.54
+   },
+   "Kocaeli": {
+    "binis": 24,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İstanbul": {
+    "binis": 14,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "R.KURT": {
+   "genel": {
+    "binis": 164,
+    "kazanma": 9,
+    "alan_ae": 0.61,
+    "piyasa_ae": 1.18
+   },
+   "İngiliz": {
+    "binis": 64,
+    "kazanma": 5,
+    "alan_ae": 0.79,
+    "piyasa_ae": 1.32
+   },
+   "İstanbul": {
+    "binis": 18,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 5,
+    "kazanma": 2,
+    "alan_ae": 5.3,
+    "piyasa_ae": 5.49
+   },
+   "Arap": {
+    "binis": 100,
+    "kazanma": 4,
+    "alan_ae": 0.47,
+    "piyasa_ae": 1.05
+   },
+   "Diyarbakır": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Ankara": {
+    "binis": 67,
+    "kazanma": 5,
+    "alan_ae": 0.72,
+    "piyasa_ae": 1.42
+   },
+   "Adana": {
+    "binis": 63,
+    "kazanma": 2,
+    "alan_ae": 0.4,
+    "piyasa_ae": 0.77
+   },
+   "Bursa": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Şanlıurfa": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "O.YILDIZ": {
+   "genel": {
+    "binis": 263,
+    "kazanma": 33,
+    "alan_ae": 1.38,
+    "piyasa_ae": 1.18
+   },
+   "İngiliz": {
+    "binis": 109,
+    "kazanma": 18,
+    "alan_ae": 1.55,
+    "piyasa_ae": 1.4
+   },
+   "Bursa": {
+    "binis": 163,
+    "kazanma": 20,
+    "alan_ae": 1.39,
+    "piyasa_ae": 1.15
+   },
+   "Arap": {
+    "binis": 154,
+    "kazanma": 15,
+    "alan_ae": 1.22,
+    "piyasa_ae": 0.99
+   },
+   "Kocaeli": {
+    "binis": 63,
+    "kazanma": 8,
+    "alan_ae": 1.34,
+    "piyasa_ae": 1.13
+   },
+   "İzmir": {
+    "binis": 21,
+    "kazanma": 1,
+    "alan_ae": 0.52,
+    "piyasa_ae": 0.5
+   },
+   "İstanbul": {
+    "binis": 16,
+    "kazanma": 4,
+    "alan_ae": 2.54,
+    "piyasa_ae": 2.58
+   }
+  },
+  "İ.KATAR": {
+   "genel": {
+    "binis": 422,
+    "kazanma": 39,
+    "alan_ae": 1.09,
+    "piyasa_ae": 1.16
+   },
+   "İngiliz": {
+    "binis": 221,
+    "kazanma": 17,
+    "alan_ae": 0.89,
+    "piyasa_ae": 1.04
+   },
+   "Diyarbakır": {
+    "binis": 111,
+    "kazanma": 19,
+    "alan_ae": 1.89,
+    "piyasa_ae": 2.04
+   },
+   "Arap": {
+    "binis": 201,
+    "kazanma": 22,
+    "alan_ae": 1.32,
+    "piyasa_ae": 1.27
+   },
+   "Şanlıurfa": {
+    "binis": 101,
+    "kazanma": 8,
+    "alan_ae": 1.05,
+    "piyasa_ae": 1.03
+   },
+   "Elazığ": {
+    "binis": 192,
+    "kazanma": 12,
+    "alan_ae": 0.72,
+    "piyasa_ae": 0.76
+   },
+   "Adana": {
+    "binis": 18,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "E.AKTUĞ": {
+   "genel": {
+    "binis": 460,
+    "kazanma": 40,
+    "alan_ae": 0.87,
+    "piyasa_ae": 1.15
+   },
+   "Arap": {
+    "binis": 193,
+    "kazanma": 13,
+    "alan_ae": 0.76,
+    "piyasa_ae": 1.09
+   },
+   "İstanbul": {
+    "binis": 263,
+    "kazanma": 15,
+    "alan_ae": 0.59,
+    "piyasa_ae": 0.83
+   },
+   "İngiliz": {
+    "binis": 267,
+    "kazanma": 27,
+    "alan_ae": 0.94,
+    "piyasa_ae": 1.18
+   },
+   "Ankara": {
+    "binis": 116,
+    "kazanma": 14,
+    "alan_ae": 1.11,
+    "piyasa_ae": 1.72
+   },
+   "İzmir": {
+    "binis": 19,
+    "kazanma": 2,
+    "alan_ae": 1.06,
+    "piyasa_ae": 0.82
+   },
+   "Kocaeli": {
+    "binis": 29,
+    "kazanma": 7,
+    "alan_ae": 2.21,
+    "piyasa_ae": 2.02
+   },
+   "Bursa": {
+    "binis": 14,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Adana": {
+    "binis": 16,
+    "kazanma": 2,
+    "alan_ae": 1.53,
+    "piyasa_ae": 1.43
+   },
+   "Antalya": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "E.ATLAMAZ": {
+   "genel": {
+    "binis": 335,
+    "kazanma": 24,
+    "alan_ae": 0.75,
+    "piyasa_ae": 1.15
+   },
+   "Arap": {
+    "binis": 187,
+    "kazanma": 10,
+    "alan_ae": 0.61,
+    "piyasa_ae": 0.94
+   },
+   "Ankara": {
+    "binis": 143,
+    "kazanma": 10,
+    "alan_ae": 0.67,
+    "piyasa_ae": 1.11
+   },
+   "İngiliz": {
+    "binis": 148,
+    "kazanma": 14,
+    "alan_ae": 0.91,
+    "piyasa_ae": 1.36
+   },
+   "Adana": {
+    "binis": 94,
+    "kazanma": 5,
+    "alan_ae": 0.62,
+    "piyasa_ae": 1.13
+   },
+   "Kocaeli": {
+    "binis": 21,
+    "kazanma": 1,
+    "alan_ae": 0.51,
+    "piyasa_ae": 0.6
+   },
+   "İstanbul": {
+    "binis": 32,
+    "kazanma": 2,
+    "alan_ae": 0.69,
+    "piyasa_ae": 0.94
+   },
+   "İzmir": {
+    "binis": 6,
+    "kazanma": 1,
+    "alan_ae": 2.14,
+    "piyasa_ae": 1.71
+   },
+   "Bursa": {
+    "binis": 34,
+    "kazanma": 4,
+    "alan_ae": 1.36,
+    "piyasa_ae": 1.89
+   },
+   "Antalya": {
+    "binis": 5,
+    "kazanma": 1,
+    "alan_ae": 1.93,
+    "piyasa_ae": 1.01
+   }
+  },
+  "E.AKPINAR": {
+   "genel": {
+    "binis": 315,
+    "kazanma": 35,
+    "alan_ae": 1.22,
+    "piyasa_ae": 1.14
+   },
+   "İngiliz": {
+    "binis": 171,
+    "kazanma": 20,
+    "alan_ae": 1.16,
+    "piyasa_ae": 1.12
+   },
+   "Bursa": {
+    "binis": 147,
+    "kazanma": 21,
+    "alan_ae": 1.63,
+    "piyasa_ae": 1.42
+   },
+   "Arap": {
+    "binis": 144,
+    "kazanma": 15,
+    "alan_ae": 1.31,
+    "piyasa_ae": 1.17
+   },
+   "Kocaeli": {
+    "binis": 69,
+    "kazanma": 7,
+    "alan_ae": 1.03,
+    "piyasa_ae": 0.93
+   },
+   "İstanbul": {
+    "binis": 45,
+    "kazanma": 5,
+    "alan_ae": 1.2,
+    "piyasa_ae": 1.2
+   },
+   "İzmir": {
+    "binis": 54,
+    "kazanma": 2,
+    "alan_ae": 0.41,
+    "piyasa_ae": 0.49
+   }
+  },
+  "M.UYAR": {
+   "genel": {
+    "binis": 174,
+    "kazanma": 12,
+    "alan_ae": 0.71,
+    "piyasa_ae": 1.13
+   },
+   "Arap": {
+    "binis": 95,
+    "kazanma": 8,
+    "alan_ae": 0.94,
+    "piyasa_ae": 1.58
+   },
+   "Ankara": {
+    "binis": 99,
+    "kazanma": 8,
+    "alan_ae": 0.78,
+    "piyasa_ae": 1.21
+   },
+   "İngiliz": {
+    "binis": 79,
+    "kazanma": 4,
+    "alan_ae": 0.48,
+    "piyasa_ae": 0.71
+   },
+   "Adana": {
+    "binis": 53,
+    "kazanma": 3,
+    "alan_ae": 0.68,
+    "piyasa_ae": 1.36
+   },
+   "Bursa": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 10,
+    "kazanma": 1,
+    "alan_ae": 1.04,
+    "piyasa_ae": 1.42
+   },
+   "İstanbul": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "R.DOĞAN": {
+   "genel": {
+    "binis": 254,
+    "kazanma": 16,
+    "alan_ae": 0.77,
+    "piyasa_ae": 1.12
+   },
+   "İngiliz": {
+    "binis": 123,
+    "kazanma": 8,
+    "alan_ae": 0.77,
+    "piyasa_ae": 1.05
+   },
+   "Diyarbakır": {
+    "binis": 70,
+    "kazanma": 8,
+    "alan_ae": 1.31,
+    "piyasa_ae": 1.42
+   },
+   "Arap": {
+    "binis": 131,
+    "kazanma": 8,
+    "alan_ae": 0.76,
+    "piyasa_ae": 1.2
+   },
+   "Şanlıurfa": {
+    "binis": 57,
+    "kazanma": 2,
+    "alan_ae": 0.51,
+    "piyasa_ae": 0.98
+   },
+   "Elazığ": {
+    "binis": 119,
+    "kazanma": 6,
+    "alan_ae": 0.59,
+    "piyasa_ae": 0.95
+   },
+   "Adana": {
+    "binis": 8,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.IŞIK": {
+   "genel": {
+    "binis": 174,
+    "kazanma": 11,
+    "alan_ae": 0.79,
+    "piyasa_ae": 1.11
+   },
+   "İngiliz": {
+    "binis": 96,
+    "kazanma": 9,
+    "alan_ae": 1.14,
+    "piyasa_ae": 1.34
+   },
+   "Diyarbakır": {
+    "binis": 77,
+    "kazanma": 9,
+    "alan_ae": 1.33,
+    "piyasa_ae": 1.52
+   },
+   "Arap": {
+    "binis": 78,
+    "kazanma": 2,
+    "alan_ae": 0.34,
+    "piyasa_ae": 0.63
+   },
+   "Şanlıurfa": {
+    "binis": 50,
+    "kazanma": 1,
+    "alan_ae": 0.29,
+    "piyasa_ae": 0.63
+   },
+   "Elazığ": {
+    "binis": 47,
+    "kazanma": 1,
+    "alan_ae": 0.28,
+    "piyasa_ae": 0.41
+   }
+  },
+  "M.M.BİLGİN": {
+   "genel": {
+    "binis": 755,
+    "kazanma": 149,
+    "alan_ae": 1.9,
+    "piyasa_ae": 1.11
+   },
+   "İngiliz": {
+    "binis": 442,
+    "kazanma": 98,
+    "alan_ae": 1.96,
+    "piyasa_ae": 1.17
+   },
+   "Bursa": {
+    "binis": 251,
+    "kazanma": 51,
+    "alan_ae": 2.0,
+    "piyasa_ae": 1.08
+   },
+   "Arap": {
+    "binis": 313,
+    "kazanma": 51,
+    "alan_ae": 1.81,
+    "piyasa_ae": 1.01
+   },
+   "İzmir": {
+    "binis": 239,
+    "kazanma": 55,
+    "alan_ae": 2.14,
+    "piyasa_ae": 1.1
+   },
+   "İstanbul": {
+    "binis": 92,
+    "kazanma": 5,
+    "alan_ae": 0.56,
+    "piyasa_ae": 0.68
+   },
+   "Kocaeli": {
+    "binis": 169,
+    "kazanma": 37,
+    "alan_ae": 2.08,
+    "piyasa_ae": 1.26
+   },
+   "Antalya": {
+    "binis": 4,
+    "kazanma": 1,
+    "alan_ae": 2.18,
+    "piyasa_ae": 1.65
+   }
+  },
+  "V.ABİŞ": {
+   "genel": {
+    "binis": 730,
+    "kazanma": 155,
+    "alan_ae": 1.87,
+    "piyasa_ae": 1.09
+   },
+   "Arap": {
+    "binis": 287,
+    "kazanma": 57,
+    "alan_ae": 2.0,
+    "piyasa_ae": 1.1
+   },
+   "İstanbul": {
+    "binis": 408,
+    "kazanma": 81,
+    "alan_ae": 1.8,
+    "piyasa_ae": 1.12
+   },
+   "İngiliz": {
+    "binis": 443,
+    "kazanma": 98,
+    "alan_ae": 1.81,
+    "piyasa_ae": 1.09
+   },
+   "İzmir": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Ankara": {
+    "binis": 282,
+    "kazanma": 63,
+    "alan_ae": 1.86,
+    "piyasa_ae": 1.08
+   },
+   "Bursa": {
+    "binis": 11,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 3,
+    "kazanma": 1,
+    "alan_ae": 2.98,
+    "piyasa_ae": 1.38
+   },
+   "Adana": {
+    "binis": 24,
+    "kazanma": 9,
+    "alan_ae": 4.0,
+    "piyasa_ae": 1.31
+   },
+   "Antalya": {
+    "binis": 1,
+    "kazanma": 1,
+    "alan_ae": 9.0,
+    "piyasa_ae": 2.59
+   }
+  },
+  "N.ALTIN": {
+   "genel": {
+    "binis": 469,
+    "kazanma": 63,
+    "alan_ae": 1.51,
+    "piyasa_ae": 1.09
+   },
+   "İngiliz": {
+    "binis": 245,
+    "kazanma": 21,
+    "alan_ae": 0.93,
+    "piyasa_ae": 0.75
+   },
+   "Diyarbakır": {
+    "binis": 125,
+    "kazanma": 11,
+    "alan_ae": 0.94,
+    "piyasa_ae": 0.73
+   },
+   "Arap": {
+    "binis": 224,
+    "kazanma": 42,
+    "alan_ae": 2.19,
+    "piyasa_ae": 1.41
+   },
+   "Şanlıurfa": {
+    "binis": 94,
+    "kazanma": 7,
+    "alan_ae": 0.98,
+    "piyasa_ae": 0.68
+   },
+   "Elazığ": {
+    "binis": 247,
+    "kazanma": 45,
+    "alan_ae": 1.99,
+    "piyasa_ae": 1.4
+   },
+   "Adana": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "SAL.ÇELİK": {
+   "genel": {
+    "binis": 548,
+    "kazanma": 60,
+    "alan_ae": 1.07,
+    "piyasa_ae": 1.09
+   },
+   "İngiliz": {
+    "binis": 303,
+    "kazanma": 41,
+    "alan_ae": 1.24,
+    "piyasa_ae": 1.28
+   },
+   "İstanbul": {
+    "binis": 78,
+    "kazanma": 3,
+    "alan_ae": 0.41,
+    "piyasa_ae": 0.58
+   },
+   "Arap": {
+    "binis": 245,
+    "kazanma": 19,
+    "alan_ae": 0.83,
+    "piyasa_ae": 0.83
+   },
+   "Ankara": {
+    "binis": 259,
+    "kazanma": 31,
+    "alan_ae": 1.08,
+    "piyasa_ae": 1.14
+   },
+   "Adana": {
+    "binis": 136,
+    "kazanma": 16,
+    "alan_ae": 1.31,
+    "piyasa_ae": 1.19
+   },
+   "Kocaeli": {
+    "binis": 23,
+    "kazanma": 3,
+    "alan_ae": 1.29,
+    "piyasa_ae": 1.31
+   },
+   "Bursa": {
+    "binis": 50,
+    "kazanma": 7,
+    "alan_ae": 1.35,
+    "piyasa_ae": 1.09
+   },
+   "İzmir": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "B.M.MIRIK": {
+   "genel": {
+    "binis": 258,
+    "kazanma": 22,
+    "alan_ae": 0.94,
+    "piyasa_ae": 1.08
+   },
+   "İngiliz": {
+    "binis": 144,
+    "kazanma": 13,
+    "alan_ae": 0.92,
+    "piyasa_ae": 1.07
+   },
+   "Bursa": {
+    "binis": 75,
+    "kazanma": 7,
+    "alan_ae": 1.08,
+    "piyasa_ae": 1.36
+   },
+   "Arap": {
+    "binis": 114,
+    "kazanma": 9,
+    "alan_ae": 0.96,
+    "piyasa_ae": 1.1
+   },
+   "İzmir": {
+    "binis": 150,
+    "kazanma": 13,
+    "alan_ae": 0.91,
+    "piyasa_ae": 1.02
+   },
+   "Kocaeli": {
+    "binis": 24,
+    "kazanma": 2,
+    "alan_ae": 0.92,
+    "piyasa_ae": 0.88
+   },
+   "İstanbul": {
+    "binis": 9,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "H.ÇİZİK": {
+   "genel": {
+    "binis": 547,
+    "kazanma": 73,
+    "alan_ae": 1.26,
+    "piyasa_ae": 1.08
+   },
+   "Arap": {
+    "binis": 257,
+    "kazanma": 41,
+    "alan_ae": 1.67,
+    "piyasa_ae": 1.2
+   },
+   "İstanbul": {
+    "binis": 275,
+    "kazanma": 38,
+    "alan_ae": 1.34,
+    "piyasa_ae": 1.25
+   },
+   "İngiliz": {
+    "binis": 290,
+    "kazanma": 32,
+    "alan_ae": 0.97,
+    "piyasa_ae": 0.96
+   },
+   "Ankara": {
+    "binis": 205,
+    "kazanma": 22,
+    "alan_ae": 0.96,
+    "piyasa_ae": 0.83
+   },
+   "Kocaeli": {
+    "binis": 12,
+    "kazanma": 1,
+    "alan_ae": 0.74,
+    "piyasa_ae": 0.41
+   },
+   "Bursa": {
+    "binis": 21,
+    "kazanma": 2,
+    "alan_ae": 0.96,
+    "piyasa_ae": 0.53
+   },
+   "Adana": {
+    "binis": 34,
+    "kazanma": 10,
+    "alan_ae": 3.3,
+    "piyasa_ae": 2.19
+   }
+  },
+  "A.KURŞUN": {
+   "genel": {
+    "binis": 577,
+    "kazanma": 98,
+    "alan_ae": 1.5,
+    "piyasa_ae": 1.07
+   },
+   "İngiliz": {
+    "binis": 353,
+    "kazanma": 62,
+    "alan_ae": 1.44,
+    "piyasa_ae": 1.04
+   },
+   "Ankara": {
+    "binis": 259,
+    "kazanma": 46,
+    "alan_ae": 1.49,
+    "piyasa_ae": 1.07
+   },
+   "Arap": {
+    "binis": 224,
+    "kazanma": 36,
+    "alan_ae": 1.62,
+    "piyasa_ae": 1.15
+   },
+   "İstanbul": {
+    "binis": 282,
+    "kazanma": 41,
+    "alan_ae": 1.35,
+    "piyasa_ae": 1.02
+   },
+   "Bursa": {
+    "binis": 22,
+    "kazanma": 7,
+    "alan_ae": 2.98,
+    "piyasa_ae": 1.45
+   },
+   "Kocaeli": {
+    "binis": 9,
+    "kazanma": 2,
+    "alan_ae": 1.89,
+    "piyasa_ae": 1.18
+   },
+   "Adana": {
+    "binis": 5,
+    "kazanma": 2,
+    "alan_ae": 3.79,
+    "piyasa_ae": 1.28
+   }
+  },
+  "A.ASLAN": {
+   "genel": {
+    "binis": 221,
+    "kazanma": 16,
+    "alan_ae": 0.81,
+    "piyasa_ae": 1.07
+   },
+   "Arap": {
+    "binis": 107,
+    "kazanma": 7,
+    "alan_ae": 0.84,
+    "piyasa_ae": 1.02
+   },
+   "İstanbul": {
+    "binis": 122,
+    "kazanma": 5,
+    "alan_ae": 0.48,
+    "piyasa_ae": 0.75
+   },
+   "İngiliz": {
+    "binis": 114,
+    "kazanma": 9,
+    "alan_ae": 0.78,
+    "piyasa_ae": 1.11
+   },
+   "Kocaeli": {
+    "binis": 88,
+    "kazanma": 10,
+    "alan_ae": 1.19,
+    "piyasa_ae": 1.37
+   },
+   "Bursa": {
+    "binis": 9,
+    "kazanma": 1,
+    "alan_ae": 1.4,
+    "piyasa_ae": 1.1
+   },
+   "İzmir": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "F.ÇETİNBAŞ": {
+   "genel": {
+    "binis": 197,
+    "kazanma": 17,
+    "alan_ae": 0.86,
+    "piyasa_ae": 1.06
+   },
+   "Arap": {
+    "binis": 135,
+    "kazanma": 15,
+    "alan_ae": 1.17,
+    "piyasa_ae": 1.35
+   },
+   "İstanbul": {
+    "binis": 32,
+    "kazanma": 4,
+    "alan_ae": 1.13,
+    "piyasa_ae": 1.39
+   },
+   "Ankara": {
+    "binis": 103,
+    "kazanma": 8,
+    "alan_ae": 0.74,
+    "piyasa_ae": 1.05
+   },
+   "Adana": {
+    "binis": 43,
+    "kazanma": 3,
+    "alan_ae": 0.83,
+    "piyasa_ae": 0.77
+   },
+   "İngiliz": {
+    "binis": 62,
+    "kazanma": 2,
+    "alan_ae": 0.29,
+    "piyasa_ae": 0.4
+   },
+   "Kocaeli": {
+    "binis": 11,
+    "kazanma": 1,
+    "alan_ae": 1.04,
+    "piyasa_ae": 1.12
+   },
+   "Bursa": {
+    "binis": 8,
+    "kazanma": 1,
+    "alan_ae": 1.24,
+    "piyasa_ae": 1.28
+   }
+  },
+  "G.ÖZÇELİK": {
+   "genel": {
+    "binis": 489,
+    "kazanma": 40,
+    "alan_ae": 0.85,
+    "piyasa_ae": 1.05
+   },
+   "Arap": {
+    "binis": 240,
+    "kazanma": 19,
+    "alan_ae": 0.93,
+    "piyasa_ae": 1.05
+   },
+   "Bursa": {
+    "binis": 89,
+    "kazanma": 9,
+    "alan_ae": 1.06,
+    "piyasa_ae": 1.12
+   },
+   "İngiliz": {
+    "binis": 249,
+    "kazanma": 21,
+    "alan_ae": 0.79,
+    "piyasa_ae": 1.06
+   },
+   "Kocaeli": {
+    "binis": 159,
+    "kazanma": 18,
+    "alan_ae": 1.14,
+    "piyasa_ae": 1.14
+   },
+   "İstanbul": {
+    "binis": 225,
+    "kazanma": 12,
+    "alan_ae": 0.57,
+    "piyasa_ae": 0.97
+   },
+   "Ankara": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Antalya": {
+    "binis": 4,
+    "kazanma": 1,
+    "alan_ae": 2.31,
+    "piyasa_ae": 2.58
+   }
+  },
+  "G.KOCAKAYA": {
+   "genel": {
+    "binis": 567,
+    "kazanma": 131,
+    "alan_ae": 2.01,
+    "piyasa_ae": 1.05
+   },
+   "Arap": {
+    "binis": 217,
+    "kazanma": 41,
+    "alan_ae": 1.87,
+    "piyasa_ae": 0.95
+   },
+   "İstanbul": {
+    "binis": 359,
+    "kazanma": 86,
+    "alan_ae": 2.16,
+    "piyasa_ae": 1.14
+   },
+   "İngiliz": {
+    "binis": 350,
+    "kazanma": 90,
+    "alan_ae": 2.08,
+    "piyasa_ae": 1.11
+   },
+   "Ankara": {
+    "binis": 194,
+    "kazanma": 42,
+    "alan_ae": 1.78,
+    "piyasa_ae": 0.91
+   },
+   "Bursa": {
+    "binis": 12,
+    "kazanma": 3,
+    "alan_ae": 2.41,
+    "piyasa_ae": 1.19
+   },
+   "Kocaeli": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "S.KAPLAN": {
+   "genel": {
+    "binis": 306,
+    "kazanma": 19,
+    "alan_ae": 0.74,
+    "piyasa_ae": 1.05
+   },
+   "İngiliz": {
+    "binis": 145,
+    "kazanma": 11,
+    "alan_ae": 0.89,
+    "piyasa_ae": 1.26
+   },
+   "Diyarbakır": {
+    "binis": 101,
+    "kazanma": 6,
+    "alan_ae": 0.68,
+    "piyasa_ae": 0.85
+   },
+   "Arap": {
+    "binis": 161,
+    "kazanma": 8,
+    "alan_ae": 0.6,
+    "piyasa_ae": 0.85
+   },
+   "Şanlıurfa": {
+    "binis": 67,
+    "kazanma": 2,
+    "alan_ae": 0.41,
+    "piyasa_ae": 0.66
+   },
+   "Elazığ": {
+    "binis": 136,
+    "kazanma": 11,
+    "alan_ae": 0.93,
+    "piyasa_ae": 1.4
+   },
+   "Adana": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "L.TAPTIK": {
+   "genel": {
+    "binis": 151,
+    "kazanma": 12,
+    "alan_ae": 0.9,
+    "piyasa_ae": 1.04
+   },
+   "İngiliz": {
+    "binis": 90,
+    "kazanma": 7,
+    "alan_ae": 0.89,
+    "piyasa_ae": 1.09
+   },
+   "Diyarbakır": {
+    "binis": 94,
+    "kazanma": 8,
+    "alan_ae": 0.94,
+    "piyasa_ae": 0.98
+   },
+   "Arap": {
+    "binis": 61,
+    "kazanma": 5,
+    "alan_ae": 0.92,
+    "piyasa_ae": 0.98
+   },
+   "Elazığ": {
+    "binis": 40,
+    "kazanma": 3,
+    "alan_ae": 0.87,
+    "piyasa_ae": 1.39
+   },
+   "Adana": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Şanlıurfa": {
+    "binis": 14,
+    "kazanma": 1,
+    "alan_ae": 0.89,
+    "piyasa_ae": 0.91
+   }
+  },
+  "MER.ÇELİK": {
+   "genel": {
+    "binis": 180,
+    "kazanma": 21,
+    "alan_ae": 1.19,
+    "piyasa_ae": 1.04
+   },
+   "İngiliz": {
+    "binis": 91,
+    "kazanma": 9,
+    "alan_ae": 0.97,
+    "piyasa_ae": 0.94
+   },
+   "Kocaeli": {
+    "binis": 18,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Arap": {
+    "binis": 89,
+    "kazanma": 12,
+    "alan_ae": 1.43,
+    "piyasa_ae": 1.12
+   },
+   "İzmir": {
+    "binis": 104,
+    "kazanma": 18,
+    "alan_ae": 1.68,
+    "piyasa_ae": 1.35
+   },
+   "Bursa": {
+    "binis": 47,
+    "kazanma": 2,
+    "alan_ae": 0.5,
+    "piyasa_ae": 0.41
+   },
+   "İstanbul": {
+    "binis": 11,
+    "kazanma": 1,
+    "alan_ae": 0.91,
+    "piyasa_ae": 1.97
+   }
+  },
+  "E.ÇİZİK": {
+   "genel": {
+    "binis": 364,
+    "kazanma": 37,
+    "alan_ae": 1.01,
+    "piyasa_ae": 1.04
+   },
+   "İngiliz": {
+    "binis": 184,
+    "kazanma": 18,
+    "alan_ae": 0.89,
+    "piyasa_ae": 0.92
+   },
+   "İstanbul": {
+    "binis": 145,
+    "kazanma": 13,
+    "alan_ae": 0.92,
+    "piyasa_ae": 0.92
+   },
+   "Arap": {
+    "binis": 180,
+    "kazanma": 19,
+    "alan_ae": 1.14,
+    "piyasa_ae": 1.18
+   },
+   "Ankara": {
+    "binis": 168,
+    "kazanma": 18,
+    "alan_ae": 1.01,
+    "piyasa_ae": 1.12
+   },
+   "Adana": {
+    "binis": 36,
+    "kazanma": 2,
+    "alan_ae": 0.63,
+    "piyasa_ae": 0.61
+   },
+   "Kocaeli": {
+    "binis": 10,
+    "kazanma": 4,
+    "alan_ae": 3.94,
+    "piyasa_ae": 2.36
+   },
+   "Bursa": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "İ.AKYAVUZ": {
+   "genel": {
+    "binis": 483,
+    "kazanma": 80,
+    "alan_ae": 1.83,
+    "piyasa_ae": 1.03
+   },
+   "İngiliz": {
+    "binis": 256,
+    "kazanma": 45,
+    "alan_ae": 1.86,
+    "piyasa_ae": 1.11
+   },
+   "Diyarbakır": {
+    "binis": 90,
+    "kazanma": 14,
+    "alan_ae": 1.69,
+    "piyasa_ae": 0.82
+   },
+   "Arap": {
+    "binis": 227,
+    "kazanma": 35,
+    "alan_ae": 1.8,
+    "piyasa_ae": 0.96
+   },
+   "Adana": {
+    "binis": 54,
+    "kazanma": 11,
+    "alan_ae": 2.12,
+    "piyasa_ae": 2.24
+   },
+   "Şanlıurfa": {
+    "binis": 102,
+    "kazanma": 17,
+    "alan_ae": 2.09,
+    "piyasa_ae": 1.1
+   },
+   "Elazığ": {
+    "binis": 217,
+    "kazanma": 35,
+    "alan_ae": 1.76,
+    "piyasa_ae": 0.92
+   },
+   "İstanbul": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Ankara": {
+    "binis": 12,
+    "kazanma": 2,
+    "alan_ae": 1.6,
+    "piyasa_ae": 1.94
+   },
+   "İzmir": {
+    "binis": 2,
+    "kazanma": 1,
+    "alan_ae": 4.5,
+    "piyasa_ae": 3.15
+   }
+  },
+  "M.S.ÇELİK": {
+   "genel": {
+    "binis": 488,
+    "kazanma": 80,
+    "alan_ae": 1.56,
+    "piyasa_ae": 1.02
+   },
+   "Arap": {
+    "binis": 230,
+    "kazanma": 36,
+    "alan_ae": 1.67,
+    "piyasa_ae": 1.05
+   },
+   "Ankara": {
+    "binis": 223,
+    "kazanma": 32,
+    "alan_ae": 1.26,
+    "piyasa_ae": 0.91
+   },
+   "İngiliz": {
+    "binis": 258,
+    "kazanma": 44,
+    "alan_ae": 1.49,
+    "piyasa_ae": 0.99
+   },
+   "İstanbul": {
+    "binis": 152,
+    "kazanma": 21,
+    "alan_ae": 1.38,
+    "piyasa_ae": 1.15
+   },
+   "Adana": {
+    "binis": 96,
+    "kazanma": 24,
+    "alan_ae": 2.83,
+    "piyasa_ae": 1.14
+   },
+   "Bursa": {
+    "binis": 11,
+    "kazanma": 2,
+    "alan_ae": 1.78,
+    "piyasa_ae": 0.72
+   },
+   "İzmir": {
+    "binis": 5,
+    "kazanma": 1,
+    "alan_ae": 1.47,
+    "piyasa_ae": 1.07
+   },
+   "Kocaeli": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "Ö.F.ÖZEN": {
+   "genel": {
+    "binis": 467,
+    "kazanma": 48,
+    "alan_ae": 1.08,
+    "piyasa_ae": 1.02
+   },
+   "İngiliz": {
+    "binis": 253,
+    "kazanma": 22,
+    "alan_ae": 0.84,
+    "piyasa_ae": 0.85
+   },
+   "Bursa": {
+    "binis": 144,
+    "kazanma": 18,
+    "alan_ae": 1.44,
+    "piyasa_ae": 1.32
+   },
+   "Arap": {
+    "binis": 214,
+    "kazanma": 26,
+    "alan_ae": 1.41,
+    "piyasa_ae": 1.22
+   },
+   "İzmir": {
+    "binis": 209,
+    "kazanma": 24,
+    "alan_ae": 1.14,
+    "piyasa_ae": 0.98
+   },
+   "Kocaeli": {
+    "binis": 88,
+    "kazanma": 3,
+    "alan_ae": 0.35,
+    "piyasa_ae": 0.41
+   },
+   "İstanbul": {
+    "binis": 24,
+    "kazanma": 3,
+    "alan_ae": 1.5,
+    "piyasa_ae": 1.95
+   },
+   "Ankara": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "MÜS.ÇELİK": {
+   "genel": {
+    "binis": 512,
+    "kazanma": 68,
+    "alan_ae": 1.29,
+    "piyasa_ae": 1.02
+   },
+   "Arap": {
+    "binis": 247,
+    "kazanma": 33,
+    "alan_ae": 1.43,
+    "piyasa_ae": 1.03
+   },
+   "İstanbul": {
+    "binis": 180,
+    "kazanma": 25,
+    "alan_ae": 1.46,
+    "piyasa_ae": 1.29
+   },
+   "İngiliz": {
+    "binis": 265,
+    "kazanma": 35,
+    "alan_ae": 1.17,
+    "piyasa_ae": 1.0
+   },
+   "Ankara": {
+    "binis": 263,
+    "kazanma": 34,
+    "alan_ae": 1.15,
+    "piyasa_ae": 0.94
+   },
+   "Adana": {
+    "binis": 66,
+    "kazanma": 8,
+    "alan_ae": 1.36,
+    "piyasa_ae": 0.76
+   },
+   "Bursa": {
+    "binis": 3,
+    "kazanma": 1,
+    "alan_ae": 3.62,
+    "piyasa_ae": 1.24
+   }
+  },
+  "M.KEÇECİ": {
+   "genel": {
+    "binis": 229,
+    "kazanma": 16,
+    "alan_ae": 0.78,
+    "piyasa_ae": 1.01
+   },
+   "Arap": {
+    "binis": 132,
+    "kazanma": 12,
+    "alan_ae": 1.11,
+    "piyasa_ae": 1.37
+   },
+   "İstanbul": {
+    "binis": 44,
+    "kazanma": 3,
+    "alan_ae": 0.79,
+    "piyasa_ae": 1.09
+   },
+   "İngiliz": {
+    "binis": 97,
+    "kazanma": 4,
+    "alan_ae": 0.41,
+    "piyasa_ae": 0.56
+   },
+   "İzmir": {
+    "binis": 89,
+    "kazanma": 4,
+    "alan_ae": 0.47,
+    "piyasa_ae": 0.64
+   },
+   "Bursa": {
+    "binis": 46,
+    "kazanma": 4,
+    "alan_ae": 1.15,
+    "piyasa_ae": 1.78
+   },
+   "Kocaeli": {
+    "binis": 50,
+    "kazanma": 5,
+    "alan_ae": 1.07,
+    "piyasa_ae": 1.08
+   }
+  },
+  "F.S.M.SANSAR": {
+   "genel": {
+    "binis": 313,
+    "kazanma": 23,
+    "alan_ae": 0.76,
+    "piyasa_ae": 1.01
+   },
+   "Arap": {
+    "binis": 166,
+    "kazanma": 14,
+    "alan_ae": 0.92,
+    "piyasa_ae": 1.08
+   },
+   "Ankara": {
+    "binis": 197,
+    "kazanma": 12,
+    "alan_ae": 0.58,
+    "piyasa_ae": 0.91
+   },
+   "İngiliz": {
+    "binis": 147,
+    "kazanma": 9,
+    "alan_ae": 0.59,
+    "piyasa_ae": 0.91
+   },
+   "Adana": {
+    "binis": 70,
+    "kazanma": 6,
+    "alan_ae": 1.06,
+    "piyasa_ae": 1.17
+   },
+   "İstanbul": {
+    "binis": 30,
+    "kazanma": 3,
+    "alan_ae": 1.13,
+    "piyasa_ae": 1.22
+   },
+   "Kocaeli": {
+    "binis": 9,
+    "kazanma": 2,
+    "alan_ae": 2.48,
+    "piyasa_ae": 1.79
+   },
+   "Bursa": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.KESKİN": {
+   "genel": {
+    "binis": 176,
+    "kazanma": 10,
+    "alan_ae": 0.56,
+    "piyasa_ae": 1.01
+   },
+   "İngiliz": {
+    "binis": 99,
+    "kazanma": 6,
+    "alan_ae": 0.57,
+    "piyasa_ae": 0.98
+   },
+   "Ankara": {
+    "binis": 150,
+    "kazanma": 8,
+    "alan_ae": 0.51,
+    "piyasa_ae": 0.98
+   },
+   "Arap": {
+    "binis": 77,
+    "kazanma": 4,
+    "alan_ae": 0.55,
+    "piyasa_ae": 1.05
+   },
+   "Adana": {
+    "binis": 26,
+    "kazanma": 2,
+    "alan_ae": 0.95,
+    "piyasa_ae": 1.14
+   }
+  },
+  "A.AKDEMİR": {
+   "genel": {
+    "binis": 404,
+    "kazanma": 43,
+    "alan_ae": 1.22,
+    "piyasa_ae": 0.99
+   },
+   "İngiliz": {
+    "binis": 211,
+    "kazanma": 22,
+    "alan_ae": 1.16,
+    "piyasa_ae": 0.97
+   },
+   "Diyarbakır": {
+    "binis": 103,
+    "kazanma": 6,
+    "alan_ae": 0.64,
+    "piyasa_ae": 0.57
+   },
+   "Arap": {
+    "binis": 193,
+    "kazanma": 21,
+    "alan_ae": 1.29,
+    "piyasa_ae": 1.02
+   },
+   "Şanlıurfa": {
+    "binis": 99,
+    "kazanma": 10,
+    "alan_ae": 1.32,
+    "piyasa_ae": 0.95
+   },
+   "Adana": {
+    "binis": 6,
+    "kazanma": 1,
+    "alan_ae": 1.55,
+    "piyasa_ae": 1.67
+   },
+   "Elazığ": {
+    "binis": 194,
+    "kazanma": 25,
+    "alan_ae": 1.44,
+    "piyasa_ae": 1.18
+   },
+   "Ankara": {
+    "binis": 2,
+    "kazanma": 1,
+    "alan_ae": 5.14,
+    "piyasa_ae": 2.42
+   }
+  },
+  "A.ÇANKAYA": {
+   "genel": {
+    "binis": 307,
+    "kazanma": 19,
+    "alan_ae": 0.74,
+    "piyasa_ae": 0.98
+   },
+   "İngiliz": {
+    "binis": 144,
+    "kazanma": 11,
+    "alan_ae": 0.89,
+    "piyasa_ae": 1.13
+   },
+   "Diyarbakır": {
+    "binis": 71,
+    "kazanma": 4,
+    "alan_ae": 0.63,
+    "piyasa_ae": 0.84
+   },
+   "Arap": {
+    "binis": 163,
+    "kazanma": 8,
+    "alan_ae": 0.6,
+    "piyasa_ae": 0.83
+   },
+   "Şanlıurfa": {
+    "binis": 79,
+    "kazanma": 4,
+    "alan_ae": 0.66,
+    "piyasa_ae": 0.8
+   },
+   "Adana": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Elazığ": {
+    "binis": 150,
+    "kazanma": 11,
+    "alan_ae": 0.86,
+    "piyasa_ae": 1.18
+   },
+   "Ankara": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "MAH.TURAN": {
+   "genel": {
+    "binis": 318,
+    "kazanma": 25,
+    "alan_ae": 0.87,
+    "piyasa_ae": 0.98
+   },
+   "İngiliz": {
+    "binis": 136,
+    "kazanma": 10,
+    "alan_ae": 0.71,
+    "piyasa_ae": 0.89
+   },
+   "Bursa": {
+    "binis": 185,
+    "kazanma": 17,
+    "alan_ae": 1.07,
+    "piyasa_ae": 1.09
+   },
+   "Arap": {
+    "binis": 182,
+    "kazanma": 15,
+    "alan_ae": 1.02,
+    "piyasa_ae": 1.04
+   },
+   "Kocaeli": {
+    "binis": 107,
+    "kazanma": 6,
+    "alan_ae": 0.58,
+    "piyasa_ae": 0.76
+   },
+   "İzmir": {
+    "binis": 16,
+    "kazanma": 2,
+    "alan_ae": 1.3,
+    "piyasa_ae": 1.18
+   },
+   "İstanbul": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Antalya": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "İSM.YILDIRIM": {
+   "genel": {
+    "binis": 217,
+    "kazanma": 21,
+    "alan_ae": 0.94,
+    "piyasa_ae": 0.97
+   },
+   "İngiliz": {
+    "binis": 102,
+    "kazanma": 7,
+    "alan_ae": 0.63,
+    "piyasa_ae": 0.62
+   },
+   "Ankara": {
+    "binis": 135,
+    "kazanma": 13,
+    "alan_ae": 0.88,
+    "piyasa_ae": 1.01
+   },
+   "Arap": {
+    "binis": 115,
+    "kazanma": 14,
+    "alan_ae": 1.25,
+    "piyasa_ae": 1.33
+   },
+   "İstanbul": {
+    "binis": 38,
+    "kazanma": 5,
+    "alan_ae": 1.31,
+    "piyasa_ae": 1.18
+   },
+   "Bursa": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Adana": {
+    "binis": 43,
+    "kazanma": 3,
+    "alan_ae": 0.82,
+    "piyasa_ae": 0.65
+   }
+  },
+  "M.G.ARSLAN": {
+   "genel": {
+    "binis": 214,
+    "kazanma": 13,
+    "alan_ae": 0.64,
+    "piyasa_ae": 0.96
+   },
+   "Arap": {
+    "binis": 97,
+    "kazanma": 4,
+    "alan_ae": 0.47,
+    "piyasa_ae": 0.78
+   },
+   "Adana": {
+    "binis": 63,
+    "kazanma": 4,
+    "alan_ae": 0.8,
+    "piyasa_ae": 1.32
+   },
+   "Ankara": {
+    "binis": 142,
+    "kazanma": 8,
+    "alan_ae": 0.55,
+    "piyasa_ae": 0.83
+   },
+   "İngiliz": {
+    "binis": 117,
+    "kazanma": 9,
+    "alan_ae": 0.76,
+    "piyasa_ae": 1.07
+   },
+   "İstanbul": {
+    "binis": 6,
+    "kazanma": 1,
+    "alan_ae": 1.89,
+    "piyasa_ae": 1.55
+   },
+   "Kocaeli": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Bursa": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "SERH.ÇELİK": {
+   "genel": {
+    "binis": 297,
+    "kazanma": 25,
+    "alan_ae": 0.84,
+    "piyasa_ae": 0.96
+   },
+   "Arap": {
+    "binis": 178,
+    "kazanma": 12,
+    "alan_ae": 0.73,
+    "piyasa_ae": 0.79
+   },
+   "Ankara": {
+    "binis": 154,
+    "kazanma": 12,
+    "alan_ae": 0.74,
+    "piyasa_ae": 0.88
+   },
+   "İngiliz": {
+    "binis": 119,
+    "kazanma": 13,
+    "alan_ae": 0.99,
+    "piyasa_ae": 1.19
+   },
+   "Kocaeli": {
+    "binis": 12,
+    "kazanma": 4,
+    "alan_ae": 3.37,
+    "piyasa_ae": 2.32
+   },
+   "Bursa": {
+    "binis": 12,
+    "kazanma": 1,
+    "alan_ae": 1.01,
+    "piyasa_ae": 0.85
+   },
+   "İstanbul": {
+    "binis": 41,
+    "kazanma": 3,
+    "alan_ae": 0.72,
+    "piyasa_ae": 1.15
+   },
+   "Adana": {
+    "binis": 78,
+    "kazanma": 5,
+    "alan_ae": 0.7,
+    "piyasa_ae": 0.72
+   }
+  },
+  "A.ÇELİK": {
+   "genel": {
+    "binis": 269,
+    "kazanma": 45,
+    "alan_ae": 1.5,
+    "piyasa_ae": 0.95
+   },
+   "Arap": {
+    "binis": 105,
+    "kazanma": 14,
+    "alan_ae": 1.28,
+    "piyasa_ae": 0.75
+   },
+   "İstanbul": {
+    "binis": 111,
+    "kazanma": 15,
+    "alan_ae": 1.28,
+    "piyasa_ae": 0.94
+   },
+   "İngiliz": {
+    "binis": 164,
+    "kazanma": 31,
+    "alan_ae": 1.62,
+    "piyasa_ae": 1.08
+   },
+   "Ankara": {
+    "binis": 115,
+    "kazanma": 17,
+    "alan_ae": 1.23,
+    "piyasa_ae": 0.8
+   },
+   "Kocaeli": {
+    "binis": 5,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Bursa": {
+    "binis": 2,
+    "kazanma": 2,
+    "alan_ae": 10.96,
+    "piyasa_ae": 3.56
+   },
+   "Adana": {
+    "binis": 36,
+    "kazanma": 11,
+    "alan_ae": 3.0,
+    "piyasa_ae": 1.28
+   }
+  },
+  "U.LEVENT": {
+   "genel": {
+    "binis": 201,
+    "kazanma": 10,
+    "alan_ae": 0.56,
+    "piyasa_ae": 0.94
+   },
+   "Arap": {
+    "binis": 125,
+    "kazanma": 6,
+    "alan_ae": 0.58,
+    "piyasa_ae": 1.08
+   },
+   "İstanbul": {
+    "binis": 131,
+    "kazanma": 7,
+    "alan_ae": 0.6,
+    "piyasa_ae": 1.23
+   },
+   "İngiliz": {
+    "binis": 76,
+    "kazanma": 4,
+    "alan_ae": 0.52,
+    "piyasa_ae": 0.78
+   },
+   "Kocaeli": {
+    "binis": 56,
+    "kazanma": 3,
+    "alan_ae": 0.58,
+    "piyasa_ae": 1.05
+   },
+   "Bursa": {
+    "binis": 11,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "H.ŞİMŞEK": {
+   "genel": {
+    "binis": 174,
+    "kazanma": 11,
+    "alan_ae": 0.68,
+    "piyasa_ae": 0.94
+   },
+   "İngiliz": {
+    "binis": 71,
+    "kazanma": 2,
+    "alan_ae": 0.29,
+    "piyasa_ae": 0.55
+   },
+   "İzmir": {
+    "binis": 147,
+    "kazanma": 9,
+    "alan_ae": 0.64,
+    "piyasa_ae": 0.9
+   },
+   "Arap": {
+    "binis": 103,
+    "kazanma": 9,
+    "alan_ae": 0.96,
+    "piyasa_ae": 1.12
+   },
+   "İstanbul": {
+    "binis": 7,
+    "kazanma": 1,
+    "alan_ae": 1.64,
+    "piyasa_ae": 1.62
+   },
+   "Bursa": {
+    "binis": 15,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 5,
+    "kazanma": 1,
+    "alan_ae": 2.38,
+    "piyasa_ae": 2.98
+   }
+  },
+  "M.KAYA": {
+   "genel": {
+    "binis": 503,
+    "kazanma": 63,
+    "alan_ae": 1.21,
+    "piyasa_ae": 0.94
+   },
+   "Arap": {
+    "binis": 250,
+    "kazanma": 27,
+    "alan_ae": 1.16,
+    "piyasa_ae": 0.85
+   },
+   "İstanbul": {
+    "binis": 289,
+    "kazanma": 31,
+    "alan_ae": 1.07,
+    "piyasa_ae": 0.95
+   },
+   "İngiliz": {
+    "binis": 253,
+    "kazanma": 36,
+    "alan_ae": 1.25,
+    "piyasa_ae": 1.01
+   },
+   "Kocaeli": {
+    "binis": 77,
+    "kazanma": 10,
+    "alan_ae": 1.19,
+    "piyasa_ae": 0.77
+   },
+   "Ankara": {
+    "binis": 47,
+    "kazanma": 5,
+    "alan_ae": 0.99,
+    "piyasa_ae": 0.93
+   },
+   "Bursa": {
+    "binis": 45,
+    "kazanma": 8,
+    "alan_ae": 1.76,
+    "piyasa_ae": 0.91
+   },
+   "İzmir": {
+    "binis": 38,
+    "kazanma": 9,
+    "alan_ae": 2.1,
+    "piyasa_ae": 1.45
+   },
+   "Antalya": {
+    "binis": 7,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.B.ÇAKMAK": {
+   "genel": {
+    "binis": 171,
+    "kazanma": 8,
+    "alan_ae": 0.55,
+    "piyasa_ae": 0.93
+   },
+   "Arap": {
+    "binis": 89,
+    "kazanma": 3,
+    "alan_ae": 0.39,
+    "piyasa_ae": 0.65
+   },
+   "Elazığ": {
+    "binis": 147,
+    "kazanma": 7,
+    "alan_ae": 0.56,
+    "piyasa_ae": 0.98
+   },
+   "İngiliz": {
+    "binis": 82,
+    "kazanma": 5,
+    "alan_ae": 0.71,
+    "piyasa_ae": 1.25
+   },
+   "Diyarbakır": {
+    "binis": 16,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Şanlıurfa": {
+    "binis": 5,
+    "kazanma": 1,
+    "alan_ae": 2.62,
+    "piyasa_ae": 2.47
+   },
+   "Adana": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "H.KARATAŞ": {
+   "genel": {
+    "binis": 270,
+    "kazanma": 56,
+    "alan_ae": 1.81,
+    "piyasa_ae": 0.92
+   },
+   "Arap": {
+    "binis": 90,
+    "kazanma": 15,
+    "alan_ae": 1.59,
+    "piyasa_ae": 0.78
+   },
+   "İstanbul": {
+    "binis": 201,
+    "kazanma": 39,
+    "alan_ae": 1.7,
+    "piyasa_ae": 0.87
+   },
+   "İngiliz": {
+    "binis": 180,
+    "kazanma": 41,
+    "alan_ae": 1.9,
+    "piyasa_ae": 0.97
+   },
+   "Ankara": {
+    "binis": 49,
+    "kazanma": 14,
+    "alan_ae": 2.47,
+    "piyasa_ae": 1.18
+   },
+   "Bursa": {
+    "binis": 15,
+    "kazanma": 3,
+    "alan_ae": 1.78,
+    "piyasa_ae": 0.85
+   },
+   "Kocaeli": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.ÇİÇEK": {
+   "genel": {
+    "binis": 413,
+    "kazanma": 56,
+    "alan_ae": 1.29,
+    "piyasa_ae": 0.9
+   },
+   "İngiliz": {
+    "binis": 245,
+    "kazanma": 37,
+    "alan_ae": 1.31,
+    "piyasa_ae": 0.95
+   },
+   "Bursa": {
+    "binis": 143,
+    "kazanma": 20,
+    "alan_ae": 1.36,
+    "piyasa_ae": 0.9
+   },
+   "Arap": {
+    "binis": 168,
+    "kazanma": 19,
+    "alan_ae": 1.24,
+    "piyasa_ae": 0.81
+   },
+   "İzmir": {
+    "binis": 172,
+    "kazanma": 25,
+    "alan_ae": 1.35,
+    "piyasa_ae": 0.87
+   },
+   "Kocaeli": {
+    "binis": 88,
+    "kazanma": 11,
+    "alan_ae": 1.19,
+    "piyasa_ae": 1.05
+   },
+   "İstanbul": {
+    "binis": 10,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.AKYAVUZ": {
+   "genel": {
+    "binis": 428,
+    "kazanma": 44,
+    "alan_ae": 0.94,
+    "piyasa_ae": 0.88
+   },
+   "Arap": {
+    "binis": 200,
+    "kazanma": 20,
+    "alan_ae": 1.01,
+    "piyasa_ae": 0.88
+   },
+   "Ankara": {
+    "binis": 252,
+    "kazanma": 24,
+    "alan_ae": 0.81,
+    "piyasa_ae": 0.87
+   },
+   "İngiliz": {
+    "binis": 228,
+    "kazanma": 24,
+    "alan_ae": 0.89,
+    "piyasa_ae": 0.88
+   },
+   "Adana": {
+    "binis": 104,
+    "kazanma": 11,
+    "alan_ae": 1.16,
+    "piyasa_ae": 0.77
+   },
+   "İstanbul": {
+    "binis": 47,
+    "kazanma": 6,
+    "alan_ae": 1.27,
+    "piyasa_ae": 1.34
+   },
+   "Bursa": {
+    "binis": 19,
+    "kazanma": 3,
+    "alan_ae": 1.34,
+    "piyasa_ae": 1.21
+   },
+   "Kocaeli": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.T.COŞKUN": {
+   "genel": {
+    "binis": 311,
+    "kazanma": 17,
+    "alan_ae": 0.58,
+    "piyasa_ae": 0.88
+   },
+   "Arap": {
+    "binis": 206,
+    "kazanma": 16,
+    "alan_ae": 0.85,
+    "piyasa_ae": 1.2
+   },
+   "Ankara": {
+    "binis": 106,
+    "kazanma": 7,
+    "alan_ae": 0.61,
+    "piyasa_ae": 0.96
+   },
+   "İngiliz": {
+    "binis": 105,
+    "kazanma": 1,
+    "alan_ae": 0.09,
+    "piyasa_ae": 0.17
+   },
+   "Adana": {
+    "binis": 81,
+    "kazanma": 3,
+    "alan_ae": 0.44,
+    "piyasa_ae": 0.67
+   },
+   "Kocaeli": {
+    "binis": 51,
+    "kazanma": 4,
+    "alan_ae": 0.87,
+    "piyasa_ae": 1.3
+   },
+   "İstanbul": {
+    "binis": 56,
+    "kazanma": 2,
+    "alan_ae": 0.39,
+    "piyasa_ae": 0.61
+   },
+   "İzmir": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Bursa": {
+    "binis": 14,
+    "kazanma": 1,
+    "alan_ae": 0.89,
+    "piyasa_ae": 0.96
+   }
+  },
+  "BERK.GÖKÇE": {
+   "genel": {
+    "binis": 227,
+    "kazanma": 18,
+    "alan_ae": 0.84,
+    "piyasa_ae": 0.88
+   },
+   "Arap": {
+    "binis": 103,
+    "kazanma": 4,
+    "alan_ae": 0.46,
+    "piyasa_ae": 0.51
+   },
+   "İstanbul": {
+    "binis": 95,
+    "kazanma": 6,
+    "alan_ae": 0.69,
+    "piyasa_ae": 0.88
+   },
+   "İngiliz": {
+    "binis": 124,
+    "kazanma": 14,
+    "alan_ae": 1.08,
+    "piyasa_ae": 1.1
+   },
+   "Kocaeli": {
+    "binis": 104,
+    "kazanma": 12,
+    "alan_ae": 1.16,
+    "piyasa_ae": 1.05
+   },
+   "Bursa": {
+    "binis": 24,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Ankara": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "K.TOKAÇOĞLU": {
+   "genel": {
+    "binis": 261,
+    "kazanma": 27,
+    "alan_ae": 1.05,
+    "piyasa_ae": 0.86
+   },
+   "İngiliz": {
+    "binis": 133,
+    "kazanma": 6,
+    "alan_ae": 0.42,
+    "piyasa_ae": 0.42
+   },
+   "İzmir": {
+    "binis": 85,
+    "kazanma": 8,
+    "alan_ae": 0.89,
+    "piyasa_ae": 0.68
+   },
+   "Bursa": {
+    "binis": 114,
+    "kazanma": 12,
+    "alan_ae": 1.14,
+    "piyasa_ae": 1.03
+   },
+   "Arap": {
+    "binis": 128,
+    "kazanma": 21,
+    "alan_ae": 1.84,
+    "piyasa_ae": 1.23
+   },
+   "Kocaeli": {
+    "binis": 55,
+    "kazanma": 6,
+    "alan_ae": 1.13,
+    "piyasa_ae": 0.81
+   },
+   "Ankara": {
+    "binis": 3,
+    "kazanma": 1,
+    "alan_ae": 2.18,
+    "piyasa_ae": 2.76
+   },
+   "İstanbul": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "S.AKŞIN": {
+   "genel": {
+    "binis": 168,
+    "kazanma": 8,
+    "alan_ae": 0.51,
+    "piyasa_ae": 0.85
+   },
+   "Arap": {
+    "binis": 94,
+    "kazanma": 4,
+    "alan_ae": 0.48,
+    "piyasa_ae": 0.69
+   },
+   "İzmir": {
+    "binis": 162,
+    "kazanma": 7,
+    "alan_ae": 0.48,
+    "piyasa_ae": 0.8
+   },
+   "İngiliz": {
+    "binis": 74,
+    "kazanma": 4,
+    "alan_ae": 0.56,
+    "piyasa_ae": 1.09
+   },
+   "Elazığ": {
+    "binis": 3,
+    "kazanma": 1,
+    "alan_ae": 1.54,
+    "piyasa_ae": 1.73
+   },
+   "Bursa": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İstanbul": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "O.ATMACA": {
+   "genel": {
+    "binis": 367,
+    "kazanma": 20,
+    "alan_ae": 0.59,
+    "piyasa_ae": 0.84
+   },
+   "İngiliz": {
+    "binis": 218,
+    "kazanma": 10,
+    "alan_ae": 0.45,
+    "piyasa_ae": 0.66
+   },
+   "Bursa": {
+    "binis": 175,
+    "kazanma": 7,
+    "alan_ae": 0.46,
+    "piyasa_ae": 0.72
+   },
+   "Arap": {
+    "binis": 149,
+    "kazanma": 10,
+    "alan_ae": 0.85,
+    "piyasa_ae": 1.14
+   },
+   "Kocaeli": {
+    "binis": 96,
+    "kazanma": 4,
+    "alan_ae": 0.44,
+    "piyasa_ae": 0.67
+   },
+   "İstanbul": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 93,
+    "kazanma": 9,
+    "alan_ae": 0.97,
+    "piyasa_ae": 1.11
+   }
+  },
+  "Y.GÖKÇE": {
+   "genel": {
+    "binis": 548,
+    "kazanma": 42,
+    "alan_ae": 0.79,
+    "piyasa_ae": 0.83
+   },
+   "İngiliz": {
+    "binis": 291,
+    "kazanma": 28,
+    "alan_ae": 0.9,
+    "piyasa_ae": 0.98
+   },
+   "İzmir": {
+    "binis": 183,
+    "kazanma": 23,
+    "alan_ae": 1.28,
+    "piyasa_ae": 1.07
+   },
+   "Arap": {
+    "binis": 257,
+    "kazanma": 14,
+    "alan_ae": 0.63,
+    "piyasa_ae": 0.64
+   },
+   "İstanbul": {
+    "binis": 110,
+    "kazanma": 3,
+    "alan_ae": 0.29,
+    "piyasa_ae": 0.42
+   },
+   "Bursa": {
+    "binis": 148,
+    "kazanma": 11,
+    "alan_ae": 0.81,
+    "piyasa_ae": 0.87
+   },
+   "Kocaeli": {
+    "binis": 99,
+    "kazanma": 4,
+    "alan_ae": 0.38,
+    "piyasa_ae": 0.45
+   },
+   "Ankara": {
+    "binis": 8,
+    "kazanma": 1,
+    "alan_ae": 1.16,
+    "piyasa_ae": 1.94
+   }
+  },
+  "Y.CENGİZ": {
+   "genel": {
+    "binis": 373,
+    "kazanma": 23,
+    "alan_ae": 0.71,
+    "piyasa_ae": 0.82
+   },
+   "Arap": {
+    "binis": 178,
+    "kazanma": 8,
+    "alan_ae": 0.54,
+    "piyasa_ae": 0.62
+   },
+   "Diyarbakır": {
+    "binis": 80,
+    "kazanma": 3,
+    "alan_ae": 0.43,
+    "piyasa_ae": 0.52
+   },
+   "İngiliz": {
+    "binis": 195,
+    "kazanma": 15,
+    "alan_ae": 0.86,
+    "piyasa_ae": 0.99
+   },
+   "Adana": {
+    "binis": 16,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Şanlıurfa": {
+    "binis": 76,
+    "kazanma": 4,
+    "alan_ae": 0.72,
+    "piyasa_ae": 0.85
+   },
+   "Elazığ": {
+    "binis": 193,
+    "kazanma": 15,
+    "alan_ae": 0.85,
+    "piyasa_ae": 0.94
+   },
+   "Ankara": {
+    "binis": 8,
+    "kazanma": 1,
+    "alan_ae": 1.16,
+    "piyasa_ae": 1.12
+   }
+  },
+  "M.A.AKGÖBEK": {
+   "genel": {
+    "binis": 287,
+    "kazanma": 13,
+    "alan_ae": 0.49,
+    "piyasa_ae": 0.81
+   },
+   "Arap": {
+    "binis": 159,
+    "kazanma": 8,
+    "alan_ae": 0.57,
+    "piyasa_ae": 0.9
+   },
+   "Bursa": {
+    "binis": 14,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İngiliz": {
+    "binis": 128,
+    "kazanma": 5,
+    "alan_ae": 0.39,
+    "piyasa_ae": 0.7
+   },
+   "Ankara": {
+    "binis": 120,
+    "kazanma": 6,
+    "alan_ae": 0.48,
+    "piyasa_ae": 0.92
+   },
+   "Adana": {
+    "binis": 91,
+    "kazanma": 4,
+    "alan_ae": 0.53,
+    "piyasa_ae": 0.88
+   },
+   "İstanbul": {
+    "binis": 14,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 37,
+    "kazanma": 2,
+    "alan_ae": 0.61,
+    "piyasa_ae": 0.73
+   },
+   "Elazığ": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Şanlıurfa": {
+    "binis": 8,
+    "kazanma": 1,
+    "alan_ae": 1.74,
+    "piyasa_ae": 2.24
+   }
+  },
+  "Ö.YILDIRIM": {
+   "genel": {
+    "binis": 319,
+    "kazanma": 44,
+    "alan_ae": 1.17,
+    "piyasa_ae": 0.8
+   },
+   "İngiliz": {
+    "binis": 232,
+    "kazanma": 35,
+    "alan_ae": 1.21,
+    "piyasa_ae": 0.84
+   },
+   "İstanbul": {
+    "binis": 165,
+    "kazanma": 23,
+    "alan_ae": 1.23,
+    "piyasa_ae": 0.95
+   },
+   "Arap": {
+    "binis": 87,
+    "kazanma": 9,
+    "alan_ae": 1.03,
+    "piyasa_ae": 0.68
+   },
+   "Ankara": {
+    "binis": 92,
+    "kazanma": 14,
+    "alan_ae": 1.23,
+    "piyasa_ae": 0.86
+   },
+   "Kocaeli": {
+    "binis": 7,
+    "kazanma": 1,
+    "alan_ae": 0.97,
+    "piyasa_ae": 0.67
+   },
+   "Bursa": {
+    "binis": 29,
+    "kazanma": 1,
+    "alan_ae": 0.3,
+    "piyasa_ae": 0.15
+   },
+   "İzmir": {
+    "binis": 18,
+    "kazanma": 5,
+    "alan_ae": 2.25,
+    "piyasa_ae": 1.02
+   },
+   "Adana": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Antalya": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.A.SOLMAZ": {
+   "genel": {
+    "binis": 269,
+    "kazanma": 22,
+    "alan_ae": 0.8,
+    "piyasa_ae": 0.79
+   },
+   "Arap": {
+    "binis": 103,
+    "kazanma": 6,
+    "alan_ae": 0.63,
+    "piyasa_ae": 0.57
+   },
+   "Ankara": {
+    "binis": 172,
+    "kazanma": 14,
+    "alan_ae": 0.76,
+    "piyasa_ae": 0.85
+   },
+   "İngiliz": {
+    "binis": 166,
+    "kazanma": 16,
+    "alan_ae": 0.89,
+    "piyasa_ae": 0.93
+   },
+   "Adana": {
+    "binis": 60,
+    "kazanma": 5,
+    "alan_ae": 0.93,
+    "piyasa_ae": 0.63
+   },
+   "İstanbul": {
+    "binis": 28,
+    "kazanma": 3,
+    "alan_ae": 1.04,
+    "piyasa_ae": 1.23
+   },
+   "Kocaeli": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Bursa": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "Ç.TAŞCI": {
+   "genel": {
+    "binis": 155,
+    "kazanma": 5,
+    "alan_ae": 0.38,
+    "piyasa_ae": 0.78
+   },
+   "Arap": {
+    "binis": 83,
+    "kazanma": 1,
+    "alan_ae": 0.15,
+    "piyasa_ae": 0.32
+   },
+   "Bursa": {
+    "binis": 22,
+    "kazanma": 1,
+    "alan_ae": 0.61,
+    "piyasa_ae": 1.11
+   },
+   "İngiliz": {
+    "binis": 72,
+    "kazanma": 4,
+    "alan_ae": 0.62,
+    "piyasa_ae": 1.25
+   },
+   "İzmir": {
+    "binis": 70,
+    "kazanma": 2,
+    "alan_ae": 0.33,
+    "piyasa_ae": 0.7
+   },
+   "Kocaeli": {
+    "binis": 20,
+    "kazanma": 1,
+    "alan_ae": 0.56,
+    "piyasa_ae": 1.01
+   },
+   "İstanbul": {
+    "binis": 30,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Elazığ": {
+    "binis": 11,
+    "kazanma": 1,
+    "alan_ae": 1.15,
+    "piyasa_ae": 1.43
+   },
+   "Ankara": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "A.YILDIZ": {
+   "genel": {
+    "binis": 663,
+    "kazanma": 60,
+    "alan_ae": 0.89,
+    "piyasa_ae": 0.78
+   },
+   "Arap": {
+    "binis": 279,
+    "kazanma": 20,
+    "alan_ae": 0.79,
+    "piyasa_ae": 0.71
+   },
+   "İstanbul": {
+    "binis": 341,
+    "kazanma": 19,
+    "alan_ae": 0.54,
+    "piyasa_ae": 0.67
+   },
+   "İngiliz": {
+    "binis": 384,
+    "kazanma": 40,
+    "alan_ae": 0.94,
+    "piyasa_ae": 0.83
+   },
+   "Bursa": {
+    "binis": 91,
+    "kazanma": 10,
+    "alan_ae": 1.14,
+    "piyasa_ae": 0.86
+   },
+   "Kocaeli": {
+    "binis": 157,
+    "kazanma": 21,
+    "alan_ae": 1.28,
+    "piyasa_ae": 0.81
+   },
+   "İzmir": {
+    "binis": 70,
+    "kazanma": 10,
+    "alan_ae": 1.38,
+    "piyasa_ae": 0.98
+   },
+   "Ankara": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "Ç.CANPOLAT": {
+   "genel": {
+    "binis": 184,
+    "kazanma": 5,
+    "alan_ae": 0.32,
+    "piyasa_ae": 0.78
+   },
+   "İngiliz": {
+    "binis": 89,
+    "kazanma": 3,
+    "alan_ae": 0.4,
+    "piyasa_ae": 0.96
+   },
+   "Diyarbakır": {
+    "binis": 49,
+    "kazanma": 5,
+    "alan_ae": 1.09,
+    "piyasa_ae": 1.84
+   },
+   "Arap": {
+    "binis": 95,
+    "kazanma": 2,
+    "alan_ae": 0.25,
+    "piyasa_ae": 0.61
+   },
+   "Elazığ": {
+    "binis": 95,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Şanlıurfa": {
+    "binis": 40,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "F.YARDIMCI": {
+   "genel": {
+    "binis": 342,
+    "kazanma": 48,
+    "alan_ae": 1.58,
+    "piyasa_ae": 0.78
+   },
+   "İngiliz": {
+    "binis": 190,
+    "kazanma": 30,
+    "alan_ae": 1.71,
+    "piyasa_ae": 0.84
+   },
+   "Diyarbakır": {
+    "binis": 85,
+    "kazanma": 13,
+    "alan_ae": 1.69,
+    "piyasa_ae": 0.83
+   },
+   "Arap": {
+    "binis": 152,
+    "kazanma": 18,
+    "alan_ae": 1.41,
+    "piyasa_ae": 0.69
+   },
+   "Şanlıurfa": {
+    "binis": 102,
+    "kazanma": 22,
+    "alan_ae": 2.69,
+    "piyasa_ae": 1.11
+   },
+   "Elazığ": {
+    "binis": 155,
+    "kazanma": 13,
+    "alan_ae": 0.9,
+    "piyasa_ae": 0.5
+   }
+  },
+  "H.ALTUNKILIÇ": {
+   "genel": {
+    "binis": 209,
+    "kazanma": 12,
+    "alan_ae": 0.64,
+    "piyasa_ae": 0.77
+   },
+   "Arap": {
+    "binis": 107,
+    "kazanma": 3,
+    "alan_ae": 0.32,
+    "piyasa_ae": 0.46
+   },
+   "Diyarbakır": {
+    "binis": 23,
+    "kazanma": 1,
+    "alan_ae": 0.5,
+    "piyasa_ae": 0.43
+   },
+   "İngiliz": {
+    "binis": 102,
+    "kazanma": 9,
+    "alan_ae": 0.95,
+    "piyasa_ae": 0.99
+   },
+   "Elazığ": {
+    "binis": 184,
+    "kazanma": 11,
+    "alan_ae": 0.66,
+    "piyasa_ae": 0.83
+   },
+   "Ankara": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": null
+   },
+   "Bursa": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": null
+   }
+  },
+  "A.MEH.ALTIN": {
+   "genel": {
+    "binis": 275,
+    "kazanma": 22,
+    "alan_ae": 0.79,
+    "piyasa_ae": 0.77
+   },
+   "İngiliz": {
+    "binis": 174,
+    "kazanma": 16,
+    "alan_ae": 0.86,
+    "piyasa_ae": 0.87
+   },
+   "İzmir": {
+    "binis": 179,
+    "kazanma": 14,
+    "alan_ae": 0.77,
+    "piyasa_ae": 0.73
+   },
+   "Bursa": {
+    "binis": 56,
+    "kazanma": 5,
+    "alan_ae": 0.92,
+    "piyasa_ae": 1.14
+   },
+   "Arap": {
+    "binis": 101,
+    "kazanma": 6,
+    "alan_ae": 0.66,
+    "piyasa_ae": 0.58
+   },
+   "Kocaeli": {
+    "binis": 27,
+    "kazanma": 2,
+    "alan_ae": 0.72,
+    "piyasa_ae": 0.44
+   },
+   "İstanbul": {
+    "binis": 12,
+    "kazanma": 1,
+    "alan_ae": 0.81,
+    "piyasa_ae": 2.03
+   },
+   "Ankara": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "E.ÇANKAYA": {
+   "genel": {
+    "binis": 415,
+    "kazanma": 34,
+    "alan_ae": 0.76,
+    "piyasa_ae": 0.75
+   },
+   "İngiliz": {
+    "binis": 231,
+    "kazanma": 21,
+    "alan_ae": 0.77,
+    "piyasa_ae": 0.78
+   },
+   "Ankara": {
+    "binis": 228,
+    "kazanma": 19,
+    "alan_ae": 0.73,
+    "piyasa_ae": 0.78
+   },
+   "Arap": {
+    "binis": 184,
+    "kazanma": 13,
+    "alan_ae": 0.73,
+    "piyasa_ae": 0.7
+   },
+   "Adana": {
+    "binis": 63,
+    "kazanma": 4,
+    "alan_ae": 0.7,
+    "piyasa_ae": 0.51
+   },
+   "Bursa": {
+    "binis": 30,
+    "kazanma": 2,
+    "alan_ae": 0.64,
+    "piyasa_ae": 0.41
+   },
+   "İstanbul": {
+    "binis": 89,
+    "kazanma": 8,
+    "alan_ae": 0.84,
+    "piyasa_ae": 1.06
+   },
+   "Kocaeli": {
+    "binis": 5,
+    "kazanma": 1,
+    "alan_ae": 1.54,
+    "piyasa_ae": 1.43
+   }
+  },
+  "C.PASO": {
+   "genel": {
+    "binis": 213,
+    "kazanma": 8,
+    "alan_ae": 0.44,
+    "piyasa_ae": 0.73
+   },
+   "Arap": {
+    "binis": 121,
+    "kazanma": 5,
+    "alan_ae": 0.53,
+    "piyasa_ae": 0.73
+   },
+   "Bursa": {
+    "binis": 138,
+    "kazanma": 5,
+    "alan_ae": 0.44,
+    "piyasa_ae": 0.71
+   },
+   "İngiliz": {
+    "binis": 92,
+    "kazanma": 3,
+    "alan_ae": 0.35,
+    "piyasa_ae": 0.72
+   },
+   "Kocaeli": {
+    "binis": 47,
+    "kazanma": 3,
+    "alan_ae": 0.7,
+    "piyasa_ae": 1.12
+   },
+   "İstanbul": {
+    "binis": 21,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "İzmir": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Ankara": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": null
+   },
+   "Adana": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "A.SÖZEN": {
+   "genel": {
+    "binis": 430,
+    "kazanma": 35,
+    "alan_ae": 0.76,
+    "piyasa_ae": 0.67
+   },
+   "İngiliz": {
+    "binis": 262,
+    "kazanma": 20,
+    "alan_ae": 0.66,
+    "piyasa_ae": 0.61
+   },
+   "İstanbul": {
+    "binis": 307,
+    "kazanma": 21,
+    "alan_ae": 0.65,
+    "piyasa_ae": 0.67
+   },
+   "Arap": {
+    "binis": 168,
+    "kazanma": 15,
+    "alan_ae": 0.96,
+    "piyasa_ae": 0.76
+   },
+   "İzmir": {
+    "binis": 7,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 53,
+    "kazanma": 9,
+    "alan_ae": 1.55,
+    "piyasa_ae": 0.84
+   },
+   "Ankara": {
+    "binis": 21,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Bursa": {
+    "binis": 36,
+    "kazanma": 3,
+    "alan_ae": 0.82,
+    "piyasa_ae": 0.43
+   },
+   "Adana": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Antalya": {
+    "binis": 4,
+    "kazanma": 2,
+    "alan_ae": 4.47,
+    "piyasa_ae": 3.98
+   }
+  },
+  "M.N.SUNKAR": {
+   "genel": {
+    "binis": 162,
+    "kazanma": 7,
+    "alan_ae": 0.43,
+    "piyasa_ae": 0.64
+   },
+   "Arap": {
+    "binis": 108,
+    "kazanma": 6,
+    "alan_ae": 0.56,
+    "piyasa_ae": 0.75
+   },
+   "Ankara": {
+    "binis": 109,
+    "kazanma": 3,
+    "alan_ae": 0.26,
+    "piyasa_ae": 0.41
+   },
+   "Adana": {
+    "binis": 32,
+    "kazanma": 3,
+    "alan_ae": 1.11,
+    "piyasa_ae": 1.5
+   },
+   "İngiliz": {
+    "binis": 54,
+    "kazanma": 1,
+    "alan_ae": 0.18,
+    "piyasa_ae": 0.34
+   },
+   "İstanbul": {
+    "binis": 7,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 6,
+    "kazanma": 1,
+    "alan_ae": 1.96,
+    "piyasa_ae": 1.76
+   },
+   "Elazığ": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Bursa": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Antalya": {
+    "binis": 3,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "A.KÜRÜNDÜK": {
+   "genel": {
+    "binis": 150,
+    "kazanma": 5,
+    "alan_ae": 0.36,
+    "piyasa_ae": 0.63
+   },
+   "İngiliz": {
+    "binis": 81,
+    "kazanma": 3,
+    "alan_ae": 0.37,
+    "piyasa_ae": 0.64
+   },
+   "İzmir": {
+    "binis": 144,
+    "kazanma": 5,
+    "alan_ae": 0.37,
+    "piyasa_ae": 0.65
+   },
+   "Arap": {
+    "binis": 69,
+    "kazanma": 2,
+    "alan_ae": 0.35,
+    "piyasa_ae": 0.62
+   },
+   "Bursa": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "HA.GÖKÇE": {
+   "genel": {
+    "binis": 177,
+    "kazanma": 5,
+    "alan_ae": 0.31,
+    "piyasa_ae": 0.62
+   },
+   "Arap": {
+    "binis": 90,
+    "kazanma": 4,
+    "alan_ae": 0.53,
+    "piyasa_ae": 0.89
+   },
+   "Bursa": {
+    "binis": 86,
+    "kazanma": 3,
+    "alan_ae": 0.41,
+    "piyasa_ae": 0.77
+   },
+   "İngiliz": {
+    "binis": 87,
+    "kazanma": 1,
+    "alan_ae": 0.12,
+    "piyasa_ae": 0.28
+   },
+   "Kocaeli": {
+    "binis": 73,
+    "kazanma": 1,
+    "alan_ae": 0.14,
+    "piyasa_ae": 0.38
+   },
+   "İzmir": {
+    "binis": 16,
+    "kazanma": 1,
+    "alan_ae": 0.62,
+    "piyasa_ae": 0.69
+   },
+   "İstanbul": {
+    "binis": 2,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "T.YILDIZ": {
+   "genel": {
+    "binis": 164,
+    "kazanma": 9,
+    "alan_ae": 0.57,
+    "piyasa_ae": 0.61
+   },
+   "İngiliz": {
+    "binis": 85,
+    "kazanma": 5,
+    "alan_ae": 0.57,
+    "piyasa_ae": 0.67
+   },
+   "Bursa": {
+    "binis": 50,
+    "kazanma": 1,
+    "alan_ae": 0.21,
+    "piyasa_ae": 0.23
+   },
+   "Arap": {
+    "binis": 79,
+    "kazanma": 4,
+    "alan_ae": 0.56,
+    "piyasa_ae": 0.55
+   },
+   "İstanbul": {
+    "binis": 43,
+    "kazanma": 2,
+    "alan_ae": 0.48,
+    "piyasa_ae": 0.51
+   },
+   "İzmir": {
+    "binis": 13,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 47,
+    "kazanma": 5,
+    "alan_ae": 1.12,
+    "piyasa_ae": 1.15
+   },
+   "Ankara": {
+    "binis": 5,
+    "kazanma": 1,
+    "alan_ae": 1.8,
+    "piyasa_ae": 1.35
+   },
+   "Antalya": {
+    "binis": 6,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   }
+  },
+  "M.E.DOĞAN": {
+   "genel": {
+    "binis": 171,
+    "kazanma": 5,
+    "alan_ae": 0.37,
+    "piyasa_ae": 0.51
+   },
+   "Arap": {
+    "binis": 82,
+    "kazanma": 4,
+    "alan_ae": 0.65,
+    "piyasa_ae": 0.81
+   },
+   "Şanlıurfa": {
+    "binis": 74,
+    "kazanma": 2,
+    "alan_ae": 0.37,
+    "piyasa_ae": 0.49
+   },
+   "İngiliz": {
+    "binis": 89,
+    "kazanma": 1,
+    "alan_ae": 0.13,
+    "piyasa_ae": 0.21
+   },
+   "Diyarbakır": {
+    "binis": 34,
+    "kazanma": 1,
+    "alan_ae": 0.33,
+    "piyasa_ae": 0.42
+   },
+   "Kocaeli": {
+    "binis": 1,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": null
+   },
+   "Elazığ": {
+    "binis": 62,
+    "kazanma": 2,
+    "alan_ae": 0.39,
+    "piyasa_ae": 0.6
+   }
+  },
+  "Y.ÇELİKBAŞ": {
+   "genel": {
+    "binis": 300,
+    "kazanma": 8,
+    "alan_ae": 0.32,
+    "piyasa_ae": 0.49
+   },
+   "İngiliz": {
+    "binis": 147,
+    "kazanma": 5,
+    "alan_ae": 0.39,
+    "piyasa_ae": 0.66
+   },
+   "Şanlıurfa": {
+    "binis": 78,
+    "kazanma": 3,
+    "alan_ae": 0.52,
+    "piyasa_ae": 0.9
+   },
+   "Arap": {
+    "binis": 153,
+    "kazanma": 3,
+    "alan_ae": 0.24,
+    "piyasa_ae": 0.34
+   },
+   "Diyarbakır": {
+    "binis": 73,
+    "kazanma": 3,
+    "alan_ae": 0.46,
+    "piyasa_ae": 0.64
+   },
+   "Adana": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Kocaeli": {
+    "binis": 4,
+    "kazanma": 0,
+    "alan_ae": 0.0,
+    "piyasa_ae": 0.0
+   },
+   "Elazığ": {
+    "binis": 141,
+    "kazanma": 2,
+    "alan_ae": 0.16,
+    "piyasa_ae": 0.25
+   }
+  }
+ }
+}

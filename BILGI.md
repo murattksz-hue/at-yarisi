@@ -90,3 +90,42 @@ Tam tablo: `veri/irk_zemin_mesafe_profil.txt`. "Piyasa A/E": ganyan oranının b
 - Güvenilir kalan küçük avantaj: kısa mesafede iç kulvar.
 - Galop, modelde küçük bir ek düzeltme olarak var (geri test edilmedi).
 - Günlük kullanım: `scripts/analiz3.py` her ata olasılık, adil oran ve AGF karşılaştırması verir; olasılık AGF'nin 1,3 katı ve %8'den büyükse "★DEĞER" işaretler.
+
+## Koşu kuralları (kaynak: TJK 2026 At Yarışları Genel Hükümleri)
+- **Maiden:** hiç birincilik kazanmamış atlar. **Şartlı 19:** koşu kazanmamışlar (maiden gibi, bölünmez). **Şartlı 27:** hiç start almamışlar.
+- **Şartlı 1–5:** kazanç tavanına göre artan sınıflar (a: 2 yaşlı İngiliz / 3 yaşlı Arap; b: büyükler).
+- **KV-6…KV-9:** kısa vadeli, daha üst sınıf (KV-6-b2 ≥51 puan, KV-7-b2 ≥56 puan).
+- **Handikap 13…24:** puanlı; her puan ½ kg; en yüksek puanlı at azami sıkleti taşır, diğerleri puan başına ½ kg az. Handikap 22/24 ve G3-Handikap'ta azami sıklet 61 kg.
+- **G1/G2/G3:** grup (açık) koşular; kazananlar alt sınıflara belirli süre giremez.
+- **DHÖW:** Devlet Harası veya Özel yetiştirme veya WAHO'ya kayıtlı Arap atlarına açık koşu. **ULS-W:** uluslararası WAHO. **TR:** Türkiye doğumlu. **E/D:** sadece erkek/dişi. **Y0–Y3:** apranti koşuları.
+- **Apranti (jokey yamağı) indirimi:** Maiden, Şartlı 19/2/3/4/5 ve Handikap 13/14/15/16/17/21'de geçerli; açık, KV ve satışta yok. Y-koşularında sınıfa göre 1–4 kg.
+
+## Koşu türü analizi (180 gün; tam tablo `veri/kosu_turu_jokey.txt`)
+Not: eşit kilo/HP'li atlar eşit sıra alır (önceki sürümde sonuç dosyasındaki bitiş sırası eşitlikleri bozuyordu; düzeltildi).
+
+| Bulgu | Ayrıntı |
+|---|---|
+| En öngörülebilir | İngiliz KV-8 (favori %51), KV-9 %48, Handikap 24 %47, G1 %50, Şartlı 5 %42 |
+| En sürprizli | İngiliz Handikap 15 (favori %22), Arap Handikap 17 %16, Arap Handikap 21 %6, Arap G3 %12,5 |
+| Handikapta HP lideri zayıf | Handikap 14–17'de HP en yüksek at sadece %8–13 kazanıyor (kilo dengeliyor). Şartlı/KV'de %18–36. |
+| Tipik HP aralıkları | Maiden 10–34, Handikap 14: 29–47, H15: 32–56, H16: 38–69, H17: 55–82, KV-6: 41–95, G3: 54–106 |
+| Karma koşuda dişiler | Çoğu türde piyasaya göre 0,6–0,9 (Arap Handikap 14–15'te 0,6); İngiliz KV-6/7'de 1,2 |
+| En ağır kilo | Eşitlik düzeltmesinden sonra piyasaya göre ~1,0: halk doğru fiyatlıyor |
+
+## Jokey analizi
+- 150+ binişli jokeyler `veri/kosu_turu_jokey.txt`. Beceri farkı büyük: N.AVCİ, G.KOCAKAYA, V.ABİŞ, M.M.BİLGİN alan büyüklüğüne göre ~2 kat kazanıyor.
+- Ama piyasa bunu biliyor: ilk 90 günde piyasaya göre iyi olan 16 jokey sonraki 90 günde 1,04, kötü olan 14 jokey 0,96. Korelasyon -0,02 (`veri/jokey_kalicilik.txt`). Jokeyde kalıcı "halkın kaçırdığı" avantaj çok küçük.
+
+## v5 modeli
+- Eklenenler: jokey özelliği; koşu türü ailesine göre grup (Maiden/Şartlı/Handikap/KV/Grup/Satış × ırk).
+- Önemli düzeltme: aygır/kulvar/jokey tabloları artık **kronolojik** (her gün yalnızca önceki günlerden). Önceki "kendi koşusunu dışarıda bırakma" yöntemi küçük bir negatif kayma yaratıyordu.
+
+| Test (542 görülmemiş koşu) | log-olabilirlik | 1. seçim | ilk 3 | 1. seçim getirisi | değer bahsi getirisi |
+|---|---|---|---|---|---|
+| Sadece AGF | -1,868 | %30,6 | %64,4 | %66 | %92 |
+| v5 genel | -1,859 | %31,5 | %65,5 | %74 | %98 |
+| v5 ırk×zemin×mesafe grubu | -1,896 | %31,5 | %66,2 | %76 | %95 |
+| **v5 ırk×koşu türü grubu (kullanılan)** | **-1,856** | %31,4 | %66,2 | %74 | **%100** |
+
+- Ağırlıklar (genel): AGF 0,99; yaş -0,15 (yaşlı atlar fazla oynanıyor); form -0,08 (halk son forma fazla güveniyor); kilo -0,08; uzun ara -0,07; kulvar +0,06; jokey ≈0 (piyasa fiyatlıyor).
+- Değer bahsi (olasılık > piyasa×1,3, oran ≤30) başabaşa geldi: 830 bahiste %100. Örnek hâlâ küçük; ±%15 belirsizlik var.

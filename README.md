@@ -8,7 +8,10 @@ Türkiye at yarışları (TJK) için notlar, veri toplama ve analiz araçları. 
 | `scripts/aygir_stat.py` | Sonuçlardan aygır kan istatistiği (ırk/zemin/mesafe A/E) üretir |
 | `scripts/idman.py` | Günün programındaki galop (idman) bilgilerini toplar |
 | `scripts/analiz3.py` | **Günlük analiz (v4):** grup özel olasılık, adil oran, değer işareti, galop, profil notu |
-| `scripts/model.py` | v4 modelini eğitir ve görülmemiş günlerde test eder |
+| `scripts/model5.py` | v5 modelini (kronolojik, jokey, koşu türü) eğitir ve test eder: `model5.py sonuc program 2026-10-19 cikti.json 1000 tur` |
+| `scripts/model.py` | v4 modeli (eski) |
+| `scripts/kosu_jokey.py` | Koşu türü, cinsiyet ve jokey analizi |
+| `scripts/jokey_kalicilik.py` | Jokey avantajı kalıcı mı testi |
 | `scripts/profil.py` | Irk × zemin × mesafe profilleri ve kulvar etkisi |
 | `scripts/program_indir.py` | Geçmiş program CSV'lerini indirir |
 | `scripts/analiz2.py` | Günün programını puanlar: HP, s20, form, pist uyumu, baba ve kısrak babası kanı, galop |
@@ -25,5 +28,5 @@ python3 scripts/sonuc_indir.py veri/sonuc 180
 python3 scripts/aygir_stat.py veri/sonuc veri/aygir_istatistik.json
 # günün programı: tjk.org günlük program sayfası (HTML) + CSV
 python3 scripts/idman.py program.html idman.json
-python3 scripts/analiz3.py program.html program.csv veri/model.json veri/irk_zemin_mesafe_profil.json İstanbul idman.json
+python3 scripts/analiz3.py program.html program.csv veri/model.json veri/irk_zemin_mesafe_profil.json İstanbul idman.json veri/kosu_turu_jokey.json
 ```

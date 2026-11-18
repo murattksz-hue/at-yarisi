@@ -1,0 +1,3 @@
+jokey sayısı 66 | ilk yarı A/E ile ikinci yarı A/E korelasyonu: -0.02
+ilk yarıda iyi (>=1.2): 16 jokey -> ikinci yarıda toplam piyasa A/E 1.04
+ilk yarıda kötü (<=0.8): 14 jokey -> ikinci yarıda toplam piyasa A/E 0.96

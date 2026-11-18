@@ -1,0 +1,83 @@
+
+=== 1. Kosu :   14.00 ŞARTLI 5/DHÖW/Dişi 4 ve Yukarı Araplar 57.50kg 59.50 kg 2000m  [Arap|Kum|uzun]
+    Zemin/mesafe profili: favori %28.4 kazanıyor, ort. 10.9 at; iç kulvar (1-3) piyasaya göre 0.96
+    Koşu türü (Şartlı 5): 127 koşu örneği, favori %32.3, HP lideri %18.5, tipik HP 39-92
+  # 6 YENERSULTAN      olasılık %26.0 (adil oran   3.8) AGF %37.0 | baba KAIZBERT (RU) B/1.12 KB ODİNHAN C | V.ABİŞ (jokey A/E 1.74) st 1 | Galop Kum 8g 400m 31.0 → 2.
+  # 2 ATEŞİM           olasılık %19.2 (adil oran   5.2) AGF %19.6 | baba BALIKHAN D/1.22 KB ALPAK C | A.SÖZEN (jokey A/E 0.98) st 3 | Galop Kum 8g 400m 27.8 → 7.
+  # 5 FISTIK ÇAMI      olasılık %16.9 (adil oran   5.9) AGF %13.8 | baba ÖZHABER B/0.95 KB ALTAHA B | A.YILDIZ (jokey A/E 0.85) st 8 | Galop Sentetik 21g 400m 27.7 → 4.
+  # 8 KAFKAESQUE       olasılık %15.3 (adil oran   6.5) AGF %12.1 | baba CANKARDEŞLER D/0.86 KB KAFKASLI C | E.BOZDAĞ (jokey A/E 1.20) st 2 | Kenter Kum 1g → 6.
+  # 7 SEMENDİN GÜCÜ    olasılık % 9.2 (adil oran  10.8) AGF % 6.7 ★DEĞER | baba SEMEND B/1.00 KB DEMİRKAZIK C | B.AKÇAY (jokey A/E 0.99) st 5 | Galop Kum 10g 400m 26.2 → 3.
+
+=== 2. Kosu :   14.30 Maiden/DHÖW 3 Yaşlı Araplar 57.00kg 1300m Kum  [Arap|Kum|kisa]
+    Zemin/mesafe profili: favori %30.3 kazanıyor, ort. 11.5 at; iç kulvar (1-3) piyasaya göre 1.14
+    Koşu türü (Maiden): 321 koşu örneği, favori %32.4, HP lideri %22.9, tipik HP 10-33
+  # 5 ORUNBAY          olasılık %19.4 (adil oran   5.2) AGF %17.4 | baba SEMEND B/1.11 KB ALTAHA B | MÜS.ÇELİK (jokey A/E 1.30) st 1 | Galop Kum 3g 400m 27.2 → 6.
+  # 1 BİRTUGAN         olasılık %18.1 (adil oran   5.5) AGF %20.2 | baba GELİBOLU B/1.00 KB TAMERİNOĞLU D | E.BOZDAĞ (jokey A/E 1.20) st 7 | Sprint Kum 1g 400m 29.5 → 5.
+  # 9 GÜNEŞÇEKER       olasılık %14.7 (adil oran   6.8) AGF %13.7 | baba ÖZGÜNHAN C/0.92 KB ALTAHA B | M.KAYA (jokey A/E 1.11) st 9 | Galop Kum 3g 400m 27.0 → 7.
+  # 8 ALLER YILDIZI    olasılık %12.9 (adil oran   7.8) AGF %10.7 | baba KAMAN B/0.92 KB GÜNTAY D | A.SÖZEN (jokey A/E 0.98) st 10 | Galop Kum 2g 400m 26.8 → 2.
+  # 7 TÜMÇIKMAZ        olasılık %11.1 (adil oran   9.0) AGF %12.1 | baba SİLAH C/1.21 KB TÜMÖZ BEY C | B.KARAGÖZ (jokey A/E 0.98) st 5 | Kenter Kum 1g → 1.
+
+=== 3. Kosu :   15.00 Handikap 15 /H2 2 Yaşlı İngilizler kg 1400m Kum  [İngiliz|Kum|kisa]
+    Zemin/mesafe profili: favori %37.0 kazanıyor, ort. 9.8 at; iç kulvar (1-3) piyasaya göre 1.09
+    Koşu türü (Handikap 15): 161 koşu örneği, favori %22.4, HP lideri %10.8, tipik HP 32-56
+  # 1 ZOHAR            olasılık %71.5 (adil oran   1.4) AGF %75.7 | baba KLIMT (USA) C/1.19 KB ACCLAMATION C | E.AKTUĞ (jokey A/E 0.95) st 1 | Galop Kum 4g 400m 25.0 → 1.
+  # 2 CORAL REEFS      olasılık %13.1 (adil oran   7.6) AGF %12.5 | baba EPAULETTE (AU B/1.38 KB POWERSCOURT D | G.ÖZÇELİK (jokey A/E 0.85) st 3 | Galop Kum 4g 400m 25.2 → 2.
+  # 3 SECRET OF DRAGON olasılık % 9.7 (adil oran  10.3) AGF % 7.9 | baba SATONO ARES ( A/1.77 KB AKINDAYIM ( C | A.SÖZEN (jokey A/E 0.75) st 7 | Sprint Kum 2g 400m 24.4 → 4.
+  # 6 STAKES WINNER    olasılık % 1.7 (adil oran  58.6) AGF % 1.0 | baba TRAPPE SHOT ( C/1.08 KB BOLD PILOT C | Z.KARABULUT (jokey A/E 0.87) st 2 | Galop Kum 2g 400m 23.4 → 6.
+  # 4 BACKTRACK        olasılık % 1.4 (adil oran  69.4) AGF % 1.3 | baba MASTER PATRIC C/0.91 KB PRESSING (I C | B.AKÇAY (jokey A/E 0.77) st 5 | Galop Kum 3g 400m 24.5 → 7.
+
+=== 4. Kosu :   15.30 ŞARTLI 4/DHÖW 3 Yaşlı Araplar 57.00kg 1500m Sentetik  [Arap|Sentetik|orta]
+    Zemin/mesafe profili: favori %28.8 kazanıyor, ort. 12.4 at; iç kulvar (1-3) piyasaya göre 1.46
+    Koşu türü (Şartlı 4): 157 koşu örneği, favori %31.2, HP lideri %25.7, tipik HP 37-87
+  # 2 SEHER ZAMANI     olasılık %49.0 (adil oran   2.0) AGF %50.5 | baba FİRİKYA B/1.15 KB JOKER C | M.KAYA (jokey A/E 1.11) st 9 | Galop Sentetik 3g 400m 28.5 → 1.
+  # 6 TOPCUAĞA         olasılık %11.1 (adil oran   9.0) AGF %12.3 | baba ORHUNKAAN C/0.90 KB ÖZGÜNHAN C | F.S.M.SANSAR (jokey A/E 0.95) st 4 | Galop Kum 2g 400m 27.3 → 5.
+  # 4 DAĞYIKAN         olasılık % 9.2 (adil oran  10.9) AGF % 9.6 | baba BABA MEVLÜT C/1.33 KB HIZLITAY B | MÜS.ÇELİK (jokey A/E 1.30) st 8 | Sprint Kum 1g 400m 28.2 → 2.
+  # 1 HULUSİBEY        olasılık % 7.9 (adil oran  12.6) AGF % 7.9 | baba ULUER C/1.32 KB SEZGİNBEY C | Ö.F.ÖZEN (jokey A/E 1.27) st 5 | Galop Kum 4g 400m 28.0 → 3.
+  # 5 TİBET ASLANI     olasılık % 7.9 (adil oran  12.7) AGF % 6.6 | baba ÖZDURAN C/1.18 KB ÖZGÜNHAN C | MER.ÇELİK (jokey A/E 1.20) st 6 | Galop Kum 3g 400m 27.8 → 7.
+
+=== 5. Kosu :   16.00 Handikap 16/DHÖW /H1 4 ve Yukarı Araplar kg 2000m Kum  [Arap|Kum|uzun]
+    Zemin/mesafe profili: favori %28.4 kazanıyor, ort. 10.9 at; iç kulvar (1-3) piyasaya göre 0.96
+    Koşu türü (Handikap 16): 115 koşu örneği, favori %26.1, HP lideri %7.8, tipik HP 38-69
+  # 4 ÖZGÜNBERK        olasılık %26.8 (adil oran   3.7) AGF %21.5 | baba ÖZGÜNHAN C/1.11 KB ATAK C | MÜS.ÇELİK (jokey A/E 1.30) st 6 | Galop Kum 3g 400m 28.0 → 6.
+  # 1 ATEŞ REİSİ       olasılık %24.6 (adil oran   4.1) AGF %24.5 | baba ALTINCI HİS B/0.79 KB BEYEFENDİ C | R.KETME (jokey A/E 1.08) st 9 | Galop Kum 2g 400m 28.8 → 4.
+  # 8 TUTKUNLAR        olasılık % 9.2 (adil oran  10.9) AGF % 9.6 | baba EMBİR HAN A/1.00 KB DAYIBEY C | A.YILDIZ (jokey A/E 0.85) st 3 | Kenter Sentetik 1g → 1.
+  # 3 MANDAR ABBAS     olasılık % 8.3 (adil oran  12.1) AGF %16.5 | baba TAMERİNOĞLU D/0.58 KB HALİD C | Y.GÖKÇE (jokey A/E 0.74) st 4 | Galop Sentetik 3g 400m 28.3 → 9.
+  # 2 SAPANCA AĞASI    olasılık % 8.1 (adil oran  12.3) AGF % 7.8 | baba TAMERİNOĞLU D/0.58 KB ÖZGÜNHAN C | BERK.GÖKÇE (jokey A/E 0.75) st 11 | Galop Kum 3g 400m 28.0 → 2.
+
+=== 6. Kosu :   16.30 Maiden/DHÖW 3 Yaşlı Araplar 57.00kg 1300m Kum  [Arap|Kum|kisa]
+    Zemin/mesafe profili: favori %30.3 kazanıyor, ort. 11.5 at; iç kulvar (1-3) piyasaya göre 1.14
+    Koşu türü (Maiden): 321 koşu örneği, favori %32.4, HP lideri %22.9, tipik HP 10-33
+  # 2 KORMAN ŞAH       olasılık %18.5 (adil oran   5.4) AGF %17.2 | baba KAMAN B/0.92 KB ANADOLU ATE C | A.SÖZEN (jokey A/E 0.98) st 5 | Galop Kum 2g 400m 27.0 → 4.
+  # 1 KAHRAMAN FATİH   olasılık %18.0 (adil oran   5.6) AGF %22.7 | baba DİLİRAN C/0.89 KB DEMİRKAZIK C | B.AKÇAY (jokey A/E 0.99) st 11 | Galop Kum 10g 400m 27.8 → 2.
+  # 6 TANERDEN         olasılık %14.6 (adil oran   6.8) AGF %13.6 | baba AYABAKAN B/1.08 KB TURBO C | V.ABİŞ (jokey A/E 1.74) st 6 | Galop Kum 2g 400m 27.2 → 7.
+  # 8 ÖZGÜNDEN         olasılık %14.1 (adil oran   7.1) AGF %13.0 | baba GELİBOLU B/1.00 KB ATOMKARINCA C | Ç.TAŞCI (jokey A/E 0.66) st 1 | Galop Sentetik 47g 400m 27.0 → 6.
+  # 9 AHMOZE           olasılık %13.1 (adil oran   7.6) AGF %11.6 | baba GÜMBÜRGÜMBÜR C/1.15 KB ORÇUN C | MÜS.ÇELİK (jokey A/E 1.30) st 2 | Galop Kum 3g 400m 27.0 → 3.
+
+=== 7. Kosu :   17.00 ŞARTLI 4/Dişi 2 Yaşlı İngilizler 57.00kg 1400m Sentetik  [İngiliz|Sentetik|kisa]
+    Zemin/mesafe profili: favori %38.9 kazanıyor, ort. 9.4 at; iç kulvar (1-3) piyasaya göre 1.07
+    Koşu türü (Şartlı 4): 197 koşu örneği, favori %40.6, HP lideri %23.9, tipik HP 35-87
+  # 2 TOUCH OF GLORY   olasılık %29.4 (adil oran   3.4) AGF %23.5 | baba TOUCH THE WOL B/1.04 KB HIGHLAND RE C | E.AKPINAR (jokey A/E 1.10) st 3 | Galop Kum 2g 400m 23.3 → 7.
+  # 4 IMMOBILIARE      olasılık %26.0 (adil oran   3.8) AGF %28.7 | baba NATIVE KHAN ( C/1.03 KB ROCK OF GIB C | Ö.YILDIRIM (jokey A/E 1.16) st 8 | Galop Sentetik 4g 400m 24.0 → 1.
+  # 1 ATOMIC AGE       olasılık %24.6 (adil oran   4.1) AGF %27.0 | baba AGRESIVO (USA B/0.99 KB VICTORY GAL A | V.ABİŞ (jokey A/E 1.68) st 7 | Galop Kum 4g 400m 24.2 → 2.
+  # 7 WHITE CASTLE     olasılık % 8.7 (adil oran  11.6) AGF % 8.3 | baba NATIVE KHAN ( C/1.03 KB PERFECT STO C | A.SÖZEN (jokey A/E 0.75) st 6 | Galop Kum 3g 400m 24.2 → 4.
+  # 5 LİNARAL          olasılık % 4.4 (adil oran  22.9) AGF % 5.5 | baba EPAULETTE (AU B/0.75 KB NATIVE KHAN C | M.G.ARSLAN (jokey A/E 0.87) st 4 | Galop Kum 3g 400m 25.5 → 4.
+
+=== 8. Kosu :   17.30 Maiden/DHÖW 3 Yaşlı Araplar 57.00kg 1300m Kum  [Arap|Kum|kisa]
+    Zemin/mesafe profili: favori %30.3 kazanıyor, ort. 11.5 at; iç kulvar (1-3) piyasaya göre 1.14
+    Koşu türü (Maiden): 321 koşu örneği, favori %32.4, HP lideri %22.9, tipik HP 10-33
+  # 1 AKÇAALİ          olasılık %24.9 (adil oran   4.0) AGF %25.8 | baba BERKSOY B/1.05 KB ÖZGÜNHAN C | G.ÖZÇELİK (jokey A/E 0.95) st 7 | Sprint Kum 2g 400m 27.6 → 2.
+  # 6 ŞAFAKBERK        olasılık %20.7 (adil oran   4.8) AGF %17.6 | baba BAŞ HÜKÜMDAR B/1.21 KB BERKSOY B | A.SÖZEN (jokey A/E 0.98) st 5 | Galop Kum 3g 400m 27.0 → 4.
+  # 3 KARACA SELÇUK    olasılık %15.1 (adil oran   6.6) AGF %19.4 | baba ENDEREFE B/0.84 KB ALTAHA B | M.KAYA (jokey A/E 1.11) st 6 | Galop Kum 3g 400m 30.5 → 6.
+  # 5 ROSSİMAN         olasılık %13.6 (adil oran   7.3) AGF %11.4 | baba BODRUM KALESİ D/0.84 KB KAIZBERT (R B | Y.GÖKÇE (jokey A/E 0.74) st 2 | Kenter Sentetik 1g → 3.
+  # 9 ARZUELA          olasılık %12.5 (adil oran   8.0) AGF %12.6 | baba SAADIN GÜCÜ B/1.29 KB ONURKAAN D | E.AKTUĞ (jokey A/E 0.85) st 9 | Galop Kum 2g 400m 27.2 → 7.
+
+=== 9. Kosu :   18.00 ŞARTLI 4/Dişi 3 ve Yukarı İngilizler 58.00kg 60.00 kg 60.00 kg  [İngiliz|Sentetik|orta]
+    Zemin/mesafe profili: favori %39.3 kazanıyor, ort. 10.6 at; iç kulvar (1-3) piyasaya göre 1.17
+    Koşu türü (Şartlı 4): 197 koşu örneği, favori %40.6, HP lideri %23.9, tipik HP 35-87
+  # 9 DEJAVU           olasılık %70.6 (adil oran   1.4) AGF %66.3 | baba TOROK (IRE) C/1.14 KB KANEKO C | V.ABİŞ (jokey A/E 1.68) st 6 | Galop Kum 4g 400m 24.3 → 1.
+  # 3 JIMDEMA          olasılık % 8.4 (adil oran  11.9) AGF % 9.2 | baba MENDIP (USA) C/1.08 KB ROYAL ABJAR C | A.SÖZEN (jokey A/E 0.75) st 2 | Galop Kum 5g 400m 25.0 → 8.
+  # 6 OPERASYON        olasılık % 4.9 (adil oran  20.2) AGF % 7.8 | baba SCARFACE B/1.00 KB SRI PEKAN ( C | G.ÖZÇELİK (jokey A/E 0.85) st 8 | Galop Sentetik 3g 400m 23.7
+  # 1 ARNAVUT KIZ      olasılık % 4.2 (adil oran  23.7) AGF % 4.8 | baba TOROK (IRE) C/1.14 KB CUVEE (USA) B | MÜS.ÇELİK (jokey A/E 1.13) st 10 | Galop Kum 3g 400m 24.8 → 11.
+  #11 VICTORY GIRL     olasılık % 3.6 (adil oran  28.1) AGF % 2.7 | baba VICTORY IS OU C/1.00 KB WIN RIVER W A | E.AKTUĞ (jokey A/E 0.95) st 11 | Galop Kum 3g 400m 25.0 → 5.
+
+Bugün biten koşular: 9 | 1. seçim kazandı 3 | kazanan ilk 3'te 5
