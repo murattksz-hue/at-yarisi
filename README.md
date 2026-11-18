@@ -1,15 +1,23 @@
 # at-yarisi
 
-Türkiye at yarışları (TJK) için notlar ve analiz araçları.
+Türkiye at yarışları (TJK) için notlar, veri toplama ve analiz araçları. Ayrıntılar ve geri test sonuçları: `BILGI.md`.
 
-- `BILGI.md`: program sütunları, koşu türleri, bahis türleri, analiz çerçevesi
-- `analiz.py`: TJK günlük program CSV'sini okuyup her koşudaki atları sıralar
+| Dosya | Ne yapar |
+|---|---|
+| `scripts/sonuc_indir.py` | Son N günün TJK sonuç CSV'lerini indirir |
+| `scripts/aygir_stat.py` | Sonuçlardan aygır kan istatistiği (ırk/zemin/mesafe A/E) üretir |
+| `scripts/idman.py` | Günün programındaki galop (idman) bilgilerini toplar |
+| `scripts/analiz2.py` | Günün programını puanlar: HP, s20, form, pist uyumu, baba ve kısrak babası kanı, galop |
+| `scripts/geritest.py` | Modelleri geçmiş sonuçlarda sızıntısız karşılaştırır |
+| `scripts/analiz_v1.py` | İlk basit model |
+| `veri/aygir_istatistik.json` | 180 günlük aygır tablosu (18.11.2026) |
 
 ## Kullanım
 
 ```bash
-curl -o ist.csv "https://medya-cdn.tjk.org/raporftp/TJKPDF/2026/2026-11-18/CSV/GunlukYarisProgrami/18.11.2026-%C4%B0stanbul-GunlukYarisProgrami-TR.csv"
-python3 analiz.py ist.csv
+python3 scripts/sonuc_indir.py veri/sonuc 180
+python3 scripts/aygir_stat.py veri/sonuc veri/aygir_istatistik.json
+# günün programı: tjk.org günlük program sayfası (HTML) + CSV
+python3 scripts/idman.py program.html idman.json
+python3 scripts/analiz2.py program.html program.csv veri/aygir_istatistik.json idman.json
 ```
-
-Skor: HP %40, s20 %30, son 6 koşu %30. Zemin, mesafe ve kilo henüz modelde yok.
