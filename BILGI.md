@@ -185,3 +185,25 @@ Not: eşit kilo/HP'li atlar eşit sıra alır (önceki sürümde sonuç dosyası
 - Öğrenilen ağırlıklar (`veri/galop_agirlik.json`): son 7 günde idman +0,34, 30 gündeki idman sayısı +0,23, zorlanarak -0,33, galop yok -0,14, 400 m hızı ~0.
 - Yorum: Galop süresi değil, **düzenli ve yakın zamanda rahat çalışmış olmak** önemli. Halk bunu tam fiyatlamıyor. Zorlanarak çalışan at genelde hazır değil.
 - `analiz3.py` bu ağırlıkları kullanıyor (önceki el yapımı galop puanının yerine).
+
+## Literatür etkenlerinin testi – eklendi 18.11.2026
+Kaynaklar: Benter'in iki aşamalı modeli (temel model + halk oranları, koşullu logit; Bolton & Chapman 1986), Beyer tipi hız puanları (par süre + günlük pist değişkeni), handikap yazılarındaki "sınıf düşüşü, ilk kez kapalı gözlük, antrenör formu, kilo değişimi" iddiaları.
+Yöntem (`scripts/ozellik_test.py`): her atın geçmişi yalnızca önceki koşulardan; ganyan oranı sabit (ağırlık 1), özellik ağırlığı gün bazlı 10 katlı çapraz doğrulamayla öğrenildi; 1.837 görülmemiş koşu. Katkı = koşu başına log-olabilirlik farkı × 1000.
+
+| Etken | Katkı (binde) | Karar |
+|---|---|---|
+| **Hız puanı: son 3 koşunun en iyisi** | **+4,87** | Eklendi (ağırlık 0,125) |
+| Hız puanı: son koşu | +1,98 | En iyi-3 ile örtüşüyor |
+| Son koşuda birinciye saniye farkı | +0,89 | Çok küçük |
+| Hız puanı hiç yok | +0,34 | Çok küçük |
+| Antrenör formu (60 gün) | +0,21 | Etkisiz |
+| İlk kez kapalı gözlük | +0,01 | Etkisiz |
+| Kilo değişimi | -0,13 | Etkisiz |
+| Son koşu derecesi | -0,17 | Etkisiz |
+| Mesafe değişimi | -0,25 | Etkisiz |
+| Sınıf değişimi (ödüle göre) | -0,30 | Etkisiz |
+| Jokey yükselmesi | -0,33 | Etkisiz |
+
+- Halk sınıf, kilo, jokey ve ekipman değişikliğini zaten fiyatlıyor; bizim verimizde bunların ek bilgisi yok. Hız puanı ise halkın tam kullanmadığı bilgi.
+- Hız puanı: `-1000 × ((süre - par)/par - günlük değişken)`. Par = aynı hipodrom+pist+mesafe+ırkta önceki günlerin kazanan süre medyanı (≥4 örnek). Değişken = o gün o pistte kazananların par'dan sapma medyanı. 0 = ortalama kazanan; +10 ≈ %1 daha hızlı.
+- Kalıcılık: 180 günlük sonuç CSV'leri `veri/sonuc/` içinde. `gunluk.py` her çalıştığında son 10 günün eksik sonuçlarını indirip `veri/hiz_puani.json`'ı yeniden üretir.

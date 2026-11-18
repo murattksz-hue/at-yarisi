@@ -6,6 +6,10 @@ ph,pc,mj,pj,HIP=sys.argv[1:6]; M=json.load(open(mj,encoding='utf-8'))
 import os
 MA=json.load(open(os.path.join(os.path.dirname(mj),'model_agfsiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(os.path.dirname(mj),'model_agfsiz.json')) else None; PR=json.load(open(pj,encoding='utf-8'))
 ID=json.load(open(sys.argv[6],encoding='utf-8')) if len(sys.argv)>6 else {}
+_vd=os.path.dirname(os.path.abspath(mj))
+HZ=json.load(open(os.path.join(_vd,'hiz_puani.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'hiz_puani.json')) else {}
+_ot=json.load(open(os.path.join(_vd,'ozellik_test.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'ozellik_test.json')) else {}
+HW=0.125 if 'hiz_en_iyi3' in _ot.get('tek_tek',{}) else 0.0
 KJ=json.load(open(sys.argv[7],encoding='utf-8')) if len(sys.argv)>7 else {'kosu_turu':{},'jokey':{}}
 HAVA=json.load(open(sys.argv[8],encoding='utf-8')) if len(sys.argv)>8 else {}
 HE=json.load(open(os.path.join(os.path.dirname(mj),'hava_etkisi.json'),encoding='utf-8')) if os.path.exists(os.path.join(os.path.dirname(mj),'hava_etkisi.json')) else {}
@@ -105,6 +109,11 @@ for r in races:
     GF=np.array([[max(min(-(a[0]-vm)/(vs or 1),2.5),-2.5) if a[0] else 0.0, float(a[1] is None), float(a[1] is not None and a[1]<=7),
                   min(a[3] or 0,5)/5 if a[3] is not None else 0.0, float(a[4]=='Çalışarak')] for a in g])
     gk=GF@np.array(GW[1:6]); u=u+(gk-gk.mean())   # galop: 420 koşuda (30 gün) piyasaya katkısı doğrulandı
+    # hız puanı (son 3 koşunun en iyisi): 1.837 koşuda piyasaya katkısı doğrulandı (ağırlık veri/ozellik_test.json)
+    hz=np.array([max([y['puan'] for y in HZ.get(f"{r['irk']}|{x['ad']}",[])[-3:]],default=np.nan) for x in h]); ok=np.isfinite(hz)
+    for x,v in zip(h,hz): x['hiz']=v
+    if ok.sum()>1 and hz[ok].std()>0:
+        zz=np.zeros(len(h)); zz[ok]=np.clip((hz[ok]-hz[ok].mean())/hz[ok].std(),-2.5,2.5); u=u+HW*zz
     p=np.exp(u-u.max()); p/=p.sum(); q=np.array([x['agf'] for x in h]); q=q/q.sum()
     pro=PR['segment'].get(seg,{}); a_=pro.get('ae',{}); ic=a_.get('start 1-3',{}).get('piyasa_ae')
     print(f"\n=== {r['bas']}  [{seg}]"+("  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)" if agf_yok else ""))
@@ -117,7 +126,7 @@ for r in races:
     for i in srt[:5]:
         x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.3 and p[i]>=0.08 and not agf_yok else ''
         bt=f" → {x['bitis']}." if x['bitis'] else ''
-        print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret} HP{x['hp']} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {x['jok'][:12]} (jokey A/E {x['jae']:.2f}) st {x['st']} | {g[i][2]}{bt}")
+        print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {x['jok'][:12]} (jokey A/E {x['jae']:.2f}) st {x['st']} | {g[i][2]}{bt}")
     kaz=[i for i,x in enumerate(h) if x['bitis']==1]
     if kaz: sk[2]+=1; sk[0]+=srt[0]==kaz[0]; sk[1]+=kaz[0] in srt[:3]
 if sk[2]: print(f"\nBugün biten koşular: {sk[2]} | 1. seçim kazandı {sk[0]} | kazanan ilk 3'te {sk[1]}")

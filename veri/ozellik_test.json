@@ -1,0 +1,27 @@
+{
+ "ozellikler": [
+  "hiz_son",
+  "hiz_en_iyi3",
+  "son_fark_sn"
+ ],
+ "agirlik": [
+  0.026397480016758974,
+  0.12506404476351152,
+  0.0014389842968959299
+ ],
+ "tek_tek": {
+  "hiz_son": 1.98,
+  "hiz_en_iyi3": 4.87,
+  "hiz_yok": 0.34,
+  "son_fark_sn": 0.89,
+  "sinif_degisim": -0.3,
+  "kilo_degisim": -0.13,
+  "ilk_kez_KG": 0.01,
+  "antrenor_form": 0.21,
+  "jokey_yukselme": -0.33,
+  "mesafe_degisim": -0.25,
+  "son_koşu_derece": -0.17
+ },
+ "birlikte": 4.23,
+ "test_kosu": 1837
+}

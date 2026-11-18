@@ -9,7 +9,23 @@ TR={'İstanbul','Ankara','İzmir','Bursa','Adana','Kocaeli','Elazığ','Diyarbak
 era='today' if g==datetime.date.today() else ('tomorrow' if g>datetime.date.today() else 'past')
 tmp=os.path.join(K,'.gunluk',g.isoformat()); os.makedirs(tmp,exist_ok=True)
 def get(u,out):
-    r=subprocess.run(['curl','-sS','-f','--max-time','90','-o',out,u]); return r.returncode==0
+    r=subprocess.run(['curl','-sS','-f','--max-time','90','-o',out,u],capture_output=True); return r.returncode==0
+# 1) eksik sonuçları indir (son 10 gün) ve hız puanı tablosunu güncelle
+SDIR=os.path.join(K,'veri','sonuc'); yeni=0
+for d in range(1,11):
+    t_=g-datetime.timedelta(days=d)
+    for h_ in TR:
+        fn=os.path.join(SDIR,f"{t_.isoformat()}_{h_}.csv")
+        if os.path.exists(fn) or os.path.exists(os.path.join(K,'.gunluk','yok',os.path.basename(fn))): continue
+        u=f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{t_.year}/{t_.isoformat()}/CSV/GunlukYarisSonuclari/{t_.strftime('%d.%m.%Y')}-{urllib.parse.quote(h_)}-GunlukYarisSonuclari-TR.csv"
+        if get(u,fn): yeni+=1
+        else:
+            if os.path.exists(fn): os.remove(fn)
+            if t_<g-datetime.timedelta(days=1):   # dünden eskiyse yarış yok kabul et, bir daha sorma
+                os.makedirs(os.path.join(K,'.gunluk','yok'),exist_ok=True); open(os.path.join(K,'.gunluk','yok',os.path.basename(fn)),'w').close()
+if yeni:
+    subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','hiz_tablosu.py'),SDIR,os.path.join(K,'veri','hiz_puani.json')])
+print('yeni sonuç dosyası:',yeni)
 tarih=urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')
 ana=os.path.join(tmp,'ana.html'); get(f"https://www.tjk.org/TR/YarisSever/Info/Page/GunlukYarisProgrami?QueryParameter_Tarih={tarih}",ana)
 t=open(ana,encoding='utf-8').read()

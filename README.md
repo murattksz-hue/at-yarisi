@@ -11,6 +11,10 @@ Türkiye at yarışları (TJK) için notlar, veri toplama ve analiz araçları. 
 | `scripts/hava.py` | Hava arşivi ve koşu günü tahmini (Open-Meteo, yedek wttr.in) |
 | `scripts/hava_analiz.py` | Islaklık/sıcaklık etkisi analizi |
 | `scripts/model6.py` | v6 (v5 + hava) eğitimi ve testi |
+| `scripts/ozellik_test.py` | Literatür etkenlerini (hız puanı, sınıf, kilo, ekipman, antrenör, jokey) piyasaya göre test eder |
+| `scripts/hiz_tablosu.py` | Beyer tipi hız puanı tablosu üretir |
+| `scripts/galop_pegadrom.py` | Galopları pegadrom.com’dan toplar |
+| `scripts/galop_test.py` | Galop özelliklerini piyasaya göre test eder |
 | `scripts/analiz3.py` | **Günlük analiz (v4):** grup özel olasılık, adil oran, değer işareti, galop, profil notu |
 | `scripts/model5.py` | v5 modelini (kronolojik, jokey, koşu türü) eğitir ve test eder: `model5.py sonuc program 2026-10-19 cikti.json 1000 tur` |
 | `scripts/model.py` | v4 modeli (eski) |
