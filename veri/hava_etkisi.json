@@ -1,0 +1,524 @@
+{
+ "Arap|Kum|hafif": {
+  "kosu": 126,
+  "alan": 11.6,
+  "favori": 28.6,
+  "hp_lideri": 22.9,
+  "ic_ae": 1.1,
+  "dis_ae": 1.02
+ },
+ "Arap|Kum|kuru": {
+  "kosu": 549,
+  "alan": 11.3,
+  "favori": 28.8,
+  "hp_lideri": 19.1,
+  "ic_ae": 1.1,
+  "dis_ae": 1.06
+ },
+ "Arap|Kum|ıslak": {
+  "kosu": 124,
+  "alan": 11.1,
+  "favori": 36.3,
+  "hp_lideri": 27.4,
+  "ic_ae": 1.08,
+  "dis_ae": 0.94
+ },
+ "Arap|Sentetik|hafif": {
+  "kosu": 56,
+  "alan": 11.5,
+  "favori": 37.5,
+  "hp_lideri": 16.1,
+  "ic_ae": 1.23,
+  "dis_ae": 0.79
+ },
+ "Arap|Sentetik|kuru": {
+  "kosu": 109,
+  "alan": 11.7,
+  "favori": 29.4,
+  "hp_lideri": 16.2,
+  "ic_ae": 1.14,
+  "dis_ae": 1.04
+ },
+ "Arap|Sentetik|ıslak": {
+  "kosu": 37,
+  "alan": 13.0,
+  "favori": 32.4,
+  "hp_lideri": 9.5,
+  "ic_ae": 0.88,
+  "dis_ae": 1.14
+ },
+ "Arap|Çim|hafif": {
+  "kosu": 78,
+  "alan": 11.9,
+  "favori": 29.5,
+  "hp_lideri": 16.0,
+  "ic_ae": 1.22,
+  "dis_ae": 0.92
+ },
+ "Arap|Çim|kuru": {
+  "kosu": 312,
+  "alan": 11.5,
+  "favori": 33.7,
+  "hp_lideri": 14.8,
+  "ic_ae": 1.13,
+  "dis_ae": 0.87
+ },
+ "Arap|Çim|ıslak": {
+  "kosu": 32,
+  "alan": 11.6,
+  "favori": 37.5,
+  "hp_lideri": 23.4,
+  "ic_ae": 1.07,
+  "dis_ae": 1.24
+ },
+ "tümü|Kum|hafif": {
+  "kosu": 258,
+  "alan": 10.6,
+  "favori": 31.4,
+  "hp_lideri": 19.1,
+  "ic_ae": 1.1,
+  "dis_ae": 1.1
+ },
+ "tümü|Kum|kuru": {
+  "kosu": 1232,
+  "alan": 10.5,
+  "favori": 31.8,
+  "hp_lideri": 20.1,
+  "ic_ae": 1.06,
+  "dis_ae": 1.02
+ },
+ "tümü|Kum|ıslak": {
+  "kosu": 292,
+  "alan": 10.3,
+  "favori": 40.1,
+  "hp_lideri": 26.2,
+  "ic_ae": 1.02,
+  "dis_ae": 0.91
+ },
+ "tümü|Sentetik|hafif": {
+  "kosu": 124,
+  "alan": 10.5,
+  "favori": 41.1,
+  "hp_lideri": 14.1,
+  "ic_ae": 1.09,
+  "dis_ae": 0.86
+ },
+ "tümü|Sentetik|kuru": {
+  "kosu": 238,
+  "alan": 10.5,
+  "favori": 33.6,
+  "hp_lideri": 18.1,
+  "ic_ae": 1.11,
+  "dis_ae": 1.05
+ },
+ "tümü|Sentetik|ıslak": {
+  "kosu": 94,
+  "alan": 10.9,
+  "favori": 39.4,
+  "hp_lideri": 13.3,
+  "ic_ae": 0.99,
+  "dis_ae": 1.07
+ },
+ "tümü|sıcaklık|soğuk(<12)": {
+  "kosu": 35,
+  "alan": 8.9,
+  "favori": 34.3,
+  "hp_lideri": 21.0,
+  "ic_ae": 1.02,
+  "dis_ae": 1.12
+ },
+ "tümü|sıcaklık|sıcak(28+)": {
+  "kosu": 1688,
+  "alan": 10.5,
+  "favori": 33.5,
+  "hp_lideri": 18.4,
+  "ic_ae": 1.03,
+  "dis_ae": 1.03
+ },
+ "tümü|sıcaklık|ılık": {
+  "kosu": 1507,
+  "alan": 10.4,
+  "favori": 35.3,
+  "hp_lideri": 19.0,
+  "ic_ae": 1.09,
+  "dis_ae": 0.98
+ },
+ "tümü|Çim|hafif": {
+  "kosu": 200,
+  "alan": 10.5,
+  "favori": 32.0,
+  "hp_lideri": 12.8,
+  "ic_ae": 1.09,
+  "dis_ae": 1.1
+ },
+ "tümü|Çim|kuru": {
+  "kosu": 739,
+  "alan": 10.4,
+  "favori": 35.9,
+  "hp_lideri": 16.4,
+  "ic_ae": 1.04,
+  "dis_ae": 0.91
+ },
+ "tümü|Çim|ıslak": {
+  "kosu": 53,
+  "alan": 10.7,
+  "favori": 41.5,
+  "hp_lideri": 21.7,
+  "ic_ae": 1.02,
+  "dis_ae": 1.47
+ },
+ "İngiliz|Kum|hafif": {
+  "kosu": 132,
+  "alan": 9.7,
+  "favori": 34.1,
+  "hp_lideri": 15.4,
+  "ic_ae": 1.1,
+  "dis_ae": 1.22
+ },
+ "İngiliz|Kum|kuru": {
+  "kosu": 683,
+  "alan": 9.8,
+  "favori": 34.3,
+  "hp_lideri": 20.9,
+  "ic_ae": 1.03,
+  "dis_ae": 0.97
+ },
+ "İngiliz|Kum|ıslak": {
+  "kosu": 168,
+  "alan": 9.7,
+  "favori": 42.9,
+  "hp_lideri": 25.3,
+  "ic_ae": 0.99,
+  "dis_ae": 0.89
+ },
+ "İngiliz|Sentetik|hafif": {
+  "kosu": 68,
+  "alan": 9.7,
+  "favori": 44.1,
+  "hp_lideri": 12.5,
+  "ic_ae": 1.01,
+  "dis_ae": 0.94
+ },
+ "İngiliz|Sentetik|kuru": {
+  "kosu": 129,
+  "alan": 9.4,
+  "favori": 37.2,
+  "hp_lideri": 19.6,
+  "ic_ae": 1.09,
+  "dis_ae": 1.06
+ },
+ "İngiliz|Sentetik|ıslak": {
+  "kosu": 57,
+  "alan": 9.5,
+  "favori": 43.9,
+  "hp_lideri": 15.8,
+  "ic_ae": 1.05,
+  "dis_ae": 0.98
+ },
+ "İngiliz|Çim|hafif": {
+  "kosu": 122,
+  "alan": 9.6,
+  "favori": 33.6,
+  "hp_lideri": 10.7,
+  "ic_ae": 1.02,
+  "dis_ae": 1.34
+ },
+ "İngiliz|Çim|kuru": {
+  "kosu": 427,
+  "alan": 9.5,
+  "favori": 37.5,
+  "hp_lideri": 17.5,
+  "ic_ae": 0.99,
+  "dis_ae": 0.97
+ },
+ "İngiliz|Çim|ıslak": {
+  "kosu": 21,
+  "alan": 9.2,
+  "favori": 47.6,
+  "hp_lideri": 19.0,
+  "ic_ae": 0.96,
+  "dis_ae": 2.09
+ },
+ "aygir_islak": {
+  "İngiliz|TILSIT (USA)": {
+   "islak_ae": 1.01,
+   "kuru_ae": 0.82,
+   "islak_kosu": 27
+  },
+  "İngiliz|KLIMT (USA)": {
+   "islak_ae": 0.76,
+   "kuru_ae": 0.91,
+   "islak_kosu": 55
+  },
+  "İngiliz|AGRESIVO (USA)": {
+   "islak_ae": 1.01,
+   "kuru_ae": 1.07,
+   "islak_kosu": 52
+  },
+  "İngiliz|TRAPPE SHOT (USA)": {
+   "islak_ae": 0.93,
+   "kuru_ae": 0.98,
+   "islak_kosu": 58
+  },
+  "İngiliz|SUPER SAVER (USA)": {
+   "islak_ae": 0.8,
+   "kuru_ae": 1.04,
+   "islak_kosu": 70
+  },
+  "İngiliz|MENDIP (USA)": {
+   "islak_ae": 0.71,
+   "kuru_ae": 0.99,
+   "islak_kosu": 84
+  },
+  "İngiliz|EPAULETTE (AUS)": {
+   "islak_ae": 1.82,
+   "kuru_ae": 1.08,
+   "islak_kosu": 36
+  },
+  "İngiliz|KING DAVID (USA)": {
+   "islak_ae": 1.37,
+   "kuru_ae": 1.06,
+   "islak_kosu": 26
+  },
+  "İngiliz|NATIVE KHAN (FR)": {
+   "islak_ae": 0.84,
+   "kuru_ae": 0.95,
+   "islak_kosu": 46
+  },
+  "İngiliz|VICTOIRE PISA (JPN)": {
+   "islak_ae": 0.98,
+   "kuru_ae": 0.86,
+   "islak_kosu": 44
+  },
+  "İngiliz|MARCAVELLY (USA)": {
+   "islak_ae": 0.86,
+   "kuru_ae": 1.1,
+   "islak_kosu": 25
+  },
+  "İngiliz|SATONO ARES (JPN)": {
+   "islak_ae": 0.84,
+   "kuru_ae": 1.41,
+   "islak_kosu": 25
+  },
+  "İngiliz|GENERAL QUARTERS (USA)": {
+   "islak_ae": 1.07,
+   "kuru_ae": 1.07,
+   "islak_kosu": 46
+  },
+  "Arap|ÖZHABER": {
+   "islak_ae": 0.91,
+   "kuru_ae": 1.0,
+   "islak_kosu": 26
+  },
+  "Arap|BABA MEVLÜT": {
+   "islak_ae": 0.79,
+   "kuru_ae": 1.16,
+   "islak_kosu": 53
+  },
+  "Arap|KAYAYÜREKLİ": {
+   "islak_ae": 0.74,
+   "kuru_ae": 0.99,
+   "islak_kosu": 44
+  },
+  "Arap|KAIZBERT (RU)": {
+   "islak_ae": 1.04,
+   "kuru_ae": 0.87,
+   "islak_kosu": 25
+  },
+  "Arap|AYABAKAN": {
+   "islak_ae": 0.92,
+   "kuru_ae": 1.23,
+   "islak_kosu": 65
+  },
+  "Arap|GELİBOLU": {
+   "islak_ae": 1.06,
+   "kuru_ae": 0.91,
+   "islak_kosu": 75
+  },
+  "Arap|TURBO": {
+   "islak_ae": 1.19,
+   "kuru_ae": 0.8,
+   "islak_kosu": 81
+  },
+  "İngiliz|BLUEGRASS CAT (USA)": {
+   "islak_ae": 1.19,
+   "kuru_ae": 1.42,
+   "islak_kosu": 80
+  },
+  "İngiliz|PAPA CLEM (USA)": {
+   "islak_ae": 0.61,
+   "kuru_ae": 0.78,
+   "islak_kosu": 55
+  },
+  "İngiliz|TOROK (IRE)": {
+   "islak_ae": 0.67,
+   "kuru_ae": 0.96,
+   "islak_kosu": 74
+  },
+  "Arap|SONALP": {
+   "islak_ae": 1.08,
+   "kuru_ae": 1.17,
+   "islak_kosu": 45
+  },
+  "İngiliz|BODEMEISTER (USA)": {
+   "islak_ae": 1.16,
+   "kuru_ae": 0.94,
+   "islak_kosu": 74
+  },
+  "İngiliz|TIZWAY (USA)": {
+   "islak_ae": 0.99,
+   "kuru_ae": 1.1,
+   "islak_kosu": 79
+  },
+  "Arap|BERKSOY": {
+   "islak_ae": 1.26,
+   "kuru_ae": 0.86,
+   "islak_kosu": 39
+  },
+  "Arap|DİLİRAN": {
+   "islak_ae": 1.0,
+   "kuru_ae": 0.84,
+   "islak_kosu": 40
+  },
+  "Arap|TAYKUT": {
+   "islak_ae": 0.93,
+   "kuru_ae": 0.98,
+   "islak_kosu": 30
+  },
+  "Arap|GÜNTAY": {
+   "islak_ae": 0.65,
+   "kuru_ae": 0.64,
+   "islak_kosu": 25
+  },
+  "Arap|KARAÜZÜM": {
+   "islak_ae": 0.7,
+   "kuru_ae": 1.49,
+   "islak_kosu": 31
+  },
+  "Arap|GÜRSU": {
+   "islak_ae": 1.11,
+   "kuru_ae": 1.13,
+   "islak_kosu": 43
+  },
+  "Arap|YILMABAŞAR": {
+   "islak_ae": 1.53,
+   "kuru_ae": 0.8,
+   "islak_kosu": 33
+  },
+  "Arap|SERHANTAY": {
+   "islak_ae": 1.0,
+   "kuru_ae": 0.92,
+   "islak_kosu": 60
+  },
+  "Arap|AFRİKAANDER": {
+   "islak_ae": 1.38,
+   "kuru_ae": 0.96,
+   "islak_kosu": 42
+  },
+  "İngiliz|KANEKO": {
+   "islak_ae": 0.57,
+   "kuru_ae": 0.93,
+   "islak_kosu": 77
+  },
+  "İngiliz|GOOD CURRY": {
+   "islak_ae": 0.64,
+   "kuru_ae": 1.41,
+   "islak_kosu": 26
+  },
+  "İngiliz|MYBOYCHARLIE (IRE)": {
+   "islak_ae": 0.77,
+   "kuru_ae": 1.07,
+   "islak_kosu": 65
+  },
+  "Arap|GÜMBÜRGÜMBÜR": {
+   "islak_ae": 1.1,
+   "kuru_ae": 0.96,
+   "islak_kosu": 100
+  },
+  "Arap|SERDÜMEN": {
+   "islak_ae": 0.68,
+   "kuru_ae": 0.88,
+   "islak_kosu": 40
+  },
+  "Arap|ÖZGÜNHAN": {
+   "islak_ae": 0.81,
+   "kuru_ae": 1.01,
+   "islak_kosu": 78
+  },
+  "Arap|FATİH AĞA": {
+   "islak_ae": 0.79,
+   "kuru_ae": 0.91,
+   "islak_kosu": 66
+  },
+  "Arap|TAMERİNOĞLU": {
+   "islak_ae": 0.93,
+   "kuru_ae": 0.58,
+   "islak_kosu": 61
+  },
+  "Arap|SEMEND": {
+   "islak_ae": 0.95,
+   "kuru_ae": 1.71,
+   "islak_kosu": 28
+  },
+  "İngiliz|LION HEART (USA)": {
+   "islak_ae": 1.71,
+   "kuru_ae": 0.98,
+   "islak_kosu": 36
+  },
+  "Arap|ANKA": {
+   "islak_ae": 0.67,
+   "kuru_ae": 0.73,
+   "islak_kosu": 35
+  },
+  "İngiliz|AUTHORIZED (IRE)": {
+   "islak_ae": 0.59,
+   "kuru_ae": 1.21,
+   "islak_kosu": 39
+  },
+  "Arap|ŞİMŞEĞİNOĞLU": {
+   "islak_ae": 0.79,
+   "kuru_ae": 0.93,
+   "islak_kosu": 27
+  },
+  "Arap|UÇANBEY": {
+   "islak_ae": 0.77,
+   "kuru_ae": 0.57,
+   "islak_kosu": 32
+  },
+  "İngiliz|RUN AWAY AND HIDE (USA)": {
+   "islak_ae": 0.84,
+   "kuru_ae": 1.17,
+   "islak_kosu": 37
+  },
+  "İngiliz|BATTLEGROUND (USA)": {
+   "islak_ae": 1.03,
+   "kuru_ae": 1.13,
+   "islak_kosu": 38
+  },
+  "İngiliz|HAKEEM (USA)": {
+   "islak_ae": 0.89,
+   "kuru_ae": 1.08,
+   "islak_kosu": 46
+  },
+  "Arap|FİRİKYA": {
+   "islak_ae": 1.48,
+   "kuru_ae": 1.01,
+   "islak_kosu": 29
+  },
+  "İngiliz|APPROVE (IRE)": {
+   "islak_ae": 1.1,
+   "kuru_ae": 1.0,
+   "islak_kosu": 42
+  },
+  "Arap|DENİZİM": {
+   "islak_ae": 0.77,
+   "kuru_ae": 1.34,
+   "islak_kosu": 28
+  },
+  "Arap|SAADIN GÜCÜ": {
+   "islak_ae": 1.1,
+   "kuru_ae": 1.26,
+   "islak_kosu": 41
+  }
+ }
+}

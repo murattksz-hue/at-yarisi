@@ -1,0 +1,50 @@
+grup                         koşu  alan  favori%  HPlideri%  iç(1-3) piyasa-A/E  dış(10+)
+Arap|Kum|hafif                126  11.6    28.6      22.9  1.1  1.02
+Arap|Kum|kuru                 549  11.3    28.8      19.1  1.1  1.06
+Arap|Kum|ıslak                124  11.1    36.3      27.4  1.08  0.94
+Arap|Sentetik|hafif            56  11.5    37.5      16.1  1.23  0.79
+Arap|Sentetik|kuru            109  11.7    29.4      16.2  1.14  1.04
+Arap|Sentetik|ıslak            37  13.0    32.4       9.5  0.88  1.14
+Arap|Çim|hafif                 78  11.9    29.5      16.0  1.22  0.92
+Arap|Çim|kuru                 312  11.5    33.7      14.8  1.13  0.87
+Arap|Çim|ıslak                 32  11.6    37.5      23.4  1.07  1.24
+tümü|Kum|hafif                258  10.6    31.4      19.1  1.1  1.1
+tümü|Kum|kuru                1232  10.5    31.8      20.1  1.06  1.02
+tümü|Kum|ıslak                292  10.3    40.1      26.2  1.02  0.91
+tümü|Sentetik|hafif           124  10.5    41.1      14.1  1.09  0.86
+tümü|Sentetik|kuru            238  10.5    33.6      18.1  1.11  1.05
+tümü|Sentetik|ıslak            94  10.9    39.4      13.3  0.99  1.07
+tümü|sıcaklık|soğuk(<12)       35   8.9    34.3      21.0  1.02  1.12
+tümü|sıcaklık|sıcak(28+)     1688  10.5    33.5      18.4  1.03  1.03
+tümü|sıcaklık|ılık           1507  10.4    35.3      19.0  1.09  0.98
+tümü|Çim|hafif                200  10.5    32.0      12.8  1.09  1.1
+tümü|Çim|kuru                 739  10.4    35.9      16.4  1.04  0.91
+tümü|Çim|ıslak                 53  10.7    41.5      21.7  1.02  1.47
+İngiliz|Kum|hafif             132   9.7    34.1      15.4  1.1  1.22
+İngiliz|Kum|kuru              683   9.8    34.3      20.9  1.03  0.97
+İngiliz|Kum|ıslak             168   9.7    42.9      25.3  0.99  0.89
+İngiliz|Sentetik|hafif         68   9.7    44.1      12.5  1.01  0.94
+İngiliz|Sentetik|kuru         129   9.4    37.2      19.6  1.09  1.06
+İngiliz|Sentetik|ıslak         57   9.5    43.9      15.8  1.05  0.98
+İngiliz|Çim|hafif             122   9.6    33.6      10.7  1.02  1.34
+İngiliz|Çim|kuru              427   9.5    37.5      17.5  0.99  0.97
+İngiliz|Çim|ıslak              21   9.2    47.6      19.0  0.96  2.09
+
+Islak pistte piyasaya göre en iyi / en kötü aygırlar (en az 25 ıslak koşu):
+  İngiliz|EPAULETTE (AUS)            {'islak_ae': 1.82, 'kuru_ae': 1.08, 'islak_kosu': 36}
+  Arap|YILMABAŞAR                    {'islak_ae': 1.53, 'kuru_ae': 0.8, 'islak_kosu': 33}
+  İngiliz|LION HEART (USA)           {'islak_ae': 1.71, 'kuru_ae': 0.98, 'islak_kosu': 36}
+  Arap|FİRİKYA                       {'islak_ae': 1.48, 'kuru_ae': 1.01, 'islak_kosu': 29}
+  Arap|AFRİKAANDER                   {'islak_ae': 1.38, 'kuru_ae': 0.96, 'islak_kosu': 42}
+  Arap|BERKSOY                       {'islak_ae': 1.26, 'kuru_ae': 0.86, 'islak_kosu': 39}
+  Arap|TURBO                         {'islak_ae': 1.19, 'kuru_ae': 0.8, 'islak_kosu': 81}
+  Arap|TAMERİNOĞLU                   {'islak_ae': 0.93, 'kuru_ae': 0.58, 'islak_kosu': 61}
+  İngiliz|KING DAVID (USA)           {'islak_ae': 1.37, 'kuru_ae': 1.06, 'islak_kosu': 26}
+  İngiliz|BODEMEISTER (USA)          {'islak_ae': 1.16, 'kuru_ae': 0.94, 'islak_kosu': 74}
+  ...
+  İngiliz|SATONO ARES (JPN)          {'islak_ae': 0.84, 'kuru_ae': 1.41, 'islak_kosu': 25}
+  Arap|DENİZİM                       {'islak_ae': 0.77, 'kuru_ae': 1.34, 'islak_kosu': 28}
+  İngiliz|AUTHORIZED (IRE)           {'islak_ae': 0.59, 'kuru_ae': 1.21, 'islak_kosu': 39}
+  Arap|SEMEND                        {'islak_ae': 0.95, 'kuru_ae': 1.71, 'islak_kosu': 28}
+  İngiliz|GOOD CURRY                 {'islak_ae': 0.64, 'kuru_ae': 1.41, 'islak_kosu': 26}
+  Arap|KARAÜZÜM                      {'islak_ae': 0.7, 'kuru_ae': 1.49, 'islak_kosu': 31}

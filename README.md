@@ -8,6 +8,9 @@ Türkiye at yarışları (TJK) için notlar, veri toplama ve analiz araçları. 
 | `scripts/aygir_stat.py` | Sonuçlardan aygır kan istatistiği (ırk/zemin/mesafe A/E) üretir |
 | `scripts/idman.py` | Günün programındaki galop (idman) bilgilerini toplar |
 | `scripts/gunluk.py` | **Tek komut:** `python3 scripts/gunluk.py GG.AA.YYYY [galop]`, o günün tüm Türkiye hipodromlarını indirip analiz eder (`analizler/`) |
+| `scripts/hava.py` | Hava arşivi ve koşu günü tahmini (Open-Meteo, yedek wttr.in) |
+| `scripts/hava_analiz.py` | Islaklık/sıcaklık etkisi analizi |
+| `scripts/model6.py` | v6 (v5 + hava) eğitimi ve testi |
 | `scripts/analiz3.py` | **Günlük analiz (v4):** grup özel olasılık, adil oran, değer işareti, galop, profil notu |
 | `scripts/model5.py` | v5 modelini (kronolojik, jokey, koşu türü) eğitir ve test eder: `model5.py sonuc program 2026-10-19 cikti.json 1000 tur` |
 | `scripts/model.py` | v4 modeli (eski) |

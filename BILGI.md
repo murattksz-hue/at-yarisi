@@ -136,3 +136,23 @@ Not: eşit kilo/HP'li atlar eşit sıra alır (önceki sürümde sonuç dosyası
 - Ağırlıklar (AGF yokken): HP 0,32, pist formu 0,31, jokey 0,18, s20 0,14, form 0,12; uzun ara -0,23, yaş -0,19, apranti -0,18.
 - Standartlaştırılmış özellikler ±2,5 ile sınırlandı (test sonucunu değiştirmedi). Uyarı: 5–6 atlık küçük alanlarda olasılıklar fazla iddialı çıkabiliyor.
 - Antalya sezonu yeni başladığı için Antalya kulvar istatistiği henüz yok (nötr kabul ediliyor).
+
+## Hava durumu – eklendi 18.11.2026
+- Geçmiş hava: Open-Meteo arşivi, 10 hipodrom × 202 gün (`veri/hava_gecmis.json`). Islaklık = günün yağışı + önceki günün yarısı. Kuru <1 mm, hafif 1–5, ıslak ≥5.
+- Koşu günü tahmini: Open-Meteo, günlük sınır dolarsa wttr.in (`scripts/hava.py tahmin`). Koşu günü TJK'nın pist durumu (ör. "Kum: Normal") ve hava satırı okunur; TJK pisti ağır/ıslak/yumuşak/sulu/çamurlu derse ıslak sayılır.
+- Tam tablo: `veri/hava_etkisi.txt`.
+
+| Bulgu | Ayrıntı |
+|---|---|
+| Islak kumda favori daha güvenilir | Favori kazanma: ıslak %40, kuru %32 (tüm ırklar). İngiliz ıslak kum %43, Arap %36. HP lideri ıslakta %26, kuruda %20. |
+| Çim ve sentetikte de | Islak çimde favori %42 (kuru %36), ıslak sentetikte %39 (kuru %34). |
+| Kulvar | Islak sentetikte iç kulvar avantajı kayboluyor (Arap 0,88). Islak çimde dış kulvar iyi görünüyor (İngiliz 2,09) ama sadece 21 koşu. |
+| Sıcaklık | Belirgin etki yok (favori %33–35). |
+| Aygırın ıslak pist farkı | Tabloda büyük farklar var (EPAULETTE, LION HEART ıslakta iyi; SEMEND, KARAÜZÜM, AUTHORIZED kötü) ama modelde yeni günlerde işe yaramadı (ağırlık -0,03): büyük kısmı şans. |
+
+## v6 modeli (v5 + hava)
+- Yeni özellikler: ıslak günde HP ve AGF etkileşimi, babanın ıslak/kuru farkı (kronolojik).
+- Test (542 koşu, 20'si ıslak gün): log-olabilirlik -1,855 (v5 -1,856, AGF -1,868); değer bahsi 826 bahiste %101.
+- Ağırlıklar: ıslak günde AGF +0,08 (yağışta favoriye daha çok güven), ıslak HP -0,04, baba ıslak -0,03.
+- AGF'siz v6: 1. seçim %27,5, ilk 3 %60,0.
+- Sonuç: Hava, favorinin ne kadar güvenilir olduğunu değiştiriyor; ama bunu modele katınca kazanç küçük. Asıl kullanımı: ıslak günde favoriye/HP liderine daha çok güven, sürpriz arayışını azalt.

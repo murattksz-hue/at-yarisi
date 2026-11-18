@@ -7,6 +7,8 @@ import os
 MA=json.load(open(os.path.join(os.path.dirname(mj),'model_agfsiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(os.path.dirname(mj),'model_agfsiz.json')) else None; PR=json.load(open(pj,encoding='utf-8'))
 ID=json.load(open(sys.argv[6],encoding='utf-8')) if len(sys.argv)>6 else {}
 KJ=json.load(open(sys.argv[7],encoding='utf-8')) if len(sys.argv)>7 else {'kosu_turu':{},'jokey':{}}
+HAVA=json.load(open(sys.argv[8],encoding='utf-8')) if len(sys.argv)>8 else {}
+HE=json.load(open(os.path.join(os.path.dirname(mj),'hava_etkisi.json'),encoding='utf-8')) if os.path.exists(os.path.join(os.path.dirname(mj),'hava_etkisi.json')) else {}
 def aile(h):
     s=h.upper()
     for pat,ad in [(r'G ?[123]\b','Grup'),(r'KV','KV'),(r'SATI','Satış'),(r'MAIDEN|MAİDEN|ŞARTLI ?-?19','Maiden'),(r'ŞARTLI','Şartlı'),(r'HANDİKAP|HANDIKAP','Handikap')]:
@@ -25,6 +27,17 @@ def kova(s): return '1-3' if s<=3 else '4-6' if s<=6 else '7-9' if s<=9 else '10
 def txt(x): return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',x))).strip()
 def ae(D,k,pr=4): s=D.get(k,[0,0.0]); return (s[0]+pr)/(s[1]+pr)
 t=open(ph,encoding='utf-8').read(); ped={}; ad=None
+_pd=re.findall(r'(Kum|Çim|Sentetik)\s*:\s*([A-Za-zÇĞİÖŞÜçğıöşü ]+?)\s*(?:<|Hava|\n)',re.sub(r'<[^>]+>','\n',t)[:200000])
+PIST={k:v.strip() for k,v in _pd}
+_hv=re.search(r'Hava\s*:\s*([^<\n]+)',re.sub(r'<[^>]+>','\n',t)); TJKHAVA=html.unescape(_hv.group(1).strip()) if _hv else None
+ISLAK_KEL=('ağır','ıslak','yumuşak','sulu','çamur','islak','agir','yumusak')
+def islak_mi(pist):
+    d=PIST.get(pist,'').lower()
+    if any(k in d for k in ISLAK_KEL): return True,f"TJK pist: {PIST.get(pist)}"
+    i=HAVA.get('islaklik')
+    if i is not None: return i>=5,f"tahmini ıslaklık {i} mm ({HAVA.get('kategori')})"
+    return False,'hava bilgisi yok'
+print(f"HAVA: TJK pist durumu {PIST or 'henüz yok'} | TJK hava: {TJKHAVA or 'henüz yok'} | tahmin: "+(f"yağış {HAVA.get('yagis')} mm, önceki gün {HAVA.get('onceki_gun')} mm, {HAVA.get('sicaklik')}°C, nem %{HAVA.get('nem')}, rüzgar {HAVA.get('ruzgar')} km/s ({HAVA.get('kaynak')})" if HAVA else 'yok'))
 for k,v in re.findall(r'gunluk-GunlukYarisProgrami-(AtAdi|Baba)"[^>]*>(.*?)</td>',t,flags=re.S):
     if k=='AtAdi':
         m=re.search(r'>\s*([^<]+?)\s*<span',v) or re.search(r'>\s*([^<]+?)\s*</a>',v); ad=m.group(1).strip() if m else txt(v).split('(')[0].strip()
@@ -61,7 +74,7 @@ for r in races:
     seg=f"{r['irk']}|{r['pist']}|{r['bant']}"; mseg=f"{r['irk']}|{r['aile']}" if M.get('segmod')=='tur' else seg
     qq=np.array([x['agf'] for x in h]); agf_yok=qq.std()<1e-6
     MM=MA if (agf_yok and MA) else M
-    W=np.array(MM['grup'].get(mseg,MM['genel']))
+    W=np.array(MM['grup'].get(mseg,MM['genel'])); wet,wnot=islak_mi(r['pist'])
     X=[]
     for x in h:
         fm=re.findall(r'([KÇS])(\d)',x['son6']); pts=[(10-int(q)) if q!='0' else 0 for _,q in fm]
@@ -70,9 +83,13 @@ for r in races:
         x['bae']=ae(M['aygir'],f"{r['irk']}|{x['baba']}|{r['pist']}_{r['bant']}"); x['bg']=ae(M['aygir'],f"{r['irk']}|{x['baba']}|genel"); x['kbg']=ae(M['aygir'],f"{r['irk']}|{x['kb']}|genel")
         x['ku']=ae(M['kulvar'],f"{HIP}|{r['pist']}|{r['bant']}|{kova(x['st'])}",pr=10)
         x['jae']=ae(M.get('jokey',{}),f"{r['irk']}|{x['jok']}",pr=10)
-        X.append([x['hp'],x['s20'],form,pf,math.log(x['bae']),math.log(x['ku']),math.log(max(x['agf'],0.3)),float(x['kgs']>60),float(x['ap']),x['yas'],x['kg']]+([math.log(x['jae'])] if len(W)==12 else []))
+        bw=math.log(ae(MM.get('aygir_islak',{}),f"{r['irk']}|{x['baba']}|ıslak",pr=3)/ae(MM.get('aygir_islak',{}),f"{r['irk']}|{x['baba']}|kuru",pr=3)) if wet else 0.0
+        x['bw']=bw
+        X.append([x['hp'],x['s20'],form,pf,math.log(x['bae']),math.log(x['ku']),math.log(max(x['agf'],0.3)),float(x['kgs']>60),float(x['ap']),x['yas'],x['kg']]+([math.log(x['jae'])] if len(W)>=12 else [])+([0,0,bw] if len(W)==15 else []))
     X=np.array(X,float); sd=X.std(0); sd[sd==0]=1; Z=np.clip((X-X.mean(0))/sd,-2.5,2.5); Z[:,6]=X[:,6]-X[:,6].mean()
     if agf_yok: Z[:,6]=0
+    if len(W)==15:
+        Z[:,12]=Z[:,0] if wet else 0; Z[:,13]=Z[:,6] if wet else 0; Z[:,14]=X[:,14]-X[:,14].mean()
     u=Z@W
     g=[galop(x['ad']) for x in h]; t4=[a for a,_,_ in g if a]; best=min(t4) if t4 else None
     gp=np.array([0.6*(max(0,1-(a-best)/4) if a and best else 0.3)+0.4*(0 if fk is None else 1 if fk<=7 else .6 if fk<=14 else .3 if fk<=30 else 0) for a,fk,_ in g])
@@ -82,6 +99,8 @@ for r in races:
     print(f"\n=== {r['bas']}  [{seg}]"+("  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)" if agf_yok else ""))
     kt=KJ['kosu_turu'].get(f"{r['irk']}|{r['tip']}",{})
     print(f"    Zemin/mesafe profili: favori %{pro.get('favori_kazanma','?')} kazanıyor, ort. {pro.get('ort_alan','?')} at; iç kulvar (1-3) piyasaya göre {ic}")
+    he=HE.get(f"{r['irk']}|{r['pist']}|{'ıslak' if wet else 'kuru'}",{})
+    print(f"    Hava/pist: {'ISLAK' if wet else 'kuru'} ({wnot})"+(f"; bu koşullarda favori %{he.get('favori')}, HP lideri %{he.get('hp_lideri')} kazanıyor ({he.get('kosu')} koşu)" if he else ''))
     if kt: print(f"    Koşu türü ({r['tip']}): {kt['kosu']} koşu örneği, favori %{kt['favori']}, HP lideri %{kt['hp_lideri']}, tipik HP {kt['hp_p10']}-{kt['hp_p90']}")
     srt=np.argsort(-p)
     for i in srt[:5]:
