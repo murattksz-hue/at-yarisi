@@ -171,3 +171,17 @@ Not: eşit kilo/HP'li atlar eşit sıra alır (önceki sürümde sonuç dosyası
 
 - Ama günü dışarıda bırakan testte piyasa + galop, sadece piyasadan iyi değil (-1,8690 / -1,8681). 146 koşu az: sinyaller umut verici, kanıtlanmadı. 46 yarış günü daha indiriliyor.
 - `analiz3.py`: galop satırında 30 gündeki idman sayısı, en iyi 400 m, son efor; "↑çok idman" ve "⚠zorlanarak" işaretleri. Olasılığa etkisi küçük tutuldu.
+
+### Galop: büyük örnekle sonuç (67 yarış günü indirildi; 30 gün / 420 koşu testte)
+| Özellik | Piyasa A/E |
+|---|---|
+| Son 30 günde hiç idman yok | 0,72 |
+| Son 30 günde 3+ idman | 1,15 |
+| Son idman 4–7 gün önce | 1,12 (8–14 gün 0,79; 15+ gün 0,79) |
+| Son efor "Çalışarak" | 0,66 |
+| 400 m'de en hızlı | 1,10 |
+
+- Günü dışarıda bırakan test: sadece piyasa -1,9260 → piyasa + galop **-1,9183** (koşu başına +0,0077; v5'in AGF'ye katkısından bile büyük).
+- Öğrenilen ağırlıklar (`veri/galop_agirlik.json`): son 7 günde idman +0,34, 30 gündeki idman sayısı +0,23, zorlanarak -0,33, galop yok -0,14, 400 m hızı ~0.
+- Yorum: Galop süresi değil, **düzenli ve yakın zamanda rahat çalışmış olmak** önemli. Halk bunu tam fiyatlamıyor. Zorlanarak çalışan at genelde hazır değil.
+- `analiz3.py` bu ağırlıkları kullanıyor (önceki el yapımı galop puanının yerine).

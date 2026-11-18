@@ -52,26 +52,27 @@ def feats(h):
     F=[]
     for x,b in zip(h,v):
         z=-(b-m)/(s or 1) if np.isfinite(b) else 0.0
-        F.append([math.log(x['q']),max(min(z,2.5),-2.5),float(not np.isfinite(b)),float(x['gun'] is not None and x['gun']<=7),min(x['n30'],5)/5])
+        F.append([math.log(x['q']),max(min(z,2.5),-2.5),float(not np.isfinite(b)),float(x['gun'] is not None and x['gun']<=7),min(x['n30'],5)/5,float(x['efor']=='Çalışarak')])
     return np.array(F)
 D=[(g,feats(h),np.array([x['pos']==1 for x in h],float)) for g,h in races if any(x['pos']==1 for x in h)]
 def fit(data,it=300,lr=0.1):
-    w=np.zeros(5); w[0]=1.0
+    w=np.zeros(6); w[0]=1.0
     for _ in range(it):
-        gr=np.zeros(5)
+        gr=np.zeros(6)
         for _,F,y in data:
             u=F@w; p=np.exp(u-u.max()); p/=p.sum(); gr+=F.T@(y-p)
-        gr[0]=0; w+=lr*(gr/len(data)-0.5*w*np.r_[0,np.ones(4)]/len(data))
+        gr[0]=0; w+=lr*(gr/len(data)-0.5*w*np.r_[0,np.ones(5)]/len(data))
     return w
 gunler=sorted(set(g for g,_,_ in D)); ll0=ll1=0
 for g in gunler:
     w=fit([d for d in D if d[0]!=g])
     for gg,F,y in D:
         if gg!=g: continue
-        for W,ref in ((np.r_[1,0,0,0,0],0),(w,1)):
+        for W,ref in ((np.r_[1,0,0,0,0,0],0),(w,1)):
             u=F@W; p=np.exp(u-u.max()); p/=p.sum(); l=math.log(p[y==1][0])
             if ref: ll1+=l
             else: ll0+=l
 n=len(D); wall=fit(D)
 print(f"\nGünü dışarıda bırakarak test ({len(gunler)} gün, {n} koşu): sadece piyasa log-olabilirlik {ll0/n:.4f} | piyasa+galop {ll1/n:.4f}")
-print("Tüm veriyle ağırlıklar: 400m hız %.2f, galop yok %.2f, son 7 günde idman %.2f, idman sayısı %.2f"%tuple(wall[1:]))
+print("Tüm veriyle ağırlıklar: 400m hız %.2f, galop yok %.2f, son 7 günde idman %.2f, idman sayısı %.2f, zorlanarak %.2f"%tuple(wall[1:]))
+json.dump(dict(agirlik=wall.tolist(),ozellik=["log_piyasa","hiz400_z","galop_yok","son7gun","idman_sayisi_5","zorlanarak"]),open(os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","veri","galop_agirlik.json"),"w"))
