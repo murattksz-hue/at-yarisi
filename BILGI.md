@@ -156,3 +156,18 @@ Not: eşit kilo/HP'li atlar eşit sıra alır (önceki sürümde sonuç dosyası
 - Ağırlıklar: ıslak günde AGF +0,08 (yağışta favoriye daha çok güven), ıslak HP -0,04, baba ıslak -0,03.
 - AGF'siz v6: 1. seçim %27,5, ilk 3 %60,0.
 - Sonuç: Hava, favorinin ne kadar güvenilir olduğunu değiştiriyor; ama bunu modele katınca kazanç küçük. Asıl kullanımı: ıslak günde favoriye/HP liderine daha çok güven, sürpriz arayışını azalt.
+
+## Galop: pegadrom.com – eklendi 18.11.2026
+- TJK'nın idman sayfası otomatik isteklere 403 verdiği için galop artık pegadrom.com'dan alınıyor (kaynak TJK idman kayıtları; robots.txt izin veriyor; istekler arası 2 sn). `scripts/galop_pegadrom.py`.
+- Her at için geçmiş idmanlar: tarih, pist, zemin, tür, **efor** (Rahat / Hafif Çalışarak / Çalışarak), süre, ara dereceler, idman jokeyi, site puanı.
+- İlk geri test (10 gün, 146 koşu, `scripts/galop_test.py`), piyasaya göre A/E:
+
+| Özellik | A/E |
+|---|---|
+| Son 30 günde 3+ idman | 1,46 (42 kazanma / 28,8 beklenen) |
+| 400 m'de koşunun en hızlısı | 1,19 |
+| Son idman 4–7 gün önce | 1,27; 8–14 gün önce 0,62 |
+| Son efor "Çalışarak" (zorlanarak) | 0,29 (2 / 6,9) |
+
+- Ama günü dışarıda bırakan testte piyasa + galop, sadece piyasadan iyi değil (-1,8690 / -1,8681). 146 koşu az: sinyaller umut verici, kanıtlanmadı. 46 yarış günü daha indiriliyor.
+- `analiz3.py`: galop satırında 30 gündeki idman sayısı, en iyi 400 m, son efor; "↑çok idman" ve "⚠zorlanarak" işaretleri. Olasılığa etkisi küçük tutuldu.

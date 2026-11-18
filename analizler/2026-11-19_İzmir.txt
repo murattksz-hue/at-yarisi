@@ -4,51 +4,51 @@ HAVA: TJK pist durumu henüz yok | TJK hava: henüz yok | tahmin: yağış 0 mm,
     Zemin/mesafe profili: favori %37.0 kazanıyor, ort. 9.8 at; iç kulvar (1-3) piyasaya göre 1.09
     Hava/pist: kuru (tahmini ıslaklık 0.2 mm (kuru)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
     Koşu türü (Satış): 66 koşu örneği, favori %37.9, HP lideri %17.9, tipik HP 31-86
-  # 3 BEAUTY ALYA      olasılık %38.2 (adil oran   2.6) HP51 | baba ULAN BATOR D/0.71 KB SMART ROBIN C | N.AVCİ (jokey A/E 1.84) st 4 | idman yok
-  # 2 PUYOL            olasılık %22.8 (adil oran   4.4) HP47 | baba SUPER ALP (US C/1.05 KB MOUNTAIN CA C | M.ÇİÇEK (jokey A/E 1.23) st 7 | idman yok
-  # 5 OKLOHAMA         olasılık %15.3 (adil oran   6.6) HP41 | baba EPAULETTE (AU B/1.38 KB CARDINAL PI C | A.YILDIZ (jokey A/E 0.95) st 2 | idman yok
-  # 1 LADY ECRİN       olasılık % 9.8 (adil oran  10.2) HP40 | baba SUPER ALP (US C/1.05 KB HAYRİ BABA C | Ö.F.ÖZEN (jokey A/E 0.89) st 6 | idman yok
-  # 6 VENENO           olasılık % 8.4 (adil oran  11.9) HP42 | baba SUPER SAVER ( C/1.21 KB LION HEART  B | Y.GÖKÇE (jokey A/E 0.92) st 1 | idman yok
+  # 3 BEAUTY ALYA      olasılık %41.1 (adil oran   2.4) HP51 | baba ULAN BATOR D/0.71 KB SMART ROBIN C | N.AVCİ (jokey A/E 1.84) st 4 | 30g 4 idman, en iyi 400m 25.6, son 2g Rahat ↑çok idman
+  # 2 PUYOL            olasılık %19.9 (adil oran   5.0) HP47 | baba SUPER ALP (US C/1.05 KB MOUNTAIN CA C | M.ÇİÇEK (jokey A/E 1.23) st 7 | 30g 2 idman, en iyi 400m 26.3, son 4g Çalışarak ⚠zorlanarak
+  # 5 OKLOHAMA         olasılık %13.8 (adil oran   7.3) HP41 | baba EPAULETTE (AU B/1.38 KB CARDINAL PI C | A.YILDIZ (jokey A/E 0.95) st 2 | 30g 2 idman, en iyi 400m 25.5, son 1g Çalışarak ⚠zorlanarak
+  # 1 LADY ECRİN       olasılık %10.4 (adil oran   9.6) HP40 | baba SUPER ALP (US C/1.05 KB HAYRİ BABA C | Ö.F.ÖZEN (jokey A/E 0.89) st 6 | 30g 2 idman, en iyi 400m 24.6, son 2g Rahat
+  # 6 VENENO           olasılık % 9.0 (adil oran  11.1) HP42 | baba SUPER SAVER ( C/1.21 KB LION HEART  B | Y.GÖKÇE (jokey A/E 0.92) st 1 | 30g 2 idman, en iyi 400m 24.2, son 2g Rahat
 
 === 2. Kosu :  BODRUM KOŞUSU 15.30 Maiden/DHÖW 3 Yaşlı Araplar 57.00kg 1600m Kum  [Arap|Kum|orta]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
     Zemin/mesafe profili: favori %29.8 kazanıyor, ort. 11.2 at; iç kulvar (1-3) piyasaya göre 1.07
     Hava/pist: kuru (tahmini ıslaklık 0.2 mm (kuru)); bu koşullarda favori %28.8, HP lideri %19.1 kazanıyor (549 koşu)
     Koşu türü (Maiden): 321 koşu örneği, favori %32.4, HP lideri %22.9, tipik HP 10-33
-  # 2 SİYAH SANCAK     olasılık %20.2 (adil oran   5.0) HP31 | baba OYMAKBEYİ C/1.42 KB NOKTABATUR C | N.AVCİ (jokey A/E 1.63) st 1 | idman yok
-  #11 YİĞİT NUR        olasılık %16.4 (adil oran   6.1) HP33 | baba SERDÜMEN C/1.32 KB NEVZATBEY C | Ö.F.ÖZEN (jokey A/E 1.27) st 3 | idman yok
-  #12 ÖZASYALI         olasılık %15.3 (adil oran   6.5) HP30 | baba BERKSOY B/1.01 KB BERKOŞ C | R.KETME (jokey A/E 1.08) st 6 | idman yok
-  # 9 ZİHNİ            olasılık %11.3 (adil oran   8.9) HP23 | baba COŞARTAY D/0.87 KB ATAK C | K.TOKAÇOĞLU (jokey A/E 1.45) st 7 | idman yok
-  # 1 ÇILGINDAĞ        olasılık % 9.2 (adil oran  10.9) HP32 | baba ATMACA BEYİ D/0.84 KB ŞENTAY C | Y.GÖKÇE (jokey A/E 0.74) st 12 | idman yok
+  # 2 SİYAH SANCAK     olasılık %20.5 (adil oran   4.9) HP31 | baba OYMAKBEYİ C/1.42 KB NOKTABATUR C | N.AVCİ (jokey A/E 1.63) st 1 | 30g 3 idman, en iyi 400m 28.0, son 2g Rahat ↑çok idman
+  #11 YİĞİT NUR        olasılık %17.2 (adil oran   5.8) HP33 | baba SERDÜMEN C/1.32 KB NEVZATBEY C | Ö.F.ÖZEN (jokey A/E 1.27) st 3 | 30g 3 idman, en iyi 400m 27.3, son 1g ? ↑çok idman
+  #12 ÖZASYALI         olasılık %13.8 (adil oran   7.2) HP30 | baba BERKSOY B/1.01 KB BERKOŞ C | R.KETME (jokey A/E 1.08) st 6 | 30g 2 idman, en iyi 400m 28.3, son 11g Rahat
+  # 9 ZİHNİ            olasılık %12.3 (adil oran   8.1) HP23 | baba COŞARTAY D/0.87 KB ATAK C | K.TOKAÇOĞLU (jokey A/E 1.45) st 7 | 30g 4 idman, en iyi 400m 27.0, son 2g Rahat ↑çok idman
+  # 3 BAŞ YARGIÇ       olasılık % 9.0 (adil oran  11.1) HP26 | baba GÜMBÜRGÜMBÜR C/1.12 KB HABERBATUR C | H.ŞİMŞEK (jokey A/E 0.98) st 4 | 30g 3 idman, en iyi 400m 28.7, son 2g Rahat ↑çok idman
 
 === 3. Kosu :   16.00 Handikap 16/DHÖW /H1 4 ve Yukarı Araplar kg 1600m Kum  [Arap|Kum|orta]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
     Zemin/mesafe profili: favori %29.8 kazanıyor, ort. 11.2 at; iç kulvar (1-3) piyasaya göre 1.07
     Hava/pist: kuru (tahmini ıslaklık 0.2 mm (kuru)); bu koşullarda favori %28.8, HP lideri %19.1 kazanıyor (549 koşu)
     Koşu türü (Handikap 16): 115 koşu örneği, favori %26.1, HP lideri %7.8, tipik HP 38-69
-  # 4 MADEİRA          olasılık %25.3 (adil oran   3.9) HP70 | baba ARHANBEY C/1.03 KB TUNCAL C | İ.S.SÖĞÜT (jokey A/E 0.93) st 8 | idman yok
-  # 1 BER KEMAL        olasılık %17.7 (adil oran   5.7) HP73 | baba SAADIN GÜCÜ B/1.14 KB TIKI TORK K C | N.AVCİ (jokey A/E 1.63) st 14 | idman yok
-  # 3 SOSAN YILDIZI    olasılık %13.7 (adil oran   7.3) HP71 | baba PİRSUS B/1.19 KB GOBAKBEY C | Ö.F.ÖZEN (jokey A/E 1.27) st 1 | idman yok
-  # 8 SERTTAYKUT       olasılık %11.3 (adil oran   8.9) HP59 | baba TAYKUT C/0.99 KB TIGRES LIGH C | R.KETME (jokey A/E 1.08) st 9 | idman yok
-  # 9 KUZEYHAN         olasılık % 5.4 (adil oran  18.4) HP56 | baba TAYKUT C/0.99 KB YALAZ C | M.TEKPETEK (jokey A/E 0.77) st 13 | idman yok
+  # 4 MADEİRA          olasılık %23.7 (adil oran   4.2) HP70 | baba ARHANBEY C/1.03 KB TUNCAL C | İ.S.SÖĞÜT (jokey A/E 0.93) st 8 | 30g 1 idman, en iyi 400m 27.8, son 19g Rahat
+  # 1 BER KEMAL        olasılık %19.0 (adil oran   5.3) HP73 | baba SAADIN GÜCÜ B/1.14 KB TIKI TORK K C | N.AVCİ (jokey A/E 1.63) st 14 | 30g 4 idman, en iyi 400m 28.7, son 2g Rahat ↑çok idman
+  # 3 SOSAN YILDIZI    olasılık %13.3 (adil oran   7.5) HP71 | baba PİRSUS B/1.19 KB GOBAKBEY C | Ö.F.ÖZEN (jokey A/E 1.27) st 1 | 30g 2 idman, en iyi 400m 27.8, son 8g Rahat
+  # 8 SERTTAYKUT       olasılık %10.9 (adil oran   9.2) HP59 | baba TAYKUT C/0.99 KB TIGRES LIGH C | R.KETME (jokey A/E 1.08) st 9 | 30g 1 idman, en iyi 400m 29.0, son 2g Rahat
+  #11 GÜRSELHAN        olasılık % 5.0 (adil oran  20.0) HP51 | baba TAMERİNOĞLU D/0.45 KB BAMKA.3 C | O.ATMACA (jokey A/E 0.92) st 12 | 30g 3 idman, en iyi 400m 27.0, son 7g Rahat ↑çok idman
 
 === 4. Kosu :   16.30 Handikap 16 /H1 3 ve Yukarı İngilizler kg 2200m Kum  [İngiliz|Kum|uzun]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
     Zemin/mesafe profili: favori %31.0 kazanıyor, ort. 9.0 at; iç kulvar (1-3) piyasaya göre 0.99
     Hava/pist: kuru (tahmini ıslaklık 0.2 mm (kuru)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
     Koşu türü (Handikap 16): 155 koşu örneği, favori %33.5, HP lideri %11.8, tipik HP 39-66
-  # 2 BOB VALDES       olasılık %18.3 (adil oran   5.5) HP71 | baba DIVINE HEART D/0.88 KB FREE MAN C | A.MEH.ALTIN (jokey A/E 0.91) st 4 | idman yok
-  # 3 DRAGON RUNNER    olasılık %17.3 (adil oran   5.8) HP71 | baba CRIMEAN TATAR A/1.50 KB SRI PEKAN ( C | Ö.F.ÖZEN (jokey A/E 0.89) st 2 | idman yok
-  # 5 SON OF THE KNIFE olasılık %17.0 (adil oran   5.9) HP67 | baba MYBOYCHARLIE  C/0.77 KB VICTORY GAL A | N.AVCİ (jokey A/E 1.84) st 5 | idman yok
-  # 4 ZENITH SKY       olasılık %16.3 (adil oran   6.1) HP71 | baba CRIMEAN TATAR A/1.50 KB MAXIOS (GB) C | R.KETME (jokey A/E 0.77) st 7 | idman yok
-  # 1 SUPER BERK       olasılık %12.3 (adil oran   8.1) HP74 | baba SUPER SAVER ( C/0.82 KB ARCH (USA) C | E.AKPINAR (jokey A/E 1.10) st 1 | idman yok
+  # 2 BOB VALDES       olasılık %18.9 (adil oran   5.3) HP71 | baba DIVINE HEART D/0.88 KB FREE MAN C | A.MEH.ALTIN (jokey A/E 0.91) st 4 | 30g 2 idman, en iyi 400m 24.3, son 2g Rahat
+  # 5 SON OF THE KNIFE olasılık %18.4 (adil oran   5.4) HP67 | baba MYBOYCHARLIE  C/0.77 KB VICTORY GAL A | N.AVCİ (jokey A/E 1.84) st 5 | 30g 3 idman, en iyi 400m 24.0, son 5g Rahat ↑çok idman
+  # 3 DRAGON RUNNER    olasılık %16.8 (adil oran   6.0) HP71 | baba CRIMEAN TATAR A/1.50 KB SRI PEKAN ( C | Ö.F.ÖZEN (jokey A/E 0.89) st 2 | 30g 2 idman, en iyi 400m 26.0, son 5g Rahat
+  # 4 ZENITH SKY       olasılık %15.8 (adil oran   6.3) HP71 | baba CRIMEAN TATAR A/1.50 KB MAXIOS (GB) C | R.KETME (jokey A/E 0.77) st 7 | 30g 1 idman, en iyi 400m 25.2, son 5g Rahat
+  # 1 SUPER BERK       olasılık %12.4 (adil oran   8.0) HP74 | baba SUPER SAVER ( C/0.82 KB ARCH (USA) C | E.AKPINAR (jokey A/E 1.10) st 1 | 30g 2 idman, en iyi 400m 25.0, son 5g Rahat
 
 === 5. Kosu :   17.00 ŞARTLI 4/Y2 3 ve Yukarı İngilizler 58.00kg 60.00 kg 60.00 kg  [İngiliz|Kum|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
     Zemin/mesafe profili: favori %37.0 kazanıyor, ort. 9.8 at; iç kulvar (1-3) piyasaya göre 1.09
     Hava/pist: kuru (tahmini ıslaklık 0.2 mm (kuru)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
     Koşu türü (Şartlı 4): 197 koşu örneği, favori %40.6, HP lideri %23.9, tipik HP 35-87
-  # 6 AGE OF FIRE      olasılık %28.8 (adil oran   3.5) HP92 | baba TOROK (IRE) C/0.52 KB MARLIN (USA C | E.AKPINAR (jokey A/E 1.10) st 4 | idman yok
-  # 3 WOLF DED         olasılık %19.0 (adil oran   5.3) HP86 | baba TIZWAY (USA) C/0.85 KB OKAWANGO (U C | Y.Ş.GÜMÜŞ (jokey A/E 0.75) st 3 | idman yok
-  # 1 CANENCAN         olasılık %18.6 (adil oran   5.4) HP82 | baba CEMCEM D/0.81 KB VICTORY GAL A | M.GÖL (jokey A/E 0.87) st 2 | idman yok
-  # 2 BOCCE            olasılık %10.9 (adil oran   9.2) HP70 | baba VICTOIRE PISA D/0.64 KB VICTORY GAL A | Ö.F.ÖZEN (jokey A/E 0.89) st 1 | idman yok
-  # 4 LAST SWORD       olasılık % 9.4 (adil oran  10.6) HP70 | baba TOUCH THE WOL B/0.83 KB KANEKO C | Y.GÖKÇE (jokey A/E 0.92) st 7 | idman yok
+  # 6 AGE OF FIRE      olasılık %23.8 (adil oran   4.2) HP92 | baba TOROK (IRE) C/0.52 KB MARLIN (USA C | E.AKPINAR (jokey A/E 1.10) st 4 | 30g 0 idman, son 32g ?
+  # 3 WOLF DED         olasılık %20.6 (adil oran   4.8) HP86 | baba TIZWAY (USA) C/0.85 KB OKAWANGO (U C | Y.Ş.GÜMÜŞ (jokey A/E 0.75) st 3 | 30g 3 idman, en iyi 400m 24.7, son 2g Rahat ↑çok idman
+  # 1 CANENCAN         olasılık %20.6 (adil oran   4.9) HP82 | baba CEMCEM D/0.81 KB VICTORY GAL A | M.GÖL (jokey A/E 0.87) st 2 | 30g 2 idman, en iyi 400m 23.5, son 5g Rahat
+  # 2 BOCCE            olasılık %12.1 (adil oran   8.3) HP70 | baba VICTOIRE PISA D/0.64 KB VICTORY GAL A | Ö.F.ÖZEN (jokey A/E 0.89) st 1 | 30g 3 idman, en iyi 400m 24.3, son 2g Rahat ↑çok idman
+  # 4 LAST SWORD       olasılık % 9.7 (adil oran  10.3) HP70 | baba TOUCH THE WOL B/0.83 KB KANEKO C | Y.GÖKÇE (jokey A/E 0.92) st 7 | 30g 2 idman, en iyi 400m 25.2, son 5g Rahat
 
 === 6. Kosu :   17.30 ŞARTLI 4/Dişi 2 Yaşlı İngilizler 57.00kg 1400m Kum  [İngiliz|Kum|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
     Zemin/mesafe profili: favori %37.0 kazanıyor, ort. 9.8 at; iç kulvar (1-3) piyasaya göre 1.09
@@ -64,8 +64,8 @@ HAVA: TJK pist durumu henüz yok | TJK hava: henüz yok | tahmin: yağış 0 mm,
     Zemin/mesafe profili: favori %37.0 kazanıyor, ort. 9.8 at; iç kulvar (1-3) piyasaya göre 1.09
     Hava/pist: kuru (tahmini ıslaklık 0.2 mm (kuru)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
     Koşu türü (Handikap 14): 101 koşu örneği, favori %36.6, HP lideri %9.7, tipik HP 29-47
-  # 4 APOLLO MAXIMUS   olasılık %17.6 (adil oran   5.7) HP49 | baba MENDIP (USA) C/1.06 KB VICTORY GAL A | N.AVCİ (jokey A/E 1.84) st 5 | idman yok
-  # 9 BOUNDLESS GLORY  olasılık %14.9 (adil oran   6.7) HP42 | baba AIR VICE MARS A/1.63 KB EXCHANGE RA C | M.ÇİÇEK (jokey A/E 1.23) st 7 | idman yok
-  # 3 HOLY             olasılık % 9.8 (adil oran  10.2) HP50 | baba CEMCEM D/0.81 KB MAKFI (GB) C | M.GÖL (jokey A/E 0.87) st 10 | idman yok
-  # 6 BURNING HEART    olasılık % 9.7 (adil oran  10.3) HP43 | baba NATIVE KHAN ( C/0.80 KB EAGLE EYED  C | A.KÜRÜNDÜK (jokey A/E 0.72) st 6 | idman yok
-  # 8 FIREBLADE        olasılık % 7.2 (adil oran  14.0) HP43 | baba TRAPPE SHOT ( C/1.08 KB LION HEART  B | A.İNCİ (jokey A/E 1.09) st 16 | idman yok
+  # 4 APOLLO MAXIMUS   olasılık %18.3 (adil oran   5.5) HP49 | baba MENDIP (USA) C/1.06 KB VICTORY GAL A | N.AVCİ (jokey A/E 1.84) st 5 | 30g 3 idman, en iyi 400m 25.2, son 2g Rahat ↑çok idman
+  # 9 BOUNDLESS GLORY  olasılık %14.1 (adil oran   7.1) HP42 | baba AIR VICE MARS A/1.63 KB EXCHANGE RA C | M.ÇİÇEK (jokey A/E 1.23) st 7 | 30g 1 idman, en iyi 400m 26.0, son 5g Rahat
+  # 3 HOLY             olasılık % 9.8 (adil oran  10.2) HP50 | baba CEMCEM D/0.81 KB MAKFI (GB) C | M.GÖL (jokey A/E 0.87) st 10 | 30g 2 idman, en iyi 400m 25.4, son 5g Rahat
+  # 6 BURNING HEART    olasılık % 8.9 (adil oran  11.2) HP43 | baba NATIVE KHAN ( C/0.80 KB EAGLE EYED  C | A.KÜRÜNDÜK (jokey A/E 0.72) st 6 | 30g 1 idman, en iyi 400m 26.7, son 5g Rahat
+  # 8 FIREBLADE        olasılık % 7.7 (adil oran  13.0) HP43 | baba TRAPPE SHOT ( C/1.08 KB LION HEART  B | A.İNCİ (jokey A/E 1.09) st 16 | 30g 2 idman, en iyi 400m 23.7, son 5g Rahat

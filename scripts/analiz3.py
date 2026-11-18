@@ -61,11 +61,19 @@ for l in open(pc,encoding='utf-8-sig').read().splitlines():
             ap=' AP' in c[6],st=int(st.group(1)) if st else 0,jok=c[6].replace(' AP','').strip(),kb=ped.get(a,{}).get('kb','?'),bitis=ped.get(a,{}).get('bitis')))
 def galop(ad):
     d=ID.get(ad)
-    if not d: return None,None,'idman yok'
+    if not d: return None,None,'idman yok',None,None
     try: fk=(gun-datetime.datetime.strptime(d['tarih'],'%d.%m.%Y').date()).days
     except: fk=99
     z={int(k):v for k,v in d['zaman'].items()}; t4=z.get(400) or (z[200]*2.05 if 200 in z else None)
-    return t4,fk,f"{d['tur']} {d['pist']} {fk}g"+(f" 400m {t4:.1f}" if t4 else '')
+    L=d.get('idmanlar')
+    if L:   # pegadrom: geçmiş idmanlar
+        tg=lambda i:(gun-datetime.datetime.strptime(i['tarih'],'%d.%m.%Y').date()).days
+        d30=[i for i in L if 0<tg(i)<=30]; b4=[i['split'].get('400') for i in d30 if i['split'].get('400')]
+        t4=min(b4) if b4 else t4; n30=len(d30); ef=d.get('efor') or '?'
+        uyari=(' ↑çok idman' if n30>=3 else '')+(' ⚠zorlanarak' if ef=='Çalışarak' else '')
+        metin=f"30g {n30} idman"+(f", en iyi 400m {t4:.1f}" if t4 else '')+f", son {fk}g {ef}{uyari}"
+        return t4,fk,metin,n30,ef
+    return t4,fk,f"{d['tur']} {d['pist']} {fk}g"+(f" 400m {t4:.1f}" if t4 else ''),None,None
 not_=lambda x:'A' if x>=1.3 else 'B' if x>=1.05 else 'C' if x>=0.85 else 'D'
 sk=[0,0,0]
 for r in races:
@@ -91,9 +99,10 @@ for r in races:
     if len(W)==15:
         Z[:,12]=Z[:,0] if wet else 0; Z[:,13]=Z[:,6] if wet else 0; Z[:,14]=X[:,14]-X[:,14].mean()
     u=Z@W
-    g=[galop(x['ad']) for x in h]; t4=[a for a,_,_ in g if a]; best=min(t4) if t4 else None
-    gp=np.array([0.6*(max(0,1-(a-best)/4) if a and best else 0.3)+0.4*(0 if fk is None else 1 if fk<=7 else .6 if fk<=14 else .3 if fk<=30 else 0) for a,fk,_ in g])
-    u=u+0.5*(gp-gp.mean())   # galop düzeltmesi (küçük)
+    g=[galop(x['ad']) for x in h]; t4=[a[0] for a in g if a[0]]; best=min(t4) if t4 else None
+    gp=np.array([0.4*(max(0,1-(a-best)/4) if a and best else 0.3)+0.3*(0 if fk is None else 1 if fk<=7 else .4 if fk<=14 else .3 if fk<=30 else 0)
+                 +0.3*(min(n3,4)/4 if n3 is not None else 0.3)-(0.3 if ef=='Çalışarak' else 0) for a,fk,_,n3,ef in g])
+    u=u+0.4*(gp-gp.mean())   # galop düzeltmesi (küçük; 146 koşuda piyasaya göre kanıtlanmadı)
     p=np.exp(u-u.max()); p/=p.sum(); q=np.array([x['agf'] for x in h]); q=q/q.sum()
     pro=PR['segment'].get(seg,{}); a_=pro.get('ae',{}); ic=a_.get('start 1-3',{}).get('piyasa_ae')
     print(f"\n=== {r['bas']}  [{seg}]"+("  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)" if agf_yok else ""))
