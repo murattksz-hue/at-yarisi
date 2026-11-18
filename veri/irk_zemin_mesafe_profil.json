@@ -1,0 +1,1308 @@
+{
+ "segment": {
+  "İngiliz|Kum|kisa": {
+   "kosu": 527,
+   "ort_alan": 9.8,
+   "favori_kazanma": 37.0,
+   "hp_lideri_kazanma": 29.2,
+   "ae": {
+    "apranti": {
+     "ae": 0.51,
+     "piyasa_ae": 0.83
+    },
+    "diğer kilo": {
+     "ae": 0.89,
+     "piyasa_ae": 1.01
+    },
+    "en ağır kilo": {
+     "ae": 1.3,
+     "piyasa_ae": 0.98
+    },
+    "start 1-3": {
+     "ae": 1.1,
+     "piyasa_ae": 1.09
+    },
+    "start 10+": {
+     "ae": 0.89,
+     "piyasa_ae": 0.93
+    },
+    "start 4-6": {
+     "ae": 0.99,
+     "piyasa_ae": 0.97
+    },
+    "start 7-9": {
+     "ae": 0.91,
+     "piyasa_ae": 0.93
+    },
+    "usta jokey": {
+     "ae": 1.17,
+     "piyasa_ae": 1.03
+    },
+    "yaş 2": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 1.05,
+     "piyasa_ae": 1.0
+    },
+    "yaş 4": {
+     "ae": 0.97,
+     "piyasa_ae": 1.09
+    },
+    "yaş 5": {
+     "ae": 0.91,
+     "piyasa_ae": 1.03
+    },
+    "yaş 6": {
+     "ae": 0.88,
+     "piyasa_ae": 0.69
+    },
+    "yaş 7+": {
+     "ae": 0.6,
+     "piyasa_ae": 0.58
+    }
+   }
+  },
+  "Arap|Kum|kisa": {
+   "kosu": 455,
+   "ort_alan": 11.5,
+   "favori_kazanma": 30.3,
+   "hp_lideri_kazanma": 29.2,
+   "ae": {
+    "apranti": {
+     "ae": 0.7,
+     "piyasa_ae": 1.01
+    },
+    "diğer kilo": {
+     "ae": 0.84,
+     "piyasa_ae": 0.98
+    },
+    "en ağır kilo": {
+     "ae": 1.55,
+     "piyasa_ae": 1.04
+    },
+    "start 1-3": {
+     "ae": 1.19,
+     "piyasa_ae": 1.14
+    },
+    "start 10+": {
+     "ae": 0.93,
+     "piyasa_ae": 0.99
+    },
+    "start 4-6": {
+     "ae": 1.0,
+     "piyasa_ae": 0.95
+    },
+    "start 7-9": {
+     "ae": 0.84,
+     "piyasa_ae": 0.88
+    },
+    "usta jokey": {
+     "ae": 1.14,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 4": {
+     "ae": 0.99,
+     "piyasa_ae": 1.0
+    },
+    "yaş 5": {
+     "ae": 0.96,
+     "piyasa_ae": 0.99
+    },
+    "yaş 6": {
+     "ae": 1.35,
+     "piyasa_ae": 1.22
+    },
+    "yaş 7+": {
+     "ae": 0.66,
+     "piyasa_ae": 0.7
+    }
+   }
+  },
+  "İngiliz|Kum|orta": {
+   "kosu": 301,
+   "ort_alan": 10.1,
+   "favori_kazanma": 35.9,
+   "hp_lideri_kazanma": 22.6,
+   "ae": {
+    "apranti": {
+     "ae": 0.69,
+     "piyasa_ae": 0.96
+    },
+    "diğer kilo": {
+     "ae": 0.95,
+     "piyasa_ae": 1.03
+    },
+    "en ağır kilo": {
+     "ae": 1.21,
+     "piyasa_ae": 0.91
+    },
+    "start 1-3": {
+     "ae": 0.96,
+     "piyasa_ae": 0.95
+    },
+    "start 10+": {
+     "ae": 1.01,
+     "piyasa_ae": 1.05
+    },
+    "start 4-6": {
+     "ae": 1.1,
+     "piyasa_ae": 1.11
+    },
+    "start 7-9": {
+     "ae": 0.91,
+     "piyasa_ae": 0.88
+    },
+    "usta jokey": {
+     "ae": 1.1,
+     "piyasa_ae": 1.01
+    },
+    "yaş 2": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 1.06,
+     "piyasa_ae": 1.03
+    },
+    "yaş 4": {
+     "ae": 1.0,
+     "piyasa_ae": 1.07
+    },
+    "yaş 5": {
+     "ae": 0.89,
+     "piyasa_ae": 0.93
+    },
+    "yaş 6": {
+     "ae": 0.35,
+     "piyasa_ae": 0.32
+    },
+    "yaş 7+": {
+     "ae": 1.02,
+     "piyasa_ae": 0.98
+    }
+   }
+  },
+  "İngiliz|Çim|kisa": {
+   "kosu": 283,
+   "ort_alan": 9.5,
+   "favori_kazanma": 39.9,
+   "hp_lideri_kazanma": 32.9,
+   "ae": {
+    "apranti": {
+     "ae": 0.84,
+     "piyasa_ae": 1.44
+    },
+    "diğer kilo": {
+     "ae": 0.95,
+     "piyasa_ae": 1.04
+    },
+    "en ağır kilo": {
+     "ae": 1.09,
+     "piyasa_ae": 0.94
+    },
+    "start 1-3": {
+     "ae": 1.02,
+     "piyasa_ae": 1.03
+    },
+    "start 10+": {
+     "ae": 1.22,
+     "piyasa_ae": 1.14
+    },
+    "start 4-6": {
+     "ae": 1.02,
+     "piyasa_ae": 1.01
+    },
+    "start 7-9": {
+     "ae": 0.83,
+     "piyasa_ae": 0.85
+    },
+    "usta jokey": {
+     "ae": 1.04,
+     "piyasa_ae": 0.95
+    },
+    "yaş 2": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 1.11,
+     "piyasa_ae": 1.05
+    },
+    "yaş 4": {
+     "ae": 0.75,
+     "piyasa_ae": 0.81
+    },
+    "yaş 5": {
+     "ae": 0.76,
+     "piyasa_ae": 0.88
+    },
+    "yaş 6": {
+     "ae": 1.17,
+     "piyasa_ae": 1.12
+    },
+    "yaş 7+": {
+     "ae": 1.05,
+     "piyasa_ae": 1.59
+    }
+   }
+  },
+  "Arap|Kum|orta": {
+   "kosu": 235,
+   "ort_alan": 11.2,
+   "favori_kazanma": 29.8,
+   "hp_lideri_kazanma": 21.7,
+   "ae": {
+    "apranti": {
+     "ae": 0.71,
+     "piyasa_ae": 1.01
+    },
+    "diğer kilo": {
+     "ae": 0.94,
+     "piyasa_ae": 1.0
+    },
+    "en ağır kilo": {
+     "ae": 1.28,
+     "piyasa_ae": 0.98
+    },
+    "start 1-3": {
+     "ae": 1.03,
+     "piyasa_ae": 1.07
+    },
+    "start 10+": {
+     "ae": 1.1,
+     "piyasa_ae": 1.09
+    },
+    "start 4-6": {
+     "ae": 0.91,
+     "piyasa_ae": 0.91
+    },
+    "start 7-9": {
+     "ae": 0.99,
+     "piyasa_ae": 0.95
+    },
+    "usta jokey": {
+     "ae": 1.12,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 4": {
+     "ae": 0.98,
+     "piyasa_ae": 0.98
+    },
+    "yaş 5": {
+     "ae": 1.11,
+     "piyasa_ae": 1.21
+    },
+    "yaş 6": {
+     "ae": 0.97,
+     "piyasa_ae": 0.89
+    },
+    "yaş 7+": {
+     "ae": 0.9,
+     "piyasa_ae": 0.84
+    }
+   }
+  },
+  "Arap|Çim|kisa": {
+   "kosu": 232,
+   "ort_alan": 11.5,
+   "favori_kazanma": 33.2,
+   "hp_lideri_kazanma": 25.4,
+   "ae": {
+    "apranti": {
+     "ae": 0.55,
+     "piyasa_ae": 0.9
+    },
+    "diğer kilo": {
+     "ae": 0.87,
+     "piyasa_ae": 1.02
+    },
+    "en ağır kilo": {
+     "ae": 1.29,
+     "piyasa_ae": 0.98
+    },
+    "start 1-3": {
+     "ae": 1.09,
+     "piyasa_ae": 1.06
+    },
+    "start 10+": {
+     "ae": 0.9,
+     "piyasa_ae": 0.97
+    },
+    "start 4-6": {
+     "ae": 1.19,
+     "piyasa_ae": 1.16
+    },
+    "start 7-9": {
+     "ae": 0.76,
+     "piyasa_ae": 0.75
+    },
+    "usta jokey": {
+     "ae": 1.15,
+     "piyasa_ae": 1.02
+    },
+    "yaş 3": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 4": {
+     "ae": 1.22,
+     "piyasa_ae": 1.15
+    },
+    "yaş 5": {
+     "ae": 0.58,
+     "piyasa_ae": 0.72
+    },
+    "yaş 6": {
+     "ae": 0.71,
+     "piyasa_ae": 0.64
+    },
+    "yaş 7+": {
+     "ae": 0.91,
+     "piyasa_ae": 1.01
+    }
+   }
+  },
+  "İngiliz|Çim|orta": {
+   "kosu": 177,
+   "ort_alan": 9.8,
+   "favori_kazanma": 36.2,
+   "hp_lideri_kazanma": 16.9,
+   "ae": {
+    "apranti": {
+     "ae": 0.56,
+     "piyasa_ae": 0.83
+    },
+    "diğer kilo": {
+     "ae": 1.0,
+     "piyasa_ae": 1.04
+    },
+    "en ağır kilo": {
+     "ae": 0.99,
+     "piyasa_ae": 0.88
+    },
+    "start 1-3": {
+     "ae": 0.96,
+     "piyasa_ae": 0.98
+    },
+    "start 10+": {
+     "ae": 0.84,
+     "piyasa_ae": 0.92
+    },
+    "start 4-6": {
+     "ae": 1.13,
+     "piyasa_ae": 1.12
+    },
+    "start 7-9": {
+     "ae": 0.95,
+     "piyasa_ae": 0.89
+    },
+    "usta jokey": {
+     "ae": 1.1,
+     "piyasa_ae": 1.02
+    },
+    "yaş 2": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 1.14,
+     "piyasa_ae": 1.07
+    },
+    "yaş 4": {
+     "ae": 0.89,
+     "piyasa_ae": 1.01
+    },
+    "yaş 5": {
+     "ae": 0.77,
+     "piyasa_ae": 0.82
+    },
+    "yaş 6": {
+     "ae": 0.41,
+     "piyasa_ae": 0.49
+    },
+    "yaş 7+": {
+     "ae": 0.76,
+     "piyasa_ae": 0.68
+    }
+   }
+  },
+  "İngiliz|Kum|uzun": {
+   "kosu": 155,
+   "ort_alan": 9.0,
+   "favori_kazanma": 31.0,
+   "hp_lideri_kazanma": 29.0,
+   "ae": {
+    "apranti": {
+     "ae": 0.8,
+     "piyasa_ae": 1.07
+    },
+    "diğer kilo": {
+     "ae": 0.95,
+     "piyasa_ae": 0.98
+    },
+    "en ağır kilo": {
+     "ae": 1.23,
+     "piyasa_ae": 1.06
+    },
+    "start 1-3": {
+     "ae": 0.99,
+     "piyasa_ae": 0.99
+    },
+    "start 10+": {
+     "ae": 1.11,
+     "piyasa_ae": 1.07
+    },
+    "start 4-6": {
+     "ae": 0.97,
+     "piyasa_ae": 0.99
+    },
+    "start 7-9": {
+     "ae": 1.02,
+     "piyasa_ae": 1.01
+    },
+    "usta jokey": {
+     "ae": 1.07,
+     "piyasa_ae": 0.98
+    },
+    "yaş 3": {
+     "ae": 1.07,
+     "piyasa_ae": 0.98
+    },
+    "yaş 4": {
+     "ae": 0.99,
+     "piyasa_ae": 1.11
+    },
+    "yaş 5": {
+     "ae": 1.01,
+     "piyasa_ae": 1.05
+    },
+    "yaş 6": {
+     "ae": 0.4,
+     "piyasa_ae": 0.58
+    },
+    "yaş 7+": {
+     "ae": 0.58,
+     "piyasa_ae": 0.51
+    }
+   }
+  },
+  "Arap|Çim|orta": {
+   "kosu": 131,
+   "ort_alan": 11.9,
+   "favori_kazanma": 35.9,
+   "hp_lideri_kazanma": 16.0,
+   "ae": {
+    "apranti": {
+     "ae": 0.59,
+     "piyasa_ae": 0.99
+    },
+    "diğer kilo": {
+     "ae": 0.89,
+     "piyasa_ae": 0.97
+    },
+    "en ağır kilo": {
+     "ae": 1.46,
+     "piyasa_ae": 1.1
+    },
+    "start 1-3": {
+     "ae": 1.29,
+     "piyasa_ae": 1.21
+    },
+    "start 10+": {
+     "ae": 0.96,
+     "piyasa_ae": 0.91
+    },
+    "start 4-6": {
+     "ae": 1.04,
+     "piyasa_ae": 1.12
+    },
+    "start 7-9": {
+     "ae": 0.66,
+     "piyasa_ae": 0.69
+    },
+    "usta jokey": {
+     "ae": 1.12,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 0.98,
+     "piyasa_ae": 0.98
+    },
+    "yaş 4": {
+     "ae": 1.24,
+     "piyasa_ae": 1.15
+    },
+    "yaş 5": {
+     "ae": 0.45,
+     "piyasa_ae": 0.58
+    },
+    "yaş 6": {
+     "ae": 1.16,
+     "piyasa_ae": 1.15
+    },
+    "yaş 7+": {
+     "ae": 0.62,
+     "piyasa_ae": 0.61
+    }
+   }
+  },
+  "İngiliz|Sentetik|kisa": {
+   "kosu": 126,
+   "ort_alan": 9.4,
+   "favori_kazanma": 38.9,
+   "hp_lideri_kazanma": 27.8,
+   "ae": {
+    "apranti": {
+     "ae": 0.56,
+     "piyasa_ae": 1.16
+    },
+    "diğer kilo": {
+     "ae": 0.92,
+     "piyasa_ae": 0.99
+    },
+    "en ağır kilo": {
+     "ae": 1.18,
+     "piyasa_ae": 1.02
+    },
+    "start 1-3": {
+     "ae": 1.1,
+     "piyasa_ae": 1.07
+    },
+    "start 10+": {
+     "ae": 1.27,
+     "piyasa_ae": 1.2
+    },
+    "start 4-6": {
+     "ae": 1.05,
+     "piyasa_ae": 1.06
+    },
+    "start 7-9": {
+     "ae": 0.64,
+     "piyasa_ae": 0.67
+    },
+    "usta jokey": {
+     "ae": 1.09,
+     "piyasa_ae": 0.99
+    },
+    "yaş 2": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 1.13,
+     "piyasa_ae": 1.03
+    },
+    "yaş 4": {
+     "ae": 1.06,
+     "piyasa_ae": 1.29
+    },
+    "yaş 5": {
+     "ae": 0.23,
+     "piyasa_ae": 0.24
+    },
+    "yaş 6": {
+     "ae": 0.47,
+     "piyasa_ae": 0.47
+    },
+    "yaş 7+": {
+     "ae": 0.92,
+     "piyasa_ae": 1.1
+    }
+   }
+  },
+  "İngiliz|Çim|uzun": {
+   "kosu": 110,
+   "ort_alan": 9.0,
+   "favori_kazanma": 30.9,
+   "hp_lideri_kazanma": 17.3,
+   "ae": {
+    "apranti": {
+     "ae": 0.75,
+     "piyasa_ae": 0.95
+    },
+    "diğer kilo": {
+     "ae": 1.03,
+     "piyasa_ae": 1.08
+    },
+    "en ağır kilo": {
+     "ae": 0.92,
+     "piyasa_ae": 0.82
+    },
+    "start 1-3": {
+     "ae": 0.95,
+     "piyasa_ae": 0.93
+    },
+    "start 10+": {
+     "ae": 1.33,
+     "piyasa_ae": 1.23
+    },
+    "start 4-6": {
+     "ae": 0.87,
+     "piyasa_ae": 0.89
+    },
+    "start 7-9": {
+     "ae": 1.21,
+     "piyasa_ae": 1.24
+    },
+    "usta jokey": {
+     "ae": 1.05,
+     "piyasa_ae": 1.01
+    },
+    "yaş 3": {
+     "ae": 1.06,
+     "piyasa_ae": 1.02
+    },
+    "yaş 4": {
+     "ae": 0.92,
+     "piyasa_ae": 1.0
+    },
+    "yaş 5": {
+     "ae": 1.17,
+     "piyasa_ae": 1.15
+    },
+    "yaş 6": {
+     "ae": 0.64,
+     "piyasa_ae": 0.59
+    },
+    "yaş 7+": {
+     "ae": 0.56,
+     "piyasa_ae": 1.07
+    }
+   }
+  },
+  "Arap|Kum|uzun": {
+   "kosu": 109,
+   "ort_alan": 10.9,
+   "favori_kazanma": 28.4,
+   "hp_lideri_kazanma": 20.2,
+   "ae": {
+    "apranti": {
+     "ae": 0.84,
+     "piyasa_ae": 1.03
+    },
+    "diğer kilo": {
+     "ae": 0.96,
+     "piyasa_ae": 1.0
+    },
+    "en ağır kilo": {
+     "ae": 1.23,
+     "piyasa_ae": 1.01
+    },
+    "start 1-3": {
+     "ae": 1.02,
+     "piyasa_ae": 0.96
+    },
+    "start 10+": {
+     "ae": 1.12,
+     "piyasa_ae": 1.12
+    },
+    "start 4-6": {
+     "ae": 0.91,
+     "piyasa_ae": 0.9
+    },
+    "start 7-9": {
+     "ae": 1.0,
+     "piyasa_ae": 1.1
+    },
+    "usta jokey": {
+     "ae": 1.07,
+     "piyasa_ae": 0.99
+    },
+    "yaş 4": {
+     "ae": 1.14,
+     "piyasa_ae": 1.07
+    },
+    "yaş 5": {
+     "ae": 0.86,
+     "piyasa_ae": 1.01
+    },
+    "yaş 6": {
+     "ae": 0.51,
+     "piyasa_ae": 0.51
+    },
+    "yaş 7+": {
+     "ae": 1.22,
+     "piyasa_ae": 1.19
+    }
+   }
+  },
+  "Arap|Sentetik|kisa": {
+   "kosu": 106,
+   "ort_alan": 12.2,
+   "favori_kazanma": 34.0,
+   "hp_lideri_kazanma": 26.4,
+   "ae": {
+    "apranti": {
+     "ae": 0.49,
+     "piyasa_ae": 0.91
+    },
+    "diğer kilo": {
+     "ae": 0.8,
+     "piyasa_ae": 0.91
+    },
+    "en ağır kilo": {
+     "ae": 1.47,
+     "piyasa_ae": 1.15
+    },
+    "start 1-3": {
+     "ae": 1.08,
+     "piyasa_ae": 1.03
+    },
+    "start 10+": {
+     "ae": 0.97,
+     "piyasa_ae": 1.06
+    },
+    "start 4-6": {
+     "ae": 1.04,
+     "piyasa_ae": 1.0
+    },
+    "start 7-9": {
+     "ae": 0.9,
+     "piyasa_ae": 0.91
+    },
+    "usta jokey": {
+     "ae": 1.19,
+     "piyasa_ae": 1.02
+    },
+    "yaş 3": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 4": {
+     "ae": 1.18,
+     "piyasa_ae": 1.13
+    },
+    "yaş 5": {
+     "ae": 0.76,
+     "piyasa_ae": 0.78
+    },
+    "yaş 6": {
+     "ae": 1.05,
+     "piyasa_ae": 1.15
+    },
+    "yaş 7+": {
+     "ae": 0.35,
+     "piyasa_ae": 0.4
+    }
+   }
+  },
+  "İngiliz|Sentetik|uzun": {
+   "kosu": 72,
+   "ort_alan": 8.9,
+   "favori_kazanma": 44.4,
+   "hp_lideri_kazanma": 23.6,
+   "ae": {
+    "apranti": {
+     "ae": 0.59,
+     "piyasa_ae": 0.82
+    },
+    "diğer kilo": {
+     "ae": 0.99,
+     "piyasa_ae": 1.02
+    },
+    "en ağır kilo": {
+     "ae": 1.03,
+     "piyasa_ae": 0.96
+    },
+    "start 1-3": {
+     "ae": 1.0,
+     "piyasa_ae": 0.97
+    },
+    "start 10+": {
+     "ae": 0.49,
+     "piyasa_ae": 0.47
+    },
+    "start 4-6": {
+     "ae": 0.97,
+     "piyasa_ae": 1.02
+    },
+    "start 7-9": {
+     "ae": 1.28,
+     "piyasa_ae": 1.27
+    },
+    "usta jokey": {
+     "ae": 1.11,
+     "piyasa_ae": 1.03
+    },
+    "yaş 3": {
+     "ae": 0.97,
+     "piyasa_ae": 0.93
+    },
+    "yaş 4": {
+     "ae": 1.44,
+     "piyasa_ae": 1.37
+    },
+    "yaş 5": {
+     "ae": 0.64,
+     "piyasa_ae": 0.74
+    },
+    "yaş 6": {
+     "ae": 0.25,
+     "piyasa_ae": 0.43
+    },
+    "yaş 7+": {
+     "ae": 0.76,
+     "piyasa_ae": 0.72
+    }
+   }
+  },
+  "Arap|Çim|uzun": {
+   "kosu": 59,
+   "ort_alan": 10.9,
+   "favori_kazanma": 27.1,
+   "hp_lideri_kazanma": 23.7,
+   "ae": {
+    "apranti": {
+     "ae": 0.66,
+     "piyasa_ae": 0.85
+    },
+    "diğer kilo": {
+     "ae": 1.06,
+     "piyasa_ae": 1.11
+    },
+    "en ağır kilo": {
+     "ae": 0.79,
+     "piyasa_ae": 0.68
+    },
+    "start 1-3": {
+     "ae": 1.35,
+     "piyasa_ae": 1.28
+    },
+    "start 10+": {
+     "ae": 0.52,
+     "piyasa_ae": 0.55
+    },
+    "start 4-6": {
+     "ae": 0.8,
+     "piyasa_ae": 0.88
+    },
+    "start 7-9": {
+     "ae": 1.15,
+     "piyasa_ae": 1.06
+    },
+    "usta jokey": {
+     "ae": 1.12,
+     "piyasa_ae": 1.04
+    },
+    "yaş 4": {
+     "ae": 1.09,
+     "piyasa_ae": 1.03
+    },
+    "yaş 5": {
+     "ae": 0.63,
+     "piyasa_ae": 0.7
+    },
+    "yaş 6": {
+     "ae": 1.2,
+     "piyasa_ae": 1.17
+    },
+    "yaş 7+": {
+     "ae": 0.93,
+     "piyasa_ae": 1.15
+    }
+   }
+  },
+  "İngiliz|Sentetik|orta": {
+   "kosu": 56,
+   "ort_alan": 10.6,
+   "favori_kazanma": 39.3,
+   "hp_lideri_kazanma": 23.2,
+   "ae": {
+    "apranti": {
+     "ae": 0.38,
+     "piyasa_ae": 0.69
+    },
+    "diğer kilo": {
+     "ae": 0.9,
+     "piyasa_ae": 0.95
+    },
+    "en ağır kilo": {
+     "ae": 1.35,
+     "piyasa_ae": 1.13
+    },
+    "start 1-3": {
+     "ae": 1.18,
+     "piyasa_ae": 1.17
+    },
+    "start 10+": {
+     "ae": 1.08,
+     "piyasa_ae": 1.09
+    },
+    "start 4-6": {
+     "ae": 0.75,
+     "piyasa_ae": 0.81
+    },
+    "start 7-9": {
+     "ae": 1.05,
+     "piyasa_ae": 0.95
+    },
+    "usta jokey": {
+     "ae": 1.15,
+     "piyasa_ae": 1.04
+    },
+    "yaş 2": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 3": {
+     "ae": 1.04,
+     "piyasa_ae": 1.0
+    },
+    "yaş 4": {
+     "ae": 1.06,
+     "piyasa_ae": 1.25
+    },
+    "yaş 5": {
+     "ae": 1.01,
+     "piyasa_ae": 1.0
+    },
+    "yaş 6": {
+     "ae": 0.0,
+     "piyasa_ae": 0.0
+    },
+    "yaş 7+": {
+     "ae": 0.84,
+     "piyasa_ae": 0.67
+    }
+   }
+  },
+  "Arap|Sentetik|orta": {
+   "kosu": 52,
+   "ort_alan": 12.4,
+   "favori_kazanma": 28.8,
+   "hp_lideri_kazanma": 17.3,
+   "ae": {
+    "apranti": {
+     "ae": 0.31,
+     "piyasa_ae": 0.47
+    },
+    "diğer kilo": {
+     "ae": 0.82,
+     "piyasa_ae": 0.91
+    },
+    "en ağır kilo": {
+     "ae": 1.63,
+     "piyasa_ae": 1.2
+    },
+    "start 1-3": {
+     "ae": 1.61,
+     "piyasa_ae": 1.46
+    },
+    "start 10+": {
+     "ae": 0.85,
+     "piyasa_ae": 0.79
+    },
+    "start 4-6": {
+     "ae": 0.73,
+     "piyasa_ae": 0.81
+    },
+    "start 7-9": {
+     "ae": 0.77,
+     "piyasa_ae": 0.84
+    },
+    "usta jokey": {
+     "ae": 1.23,
+     "piyasa_ae": 1.1
+    },
+    "yaş 3": {
+     "ae": 1.0,
+     "piyasa_ae": 1.0
+    },
+    "yaş 4": {
+     "ae": 1.19,
+     "piyasa_ae": 1.08
+    },
+    "yaş 5": {
+     "ae": 0.54,
+     "piyasa_ae": 0.66
+    },
+    "yaş 6": {
+     "ae": 1.29,
+     "piyasa_ae": 1.27
+    },
+    "yaş 7+": {
+     "ae": 0.4,
+     "piyasa_ae": 0.5
+    }
+   }
+  },
+  "Arap|Sentetik|uzun": {
+   "kosu": 44,
+   "ort_alan": 10.5,
+   "favori_kazanma": 31.8,
+   "hp_lideri_kazanma": 22.7,
+   "ae": {
+    "apranti": {
+     "ae": 0.8,
+     "piyasa_ae": 0.99
+    },
+    "diğer kilo": {
+     "ae": 0.92,
+     "piyasa_ae": 1.0
+    },
+    "en ağır kilo": {
+     "ae": 1.34,
+     "piyasa_ae": 1.01
+    },
+    "start 1-3": {
+     "ae": 0.9,
+     "piyasa_ae": 0.93
+    },
+    "start 10+": {
+     "ae": 1.12,
+     "piyasa_ae": 1.34
+    },
+    "start 4-6": {
+     "ae": 1.05,
+     "piyasa_ae": 1.0
+    },
+    "start 7-9": {
+     "ae": 0.99,
+     "piyasa_ae": 0.93
+    },
+    "usta jokey": {
+     "ae": 1.06,
+     "piyasa_ae": 1.0
+    },
+    "yaş 4": {
+     "ae": 1.09,
+     "piyasa_ae": 1.05
+    },
+    "yaş 5": {
+     "ae": 0.73,
+     "piyasa_ae": 0.74
+    },
+    "yaş 6": {
+     "ae": 1.12,
+     "piyasa_ae": 1.21
+    },
+    "yaş 7+": {
+     "ae": 1.0,
+     "piyasa_ae": 1.1
+    }
+   }
+  }
+ },
+ "kulvar": {
+  "Bursa|Kum|kisa": {
+   "1-3": 1.14,
+   "10+": 0.99,
+   "4-6": 1.1,
+   "7-9": 0.66
+  },
+  "Bursa|Kum|orta": {
+   "1-3": 1.38,
+   "10+": 0.71,
+   "4-6": 1.15,
+   "7-9": 0.47
+  },
+  "İstanbul|Çim|orta": {
+   "1-3": 1.03,
+   "10+": 0.92,
+   "4-6": 1.07,
+   "7-9": 0.92
+  },
+  "İstanbul|Sentetik|kisa": {
+   "1-3": 1.16,
+   "10+": 1.03,
+   "4-6": 1.02,
+   "7-9": 0.72
+  },
+  "İstanbul|Çim|kisa": {
+   "1-3": 1.07,
+   "10+": 1.12,
+   "4-6": 0.99,
+   "7-9": 0.82
+  },
+  "Ankara|Kum|kisa": {
+   "1-3": 1.27,
+   "10+": 0.61,
+   "4-6": 0.8,
+   "7-9": 1.01
+  },
+  "Ankara|Çim|uzun": {
+   "1-3": 1.01,
+   "10+": 2.05,
+   "4-6": 0.66,
+   "7-9": 1.59
+  },
+  "Ankara|Kum|uzun": {
+   "1-3": 1.17,
+   "10+": 0.56,
+   "4-6": 0.91,
+   "7-9": 0.93
+  },
+  "Ankara|Kum|orta": {
+   "1-3": 1.17,
+   "10+": 0.55,
+   "4-6": 1.02,
+   "7-9": 0.8
+  },
+  "Ankara|Çim|kisa": {
+   "1-3": 0.93,
+   "10+": 1.31,
+   "4-6": 1.16,
+   "7-9": 0.72
+  },
+  "Diyarbakır|Kum|uzun": {
+   "1-3": 0.9,
+   "10+": 0.97,
+   "4-6": 0.99,
+   "7-9": 1.17
+  },
+  "Diyarbakır|Kum|kisa": {
+   "1-3": 0.77,
+   "10+": 1.52,
+   "4-6": 0.71,
+   "7-9": 1.21
+  },
+  "Diyarbakır|Kum|orta": {
+   "1-3": 0.73,
+   "10+": 1.56,
+   "4-6": 0.94,
+   "7-9": 0.96
+  },
+  "İzmir|Kum|kisa": {
+   "1-3": 1.22,
+   "10+": 0.73,
+   "4-6": 0.97,
+   "7-9": 0.89
+  },
+  "İzmir|Kum|orta": {
+   "1-3": 1.08,
+   "10+": 0.77,
+   "4-6": 1.08,
+   "7-9": 0.92
+  },
+  "Adana|Kum|kisa": {
+   "1-3": 1.23,
+   "10+": 1.05,
+   "4-6": 0.98,
+   "7-9": 0.71
+  },
+  "İstanbul|Sentetik|orta": {
+   "1-3": 1.54,
+   "10+": 1.03,
+   "4-6": 0.7,
+   "7-9": 0.65
+  },
+  "İstanbul|Sentetik|uzun": {
+   "1-3": 1.02,
+   "10+": 0.83,
+   "4-6": 0.98,
+   "7-9": 1.07
+  },
+  "Bursa|Kum|uzun": {
+   "1-3": 0.95,
+   "10+": 0.63,
+   "4-6": 1.3,
+   "7-9": 0.81
+  },
+  "Şanlıurfa|Kum|kisa": {
+   "1-3": 1.18,
+   "10+": 0.78,
+   "4-6": 1.38,
+   "7-9": 0.66
+  },
+  "Ankara|Çim|orta": {
+   "1-3": 1.18,
+   "10+": 1.04,
+   "4-6": 0.92,
+   "7-9": 0.81
+  },
+  "Kocaeli|Kum|kisa": {
+   "1-3": 0.72,
+   "10+": 1.42,
+   "4-6": 1.0,
+   "7-9": 1.08
+  },
+  "Kocaeli|Kum|uzun": {
+   "1-3": 1.04,
+   "10+": 1.57,
+   "4-6": 0.87,
+   "7-9": 0.83
+  },
+  "Kocaeli|Kum|orta": {
+   "1-3": 0.8,
+   "10+": 1.4,
+   "4-6": 0.98,
+   "7-9": 1.1
+  },
+  "İstanbul|Çim|uzun": {
+   "1-3": 1.28,
+   "10+": 1.11,
+   "4-6": 0.62,
+   "7-9": 1.1
+  },
+  "İzmir|Kum|uzun": {
+   "1-3": 0.86,
+   "10+": 1.23,
+   "4-6": 0.78,
+   "7-9": 1.37
+  },
+  "Bursa|Çim|kisa": {
+   "1-3": 1.18,
+   "10+": 0.8,
+   "4-6": 1.08,
+   "7-9": 0.84
+  },
+  "Bursa|Çim|orta": {
+   "1-3": 0.98,
+   "10+": 0.8,
+   "4-6": 1.58,
+   "7-9": 0.61
+  },
+  "Bursa|Çim|uzun": {
+   "1-3": 0.86,
+   "10+": 0.52,
+   "4-6": 1.36,
+   "7-9": 1.09
+  },
+  "Şanlıurfa|Kum|orta": {
+   "1-3": 1.06,
+   "10+": 1.0,
+   "4-6": 0.21,
+   "7-9": 1.75
+  },
+  "Elazığ|Kum|kisa": {
+   "1-3": 1.55,
+   "10+": 0.4,
+   "4-6": 1.13,
+   "7-9": 0.65
+  },
+  "Elazığ|Kum|orta": {
+   "1-3": 1.05,
+   "10+": 1.04,
+   "4-6": 1.05,
+   "7-9": 0.84
+  },
+  "Elazığ|Kum|uzun": {
+   "1-3": 0.7,
+   "10+": 1.53,
+   "4-6": 0.84,
+   "7-9": 1.09
+  },
+  "Adana|Sentetik|kisa": {
+   "1-3": 0.88,
+   "10+": 1.09,
+   "4-6": 1.16,
+   "7-9": 0.86
+  },
+  "Adana|Sentetik|orta": {
+   "1-3": 0.86,
+   "10+": 0.81,
+   "4-6": 0.86,
+   "7-9": 1.57
+  }
+ }
+}
