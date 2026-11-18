@@ -1,9 +1,10 @@
-"""Tek komutla günlük analiz. Kullanım: python3 scripts/gunluk.py GG.AA.YYYY [galop]
-Türkiye hipodromlarının programını, CSV'sini (ve istenirse galopunu) indirir, v5 analizini çalıştırır.
+"""Tek komutla günlük analiz. Kullanım: python3 scripts/gunluk.py GG.AA.YYYY [galopsuz|tjkgalop]
+Türkiye hipodromlarının programını, CSV'sini, hava tahminini ve galoplarını (pegadrom; tjkgalop ile TJK) indirir, analizi çalıştırır.
 Çıktı: analizler/YYYY-AA-GG_<hipodrom>.txt"""
 import sys,os,re,subprocess,urllib.parse,datetime,json
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date()
-galop=len(sys.argv)>2 and sys.argv[2]=='galop'
+mod=sys.argv[2] if len(sys.argv)>2 else 'pegadrom'
+if mod=='galop': mod='pegadrom'
 TR={'İstanbul','Ankara','İzmir','Bursa','Adana','Kocaeli','Elazığ','Diyarbakır','Şanlıurfa','Antalya'}
 era='today' if g==datetime.date.today() else ('tomorrow' if g>datetime.date.today() else 'past')
 tmp=os.path.join(K,'.gunluk',g.isoformat()); os.makedirs(tmp,exist_ok=True)
@@ -19,7 +20,9 @@ for sid,ad in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<
     if not get(f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{enc}-GunlukYarisProgrami-TR.csv",c):
         print(ad,': CSV alınamadı'); continue
     idm=os.path.join(tmp,ad+'_idman.json')
-    if galop: subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','idman.py'),h,idm,era])
+    nk=sum(1 for l in open(c,encoding='utf-8-sig') if re.match(r'^\d+\. Kosu',l))
+    if mod=='pegadrom': subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','galop_pegadrom.py'),g.isoformat(),ad,str(nk),idm])
+    elif mod=='tjkgalop': subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','idman.py'),h,idm,era])
     if not os.path.exists(idm): open(idm,'w').write('{}')
     hv=os.path.join(tmp,ad+'_hava.json')
     r_=subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','hava.py'),'tahmin',g.strftime('%d.%m.%Y'),ad],capture_output=True,text=True)
