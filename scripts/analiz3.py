@@ -2,7 +2,9 @@
 Olasılık = grup (ırk x zemin x mesafe) özel koşullu logit; galop küçük ek düzeltme (geri test edilmedi)."""
 import sys,re,html,json,math,datetime
 import numpy as np
-ph,pc,mj,pj,HIP=sys.argv[1:6]; M=json.load(open(mj,encoding='utf-8')); PR=json.load(open(pj,encoding='utf-8'))
+ph,pc,mj,pj,HIP=sys.argv[1:6]; M=json.load(open(mj,encoding='utf-8'))
+import os
+MA=json.load(open(os.path.join(os.path.dirname(mj),'model_agfsiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(os.path.dirname(mj),'model_agfsiz.json')) else None; PR=json.load(open(pj,encoding='utf-8'))
 ID=json.load(open(sys.argv[6],encoding='utf-8')) if len(sys.argv)>6 else {}
 KJ=json.load(open(sys.argv[7],encoding='utf-8')) if len(sys.argv)>7 else {'kosu_turu':{},'jokey':{}}
 def aile(h):
@@ -57,7 +59,9 @@ for r in races:
     h=r['h']
     if len(h)<2: continue
     seg=f"{r['irk']}|{r['pist']}|{r['bant']}"; mseg=f"{r['irk']}|{r['aile']}" if M.get('segmod')=='tur' else seg
-    W=np.array(M['grup'].get(mseg,M['genel']))
+    qq=np.array([x['agf'] for x in h]); agf_yok=qq.std()<1e-6
+    MM=MA if (agf_yok and MA) else M
+    W=np.array(MM['grup'].get(mseg,MM['genel']))
     X=[]
     for x in h:
         fm=re.findall(r'([KÇS])(\d)',x['son6']); pts=[(10-int(q)) if q!='0' else 0 for _,q in fm]
@@ -67,22 +71,23 @@ for r in races:
         x['ku']=ae(M['kulvar'],f"{HIP}|{r['pist']}|{r['bant']}|{kova(x['st'])}",pr=10)
         x['jae']=ae(M.get('jokey',{}),f"{r['irk']}|{x['jok']}",pr=10)
         X.append([x['hp'],x['s20'],form,pf,math.log(x['bae']),math.log(x['ku']),math.log(max(x['agf'],0.3)),float(x['kgs']>60),float(x['ap']),x['yas'],x['kg']]+([math.log(x['jae'])] if len(W)==12 else []))
-    X=np.array(X,float); sd=X.std(0); sd[sd==0]=1; Z=(X-X.mean(0))/sd; Z[:,6]=X[:,6]-X[:,6].mean()
+    X=np.array(X,float); sd=X.std(0); sd[sd==0]=1; Z=np.clip((X-X.mean(0))/sd,-2.5,2.5); Z[:,6]=X[:,6]-X[:,6].mean()
+    if agf_yok: Z[:,6]=0
     u=Z@W
     g=[galop(x['ad']) for x in h]; t4=[a for a,_,_ in g if a]; best=min(t4) if t4 else None
     gp=np.array([0.6*(max(0,1-(a-best)/4) if a and best else 0.3)+0.4*(0 if fk is None else 1 if fk<=7 else .6 if fk<=14 else .3 if fk<=30 else 0) for a,fk,_ in g])
     u=u+0.5*(gp-gp.mean())   # galop düzeltmesi (küçük)
     p=np.exp(u-u.max()); p/=p.sum(); q=np.array([x['agf'] for x in h]); q=q/q.sum()
     pro=PR['segment'].get(seg,{}); a_=pro.get('ae',{}); ic=a_.get('start 1-3',{}).get('piyasa_ae')
-    print(f"\n=== {r['bas']}  [{seg}]")
+    print(f"\n=== {r['bas']}  [{seg}]"+("  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)" if agf_yok else ""))
     kt=KJ['kosu_turu'].get(f"{r['irk']}|{r['tip']}",{})
     print(f"    Zemin/mesafe profili: favori %{pro.get('favori_kazanma','?')} kazanıyor, ort. {pro.get('ort_alan','?')} at; iç kulvar (1-3) piyasaya göre {ic}")
     if kt: print(f"    Koşu türü ({r['tip']}): {kt['kosu']} koşu örneği, favori %{kt['favori']}, HP lideri %{kt['hp_lideri']}, tipik HP {kt['hp_p10']}-{kt['hp_p90']}")
     srt=np.argsort(-p)
     for i in srt[:5]:
-        x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.3 and p[i]>=0.08 else ''
+        x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.3 and p[i]>=0.08 and not agf_yok else ''
         bt=f" → {x['bitis']}." if x['bitis'] else ''
-        print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}) AGF %{100*q[i]:4.1f}{isaret} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {x['jok'][:12]} (jokey A/E {x['jae']:.2f}) st {x['st']} | {g[i][2]}{bt}")
+        print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret} HP{x['hp']} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {x['jok'][:12]} (jokey A/E {x['jae']:.2f}) st {x['st']} | {g[i][2]}{bt}")
     kaz=[i for i,x in enumerate(h) if x['bitis']==1]
     if kaz: sk[2]+=1; sk[0]+=srt[0]==kaz[0]; sk[1]+=kaz[0] in srt[:3]
 if sk[2]: print(f"\nBugün biten koşular: {sk[2]} | 1. seçim kazandı {sk[0]} | kazanan ilk 3'te {sk[1]}")

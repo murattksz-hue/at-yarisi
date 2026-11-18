@@ -4,7 +4,7 @@ Kullanım: model.py sonuc_dizini program_dizini test_baslangic(YYYY-AA-GG) cikti
 - Önce tüm koşular için genel ağırlıklar, sonra her grup için genel ağırlığa çekilen (L2) özel ağırlıklar öğrenilir."""
 import sys,glob,os,re,json,collections,math
 import numpy as np
-SD,PD,T,OUT=sys.argv[1:5]; LAM=float(sys.argv[5]) if len(sys.argv)>5 else 1000.0; SEGMOD=sys.argv[6] if len(sys.argv)>6 else 'irk'
+SD,PD,T,OUT=sys.argv[1:5]; LAM=float(sys.argv[5]) if len(sys.argv)>5 else 1000.0; SEGMOD=sys.argv[6] if len(sys.argv)>6 else 'irk'; AGFSIZ=len(sys.argv)>7 and sys.argv[7]=='agfsiz'
 def aile(h):
     s=h.upper()
     for pat,ad in [(r'G ?[123]\b','Grup'),(r'KV','KV'),(r'SATI','Satış'),(r'MAIDEN|MAİDEN|ŞARTLI ?-?19','Maiden'),(r'ŞARTLI','Şartlı'),(r'HANDİKAP|HANDIKAP','Handikap')]:
@@ -69,8 +69,9 @@ def ozellik(r,hip,loo):
         jk=ae(JK,f"{r['irk']}|{x['jok']}",w,e,pr=10,loo=loo)
         X.append([x['hp'],x['s20'],form,pf,math.log(ba),math.log(ku),math.log(max(x['agf'],0.3)),float(x['kgs']>60),float(x['ap']),x['yas'],x['kg'],math.log(jk)])
     X=np.array(X,float); sd=X.std(0); sd[sd==0]=1
-    Z=(X-X.mean(0))/sd
+    Z=np.clip((X-X.mean(0))/sd,-2.5,2.5)   # küçük alanlarda uç değer şişmesini sınırla
     Z[:,6]=X[:,6]-X[:,6].mean()   # AGF: ham log oran (ölçeği anlamlı)
+    if AGFSIZ: Z[:,6]=0            # AGF'siz model (bahis açılmadan önce)
     return Z
 # ---- 2) program + sonuç eşle
 egit,test=[],[]
@@ -147,5 +148,5 @@ for b,rs in SON.items():
             AY2[f"{r['irk']}|{x['baba']}|genel"][0]+=w; AY2[f"{r['irk']}|{x['baba']}|genel"][1]+=1/n
             k=f"{hip}|{r['pist']}|{r['bant']}|{kova(x['st'])}"; KU2[k][0]+=w; KU2[k][1]+=1/n
             JK2[f"{r['irk']}|{x['jok']}"][0]+=w; JK2[f"{r['irk']}|{x['jok']}"][1]+=1/n
-json.dump(dict(ozellikler=FEAT,genel=wg.tolist(),grup={k:v.tolist() for k,v in SEG.items()},test_baslangic=T,
+json.dump(dict(agfsiz=AGFSIZ,ozellikler=FEAT,genel=wg.tolist(),grup={k:v.tolist() for k,v in SEG.items()},test_baslangic=T,
     aygir={k:[v[0],round(v[1],3)] for k,v in AY2.items()},kulvar={k:[v[0],round(v[1],3)] for k,v in KU2.items()},jokey={k:[v[0],round(v[1],3)] for k,v in JK2.items()},segmod=SEGMOD),open(OUT,'w'),ensure_ascii=False)

@@ -129,3 +129,10 @@ Not: eşit kilo/HP'li atlar eşit sıra alır (önceki sürümde sonuç dosyası
 
 - Ağırlıklar (genel): AGF 0,99; yaş -0,15 (yaşlı atlar fazla oynanıyor); form -0,08 (halk son forma fazla güveniyor); kilo -0,08; uzun ara -0,07; kulvar +0,06; jokey ≈0 (piyasa fiyatlıyor).
 - Değer bahsi (olasılık > piyasa×1,3, oran ≤30) başabaşa geldi: 830 bahiste %100. Örnek hâlâ küçük; ±%15 belirsizlik var.
+
+## AGF'siz model (bahis açılmadan önce) – eklendi 18.11.2026
+- Yarının programında AGF boş olur. AGF'ye dayanan v5 o zaman anlamsızlaşır; `analiz3.py` AGF yoksa otomatik olarak `veri/model_agfsiz.json` kullanır ve değer işareti koymaz.
+- Test (542 görülmemiş koşu): 1. seçim %27,5, ilk 3 %59,8 (AGF favorisi %30,6 / %64,4). Değer bahsi getirisi %81: sadece sıralama için, değer için değil.
+- Ağırlıklar (AGF yokken): HP 0,32, pist formu 0,31, jokey 0,18, s20 0,14, form 0,12; uzun ara -0,23, yaş -0,19, apranti -0,18.
+- Standartlaştırılmış özellikler ±2,5 ile sınırlandı (test sonucunu değiştirmedi). Uyarı: 5–6 atlık küçük alanlarda olasılıklar fazla iddialı çıkabiliyor.
+- Antalya sezonu yeni başladığı için Antalya kulvar istatistiği henüz yok (nötr kabul ediliyor).
