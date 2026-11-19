@@ -207,3 +207,35 @@ Yöntem (`scripts/ozellik_test.py`): her atın geçmişi yalnızca önceki koşu
 - Halk sınıf, kilo, jokey ve ekipman değişikliğini zaten fiyatlıyor; bizim verimizde bunların ek bilgisi yok. Hız puanı ise halkın tam kullanmadığı bilgi.
 - Hız puanı: `-1000 × ((süre - par)/par - günlük değişken)`. Par = aynı hipodrom+pist+mesafe+ırkta önceki günlerin kazanan süre medyanı (≥4 örnek). Değişken = o gün o pistte kazananların par'dan sapma medyanı. 0 = ortalama kazanan; +10 ≈ %1 daha hızlı.
 - Kalıcılık: 180 günlük sonuç CSV'leri `veri/sonuc/` içinde. `gunluk.py` her çalıştığında son 10 günün eksik sonuçlarını indirip `veri/hiz_puani.json`'ı yeniden üretir.
+
+## Eküri – eklendi 19.11.2026
+- Aynı sahip/antrenörün atları tek bahis birimidir: ganyan oranları aynıdır, biri kazanırsa ganyan kazanır (sonuç dosyasında örnek: ALPLİ ve YAZ MELTEMİ ikisi de 3,15).
+- Eküri bilgisi program HTML'indeki `tablo-ekuri` satırından ve CSV'deki "[(..)AD,(..)AD,] eküridir" satırından okunur.
+- **Düzeltilen hata:** önceki testlerde ganyandan piyasa olasılığı hesaplanırken eküri iki kez sayılıyordu. Düzeltmeyle sadece-piyasa log-olabilirliği -1,8806'dan -1,8762'ye iyileşti (piyasa olasılıkları daha doğru).
+- `analiz3.py` eküri atlarını [EKÜRİ] diye işaretler ve birlikte olasılığını/adil oranını yazar.
+
+## Sürpriz analizi (2.464 koşu, eküri tek birim; `veri/surpriz.txt`)
+| Durum | Favori kazanır | Ganyan ≥10 kazanır |
+|---|---|---|
+| Tümü | %34,1 | %17,8 |
+| ≤7 bahis birimi | %44,9 | %8,8 |
+| 14+ bahis birimi | %27,9 | %29,1 |
+| Arap Handikap | %25,9 | %27,2 |
+| İngiliz KV | %43,0 | %8,1 |
+| İngiliz Şartlı | %42,1 | %11,4 |
+
+Favori–sürpriz yanlılığı (oran kovasına göre piyasa A/E ve 1 TL getirisi): ganyan 1–5 ≈1,00 (%68–70); **5–20: 1,05–1,06 (%75)**; 20–50: 0,83 (%57); 50+: 0,42 (%26). Çok uç oranlı atlar sistematik olarak fazla oynanıyor. Hiçbir kova tek başına ~%30 kesintiyi aşmıyor.
+`analiz3.py` her koşuya geçmişe dayalı sürpriz riskini yazar (bahis birimi sayısı ve ırk × koşu türüne göre).
+
+## Jokey tablosu (`veri/jokey_tablo.json`, `scripts/jokey_tablo.py`)
+- Her jokey için gerçek sayılar: 180 gün biniş/galibiyet/yüzde, son 30 gün, hipodrom bazında, favoriyle kazanma, piyasa A/E (eküri düzeltmeli).
+- Örnek: N.AVCİ %20,8 (600 biniş), İzmir 49/182, favoride 33/89, piyasa A/E 1,14. A.SÖZEN %8,0, piyasa A/E 0,66.
+- Not: önceki tabloda piyasa A/E'de pay/payda uyumsuzluğu vardı (oranı eksik koşulardaki galibiyetler paya giriyordu); düzeltildi.
+
+## Kupon ve ikili olasılıkları (`scripts/kupon.py`)
+- Çoklu ganyan (5'li/6'lı/7'li): her adımda (isabet olasılığı artışı / maliyet artışı) en iyi olan at eklenir; bütçe sınırı. Çıktı: her ayak, ayak kapsaması, kombinasyon sayısı, maliyet, modele göre isabet olasılığı.
+- İkili / sıralı ikili: Harville formülü P(i 1., j 2.) = p_i·p_j/(1−p_i). Literatürde Harville'in sürpriz atların 2.liğini biraz abarttığı bilinir.
+- `gunluk.py` her analiz dosyasının sonuna kuponu ekler (varsayılan 1 TL birim, 300 TL bütçe).
+
+## AGF hareketi
+- Geç gelen para (1. ve 2. AGF arası değişim) için geçmiş veri yok. `gunluk.py` her çalıştığında program CSV'sinin saat damgalı kopyasını `veri/agf_kayit/` altına saklar; birkaç gün biriktikten sonra test edilecek.
