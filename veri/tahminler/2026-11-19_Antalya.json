@@ -1,0 +1,574 @@
+[
+{
+"kosu": "1",
+"baslik": "1. Kosu :   17.45 Handikap 15 /H2 2 Yaşlı İngilizler kg 1400m Sentetik",
+"coklu_ganyan_baslar": [
+6
+],
+"agf_yok": false,
+"atlar": [
+{
+"no": "1",
+"ad": "ELSENORDELOSCIELOS",
+"p": 0.029,
+"agf": 0.0389,
+"ekuri": true
+},
+{
+"no": "2",
+"ad": "YONAGUNI",
+"p": 0.081,
+"agf": 0.0565,
+"ekuri": true
+},
+{
+"no": "3",
+"ad": "FATHERSD",
+"p": 0.6145,
+"agf": 0.7186,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "DRAGON IS FATHER",
+"p": 0.0539,
+"agf": 0.0495,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "SPIDER",
+"p": 0.1553,
+"agf": 0.0891,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "KING İZZET",
+"p": 0.0559,
+"agf": 0.0375,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "BERNAMCAN",
+"p": 0.0105,
+"agf": 0.0099,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "2",
+"baslik": "2. Kosu :   18.30 Maiden/DHÖW 3 Yaşlı Araplar 57.00kg 1400m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"atlar": [
+{
+"no": "1",
+"ad": "ÇAĞIM",
+"p": 0.2141,
+"agf": 0.2109,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "CİHANDERE",
+"p": 0.1047,
+"agf": 0.0994,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "KONGUR",
+"p": 0.1157,
+"agf": 0.1474,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "MERDÜMGİRİZ",
+"p": 0.2116,
+"agf": 0.1465,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "SÜLEYMAN AĞA",
+"p": 0.0603,
+"agf": 0.0596,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "ASUMAN ABLA",
+"p": 0.0048,
+"agf": 0.0045,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "İNCİ MELEK",
+"p": 0.1749,
+"agf": 0.205,
+"ekuri": false
+},
+{
+"no": "8",
+"ad": "KARUK GÜZELİ",
+"p": 0.0572,
+"agf": 0.0731,
+"ekuri": false
+},
+{
+"no": "9",
+"ad": "VİÇE HANIM",
+"p": 0.0518,
+"agf": 0.0488,
+"ekuri": false
+},
+{
+"no": "10",
+"ad": "VENÜS YILDIZI",
+"p": 0.005,
+"agf": 0.0048,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "3",
+"baslik": "3. Kosu :   19.00 ŞARTLI 4/DHT 4 ve Yukarı Araplar 58.00kg 58.50 kg 1300m",
+"coklu_ganyan_baslar": [
+6
+],
+"agf_yok": false,
+"atlar": [
+{
+"no": "1",
+"ad": "RAVENCO",
+"p": 0.2114,
+"agf": 0.2221,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "ROCKSTAR",
+"p": 0.2477,
+"agf": 0.2278,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "KIRKLAR DAĞI",
+"p": 0.2368,
+"agf": 0.2285,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "EFE METE BEY",
+"p": 0.0236,
+"agf": 0.0196,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "CANOĞLUCAN",
+"p": 0.0212,
+"agf": 0.0329,
+"ekuri": true
+},
+{
+"no": "6",
+"ad": "KULAGER",
+"p": 0.0111,
+"agf": 0.016,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "ŞİRİNMİŞİRİN",
+"p": 0.0187,
+"agf": 0.0284,
+"ekuri": false
+},
+{
+"no": "8",
+"ad": "AKLIMCAN",
+"p": 0.0281,
+"agf": 0.0285,
+"ekuri": true
+},
+{
+"no": "9",
+"ad": "BARINBEY",
+"p": 0.0704,
+"agf": 0.0899,
+"ekuri": false
+},
+{
+"no": "10",
+"ad": "DEĞERHAN",
+"p": 0.1212,
+"agf": 0.0893,
+"ekuri": false
+},
+{
+"no": "11",
+"ad": "ÜLGENHAN",
+"p": 0.0099,
+"agf": 0.0171,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "4",
+"baslik": "4. Kosu :   19.30 Maiden/DHÖW 3 Yaşlı Araplar 57.00kg 1400m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"atlar": [
+{
+"no": "1",
+"ad": "MUKATOVİÇ",
+"p": 0.2647,
+"agf": 0.2724,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "AĞIR ŞEKİL",
+"p": 0.0192,
+"agf": 0.0358,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "EYMEN EFE",
+"p": 0.0069,
+"agf": 0.0098,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "KÜÇÜK ŞOVALYE",
+"p": 0.0505,
+"agf": 0.042,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "TUGUNTAY",
+"p": 0.009,
+"agf": 0.0119,
+"ekuri": true
+},
+{
+"no": "6",
+"ad": "YAĞIZSOY",
+"p": 0.1002,
+"agf": 0.0838,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "ÇİLDUTAY",
+"p": 0.039,
+"agf": 0.0498,
+"ekuri": true
+},
+{
+"no": "8",
+"ad": "ASTAKOS",
+"p": 0.272,
+"agf": 0.3159,
+"ekuri": false
+},
+{
+"no": "9",
+"ad": "ATAKÖY GÜZELİ",
+"p": 0.0254,
+"agf": 0.0201,
+"ekuri": false
+},
+{
+"no": "10",
+"ad": "CANSEFİRE",
+"p": 0.21,
+"agf": 0.1565,
+"ekuri": false
+},
+{
+"no": "11",
+"ad": "MADAM BONANZA",
+"p": 0.003,
+"agf": 0.0019,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "5",
+"baslik": "5. Kosu :   20.00 Handikap 16 /H1 3 ve Yukarı İngilizler kg 1300m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"atlar": [
+{
+"no": "1",
+"ad": "RUSHMORE",
+"p": 0.016,
+"agf": 0.0227,
+"ekuri": true
+},
+{
+"no": "2",
+"ad": "HOLA Y CHAO",
+"p": 0.3119,
+"agf": 0.2496,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "BIG HONEY",
+"p": 0.2101,
+"agf": 0.2331,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "CHOSEN ONE",
+"p": 0.2582,
+"agf": 0.2429,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "TANGÜL HANIM",
+"p": 0.0225,
+"agf": 0.0315,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "COMING RAIN",
+"p": 0.0036,
+"agf": 0.0054,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "GOLDEN SKIN",
+"p": 0.0028,
+"agf": 0.0031,
+"ekuri": false
+},
+{
+"no": "8",
+"ad": "BLACK SHINING",
+"p": 0.0214,
+"agf": 0.0241,
+"ekuri": false
+},
+{
+"no": "9",
+"ad": "SHEER FORCE",
+"p": 0.1343,
+"agf": 0.1495,
+"ekuri": false
+},
+{
+"no": "10",
+"ad": "ALASER",
+"p": 0.0193,
+"agf": 0.0381,
+"ekuri": true
+}
+]
+},
+{
+"kosu": "6",
+"baslik": "6. Kosu :   20.30 ŞARTLI 4 3 Yaşlı İngilizler 58.00kg 2000m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"atlar": [
+{
+"no": "1",
+"ad": "SERREŞ",
+"p": 0.0125,
+"agf": 0.0121,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "YOU ARE BIG",
+"p": 0.4107,
+"agf": 0.3636,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "BAHRİYELİ ÇİKOK",
+"p": 0.1858,
+"agf": 0.1526,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "EL ALACRAN",
+"p": 0.1351,
+"agf": 0.1802,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "GRAY MOON",
+"p": 0.102,
+"agf": 0.1142,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "BLACK BLAZE",
+"p": 0.1459,
+"agf": 0.1681,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "PİTON KIZ",
+"p": 0.008,
+"agf": 0.0093,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "7",
+"baslik": "7. Kosu :   21.00 KV-8 3 ve Yukarı İngilizler 57.00kg 60.00 kg 60.00 kg",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"atlar": [
+{
+"no": "1",
+"ad": "EL INTOCABLE",
+"p": 0.0982,
+"agf": 0.1429,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "KING OF MUNZUR",
+"p": 0.1023,
+"agf": 0.1354,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "SWORD MASTER",
+"p": 0.2535,
+"agf": 0.3136,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "NINE TREES",
+"p": 0.1545,
+"agf": 0.1733,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "WHISPER OF VICTORY",
+"p": 0.3915,
+"agf": 0.2348,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "8",
+"baslik": "8. Kosu :   21.30 Maiden/DHÖW 3 Yaşlı Araplar 57.00kg 1400m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"atlar": [
+{
+"no": "1",
+"ad": "ASİLİN GÜCÜ",
+"p": 0.0261,
+"agf": 0.0264,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "KANDIRALI",
+"p": 0.0541,
+"agf": 0.0389,
+"ekuri": true
+},
+{
+"no": "3",
+"ad": "MİREKTAY",
+"p": 0.0555,
+"agf": 0.0445,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "YEŞİL BEY",
+"p": 0.0116,
+"agf": 0.0148,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "YIRTIL REHA",
+"p": 0.0545,
+"agf": 0.0462,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "BAŞKUT ANA",
+"p": 0.0733,
+"agf": 0.0881,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "KAYANİLİM",
+"p": 0.4035,
+"agf": 0.3037,
+"ekuri": true
+},
+{
+"no": "8",
+"ad": "ASİ GÖNÜL",
+"p": 0.2996,
+"agf": 0.4179,
+"ekuri": false
+},
+{
+"no": "9",
+"ad": "GÖKSU KATUN",
+"p": 0.0075,
+"agf": 0.0085,
+"ekuri": false
+},
+{
+"no": "10",
+"ad": "HATUNUM SULTAN",
+"p": 0.0038,
+"agf": 0.0044,
+"ekuri": false
+},
+{
+"no": "11",
+"ad": "REFİYE",
+"p": 0.0104,
+"agf": 0.0066,
+"ekuri": false
+}
+]
+}
+]
