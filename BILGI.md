@@ -553,3 +553,10 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Piyasada da aynı ilişki var: favori olasılığı <%25 olan 2114 koşuda favori %22,8 kazandı, ilk 5 %76,1. Favori ≥%50 olan 935 koşuda favori %60,7, ilk 3 %85,9.
 - Altılı kuponu (`kupon.py`) zaten bu mantıkla çalışıyor: her adımda isabet artışı / maliyet artışı en iyi olan at eklenir. Belirsiz ayak genişler, net ayak tek kalır.
 - **19.11 sabah verisiyle (11:31, koşulardan önce) geriye dönük kontrol, kural bugünkü koşulara göre ayarlanmadı:** İzmir 1 LADY ECRİN (ORTA 4, listede ✅), İzmir 2 ÖZASYALI (BELİRSİZ 6 ✅), İzmir 3 MADEİRA (BELİRSİZ 6 ✅), İzmir 4 ZENITH SKY (ORTA 4 ✅), İzmir 5 WOLF DED (ORTA 3 ✅), **İzmir 6 ÇORLİ (NET 1, QUEEN OF MUĞLA ❌; büyük sürpriz)**, İzmir 7 APOLLO MAXIMUS (BELİRSİZ 5 ✅), Antalya 1 SPIDER (NET 2 ✅), Antalya 2 CİHANDERE (BELİRSİZ 5 ✅). Sonuç 8/9. Tek gün, şans payı büyük; canlı testte izlenecek.
+
+## Veri kaynağı: ebayi.org (TJK'nın resmî internet bayisi; robots.txt "Allow: /") — 19.11.2026
+- Statik JSON: `https://ebayi.org/s/d/{program|sonuclar}/{YYYYMMDD}/yarislar.json` ve `.../full/{HIPODROM}.json` (ayrıca agf/, hava/, kosular/). 2024 günleri mevcut. 2022-10-10 için 404 döndü; o gün Antalya'da yarış olmayabilir, kesin alt sınır doğrulanmadı.
+- At başına alanlar: KOD (benzersiz at kodu), BABA/ANNE/ANNEBABA ve kodları, JOKEY/SAHİP/ANTRENÖR kodları, KILO, HANDIKAP, AGF1/AGF2 (1. ve 2. altılı), GANYAN, SON6 (pist harfiyle, ör. K3C7 = kumda 3., çimde 7.), SON20, **KGS (son koşudan beri gün)**, TAKI, **SATISBEDELI (atın satış fiyatı)**, YETİŞTİRİCİ, KOSMAZ, EKURI; sonuçta SONUC, DERECE, FARK.
+- Doğrulama: 18.11 İstanbul 1. koşu TJK CSV'siyle birebir aynı (DİLBERAN 1., ganyan 13,30, AGF %4,15).
+- İndirme: `scripts/ebayi_indir.py .gunluk/ebayi 2024-01-01` (1 sn aralık, Türkiye hipodromları). Sonra satış bedeli, KGS ve anne babası özellikleri gerçek veriyle test edilecek.
+- Sitede "sabit ihtimalli bahis" de var. TJK koşuları için sabit oran verip vermediği henüz incelenmedi.
