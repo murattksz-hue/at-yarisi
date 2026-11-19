@@ -431,3 +431,6 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - 19.11 Antalya örnekleri (AGF 10:12 → 15:59): YOU ARE BIG %23→%70, SWORD MASTER %20→%51, CANSEFİRE %10→%27, DEĞERHAN %5→%13, BAŞKUT ANA %5→%14.
 - Uyarı: AGF'nin bir kısmı mekanik değişir (sabah az kupon → dağınık yüzdeler). 1,5× eşiği 69 attan 14'ünü işaretledi; eşik veriyle ayarlanacak.
 - **Henüz test edilmedi; olasılığa katılmıyor.** Test: işaretli atlar piyasaya (kesin ganyan) göre fazla mı kazanıyor? Kayıtlar biriktikçe.
+- Yakın takip (kullanıcı isteği): koşu günü AGF + ganyan **10 dakikada bir** (`scripts/agf_dongu.sh`, 22:15'e kadar; kilitle tek kopya; saatlik görev durmuşsa yeniden başlatır).
+- `scripts/takip_rapor.py GG.AA.YYYY Hipodrom [koşu]`: her koşunun en çok oynanan 5 atı için AGF ve ganyanın sabahtan koşuya seyri, bitiş ve kesin ganyan.
+- 19.11 Antalya 6. koşu örneği: YOU ARE BIG AGF %23 (10:12) → %36 (11:31) → %70 (15:54); aynı anda ganyan 4,95 (havuz yeni). Altılı oynayanlar toplanmış, ganyan henüz değil.
