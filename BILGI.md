@@ -298,3 +298,20 @@ Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
 - Yeniden üretildi: hız puanı (9.593 at), jokey tablosu (238), koşu türleri (31 tür, 17 kod), sürpriz, koşu türü/jokey, ırk×zemin×mesafe profilleri, model aygır/kulvar/jokey tabloları.
 - AGF'li model testte değişmedi (-1,855); AGF'siz model iyileşti (-2,011 → -2,006; ilk 3 %60,0 → %60,9).
 - Uzun veriyle sürpriz: favori %35,3, ganyan ≥10 kazanan %15,8 (7.921 koşu).
+
+## v8: bütün etkenler AGF ile birlikte eğitildi – 19.11.2026
+- `scripts/gecmis_ozellik.py`: her at-koşu için yalnızca önceki günlerden hız puanı (en iyi-3, son), pist-mesafe galibi, pist galibi, deneyim, sahip, galop (100.521 kayıt).
+- `scripts/model8.py` = v6 + bu özellikler (aynı kronolojik eğitim; test 19.10–18.11, 542 koşu).
+
+| Test | log-olabilirlik | 1. seçim | ilk 3 |
+|---|---|---|---|
+| Sadece AGF | -1,868 | %30,6 | %64,4 |
+| v6 | -1,855 | %31,5 | %65,5 |
+| **v8** | **-1,849** | **%32,1** | **%67,0** |
+| AGF'siz v6 | -2,006 | %27,3 | %60,9 |
+| **AGF'siz v8** | **-1,963** | **%29,3** | %60,3 |
+
+- v8 ağırlıkları (genel): AGF 0,92; hız en iyi-3 0,12; pist-mesafe galibi 0,12; kulvar 0,06; ıslak×AGF 0,08; yaş -0,15; form -0,10; uzun ara -0,09; kilo -0,08; deneyim -0,06 (AGF ile birlikte işaret değişti).
+- Galop eğitim döneminde yok (galop verisi yalnızca son 30 gün) → v8'de galop ağırlığı 0; galop ayrı doğrulanmış ağırlıklarla (`veri/galop_agirlik.json`) eklenmeye devam ediyor. Galop geçmişi biriktikçe v8'e katılacak.
+- v8 olasılıkları daha temkinli (ör. BEAUTY ALYA %43 → %33): kalibrasyon testindeki aşırı iyimserliği azaltıyor.
+- Canlı test: 19.11 için hem sabahki v6 hem v8 tahminleri koşudan önce donduruldu (`veri/tahminler/*_v8.json`); `canli_takip.py` ikisini ayrı kaydeder (`veri/canli_takip.csv`, `veri/canli_takip_v8.csv`).

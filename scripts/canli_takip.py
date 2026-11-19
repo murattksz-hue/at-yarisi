@@ -3,8 +3,8 @@ Kullanım: canli_takip.py GG.AA.YYYY Hipodrom
 Sonuç kaynağı: TJK günlük program sayfası ("X. olarak bitirmiştir"). Biten koşular veri/canli_takip.csv'ye yazılır (aynı koşu bir kez)."""
 import sys,os,re,json,subprocess,urllib.parse,datetime,math,csv
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date(); hip=sys.argv[2]
-T=json.load(open(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{hip}.json"),encoding='utf-8'))
+g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date(); hip=sys.argv[2]; SURUM=sys.argv[3] if len(sys.argv)>3 else ''
+T=json.load(open(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{hip}{'_'+SURUM if SURUM else ''}.json"),encoding='utf-8'))
 era='today' if g==datetime.date.today() else 'past'
 tq=urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')
 ana=subprocess.run(['curl','-sS','--max-time','90',f"https://www.tjk.org/TR/YarisSever/Info/Page/GunlukYarisProgrami?QueryParameter_Tarih={tq}"],capture_output=True).stdout.decode('utf-8','replace')
@@ -16,9 +16,9 @@ bitis={}
 for v in re.findall(r'gunluk-GunlukYarisProgrami-AtAdi"[^>]*>(.*?)</td>',t,flags=re.S):
     m=re.search(r'>\s*([^<]+?)\s*<span',v); b=re.search(r'koşuyu (\d+)\. olarak',v)
     if m and b: bitis[m.group(1).strip()]=int(b.group(1))
-LOG=os.path.join(K,'veri','canli_takip.csv'); eski=set()
+LOG=os.path.join(K,'veri',f"canli_takip{'_'+SURUM if SURUM else ''}.csv"); eski=set()
 if os.path.exists(LOG): eski={(r['tarih'],r['hipodrom'],r['kosu']) for r in csv.DictReader(open(LOG,encoding='utf-8'))}
-yeni=[]; print(f"=== {hip} {g} canlı takip ({datetime.datetime.now(datetime.timezone.utc):%H:%M} UTC) ===")
+yeni=[]; print(f"=== {hip} {g} canlı takip {SURUM or 'v6 (sabah)'} ({datetime.datetime.now(datetime.timezone.utc):%H:%M} UTC) ===")
 for k in T:
     A=[dict(a,bitis=bitis.get(a['ad'])) for a in k['atlar']]
     if not any(a['bitis']==1 for a in A): print(f"  {k['kosu']}. koşu: henüz sonuç yok"); continue
@@ -52,3 +52,7 @@ if os.path.exists(LOG):
           +(f" | AGF favorisi kazandı {af}/{len(A_)} (%{100*af/len(A_):.0f})" if A_ else '')
           +(f" | ort. log-olasılık model {sum(a for a,_ in LL)/len(LL):.3f} vs AGF {sum(b for _,b in LL)/len(LL):.3f}" if LL else '')
           +(f" | ★DEĞER: {len(D)} at, kazanan {sum(x.endswith(':1') for x in D)}" if D else ''))
+
+v8=os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{hip}_v8.json")
+if not SURUM and os.path.exists(v8):
+    print(); subprocess.run([sys.executable,'-I',os.path.abspath(__file__),sys.argv[1],hip,'v8'])

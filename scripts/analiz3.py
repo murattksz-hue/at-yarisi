@@ -110,12 +110,12 @@ for ri,r in enumerate(races):
         x['jae']=ae(M.get('jokey',{}),f"{r['irk']}|{x['jok']}",pr=10)
         bw=math.log(ae(MM.get('aygir_islak',{}),f"{r['irk']}|{x['baba']}|ıslak",pr=3)/ae(MM.get('aygir_islak',{}),f"{r['irk']}|{x['baba']}|kuru",pr=3)) if wet else 0.0
         x['bw']=bw
-        X.append([x['hp'],x['s20'],form,pf,math.log(x['bae']),math.log(x['ku']),math.log(max(x['agf'],0.3)),float(x['kgs']>60),float(x['ap']),x['yas'],x['kg']]+([math.log(x['jae'])] if len(W)>=12 else [])+([0,0,bw] if len(W)==15 else []))
+        X.append([x['hp'],x['s20'],form,pf,math.log(x['bae']),math.log(x['ku']),math.log(max(x['agf'],0.3)),float(x['kgs']>60),float(x['ap']),x['yas'],x['kg']]+([math.log(x['jae'])] if len(W)>=12 else [])+([0,0,bw] if len(W)>=15 else []))
     X=np.array(X,float); sd=X.std(0); sd[sd==0]=1; Z=np.clip((X-X.mean(0))/sd,-2.5,2.5); Z[:,6]=X[:,6]-X[:,6].mean()
     if agf_yok: Z[:,6]=0
-    if len(W)==15:
+    if len(W)>=15:
         Z[:,12]=Z[:,0] if wet else 0; Z[:,13]=Z[:,6] if wet else 0; Z[:,14]=X[:,14]-X[:,14].mean()
-    u=Z@W
+    u=Z@W[:Z.shape[1]]
     g=[galop(x['ad']) for x in h]; t4=[a[0] for a in g if a[0]]; best=min(t4) if t4 else None
     GW=json.load(open(os.path.join(os.path.dirname(mj),'galop_agirlik.json')))['agirlik'] if os.path.exists(os.path.join(os.path.dirname(mj),'galop_agirlik.json')) else [1,0,0,0,0,0]
     v=np.array([a[0] if a[0] else np.nan for a in g]); vm=np.nanmean(v) if np.isfinite(v).any() else 0; vs=np.nanstd(v) if np.isfinite(v).sum()>1 else 1
@@ -134,7 +134,11 @@ for ri,r in enumerate(races):
         x['say']=H_.get('sayi',0); sh=HZS.get(x.get('sah',''),[0,0.0]); x['sah_ae']=(sh[0]+3)/(sh[1]+3)
     F={'hiz_en_iyi3':zf([x['hiz'] for x in h]),'hiz_son':zf([x['hiz_son'] for x in h]),'pist_mesafe_galibi':np.array([float(x['pmg']) for x in h]),
        'pist_galibi':np.array([float(x['pg']) for x in h]),'deneyim':zf([math.log(1+x['say']) for x in h]),'sahip':zf([math.log(x['sah_ae']) for x in h])}
-    ek_u=sum(GECMIS_W.get(k,0)*v for k,v in F.items()); u=u+ek_u-ek_u.mean()
+    if len(W)>=21:   # v8: geçmiş etkenleri AGF ile birlikte eğitildi; ağırlıklar modelin kendisinden
+        GW8=dict(zip(['hiz_en_iyi3','hiz_son','pist_mesafe_galibi','pist_galibi','deneyim','sahip'],W[15:21]))
+        ek_u=sum(GW8[k]*v for k,v in F.items())
+    else: ek_u=sum(GECMIS_W.get(k,0)*v for k,v in F.items())
+    u=u+ek_u-ek_u.mean()
     p=np.exp(u-u.max()); p/=p.sum(); q=np.array([x['agf'] for x in h]); q=q/q.sum()
     pro=PR['segment'].get(seg,{}); a_=pro.get('ae',{}); ic=a_.get('start 1-3',{}).get('piyasa_ae')
     print(f"\n=== {r['bas']}  [{seg}]"+("  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)" if agf_yok else ""))
