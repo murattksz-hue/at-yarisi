@@ -186,8 +186,12 @@ for ri,r in enumerate(races):
         elif pm>=0.50: print(f"    ★★ YÜKSEK GÜVEN (1. aday %{100*pm:.0f}): geçmişte bu düzeyde 1. aday %69 kazandı, ilk 2'de %83 (koşuların %13'ü)")
         elif pm>=0.45: print(f"    ★ GÜVEN (1. aday %{100*pm:.0f}): geçmişte bu düzeyde 1. aday %54 kazandı, ilk 2'de %72 (koşuların %20'si)")
         else: print(f"    Güven düşük (1. aday %{100*pm:.0f}): bu düzeyde 1. aday ~%25-45 kazanıyor; atlamayı düşün")
-    KA=int(kd.get('oneri_at',5)) if kd.get('kosu',0)>=30 else 5; ik_=(kd.get('ilk_k') or {}).get(str(KA))
-    print(f"    ► ÖNERİLEN ADAY SAYISI: {KA} at"+(f" (bu türde geçmişte kazanan, sıralamanın ilk {KA} atı içinden %{ik_} çıktı; ilk 3'ten %{kd['ilk_k']['3']})" if ik_ else '')+": "+', '.join(f"#{h[i]['no']} {h[i]['ad']}" for i in srt[:KA]))
+    # koşuya özel aday sayısı: model olasılıkları toplamı %75'e ulaşana kadar (1–6 at). v9 testi (535 görülmemiş koşu):
+    # 1–2 at çıkan koşular net (liste %86 tuttu, 1. aday %67 kazandı), 3–4 orta (%77; %34), 5–6 belirsiz/sürprize açık (%78; 1. aday yalnızca %25)
+    KA=min(6,max(1,int(np.searchsorted(np.cumsum(np.asarray(p)[srt]),0.75)+1)))
+    etk='NET KOŞU' if KA<=2 else 'ORTA' if KA<=4 else 'BELİRSİZ, SÜRPRİZE AÇIK'
+    ach={'NET KOŞU':'geçmişte liste %86 tuttu, 1. aday %67 kazandı','ORTA':'geçmişte liste %77 tuttu, 1. aday %34 kazandı','BELİRSİZ, SÜRPRİZE AÇIK':'geçmişte liste %78 tuttu, 1. aday yalnızca %25 kazandı'}[etk]
+    print(f"    ► {etk}: {KA} aday ({ach}): "+', '.join(f"#{h[i]['no']} {h[i]['ad']}" for i in srt[:KA]))
     for i in srt[:max(5,KA)]:
         x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.5 and p[i]>=0.05 and not agf_yok else ''
         bt=(f" → {x['bitis']}." if x['bitis'] else '')+(' [EKÜRİ]' if x['ad'] in ek else '')

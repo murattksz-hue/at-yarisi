@@ -539,3 +539,17 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - %80 eşiğini ben seçtim, keyfî bir eşik. Daha fazla at kapsamak kazanma ihtimalini artırır ama bilet maliyetini de artırır. Ganyanda kâra çevirmez (1 TL getirisi oran ne olursa olsun ~0,7). Asıl kullanım alanı altılı ve kupon ayak genişliği.
 - **Gerçek örnek, 19.11 Antalya 2 (Arap Maiden):** sabah 11:44'te dondurulan tahminde CİHANDERE modelin 5. sırasındaydı (v9 ve v8). 3 at önerisinde dışarıda kaldı, 5 at önerisinde içeride olurdu. AGF'siz modelde 7. sıradaydı, orada da dışarıda kalırdı.
 - Günlük analizde artık her koşuda "► ÖNERİLEN ADAY SAYISI" satırı var. Tahmin JSON'unda `oneri_at` alanı bulunur. Canlı testte "kazanan ilk K içinde mi" ayrıca izlenecek.
+
+### Güncelleme: aday sayısı koşu türüne göre değil, KOŞUNUN KENDİ belirsizliğine göre (kullanıcı: "her koşuya 5 yazma, sadece içinden çıkılamayan koşulara çok at yaz")
+- Kural: model olasılıkları büyükten küçüğe toplanır, toplam %75'e ulaşana kadar at eklenir (en az 1, en çok 6).
+- v9 testi (535 görülmemiş koşu): ortalama 4,24 at, kazanan listede %78,5. Sabit 4 at %74,4, sabit 5 at %82,2. Aynı at sayısında sabit kurala göre ~+1,7 puan kazanç var. Piyasa olasılığıyla yapılan aynı test (9915 koşu) kazanç göstermedi: toplam ≥%75 kuralı 4,31 atta %81,5 verdi, sabit kuralla aynı. Yani fayda küçük. Asıl katkısı atları doğru yere koymak: net koşuya az, belirsiz koşuya çok.
+
+| koşu sınıfı (aday sayısı) | koşu | liste tuttu | 1. aday kazandı |
+|---|---|---|---|
+| NET (1–2 at) | 49 | %85,7 | %67,3 |
+| ORTA (3–4 at) | 256 | %77,0 | %34,0 |
+| BELİRSİZ, SÜRPRİZE AÇIK (5–6 at) | 230 | %77,8 | %24,8 |
+
+- Piyasada da aynı ilişki var: favori olasılığı <%25 olan 2114 koşuda favori %22,8 kazandı, ilk 5 %76,1. Favori ≥%50 olan 935 koşuda favori %60,7, ilk 3 %85,9.
+- Altılı kuponu (`kupon.py`) zaten bu mantıkla çalışıyor: her adımda isabet artışı / maliyet artışı en iyi olan at eklenir. Belirsiz ayak genişler, net ayak tek kalır.
+- **19.11 sabah verisiyle (11:31, koşulardan önce) geriye dönük kontrol, kural bugünkü koşulara göre ayarlanmadı:** İzmir 1 LADY ECRİN (ORTA 4, listede ✅), İzmir 2 ÖZASYALI (BELİRSİZ 6 ✅), İzmir 3 MADEİRA (BELİRSİZ 6 ✅), İzmir 4 ZENITH SKY (ORTA 4 ✅), İzmir 5 WOLF DED (ORTA 3 ✅), **İzmir 6 ÇORLİ (NET 1, QUEEN OF MUĞLA ❌; büyük sürpriz)**, İzmir 7 APOLLO MAXIMUS (BELİRSİZ 5 ✅), Antalya 1 SPIDER (NET 2 ✅), Antalya 2 CİHANDERE (BELİRSİZ 5 ✅). Sonuç 8/9. Tek gün, şans payı büyük; canlı testte izlenecek.
