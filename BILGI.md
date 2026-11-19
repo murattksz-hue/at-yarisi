@@ -492,8 +492,33 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 | Şartlı 19/27 | 219 | %35,6 | %20,1 | %6,4 | 4,40 |
 | Handikap (karşılaştırma) | 2891 | %31,5 | %18,5 | %5,1 | 4,35 |
 
-- **Sonuç:** Maidende favori yine aynı oranda kazanıyor. Fark büyük sürprizlerde: ganyan ≥20 kazanan %6,3, kazanmış atların koşularında %4,0 (141'e 90 koşu; anlamlı). En sürprizli grup **3 yaşlı Arap maideni**. Örnek: 19.11 Antalya 2, CİHANDERE.
+- **Sonuç:** Maidende favori yine aynı oranda kazanıyor. Ganyan ≥20 kazanan %6,3, kazanmış atların koşularında %4,0. En sürprizli grup **3 yaşlı Arap maideni**. Örnek: 19.11 Antalya 2, CİHANDERE.
+- **DÜZELTME (aynı gün, tüm koşu türleri testi):** bu fark alan büyüklüğünden geliyor. Maiden alanları kalabalık (ort. 10,6 birim, KV'de 7,6) ve piyasa bunu zaten fiyatlıyor. Maidende ganyan ≥10 kazanan %16,6, piyasanın beklentisi %19,3 (z −3,2). Yani **piyasanın beklediğinden FAZLA sürpriz yok, tersine az**. "Maiden sürprizli" ancak "oranlar dağınık" anlamında doğru.
 - **Ama sürpriz atı oynamak yine kâr getirmiyor:** maidende ganyan 20–50 A/E 0,84, 50+ A/E 0,64 (piyasa beklentisinden az kazanıyorlar). Sürpriz daha sık geliyor ama hangi uzak ihtimalin geleceği önceden belli değil. Bu, analizde tek ata değil, kupon genişliğine işaret eder.
 - **İlk kez koşan atlar piyasada fazla oynanıyor:** A/E 0,82 (90 galibiyet, 110 beklenen; 2025-09 sonrası). En belirgin olan İngiliz 3 yaşta ilk koşu: A/E 0,41 (7'ye 17). Örneklem küçük, izlenecek. Bu atlar analizde "İLK KOŞU" diye işaretleniyor.
 - Son koşuda 2. ya da 3. olan maiden atları piyasa doğru fiyatlıyor (A/E 0,98–1,00). "Hep yaklaştı, bu sefer kazanır" diye bir avantaj yok.
 - Günlük analiz: maiden koşularında bu uyarı satırı çıkar. Tablo her gün `gunluk.py` ile yenilenir (veri/maiden_analiz.json).
+
+## Her koşu türünde ne geliyor? (test 19.11.2026, `scripts/kosu_turu_analiz.py`, 9915 koşu, veri/kosu_turu_analiz.json)
+Favori = en düşük kesin ganyan; "beklenen" = piyasanın (ganyandan) verdiği olasılık. Eküri tek birim.
+
+| aile | koşu | alan | favori kazandı | piyasa beklentisi | AGF favorisi | HP lideri | ganyan≥10 kazanan | piyasa beklentisi | medyan ganyan |
+|---|---|---|---|---|---|---|---|---|---|
+| Tümü | 9915 | 9,5 | %35,5 | %34,5 | %34,5 | %24,4 | %15,4 | %17,5 | 3,80 |
+| KV | 1073 | 7,6 | %39,9 | %38,4 | %38,4 | %30,6 | %10,3 | %13,3 | 3,10 |
+| Grup | 262 | 9,9 | %40,8 | %39,3 | %42,7 | %34,4 | %18,7 | %19,8 | 3,38 |
+| Şartlı (1–5) | 3156 | 8,7 | %37,5 | %37,0 | %36,6 | %30,1 | %13,4 | %15,4 | 3,45 |
+| Satış | 307 | 9,7 | %35,2 | %34,3 | %35,3 | %27,7 | %13,7 | %16,8 | 3,60 |
+| Maiden + Şartlı 19/27 | 2220 | 10,6 | %35,3 | %34,0 | %33,9 | %24,0 | %16,6 | %19,3 | 3,85 |
+| Handikap | 2891 | 10,3 | %31,5 | %30,1 | %30,6 | **%15,3** | %18,5 | %19,9 | 4,35 |
+| Arap Handikap | 1327 | 11,1 | **%29,2** | %27,7 | %28,9 | %14,2 | **%21,4** | %22,1 | **4,80** |
+| İngiliz KV | 651 | 7,3 | %40,7 | %39,5 | %39,5 | %31,2 | **%8,8** | %12,1 | **2,90** |
+
+Bulgular:
+- **En sürprizli tür Arap Handikap**: favori %29, ganyan≥10 kazanan %21, medyan kazanan 4,80. **En öngörülebilir tür İngiliz KV ve İngiliz Şartlı 4–5**: favori %41–42, sürpriz %9–12.
+- **Hiçbir koşu türünde piyasanın beklediğinden fazla sürpriz yok.** Her ailede ganyan≥10 kazanan, beklenenin altında (toplam z −5,5; KV, Maiden, Şartlı ayrı ayrı anlamlı). Favori-uzak ihtimal yanlılığı her türde geçerli: favoriler beklenenden biraz çok, uzak ihtimaller az kazanıyor. Yine de favoriye düz oynamak 1 TL'ye 0,71–0,78 TL geri veriyor, yani zararda.
+- **Handikapta HP lideri yalnızca %15 kazanıyor** (Şartlı'da %30, KV'de %31). Handikapta kilo puanı eşitliyor, HP'ye bakmak işe yaramaz.
+- **AGF favorisi ile ganyan favorisi hemen hemen aynı.** Grup koşularında AGF favorisi biraz önde (%42,7, ganyanda %40,8; az örnek).
+- Tek tek türlerde (ör. İngiliz Handikap 17, KV-7, Şartlı 3) |z|≈2–3 sapmalar var. Ama yaklaşık 140 karşılaştırmada birkaç tanesi şansla da çıkar; doğrulanmış sayılmaz.
+- **Modelimiz (v9) türlere göre (görülmemiş 542 koşu, az örnek):** en iyi Handikapta, özellikle Arap Handikapta. 1. seçim %27 kazandı, favori %21; log-olabilirlik +140‰. Bu, piyasanın en zorlandığı yerde. İngiliz KV'de modelin üstünlüğü yok (1. seçim %35, favori %42,5; −3‰). Arap Şartlı'da ise fark yok (+2‰).
+- Günlük analizde her koşunun başında bu türün geçmiş istatistiği yazılır (KOŞU TÜRÜ satırı). Tablo `gunluk.py` ile her gün yenilenir.

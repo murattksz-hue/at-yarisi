@@ -29,6 +29,7 @@ if yeni:   # koşmayan atlar çıkarılmış temiz kopyadan tabloları güncelle
     subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','hiz_tablosu.py'),TDIR,os.path.join(K,'veri','hiz_puani.json')])
     subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','jokey_tablo.py'),TDIR,os.path.join(K,'veri','jokey_tablo.json')])
     subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','maiden_analiz.py'),TDIR,os.path.join(K,'veri','maiden_analiz.json')],stdout=subprocess.DEVNULL)
+    subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','kosu_turu_analiz.py'),TDIR,os.path.join(K,'veri','kosu_turu_analiz.json')],stdout=subprocess.DEVNULL)
 print('yeni sonuç dosyası:',yeni)
 tarih=urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')
 ana=os.path.join(tmp,'ana.html'); get(f"https://www.tjk.org/TR/YarisSever/Info/Page/GunlukYarisProgrami?QueryParameter_Tarih={tarih}",ana)

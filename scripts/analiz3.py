@@ -13,6 +13,14 @@ _o2=json.load(open(os.path.join(_vd,'ozellik_test2.json'),encoding='utf-8')) if 
 GECMIS_W={k:v for k,v in zip(_o2.get('ozellikler',[]),_o2.get('agirlik',[])) if k!='son_fark_sn'}   # saniye farkı: birlikte ters işaret aldı, alınmadı
 HZA=HZ.get('at',{}); HZS=HZ.get('sahip',{})
 MD=json.load(open(os.path.join(_vd,'maiden_analiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'maiden_analiz.json')) else {}
+KTA=json.load(open(os.path.join(_vd,'kosu_turu_analiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'kosu_turu_analiz.json')) else {}
+def ince_tur(s):   # kosu_turu_analiz.py ile aynı sınıflama
+    S=s.upper()
+    for pat,f in [(r'\bG ?([123])\b',lambda m:'Grup '+m.group(1)),(r'KV-? ?(\d+)',lambda m:'KV-'+m.group(1)),(r'SATI',lambda m:'Satış'),
+                  (r'MA[İI]DEN',lambda m:'Maiden'),(r'ŞARTLI ?-?(\d+)',lambda m:'Şartlı '+m.group(1)),(r'HAND[İI]KAP ?(\d+)',lambda m:'Handikap '+m.group(1)),(r'AÇIK|ACIK',lambda m:'Açık'),(r'\bLİSTE|LISTED',lambda m:'Listed')]:
+        m=re.search(pat,S)
+        if m: return f(m)
+    return 'Diğer'
 JT=json.load(open(os.path.join(_vd,'jokey_tablo.json'),encoding='utf-8'))['jokey'] if os.path.exists(os.path.join(_vd,'jokey_tablo.json')) else {}
 def jmetin(j):
     d=JT.get(j)
@@ -155,10 +163,14 @@ for ri,r in enumerate(races):
     alan='≤7' if n_birim<=7 else '8-10' if n_birim<=10 else '11-13' if n_birim<=13 else '14+'
     sa=SUR.get(f"alan (bahis birimi): {alan}",{}); st_=SUR.get(f"koşu türü: {r['irk']} {r['aile']}",{})
     print(f"    Sürpriz riski (geçmiş): {n_birim} bahis birimi → favori %{sa.get('favori','?')}, ganyan≥10 kazanan %{sa.get('surpriz','?')}; {r['irk']} {r['aile']}: favori %{st_.get('favori','?')}, sürpriz %{st_.get('surpriz','?')}")
+    it=ince_tur(r['bas'].split(':',1)[-1]); kd=KTA.get(f"{r['irk']} {it}") or {}
+    if kd.get('kosu',0)>=30:
+        print(f"    KOŞU TÜRÜ {r['irk']} {it} ({kd['kosu']} geçmiş koşu, ort. {kd['alan']} birim): ganyan favorisi %{kd['favori']} kazandı (piyasa beklentisi %{kd['fav_bek']}), AGF favorisi %{kd['agf1']}, HP lideri %{kd['hp1']}; ilk 3 favoriden biri %{kd['fav_ilk3']}; ganyan≥10 kazanan %{kd['s10']} (piyasa beklentisi %{kd['s10_bek']}), medyan kazanan ganyanı {kd['medyan']}")
+    elif kd: print(f"    KOŞU TÜRÜ {r['irk']} {it}: yalnızca {kd['kosu']} geçmiş koşu, istatistik güvenilmez")
     MAI=r['aile']=='Maiden'
     if MAI and MD:
         mk=MD['kosu'].get('Maiden+Ş19 hepsi',{}); kz=MD['kosu'].get('Kazanmış atların koşuları',{}); ik=MD['ae'].get('önceki koşu (veride): 0 = ilk koşu',{})
-        print(f"    MAİDEN/ŞARTLI 19 (koşu kazanmamış atlar): ganyan≥20 kazanan %{mk.get('s20')} (kazanmış atların koşularında %{kz.get('s20')}); ilk kez koşanlar piyasa A/E {ik.get('ae')}; uzak ihtimaller yine kâr getirmedi")
+        print(f"    MAİDEN/ŞARTLI 19 (koşu kazanmamış atlar): alanlar kalabalık, ganyan≥20 kazanan %{mk.get('s20')} (kazanmış atların koşularında %{kz.get('s20')}) ama piyasanın beklediğinden FAZLA sürpriz yok; ilk kez koşanlar piyasa A/E {ik.get('ae')}")
     ekp=sum(p[i] for i,x in enumerate(h) if x['ad'] in ek)
     if ek: print(f"    EKÜRİ: {' + '.join(ek)} → biri kazanırsa ganyan kazanır; birlikte olasılık %{100*ekp:.1f} (adil oran {1/ekp if ekp else 0:.1f})")
     kt=KJ['kosu_turu'].get(f"{r['irk']}|{r['tip']}",{})
