@@ -1,0 +1,15 @@
+test koşusu: 7228
+
+Tahmin edilen birim: 69367
+ganyan  koşul             bahis kazanan  1 TL getirisi  beklenen kazanan (model)
+1-5     hepsi             16754    4435          72.1%                    4486.1
+1-5     p>1,2×piyasa       1042     306          83.7%                     318.0
+5-10    hepsi             16038    1666          72.5%                    1600.8
+5-10    p>1,2×piyasa        757      95          85.0%                     101.1
+10-20   hepsi             16159     795          68.5%                     768.5
+10-20   p>1,2×piyasa        420      21          65.2%                      28.9
+20-50   hepsi             15982     306          53.8%                     334.8
+20-50   p>1,2×piyasa        159       9         143.0%                       5.6
+50+     hepsi              4434      26          38.9%                      37.7
+
+[exited with code 0]

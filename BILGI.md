@@ -333,3 +333,15 @@ Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
 - TJK program HTML'inde her atın güncel muhtemel ganyanı var (`Gny` sütunu; CSV'de yok). `analiz3.py` her atın yanına yazar; ganyan ≥ 1,5/olasılık ise ★GANYAN (eküri birim olasılığıyla).
 - **Piyasa oturma kontrolü:** eküri tek birim sayılarak Σ(1/ganyan) normalde ~1,25–1,45 (TJK kesintisi). 1,15–1,60 dışındaysa "piyasa oturmamış" yazılır ve işaret konmaz (sabah erken saatte 546, 999 gibi anlamsız oranlar görülüyor).
 - `scripts/ganyan_kontrol.py GG.AA.YYYY Hipodrom [v8|agfsiz]`: koşudan hemen önce güncel ganyanı çekip dondurulmuş tahminlerle karşılaştırır. En anlamlı kullanım: koşuya ~5–10 dakika kala.
+
+## Sürpriz atlarda değer var mı? (`scripts/surpriz_deger_test.py`, `veri/surpriz_deger_test.txt`)
+7.228 koşu, 69.367 bahis birimi; piyasa (kesin ganyan, eküri tek birim) + geçmiş etkenleri, 10 katlı gün CV.
+| Ganyan | Hepsi: 1 TL getirisi | Model > 1,2× piyasa |
+|---|---|---|
+| 1–5 | %72,1 | %83,7 (1.042 bahis) |
+| 5–10 | %72,5 | %85,0 (757) |
+| 10–20 | %68,5 | %65,2 (420) – seçim daha kötü |
+| 20–50 | %53,8 | %143,0 (159 bahis, 9 kazanan; model 5,6 bekliyordu → büyük ölçüde şans) |
+| 50+ | %38,9 | yetersiz örnek |
+- Sonuç: model sürprizleri kârlı biçimde seçemiyor; ★SÜRPRİZ ADAYI işareti eklenmedi (veri desteklemiyor). Model kısa oranlarda (1–10) seçimi iyileştiriyor ama %100'ün altında.
+- Galop ve AGF dahil test için galoplu veri biriktikçe tekrarlanacak.
