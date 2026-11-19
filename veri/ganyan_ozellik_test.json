@@ -1,0 +1,48 @@
+{
+ "kosu": 16189,
+ "piyasa": -1.7816,
+ "sonuc": {
+  "s20_edge": {
+   "binde": 0.04,
+   "ilk_yari": -0.08,
+   "ikinci_yari": 0.15,
+   "agirlik": [
+    0.084
+   ]
+  },
+  "dinlenme (3 kova)": {
+   "binde": 0.05,
+   "ilk_yari": -0.0,
+   "ikinci_yari": 0.1,
+   "agirlik": [
+    0.026,
+    0.015,
+    -0.119
+   ]
+  },
+  "kilo_fark": {
+   "binde": 0.11,
+   "ilk_yari": 0.11,
+   "ikinci_yari": 0.12,
+   "agirlik": [
+    -0.027
+   ]
+  },
+  "mesafe_fark": {
+   "binde": 0.07,
+   "ilk_yari": 0.04,
+   "ikinci_yari": 0.09,
+   "agirlik": [
+    -0.101
+   ]
+  },
+  "pist_degisti": {
+   "binde": -0.07,
+   "ilk_yari": -0.02,
+   "ikinci_yari": -0.12,
+   "agirlik": [
+    0.01
+   ]
+  }
+ }
+}
