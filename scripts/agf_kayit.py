@@ -33,3 +33,16 @@ for h in hips:
     ilk=os.path.join(kd,f"ILK_{h}.csv")
     if dolu>0 and not os.path.exists(ilk): open(ilk,'wb').write(b); print(f"{h}: İLK AGF kaydedildi ({saat} UTC, {dolu}/{len(a)} at)")
     else: print(f"{h}: yeni görüntü {saat} UTC ({dolu}/{len(a)} at dolu)")
+# ebayi.org (TJK resmî bayisi) anlık görüntüsü: AGF1, AGF2, canlı ganyan ve koşmaz bilgisi tek dosyada (TJK sayfası gecikirse yedek kaynak)
+import json
+EBK={'IZMIR':'İzmir','ISTANBUL':'İstanbul','SANLIURFA':'Şanlıurfa','ELAZIG':'Elazığ','DIYARBAKIR':'Diyarbakır','ADANA':'Adana','BURSA':'Bursa','ANKARA':'Ankara','KOCAELI':'Kocaeli','ANTALYA':'Antalya'}
+def _eb(p):
+    try: return json.loads(subprocess.run(['curl','-sS','-f','--max-time','60','-A','Mozilla/5.0','https://ebayi.org/s/d/'+p],capture_output=True).stdout.decode('utf-8'))
+    except Exception: return None
+for y in (_eb(f"program/{g:%Y%m%d}/yarislar.json") or []):
+    if y.get('KEY') not in EBK: continue
+    J=_eb(f"program/{g:%Y%m%d}/full/{y['KEY']}.json")
+    if not J: continue
+    S={str(k['NO']):{a['AD'].strip():[a.get('AGF1'),a.get('AGF2'),a.get('GANYAN'),bool(a.get('KOSMAZ'))] for a in k.get('atlar',[])} for k in J.get('kosular',[])}
+    json.dump(S,open(os.path.join(kd,f"{EBK[y['KEY']]}_{saat}UTC_ebayi.json"),'w',encoding='utf-8'),ensure_ascii=False)
+    print(f"{EBK[y['KEY']]}: ebayi görüntüsü {saat} UTC ({sum(len(v) for v in S.values())} at)")

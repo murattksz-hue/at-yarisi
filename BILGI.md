@@ -560,3 +560,5 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Doğrulama: 18.11 İstanbul 1. koşu TJK CSV'siyle birebir aynı (DİLBERAN 1., ganyan 13,30, AGF %4,15).
 - İndirme: `scripts/ebayi_indir.py .gunluk/ebayi 2024-01-01` (1 sn aralık, Türkiye hipodromları). Sonra satış bedeli, KGS ve anne babası özellikleri gerçek veriyle test edilecek.
 - Sitede "sabit ihtimalli bahis" de var. TJK koşuları için sabit oran verip vermediği henüz incelenmedi.
+- **Canlı takipte ebayi (19.11):** `canli_takip.py` sonuçları önce ebayi sonuç JSON'undan alıyor (KOSMAZ olan at çıkarılır). Koşu ebayi'de yoksa TJK program sayfasına düşüyor. İzmir'in 7 koşusu iki kaynakta birebir aynı çıktı. Antalya 3'ün sonucu (DEĞERHAN) ebayi'de TJK sayfasından önce yayınlandı.
+- `agf_kayit.py` her turda ebayi program görüntüsünü de saklıyor: `veri/agf_kayit/<tarih>/<hip>_<SSDD>UTC_ebayi.json` → {koşu: {at: [AGF1, AGF2, canlı ganyan, koşmaz]}}.

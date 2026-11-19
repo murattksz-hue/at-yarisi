@@ -1,17 +1,29 @@
 """Canlı test: koşudan ÖNCE dondurulmuş tahminleri (veri/tahminler/) gerçek sonuçla karşılaştırır.
 Kullanım: canli_takip.py GG.AA.YYYY Hipodrom
-Sonuç kaynağı: TJK günlük program sayfası ("X. olarak bitirmiştir"). Biten koşular veri/canli_takip.csv'ye yazılır (aynı koşu bir kez)."""
+Sonuç kaynağı: önce ebayi.org sonuç JSON'u (TJK resmî bayisi; koşmayan at KOSMAZ), eksik koşu için TJK günlük program sayfası ("X. olarak bitirmiştir"). Biten koşular veri/canli_takip.csv'ye yazılır (aynı koşu bir kez)."""
 import sys,os,re,json,subprocess,urllib.parse,datetime,math,csv
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date(); hip=sys.argv[2]; SURUM=sys.argv[3] if len(sys.argv)>3 else ''
 T=json.load(open(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{hip}{'_'+SURUM if SURUM else ''}.json"),encoding='utf-8'))
+EB={'İzmir':'IZMIR','İstanbul':'ISTANBUL','Şanlıurfa':'SANLIURFA','Elazığ':'ELAZIG','Diyarbakır':'DIYARBAKIR','Adana':'ADANA','Bursa':'BURSA','Ankara':'ANKARA','Kocaeli':'KOCAELI','Antalya':'ANTALYA'}
+def ebayi_bitis():   # {kosu_no: {at: bitiş}} ; koşmayan at dahil edilmez
+    try:
+        r=subprocess.run(['curl','-sS','--max-time','60','-A','Mozilla/5.0',f"https://ebayi.org/s/d/sonuclar/{g:%Y%m%d}/full/{EB.get(hip,hip.upper())}.json"],capture_output=True).stdout
+        J=json.loads(r.decode('utf-8'))
+    except Exception: return {}
+    out={}
+    for k in J.get('kosular',[]):
+        d={a['AD'].strip():int(a['SONUC']) for a in k.get('atlar',[]) if not a.get('KOSMAZ') and str(a.get('SONUC') or '').isdigit()}
+        if d: out[str(k['NO'])]=d
+    return out
+EBB=ebayi_bitis()
 era='today' if g==datetime.date.today() else 'past'
 tq=urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')
 ana=subprocess.run(['curl','-sS','--max-time','90',f"https://www.tjk.org/TR/YarisSever/Info/Page/GunlukYarisProgrami?QueryParameter_Tarih={tq}"],capture_output=True).stdout.decode('utf-8','replace')
 SID={a:int(i) for i,a in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<]',ana)}
-if hip not in SID: sys.exit(f"{hip} için TJK sayfasında yarış bulunamadı")
-u=f"https://www.tjk.org/TR/YarisSever/Info/Sehir/GunlukYarisProgrami?SehirId={SID[hip]}&QueryParameter_Tarih={urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')}&SehirAdi={urllib.parse.quote(hip)}&Era={era}"
-t=subprocess.run(['curl','-sS','--max-time','90',u],capture_output=True).stdout.decode('utf-8','replace')
+if hip not in SID and not EBB: sys.exit(f"{hip} için TJK ve ebayi'de yarış bulunamadı")
+u=SID.get(hip) and f"https://www.tjk.org/TR/YarisSever/Info/Sehir/GunlukYarisProgrami?SehirId={SID.get(hip)}&QueryParameter_Tarih={urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')}&SehirAdi={urllib.parse.quote(hip)}&Era={era}"
+t=subprocess.run(['curl','-sS','--max-time','90',u],capture_output=True).stdout.decode('utf-8','replace') if hip in SID and len(EBB)<len(T) else ''
 bitis={}
 for v in re.findall(r'gunluk-GunlukYarisProgrami-AtAdi"[^>]*>(.*?)</td>',t,flags=re.S):
     m=re.search(r'>\s*([^<]+?)\s*<span',v); b=re.search(r'koşuyu (\d+)\. olarak',v)
@@ -20,7 +32,9 @@ LOG=os.path.join(K,'veri',f"canli_takip{'_'+SURUM if SURUM else ''}.csv"); eski=
 if os.path.exists(LOG): eski={(r['tarih'],r['hipodrom'],r['kosu']) for r in csv.DictReader(open(LOG,encoding='utf-8'))}
 yeni=[]; print(f"=== {hip} {g} canlı takip {dict(v8='v8 (AGF li)',agfsiz='AGF siz (sadece bizim verimiz)').get(SURUM,'v6 (sabah)')} ({datetime.datetime.now(datetime.timezone.utc):%H:%M} UTC) ===")
 for k in T:
-    A=[dict(a,bitis=bitis.get(a['ad'])) for a in k['atlar']]
+    kb=EBB.get(str(k['kosu']))
+    A=[dict(a,bitis=(kb.get(a['ad']) if kb else bitis.get(a['ad']))) for a in k['atlar']]
+    kaynak='ebayi' if kb else 'TJK'
     if not any(a['bitis']==1 for a in A): print(f"  {k['kosu']}. koşu: henüz sonuç yok"); continue
     # koşmayan (çekilen) atlar: bitiş bilgisi yok → çıkar, olasılıkları koşanlar arasında yeniden dağıt (TJK çekilen atın bahsini iade eder)
     cek=[a['ad'] for a in A if a['bitis'] is None]
