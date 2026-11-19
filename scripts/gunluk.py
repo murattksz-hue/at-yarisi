@@ -35,6 +35,7 @@ for sid,ad in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<
     get(f"https://www.tjk.org/TR/YarisSever/Info/Sehir/GunlukYarisProgrami?SehirId={sid}&QueryParameter_Tarih={tarih}&SehirAdi={enc}&Era={era}",h)
     if not get(f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{enc}-GunlukYarisProgrami-TR.csv",c):
         print(ad,': CSV alınamadı'); continue
+    subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','soy_kayit.py'),h])   # soy: baba, anne, anne babası
     # AGF hareketi için saat damgalı kopya (gün içinde her çalıştırmada bir anlık görüntü)
     kd=os.path.join(K,'veri','agf_kayit',g.isoformat()); os.makedirs(kd,exist_ok=True)
     import shutil; shutil.copy(c,os.path.join(kd,f"{ad}_{datetime.datetime.utcnow().strftime('%H%M')}UTC.csv"))
