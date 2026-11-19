@@ -266,3 +266,29 @@ Favori–sürpriz yanlılığı (oran kovasına göre piyasa A/E ve 1 TL getiris
 - Tek ağırlık: +5,97 binde; ırk × koşu türü ailesine göre ayrı ağırlık (genele çekilerek): +5,61 binde → **ayrı ağırlık daha iyi değil**.
 - Tabloda görülen farklar (ör. Arap Maiden'da deneyim 0,27, Handikapta pist-mesafe galibi 0,16–0,20, İngiliz Şartlı'da hız puanı 0,24) yeni günlerde tutmadı; grup başına 40–300 koşu yetersiz. Veri biriktikçe tekrar test edilecek.
 - Koşu farklılığı analizde profil olarak gösterilir (favori/HP lideri oranı, sürpriz riski, kulvar, hava); etken ağırlıkları tek tutulur.
+
+## Eksik denetimi ve kapsamlı test – 19.11.2026
+**Web:** Türkiye için açık ara derece (tempo/son 800) kaynağı bulunamadı. Literatür: kazançta strateji model kadar önemli; tahmin hatası nedeniyle kesirli (1/4) Kelly önerilir (Metel 2017; Hubáček vd. 2021); kalibrasyon ayrıca test edilmeli.
+
+**Kapsamlı test** (`scripts/tam_test.py`, `veri/tam_test.txt`; galoplu 420 koşu, 10 katlı gün CV, eküri tek birim):
+| Model | log-olabilirlik | piyasaya katkı |
+|---|---|---|
+| Piyasa (ganyan) | -1,9089 | – |
+| + geçmiş etkenleri | -1,8977 | +11,2 binde |
+| + galop | -1,8957 | +13,2 binde |
+
+Kalibrasyon: %0–20 tahminlerde iyi (gerçek biraz yüksek); **%20–30 ve %35–40 aralığında model fazla iyimser** (22–27 tahmin → 18–22 gerçek).
+
+Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
+| Eşik | Bahis | Sabit 1 TL | 1/4 Kelly |
+|---|---|---|---|
+| 1,1× piyasa | 850 | %90,7 | %129,0 |
+| 1,2× | 529 | %90,5 | %130,7 |
+| 1,3× | 294 | %95,6 | %133,2 |
+| 1,5× | 70 | %174,9 | %138,2 |
+- Sabit bahis 1,3× eşikte bile zarar. 1,5× eşik umut verici ama 70 bahis / 18 kazanan: rastlantı olabilir. Kârlılık iddia edilmez; canlı takip gerekir.
+- Değişiklik: ★DEĞER eşiği 1,3×'ten **1,5×**'e (p ≥ %5). Her ata "değer için ganyan ≥ 1,5/p" eşiği yazılır; bahis anındaki gerçek ganyanla karşılaştırılmalı.
+
+**Harville testi** (`scripts/harville_test.py`, `veri/harville_test.txt`; 2.446 koşu): ilk ikiye girme tahmini %0–70'te gerçekle 1–3 puan içinde; çok güçlü favorilerde abartılı (%84 tahmin → %76 gerçek). Sıralı ikilide en olası kombinasyonlar biraz hafife alınıyor (%17–32 tahmin → %20–36 gerçek).
+
+**Veri genişletme:** sonuçlar ~560 güne genişletiliyor (Antalya kış sezonu ve atların daha uzun geçmişi için). Bittiğinde hız tablosu, aygır/kulvar/jokey tabloları ve testler yeniden üretilecek.

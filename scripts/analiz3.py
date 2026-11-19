@@ -152,9 +152,9 @@ for ri,r in enumerate(races):
     if kt: print(f"    Koşu türü ({r['tip']}): {kt['kosu']} koşu örneği, favori %{kt['favori']}, HP lideri %{kt['hp_lideri']}, tipik HP {kt['hp_p10']}-{kt['hp_p90']}")
     srt=np.argsort(-p)
     for i in srt[:5]:
-        x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.3 and p[i]>=0.08 and not agf_yok else ''
+        x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.5 and p[i]>=0.05 and not agf_yok else ''
         bt=(f" → {x['bitis']}." if x['bitis'] else '')+(' [EKÜRİ]' if x['ad'] in ek else '')
-        print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')}{' ★pist-mesafe galibi' if x.get('pmg') else (' pist galibi' if x.get('pg') else '')} {x.get('say',0)} koşu | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
+        print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}, değer için ganyan ≥{1.5/p[i]:.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')}{' ★pist-mesafe galibi' if x.get('pmg') else (' pist galibi' if x.get('pg') else '')} {x.get('say',0)} koşu | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
     JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_yok),
         atlar=[dict(no=x['no'],ad=x['ad'],p=round(float(p[i]),4),agf=round(float(q[i]),4),ekuri=x['ad'] in ek) for i,x in enumerate(h)]))
     kaz=[i for i,x in enumerate(h) if x['bitis']==1]
