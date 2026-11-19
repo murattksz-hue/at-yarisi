@@ -1,0 +1,15 @@
+test koşusu: 7228
+sadece piyasa: -1.8359
+  + son1             -1.8360  fark -0.12 binde
+  + son3_ort         -1.8352  fark +0.71 binde
+  + son6_ort         -1.8348  fark +1.09 binde
+  + agirlikli6       -1.8355  fark +0.37 binde
+  + gidisat          -1.8359  fark -0.05 binde
+  + istikrarsizlik   -1.8356  fark +0.27 binde
+  + ilk3_sayisi      -1.8351  fark +0.84 binde
+  + galibiyet_sayisi -1.8347  fark +1.16 binde
+  + pist_son6        -1.8347  fark +1.16 binde
+  + form_yok         -1.8358  fark +0.10 binde
+işe yarayanlar birlikte ['son3_ort', 'son6_ort', 'agirlikli6', 'ilk3_sayisi', 'galibiyet_sayisi', 'pist_son6']: fark +1.43 binde; ağırlıklar {'son3_ort': np.float64(0.04), 'son6_ort': np.float64(0.013), 'agirlikli6': np.float64(-0.052), 'ilk3_sayisi': np.float64(0.011), 'galibiyet_sayisi': np.float64(0.037), 'pist_son6': np.float64(0.037)}
+
+[exited with code 0]

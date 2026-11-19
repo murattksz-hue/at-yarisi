@@ -1,0 +1,9 @@
+test koşusu: 7228
+sadece piyasa: -1.8359
+  + baba_piyasa                  -1.8360  fark -0.09 binde
+  + anne_kardes (+kardeşi yok)   -1.8356  fark +0.26 binde
+  + baba_yas                     -1.8352  fark +0.71 binde
+  + üçü birlikte                 -1.8350  fark +0.93 binde
+ağırlıklar (tüm veri): {'baba_piyasa': np.float64(-0.02), 'anne_kardes': np.float64(0.007), 'kardes_yok': np.float64(-0.065), 'baba_yas': np.float64(0.052)}
+
+[exited with code 0]

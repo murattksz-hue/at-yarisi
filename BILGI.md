@@ -388,3 +388,18 @@ Piyasa A/E (iki dönem; eküri tek birim):
 | İğdiş | 0,75–0,98 | 0,78–0,91 | az örnek (8–38 kazanan/dönem) |
 - Not: ilk çalıştırmada piyasa A/E'de pay/payda hatası vardı (oranı eksik koşulardaki galibiyetler paya giriyordu); düzeltildi.
 - v10 (v9 + genç erkek + iğdiş): AGF'li -1,844 (v9 -1,845), AGF'siz -1,947 (aynı) → fark gürültü düzeyinde; genç erkek ile dişi karma koşuda aynı bilginin iki yüzü. **v9 kullanılmaya devam ediyor.**
+
+## Soy, antrenör, sahip ve form ayrıntıları – 19.11.2026 (7.228 koşu, piyasa = ganyan, kronolojik, 10 katlı gün CV)
+Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapor_test.txt`; testler: `veri/soy_test.txt`, `veri/form_test.txt`.
+| Etken | Katkı (binde) |
+|---|---|
+| Aygırın piyasa A/E'si ("X yavrusu" etkisi) | -0,09 |
+| Kardeş başarısı (aynı anne) | +0,26 |
+| Aygırın bu yaş grubundaki yavruları (erken/geç olgunlaşma) | +0,71 |
+| Antrenör: piyasa A/E / ilk koşu / uzun ara / hipodrom | +0,22 / +0,05 / 0,00 / -0,06 |
+| Sahip: alan A/E / piyasa A/E / hepsi birlikte | +0,83 / -0,03 / +2,11 |
+| Form: son koşu / son 3 / son 6 / galibiyet sayısı / pist son 6 / gidişat | -0,12 / +0,71 / +1,09 / +1,16 / +1,16 / -0,05 |
+- Kalıcılık: aygır piyasa A/E dönemler arası korelasyonu Arap 0,22, İngiliz 0,05; antrenör -0,02; sahip -0,23 → halk bunları fiyatlıyor.
+- Tutarlı yanılgı görülen birkaç aygır: FATİH AĞA ve AYABAKAN hafife alınıyor (iki dönemde 1,12–1,23), TAMERİNOĞLU fazla oynanıyor (0,79/0,69).
+- **v11** (v9 + baba_yas, anne_kardes, sahip_piyasa, galibiyet6): AGF'li -1,844 (v9 -1,845), AGF'siz -1,947 (aynı) → gürültü düzeyi; galibiyet6 ağırlığı eksi (form/hız ile örtüşme). **v9 kullanılmaya devam ediyor.**
+- Anne babası: sonuç dosyalarında yok; `scripts/soy_kayit.py` her gün programdan baba/anne/anne babası biriktiriyor (`veri/soy_kayit.json`); yeterli veri olunca test edilecek.
