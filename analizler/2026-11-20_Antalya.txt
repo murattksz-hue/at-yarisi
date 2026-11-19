@@ -1,0 +1,115 @@
+HAVA: TJK pist durumu henüz yok | TJK hava: henüz yok | tahmin: yağış 0.7 mm, önceki gün 0.6 mm, 21.0°C, nem %87, rüzgar 5.0 km/s (wttr.in)
+
+=== 1. Kosu :   15.00 ŞARTLI 4/Dişi 3 ve Yukarı İngilizler 58.00kg 60.00 kg 60.00 kg  [İngiliz|Kum|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
+    Sürpriz riski (geçmiş): 7 bahis birimi → favori %43.8, ganyan≥10 kazanan %7.5; İngiliz Şartlı: favori %40.2, sürpriz %12.1
+    KOŞU TÜRÜ İngiliz Şartlı 4 (621 geçmiş koşu, ort. 8.0 birim): ganyan favorisi %41.2 kazandı (piyasa beklentisi %39.1), AGF favorisi %38.9, HP lideri %30.6; ilk 3 favoriden biri %75.5; ganyan≥10 kazanan %12.2 (piyasa beklentisi %13.5), medyan kazanan ganyanı 3.1
+    Zemin/mesafe profili: favori %39.4 kazanıyor, ort. 9.7 at; iç kulvar (1-3) piyasaya göre 1.03
+    Hava/pist: kuru (tahmini ıslaklık 1.0 mm (hafif)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
+    Koşu türü (Şartlı 4): 620 koşu örneği, favori %41.1, HP lideri %27.1, tipik HP 35-87
+    ► ORTA: 3 aday (geçmişte liste %77 tuttu, 1. aday %34 kazandı): #1 BELLAFINA, #3 MY MOON, #4 BLACK RUBY
+  # 1 BELLAFINA        olasılık %43.4 (adil oran   2.3, değer için ganyan ≥3.5) HP83 hız 21 pist galibi 16 koşu | baba TOUGH GUY A/1.91 KB YONAGUSKA ( C | Ö.YILDIRIM %16.4 (1019 biniş), 30g 13/64, Antalya 10/54, favoride 94/280 | st 2 | 30g 2 idman, en iyi 400m 26.0, son 5g Rahat
+  # 3 MY MOON          olasılık %25.8 (adil oran   3.9, değer için ganyan ≥5.8) HP67 hız 9 pist galibi 20 koşu | baba SADLER'S JOY  A/1.35 KB PROUD CITIZ C | M.S.ÇELİK %16.8 (1552 biniş), 30g 18/98, Antalya 45/197, favoride 123/318 | st 6 | 30g 1 idman, en iyi 400m 27.2, son 8g Rahat
+  # 4 BLACK RUBY       olasılık % 9.0 (adil oran  11.1, değer için ganyan ≥16.7) HP48 hız -0 24 koşu | baba EL CORREDOR ( D/0.78 KB VICTORY GAL B | E.AKTUĞ %9.0 (1437 biniş), 30g 14/114, Antalya 14/89, favoride 27/92 | st 7 | 30g 2 idman, en iyi 400m 24.3, son 5g Rahat
+  # 2 DEEP IRON        olasılık % 7.6 (adil oran  13.1, değer için ganyan ≥19.6) HP64 hız 3 19 koşu | baba TOROK (IRE) B/1.01 KB STRIKE THE  C | SER.YILDIZ %5.1 (99 biniş), 30g 0/3, Antalya 2/80, favoride 1/1 | st 5 | 30g 2 idman, en iyi 400m 24.2, son 5g Rahat
+  # 5 RHYTHMOFTHESTARS olasılık % 7.4 (adil oran  13.4, değer için ganyan ≥20.2) HP38 hız -23 9 koşu | baba CLOTH OF STAR D/0.97 KB NEW APPROAC C | M.KAYA %15.3 (1625 biniş), 30g 11/120, Antalya 36/211, favoride 102/291 | st 1 | 30g 2 idman, en iyi 400m 25.4, son 5g Rahat
+
+=== 2. Kosu :   15.30 Maiden/Dişi 2 Yaşlı İngilizler 57.00kg 1400m Sentetik  [İngiliz|Sentetik|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
+    Sürpriz riski (geçmiş): 9 bahis birimi → favori %34.9, ganyan≥10 kazanan %13.7; İngiliz Maiden: favori %36.2, sürpriz %17.4
+    KOŞU TÜRÜ İngiliz Maiden (1018 geçmiş koşu, ort. 10.2 birim): ganyan favorisi %37.9 kazandı (piyasa beklentisi %34.6), AGF favorisi %36.4, HP lideri %21.9; ilk 3 favoriden biri %71.7; ganyan≥10 kazanan %14.7 (piyasa beklentisi %18.4), medyan kazanan ganyanı 3.55
+    MAİDEN/ŞARTLI 19 (koşu kazanmamış atlar): alanlar kalabalık, ganyan≥20 kazanan %6.3 (kazanmış atların koşularında %4.0) ama piyasanın beklediğinden FAZLA sürpriz yok; ilk kez koşanlar piyasa A/E 0.82
+    Zemin/mesafe profili: favori %36.1 kazanıyor, ort. 9.4 at; iç kulvar (1-3) piyasaya göre 1.0
+    Hava/pist: kuru (tahmini ıslaklık 1.0 mm (hafif)); bu koşullarda favori %37.2, HP lideri %19.6 kazanıyor (129 koşu)
+    Koşu türü (Maiden): 1012 koşu örneği, favori %37.5, HP lideri %17.6, tipik HP 11-34
+    ► ORTA: 4 aday (geçmişte liste %77 tuttu, 1. aday %34 kazandı): #4 MAUI, #3 MADAME ELİS, #7 THE LEGACY, #6 SABIRLI RIBELLA
+  # 4 MAUI             olasılık %29.7 (adil oran   3.4, değer için ganyan ≥5.1) HP0 hız -34 1 koşu | baba SATONO ARES ( A/1.39 KB LOMITAS* (G C | M.S.ÇELİK %16.8 (1552 biniş), 30g 18/98, Antalya 45/197, favoride 123/318 | st 1 | 30g 1 idman, en iyi 400m 25.3, son 5g Çalışarak ⚠zorlanarak
+  # 3 MADAME ELİS      olasılık %18.7 (adil oran   5.3, değer için ganyan ≥8.0) HP0 hız -30 1 koşu | baba GRAYSTORM D/0.79 KB KANEKO B | MÜS.ÇELİK %13.7 (1783 biniş), 30g 8/76, Antalya 12/110, favoride 101/298 | st 7 | 30g 1 idman, en iyi 400m 25.0, son 5g Rahat
+  # 7 THE LEGACY       olasılık %15.7 (adil oran   6.4, değer için ganyan ≥9.5) HP24 hız -32 5 koşu | baba VICTOIRE PISA D/1.26 KB BOSPORUS (I D | B.M.MIRIK %10.5 (1263 biniş), 30g 4/54, Antalya 2/32, favoride 28/103 | st 3 | 30g 3 idman, en iyi 400m 24.6, son 2g Rahat ↑çok idman
+  # 6 SABIRLI RIBELLA  olasılık %14.1 (adil oran   7.1, değer için ganyan ≥10.7) HP0 hız -19 2 koşu | baba KLIMT (USA) B/0.93 KB SMART ROBIN C | N.ŞEN %6.0 (385 biniş), 30g 2/17, Antalya 0/6, favoride 4/27 | st 4 | 30g 1 idman, en iyi 400m 25.0, son 2g Rahat
+  # 8 UYGURGIRL        olasılık % 9.1 (adil oran  10.9, değer için ganyan ≥16.4) HP0 hız -70 1 koşu | baba JUNGLE MAN C/0.95 KB LILBOURNE L D | MAH.TURAN %7.4 (608 biniş), 30g 4/63, Antalya 9/176, favoride 15/43 | st 5 | 30g 2 idman, en iyi 400m 25.0, son 6g Rahat
+
+=== 3. Kosu :   16.00 Handikap 16 /H1 3 Yaşlı İngilizler kg 1300m Sentetik  [İngiliz|Sentetik|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
+    Sürpriz riski (geçmiş): 12 bahis birimi → favori %29.9, ganyan≥10 kazanan %21.9; İngiliz Handikap: favori %32.9, sürpriz %16.2
+    KOŞU TÜRÜ İngiliz Handikap 16 (442 geçmiş koşu, ort. 9.4 birim): ganyan favorisi %33.7 kazandı (piyasa beklentisi %32.2), AGF favorisi %33.2, HP lideri %14.3; ilk 3 favoriden biri %67.9; ganyan≥10 kazanan %16.1 (piyasa beklentisi %17.6), medyan kazanan ganyanı 3.92
+    EKÜRİ: CHILO + PATRONA HOLİ → biri kazanırsa ganyan kazanır; birlikte olasılık %16.9 (adil oran 5.9)
+    Zemin/mesafe profili: favori %36.1 kazanıyor, ort. 9.4 at; iç kulvar (1-3) piyasaya göre 1.0
+    Hava/pist: kuru (tahmini ıslaklık 1.0 mm (hafif)); bu koşullarda favori %37.2, HP lideri %19.6 kazanıyor (129 koşu)
+    Koşu türü (Handikap 16): 434 koşu örneği, favori %33.4, HP lideri %10.8, tipik HP 39-68
+    ► BELİRSİZ, SÜRPRİZE AÇIK: 6 aday (geçmişte liste %78 tuttu, 1. aday yalnızca %25 kazandı): #6 DEALBREAKER, #5 EL REY ESCORPİON, #1 CHILO, #3 MILLENNIUM FALCON, #10 SON OF LIGHT, #9 NORTH DANCER
+  # 6 DEALBREAKER      olasılık %24.6 (adil oran   4.1, değer için ganyan ≥6.1) HP39 hız 9 ★pist-mesafe galibi 7 koşu | baba NATIVE KHAN ( C/1.36 KB SEA THE STA C | MAH.TURAN %7.4 (608 biniş), 30g 4/63, Antalya 9/176, favoride 15/43 | st 7 | 30g 2 idman, en iyi 400m 25.0, son 2g Rahat
+  # 5 EL REY ESCORPİON olasılık %13.2 (adil oran   7.6, değer için ganyan ≥11.4) HP51 hız 19 52 koşu | baba PAPA CLEM (US D/0.80 KB THREE VALLE B | MÜS.ÇELİK %13.7 (1783 biniş), 30g 8/76, Antalya 12/110, favoride 101/298 | st 4 | 30g 2 idman, en iyi 400m 24.2, son 2g Rahat
+  # 1 CHILO            olasılık %11.4 (adil oran   8.8, değer için ganyan ≥13.1) HP67 hız -11 ★pist-mesafe galibi 25 koşu | baba WOLF PRINCE C/1.06 KB KANEKO B | M.KAYA %15.3 (1625 biniş), 30g 11/120, Antalya 36/211, favoride 102/291 | st 13 | 30g 2 idman, en iyi 400m 24.8, son 5g Rahat [EKÜRİ]
+  # 3 MILLENNIUM FALCO olasılık %10.6 (adil oran   9.4, değer için ganyan ≥14.1) HP56 hız -2 23 koşu | baba MYBOYCHARLIE  C/0.63 KB BOSPORUS (I D | M.S.ÇELİK %16.8 (1552 biniş), 30g 18/98, Antalya 45/197, favoride 123/318 | st 1 | 30g 2 idman, en iyi 400m 25.5, son 5g Rahat
+  #10 SON OF LIGHT     olasılık % 7.8 (adil oran  12.8, değer için ganyan ≥19.2) HP26 hız 6 6 koşu | baba KANEKO B/0.81 KB DUBAWI (IRE C | F.S.M.SANSAR %9.0 (1052 biniş), 30g 4/53, Antalya 5/84, favoride 26/88 | st 8 | 30g 3 idman, en iyi 400m 25.3, son 2g Rahat ↑çok idman
+  # 9 NORTH DANCER     olasılık % 7.7 (adil oran  12.9, değer için ganyan ≥19.4) HP32 hız -0 7 koşu | baba AUTHORIZED (I D/0.43 KB KANEKO B | E.AKTUĞ %9.0 (1437 biniş), 30g 14/114, Antalya 14/89, favoride 27/92 | st 10 | 30g 3 idman, en iyi 400m 24.0, son 2g Rahat ↑çok idman
+
+=== 4. Kosu :   16.30 Maiden/Dişi 2 Yaşlı İngilizler 57.00kg 1400m Sentetik  [İngiliz|Sentetik|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
+    Sürpriz riski (geçmiş): 10 bahis birimi → favori %34.9, ganyan≥10 kazanan %13.7; İngiliz Maiden: favori %36.2, sürpriz %17.4
+    KOŞU TÜRÜ İngiliz Maiden (1018 geçmiş koşu, ort. 10.2 birim): ganyan favorisi %37.9 kazandı (piyasa beklentisi %34.6), AGF favorisi %36.4, HP lideri %21.9; ilk 3 favoriden biri %71.7; ganyan≥10 kazanan %14.7 (piyasa beklentisi %18.4), medyan kazanan ganyanı 3.55
+    MAİDEN/ŞARTLI 19 (koşu kazanmamış atlar): alanlar kalabalık, ganyan≥20 kazanan %6.3 (kazanmış atların koşularında %4.0) ama piyasanın beklediğinden FAZLA sürpriz yok; ilk kez koşanlar piyasa A/E 0.82
+    Zemin/mesafe profili: favori %36.1 kazanıyor, ort. 9.4 at; iç kulvar (1-3) piyasaya göre 1.0
+    Hava/pist: kuru (tahmini ıslaklık 1.0 mm (hafif)); bu koşullarda favori %37.2, HP lideri %19.6 kazanıyor (129 koşu)
+    Koşu türü (Maiden): 1012 koşu örneği, favori %37.5, HP lideri %17.6, tipik HP 11-34
+    ► BELİRSİZ, SÜRPRİZE AÇIK: 5 aday (geçmişte liste %78 tuttu, 1. aday yalnızca %25 kazandı): #1 HASTA FINAL, #3 MAGIC SURPRISE, #2 LADY SOVEREIGN, #10 YOU ARE GREAT, #4 CARITA LINDA
+  # 1 HASTA FINAL      olasılık %30.0 (adil oran   3.3, değer için ganyan ≥5.0) HP36 hız -12 4 koşu | baba MENDIP (USA) C/0.90 KB HALICARNASS D | H.ÇİZİK %13.8 (1618 biniş), 30g 19/113, Antalya 4/51, favoride 71/224 | st 10 | 30g 2 idman, en iyi 400m 24.0, son 5g Rahat
+  # 3 MAGIC SURPRISE   olasılık %14.7 (adil oran   6.8, değer için ganyan ≥10.2) HP35 hız -13 7 koşu | baba BLUEGRASS CAT B/1.31 KB SCARFACE B | B.M.MIRIK %10.5 (1263 biniş), 30g 4/54, Antalya 2/32, favoride 28/103 | st 3 | 30g 2 idman, en iyi 400m 24.8, son 2g Rahat
+  # 2 LADY SOVEREIGN   olasılık %12.4 (adil oran   8.0, değer için ganyan ≥12.1) HP35 hız 15 6 koşu | baba TOROK (IRE) B/1.34 KB KANEKO B | MÜS.ÇELİK %13.7 (1783 biniş), 30g 8/76, Antalya 12/110, favoride 101/298 | st 7 | 30g 1 idman, en iyi 400m 25.3, son 10g Rahat
+  #10 YOU ARE GREAT    olasılık %12.2 (adil oran   8.2, değer için ganyan ≥12.3) HP28 hız -11 10 koşu | baba VICTOIRE PISA D/1.26 KB EAGLE EYED  C | M.KAYA %15.3 (1625 biniş), 30g 11/120, Antalya 36/211, favoride 102/291 | st 2 | 30g 1 idman, en iyi 400m 24.0, son 2g Rahat
+  # 4 CARITA LINDA     olasılık %12.1 (adil oran   8.3, değer için ganyan ≥12.4) HP10 hız -21 3 koşu | baba KANEKO B/0.81 KB VICTORY GAL B | M.S.ÇELİK %16.8 (1552 biniş), 30g 18/98, Antalya 45/197, favoride 123/318 | st 8 | 30g 3 idman, en iyi 400m 24.2, son 2g Rahat ↑çok idman
+
+=== 5. Kosu :   17.00 Handikap 16 /H1 3 ve Yukarı İngilizler kg 1400m Kum  [İngiliz|Kum|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
+    Sürpriz riski (geçmiş): 7 bahis birimi → favori %43.8, ganyan≥10 kazanan %7.5; İngiliz Handikap: favori %32.9, sürpriz %16.2
+    KOŞU TÜRÜ İngiliz Handikap 16 (442 geçmiş koşu, ort. 9.4 birim): ganyan favorisi %33.7 kazandı (piyasa beklentisi %32.2), AGF favorisi %33.2, HP lideri %14.3; ilk 3 favoriden biri %67.9; ganyan≥10 kazanan %16.1 (piyasa beklentisi %17.6), medyan kazanan ganyanı 3.92
+    Zemin/mesafe profili: favori %39.4 kazanıyor, ort. 9.7 at; iç kulvar (1-3) piyasaya göre 1.03
+    Hava/pist: kuru (tahmini ıslaklık 1.0 mm (hafif)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
+    Koşu türü (Handikap 16): 434 koşu örneği, favori %33.4, HP lideri %10.8, tipik HP 39-68
+    ► ORTA: 4 aday (geçmişte liste %77 tuttu, 1. aday %34 kazandı): #1 MAXIMUS MAN, #5 AGE OF DISCOVERY, #4 WALTZ WITH DREAMS, #2 SİHİRLİ JOVANKA
+  # 1 MAXIMUS MAN      olasılık %44.9 (adil oran   2.2, değer için ganyan ≥3.3) HP72 hız 1 pist galibi 17 koşu | baba TILSIT (USA) B/1.44 KB NOTATION (U C | R.YILDIZ %3.3 (153 biniş), 30g 3/25, Antalya 1/6, favoride 0/3 | st 5 | 30g 2 idman, en iyi 400m 25.4, son 2g Rahat
+  # 5 AGE OF DISCOVERY olasılık %15.7 (adil oran   6.4, değer için ganyan ≥9.6) HP62 hız -4 pist galibi 16 koşu | baba INVINCIBLE SO D/0.63 KB WAR CHANT ( C | SER.YILDIZ %5.1 (99 biniş), 30g 0/3, Antalya 2/80, favoride 1/1 | st 6 | 30g 2 idman, en iyi 400m 25.3, son 2g Rahat
+  # 4 WALTZ WITH DREAM olasılık %13.1 (adil oran   7.6, değer için ganyan ≥11.4) HP63 hız -1 pist galibi 29 koşu | baba AIR VICE MARS B/1.61 KB DYNAFORMER  C | E.ATLAMAZ %5.9 (762 biniş), 30g 7/88, Antalya 6/40, favoride 9/32 | st 1 | 30g 3 idman, en iyi 400m 23.7, son 6g Rahat ↑çok idman
+  # 2 SİHİRLİ JOVANKA  olasılık %10.3 (adil oran   9.7, değer için ganyan ≥14.6) HP66 hız 0 ★pist-mesafe galibi 28 koşu | baba GOOD CURRY A/1.60 KB BIN AJWAAD  C | M.T.COŞKUN %5.3 (561 biniş), 30g 0/44, Antalya 0/3, favoride 4/13 | st 3 | 30g 2 idman, en iyi 400m 24.8, son 5g Rahat
+  # 3 TOULAYNA         olasılık % 7.2 (adil oran  14.0, değer için ganyan ≥20.9) HP64 hız 1 pist galibi 29 koşu | baba AVERY ISLAND  B/1.04 KB ANABAA (USA C | Ö.YILDIRIM %16.4 (1019 biniş), 30g 13/64, Antalya 10/54, favoride 94/280 | st 2 | 30g 2 idman, en iyi 400m 26.0, son 1g Rahat
+
+=== 6. Kosu :   17.30 Handikap 16/DHÖW/Dişi /H1 4 ve Yukarı Araplar kg 1400m Sentetik  [Arap|Sentetik|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
+    Sürpriz riski (geçmiş): 10 bahis birimi → favori %34.9, ganyan≥10 kazanan %13.7; Arap Handikap: favori %29.0, sürpriz %21.9
+    KOŞU TÜRÜ Arap Handikap 16 (361 geçmiş koşu, ort. 11.1 birim): ganyan favorisi %31.6 kazandı (piyasa beklentisi %27.5), AGF favorisi %29.1, HP lideri %11.1; ilk 3 favoriden biri %61.2; ganyan≥10 kazanan %20.5 (piyasa beklentisi %22.1), medyan kazanan ganyanı 4.75
+    Zemin/mesafe profili: favori %35.0 kazanıyor, ort. 11.6 at; iç kulvar (1-3) piyasaya göre 0.84
+    Hava/pist: kuru (tahmini ıslaklık 1.0 mm (hafif)); bu koşullarda favori %29.4, HP lideri %16.2 kazanıyor (109 koşu)
+    Koşu türü (Handikap 16): 358 koşu örneği, favori %31.3, HP lideri %8.3, tipik HP 40-69
+    ► BELİRSİZ, SÜRPRİZE AÇIK: 5 aday (geçmişte liste %78 tuttu, 1. aday yalnızca %25 kazandı): #2 EŞAY, #6 DAĞ YONCASI, #4 DİLHUN, #5 ÖZKEHRİBAR, #9 CAVİDANCAN
+  # 2 EŞAY             olasılık %25.4 (adil oran   3.9, değer için ganyan ≥5.9) HP63 hız 13 pist galibi 20 koşu | baba GÜRSU A/1.10 KB AYABAKAN B | M.T.COŞKUN %5.3 (561 biniş), 30g 0/44, Antalya 0/3, favoride 4/13 | st 8 | 30g 2 idman, en iyi 400m 28.0, son 5g Rahat
+  # 6 DAĞ YONCASI      olasılık %19.8 (adil oran   5.1, değer için ganyan ≥7.6) HP47 hız 5 pist galibi 24 koşu | baba BESLENEY C/0.72 KB BİLGİN D | N.ŞEN %6.0 (385 biniş), 30g 2/17, Antalya 0/6, favoride 4/27 | st 5 | 30g 2 idman, en iyi 400m 28.0, son 5g Rahat
+  # 4 DİLHUN           olasılık %18.5 (adil oran   5.4, değer için ganyan ≥8.1) HP53 hız 21 27 koşu | baba DİLİRAN C/0.93 KB İZBATUR C | MÜS.ÇELİK %13.7 (1783 biniş), 30g 8/76, Antalya 12/110, favoride 101/298 | st 2 | 30g 1 idman, en iyi 400m 27.6, son 2g Rahat
+  # 5 ÖZKEHRİBAR       olasılık % 8.4 (adil oran  12.0, değer için ganyan ≥17.9) HP52 hız -17 38 koşu | baba ÖZGÜNHAN C/0.74 KB ALTAHA B | H.ÇİZİK %13.8 (1618 biniş), 30g 19/113, Antalya 4/51, favoride 71/224 | st 9 | 30g 2 idman, en iyi 400m 28.0, son 2g Rahat
+  # 9 CAVİDANCAN       olasılık % 7.3 (adil oran  13.7, değer için ganyan ≥20.5) HP40 hız -17 14 koşu | baba BAŞSEKLAVİ D/0.86 KB KAIZBERT (R B | MAH.TURAN %7.4 (608 biniş), 30g 4/63, Antalya 9/176, favoride 15/43 | st 3 | 30g 0 idman, en iyi 400m 28.5, son 40g Rahat
+
+=== 7. Kosu :   18.00 ŞARTLI 4/DHÖW 3 Yaşlı Araplar 57.00kg 1300m Sentetik  [Arap|Sentetik|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
+    Sürpriz riski (geçmiş): 13 bahis birimi → favori %29.9, ganyan≥10 kazanan %21.9; Arap Şartlı: favori %34.1, sürpriz %15.6
+    KOŞU TÜRÜ Arap Şartlı 4 (537 geçmiş koşu, ort. 9.0 birim): ganyan favorisi %32.6 kazandı (piyasa beklentisi %35.6), AGF favorisi %33.8, HP lideri %27.9; ilk 3 favoriden biri %69.1; ganyan≥10 kazanan %14.2 (piyasa beklentisi %16.2), medyan kazanan ganyanı 3.8
+    EKÜRİ: ESRİN HATUN + KIZIM ERVA → biri kazanırsa ganyan kazanır; birlikte olasılık %2.4 (adil oran 41.0)
+    Zemin/mesafe profili: favori %35.0 kazanıyor, ort. 11.6 at; iç kulvar (1-3) piyasaya göre 0.84
+    Hava/pist: kuru (tahmini ıslaklık 1.0 mm (hafif)); bu koşullarda favori %29.4, HP lideri %16.2 kazanıyor (109 koşu)
+    Koşu türü (Şartlı 4): 530 koşu örneği, favori %32.1, HP lideri %24.4, tipik HP 37-89
+    ► BELİRSİZ, SÜRPRİZE AÇIK: 5 aday (geçmişte liste %78 tuttu, 1. aday yalnızca %25 kazandı): #10 GÜMÜŞSU, #5 HUN DAY, #2 KARAKÖPRÜ ATEŞİ, #3 ULU AĞAÇ, #4 YALIN ATEŞ
+  #10 GÜMÜŞSU          olasılık %26.6 (adil oran   3.8, değer için ganyan ≥5.6) HP43 hız 18 pist galibi 7 koşu | baba SERHANTAY C/1.18 KB KAIZBERT (R B | M.S.ÇELİK %16.8 (1552 biniş), 30g 18/98, Antalya 45/197, favoride 123/318 | st 8 | 30g 1 idman, en iyi 400m 29.3, son 5g Rahat
+  # 5 HUN DAY          olasılık %20.3 (adil oran   4.9, değer için ganyan ≥7.4) HP47 hız -0 8 koşu | baba AFRİKAANDER A/1.59 KB HABERBATUR C | MÜS.ÇELİK %13.7 (1783 biniş), 30g 8/76, Antalya 12/110, favoride 101/298 | st 7 | 30g 3 idman, en iyi 400m 29.0, son 2g Rahat ↑çok idman
+  # 2 KARAKÖPRÜ ATEŞİ  olasılık %12.8 (adil oran   7.8, değer için ganyan ≥11.7) HP38 hız -2 pist galibi 10 koşu | baba ORHUNKAAN C/1.21 KB ALTAHA B | M.KAYA %15.3 (1625 biniş), 30g 11/120, Antalya 36/211, favoride 102/291 | st 11 | 30g 1 idman, en iyi 400m 27.0, son 4g Rahat
+  # 3 ULU AĞAÇ         olasılık % 9.5 (adil oran  10.5, değer için ganyan ≥15.7) HP43 hız -0 pist galibi 12 koşu | baba ULUER C/0.64 KB ARASLI D | H.ÇİZİK %13.8 (1618 biniş), 30g 19/113, Antalya 4/51, favoride 71/224 | st 12 | 30g 2 idman, en iyi 400m 27.8, son 5g Rahat
+  # 4 YALIN ATEŞ       olasılık % 7.2 (adil oran  14.0, değer için ganyan ≥21.0) HP38 hız -8 pist galibi 13 koşu | baba BESLENEY C/0.72 KB ALBATUR C | M.T.COŞKUN %5.3 (561 biniş), 30g 0/44, Antalya 0/3, favoride 4/13 | st 1 | 30g 3 idman, en iyi 400m 27.6, son 2g Rahat ↑çok idman
+
+=== 6'li ganyan (2. koşudan) | birim 1.0 TL, bütçe 300.0 TL
+  1. ayak (2. koşu): 4 MAUI %30, 3 MADAME ELİS %19, 7 THE LEGACY %16, 6 SABIRLI RIBELLA %14  → ayak kapsama %78
+  2. ayak (3. koşu): 6 DEALBREAKER %25, 1/13 CHILO+PATRONA HOLİ %17, 5 EL REY ESCORPİON %13, 3 MILLENNIUM FALCON %11  → ayak kapsama %65
+  3. ayak (4. koşu): 1 HASTA FINAL %30, 3 MAGIC SURPRISE %15  → ayak kapsama %45
+  4. ayak (5. koşu): 1 MAXIMUS MAN %45  → ayak kapsama %45
+  5. ayak (6. koşu): 2 EŞAY %25, 6 DAĞ YONCASI %20, 4 DİLHUN %19  → ayak kapsama %64
+  6. ayak (7. koşu): 10 GÜMÜŞSU %27, 5 HUN DAY %20, 2 KARAKÖPRÜ ATEŞİ %13  → ayak kapsama %60
+  Kupon: 288 kombinasyon = 288 TL | modele göre isabet olasılığı %3.9  (AGF'siz model: daha belirsiz)
+
+İkili / sıralı ikili (Harville, en olası 3):
+  1. koşu: sıralı 1-3 %19.8; 3-1 %15.1; 1-4 %6.9 | ikili 1/3 %34.9; 1/4 %11.2; 1/2 %9.5
+  2. koşu: sıralı 4-3 %7.9; 3-4 %6.8; 4-7 %6.6 | ikili 3/4 %14.7; 4/7 %12.2; 4/6 %10.8
+  3. koşu: sıralı 6-1/13 %5.5; 1/13-6 %5.0; 6-5 %4.3 | ikili 1/13/6 %10.5; 5/6 %8.0; 3/6 %6.4
+  4. koşu: sıralı 1-3 %6.3; 1-2 %5.3; 1-10 %5.2 | ikili 1/3 %11.5; 1/2 %9.6; 1/10 %9.4
+  5. koşu: sıralı 1-5 %12.8; 1-4 %10.7; 1-2 %8.4 | ikili 1/5 %21.1; 1/4 %17.5; 1/2 %13.5
+  6. koşu: sıralı 2-6 %6.7; 2-4 %6.3; 6-2 %6.3 | ikili 2/6 %13.0; 2/4 %12.1; 4/6 %9.1
+  7. koşu: sıralı 10-5 %7.4; 5-10 %6.8; 10-2 %4.6 | ikili 10/5 %14.2; 10/2 %8.5; 10/3 %6.3
