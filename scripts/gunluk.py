@@ -35,6 +35,9 @@ for sid,ad in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<
     get(f"https://www.tjk.org/TR/YarisSever/Info/Sehir/GunlukYarisProgrami?SehirId={sid}&QueryParameter_Tarih={tarih}&SehirAdi={enc}&Era={era}",h)
     if not get(f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{enc}-GunlukYarisProgrami-TR.csv",c):
         print(ad,': CSV alınamadı'); continue
+    # AGF hareketi için saat damgalı kopya (gün içinde her çalıştırmada bir anlık görüntü)
+    kd=os.path.join(K,'veri','agf_kayit',g.isoformat()); os.makedirs(kd,exist_ok=True)
+    import shutil; shutil.copy(c,os.path.join(kd,f"{ad}_{datetime.datetime.utcnow().strftime('%H%M')}UTC.csv"))
     idm=os.path.join(tmp,ad+'_idman.json')
     nk=sum(1 for l in open(c,encoding='utf-8-sig') if re.match(r'^\d+\. Kosu',l))
     if mod=='pegadrom': subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','galop_pegadrom.py'),g.isoformat(),ad,str(nk),idm])
@@ -44,7 +47,10 @@ for sid,ad in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<
     r_=subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','hava.py'),'tahmin',g.strftime('%d.%m.%Y'),ad],capture_output=True,text=True)
     open(hv,'w').write(r_.stdout.strip().splitlines()[-1] if r_.returncode==0 and r_.stdout.strip() else '{}')
     out=os.path.join(K,'analizler',f"{g.isoformat()}_{ad}.txt"); os.makedirs(os.path.dirname(out),exist_ok=True)
+    js=os.path.join(tmp,ad+'_olasilik.json')
     with open(out,'w') as f:
         subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','analiz3.py'),h,c,os.path.join(K,'veri','model.json'),
-            os.path.join(K,'veri','irk_zemin_mesafe_profil.json'),ad,idm,os.path.join(K,'veri','kosu_turu_jokey.json'),hv],stdout=f)
+            os.path.join(K,'veri','irk_zemin_mesafe_profil.json'),ad,idm,os.path.join(K,'veri','kosu_turu_jokey.json'),hv],stdout=f,env=dict(os.environ,ANALIZ_JSON=js))
+        f.flush()
+        if os.path.exists(js): subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','kupon.py'),js,'1','300'],stdout=f)
     print(ad,'->',out)
