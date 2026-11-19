@@ -1,42 +1,43 @@
 grup                                     koşu favori%  sürpriz%(ganyan≥10)
-TÜMÜ                                      2464   34.1    17.8
-alan (bahis birimi): 11-13                 645   26.4    25.3
-alan (bahis birimi): 14+                   330   27.9    29.1
-alan (bahis birimi): 8-10                  930   35.1    14.1
-alan (bahis birimi): ≤7                    559   44.9     8.8
-eküri var                                  544   34.0    19.5
-eküri yok                                 1920   34.1    17.3
-favori piyasa olasılığı: 10%+              140   15.0    28.6
-favori piyasa olasılığı: 20%+              877   24.3    19.6
-favori piyasa olasılığı: 30%+              786   34.6    17.3
-favori piyasa olasılığı: 40%+              427   46.8    13.1
-favori piyasa olasılığı: 50%+              173   53.2    15.0
-favori piyasa olasılığı: 60%+               61   67.2    14.8
-koşu türü: Arap Grup                        34   32.4    20.6
-koşu türü: Arap Handikap                   316   25.9    27.2
-koşu türü: Arap KV                         119   36.1    14.3
-koşu türü: Arap Maiden                     242   30.2    22.7
-koşu türü: Arap Şartlı                     364   32.4    18.4
-koşu türü: İngiliz Grup                     59   42.4    10.2
-koşu türü: İngiliz Handikap                408   29.9    17.2
-koşu türü: İngiliz KV                      186   43.0     8.1
-koşu türü: İngiliz Maiden                  234   35.0    23.9
-koşu türü: İngiliz Satış                    54   37.0    13.0
-koşu türü: İngiliz Şartlı                  420   42.1    11.4
-pist: Kum                                 1131   31.3    18.7
-pist: Kum ıslak                            213   40.4    15.5
-pist: Sentetik                             296   36.8    15.9
-pist: Sentetik ıslak                        71   39.4    16.9
-pist: Çim                                  711   34.7    17.6
-pist: Çim ıslak                             42   35.7    26.2
-ırk: Arap                                 1102   30.2    21.5
-ırk: İngiliz                              1362   37.2    14.8
+TÜMÜ                                      7921   35.3    15.8
+alan (bahis birimi): 11-13                1960   29.9    21.9
+alan (bahis birimi): 14+                   846   27.7    29.2
+alan (bahis birimi): 8-10                 3011   34.9    13.7
+alan (bahis birimi): ≤7                   2104   43.8     7.5
+eküri var                                 1737   35.7    18.0
+eküri yok                                 6184   35.2    15.1
+favori piyasa olasılığı: 10%+              433   17.3    29.1
+favori piyasa olasılığı: 20%+             2745   26.9    16.7
+favori piyasa olasılığı: 30%+             2570   35.2    14.2
+favori piyasa olasılığı: 40%+             1426   44.2    14.2
+favori piyasa olasılığı: 50%+              539   58.1    12.6
+favori piyasa olasılığı: 60%+              208   63.5    13.9
+koşu türü: Arap Grup                        85   41.2    20.0
+koşu türü: Arap Handikap                  1080   29.0    21.9
+koşu türü: Arap KV                         364   39.0    12.1
+koşu türü: Arap Maiden                     785   32.9    18.9
+koşu türü: Arap Satış                       89   29.2    16.9
+koşu türü: Arap Şartlı                    1195   34.1    15.6
+koşu türü: İngiliz Grup                    147   39.5    17.7
+koşu türü: İngiliz Handikap               1278   32.9    16.2
+koşu türü: İngiliz KV                      574   41.1     8.4
+koşu türü: İngiliz Maiden                  769   36.2    17.4
+koşu türü: İngiliz Satış                   175   37.7    11.4
+koşu türü: İngiliz Şartlı                 1374   40.2    12.1
+pist: Kum                                 4326   34.9    15.6
+pist: Kum ıslak                            263   40.7    14.1
+pist: Sentetik                            1017   38.2    13.6
+pist: Sentetik ıslak                        78   37.2    16.7
+pist: Çim                                 2164   34.1    17.0
+pist: Çim ıslak                             73   31.5    21.9
+ırk: Arap                                 3602   32.8    18.0
+ırk: İngiliz                              4319   37.3    13.9
 
 Ganyan oranına göre (eküri tek birim): birim sayısı, kazanma, piyasa beklentisi, piyasa A/E, 1 TL'nin getirisi
-  ganyan 1-2      1009   457    455.7   1.00  % 70.5
-  ganyan 2-3      1506   419    430.9   0.97  % 68.1
-  ganyan 3-5      2958   538    542.5   0.99  % 69.8
-  ganyan 5-10     5665   611    577.5   1.06  % 75.2
-  ganyan 10-20    5822   313    297.1   1.05  % 75.0
-  ganyan 20-50    5903   119    143.4   0.83  % 56.9
-  ganyan 50+      1586     7     16.8   0.42  % 25.8
+  ganyan 1-2      3258  1474   1462.3   1.01  % 70.5
+  ganyan 2-3      5147  1499   1476.8   1.02  % 71.2
+  ganyan 3-5      9908  1912   1818.8   1.05  % 74.0
+  ganyan 5-10    17438  1788   1777.8   1.01  % 71.6
+  ganyan 10-20   17623   882    904.9   0.97  % 69.4
+  ganyan 20-50   17547   337    427.5   0.79  % 54.1
+  ganyan 50+      4966    29     52.9   0.55  % 38.2

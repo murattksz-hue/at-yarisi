@@ -292,3 +292,9 @@ Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
 **Harville testi** (`scripts/harville_test.py`, `veri/harville_test.txt`; 2.446 koşu): ilk ikiye girme tahmini %0–70'te gerçekle 1–3 puan içinde; çok güçlü favorilerde abartılı (%84 tahmin → %76 gerçek). Sıralı ikilide en olası kombinasyonlar biraz hafife alınıyor (%17–32 tahmin → %20–36 gerçek).
 
 **Veri genişletme:** sonuçlar ~560 güne genişletiliyor (Antalya kış sezonu ve atların daha uzun geçmişi için). Bittiğinde hız tablosu, aygır/kulvar/jokey tabloları ve testler yeniden üretilecek.
+
+### Veri genişletme tamamlandı (19.11.2026)
+- Sonuçlar 2025-05-07 → 2026-11-18: 1.184 yarış günü, 7.921 koşu (önce 391 gün). Antalya 57 gün (geçen kış dahil).
+- Yeniden üretildi: hız puanı (9.593 at), jokey tablosu (238), koşu türleri (31 tür, 17 kod), sürpriz, koşu türü/jokey, ırk×zemin×mesafe profilleri, model aygır/kulvar/jokey tabloları.
+- AGF'li model testte değişmedi (-1,855); AGF'siz model iyileşti (-2,011 → -2,006; ilk 3 %60,0 → %60,9).
+- Uzun veriyle sürpriz: favori %35,3, ganyan ≥10 kazanan %15,8 (7.921 koşu).

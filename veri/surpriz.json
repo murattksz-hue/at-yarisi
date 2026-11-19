@@ -1,208 +1,213 @@
 {
  "gruplar": {
   "TÜMÜ": {
-   "kosu": 2464,
-   "favori": 34.1,
-   "surpriz": 17.8
+   "kosu": 7921,
+   "favori": 35.3,
+   "surpriz": 15.8
   },
   "alan (bahis birimi): 11-13": {
-   "kosu": 645,
-   "favori": 26.4,
-   "surpriz": 25.3
+   "kosu": 1960,
+   "favori": 29.9,
+   "surpriz": 21.9
   },
   "alan (bahis birimi): 14+": {
-   "kosu": 330,
-   "favori": 27.9,
-   "surpriz": 29.1
+   "kosu": 846,
+   "favori": 27.7,
+   "surpriz": 29.2
   },
   "alan (bahis birimi): 8-10": {
-   "kosu": 930,
-   "favori": 35.1,
-   "surpriz": 14.1
+   "kosu": 3011,
+   "favori": 34.9,
+   "surpriz": 13.7
   },
   "alan (bahis birimi): ≤7": {
-   "kosu": 559,
-   "favori": 44.9,
-   "surpriz": 8.8
+   "kosu": 2104,
+   "favori": 43.8,
+   "surpriz": 7.5
   },
   "eküri var": {
-   "kosu": 544,
-   "favori": 34.0,
-   "surpriz": 19.5
+   "kosu": 1737,
+   "favori": 35.7,
+   "surpriz": 18.0
   },
   "eküri yok": {
-   "kosu": 1920,
-   "favori": 34.1,
-   "surpriz": 17.3
+   "kosu": 6184,
+   "favori": 35.2,
+   "surpriz": 15.1
   },
   "favori piyasa olasılığı: 10%+": {
-   "kosu": 140,
-   "favori": 15.0,
-   "surpriz": 28.6
+   "kosu": 433,
+   "favori": 17.3,
+   "surpriz": 29.1
   },
   "favori piyasa olasılığı: 20%+": {
-   "kosu": 877,
-   "favori": 24.3,
-   "surpriz": 19.6
+   "kosu": 2745,
+   "favori": 26.9,
+   "surpriz": 16.7
   },
   "favori piyasa olasılığı: 30%+": {
-   "kosu": 786,
-   "favori": 34.6,
-   "surpriz": 17.3
+   "kosu": 2570,
+   "favori": 35.2,
+   "surpriz": 14.2
   },
   "favori piyasa olasılığı: 40%+": {
-   "kosu": 427,
-   "favori": 46.8,
-   "surpriz": 13.1
+   "kosu": 1426,
+   "favori": 44.2,
+   "surpriz": 14.2
   },
   "favori piyasa olasılığı: 50%+": {
-   "kosu": 173,
-   "favori": 53.2,
-   "surpriz": 15.0
+   "kosu": 539,
+   "favori": 58.1,
+   "surpriz": 12.6
   },
   "favori piyasa olasılığı: 60%+": {
-   "kosu": 61,
-   "favori": 67.2,
-   "surpriz": 14.8
+   "kosu": 208,
+   "favori": 63.5,
+   "surpriz": 13.9
   },
   "koşu türü: Arap Grup": {
-   "kosu": 34,
-   "favori": 32.4,
-   "surpriz": 20.6
+   "kosu": 85,
+   "favori": 41.2,
+   "surpriz": 20.0
   },
   "koşu türü: Arap Handikap": {
-   "kosu": 316,
-   "favori": 25.9,
-   "surpriz": 27.2
+   "kosu": 1080,
+   "favori": 29.0,
+   "surpriz": 21.9
   },
   "koşu türü: Arap KV": {
-   "kosu": 119,
-   "favori": 36.1,
-   "surpriz": 14.3
+   "kosu": 364,
+   "favori": 39.0,
+   "surpriz": 12.1
   },
   "koşu türü: Arap Maiden": {
-   "kosu": 242,
-   "favori": 30.2,
-   "surpriz": 22.7
+   "kosu": 785,
+   "favori": 32.9,
+   "surpriz": 18.9
   },
-  "koşu türü: Arap Şartlı": {
-   "kosu": 364,
-   "favori": 32.4,
-   "surpriz": 18.4
-  },
-  "koşu türü: İngiliz Grup": {
-   "kosu": 59,
-   "favori": 42.4,
-   "surpriz": 10.2
-  },
-  "koşu türü: İngiliz Handikap": {
-   "kosu": 408,
-   "favori": 29.9,
-   "surpriz": 17.2
-  },
-  "koşu türü: İngiliz KV": {
-   "kosu": 186,
-   "favori": 43.0,
-   "surpriz": 8.1
-  },
-  "koşu türü: İngiliz Maiden": {
-   "kosu": 234,
-   "favori": 35.0,
-   "surpriz": 23.9
-  },
-  "koşu türü: İngiliz Satış": {
-   "kosu": 54,
-   "favori": 37.0,
-   "surpriz": 13.0
-  },
-  "koşu türü: İngiliz Şartlı": {
-   "kosu": 420,
-   "favori": 42.1,
-   "surpriz": 11.4
-  },
-  "pist: Kum": {
-   "kosu": 1131,
-   "favori": 31.3,
-   "surpriz": 18.7
-  },
-  "pist: Kum ıslak": {
-   "kosu": 213,
-   "favori": 40.4,
-   "surpriz": 15.5
-  },
-  "pist: Sentetik": {
-   "kosu": 296,
-   "favori": 36.8,
-   "surpriz": 15.9
-  },
-  "pist: Sentetik ıslak": {
-   "kosu": 71,
-   "favori": 39.4,
+  "koşu türü: Arap Satış": {
+   "kosu": 89,
+   "favori": 29.2,
    "surpriz": 16.9
   },
+  "koşu türü: Arap Şartlı": {
+   "kosu": 1195,
+   "favori": 34.1,
+   "surpriz": 15.6
+  },
+  "koşu türü: İngiliz Grup": {
+   "kosu": 147,
+   "favori": 39.5,
+   "surpriz": 17.7
+  },
+  "koşu türü: İngiliz Handikap": {
+   "kosu": 1278,
+   "favori": 32.9,
+   "surpriz": 16.2
+  },
+  "koşu türü: İngiliz KV": {
+   "kosu": 574,
+   "favori": 41.1,
+   "surpriz": 8.4
+  },
+  "koşu türü: İngiliz Maiden": {
+   "kosu": 769,
+   "favori": 36.2,
+   "surpriz": 17.4
+  },
+  "koşu türü: İngiliz Satış": {
+   "kosu": 175,
+   "favori": 37.7,
+   "surpriz": 11.4
+  },
+  "koşu türü: İngiliz Şartlı": {
+   "kosu": 1374,
+   "favori": 40.2,
+   "surpriz": 12.1
+  },
+  "pist: Kum": {
+   "kosu": 4326,
+   "favori": 34.9,
+   "surpriz": 15.6
+  },
+  "pist: Kum ıslak": {
+   "kosu": 263,
+   "favori": 40.7,
+   "surpriz": 14.1
+  },
+  "pist: Sentetik": {
+   "kosu": 1017,
+   "favori": 38.2,
+   "surpriz": 13.6
+  },
+  "pist: Sentetik ıslak": {
+   "kosu": 78,
+   "favori": 37.2,
+   "surpriz": 16.7
+  },
   "pist: Çim": {
-   "kosu": 711,
-   "favori": 34.7,
-   "surpriz": 17.6
+   "kosu": 2164,
+   "favori": 34.1,
+   "surpriz": 17.0
   },
   "pist: Çim ıslak": {
-   "kosu": 42,
-   "favori": 35.7,
-   "surpriz": 26.2
+   "kosu": 73,
+   "favori": 31.5,
+   "surpriz": 21.9
   },
   "ırk: Arap": {
-   "kosu": 1102,
-   "favori": 30.2,
-   "surpriz": 21.5
+   "kosu": 3602,
+   "favori": 32.8,
+   "surpriz": 18.0
   },
   "ırk: İngiliz": {
-   "kosu": 1362,
-   "favori": 37.2,
-   "surpriz": 14.8
+   "kosu": 4319,
+   "favori": 37.3,
+   "surpriz": 13.9
   }
  },
  "oran_kovalari": {
   "1-2": {
-   "birim": 1009,
-   "kazanma": 457,
-   "piyasa_ae": 1.0,
+   "birim": 3258,
+   "kazanma": 1474,
+   "piyasa_ae": 1.01,
    "getiri": 70.5
   },
   "2-3": {
-   "birim": 1506,
-   "kazanma": 419,
-   "piyasa_ae": 0.97,
-   "getiri": 68.1
+   "birim": 5147,
+   "kazanma": 1499,
+   "piyasa_ae": 1.02,
+   "getiri": 71.2
   },
   "3-5": {
-   "birim": 2958,
-   "kazanma": 538,
-   "piyasa_ae": 0.99,
-   "getiri": 69.8
+   "birim": 9908,
+   "kazanma": 1912,
+   "piyasa_ae": 1.05,
+   "getiri": 74.0
   },
   "5-10": {
-   "birim": 5665,
-   "kazanma": 611,
-   "piyasa_ae": 1.06,
-   "getiri": 75.2
+   "birim": 17438,
+   "kazanma": 1788,
+   "piyasa_ae": 1.01,
+   "getiri": 71.6
   },
   "10-20": {
-   "birim": 5822,
-   "kazanma": 313,
-   "piyasa_ae": 1.05,
-   "getiri": 75.0
+   "birim": 17623,
+   "kazanma": 882,
+   "piyasa_ae": 0.97,
+   "getiri": 69.4
   },
   "20-50": {
-   "birim": 5903,
-   "kazanma": 119,
-   "piyasa_ae": 0.83,
-   "getiri": 56.9
+   "birim": 17547,
+   "kazanma": 337,
+   "piyasa_ae": 0.79,
+   "getiri": 54.1
   },
   "50+": {
-   "birim": 1586,
-   "kazanma": 7,
-   "piyasa_ae": 0.42,
-   "getiri": 25.8
+   "birim": 4966,
+   "kazanma": 29,
+   "piyasa_ae": 0.55,
+   "getiri": 38.2
   }
  }
 }
