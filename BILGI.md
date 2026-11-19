@@ -522,3 +522,20 @@ Bulgular:
 - Tek tek türlerde (ör. İngiliz Handikap 17, KV-7, Şartlı 3) |z|≈2–3 sapmalar var. Ama yaklaşık 140 karşılaştırmada birkaç tanesi şansla da çıkar; doğrulanmış sayılmaz.
 - **Modelimiz (v9) türlere göre (görülmemiş 542 koşu, az örnek):** en iyi Handikapta, özellikle Arap Handikapta. 1. seçim %27 kazandı, favori %21; log-olabilirlik +140‰. Bu, piyasanın en zorlandığı yerde. İngiliz KV'de modelin üstünlüğü yok (1. seçim %35, favori %42,5; −3‰). Arap Şartlı'da ise fark yok (+2‰).
 - Günlük analizde her koşunun başında bu türün geçmiş istatistiği yazılır (KOŞU TÜRÜ satırı). Tablo `gunluk.py` ile her gün yenilenir.
+
+## Kaç at önermeli? Koşu türüne göre aday sayısı (test 19.11.2026, `kosu_turu_analiz.py` → `ilk_k`, `oneri_at`)
+Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle ölçüldü: kazanan, piyasa sıralamasında ilk K at içinden ne sıklıkla çıkıyor (9915 koşu)?
+
+| tür | koşu | ilk 3 | ilk 4 | ilk 5 | ilk 6 | önerilen (kazananın ≥%80'i) |
+|---|---|---|---|---|---|---|
+| Tümü | 9915 | %69,7 | %79,5 | %86,1 | %91,0 | 5 |
+| Arap Handikap | 1327 | **%60,4** | %71,2 | %77,5 | %83,9 | **6** |
+| Arap Maiden | 990 | %67,5 | %77,7 | %83,5 | %89,8 | 5 |
+| İngiliz Handikap | 1564 | %68,0 | %78,0 | %84,8 | %90,0 | 5 |
+| İngiliz Şartlı | 1715 | %75,9 | %84,3 | %90,2 | %95,0 | 4 |
+| İngiliz KV | 651 | **%77,4** | %88,2 | %93,2 | %96,6 | 4 |
+
+- Modelin (v9) sıralaması da aynı tabloyu verdi (görülmemiş 542 koşu): ilk 3 %67, ilk 5 %82. Arap Handikapta ilk 3 %53, ilk 5 %70.
+- %80 eşiğini ben seçtim, keyfî bir eşik. Daha fazla at kapsamak kazanma ihtimalini artırır ama bilet maliyetini de artırır. Ganyanda kâra çevirmez (1 TL getirisi oran ne olursa olsun ~0,7). Asıl kullanım alanı altılı ve kupon ayak genişliği.
+- **Gerçek örnek, 19.11 Antalya 2 (Arap Maiden):** sabah 11:44'te dondurulan tahminde CİHANDERE modelin 5. sırasındaydı (v9 ve v8). 3 at önerisinde dışarıda kaldı, 5 at önerisinde içeride olurdu. AGF'siz modelde 7. sıradaydı, orada da dışarıda kalırdı.
+- Günlük analizde artık her koşuda "► ÖNERİLEN ADAY SAYISI" satırı var. Tahmin JSON'unda `oneri_at` alanı bulunur. Canlı testte "kazanan ilk K içinde mi" ayrıca izlenecek.

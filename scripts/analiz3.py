@@ -186,14 +186,16 @@ for ri,r in enumerate(races):
         elif pm>=0.50: print(f"    ★★ YÜKSEK GÜVEN (1. aday %{100*pm:.0f}): geçmişte bu düzeyde 1. aday %69 kazandı, ilk 2'de %83 (koşuların %13'ü)")
         elif pm>=0.45: print(f"    ★ GÜVEN (1. aday %{100*pm:.0f}): geçmişte bu düzeyde 1. aday %54 kazandı, ilk 2'de %72 (koşuların %20'si)")
         else: print(f"    Güven düşük (1. aday %{100*pm:.0f}): bu düzeyde 1. aday ~%25-45 kazanıyor; atlamayı düşün")
-    for i in srt[:5]:
+    KA=int(kd.get('oneri_at',5)) if kd.get('kosu',0)>=30 else 5; ik_=(kd.get('ilk_k') or {}).get(str(KA))
+    print(f"    ► ÖNERİLEN ADAY SAYISI: {KA} at"+(f" (bu türde geçmişte kazanan, sıralamanın ilk {KA} atı içinden %{ik_} çıktı; ilk 3'ten %{kd['ilk_k']['3']})" if ik_ else '')+": "+', '.join(f"#{h[i]['no']} {h[i]['ad']}" for i in srt[:KA]))
+    for i in srt[:max(5,KA)]:
         x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.5 and p[i]>=0.05 and not agf_yok else ''
         bt=(f" → {x['bitis']}." if x['bitis'] else '')+(' [EKÜRİ]' if x['ad'] in ek else '')
         gy=GNY.get(x['ad']); pe=ekp if x['ad'] in ek else p[i]
         _U={('ek' if y['ad'] in ek else y['ad']):GNY[y['ad']] for y in h if GNY.get(y['ad'],0)>1}; _top=sum(1/v for v in _U.values()) if _U else 0
         gtxt=(f" | ganyan {gy:.2f}"+(' ★GANYAN' if 1.15<=_top<=1.6 and gy>=1.5/pe and pe>=0.05 else ('' if 1.15<=_top<=1.6 else ' (piyasa oturmamış)'))) if gy and gy>1 else ''
         print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}, değer için ganyan ≥{1.5/p[i]:.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret}{gtxt} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')}{' ★pist-mesafe galibi' if x.get('pmg') else (' pist galibi' if x.get('pg') else '')} {x.get('say',0)} koşu{' (İLK KOŞU: maidende piyasa fazla oynuyor)' if MAI and not x.get('say',0) else ''} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
-    JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_gercek_yok),model='agfsiz' if agf_yok else 'agfli',
+    JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_gercek_yok),oneri_at=KA,model='agfsiz' if agf_yok else 'agfli',
         atlar=[dict(no=x['no'],ad=x['ad'],p=round(float(p[i]),4),agf=round(float(q[i]),4),ekuri=x['ad'] in ek,ganyan=GNY.get(x['ad'])) for i,x in enumerate(h)]))
     kaz=[i for i,x in enumerate(h) if x['bitis']==1]
     if kaz: sk[2]+=1; sk[0]+=srt[0]==kaz[0]; sk[1]+=kaz[0] in srt[:3]

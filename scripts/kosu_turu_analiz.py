@@ -49,6 +49,8 @@ for f in sorted(glob.glob(sys.argv[1]+'/*.csv')):
         for k in ('TÜMÜ',f"{r['a']}",f"{r['irk']} {r['a']}",f"{r['irk']} {r['t']}"):
             s=S[k]; s['n']+=1; s['birim']+=len(un); s['fav']+=fav['kaz']; s['fav_get']+=fav['o'] if fav['kaz'] else 0
             s['ilk3']+=kaz in srt[:3]; s['s10']+=kaz['o']>=10; s['s20']+=kaz['o']>=20; s['fq']+=fq; s['sq']+=sq
+            rk=srt.index(kaz)
+            for j in range(1,9): s[f'rk{j}']+=rk<j
             if agf_var: s['agf_n']+=1; s['agf1']+=kaz['ar']==1; s['agf3']+=kaz['ar']<=3
             if hpm>0: s['hp_n']+=1; s['hp1']+=kaz['hp']==hpm
             G[k].append(kaz['o'])
@@ -59,7 +61,9 @@ def yaz(k):
     if n<30: return
     d=dict(kosu=n,alan=round(s['birim']/n,1),favori=round(100*s['fav']/n,1),fav_ilk3=round(100*s['ilk3']/n,1),fav_getiri=round(100*s['fav_get']/n,1),
            agf1=round(100*s['agf1']/s['agf_n'],1) if s['agf_n'] else None,agf3=round(100*s['agf3']/s['agf_n'],1) if s['agf_n'] else None,
-           hp1=round(100*s['hp1']/s['hp_n'],1) if s['hp_n'] else None,s10=round(100*s['s10']/n,1),fav_bek=round(100*s['fq']/n,1),s10_bek=round(100*s['sq']/n,1),s20=round(100*s['s20']/n,1),medyan=round(statistics.median(G[k]),2))
+           hp1=round(100*s['hp1']/s['hp_n'],1) if s['hp_n'] else None,s10=round(100*s['s10']/n,1),fav_bek=round(100*s['fq']/n,1),s10_bek=round(100*s['sq']/n,1),s20=round(100*s['s20']/n,1),medyan=round(statistics.median(G[k]),2),
+           ilk_k={j:round(100*s[f'rk{j}']/n,1) for j in range(1,9)})
+    d['oneri_at']=next((j for j in range(3,9) if d['ilk_k'][j]>=80),8)   # kazananın en az %80'ini kapsayan en küçük at sayısı (en az 3)
     out[k]=d
     print("%-30s %5d %5.1f | %6.1f %6.1f %6.1f %6.1f | %6s %6s | %6s | %6.1f %6.1f %6.1f | %6.2f"%(k[:30],n,d['alan'],d['favori'],d['fav_bek'],d['fav_ilk3'],d['fav_getiri'],d['agf1'],d['agf3'],d['hp1'],d['s10'],d['s10_bek'],d['s20'],d['medyan']))
 yaz('TÜMÜ'); print('-- aile')
