@@ -7,6 +7,10 @@ while true; do
   saat=$(TZ=Europe/Istanbul date +%H%M)
   [ "$saat" -gt 2215 ] && break
   python3 -I "$K/scripts/agf_kayit.py" >> "$K/.gunluk/agf_dongu.log" 2>&1
+  # her 3 saatte bir ara kayıt
+  [ "$(TZ=Europe/Istanbul date +%H%M | cut -c3-4)" -lt 10 ] && [ $(( 10#$(TZ=Europe/Istanbul date +%H) % 3 )) -eq 0 ] && (cd "$K" && git add -A veri/agf_kayit && git commit -q -m "AGF/ganyan kaydı (ara, otomatik)" >/dev/null 2>&1 && git -c push.negotiate=true push -q >/dev/null 2>&1)
   sleep 600
 done
+# gün sonu: kayıtları GitHub'a kaydet (model turu gerektirmez)
+cd "$K" && git add -A veri/agf_kayit && git commit -q -m "AGF/ganyan kaydı (gün sonu, otomatik)" >/dev/null 2>&1; for i in 1 2 3 4; do git -c push.negotiate=true push -q >/dev/null 2>&1 && break; sleep $((i*15)); done
 rm -f "$KILIT"; echo "döngü bitti $(date)" >> "$K/.gunluk/agf_dongu.log"

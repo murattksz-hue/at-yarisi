@@ -434,3 +434,4 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - Yakın takip (kullanıcı isteği): koşu günü AGF + ganyan **10 dakikada bir** (`scripts/agf_dongu.sh`, 22:15'e kadar; kilitle tek kopya; saatlik görev durmuşsa yeniden başlatır).
 - `scripts/takip_rapor.py GG.AA.YYYY Hipodrom [koşu]`: her koşunun en çok oynanan 5 atı için AGF ve ganyanın sabahtan koşuya seyri, bitiş ve kesin ganyan.
 - 19.11 Antalya 6. koşu örneği: YOU ARE BIG AGF %23 (10:12) → %36 (11:31) → %70 (15:54); aynı anda ganyan 4,95 (havuz yeni). Altılı oynayanlar toplanmış, ganyan henüz değil.
+- Kota: 10 dakikalık döngü bağımsız süreç olarak çalışır (model turu harcamaz); 3 saatte bir ve gün sonunda kayıtları kendisi GitHub'a kaydeder. Model turu gerektiren kontrol görevi günde 2 kez (07:03, 13:03): döngü durmuşsa başlatır.
