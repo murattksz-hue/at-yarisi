@@ -260,3 +260,9 @@ Favori–sürpriz yanlılığı (oran kovasına göre piyasa A/E ve 1 TL getiris
 - Seçilenler birlikte: **+5,80 binde** (tek başına hız puanı +4,54).
 - Jokey: beceri gerçek ama halk tam fiyatlıyor; son form ve hipodrom uzmanlığı ek bilgi taşımıyor. Analizde gerçek sayılarla gösteriliyor, olasılığa ek etkisi yok.
 - `veri/hiz_puani.json` artık her at için koşu sayısı, galibiyetleri (hipodrom/pist/mesafe) ve son 3 hız puanını; her sahip için A/E'yi tutar.
+
+## Koşu türüne göre etken ağırlıkları farklı mı? (`scripts/kosu_turu_etkilesim.py`, `veri/kosu_turu_etkilesim.txt`)
+- 1.850 görülmemiş koşu, 10 katlı gün bazlı çapraz doğrulama.
+- Tek ağırlık: +5,97 binde; ırk × koşu türü ailesine göre ayrı ağırlık (genele çekilerek): +5,61 binde → **ayrı ağırlık daha iyi değil**.
+- Tabloda görülen farklar (ör. Arap Maiden'da deneyim 0,27, Handikapta pist-mesafe galibi 0,16–0,20, İngiliz Şartlı'da hız puanı 0,24) yeni günlerde tutmadı; grup başına 40–300 koşu yetersiz. Veri biriktikçe tekrar test edilecek.
+- Koşu farklılığı analizde profil olarak gösterilir (favori/HP lideri oranı, sürpriz riski, kulvar, hava); etken ağırlıkları tek tutulur.

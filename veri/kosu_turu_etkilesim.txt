@@ -1,0 +1,17 @@
+test koşusu: 1850
+{'piyasa': -1.8762, 'tek': -1.8702, 'tur': -1.8706}
+tek ağırlık katkısı +5.97 binde | koşu türüne göre ayrı +5.61 binde
+grup               koşu pist_mesaf pist_galib    deneyim      sahip    hiz_son hiz_en_iyi
+TEK                1850      0.128      0.057      0.054      0.033      0.021      0.101
+Arap|Handikap       239      0.157     -0.045      0.013      0.062     -0.031      0.101
+Arap|KV              96      0.100      0.131      0.122      0.085     -0.023      0.114
+Arap|Maiden         189      0.128      0.057      0.271      0.017     -0.134      0.188
+Arap|Şartlı         253      0.045      0.197      0.133     -0.052     -0.012      0.063
+İngiliz|Grup         45      0.106      0.001      0.073     -0.069      0.050     -0.010
+İngiliz|Handikap    296      0.198     -0.071     -0.031      0.013      0.067      0.095
+İngiliz|KV          155      0.026      0.125     -0.101     -0.066      0.129      0.034
+İngiliz|Maiden      175      0.128      0.057     -0.002      0.042      0.130      0.010
+İngiliz|Satış        41      0.140      0.096      0.021     -0.014     -0.022      0.159
+İngiliz|Şartlı      312      0.250      0.082      0.054      0.144      0.047      0.235
+
+[exited with code 0]
