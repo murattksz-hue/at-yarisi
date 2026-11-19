@@ -22,6 +22,11 @@ yeni=[]; print(f"=== {hip} {g} canlı takip {dict(v8='v8 (AGF li)',agfsiz='AGF s
 for k in T:
     A=[dict(a,bitis=bitis.get(a['ad'])) for a in k['atlar']]
     if not any(a['bitis']==1 for a in A): print(f"  {k['kosu']}. koşu: henüz sonuç yok"); continue
+    # koşmayan (çekilen) atlar: bitiş bilgisi yok → çıkar, olasılıkları koşanlar arasında yeniden dağıt (TJK çekilen atın bahsini iade eder)
+    cek=[a['ad'] for a in A if a['bitis'] is None]
+    A=[a for a in A if a['bitis'] is not None]; tp=sum(a['p'] for a in A) or 1; ta=sum(a['agf'] for a in A) or 1
+    A=[dict(a,p=a['p']/tp,agf=a['agf']/ta) for a in A]
+    if len([a for a in A if a['ekuri']])<2: A=[dict(a,ekuri=False) for a in A]
     srt=sorted(A,key=lambda a:-a['p']); kaz=next(a for a in A if a['bitis']==1)
     # eküri: birim olarak
     ekp=sum(a['p'] for a in A if a['ekuri']); kaz_p=ekp if kaz['ekuri'] else kaz['p']
@@ -33,7 +38,7 @@ for k in T:
         agf_favori=fav['ad'] if fav else '',agf_favori_bitis=fav['bitis'] if fav else '',
         deger_atlar=';'.join(f"{a['ad']}:{a['bitis']}" for a in deg),log_model=round(math.log(max(kaz_p,1e-6)),4),log_agf=round(math.log(max(kaz_agf,1e-6)),4) if kaz_agf else '')
     print(f"  {k['kosu']}. koşu: kazanan {kaz['ad']} (model sırası {sat['kazanan_model_sira']}, model %{100*kaz_p:.0f}"+(f", AGF %{100*kaz_agf:.0f}" if kaz_agf is not None else '')+
-          f") | model 1. adayı {srt[0]['ad']} → {srt[0]['bitis']}."+(f" | AGF favorisi {fav['ad']} → {fav['bitis']}." if fav else '')+(f" | ★DEĞER: {sat['deger_atlar']}" if deg else ''))
+          f") | model 1. adayı {srt[0]['ad']} → {srt[0]['bitis']}."+(f" | AGF favorisi {fav['ad']} → {fav['bitis']}." if fav else '')+(f" | ★DEĞER: {sat['deger_atlar']}" if deg else '')+(f" | çekilen: {', '.join(cek)}" if cek else ''))
     if (sat['tarih'],sat['hipodrom'],sat['kosu']) not in eski: yeni.append(sat)
 if yeni:
     ilk=not os.path.exists(LOG)

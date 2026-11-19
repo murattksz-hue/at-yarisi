@@ -1,5 +1,5 @@
 #!/bin/bash
-# Koşu günü AGF + ganyan kaydı: 10 dakikada bir, İstanbul saatiyle 22:15'e kadar. Kilit dosyasıyla tek kopya çalışır.
+# Koşu günü AGF + ganyan kaydı: 5 dakikada bir, İstanbul saatiyle 22:15'e kadar. Kilit dosyasıyla tek kopya çalışır.
 K="$(cd "$(dirname "$0")/.." && pwd)"; KILIT=/tmp/agf_dongu.kilit
 if [ -f "$KILIT" ] && kill -0 "$(cat $KILIT)" 2>/dev/null; then echo "döngü zaten çalışıyor (pid $(cat $KILIT))"; exit 0; fi
 echo $$ > "$KILIT"
@@ -9,7 +9,7 @@ while true; do
   python3 -I "$K/scripts/agf_kayit.py" >> "$K/.gunluk/agf_dongu.log" 2>&1
   # her kayıttan sonra GitHub'a kaydet (model turu gerektirmez)
   (cd "$K" && git add -A veri/agf_kayit && git commit -q -m "AGF/ganyan kaydı (otomatik)" >/dev/null 2>&1 && git -c push.negotiate=true push -q >/dev/null 2>&1)
-  sleep 600
+  sleep 300
 done
 # gün sonu: kayıtları GitHub'a kaydet (model turu gerektirmez)
 cd "$K" && git add -A veri/agf_kayit && git commit -q -m "AGF/ganyan kaydı (gün sonu, otomatik)" >/dev/null 2>&1; for i in 1 2 3 4; do git -c push.negotiate=true push -q >/dev/null 2>&1 && break; sleep $((i*15)); done
