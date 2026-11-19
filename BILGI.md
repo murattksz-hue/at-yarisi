@@ -375,3 +375,16 @@ Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
 | **AGF'siz v9** | **-1,947** | **%31,2** | %61,1 |
 - Ağırlık: AGF'li -0,15, AGF'siz -0,37. AGF'siz model (yalnızca bizim verimiz) artık AGF favorisinden sık kazananı buluyor.
 - 19.11 canlı testi sabah dondurulan v6/v8/AGF'siz(v8) tahminleriyle devam ediyor; v9 bir sonraki yarış gününden itibaren kullanılacak.
+
+## Cinsiyet kodları ayrı ayrı (`scripts/cinsiyet_analiz.py`, `veri/cinsiyet_analiz.txt`)
+Kodların anlamı veriyle doğrulandı: **erkek/dişi** = genç (Arap 3 yaş, İngiliz 2–3 yaş); **aygır/kısrak** = 4 yaş ve üstü; **iğdiş** = kısırlaştırılmış erkek (her yaş).
+Piyasa A/E (iki dönem; eküri tek birim):
+| Cinsiyet | Arap | İngiliz | Yorum |
+|---|---|---|---|
+| Erkek (genç) | 1,05–1,08 | 1,06–1,09 | halk hafife alıyor (tutarlı) |
+| Dişi (genç), karma koşu | 0,76–0,83 | 0,81–0,86 | halk fazla oynuyor (tutarlı) |
+| Kısrak, karma koşu | 0,79–0,84 | 0,97 / 0,59 | Arapta tutarlı, İngilizde çelişkili |
+| Aygır | 1,03–1,04 | 0,97–1,07 | doğru fiyatlanıyor |
+| İğdiş | 0,75–0,98 | 0,78–0,91 | az örnek (8–38 kazanan/dönem) |
+- Not: ilk çalıştırmada piyasa A/E'de pay/payda hatası vardı (oranı eksik koşulardaki galibiyetler paya giriyordu); düzeltildi.
+- v10 (v9 + genç erkek + iğdiş): AGF'li -1,844 (v9 -1,845), AGF'siz -1,947 (aynı) → fark gürültü düzeyinde; genç erkek ile dişi karma koşuda aynı bilginin iki yüzü. **v9 kullanılmaya devam ediyor.**

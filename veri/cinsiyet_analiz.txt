@@ -1,0 +1,54 @@
+Cinsiyetlerin yaş dağılımı (kodların anlamını veriyle doğrulamak için):
+  Arap    erkek     9153 at-koşu | yaşlar: 3:9153
+  Arap    dişi      8552 at-koşu | yaşlar: 3:8552
+  Arap    aygır    19724 at-koşu | yaşlar: 4:9956, 5:4603, 6:2570, 7:1228, 8:633, 9:445, 10:193, 11:84, 12:12
+  Arap    kısrak   10561 at-koşu | yaşlar: 4:6340, 5:2193, 6:1081, 7:427, 8:220, 9:240, 10:60
+  Arap    iğdiş      275 at-koşu | yaşlar: 3:35, 4:70, 5:32, 6:61, 7:52, 8:25
+  İngiliz erkek    18168 at-koşu | yaşlar: 2:5477, 3:12691
+  İngiliz dişi     16901 at-koşu | yaşlar: 2:6523, 3:10378
+  İngiliz aygır    10968 at-koşu | yaşlar: 4:6252, 5:2876, 6:1080, 7:546, 8:133, 9:63, 10:15, 11:3
+  İngiliz kısrak    5447 at-koşu | yaşlar: 4:3497, 5:1343, 6:404, 7:134, 8:31, 9:18, 10:20
+  İngiliz iğdiş      757 at-koşu | yaşlar: 2:32, 3:253, 4:168, 5:111, 6:36, 7:66, 8:44, 9:24, 10:6, 11:17
+
+A/E (1,00 = ortalama). Piyasa A/E <1: halk fazla oynuyor. Dönem sınırı 2026-02-11.
+ırk     cinsiyet kapsam      dönem     at kazanan  alan A/E  piyasa A/E
+Arap    erkek    tüm koşular     1   4876     539      1.17        1.05
+Arap    erkek    tüm koşular     2   4277     486      1.20        1.07
+Arap    erkek    karma koşu      1   4118     460      1.21        1.06
+Arap    erkek    karma koşu      2   3575     409      1.25        1.08
+Arap    dişi     tüm koşular     1   4537     334      0.81        0.94
+Arap    dişi     tüm koşular     2   4015     276      0.77        0.91
+Arap    dişi     karma koşu      1   2176     120      0.61        0.83
+Arap    dişi     karma koşu      2   1982      96      0.54        0.76
+Arap    aygır    tüm koşular     1   9286    1031      1.08        1.03
+Arap    aygır    tüm koşular     2  10438    1038      1.11        1.03
+Arap    aygır    karma koşu      1   6811     735      1.11        1.03
+Arap    aygır    karma koşu      2   7624     734      1.17        1.04
+Arap    kısrak   tüm koşular     1   5064     406      0.84        0.94
+Arap    kısrak   tüm koşular     2   5497     344      0.77        0.93
+Arap    kısrak   karma koşu      1   2287     145      0.66        0.84
+Arap    kısrak   karma koşu      2   2549     101      0.49        0.79
+Arap    iğdiş    tüm koşular     1    149       9      0.62        0.75
+Arap    iğdiş    tüm koşular     2    126      10      0.94        0.98
+Arap    iğdiş    karma koşu      1    119       8      0.71        0.91
+Arap    iğdiş    karma koşu      2    109       8      0.90        0.91
+İngiliz erkek    tüm koşular     1   9394    1216      1.18        1.07
+İngiliz erkek    tüm koşular     2   8774    1145      1.19        1.06
+İngiliz erkek    karma koşu      1   7676     989      1.22        1.09
+İngiliz erkek    karma koşu      2   7109     909      1.23        1.07
+İngiliz dişi     tüm koşular     1   8378     735      0.85        0.93
+İngiliz dişi     tüm koşular     2   8523     723      0.85        0.95
+İngiliz dişi     karma koşu      1   3942     271      0.66        0.81
+İngiliz dişi     karma koşu      2   4222     291      0.68        0.86
+İngiliz aygır    tüm koşular     1   5052     524      0.98        0.99
+İngiliz aygır    tüm koşular     2   5916     624      1.02        1.03
+İngiliz aygır    karma koşu      1   3373     322      0.98        0.97
+İngiliz aygır    karma koşu      2   3758     387      1.08        1.07
+İngiliz kısrak   tüm koşular     1   2677     226      0.83        0.96
+İngiliz kısrak   tüm koşular     2   2770     209      0.77        0.85
+İngiliz kısrak   karma koşu      1   1140      83      0.72        0.97
+İngiliz kısrak   karma koşu      2   1158      53      0.48        0.59
+İngiliz iğdiş    tüm koşular     1    357      38      1.01        0.91
+İngiliz iğdiş    tüm koşular     2    400      32      0.85        0.84
+İngiliz iğdiş    karma koşu      1    275      24      0.89        0.83
+İngiliz iğdiş    karma koşu      2    306      20      0.72        0.78
