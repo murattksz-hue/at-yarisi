@@ -417,3 +417,9 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - Kullanıcı yorumları/tahminleri veri değil kişisel görüş (ör. gayrı resmi "yarıştan çıkabilir" söylentisi) → modelde kullanılmaz.
 - Takı ve şehir değişikliği TJK sonuçlarından da hesaplanabildiği için kendi verimizde test edildi (`scripts/sehir_taki_test.py`).
 - Sonuç (7.228 koşu, binde): şehir değişti -0,22; şehir değişti + burada kazanmış +0,28; takı değişti -0,11; takı eklendi -0,05; takı çıkarıldı -0,14; bugünkü takıyla daha önce kazanmış +0,48 → hepsi önemsiz (hız puanı +4,5). Eklenmedi.
+
+## Kullanıcı gözlemi (test edilecek): "Sabah ilk yayımlanan AGF'lerin doğruluk oranı yüksek; koşuya doğru AGF yüzdeleri değişiyor."
+- TJK'daki "1./2. AGF Tablosu" günün 1. ve 2. altılısıdır (sabah/öğle değil) ve her zaman güncel değeri gösterir → ilk AGF geçmişi TJK'da saklanmıyor.
+- `scripts/agf_kayit.py`: AGF değiştikçe saat damgalı görüntü (`veri/agf_kayit/<tarih>/<hipodrom>_<SSDD>UTC.csv`), ilk dolu AGF ayrıca `ILK_<hipodrom>.csv`.
+- Her gün 08:00'den koşulara kadar saatte bir otomatik çalıştırılıyor. Yeterli gün birikince test: ilk AGF, son AGF ve kesin ganyanın kazananı tahmin isabeti (log-olabilirlik, favori kazanma oranı) karşılaştırılacak.
+- 19.11 İzmir 1. koşu gözlemi: erken ganyanda LADY ECRİN 1,45 (favori), kesin ganyanda 2,30; kazandı. (Tek gözlem, kanıt değil.)
