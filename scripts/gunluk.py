@@ -23,8 +23,11 @@ for d in range(1,11):
             if os.path.exists(fn): os.remove(fn)
             if t_<g-datetime.timedelta(days=1):   # dünden eskiyse yarış yok kabul et, bir daha sorma
                 os.makedirs(os.path.join(K,'.gunluk','yok'),exist_ok=True); open(os.path.join(K,'.gunluk','yok',os.path.basename(fn)),'w').close()
-if yeni:
-    subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','hiz_tablosu.py'),SDIR,os.path.join(K,'veri','hiz_puani.json')])
+if yeni:   # koşmayan atlar çıkarılmış temiz kopyadan tabloları güncelle
+    subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','sonuc_temizle.py')])
+    TDIR=os.path.join(K,'veri','sonuc_temiz')
+    subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','hiz_tablosu.py'),TDIR,os.path.join(K,'veri','hiz_puani.json')])
+    subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','jokey_tablo.py'),TDIR,os.path.join(K,'veri','jokey_tablo.json')])
 print('yeni sonuç dosyası:',yeni)
 tarih=urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')
 ana=os.path.join(tmp,'ana.html'); get(f"https://www.tjk.org/TR/YarisSever/Info/Page/GunlukYarisProgrami?QueryParameter_Tarih={tarih}",ana)

@@ -33,7 +33,7 @@ no=None
 for l in b.decode('utf-8-sig','replace').splitlines():
     c=l.split(';')
     if re.match(r'^\d+\. Kosu',c[0]): no=c[0].split('.')[0]; continue
-    if no and c[0].isdigit() and len(c)>13: son.setdefault(no,{})[ad_(c[1])]=(int(c[0]) if c[12].strip() else 99,c[13])
+    if no and c[0].isdigit() and len(c)>13: son.setdefault(no,{})[ad_(c[1])]=(-1 if 'Koşmaz' in c[12] else (int(c[0]) if c[12].strip() else 99),c[13])
 if not SN: sys.exit('kayıt yok')
 dk=lambda s_:((int(s_[:2])+3)%24)*60+int(s_[2:])   # UTC SSDD -> İstanbul dakikası
 def nokta(liste,k,hedef_fn):
@@ -56,5 +56,5 @@ for k in SN[-1][1]:
     for a in top:
         fa=lambda sn:(f"%{sn[1][k][a]['agf']:.0f}" if sn[1] and sn[1].get(k,{}).get(a,{}).get('agf') else '—')
         fg=lambda sn:(f"{sn[1][a]:.2f}" if sn[1] and sn[1].get(a,0)>1 else '—')
-        sn_=son.get(k,{}).get(a); bt=f"{sn_[1] or '—'}, {str(sn_[0])+'.' if sn_[0]<99 else 'derecesiz'}" if sn_ else '—'
+        sn_=son.get(k,{}).get(a); bt=('koşmadı' if sn_[0]==-1 else f"{sn_[1] or '—'}, {str(sn_[0])+'.' if sn_[0]<99 else 'derecesiz'}") if sn_ else '—'
         print(f"  #{son_agf[a]['no']:>2} {a[:18]:18} {fa(ilk):>17} {fa(ogle):>11} {fa(n30):>12} {fa(n5):>11} | {fg(g_ilk):>13} {fg(g_og):>6} {fg(g30):>6} {fg(g5):>6} | {bt}")

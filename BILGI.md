@@ -437,3 +437,8 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - Kota: 10 dakikalık döngü bağımsız süreç olarak çalışır (model turu harcamaz); her kayıttan sonra kendisi GitHub’a kaydeder. Model turu gerektiren kontrol görevi günde 2 kez (07:03, 13:03): döngü durmuşsa başlatır.
 - **4 nokta** (kullanıcı isteği): `takip_rapor.py` her koşu için AGF ve ganyanı 4 noktada gösterir: sabah ilk, öğle (12:30'a en yakın), koşudan 30 dk önce, 5 dk önce; yanında kesin ganyan ve sonuç. Döngü 5 dakikada bire indirildi (yalnızca değişince kaydeder).
 - **Çekilen (koşmaz) atlar:** canlı takipte çıkarılır, olasılıklar koşanlar arasında yeniden dağıtılır (TJK çekilen atın bahsini iade eder). 19.11: İzmir 1. koşu WIN RIVER SOSAN, 4. koşu DRAGON RUNNER (v8/v6'nın 1. adayıydı; AGF %27–29 → %7) çekildi.
+
+## Düzeltme: koşmayan atlar sonuç dosyalarında (19.11.2026)
+- TJK sonuç CSV'lerinde koşmayan atlar sıra numarasıyla listelenir (derece = "Koşmaz"). 161.404 satırın 2.811'i (%2,8). Betikler bunları (a) kaybeden at sayıyor (alan büyüklüğü şişiyor, jokey/aygır/antrenör A/E hafif düşüyor), (b) koşu sayısına katıyor (deneyim/form), (c) ganyanı boş olduğu için bazı testlerde o koşuyu tümden dışlıyordu.
+- `scripts/sonuc_temizle.py`: ham veri korunur, koşmayanlar çıkarılmış kopya `veri/sonuc_temiz/`. Günlük tablolar (hız puanı, jokey) ve model artık temiz kopyadan.
+- Etki küçük: v9 AGF'li -1,845 → -1,844 (1. seçim %33,0 → %33,2); AGF'siz -1,947 → -1,945 (%31,2 → %31,5). Önceki bulguların hiçbiri değişmedi.
