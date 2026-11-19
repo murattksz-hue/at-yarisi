@@ -454,3 +454,20 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - %50 üstü isabet yalnızca seçici oynayarak mümkün (günde ~2 koşu). Ganyanlar düşük olduğu için getiri hâlâ ~başabaş.
 - Her koşuda kazanan ilk 2 adayda %53,5 (ikili/çifte için).
 - `analiz3.py` her koşuya güven düzeyini ve tarihsel isabetini yazar (★ ≥%45, ★★ ≥%50, ★★★ ≥%60). Yalnızca AGF'li model için geçerli; canlı testle doğrulanacak.
+
+## beygir.com (robots.txt izin veriyor, /api/ hariç) – 19.11.2026
+- **Muhtemeller:** her koşu için güncel ganyan, ikili, sıralı ikili, çifte muhtemel ödemeleri (TJK programında yalnızca ganyan var). `scripts/muhtemel_kayit.py` koşu günü 15 dakikada bir sayfa metnini sıkıştırarak saklar (`veri/muhtemel_kayit/`).
+- Galoplar (son 10 idman, TJK kaynaklı): pegadrom'a yedek kaynak olabilir. AGF, sonuçlar: TJK'da da var.
+
+## İkili / sıralı ikili değer testi (Benter yönü; `scripts/ikili_test.py`, `veri/ikili_test.txt`)
+9.068 koşu (temiz veri), gerçek TJK ödemeleri; kazanma olasılığı: piyasa + geçmiş etkenleri (10 katlı gün CV); kombinasyon: Harville.
+| Bahis | Kural | Bahis | İsabet | 1 TL getirisi |
+|---|---|---|---|---|
+| İkili | her koşu en olası kombinasyon | 6.092 | %17,0 | %77,1 |
+| İkili | model > 1,3× piyasa (≥%3) | 2.846 | %7,4 | %91,6 |
+| İkili | model > 1,6× piyasa | 81 | 4 | %134,3 (model 5,0 isabet bekliyordu → şans) |
+| Sıralı ikili | her koşu en olası kombinasyon | 7.082 | %11,3 | %78,1 |
+| Sıralı ikili | model > 1,3× piyasa | 4.082 | %6,1 | %89,4 |
+| Sıralı ikili | model > 1,6× piyasa | 101 | 6 | %92,3 |
+- Değer kuralı getiriyi %77 → %89–92'ye çıkarıyor ama başabaşın altında. Kanıtlanmış kâr yok.
+- Sınır: piyasa çift olasılığı ganyandan (Harville) türetildi, gerçek ikili havuz fiyatı değil. beygir.com'dan kaydedilen gerçek ikili muhtemelleri biriktikçe tam test yapılacak.
