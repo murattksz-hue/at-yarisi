@@ -477,3 +477,23 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - Açık bilgiler: 46.000+ anaçlık pedigri, 5 kuşak soy ağacı, **dozaj indeksi** (Chef-de-Race; soydan mesafe yatkınlığı), akrabalık katsayısı; AGF birincileri; sabit ihtimalli bahis açıklamaları. "Kim geçer %88,2 isabet" gibi iddialar doğrulanmamış reklam; kullanılmadı.
 - Asıl faydalı ipucu: verilerinin TJK kaynaklı ve 1970'e uzandığı. Kontrol edildi: **TJK'nın kendi sunucusunda CSV sonuç dosyaları 2021 sonbaharından beri var** (Kasım 2021 var, Haziran 2021 yok). Kullanıcı isteğiyle çok eskiye gidilmedi: **Ocak 2024 – Mayıs 2025** arası indiriliyor (`.gunluk/eski_sonuc_indir.log`) → veri ~1,5 yıldan ~3 yıla çıkacak (2024 başından bugüne). Bittiğinde tablolar ve testler yeniden üretilecek.
 - **Düzeltme (19.11):** erken saatlerde ganyan havuzu küçük ve oynak. VİÇE HANIM (Antalya 2): 15:59 6,20 → 16:28 2,20 → 18:10 1,75 → 18:31 7,55 → 18:42 7,15. "Son dakika para girişi" diye yanlış yorumlandı. 💰 artık yalnızca son 30 dakikadaki ganyan değişimine (≥1,4×) ya da AGF artışına dayanıyor.
+
+## Maiden ve Şartlı 19: koşu kazanmamış atlar (test 19.11.2026, `scripts/maiden_analiz.py`, gerçek sonuçlar 2025-05-07 → 2026-11-18)
+- **Tanım:** Maiden, hiç koşu kazanmamış atlara açık koşu (TJK programı: "koşu kazanmamış 2 yaşlı safkan İngiliz taylarına mahsustur" gibi). Kazanan at sonraki koşularında Şartlı 1'e geçer. Şartlı 19 da koşu kazanmamışlara açık. Numaranın şartnamedeki tam tanımı doğrulanmadı.
+- 9915 koşu (kesin ganyanı tam olanlar), eküri tek bahis birimi:
+
+| grup | koşu | favori kazandı | ganyan ≥10 kazanan | ganyan ≥20 kazanan | medyan kazanan ganyan |
+|---|---|---|---|---|---|
+| Tümü | 9915 | %35,5 | %15,4 | %4,6 | 3,80 |
+| Kazanmış atların koşuları | 7669 | %35,6 | %15,1 | %4,0 | 3,75 |
+| Maiden + Şartlı 19/27 | 2246 | %35,2 | %16,5 | **%6,3** | 3,85 |
+| Maiden Arap 3 yaş | 846 | %33,1 | **%18,4** | **%7,9** | 4,20 |
+| Maiden İngiliz 2 yaş | 590 | %38,5 | %15,1 | %5,6 | 3,42 |
+| Şartlı 19/27 | 219 | %35,6 | %20,1 | %6,4 | 4,40 |
+| Handikap (karşılaştırma) | 2891 | %31,5 | %18,5 | %5,1 | 4,35 |
+
+- **Sonuç:** Maidende favori yine aynı oranda kazanıyor. Fark büyük sürprizlerde: ganyan ≥20 kazanan %6,3, kazanmış atların koşularında %4,0 (141'e 90 koşu; anlamlı). En sürprizli grup **3 yaşlı Arap maideni**. Örnek: 19.11 Antalya 2, CİHANDERE.
+- **Ama sürpriz atı oynamak yine kâr getirmiyor:** maidende ganyan 20–50 A/E 0,84, 50+ A/E 0,64 (piyasa beklentisinden az kazanıyorlar). Sürpriz daha sık geliyor ama hangi uzak ihtimalin geleceği önceden belli değil. Bu, analizde tek ata değil, kupon genişliğine işaret eder.
+- **İlk kez koşan atlar piyasada fazla oynanıyor:** A/E 0,82 (90 galibiyet, 110 beklenen; 2025-09 sonrası). En belirgin olan İngiliz 3 yaşta ilk koşu: A/E 0,41 (7'ye 17). Örneklem küçük, izlenecek. Bu atlar analizde "İLK KOŞU" diye işaretleniyor.
+- Son koşuda 2. ya da 3. olan maiden atları piyasa doğru fiyatlıyor (A/E 0,98–1,00). "Hep yaklaştı, bu sefer kazanır" diye bir avantaj yok.
+- Günlük analiz: maiden koşularında bu uyarı satırı çıkar. Tablo her gün `gunluk.py` ile yenilenir (veri/maiden_analiz.json).
