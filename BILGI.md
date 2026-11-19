@@ -345,3 +345,33 @@ Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
 | 50+ | %38,9 | yetersiz örnek |
 - Sonuç: model sürprizleri kârlı biçimde seçemiyor; ★SÜRPRİZ ADAYI işareti eklenmedi (veri desteklemiyor). Model kısa oranlarda (1–10) seçimi iyileştiriyor ama %100'ün altında.
 - Galop ve AGF dahil test için galoplu veri biriktikçe tekrarlanacak.
+
+## Irk karakteristiği (`scripts/irk_karakter.py`, `veri/irk_karakter.txt`; 9.946 koşu)
+| | Arap | İngiliz |
+|---|---|---|
+| Kazanan hızı (m/sn) | 13,8–15,1 | 15,1–16,7 (**her zemin/mesafede %10–11 daha hızlı**) |
+| Koşu başına at | 10,8 | 9,5 |
+| 1. ile 2. arası (medyan) | 0,28 sn | 0,29 sn |
+| İstikrar (ardışık koşu derece korelasyonu) | 0,27 | 0,26 |
+| ≤1400 m payı | %55 | %51 |
+| Karma koşuda erkek / dişi (alan A/E) | 1,12 / 0,58 | 1,11 / 0,66 |
+- İstikrar ve kazanma farkı iki ırkta neredeyse aynı: Araplardaki fazla sürpriz kalabalık alanlardan.
+- Yaş (karma yaşlı koşularda): Arap 4 ve 6 yaş biraz iyi, İngiliz 3 yaş biraz iyi; çoğu koşu tek yaşa açık olduğundan zayıf bulgu.
+
+### Dişi atlar karma koşularda fazla oynanıyor (kalıcı piyasa yanılgısı)
+| | 1. dönem (<11.02.2026) | 2. dönem |
+|---|---|---|
+| Arap dişi, piyasa A/E | 0,84 (206 / 245,9) | 0,78 (146 / 188,3) |
+| İngiliz dişi, piyasa A/E | 0,84 (277 / 328,5) | 0,81 (243 / 300,6) |
+| Erkek | 1,04–1,06 | 1,04–1,06 |
+
+## v9 = v8 + "karma koşuda dişi" (`scripts/model9.py`)
+| Test (542 koşu) | log-olabilirlik | 1. seçim | ilk 3 |
+|---|---|---|---|
+| AGF favorisi | -1,868 | %30,6 | %64,4 |
+| v8 | -1,849 | %32,1 | %67,0 |
+| **v9** | **-1,845** | **%33,0** | **%67,3** |
+| AGF'siz v8 | -1,963 | %29,3 | %60,3 |
+| **AGF'siz v9** | **-1,947** | **%31,2** | %61,1 |
+- Ağırlık: AGF'li -0,15, AGF'siz -0,37. AGF'siz model (yalnızca bizim verimiz) artık AGF favorisinden sık kazananı buluyor.
+- 19.11 canlı testi sabah dondurulan v6/v8/AGF'siz(v8) tahminleriyle devam ediyor; v9 bir sonraki yarış gününden itibaren kullanılacak.

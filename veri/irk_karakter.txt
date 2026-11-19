@@ -1,0 +1,30 @@
+=== Genel ===
+Arap: 4474 koşu, ortalama 10.8 at/koşu, ortalama kilo 56.3 kg, kazanma farkı medyanı 0.28 sn (1. ile 2. arası)
+İngiliz: 5472 koşu, ortalama 9.5 at/koşu, ortalama kilo 56.5 kg, kazanma farkı medyanı 0.29 sn (1. ile 2. arası)
+
+=== Mesafe ve zemin dağılımı (koşu payı) ===
+Arap: mesafe 1500-1900 %29, 2000+ %16, ≤1400 %55 | zemin Kum %59, Çim %28, Sentetik %13
+İngiliz: mesafe 1500-1900 %30, 2000+ %19, ≤1400 %51 | zemin Kum %58, Çim %29, Sentetik %14
+
+=== Kazanan hızı (m/sn, medyan) ===
+  Kum      ≤1400      Arap 14.16 (1467)  İngiliz 15.75 (1673)  fark %11.2
+  Kum      1500-1900  Arap 13.78 (775)  İngiliz 15.22 (947)  fark %10.5
+  Kum      2000+      Arap 13.75 (402)  İngiliz 15.14 (528)  fark %10.2
+  Çim      ≤1400      Arap 15.11 (698)  İngiliz 16.67 (784)  fark %10.4
+  Çim      1500-1900  Arap 14.84 (371)  İngiliz 16.32 (509)  fark %9.9
+  Çim      2000+      Arap 14.52 (164)  İngiliz 16.00 (290)  fark %10.2
+  Sentetik ≤1400      Arap 14.88 (283)  İngiliz 16.50 (327)  fark %10.9
+  Sentetik 1500-1900  Arap 14.81 (154)  İngiliz 16.47 (180)  fark %11.2
+  Sentetik 2000+      Arap 14.42 (159)  İngiliz 15.93 (233)  fark %10.5
+
+=== Yaşa göre kazanma (alan büyüklüğüne göre A/E; 1,00 = ortalama) ===
+Arap: 3 yaş 1.00 (17740), 4 yaş 1.06 (16366), 5 yaş 0.87 (6828), 6 yaş 1.07 (3712), 7 yaş 0.90 (1707), 8+ yaş 0.88 (1912)
+İngiliz: 2 yaş 1.00 (12032), 3 yaş 1.04 (23322), 4 yaş 0.97 (9917), 5 yaş 0.87 (4330), 6 yaş 0.88 (1520), 7 yaş 1.04 (746), 8+ yaş 0.88 (374)
+
+=== Karma koşularda cinsiyet (A/E) ===
+Arap: erkek 1.12 (29152), dişi 0.58 (9002)
+İngiliz: erkek 1.11 (29893), dişi 0.66 (10492)
+
+=== İstikrar: atın ardışık iki koşusundaki göreli derece korelasyonu (yüksek = daha tutarlı) ===
+Arap: 0.266 (44069 ardışık koşu çifti)
+İngiliz: 0.260 (46844 ardışık koşu çifti)

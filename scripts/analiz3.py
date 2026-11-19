@@ -72,7 +72,7 @@ for l in open(pc,encoding='utf-8-sig').read().splitlines():
         m0=re.search(r'(\d\d)/(\d\d)/(\d{4})',l); gun=datetime.date(int(m0.group(3)),int(m0.group(2)),int(m0.group(1))) if m0 else datetime.date.today()
     if re.match(r'^\d+\. Kosu',c[0]):
         m=re.search(r'(\d{3,4})m',l); pist=next((p for p in ('Kum','Çim','Sentetik') if p in l),'?')
-        cur=dict(aile=aile(c[1]),tip=tip(c[1]),bas=' '.join(x.strip() for x in c[:6] if x.strip()),irk='Arap' if 'Arap' in l else 'İngiliz',pist=pist,bant=bant(int(m.group(1))),m=int(m.group(1)),h=[]);races.append(cur);continue
+        cur=dict(disi_kosu='Dişi' in c[1],aile=aile(c[1]),tip=tip(c[1]),bas=' '.join(x.strip() for x in c[:6] if x.strip()),irk='Arap' if 'Arap' in l else 'İngiliz',pist=pist,bant=bant(int(m.group(1))),m=int(m.group(1)),h=[]);races.append(cur);continue
     _m=re.search(r"(\d)'L[İIÜU] GANYAN Bu koşudan başlar",l)
     if cur and _m: cur.setdefault('coklu',[]).append(int(_m.group(1)))
     if cur and c[0].isdigit() and len(c)>14 and 'Koşmaz' not in c[1]:
@@ -80,7 +80,7 @@ for l in open(pc,encoding='utf-8-sig').read().splitlines():
         isim=c[1]; a=next((k for k in sorted(ped,key=len,reverse=True) if isim.startswith(k)),isim)
         cur['h'].append(dict(no=c[0],ad=a,baba=c[3].strip(),hp=int(c[11]) if c[11].isdigit() else 0,son6=c[12],kgs=int(c[13]) if c[13].isdigit() else 0,
             s20=int(c[14]) if c[14].isdigit() else 0,agf=float(ag.group(1)) if ag else 0.5,yas=int(y.group(1)) if y else 4,kg=float(kg.group(1).replace(',','.')) if kg else 57,
-            sah=c[7].strip(),ap=' AP' in c[6],st=int(st.group(1)) if st else 0,jok=c[6].replace(' AP','').strip(),kb=ped.get(a,{}).get('kb','?'),bitis=ped.get(a,{}).get('bitis')))
+            dis=(c[2].split() or ['?'])[-1] in ('d','k'),sah=c[7].strip(),ap=' AP' in c[6],st=int(st.group(1)) if st else 0,jok=c[6].replace(' AP','').strip(),kb=ped.get(a,{}).get('kb','?'),bitis=ped.get(a,{}).get('bitis')))
 def galop(ad):
     d=ID.get(ad)
     if not d: return None,None,'idman yok',None,None
@@ -144,6 +144,8 @@ for ri,r in enumerate(races):
         ek_u=sum(GW8[k]*v for k,v in F.items())
     else: ek_u=sum(GECMIS_W.get(k,0)*v for k,v in F.items())
     u=u+ek_u-ek_u.mean()
+    if len(W)>=27:   # v9: karma koşuda dişi (halk sistematik fazla oynuyor; iki dönemde de piyasa A/E 0,78-0,84)
+        dk=np.array([float(x.get('dis',False) and not r.get('disi_kosu',False)) for x in h]); u=u+W[26]*(dk-dk.mean())
     p=np.exp(u-u.max()); p/=p.sum(); q=np.array([x['agf'] for x in h]); q=q/q.sum()
     pro=PR['segment'].get(seg,{}); a_=pro.get('ae',{}); ic=a_.get('start 1-3',{}).get('piyasa_ae')
     print(f"\n=== {r['bas']}  [{seg}]"+("  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)" if agf_yok else ""))
