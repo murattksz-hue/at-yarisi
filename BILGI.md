@@ -403,3 +403,10 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - Tutarlı yanılgı görülen birkaç aygır: FATİH AĞA ve AYABAKAN hafife alınıyor (iki dönemde 1,12–1,23), TAMERİNOĞLU fazla oynanıyor (0,79/0,69).
 - **v11** (v9 + baba_yas, anne_kardes, sahip_piyasa, galibiyet6): AGF'li -1,844 (v9 -1,845), AGF'siz -1,947 (aynı) → gürültü düzeyi; galibiyet6 ağırlığı eksi (form/hız ile örtüşme). **v9 kullanılmaya devam ediyor.**
 - Anne babası: sonuç dosyalarında yok; `scripts/soy_kayit.py` her gün programdan baba/anne/anne babası biriktiriyor (`veri/soy_kayit.json`); yeterli veri olunca test edilecek.
+
+## SİAYSD 2026 aygır kataloğu (`scripts/aygir_katalog.py`, `veri/aygir_katalog_2026.json`)
+- Kaynak: https://www.siaysd.org.tr/2026-aygir-katalogu-sayfalari/ (robots.txt izin veriyor). 124 İngiliz aygırının PDF sayfası (adresler: `veri/aygir_katalog_2026_pdf_adresleri.txt`; PDF'ler 213 MB, repoya konmadı).
+- Her aygır: don, doğum yılı, haraya giriş, kendi yarış kariyeri, babası, **yıllara göre tay sonuçları (koşan, kazanan, koşu, galibiyet; 12.12.2025'e kadar)**, anne hattı, en iyi tayları.
+- Okunan: 113 aygırın babası, 80 aygırın yıllık tay verisi. 13 aygırda katalog toplamı yıllık satırlarla uyuşmuyor (ör. FALCO: 485 koşu / 542 galibiyet; kaynaktaki hata) → `uyusmazlik` işaretli; tabloda yıllık satırların toplamı ayrıca tutuluyor.
+- Yalnızca İngiliz aygırları (Arap aygırları bu katalogda yok).
+- Kullanım planı: katalog verisi 12.12.2025'te kesildiği için 2026 koşularında sızıntısız test edilebilir (uzun dönem aygır başarısı, bizim 560 günlük istatistiğe ek bilgi katıyor mu?).

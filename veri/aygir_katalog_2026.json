@@ -1,0 +1,6079 @@
+{
+ "ABBAS YOLCU (TUR)": {
+  "dosya": "ABBAS-YOLCU-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2013,
+  "hara_ulke": null,
+  "hara_giris": 2019,
+  "kariyer": {
+   "kosu": 27,
+   "birinci": 8,
+   "ikinci": 2,
+   "ucuncu": 3
+  },
+  "baba": "Mountain Cat",
+  "yillar": {
+   "2022": {
+    "kosan": 11,
+    "kazanan": 2,
+    "kosu": 45,
+    "galibiyet": 5
+   },
+   "2023": {
+    "kosan": 21,
+    "kazanan": 7,
+    "kosu": 144,
+    "galibiyet": 8
+   },
+   "2024": {
+    "kosan": 17,
+    "kazanan": 9,
+    "kosu": 170,
+    "galibiyet": 19
+   },
+   "2025": {
+    "kosan": 23,
+    "kazanan": 9,
+    "kosu": 143,
+    "galibiyet": 15
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 41,
+   "kazanan": 18,
+   "kosu": 502,
+   "galibiyet": 47
+  },
+  "tay_toplam": {
+   "kosu": 502,
+   "galibiyet": 47,
+   "yil_sayisi": 4
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 28,
+   "G2": 9,
+   "G3": 12
+  }
+ },
+ "AEGEAN FINALE (USA)": {
+  "dosya": "AEGEAN-FINALE-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": null,
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 24,
+   "birinci": 11,
+   "ikinci": 5,
+   "ucuncu": 4
+  },
+  "baba": "Not This Time",
+  "katalog_toplam": {
+   "kosan": 24,
+   "kazanan": 11,
+   "kosu": 5,
+   "galibiyet": 4
+  },
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 37,
+   "G2": 18,
+   "G3": 22
+  }
+ },
+ "ALİHAN (TUR)": {
+  "dosya": "ALIHAN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 35,
+   "birinci": 18,
+   "ikinci": 8,
+   "ucuncu": 3
+  },
+  "baba": "Agresivo",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 12,
+   "G2": 2,
+   "G3": 7
+  }
+ },
+ "ALL THE GOOD (IRE)": {
+  "dosya": "ALL-THE-GOOD-IRE-2026.pdf",
+  "don": "AL",
+  "dogum": 2003,
+  "hara_ulke": null,
+  "hara_giris": 2010,
+  "kariyer": {
+   "kosu": 23,
+   "birinci": 7,
+   "ikinci": 2,
+   "ucuncu": 0
+  },
+  "baba": "Diesis",
+  "yillar": {
+   "2014": {
+    "kosan": 7,
+    "kazanan": 1,
+    "kosu": 47,
+    "galibiyet": 1
+   },
+   "2015": {
+    "kosan": 4,
+    "kazanan": 1,
+    "kosu": 23,
+    "galibiyet": 3
+   },
+   "2016": {
+    "kosan": 5,
+    "kazanan": 1,
+    "kosu": 40,
+    "galibiyet": 1
+   },
+   "2020": {
+    "kosan": 2,
+    "kazanan": 1,
+    "kosu": 14,
+    "galibiyet": 1
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 23,
+   "kazanan": 4,
+   "kosu": 188,
+   "galibiyet": 6
+  },
+  "tay_toplam": {
+   "kosu": 124,
+   "galibiyet": 6,
+   "yil_sayisi": 4
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 35,
+   "G2": 9,
+   "G3": 6
+  }
+ },
+ "ALP THE HERO (USA)": {
+  "dosya": "ALP-THE-HERO-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 13,
+   "birinci": 6,
+   "ikinci": 3,
+   "ucuncu": 0
+  },
+  "baba": "Karakontie",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 14,
+   "G2": 13,
+   "G3": 9
+  }
+ },
+ "ALPHA (TUR)": {
+  "dosya": "ALPHA-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2020,
+  "hara_ulke": "TUR",
+  "hara_giris": 2025,
+  "kariyer": {
+   "kosu": 3,
+   "birinci": 1,
+   "ikinci": 0,
+   "ucuncu": 1
+  },
+  "baba": "Here To Fly",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 0,
+   "G2": 0,
+   "G3": 6
+  }
+ },
+ "APPROVE (IRE)": {
+  "dosya": "APPROVE-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2008,
+  "hara_ulke": "IRE",
+  "hara_giris": 2011,
+  "kariyer": {
+   "kosu": 10,
+   "birinci": 3,
+   "ikinci": 1,
+   "ucuncu": 3
+  },
+  "baba": "Oasis Dream",
+  "yillar": {
+   "2019": {
+    "kosan": 120,
+    "kazanan": 59,
+    "kosu": 763,
+    "galibiyet": 98
+   },
+   "2020": {
+    "kosan": 116,
+    "kazanan": 54,
+    "kosu": 831,
+    "galibiyet": 94
+   },
+   "2021": {
+    "kosan": 89,
+    "kazanan": 59,
+    "kosu": 910,
+    "galibiyet": 113
+   },
+   "2022": {
+    "kosan": 73,
+    "kazanan": 38,
+    "kosu": 660,
+    "galibiyet": 76
+   },
+   "2023": {
+    "kosan": 86,
+    "kazanan": 44,
+    "kosu": 646,
+    "galibiyet": 69
+   },
+   "2024": {
+    "kosan": 98,
+    "kazanan": 45,
+    "kosu": 802,
+    "galibiyet": 89
+   },
+   "2025": {
+    "kosan": 86,
+    "kazanan": 38,
+    "kosu": 724,
+    "galibiyet": 79
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 441,
+   "kazanan": 260,
+   "kosu": 8880,
+   "galibiyet": 980
+  },
+  "tay_toplam": {
+   "kosu": 5336,
+   "galibiyet": 618,
+   "yil_sayisi": 7
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 38,
+   "G2": 13,
+   "G3": 5
+  }
+ },
+ "ARIZONA (IRE)": {
+  "dosya": "ARIZONA-IRE-2026.pdf",
+  "kariyer": {
+   "kosu": 10,
+   "birinci": 2,
+   "ikinci": 2,
+   "ucuncu": 1
+  },
+  "baba": "No Nay Never",
+  "yillar": {
+   "2024": {
+    "kosan": 38,
+    "kazanan": 10,
+    "kosu": 157,
+    "galibiyet": 13
+   },
+   "2025": {
+    "kosan": 56,
+    "kazanan": 15,
+    "kosu": 282,
+    "galibiyet": 19
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 63,
+   "kazanan": 23,
+   "kosu": 439,
+   "galibiyet": 32
+  },
+  "tay_toplam": {
+   "kosu": 439,
+   "galibiyet": 32,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 24,
+   "G2": 20,
+   "G3": 7
+  }
+ },
+ "ASTERN (AUS)": {
+  "dosya": "ASTERN-AUS-2026.pdf",
+  "kariyer": {
+   "kosu": 9,
+   "birinci": 5,
+   "ikinci": 2,
+   "ucuncu": 0
+  },
+  "baba": "Medaglia d'Oro",
+  "yillar": {
+   "2021": {
+    "kosan": 93,
+    "kazanan": 33,
+    "kosu": 314,
+    "galibiyet": 40
+   },
+   "2022": {
+    "kosan": 203,
+    "kazanan": 80,
+    "kosu": 991,
+    "galibiyet": 120
+   },
+   "2023": {
+    "kosan": 263,
+    "kazanan": 109,
+    "kosu": 1439,
+    "galibiyet": 153
+   },
+   "2024": {
+    "kosan": 241,
+    "kazanan": 112,
+    "kosu": 1401,
+    "galibiyet": 178
+   },
+   "2025": {
+    "kosan": 240,
+    "kazanan": 80,
+    "kosu": 1320,
+    "galibiyet": 126
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 458,
+   "kazanan": 273,
+   "kosu": 5472,
+   "galibiyet": 617
+  },
+  "tay_toplam": {
+   "kosu": 5465,
+   "galibiyet": 617,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 43,
+   "G2": 29,
+   "G3": 13
+  }
+ },
+ "AVERY ISLAND (USA)": {
+  "dosya": "AVERY-ISLAND-USA-2026.pdf",
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 3,
+   "ikinci": 1,
+   "ucuncu": 0
+  },
+  "yillar": {
+   "2023": {
+    "kosan": 12,
+    "kazanan": 1,
+    "kosu": 42,
+    "galibiyet": 4
+   },
+   "2024": {
+    "kosan": 39,
+    "kazanan": 20,
+    "kosu": 250,
+    "galibiyet": 38
+   },
+   "2025": {
+    "kosan": 43,
+    "kazanan": 22,
+    "kosu": 334,
+    "galibiyet": 42
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 56,
+   "kazanan": 34,
+   "kosu": 626,
+   "galibiyet": 84
+  },
+  "tay_toplam": {
+   "kosu": 626,
+   "galibiyet": 84,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 33,
+   "G2": 15,
+   "G3": 11
+  }
+ },
+ "BANKNOTE (IRE)": {
+  "dosya": "BANKNOTE-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2002,
+  "hara_ulke": "TUR",
+  "hara_giris": 2010,
+  "kariyer": {
+   "kosu": 27,
+   "birinci": 8,
+   "ikinci": 4,
+   "ucuncu": 1
+  },
+  "yillar": {
+   "2013": {
+    "kosan": 4,
+    "kazanan": 2,
+    "kosu": 16,
+    "galibiyet": 5
+   },
+   "2014": {
+    "kosan": 14,
+    "kazanan": 5,
+    "kosu": 86,
+    "galibiyet": 9
+   },
+   "2015": {
+    "kosan": 21,
+    "kazanan": 5,
+    "kosu": 184,
+    "galibiyet": 10
+   },
+   "2016": {
+    "kosan": 34,
+    "kazanan": 8,
+    "kosu": 239,
+    "galibiyet": 15
+   },
+   "2017": {
+    "kosan": 35,
+    "kazanan": 12,
+    "kosu": 251,
+    "galibiyet": 24
+   },
+   "2018": {
+    "kosan": 41,
+    "kazanan": 16,
+    "kosu": 299,
+    "galibiyet": 27
+   },
+   "2019": {
+    "kosan": 30,
+    "kazanan": 9,
+    "kosu": 201,
+    "galibiyet": 17
+   },
+   "2020": {
+    "kosan": 16,
+    "kazanan": 8,
+    "kosu": 125,
+    "galibiyet": 15
+   },
+   "2021": {
+    "kosan": 23,
+    "kazanan": 6,
+    "kosu": 145,
+    "galibiyet": 11
+   },
+   "2022": {
+    "kosan": 23,
+    "kazanan": 8,
+    "kosu": 163,
+    "galibiyet": 14
+   },
+   "2023": {
+    "kosan": 19,
+    "kazanan": 10,
+    "kosu": 153,
+    "galibiyet": 13
+   },
+   "2024": {
+    "kosan": 15,
+    "kazanan": 5,
+    "kosu": 109,
+    "galibiyet": 8
+   },
+   "2025": {
+    "kosan": 9,
+    "kazanan": 2,
+    "kosu": 44,
+    "galibiyet": 5
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 137,
+   "kazanan": 57,
+   "kosu": 2015,
+   "galibiyet": 173
+  },
+  "tay_toplam": {
+   "kosu": 2015,
+   "galibiyet": 173,
+   "yil_sayisi": 13
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 33,
+   "G2": 18,
+   "G3": 10
+  }
+ },
+ "BATHRAT LEON (JPN)": {
+  "dosya": "BATHRAT-LEON-JPN-2026.pdf",
+  "kariyer": {
+   "kosu": 29,
+   "birinci": 5,
+   "ikinci": 0,
+   "ucuncu": 5
+  },
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 11,
+   "G2": 25,
+   "G3": 29
+  }
+ },
+ "BATTLEGROUND (USA)": {
+  "dosya": "BATTLEGROUND-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2018,
+  "hara_ulke": "TUR",
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 7,
+   "birinci": 2,
+   "ikinci": 1,
+   "ucuncu": 1
+  },
+  "baba": "War Front",
+  "yillar": {
+   "2025": {
+    "kosan": 32,
+    "kazanan": 8,
+    "kosu": 152,
+    "galibiyet": 12
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 32,
+   "kazanan": 8,
+   "kosu": 152,
+   "galibiyet": 12
+  },
+  "tay_toplam": {
+   "kosu": 152,
+   "galibiyet": 12,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 66,
+   "G2": 20,
+   "G3": 26
+  }
+ },
+ "BEATBOX (USA)": {
+  "dosya": "BEATBOX-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2018,
+  "hara_ulke": "TUR",
+  "hara_giris": 2025,
+  "kariyer": {
+   "kosu": 27,
+   "birinci": 8,
+   "ikinci": 8,
+   "ucuncu": 4
+  },
+  "baba": "Pioneerof The Nile",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 24,
+   "G2": 20,
+   "G3": 20
+  }
+ },
+ "BELARDO (IRE)": {
+  "dosya": "BELARDO-IRE-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2012,
+  "hara_ulke": "IRE",
+  "hara_giris": 2017,
+  "kariyer": {
+   "kosu": 16,
+   "birinci": 5,
+   "ikinci": 2,
+   "ucuncu": 1
+  },
+  "baba": "Lope De Vega",
+  "yillar": {
+   "2020": {
+    "kosan": 64,
+    "kazanan": 15,
+    "kosu": 198,
+    "galibiyet": 23
+   },
+   "2021": {
+    "kosan": 151,
+    "kazanan": 60,
+    "kosu": 759,
+    "galibiyet": 96
+   },
+   "2022": {
+    "kosan": 238,
+    "kazanan": 100,
+    "kosu": 1315,
+    "galibiyet": 168
+   },
+   "2023": {
+    "kosan": 284,
+    "kazanan": 128,
+    "kosu": 1908,
+    "galibiyet": 202
+   },
+   "2024": {
+    "kosan": 371,
+    "kazanan": 177,
+    "kosu": 2328,
+    "galibiyet": 261
+   },
+   "2025": {
+    "kosan": 379,
+    "kazanan": 188,
+    "kosu": 2548,
+    "galibiyet": 295
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 613,
+   "kazanan": 380,
+   "kosu": 9056,
+   "galibiyet": 1045
+  },
+  "tay_toplam": {
+   "kosu": 9056,
+   "galibiyet": 1045,
+   "yil_sayisi": 6
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 14,
+   "G2": 12,
+   "G3": 26
+  }
+ },
+ "BLAZE TO WIN (TUR)": {
+  "dosya": "BLAZE-TO-WIN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2011,
+  "hara_ulke": "TUR",
+  "hara_giris": 2020,
+  "kariyer": {
+   "kosu": 9,
+   "birinci": 4,
+   "ikinci": 65,
+   "ucuncu": 11
+  },
+  "baba": "Win River Win",
+  "yillar": {
+   "2024": {
+    "kosan": 3,
+    "kazanan": 2,
+    "kosu": 14,
+    "galibiyet": 4
+   },
+   "2025": {
+    "kosan": 8,
+    "kazanan": 4,
+    "kosu": 49,
+    "galibiyet": 7
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 9,
+   "kazanan": 4,
+   "kosu": 65,
+   "galibiyet": 11
+  },
+  "tay_toplam": {
+   "kosu": 63,
+   "galibiyet": 11,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 22,
+   "G2": 15,
+   "G3": 27
+  }
+ },
+ "BLUEGRASS CAT (USA)": {
+  "dosya": "BLUEGRASS-CAT-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2003,
+  "hara_ulke": "USA",
+  "hara_giris": 2007,
+  "kariyer": {
+   "kosu": 11,
+   "birinci": 5,
+   "ikinci": 4,
+   "ucuncu": 0
+  },
+  "baba": "Storm Cat",
+  "yillar": {
+   "2010": {
+    "kosan": 67,
+    "kazanan": 22,
+    "kosu": 229,
+    "galibiyet": 29
+   },
+   "2011": {
+    "kosan": 141,
+    "kazanan": 65,
+    "kosu": 783,
+    "galibiyet": 102
+   },
+   "2012": {
+    "kosan": 192,
+    "kazanan": 112,
+    "kosu": 1253,
+    "galibiyet": 189
+   },
+   "2013": {
+    "kosan": 248,
+    "kazanan": 136,
+    "kosu": 1680,
+    "galibiyet": 235
+   },
+   "2014": {
+    "kosan": 287,
+    "kazanan": 150,
+    "kosu": 1882,
+    "galibiyet": 262
+   },
+   "2015": {
+    "kosan": 339,
+    "kazanan": 196,
+    "kosu": 2498,
+    "galibiyet": 355
+   },
+   "2016": {
+    "kosan": 364,
+    "kazanan": 216,
+    "kosu": 3255,
+    "galibiyet": 413
+   },
+   "2017": {
+    "kosan": 300,
+    "kazanan": 179,
+    "kosu": 2948,
+    "galibiyet": 398
+   },
+   "2018": {
+    "kosan": 275,
+    "kazanan": 152,
+    "kosu": 2480,
+    "galibiyet": 289
+   },
+   "2019": {
+    "kosan": 224,
+    "kazanan": 123,
+    "kosu": 2027,
+    "galibiyet": 238
+   },
+   "2020": {
+    "kosan": 176,
+    "kazanan": 76,
+    "kosu": 1236,
+    "galibiyet": 128
+   },
+   "2021": {
+    "kosan": 135,
+    "kazanan": 54,
+    "kosu": 1012,
+    "galibiyet": 104
+   },
+   "2022": {
+    "kosan": 83,
+    "kazanan": 39,
+    "kosu": 609,
+    "galibiyet": 84
+   },
+   "2023": {
+    "kosan": 72,
+    "kazanan": 34,
+    "kosu": 449,
+    "galibiyet": 70
+   },
+   "2024": {
+    "kosan": 95,
+    "kazanan": 49,
+    "kosu": 675,
+    "galibiyet": 104
+   },
+   "2025": {
+    "kosan": 120,
+    "kazanan": 50,
+    "kosu": 827,
+    "galibiyet": 96
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 1008,
+   "kazanan": 722,
+   "kosu": 23840,
+   "galibiyet": 3094
+  },
+  "tay_toplam": {
+   "kosu": 23843,
+   "galibiyet": 3096,
+   "yil_sayisi": 16
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 15,
+   "G2": 12,
+   "G3": 11
+  }
+ },
+ "BODEMEISTER (USA)": {
+  "dosya": "BODEMEISTER-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2003,
+  "hara_ulke": "USA",
+  "hara_giris": 2013,
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 2,
+   "ikinci": 4,
+   "ucuncu": 0
+  },
+  "baba": "Empire Maker",
+  "yillar": {
+   "2016": {
+    "kosan": 56,
+    "kazanan": 15,
+    "kosu": 139,
+    "galibiyet": 19
+   },
+   "2017": {
+    "kosan": 149,
+    "kazanan": 66,
+    "kosu": 606,
+    "galibiyet": 90
+   },
+   "2018": {
+    "kosan": 217,
+    "kazanan": 111,
+    "kosu": 1133,
+    "galibiyet": 181
+   },
+   "2019": {
+    "kosan": 256,
+    "kazanan": 124,
+    "kosu": 1375,
+    "galibiyet": 196
+   },
+   "2020": {
+    "kosan": 289,
+    "kazanan": 118,
+    "kosu": 1313,
+    "galibiyet": 172
+   },
+   "2021": {
+    "kosan": 278,
+    "kazanan": 151,
+    "kosu": 1584,
+    "galibiyet": 242
+   },
+   "2022": {
+    "kosan": 259,
+    "kazanan": 118,
+    "kosu": 1514,
+    "galibiyet": 212
+   },
+   "2023": {
+    "kosan": 297,
+    "kazanan": 152,
+    "kosu": 1567,
+    "galibiyet": 240
+   },
+   "2024": {
+    "kosan": 285,
+    "kazanan": 145,
+    "kosu": 1625,
+    "galibiyet": 257
+   },
+   "2025": {
+    "kosan": 235,
+    "kazanan": 117,
+    "kosu": 1432,
+    "galibiyet": 209
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 941,
+   "kazanan": 615,
+   "kosu": 12288,
+   "galibiyet": 1819
+  },
+  "tay_toplam": {
+   "kosu": 12288,
+   "galibiyet": 1818,
+   "yil_sayisi": 10
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 16,
+   "G2": 20,
+   "G3": 22
+  }
+ },
+ "BODYGUARD HERO (USA)": {
+  "dosya": "BODYGUARD-HERO-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": null,
+  "hara_giris": 2020,
+  "kariyer": {
+   "kosu": 20,
+   "birinci": 5,
+   "ikinci": 5,
+   "ucuncu": 1
+  },
+  "baba": "Lonhro",
+  "yillar": {
+   "2023": {
+    "kosan": 4,
+    "kazanan": 2,
+    "kosu": 19,
+    "galibiyet": 3
+   },
+   "2024": {
+    "kosan": 11,
+    "kazanan": 4,
+    "kosu": 61,
+    "galibiyet": 5
+   },
+   "2025": {
+    "kosan": 19,
+    "kazanan": 10,
+    "kosu": 155,
+    "galibiyet": 19
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 23,
+   "kazanan": 13,
+   "kosu": 235,
+   "galibiyet": 27
+  },
+  "tay_toplam": {
+   "kosu": 235,
+   "galibiyet": 27,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 33,
+   "G2": 16,
+   "G3": 4
+  }
+ },
+ "BRIGHT HOPE (TUR)": {
+  "dosya": "BRIGHT-HOPE-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": "TUR",
+  "hara_giris": 2025,
+  "kariyer": {
+   "kosu": 27,
+   "birinci": 8,
+   "ikinci": 8,
+   "ucuncu": 4
+  },
+  "baba": "Torok",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 25,
+   "G2": 17,
+   "G3": 11
+  }
+ },
+ "BRIGHTSIDE (TUR)": {
+  "dosya": "BRIGHTSIDE-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": "TUR",
+  "hara_giris": 2023,
+  "baba": "Torok",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 27,
+   "G2": 13,
+   "G3": 14
+  }
+ },
+ "BROOME (IRE)": {
+  "dosya": "BROOME-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2016,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 39,
+   "birinci": 9,
+   "ikinci": 6,
+   "ucuncu": 2
+  },
+  "baba": "Australia",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 28,
+   "G2": 25,
+   "G3": 23
+  }
+ },
+ "CAGNER (TUR)": {
+  "dosya": "CAGNER-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2018,
+  "hara_ulke": null,
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 37,
+   "birinci": 8,
+   "ikinci": 5,
+   "ucuncu": 6
+  },
+  "baba": "Victory Gallop",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 43,
+   "G2": 22,
+   "G3": 10
+  }
+ },
+ "ÇALDIRAN (TUR)": {
+  "dosya": "CALDIRAN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2021,
+  "hara_ulke": "TUR",
+  "hara_giris": 2025,
+  "kariyer": {
+   "kosu": 13,
+   "birinci": 4,
+   "ikinci": 2,
+   "ucuncu": 3
+  },
+  "baba": "Marcavelly",
+  "katalog_toplam": {
+   "kosan": 13,
+   "kazanan": 4,
+   "kosu": 2,
+   "galibiyet": 3
+  },
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 13,
+   "G2": 7,
+   "G3": 10
+  }
+ },
+ "CARCERES (TUR)": {
+  "dosya": "CARCERES-TUR-2026.pdf",
+  "don": "KIR",
+  "dogum": 2020,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 7,
+   "birinci": 3,
+   "ikinci": 1,
+   "ucuncu": 0
+  },
+  "baba": "Cross Tarffic",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 11,
+   "G2": 4,
+   "G3": 10
+  }
+ },
+ "CATAPULT (USA)": {
+  "dosya": "CATAPULT-USA-2026.pdf",
+  "kariyer": {
+   "kosu": 26,
+   "birinci": 15,
+   "ikinci": 380,
+   "ucuncu": 45
+  },
+  "yillar": {
+   "2023": {
+    "kosan": 6,
+    "kazanan": 2,
+    "kosu": 33,
+    "galibiyet": 5
+   },
+   "2024": {
+    "kosan": 19,
+    "kazanan": 9,
+    "kosu": 159,
+    "galibiyet": 19
+   },
+   "2025": {
+    "kosan": 18,
+    "kazanan": 9,
+    "kosu": 188,
+    "galibiyet": 21
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 26,
+   "kazanan": 15,
+   "kosu": 380,
+   "galibiyet": 45
+  },
+  "tay_toplam": {
+   "kosu": 380,
+   "galibiyet": 45,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 43,
+   "G2": 21,
+   "G3": 13
+  }
+ },
+ "COOGER (TUR)": {
+  "dosya": "COOGER-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2013,
+  "hara_ulke": null,
+  "hara_giris": 2020,
+  "kariyer": {
+   "kosu": 29,
+   "birinci": 15,
+   "ikinci": 292,
+   "ucuncu": 43
+  },
+  "baba": "Victory Gallop",
+  "yillar": {
+   "2023": {
+    "kosan": 5,
+    "kazanan": 2,
+    "kosu": 25,
+    "galibiyet": 6
+   },
+   "2024": {
+    "kosan": 13,
+    "kazanan": 9,
+    "kosu": 89,
+    "galibiyet": 20
+   },
+   "2025": {
+    "kosan": 27,
+    "kazanan": 11,
+    "kosu": 178,
+    "galibiyet": 17
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 29,
+   "kazanan": 15,
+   "kosu": 292,
+   "galibiyet": 43
+  },
+  "tay_toplam": {
+   "kosu": 292,
+   "galibiyet": 43,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 48,
+   "G2": 17,
+   "G3": 8
+  }
+ },
+ "COPPERFIELD (TUR)": {
+  "dosya": "COPPERFIELD-TUR-2026.pdf",
+  "don": "AL",
+  "dogum": 2014,
+  "hara_ulke": null,
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 19,
+   "birinci": 13,
+   "ikinci": 196,
+   "ucuncu": 28
+  },
+  "baba": "Three Valleys",
+  "yillar": {
+   "2024": {
+    "kosan": 11,
+    "kazanan": 4,
+    "kosu": 48,
+    "galibiyet": 6
+   },
+   "2025": {
+    "kosan": 17,
+    "kazanan": 11,
+    "kosu": 148,
+    "galibiyet": 22
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 19,
+   "kazanan": 13,
+   "kosu": 196,
+   "galibiyet": 28
+  },
+  "tay_toplam": {
+   "kosu": 196,
+   "galibiyet": 28,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 14,
+   "G2": 6,
+   "G3": 12
+  }
+ },
+ "COTAI GLORY (GB)": {
+  "dosya": "COTAI-GLORY-GB-2026.pdf",
+  "don": "AL",
+  "dogum": 2012,
+  "hara_ulke": "IRE",
+  "hara_giris": 2018,
+  "kariyer": {
+   "kosu": 30,
+   "birinci": 4,
+   "ikinci": 5,
+   "ucuncu": 3
+  },
+  "baba": "Exceed And Excel",
+  "yillar": {
+   "2021": {
+    "kosan": 88,
+    "kazanan": 35,
+    "kosu": 361,
+    "galibiyet": 55
+   },
+   "2022": {
+    "kosan": 148,
+    "kazanan": 72,
+    "kosu": 815,
+    "galibiyet": 113
+   },
+   "2023": {
+    "kosan": 170,
+    "kazanan": 74,
+    "kosu": 1016,
+    "galibiyet": 133
+   },
+   "2024": {
+    "kosan": 186,
+    "kazanan": 84,
+    "kosu": 1172,
+    "galibiyet": 146
+   },
+   "2025": {
+    "kosan": 233,
+    "kazanan": 96,
+    "kosu": 1367,
+    "galibiyet": 154
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 379,
+   "kazanan": 218,
+   "kosu": 4731,
+   "galibiyet": 601
+  },
+  "tay_toplam": {
+   "kosu": 4731,
+   "galibiyet": 601,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 13,
+   "G2": 6,
+   "G3": 15
+  }
+ },
+ "CRIMEAN TATAR (TUR)": {
+  "dosya": "CRIMEAN-TATAR-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2013,
+  "hara_ulke": null,
+  "hara_giris": 2019,
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 2,
+   "ikinci": 0,
+   "ucuncu": 0
+  },
+  "baba": "Sea The Star",
+  "yillar": {
+   "2022": {
+    "kosan": 6,
+    "kazanan": 2,
+    "kosu": 22,
+    "galibiyet": 2
+   },
+   "2023": {
+    "kosan": 23,
+    "kazanan": 9,
+    "kosu": 149,
+    "galibiyet": 19
+   },
+   "2024": {
+    "kosan": 36,
+    "kazanan": 14,
+    "kosu": 287,
+    "galibiyet": 25
+   },
+   "2025": {
+    "kosan": 37,
+    "kazanan": 14,
+    "kosu": 306,
+    "galibiyet": 21
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 60,
+   "kazanan": 27,
+   "kosu": 764,
+   "galibiyet": 67
+  },
+  "tay_toplam": {
+   "kosu": 764,
+   "galibiyet": 67,
+   "yil_sayisi": 4
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 53,
+   "G2": 19,
+   "G3": 14
+  }
+ },
+ "CROSS FIRE (TUR)": {
+  "dosya": "CROSS-FIRE-TUR-2026.pdf",
+  "don": "AL",
+  "dogum": 2014,
+  "hara_ulke": null,
+  "hara_giris": 2019,
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 2,
+   "ikinci": 0,
+   "ucuncu": 0
+  },
+  "yillar": {
+   "2022": {
+    "kosan": 4,
+    "kazanan": 1,
+    "kosu": 11,
+    "galibiyet": 1
+   },
+   "2023": {
+    "kosan": 6,
+    "kazanan": 4,
+    "kosu": 55,
+    "galibiyet": 7
+   },
+   "2024": {
+    "kosan": 6,
+    "kazanan": 2,
+    "kosu": 64,
+    "galibiyet": 4
+   },
+   "2025": {
+    "kosan": 8,
+    "kazanan": 3,
+    "kosu": 55,
+    "galibiyet": 3
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 12,
+   "kazanan": 6,
+   "kosu": 185,
+   "galibiyet": 15
+  },
+  "tay_toplam": {
+   "kosu": 185,
+   "galibiyet": 15,
+   "yil_sayisi": 4
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 8,
+   "G2": 11,
+   "G3": 7
+  }
+ },
+ "DAREDEVIL (USA)": {
+  "dosya": "DAREDEVIL-USA-2026.pdf",
+  "don": "AL",
+  "dogum": 2012,
+  "hara_ulke": "USA",
+  "hara_giris": 2016,
+  "kariyer": {
+   "kosu": 5,
+   "birinci": 2,
+   "ikinci": 1,
+   "ucuncu": 0
+  },
+  "baba": "More Than Ready",
+  "yillar": {
+   "2019": {
+    "kosan": 44,
+    "kazanan": 13,
+    "kosu": 129,
+    "galibiyet": 14
+   },
+   "2020": {
+    "kosan": 88,
+    "kazanan": 39,
+    "kosu": 386,
+    "galibiyet": 64
+   },
+   "2021": {
+    "kosan": 152,
+    "kazanan": 63,
+    "kosu": 752,
+    "galibiyet": 114
+   },
+   "2022": {
+    "kosan": 120,
+    "kazanan": 63,
+    "kosu": 772,
+    "galibiyet": 112
+   },
+   "2023": {
+    "kosan": 128,
+    "kazanan": 57,
+    "kosu": 692,
+    "galibiyet": 94
+   },
+   "2024": {
+    "kosan": 148,
+    "kazanan": 71,
+    "kosu": 1037,
+    "galibiyet": 139
+   },
+   "2025": {
+    "kosan": 130,
+    "kazanan": 56,
+    "kosu": 798,
+    "galibiyet": 93
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 355,
+   "kazanan": 219,
+   "kosu": 4566,
+   "galibiyet": 630
+  },
+  "tay_toplam": {
+   "kosu": 4566,
+   "galibiyet": 630,
+   "yil_sayisi": 7
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 19,
+   "G2": 10,
+   "G3": 14
+  }
+ },
+ "DEO VOLENTE (TUR)": {
+  "dosya": "DEO-VOLENTE-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2022,
+  "hara_ulke": "TUR",
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 15,
+   "birinci": 4,
+   "ikinci": 9,
+   "ucuncu": 1
+  },
+  "katalog_toplam": {
+   "kosan": 15,
+   "kazanan": 4,
+   "kosu": 9,
+   "galibiyet": 1
+  },
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 25,
+   "G2": 11,
+   "G3": 22
+  }
+ },
+ "DIVINE HEART (TUR)": {
+  "dosya": "DIVINE-HEART-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2010,
+  "hara_ulke": "TUR",
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 3,
+   "ikinci": 43,
+   "ucuncu": 4
+  },
+  "baba": "Divine Light",
+  "yillar": {
+   "2025": {
+    "kosan": 6,
+    "kazanan": 3,
+    "kosu": 43,
+    "galibiyet": 4
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 6,
+   "kazanan": 3,
+   "kosu": 43,
+   "galibiyet": 4
+  },
+  "tay_toplam": {
+   "kosu": 43,
+   "galibiyet": 4,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 8,
+   "G2": 4,
+   "G3": 17
+  }
+ },
+ "DRAGON FIRE (TUR)": {
+  "dosya": "DRAGON-FIRE-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2020,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 40,
+   "birinci": 6,
+   "ikinci": 10,
+   "ucuncu": 7
+  },
+  "baba": "Torok",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 26,
+   "G2": 14,
+   "G3": 14
+  }
+ },
+ "DRAGON FLAME (TUR)": {
+  "dosya": "DRAGON-FLAME-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2021,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 12,
+   "birinci": 8,
+   "ikinci": 3,
+   "ucuncu": 1
+  },
+  "baba": "Torok",
+  "katalog_toplam": {
+   "kosan": 12,
+   "kazanan": 8,
+   "kosu": 3,
+   "galibiyet": 1
+  },
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 26,
+   "G2": 14,
+   "G3": 14
+  }
+ },
+ "EL CONQUERADOR (TUR)": {
+  "dosya": "EL-CONQUERADOR-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2010,
+  "hara_ulke": null,
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 1,
+   "birinci": 1,
+   "ikinci": 7,
+   "ucuncu": 1
+  },
+  "baba": "Okawango",
+  "yillar": {
+   "2024": {
+    "kosan": 1,
+    "kazanan": 1,
+    "kosu": 6,
+    "galibiyet": 1
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 1,
+   "kazanan": 1,
+   "kosu": 7,
+   "galibiyet": 1
+  },
+  "tay_toplam": {
+   "kosu": 6,
+   "galibiyet": 1,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 10,
+   "G2": 5,
+   "G3": 19
+  }
+ },
+ "EL KABEIR (USA)": {
+  "dosya": "EL-KABEIR-USA-2026.pdf",
+  "kariyer": {
+   "kosu": 20,
+   "birinci": 5,
+   "ikinci": 4,
+   "ucuncu": 2
+  },
+  "baba": "Scat Daddy",
+  "yillar": {
+   "2021": {
+    "kosan": 54,
+    "kazanan": 16,
+    "kosu": 187,
+    "galibiyet": 28
+   },
+   "2022": {
+    "kosan": 106,
+    "kazanan": 31,
+    "kosu": 530,
+    "galibiyet": 53
+   },
+   "2023": {
+    "kosan": 125,
+    "kazanan": 49,
+    "kosu": 749,
+    "galibiyet": 83
+   },
+   "2024": {
+    "kosan": 100,
+    "kazanan": 37,
+    "kosu": 582,
+    "galibiyet": 52
+   },
+   "2025": {
+    "kosan": 80,
+    "kazanan": 27,
+    "kosu": 484,
+    "galibiyet": 46
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 199,
+   "kazanan": 97,
+   "kosu": 2532,
+   "galibiyet": 262
+  },
+  "tay_toplam": {
+   "kosu": 2532,
+   "galibiyet": 262,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 40,
+   "G2": 12,
+   "G3": 9
+  }
+ },
+ "EL NINO (TUR)": {
+  "dosya": "EL-NINO-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": null,
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 69,
+   "birinci": 15,
+   "ikinci": 19,
+   "ucuncu": 8
+  },
+  "baba": "Victory Gallop",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 39,
+   "G2": 14,
+   "G3": 7
+  }
+ },
+ "ELARQAM (GB)": {
+  "dosya": "ELARQAM-GB-2026.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": "FR",
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 34,
+   "birinci": 14,
+   "ikinci": 211,
+   "ucuncu": 21
+  },
+  "baba": "Frankel",
+  "yillar": {
+   "2024": {
+    "kosan": 11,
+    "kazanan": 5,
+    "kosu": 45,
+    "galibiyet": 8
+   },
+   "2025": {
+    "kosan": 34,
+    "kazanan": 12,
+    "kosu": 189,
+    "galibiyet": 15
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 34,
+   "kazanan": 14,
+   "kosu": 211,
+   "galibiyet": 21
+  },
+  "tay_toplam": {
+   "kosu": 234,
+   "galibiyet": 23,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 68,
+   "G2": 6,
+   "G3": 17
+  }
+ },
+ "EPAULETTE (AUS)": {
+  "dosya": "EPAULETTE-AUS-2026.pdf",
+  "kariyer": {
+   "kosu": 14,
+   "birinci": 5,
+   "ikinci": 2,
+   "ucuncu": 2
+  },
+  "baba": "Commands",
+  "yillar": {
+   "2017": {
+    "kosan": 70,
+    "kazanan": 25,
+    "kosu": 206,
+    "galibiyet": 30
+   },
+   "2018": {
+    "kosan": 179,
+    "kazanan": 60,
+    "kosu": 805,
+    "galibiyet": 81
+   },
+   "2019": {
+    "kosan": 284,
+    "kazanan": 143,
+    "kosu": 1647,
+    "galibiyet": 225
+   },
+   "2020": {
+    "kosan": 331,
+    "kazanan": 138,
+    "kosu": 1881,
+    "galibiyet": 208
+   },
+   "2021": {
+    "kosan": 303,
+    "kazanan": 119,
+    "kosu": 1954,
+    "galibiyet": 197
+   },
+   "2022": {
+    "kosan": 263,
+    "kazanan": 121,
+    "kosu": 1786,
+    "galibiyet": 194
+   },
+   "2023": {
+    "kosan": 253,
+    "kazanan": 116,
+    "kosu": 1729,
+    "galibiyet": 188
+   },
+   "2024": {
+    "kosan": 228,
+    "kazanan": 118,
+    "kosu": 1741,
+    "galibiyet": 197
+   },
+   "2025": {
+    "kosan": 210,
+    "kazanan": 96,
+    "kosu": 1445,
+    "galibiyet": 163
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 759,
+   "kazanan": 471,
+   "kosu": 13194,
+   "galibiyet": 1484
+  },
+  "tay_toplam": {
+   "kosu": 13194,
+   "galibiyet": 1483,
+   "yil_sayisi": 9
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 43,
+   "G2": 13,
+   "G3": 38
+  }
+ },
+ "ESPINOZA (TUR)": {
+  "dosya": "ESPINOZA-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 45,
+   "birinci": 12,
+   "ikinci": 7,
+   "ucuncu": 8
+  },
+  "baba": "Pleasantly Perfect",
+  "katalog_toplam": {
+   "kosan": 45,
+   "kazanan": 12,
+   "kosu": 7,
+   "galibiyet": 8
+  },
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 16,
+   "G2": 13,
+   "G3": 10
+  }
+ },
+ "FALCO (USA)": {
+  "dosya": "FALCO-USA-2026.pdf",
+  "kariyer": {
+   "kosu": 7,
+   "birinci": 2,
+   "ikinci": 2,
+   "ucuncu": 0
+  },
+  "baba": "Pivotal",
+  "yillar": {
+   "2012": {
+    "kosan": 28,
+    "kazanan": 9,
+    "kosu": 80,
+    "galibiyet": 12
+   },
+   "2013": {
+    "kosan": 81,
+    "kazanan": 35,
+    "kosu": 428,
+    "galibiyet": 52
+   },
+   "2014": {
+    "kosan": 94,
+    "kazanan": 34,
+    "kosu": 624,
+    "galibiyet": 57
+   },
+   "2015": {
+    "kosan": 91,
+    "kazanan": 42,
+    "kosu": 615,
+    "galibiyet": 77
+   },
+   "2016": {
+    "kosan": 86,
+    "kazanan": 36,
+    "kosu": 528,
+    "galibiyet": 55
+   },
+   "2017": {
+    "kosan": 97,
+    "kazanan": 38,
+    "kosu": 545,
+    "galibiyet": 59
+   },
+   "2018": {
+    "kosan": 73,
+    "kazanan": 30,
+    "kosu": 433,
+    "galibiyet": 59
+   },
+   "2019": {
+    "kosan": 68,
+    "kazanan": 28,
+    "kosu": 372,
+    "galibiyet": 47
+   },
+   "2020": {
+    "kosan": 86,
+    "kazanan": 23,
+    "kosu": 358,
+    "galibiyet": 31
+   },
+   "2021": {
+    "kosan": 71,
+    "kazanan": 22,
+    "kosu": 316,
+    "galibiyet": 31
+   },
+   "2022": {
+    "kosan": 58,
+    "kazanan": 19,
+    "kosu": 236,
+    "galibiyet": 28
+   },
+   "2023": {
+    "kosan": 40,
+    "kazanan": 13,
+    "kosu": 172,
+    "galibiyet": 16
+   },
+   "2024": {
+    "kosan": 31,
+    "kazanan": 8,
+    "kosu": 124,
+    "galibiyet": 12
+   },
+   "2025": {
+    "kosan": 10,
+    "kazanan": 3,
+    "kosu": 54,
+    "galibiyet": 6
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 325,
+   "kazanan": 174,
+   "kosu": 485,
+   "galibiyet": 542
+  },
+  "tay_toplam": {
+   "kosu": 4885,
+   "galibiyet": 542,
+   "yil_sayisi": 14
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 16,
+   "G2": 9,
+   "G3": 11
+  }
+ },
+ "FEARLESS KING (GB)": {
+  "dosya": "FEARLESS-KING-GB-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "GER",
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 5,
+   "birinci": 3,
+   "ikinci": 0,
+   "ucuncu": 1
+  },
+  "baba": "Kingman",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 35,
+   "G2": 29,
+   "G3": 25
+  }
+ },
+ "FINAL DANCE (TUR)": {
+  "dosya": "FINAL-DANCE-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": "TUR",
+  "hara_giris": 2025,
+  "kariyer": {
+   "kosu": 17,
+   "birinci": 8,
+   "ikinci": 2,
+   "ucuncu": 1
+  },
+  "baba": "Declaration Of War",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 27,
+   "G2": 16,
+   "G3": 26
+  }
+ },
+ "FINESSE (TUR)": {
+  "dosya": "FINESSE-TUR-2026.pdf",
+  "don": "AL",
+  "dogum": 2014,
+  "hara_ulke": null,
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 44,
+   "birinci": 13,
+   "ikinci": 373,
+   "ucuncu": 18
+  },
+  "baba": "Luxor",
+  "yillar": {
+   "2024": {
+    "kosan": 14,
+    "kazanan": 3,
+    "kosu": 94,
+    "galibiyet": 4
+   },
+   "2025": {
+    "kosan": 44,
+    "kazanan": 10,
+    "kosu": 279,
+    "galibiyet": 14
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 44,
+   "kazanan": 13,
+   "kosu": 373,
+   "galibiyet": 18
+  },
+  "tay_toplam": {
+   "kosu": 373,
+   "galibiyet": 18,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 42,
+   "G2": 26,
+   "G3": 21
+  }
+ },
+ "FOG OF WAR (USA)": {
+  "dosya": "FOG-OF-WAR-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2016,
+  "hara_ulke": "USA",
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 7,
+   "birinci": 2,
+   "ikinci": 1,
+   "ucuncu": 0
+  },
+  "baba": "War Front",
+  "yillar": {
+   "2024": {
+    "kosan": 28,
+    "kazanan": 4,
+    "kosu": 79,
+    "galibiyet": 4
+   },
+   "2025": {
+    "kosan": 43,
+    "kazanan": 10,
+    "kosu": 275,
+    "galibiyet": 15
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 44,
+   "kazanan": 12,
+   "kosu": 354,
+   "galibiyet": 19
+  },
+  "tay_toplam": {
+   "kosu": 354,
+   "galibiyet": 19,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 43,
+   "G2": 15,
+   "G3": 24
+  }
+ },
+ "GAZIBORA KHAN (GB)": {
+  "dosya": "GAZIBORA-KHAN-GB-2026.pdf",
+  "don": "KIR",
+  "dogum": 2014,
+  "hara_ulke": "TUR",
+  "hara_giris": 2020,
+  "kariyer": {
+   "kosu": 18,
+   "birinci": 5,
+   "ikinci": 2,
+   "ucuncu": 3
+  },
+  "baba": "Native Khan",
+  "yillar": {
+   "2024": {
+    "kosan": 8,
+    "kazanan": 3,
+    "kosu": 54,
+    "galibiyet": 6
+   },
+   "2025": {
+    "kosan": 6,
+    "kazanan": 4,
+    "kosu": 65,
+    "galibiyet": 10
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 11,
+   "kazanan": 5,
+   "kosu": 149,
+   "galibiyet": 16
+  },
+  "tay_toplam": {
+   "kosu": 119,
+   "galibiyet": 16,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 23,
+   "G2": 24,
+   "G3": 18
+  }
+ },
+ "GENERAL QUARTERS (USA)": {
+  "dosya": "GENERAL-QUARTERS-USA-2026.pdf",
+  "don": "KIR",
+  "dogum": 2006,
+  "hara_ulke": "USA",
+  "hara_giris": 2012,
+  "kariyer": {
+   "kosu": 27,
+   "birinci": 4,
+   "ikinci": 9,
+   "ucuncu": 2
+  },
+  "yillar": {
+   "2015": {
+    "kosan": 18,
+    "kazanan": 3,
+    "kosu": 49,
+    "galibiyet": 4
+   },
+   "2016": {
+    "kosan": 42,
+    "kazanan": 18,
+    "kosu": 227,
+    "galibiyet": 25
+   },
+   "2017": {
+    "kosan": 54,
+    "kazanan": 24,
+    "kosu": 344,
+    "galibiyet": 37
+   },
+   "2018": {
+    "kosan": 43,
+    "kazanan": 20,
+    "kosu": 272,
+    "galibiyet": 39
+   },
+   "2019": {
+    "kosan": 37,
+    "kazanan": 14,
+    "kosu": 258,
+    "galibiyet": 27
+   },
+   "2020": {
+    "kosan": 47,
+    "kazanan": 9,
+    "kosu": 217,
+    "galibiyet": 11
+   },
+   "2021": {
+    "kosan": 74,
+    "kazanan": 37,
+    "kosu": 515,
+    "galibiyet": 71
+   },
+   "2022": {
+    "kosan": 92,
+    "kazanan": 44,
+    "kosu": 628,
+    "galibiyet": 86
+   },
+   "2023": {
+    "kosan": 82,
+    "kazanan": 35,
+    "kosu": 599,
+    "galibiyet": 70
+   },
+   "2024": {
+    "kosan": 49,
+    "kazanan": 19,
+    "kosu": 372,
+    "galibiyet": 45
+   },
+   "2025": {
+    "kosan": 45,
+    "kazanan": 16,
+    "kosu": 233,
+    "galibiyet": 30
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 274,
+   "kazanan": 148,
+   "kosu": 3714,
+   "galibiyet": 443
+  },
+  "tay_toplam": {
+   "kosu": 3714,
+   "galibiyet": 445,
+   "yil_sayisi": 11
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 10,
+   "G2": 10,
+   "G3": 11
+  }
+ },
+ "GO HERO (TUR)": {
+  "dosya": "GO-HERO-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": null,
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 13,
+   "birinci": 7,
+   "ikinci": 4,
+   "ucuncu": 1
+  },
+  "baba": "Torok",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 32,
+   "G2": 20,
+   "G3": 19
+  }
+ },
+ "GOLD DESIGN (USA)": {
+  "dosya": "GOLD-DESIGN-USA-2026.pdf",
+  "don": "AL",
+  "dogum": 2019,
+  "hara_ulke": "TUR",
+  "hara_giris": 2025,
+  "kariyer": {
+   "kosu": 28,
+   "birinci": 15,
+   "ikinci": 3,
+   "ucuncu": 4
+  },
+  "baba": "Violence",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 9,
+   "G2": 10,
+   "G3": 16
+  }
+ },
+ "GOOD CURRY (TUR)": {
+  "dosya": "GOOD-CURRY-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2012,
+  "hara_ulke": "TUR",
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 37,
+   "birinci": 24,
+   "ikinci": 410,
+   "ucuncu": 60
+  },
+  "baba": "Sharp Humor",
+  "yillar": {
+   "2024": {
+    "kosan": 17,
+    "kazanan": 8,
+    "kosu": 81,
+    "galibiyet": 14
+   },
+   "2025": {
+    "kosan": 35,
+    "kazanan": 23,
+    "kosu": 329,
+    "galibiyet": 46
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 37,
+   "kazanan": 24,
+   "kosu": 410,
+   "galibiyet": 60
+  },
+  "tay_toplam": {
+   "kosu": 410,
+   "galibiyet": 60,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 12,
+   "G2": 10,
+   "G3": 10
+  }
+ },
+ "GRASYAS (TUR)": {
+  "dosya": "GRASYAS-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 24,
+   "birinci": 10,
+   "ikinci": 3,
+   "ucuncu": 4
+  },
+  "baba": "Lion Heart",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 14,
+   "G2": 18,
+   "G3": 19
+  }
+ },
+ "GRAYSTORM (TUR)": {
+  "dosya": "GRAYSTORM-TUR-2026.pdf",
+  "don": "KIR",
+  "dogum": 2013,
+  "hara_ulke": null,
+  "hara_giris": 2018,
+  "kariyer": {
+   "kosu": 13,
+   "birinci": 6,
+   "ikinci": 5,
+   "ucuncu": 1
+  },
+  "baba": "Luxor",
+  "yillar": {
+   "2021": {
+    "kosan": 4,
+    "kazanan": 1,
+    "kosu": 15,
+    "galibiyet": 1
+   },
+   "2022": {
+    "kosan": 32,
+    "kazanan": 13,
+    "kosu": 163,
+    "galibiyet": 16
+   },
+   "2023": {
+    "kosan": 61,
+    "kazanan": 22,
+    "kosu": 365,
+    "galibiyet": 40
+   },
+   "2024": {
+    "kosan": 86,
+    "kazanan": 40,
+    "kosu": 622,
+    "galibiyet": 75
+   },
+   "2025": {
+    "kosan": 82,
+    "kazanan": 38,
+    "kosu": 741,
+    "galibiyet": 73
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 140,
+   "kazanan": 74,
+   "kosu": 1906,
+   "galibiyet": 205
+  },
+  "tay_toplam": {
+   "kosu": 1906,
+   "galibiyet": 205,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 38,
+   "G2": 17,
+   "G3": 18
+  }
+ },
+ "GÜNGÖR BABA (TUR)": {
+  "dosya": "GUNGOR-BABA-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2012,
+  "hara_ulke": "TUR",
+  "hara_giris": 2019,
+  "kariyer": {
+   "kosu": 45,
+   "birinci": 12,
+   "ikinci": 6,
+   "ucuncu": 12
+  },
+  "baba": "Strike The Gold",
+  "yillar": {
+   "2021": {
+    "kosan": 20,
+    "kazanan": 10,
+    "kosu": 190,
+    "galibiyet": 16
+   },
+   "2022": {
+    "kosan": 44,
+    "kazanan": 18,
+    "kosu": 445,
+    "galibiyet": 38
+   },
+   "2023": {
+    "kosan": 48,
+    "kazanan": 19,
+    "kosu": 405,
+    "galibiyet": 34
+   },
+   "2024": {
+    "kosan": 26,
+    "kazanan": 12,
+    "kosu": 333,
+    "galibiyet": 30
+   },
+   "2025": {
+    "kosan": 22,
+    "kazanan": 13,
+    "kosu": 253,
+    "galibiyet": 24
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 86,
+   "kazanan": 43,
+   "kosu": 1626,
+   "galibiyet": 142
+  },
+  "tay_toplam": {
+   "kosu": 1626,
+   "galibiyet": 142,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 26,
+   "G2": 11,
+   "G3": 15
+  }
+ },
+ "HAKEEM (USA)": {
+  "dosya": "HAKEEM-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2011,
+  "hara_ulke": "TUR",
+  "hara_giris": 2015,
+  "kariyer": {
+   "kosu": 13,
+   "birinci": 6,
+   "ikinci": 5,
+   "ucuncu": 0
+  },
+  "baba": "Harlan’s Holiday",
+  "yillar": {
+   "2018": {
+    "kosan": 40,
+    "kazanan": 10,
+    "kosu": 223,
+    "galibiyet": 11
+   },
+   "2019": {
+    "kosan": 66,
+    "kazanan": 31,
+    "kosu": 475,
+    "galibiyet": 59
+   },
+   "2020": {
+    "kosan": 66,
+    "kazanan": 29,
+    "kosu": 489,
+    "galibiyet": 59
+   },
+   "2021": {
+    "kosan": 93,
+    "kazanan": 51,
+    "kosu": 795,
+    "galibiyet": 106
+   },
+   "2022": {
+    "kosan": 77,
+    "kazanan": 37,
+    "kosu": 715,
+    "galibiyet": 84
+   },
+   "2023": {
+    "kosan": 57,
+    "kazanan": 30,
+    "kosu": 413,
+    "galibiyet": 57
+   },
+   "2024": {
+    "kosan": 64,
+    "kazanan": 31,
+    "kosu": 498,
+    "galibiyet": 63
+   },
+   "2025": {
+    "kosan": 66,
+    "kazanan": 21,
+    "kosu": 467,
+    "galibiyet": 54
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 254,
+   "kazanan": 129,
+   "kosu": 4075,
+   "galibiyet": 493
+  },
+  "tay_toplam": {
+   "kosu": 4075,
+   "galibiyet": 493,
+   "yil_sayisi": 8
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 23,
+   "G2": 9,
+   "G3": 20
+  }
+ },
+ "HAKKAR (TUR)": {
+  "dosya": "HAKKAR-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2007,
+  "hara_ulke": "TUR",
+  "hara_giris": 2013,
+  "kariyer": {
+   "kosu": 21,
+   "birinci": 5,
+   "ikinci": 6,
+   "ucuncu": 4
+  },
+  "baba": "Halling",
+  "yillar": {
+   "2018": {
+    "kosan": 6,
+    "kazanan": 1,
+    "kosu": 47,
+    "galibiyet": 2
+   },
+   "2019": {
+    "kosan": 14,
+    "kazanan": 5,
+    "kosu": 106,
+    "galibiyet": 9
+   },
+   "2020": {
+    "kosan": 30,
+    "kazanan": 8,
+    "kosu": 212,
+    "galibiyet": 12
+   },
+   "2021": {
+    "kosan": 23,
+    "kazanan": 9,
+    "kosu": 210,
+    "galibiyet": 17
+   },
+   "2022": {
+    "kosan": 15,
+    "kazanan": 6,
+    "kosu": 126,
+    "galibiyet": 9
+   },
+   "2023": {
+    "kosan": 12,
+    "kazanan": 5,
+    "kosu": 119,
+    "galibiyet": 10
+   },
+   "2024": {
+    "kosan": 13,
+    "kazanan": 2,
+    "kosu": 95,
+    "galibiyet": 6
+   },
+   "2025": {
+    "kosan": 9,
+    "kazanan": 3,
+    "kosu": 82,
+    "galibiyet": 6
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 63,
+   "kazanan": 21,
+   "kosu": 1014,
+   "galibiyet": 71
+  },
+  "tay_toplam": {
+   "kosu": 997,
+   "galibiyet": 71,
+   "yil_sayisi": 8
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 15,
+   "G2": 17,
+   "G3": 11
+  }
+ },
+ "HASAFET (TUR)": {
+  "dosya": "HASAFET-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2014,
+  "hara_ulke": null,
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 9,
+   "birinci": 2,
+   "ikinci": 39,
+   "ucuncu": 2
+  },
+  "baba": "Youmzain",
+  "yillar": {
+   "2025": {
+    "kosan": 9,
+    "kazanan": 2,
+    "kosu": 39,
+    "galibiyet": 2
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 9,
+   "kazanan": 2,
+   "kosu": 39,
+   "galibiyet": 2
+  },
+  "tay_toplam": {
+   "kosu": 39,
+   "galibiyet": 2,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 17,
+   "G2": 19,
+   "G3": 5
+  }
+ },
+ "HEADMAN (TUR)": {
+  "dosya": "HEADMAN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 53,
+   "birinci": 18,
+   "ikinci": 6,
+   "ucuncu": 8
+  },
+  "baba": "Dabirsim",
+  "katalog_toplam": {
+   "kosan": 53,
+   "kazanan": 18,
+   "kosu": 6,
+   "galibiyet": 8
+  },
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 11,
+   "G2": 9,
+   "G3": 15
+  }
+ },
+ "HEMSWORTH (USA)": {
+  "dosya": "HEMSWORTH-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2014,
+  "hara_ulke": "TUR",
+  "hara_giris": 2019,
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 1,
+   "ikinci": 0,
+   "ucuncu": 1
+  },
+  "baba": "Bernardini",
+  "yillar": {
+   "2022": {
+    "kosan": 10,
+    "kazanan": 4,
+    "kosu": 54,
+    "galibiyet": 10
+   },
+   "2023": {
+    "kosan": 23,
+    "kazanan": 12,
+    "kosu": 219,
+    "galibiyet": 19
+   },
+   "2024": {
+    "kosan": 20,
+    "kazanan": 6,
+    "kosu": 148,
+    "galibiyet": 12
+   },
+   "2025": {
+    "kosan": 11,
+    "kazanan": 1,
+    "kosu": 51,
+    "galibiyet": 1
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 33,
+   "kazanan": 15,
+   "kosu": 472,
+   "galibiyet": 42
+  },
+  "tay_toplam": {
+   "kosu": 472,
+   "galibiyet": 42,
+   "yil_sayisi": 4
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 37,
+   "G2": 16,
+   "G3": 12
+  }
+ },
+ "HEP BERABER (TUR)": {
+  "dosya": "HEP-BERABER-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": "TUR",
+  "hara_giris": 2020,
+  "kariyer": {
+   "kosu": 9,
+   "birinci": 5,
+   "ikinci": 1,
+   "ucuncu": 2
+  },
+  "baba": "Scream To Scream",
+  "yillar": {
+   "2023": {
+    "kosan": 4,
+    "kazanan": 3,
+    "kosu": 22,
+    "galibiyet": 6
+   },
+   "2024": {
+    "kosan": 9,
+    "kazanan": 4,
+    "kosu": 53,
+    "galibiyet": 9
+   },
+   "2025": {
+    "kosan": 10,
+    "kazanan": 7,
+    "kosu": 74,
+    "galibiyet": 9
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 13,
+   "kazanan": 9,
+   "kosu": 149,
+   "galibiyet": 24
+  },
+  "tay_toplam": {
+   "kosu": 149,
+   "galibiyet": 24,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 11,
+   "G2": 10,
+   "G3": 4
+  }
+ },
+ "İSHAKHAN (TUR)": {
+  "dosya": "ISHAKHAN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2020,
+  "hara_ulke": "TUR",
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 25,
+   "birinci": 9,
+   "ikinci": 3,
+   "ucuncu": 3
+  },
+  "baba": "Torok",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 28,
+   "G2": 14,
+   "G3": 15
+  }
+ },
+ "JUNGLE MAN (TUR)": {
+  "dosya": "JUNGLE-MAN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2016,
+  "hara_ulke": null,
+  "hara_giris": 2020,
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 4,
+   "ikinci": 0,
+   "ucuncu": 2
+  },
+  "baba": "Havana Gold",
+  "yillar": {
+   "2023": {
+    "kosan": 6,
+    "kazanan": 1,
+    "kosu": 23,
+    "galibiyet": 2
+   },
+   "2024": {
+    "kosan": 11,
+    "kazanan": 2,
+    "kosu": 69,
+    "galibiyet": 6
+   },
+   "2025": {
+    "kosan": 10,
+    "kazanan": 4,
+    "kosu": 65,
+    "galibiyet": 10
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 17,
+   "kazanan": 5,
+   "kosu": 157,
+   "galibiyet": 18
+  },
+  "tay_toplam": {
+   "kosu": 157,
+   "galibiyet": 18,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 7,
+   "G2": 9,
+   "G3": 12
+  }
+ },
+ "KANEKO (TUR)": {
+  "dosya": "KANEKO-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2001,
+  "hara_ulke": null,
+  "hara_giris": 2007,
+  "kariyer": {
+   "kosu": 43,
+   "birinci": 13,
+   "ikinci": 11,
+   "ucuncu": 5
+  },
+  "baba": "Pivotal",
+  "yillar": {
+   "2010": {
+    "kosan": 13,
+    "kazanan": 11,
+    "kosu": 85,
+    "galibiyet": 21
+   },
+   "2011": {
+    "kosan": 21,
+    "kazanan": 9,
+    "kosu": 153,
+    "galibiyet": 20
+   },
+   "2012": {
+    "kosan": 34,
+    "kazanan": 22,
+    "kosu": 269,
+    "galibiyet": 49
+   },
+   "2013": {
+    "kosan": 45,
+    "kazanan": 27,
+    "kosu": 402,
+    "galibiyet": 66
+   },
+   "2014": {
+    "kosan": 72,
+    "kazanan": 42,
+    "kosu": 563,
+    "galibiyet": 81
+   },
+   "2015": {
+    "kosan": 100,
+    "kazanan": 68,
+    "kosu": 911,
+    "galibiyet": 148
+   },
+   "2016": {
+    "kosan": 137,
+    "kazanan": 78,
+    "kosu": 1306,
+    "galibiyet": 174
+   },
+   "2017": {
+    "kosan": 150,
+    "kazanan": 82,
+    "kosu": 1366,
+    "galibiyet": 192
+   },
+   "2018": {
+    "kosan": 160,
+    "kazanan": 81,
+    "kosu": 1522,
+    "galibiyet": 195
+   },
+   "2019": {
+    "kosan": 143,
+    "kazanan": 84,
+    "kosu": 1397,
+    "galibiyet": 187
+   },
+   "2020": {
+    "kosan": 125,
+    "kazanan": 70,
+    "kosu": 1078,
+    "galibiyet": 155
+   },
+   "2021": {
+    "kosan": 136,
+    "kazanan": 77,
+    "kosu": 1254,
+    "galibiyet": 163
+   },
+   "2022": {
+    "kosan": 109,
+    "kazanan": 66,
+    "kosu": 914,
+    "galibiyet": 142
+   },
+   "2023": {
+    "kosan": 96,
+    "kazanan": 56,
+    "kosu": 811,
+    "galibiyet": 122
+   },
+   "2024": {
+    "kosan": 95,
+    "kazanan": 49,
+    "kosu": 763,
+    "galibiyet": 112
+   },
+   "2025": {
+    "kosan": 119,
+    "kazanan": 61,
+    "kosu": 926,
+    "galibiyet": 123
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 608,
+   "kazanan": 417,
+   "kosu": 13270,
+   "galibiyet": 1950
+  },
+  "tay_toplam": {
+   "kosu": 13720,
+   "galibiyet": 1950,
+   "yil_sayisi": 16
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 16,
+   "G2": 10,
+   "G3": 19
+  }
+ },
+ "KHANKA (TUR)": {
+  "dosya": "KHANKA-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2011,
+  "hara_ulke": null,
+  "hara_giris": 2016,
+  "kariyer": {
+   "kosu": 13,
+   "birinci": 3,
+   "ikinci": 4,
+   "ucuncu": 4
+  },
+  "baba": "Kaneko",
+  "yillar": {
+   "2019": {
+    "kosan": 1,
+    "kazanan": 1,
+    "kosu": 7,
+    "galibiyet": 1
+   },
+   "2021": {
+    "kosan": 1,
+    "kazanan": 1,
+    "kosu": 7,
+    "galibiyet": 1
+   },
+   "2023": {
+    "kosan": 1,
+    "kazanan": 1,
+    "kosu": 12,
+    "galibiyet": 1
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 4,
+   "kazanan": 3,
+   "kosu": 35,
+   "galibiyet": 3
+  },
+  "tay_toplam": {
+   "kosu": 26,
+   "galibiyet": 3,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 13,
+   "G2": 11,
+   "G3": 14
+  }
+ },
+ "KING DAVID (USA)": {
+  "dosya": "KING-DAVID-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2009,
+  "hara_ulke": "TUR",
+  "hara_giris": 2016,
+  "kariyer": {
+   "kosu": 29,
+   "birinci": 7,
+   "ikinci": 3,
+   "ucuncu": 2
+  },
+  "baba": "Hat Trick",
+  "yillar": {
+   "2020": {
+    "kosan": 16,
+    "kazanan": 6,
+    "kosu": 91,
+    "galibiyet": 9
+   },
+   "2021": {
+    "kosan": 22,
+    "kazanan": 10,
+    "kosu": 188,
+    "galibiyet": 21
+   },
+   "2022": {
+    "kosan": 25,
+    "kazanan": 13,
+    "kosu": 171,
+    "galibiyet": 25
+   },
+   "2023": {
+    "kosan": 22,
+    "kazanan": 16,
+    "kosu": 185,
+    "galibiyet": 35
+   },
+   "2024": {
+    "kosan": 13,
+    "kazanan": 8,
+    "kosu": 118,
+    "galibiyet": 19
+   },
+   "2025": {
+    "kosan": 20,
+    "kazanan": 10,
+    "kosu": 92,
+    "galibiyet": 16
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 59,
+   "kazanan": 39,
+   "kosu": 851,
+   "galibiyet": 125
+  },
+  "tay_toplam": {
+   "kosu": 845,
+   "galibiyet": 125,
+   "yil_sayisi": 6
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 28,
+   "G2": 5,
+   "G3": 14
+  }
+ },
+ "KINGSMAN (TUR)": {
+  "dosya": "KINGSMAN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 33,
+   "birinci": 7,
+   "ikinci": 5,
+   "ucuncu": 3
+  },
+  "baba": "Popular Demand",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 12,
+   "G2": 8,
+   "G3": 7
+  }
+ },
+ "KINOWA (TUR)": {
+  "dosya": "KINOWA-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2013,
+  "hara_ulke": null,
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 28,
+   "birinci": 8,
+   "ikinci": 261,
+   "ucuncu": 18
+  },
+  "yillar": {
+   "2024": {
+    "kosan": 16,
+    "kazanan": 4,
+    "kosu": 104,
+    "galibiyet": 9
+   },
+   "2025": {
+    "kosan": 24,
+    "kazanan": 6,
+    "kosu": 157,
+    "galibiyet": 9
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 28,
+   "kazanan": 8,
+   "kosu": 261,
+   "galibiyet": 18
+  },
+  "tay_toplam": {
+   "kosu": 261,
+   "galibiyet": 18,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 29,
+   "G2": 7,
+   "G3": 16
+  }
+ },
+ "KIRCAALİ (TUR)": {
+  "dosya": "KIRCAALI-TUR-2026.pdf",
+  "don": "KIR",
+  "dogum": 2015,
+  "hara_ulke": "TUR",
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 56,
+   "birinci": 11,
+   "ikinci": 6,
+   "ucuncu": 10
+  },
+  "baba": "Big Brown",
+  "yillar": {
+   "2025": {
+    "kosan": 3,
+    "kazanan": 2,
+    "kosu": 17,
+    "galibiyet": 2
+   }
+  },
+  "tay_toplam": {
+   "kosu": 17,
+   "galibiyet": 2,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 11,
+   "G2": 7,
+   "G3": 13
+  }
+ },
+ "KLIMT (USA)": {
+  "dosya": "KLIMT-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2014,
+  "hara_ulke": "USA",
+  "hara_giris": 2018,
+  "kariyer": {
+   "kosu": 8,
+   "birinci": 3,
+   "ikinci": 2,
+   "ucuncu": 1
+  },
+  "baba": "Quality Road",
+  "yillar": {
+   "2021": {
+    "kosan": 81,
+    "kazanan": 24,
+    "kosu": 312,
+    "galibiyet": 26
+   },
+   "2022": {
+    "kosan": 167,
+    "kazanan": 77,
+    "kosu": 972,
+    "galibiyet": 122
+   },
+   "2023": {
+    "kosan": 231,
+    "kazanan": 126,
+    "kosu": 1380,
+    "galibiyet": 210
+   },
+   "2024": {
+    "kosan": 236,
+    "kazanan": 125,
+    "kosu": 1527,
+    "galibiyet": 209
+   },
+   "2025": {
+    "kosan": 241,
+    "kazanan": 124,
+    "kosu": 1593,
+    "galibiyet": 211
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 415,
+   "kazanan": 277,
+   "kosu": 5783,
+   "galibiyet": 778
+  },
+  "tay_toplam": {
+   "kosu": 5784,
+   "galibiyet": 778,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 13,
+   "G2": 9,
+   "G3": 9
+  }
+ },
+ "KLUGER (JPN)": {
+  "dosya": "KLUGER-JPN-2026.pdf",
+  "kariyer": {
+   "kosu": 46,
+   "birinci": 21,
+   "ikinci": 546,
+   "ucuncu": 67
+  },
+  "yillar": {
+   "2024": {
+    "kosan": 25,
+    "kazanan": 12,
+    "kosu": 134,
+    "galibiyet": 23
+   },
+   "2025": {
+    "kosan": 44,
+    "kazanan": 17,
+    "kosu": 412,
+    "galibiyet": 44
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 46,
+   "kazanan": 21,
+   "kosu": 546,
+   "galibiyet": 67
+  },
+  "tay_toplam": {
+   "kosu": 546,
+   "galibiyet": 67,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 31,
+   "G2": 11,
+   "G3": 15
+  }
+ },
+ "KULOĞLU (TUR)": {
+  "dosya": "KULOGLU-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2011,
+  "hara_ulke": null,
+  "hara_giris": 2017,
+  "kariyer": {
+   "kosu": 43,
+   "birinci": 13,
+   "ikinci": 7,
+   "ucuncu": 3
+  },
+  "baba": "Okawango",
+  "yillar": {
+   "2020": {
+    "kosan": 7,
+    "kazanan": 2,
+    "kosu": 46,
+    "galibiyet": 2
+   },
+   "2021": {
+    "kosan": 18,
+    "kazanan": 13,
+    "kosu": 203,
+    "galibiyet": 19
+   },
+   "2022": {
+    "kosan": 25,
+    "kazanan": 14,
+    "kosu": 274,
+    "galibiyet": 25
+   },
+   "2023": {
+    "kosan": 21,
+    "kazanan": 9,
+    "kosu": 205,
+    "galibiyet": 20
+   },
+   "2024": {
+    "kosan": 13,
+    "kazanan": 5,
+    "kosu": 114,
+    "galibiyet": 10
+   },
+   "2025": {
+    "kosan": 13,
+    "kazanan": 3,
+    "kosu": 112,
+    "galibiyet": 7
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 44,
+   "kazanan": 26,
+   "kosu": 954,
+   "galibiyet": 83
+  },
+  "tay_toplam": {
+   "kosu": 954,
+   "galibiyet": 83,
+   "yil_sayisi": 6
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 14,
+   "G2": 11,
+   "G3": 21
+  }
+ },
+ "KUZEY KAFKASYALI (TUR)": {
+  "dosya": "KUZEY-KAFKASYALI-TUR-2026.pdf",
+  "don": "AL",
+  "dogum": 2016,
+  "hara_ulke": null,
+  "hara_giris": 2023,
+  "kariyer": {
+   "kosu": 21,
+   "birinci": 8,
+   "ikinci": 7,
+   "ucuncu": 1
+  },
+  "baba": "Luxor",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 30,
+   "G2": 23,
+   "G3": 16
+  }
+ },
+ "KUZEY YAĞMURU (TUR)": {
+  "dosya": "KUZEY-YAGMURU-TUR-2026-2.pdf",
+  "don": "AL",
+  "dogum": 2017,
+  "hara_ulke": null,
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 42,
+   "birinci": 17,
+   "ikinci": 8,
+   "ucuncu": 6
+  },
+  "baba": "Pleasantly Perfect",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 10,
+   "G2": 6,
+   "G3": 6
+  }
+ },
+ "LILBOURNE LAD (IRE)": {
+  "dosya": "LILBOURNE-LAD-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2009,
+  "hara_ulke": "IRE",
+  "hara_giris": 2012,
+  "kariyer": {
+   "kosu": 8,
+   "birinci": 3,
+   "ikinci": 3,
+   "ucuncu": 0
+  },
+  "baba": "Acclamation",
+  "yillar": {
+   "2015": {
+    "kosan": 72,
+    "kazanan": 25,
+    "kosu": 308,
+    "galibiyet": 33
+   },
+   "2016": {
+    "kosan": 116,
+    "kazanan": 42,
+    "kosu": 709,
+    "galibiyet": 67
+   },
+   "2017": {
+    "kosan": 127,
+    "kazanan": 48,
+    "kosu": 839,
+    "galibiyet": 82
+   },
+   "2018": {
+    "kosan": 109,
+    "kazanan": 48,
+    "kosu": 810,
+    "galibiyet": 79
+   },
+   "2019": {
+    "kosan": 92,
+    "kazanan": 49,
+    "kosu": 736,
+    "galibiyet": 80
+   },
+   "2020": {
+    "kosan": 71,
+    "kazanan": 32,
+    "kosu": 503,
+    "galibiyet": 49
+   },
+   "2021": {
+    "kosan": 62,
+    "kazanan": 25,
+    "kosu": 533,
+    "galibiyet": 41
+   },
+   "2022": {
+    "kosan": 57,
+    "kazanan": 20,
+    "kosu": 374,
+    "galibiyet": 40
+   },
+   "2023": {
+    "kosan": 32,
+    "kazanan": 14,
+    "kosu": 310,
+    "galibiyet": 21
+   },
+   "2024": {
+    "kosan": 26,
+    "kazanan": 6,
+    "kosu": 210,
+    "galibiyet": 14
+   },
+   "2025": {
+    "kosan": 16,
+    "kazanan": 2,
+    "kosu": 94,
+    "galibiyet": 4
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 276,
+   "kazanan": 144,
+   "kosu": 5426,
+   "galibiyet": 510
+  },
+  "tay_toplam": {
+   "kosu": 5426,
+   "galibiyet": 510,
+   "yil_sayisi": 11
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 15,
+   "G2": 13,
+   "G3": 13
+  }
+ },
+ "LUXOR (TUR)": {
+  "dosya": "LUXOR-TUR-2026.pdf",
+  "don": "AL",
+  "dogum": 2000,
+  "hara_ulke": null,
+  "hara_giris": 2006,
+  "kariyer": {
+   "kosu": 26,
+   "birinci": 10,
+   "ikinci": 3,
+   "ucuncu": 7
+  },
+  "baba": "Distant Relative",
+  "yillar": {
+   "2010": {
+    "kosan": 12,
+    "kazanan": 10,
+    "kosu": 55,
+    "galibiyet": 17
+   },
+   "2011": {
+    "kosan": 18,
+    "kazanan": 11,
+    "kosu": 139,
+    "galibiyet": 27
+   },
+   "2012": {
+    "kosan": 19,
+    "kazanan": 9,
+    "kosu": 131,
+    "galibiyet": 22
+   },
+   "2013": {
+    "kosan": 23,
+    "kazanan": 10,
+    "kosu": 161,
+    "galibiyet": 19
+   },
+   "2014": {
+    "kosan": 57,
+    "kazanan": 17,
+    "kosu": 261,
+    "galibiyet": 35
+   },
+   "2015": {
+    "kosan": 81,
+    "kazanan": 37,
+    "kosu": 519,
+    "galibiyet": 76
+   },
+   "2016": {
+    "kosan": 103,
+    "kazanan": 39,
+    "kosu": 651,
+    "galibiyet": 79
+   },
+   "2017": {
+    "kosan": 90,
+    "kazanan": 41,
+    "kosu": 661,
+    "galibiyet": 85
+   },
+   "2018": {
+    "kosan": 86,
+    "kazanan": 34,
+    "kosu": 610,
+    "galibiyet": 82
+   },
+   "2019": {
+    "kosan": 83,
+    "kazanan": 42,
+    "kosu": 582,
+    "galibiyet": 92
+   },
+   "2020": {
+    "kosan": 90,
+    "kazanan": 50,
+    "kosu": 539,
+    "galibiyet": 88
+   },
+   "2021": {
+    "kosan": 79,
+    "kazanan": 36,
+    "kosu": 544,
+    "galibiyet": 66
+   },
+   "2022": {
+    "kosan": 85,
+    "kazanan": 41,
+    "kosu": 560,
+    "galibiyet": 87
+   },
+   "2023": {
+    "kosan": 62,
+    "kazanan": 31,
+    "kosu": 417,
+    "galibiyet": 64
+   },
+   "2024": {
+    "kosan": 61,
+    "kazanan": 35,
+    "kosu": 481,
+    "galibiyet": 78
+   },
+   "2025": {
+    "kosan": 61,
+    "kazanan": 27,
+    "kosu": 403,
+    "galibiyet": 52
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 422,
+   "kazanan": 231,
+   "kosu": 6714,
+   "galibiyet": 969
+  },
+  "tay_toplam": {
+   "kosu": 6714,
+   "galibiyet": 969,
+   "yil_sayisi": 16
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 36,
+   "G2": 20,
+   "G3": 21
+  }
+ },
+ "MARCAVELLY (USA)": {
+  "dosya": "MARCAVELLY-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2004,
+  "hara_ulke": "CAN",
+  "hara_giris": 2009,
+  "kariyer": {
+   "kosu": 8,
+   "birinci": 4,
+   "ikinci": 3,
+   "ucuncu": 0
+  },
+  "baba": "Johannesburg",
+  "yillar": {
+   "2012": {
+    "kosan": 21,
+    "kazanan": 4,
+    "kosu": 62,
+    "galibiyet": 4
+   },
+   "2013": {
+    "kosan": 36,
+    "kazanan": 16,
+    "kosu": 155,
+    "galibiyet": 23
+   },
+   "2014": {
+    "kosan": 28,
+    "kazanan": 15,
+    "kosu": 229,
+    "galibiyet": 29
+   },
+   "2015": {
+    "kosan": 29,
+    "kazanan": 15,
+    "kosu": 175,
+    "galibiyet": 31
+   },
+   "2016": {
+    "kosan": 25,
+    "kazanan": 19,
+    "kosu": 200,
+    "galibiyet": 31
+   },
+   "2017": {
+    "kosan": 17,
+    "kazanan": 10,
+    "kosu": 143,
+    "galibiyet": 18
+   },
+   "2018": {
+    "kosan": 9,
+    "kazanan": 2,
+    "kosu": 36,
+    "galibiyet": 2
+   },
+   "2019": {
+    "kosan": 14,
+    "kazanan": 8,
+    "kosu": 58,
+    "galibiyet": 11
+   },
+   "2020": {
+    "kosan": 32,
+    "kazanan": 14,
+    "kosu": 194,
+    "galibiyet": 30
+   },
+   "2021": {
+    "kosan": 32,
+    "kazanan": 16,
+    "kosu": 300,
+    "galibiyet": 36
+   },
+   "2022": {
+    "kosan": 33,
+    "kazanan": 20,
+    "kosu": 255,
+    "galibiyet": 34
+   },
+   "2023": {
+    "kosan": 47,
+    "kazanan": 24,
+    "kosu": 390,
+    "galibiyet": 51
+   },
+   "2024": {
+    "kosan": 47,
+    "kazanan": 17,
+    "kosu": 322,
+    "galibiyet": 34
+   },
+   "2025": {
+    "kosan": 34,
+    "kazanan": 15,
+    "kosu": 242,
+    "galibiyet": 30
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 166,
+   "kazanan": 107,
+   "kosu": 2761,
+   "galibiyet": 364
+  },
+  "tay_toplam": {
+   "kosu": 2761,
+   "galibiyet": 364,
+   "yil_sayisi": 14
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 25,
+   "G2": 19,
+   "G3": 13
+  }
+ },
+ "MAVİ GÖZLÜ DEV (TUR)": {
+  "dosya": "MAVI-GOZLU-DEV-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": "TUR",
+  "hara_giris": 2019,
+  "kariyer": {
+   "kosu": 8,
+   "birinci": 2,
+   "ikinci": 1,
+   "ucuncu": 0
+  },
+  "baba": "Torok",
+  "yillar": {
+   "2024": {
+    "kosan": 3,
+    "kazanan": 2,
+    "kosu": 34,
+    "galibiyet": 4
+   },
+   "2025": {
+    "kosan": 4,
+    "kazanan": 1,
+    "kosu": 21,
+    "galibiyet": 2
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 4,
+   "kazanan": 2,
+   "kosu": 61,
+   "galibiyet": 6
+  },
+  "tay_toplam": {
+   "kosu": 55,
+   "galibiyet": 6,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 23,
+   "G2": 15,
+   "G3": 10
+  }
+ },
+ "MENDIP (USA)": {
+  "dosya": "MENDIP-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2007,
+  "hara_ulke": "TUR",
+  "hara_giris": 2014,
+  "kariyer": {
+   "kosu": 14,
+   "birinci": 6,
+   "ikinci": 0,
+   "ucuncu": 1
+  },
+  "yillar": {
+   "2017": {
+    "kosan": 35,
+    "kazanan": 16,
+    "kosu": 206,
+    "galibiyet": 32
+   },
+   "2018": {
+    "kosan": 65,
+    "kazanan": 18,
+    "kosu": 452,
+    "galibiyet": 43
+   },
+   "2019": {
+    "kosan": 70,
+    "kazanan": 25,
+    "kosu": 504,
+    "galibiyet": 41
+   },
+   "2020": {
+    "kosan": 75,
+    "kazanan": 35,
+    "kosu": 508,
+    "galibiyet": 68
+   },
+   "2021": {
+    "kosan": 107,
+    "kazanan": 58,
+    "kosu": 837,
+    "galibiyet": 117
+   },
+   "2022": {
+    "kosan": 134,
+    "kazanan": 80,
+    "kosu": 1238,
+    "galibiyet": 162
+   },
+   "2023": {
+    "kosan": 144,
+    "kazanan": 84,
+    "kosu": 1211,
+    "galibiyet": 163
+   },
+   "2024": {
+    "kosan": 146,
+    "kazanan": 80,
+    "kosu": 1324,
+    "galibiyet": 183
+   },
+   "2025": {
+    "kosan": 164,
+    "kazanan": 68,
+    "kosu": 1347,
+    "galibiyet": 123
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 426,
+   "kazanan": 261,
+   "kosu": 7627,
+   "galibiyet": 932
+  },
+  "tay_toplam": {
+   "kosu": 7627,
+   "galibiyet": 932,
+   "yil_sayisi": 9
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 5,
+   "G2": 5,
+   "G3": 9
+  }
+ },
+ "MER DE GLACE (JPN)": {
+  "dosya": "MER-DE-GLACE-JPN-2026.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": null,
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 16,
+   "birinci": 6,
+   "ikinci": 74,
+   "ucuncu": 7
+  },
+  "baba": "Rulership",
+  "yillar": {
+   "2025": {
+    "kosan": 16,
+    "kazanan": 6,
+    "kosu": 74,
+    "galibiyet": 7
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 16,
+   "kazanan": 6,
+   "kosu": 74,
+   "galibiyet": 7
+  },
+  "tay_toplam": {
+   "kosu": 74,
+   "galibiyet": 7,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 21,
+   "G2": 16,
+   "G3": 35
+  }
+ },
+ "MISTER GÖRKEM (TUR)": {
+  "dosya": "MISTER-GORKEM-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 62,
+   "birinci": 13,
+   "ikinci": 3,
+   "ucuncu": 15
+  },
+  "baba": "Powerscourt",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 28,
+   "G2": 19,
+   "G3": 21
+  }
+ },
+ "MYBOYCHARLIE (IRE)": {
+  "dosya": "MYBOYCHARLIE-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2005,
+  "hara_ulke": "AUS",
+  "hara_giris": 2009,
+  "kariyer": {
+   "kosu": 9,
+   "birinci": 4,
+   "ikinci": 0,
+   "ucuncu": 1
+  },
+  "baba": "Danetime",
+  "yillar": {
+   "2012": {
+    "kosan": 6,
+    "kazanan": 2,
+    "kosu": 9,
+    "galibiyet": 2
+   },
+   "2013": {
+    "kosan": 77,
+    "kazanan": 23,
+    "kosu": 346,
+    "galibiyet": 30
+   },
+   "2014": {
+    "kosan": 161,
+    "kazanan": 61,
+    "kosu": 855,
+    "galibiyet": 87
+   },
+   "2015": {
+    "kosan": 217,
+    "kazanan": 100,
+    "kosu": 1383,
+    "galibiyet": 154
+   },
+   "2016": {
+    "kosan": 316,
+    "kazanan": 118,
+    "kosu": 1879,
+    "galibiyet": 177
+   },
+   "2017": {
+    "kosan": 367,
+    "kazanan": 157,
+    "kosu": 2464,
+    "galibiyet": 237
+   },
+   "2018": {
+    "kosan": 329,
+    "kazanan": 141,
+    "kosu": 2238,
+    "galibiyet": 237
+   },
+   "2019": {
+    "kosan": 234,
+    "kazanan": 89,
+    "kosu": 1912,
+    "galibiyet": 162
+   },
+   "2020": {
+    "kosan": 229,
+    "kazanan": 79,
+    "kosu": 1445,
+    "galibiyet": 123
+   },
+   "2021": {
+    "kosan": 233,
+    "kazanan": 91,
+    "kosu": 1573,
+    "galibiyet": 125
+   },
+   "2022": {
+    "kosan": 214,
+    "kazanan": 78,
+    "kosu": 1470,
+    "galibiyet": 122
+   },
+   "2023": {
+    "kosan": 200,
+    "kazanan": 78,
+    "kosu": 1366,
+    "galibiyet": 125
+   },
+   "2024": {
+    "kosan": 198,
+    "kazanan": 85,
+    "kosu": 1429,
+    "galibiyet": 150
+   },
+   "2025": {
+    "kosan": 177,
+    "kazanan": 66,
+    "kosu": 1308,
+    "galibiyet": 122
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 1038,
+   "kazanan": 598,
+   "kosu": 19677,
+   "galibiyet": 1853
+  },
+  "tay_toplam": {
+   "kosu": 19677,
+   "galibiyet": 1853,
+   "yil_sayisi": 14
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 16,
+   "G2": 18,
+   "G3": 16
+  }
+ },
+ "NATIVE KHAN (FR)": {
+  "dosya": "NATIVE-KHAN-FR-2026.pdf",
+  "don": "KIR",
+  "dogum": 2008,
+  "hara_ulke": "TUR",
+  "hara_giris": 2013,
+  "kariyer": {
+   "kosu": 9,
+   "birinci": 3,
+   "ikinci": 0,
+   "ucuncu": 3
+  },
+  "baba": "Azamour",
+  "yillar": {
+   "2016": {
+    "kosan": 20,
+    "kazanan": 15,
+    "kosu": 141,
+    "galibiyet": 25
+   },
+   "2017": {
+    "kosan": 34,
+    "kazanan": 17,
+    "kosu": 307,
+    "galibiyet": 30
+   },
+   "2018": {
+    "kosan": 31,
+    "kazanan": 9,
+    "kosu": 213,
+    "galibiyet": 19
+   },
+   "2019": {
+    "kosan": 35,
+    "kazanan": 21,
+    "kosu": 230,
+    "galibiyet": 41
+   },
+   "2020": {
+    "kosan": 67,
+    "kazanan": 31,
+    "kosu": 364,
+    "galibiyet": 43
+   },
+   "2021": {
+    "kosan": 87,
+    "kazanan": 41,
+    "kosu": 589,
+    "galibiyet": 88
+   },
+   "2022": {
+    "kosan": 111,
+    "kazanan": 57,
+    "kosu": 620,
+    "galibiyet": 108
+   },
+   "2023": {
+    "kosan": 99,
+    "kazanan": 54,
+    "kosu": 651,
+    "galibiyet": 110
+   },
+   "2024": {
+    "kosan": 91,
+    "kazanan": 42,
+    "kosu": 583,
+    "galibiyet": 71
+   },
+   "2025": {
+    "kosan": 93,
+    "kazanan": 35,
+    "kosu": 611,
+    "galibiyet": 62
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 321,
+   "kazanan": 199,
+   "kosu": 4309,
+   "galibiyet": 596
+  },
+  "tay_toplam": {
+   "kosu": 4309,
+   "galibiyet": 597,
+   "yil_sayisi": 10
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 17,
+   "G2": 14,
+   "G3": 12
+  }
+ },
+ "NATIVE POWER (TUR)": {
+  "dosya": "NATIVE-POWER-TUR-2026.pdf",
+  "don": "KIR",
+  "dogum": 2020,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 16,
+   "birinci": 6,
+   "ikinci": 4,
+   "ucuncu": 0
+  },
+  "baba": "Native Khan",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 25,
+   "G2": 26,
+   "G3": 22
+  }
+ },
+ "NOBEL PRIZE (IRE)": {
+  "dosya": "NOBEL-PRIZE-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 2,
+   "ikinci": 1,
+   "ucuncu": 0
+  },
+  "baba": "Galileo",
+  "yillar": {
+   "2024": {
+    "kosan": 6,
+    "kazanan": 1,
+    "kosu": 22,
+    "galibiyet": 1
+   },
+   "2025": {
+    "kosan": 18,
+    "kazanan": 5,
+    "kosu": 142,
+    "galibiyet": 10
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 19,
+   "kazanan": 5,
+   "kosu": 164,
+   "galibiyet": 11
+  },
+  "tay_toplam": {
+   "kosu": 164,
+   "galibiyet": 11,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 113,
+   "G2": 15,
+   "G3": 11
+  }
+ },
+ "OĞLUM MELİH (USA)": {
+  "dosya": "OGLUM-MELIH-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2010,
+  "hara_ulke": "TUR",
+  "hara_giris": 2019,
+  "kariyer": {
+   "kosu": 7,
+   "birinci": 4,
+   "ikinci": 159,
+   "ucuncu": 16
+  },
+  "baba": "Strike The Gold",
+  "yillar": {
+   "2022": {
+    "kosan": 2,
+    "kazanan": 1,
+    "kosu": 11,
+    "galibiyet": 1
+   },
+   "2023": {
+    "kosan": 6,
+    "kazanan": 2,
+    "kosu": 39,
+    "galibiyet": 3
+   },
+   "2024": {
+    "kosan": 4,
+    "kazanan": 4,
+    "kosu": 63,
+    "galibiyet": 8
+   },
+   "2025": {
+    "kosan": 4,
+    "kazanan": 2,
+    "kosu": 46,
+    "galibiyet": 4
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 7,
+   "kazanan": 4,
+   "kosu": 159,
+   "galibiyet": 16
+  },
+  "tay_toplam": {
+   "kosu": 159,
+   "galibiyet": 16,
+   "yil_sayisi": 4
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 27,
+   "G2": 9,
+   "G3": 5
+  }
+ },
+ "ÖKEHAN (TUR)": {
+  "dosya": "OKEHAN-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 21,
+   "birinci": 9,
+   "ikinci": 4,
+   "ucuncu": 5
+  },
+  "baba": "Yonaguska",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 14,
+   "G2": 12,
+   "G3": 16
+  }
+ },
+ "PADRE PADRONE (IRE)": {
+  "dosya": "PADRE-PADRONE-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2016,
+  "hara_ulke": null,
+  "hara_giris": 2023,
+  "kariyer": {
+   "kosu": 32,
+   "birinci": 6,
+   "ikinci": 9,
+   "ucuncu": 3
+  },
+  "baba": "Thewayyouare",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 13,
+   "G2": 5,
+   "G3": 12
+  }
+ },
+ "PIANO SONATA (TUR)": {
+  "dosya": "PIANO-SONATA-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2014,
+  "hara_ulke": "TUR",
+  "hara_giris": 2020,
+  "kariyer": {
+   "kosu": 21,
+   "birinci": 8,
+   "ikinci": 7,
+   "ucuncu": 0
+  },
+  "baba": "Torok",
+  "yillar": {
+   "2023": {
+    "kosan": 22,
+    "kazanan": 11,
+    "kosu": 136,
+    "galibiyet": 19
+   },
+   "2024": {
+    "kosan": 32,
+    "kazanan": 10,
+    "kosu": 273,
+    "galibiyet": 23
+   },
+   "2025": {
+    "kosan": 17,
+    "kazanan": 8,
+    "kosu": 148,
+    "galibiyet": 16
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 39,
+   "kazanan": 19,
+   "kosu": 557,
+   "galibiyet": 58
+  },
+  "tay_toplam": {
+   "kosu": 557,
+   "galibiyet": 58,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 26,
+   "G2": 13,
+   "G3": 16
+  }
+ },
+ "POINT OF FINALLY (USA)": {
+  "dosya": "POINT-OF-FINALLY-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2020,
+  "hara_ulke": "TUR",
+  "hara_giris": 2025,
+  "kariyer": {
+   "kosu": 20,
+   "birinci": 6,
+   "ikinci": 3,
+   "ucuncu": 5
+  },
+  "baba": "Point Of Entry",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 15,
+   "G2": 6,
+   "G3": 17
+  }
+ },
+ "POWERMAN (TUR)": {
+  "dosya": "POWERMAN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 21,
+   "birinci": 7,
+   "ikinci": 3,
+   "ucuncu": 2
+  },
+  "baba": "Powerscourt",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 28,
+   "G2": 12,
+   "G3": 12
+  }
+ },
+ "PROFITABLE (IRE)": {
+  "dosya": "PROFITABLE-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2012,
+  "hara_ulke": "IRE",
+  "hara_giris": 2018,
+  "kariyer": {
+   "kosu": 23,
+   "birinci": 5,
+   "ikinci": 8,
+   "ucuncu": 1
+  },
+  "baba": "Invincible Spirit",
+  "yillar": {
+   "2021": {
+    "kosan": 87,
+    "kazanan": 29,
+    "kosu": 364,
+    "galibiyet": 39
+   },
+   "2022": {
+    "kosan": 161,
+    "kazanan": 57,
+    "kosu": 879,
+    "galibiyet": 85
+   },
+   "2023": {
+    "kosan": 216,
+    "kazanan": 88,
+    "kosu": 1225,
+    "galibiyet": 134
+   },
+   "2024": {
+    "kosan": 236,
+    "kazanan": 96,
+    "kosu": 1483,
+    "galibiyet": 151
+   },
+   "2025": {
+    "kosan": 233,
+    "kazanan": 88,
+    "kosu": 1534,
+    "galibiyet": 135
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 410,
+   "kazanan": 213,
+   "kosu": 5487,
+   "galibiyet": 544
+  },
+  "tay_toplam": {
+   "kosu": 5485,
+   "galibiyet": 544,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 26,
+   "G2": 5,
+   "G3": 16
+  }
+ },
+ "PROKOPİ (TUR)": {
+  "dosya": "PROKOPI-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 15,
+   "birinci": 3,
+   "ikinci": 2,
+   "ucuncu": 3
+  },
+  "baba": "Australia",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 22,
+   "G2": 17,
+   "G3": 25
+  }
+ },
+ "RENK (TUR)": {
+  "dosya": "RENK-TUR-2026-2.pdf",
+  "don": "AL",
+  "dogum": 2012,
+  "hara_ulke": "TUR",
+  "hara_giris": 2016,
+  "kariyer": {
+   "kosu": 16,
+   "birinci": 10,
+   "ikinci": 2,
+   "ucuncu": 2
+  },
+  "baba": "Divine Light",
+  "yillar": {
+   "2020": {
+    "kosan": 5,
+    "kazanan": 2,
+    "kosu": 33,
+    "galibiyet": 3
+   },
+   "2021": {
+    "kosan": 7,
+    "kazanan": 2,
+    "kosu": 63,
+    "galibiyet": 4
+   },
+   "2022": {
+    "kosan": 4,
+    "kazanan": 1,
+    "kosu": 30,
+    "galibiyet": 5
+   },
+   "2023": {
+    "kosan": 2,
+    "kazanan": 1,
+    "kosu": 22,
+    "galibiyet": 2
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 11,
+   "kazanan": 6,
+   "kosu": 158,
+   "galibiyet": 14
+  },
+  "tay_toplam": {
+   "kosu": 148,
+   "galibiyet": 14,
+   "yil_sayisi": 4
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 8,
+   "G2": 5,
+   "G3": 13
+  }
+ },
+ "RHYTHM DIVINE (TUR)": {
+  "dosya": "RHYTHM-DIVINE-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2015,
+  "hara_ulke": "TUR",
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 6,
+   "birinci": 2,
+   "ikinci": 20,
+   "ucuncu": 2
+  },
+  "baba": "Torok",
+  "yillar": {
+   "2025": {
+    "kosan": 6,
+    "kazanan": 2,
+    "kosu": 20,
+    "galibiyet": 2
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 6,
+   "kazanan": 2,
+   "kosu": 20,
+   "galibiyet": 2
+  },
+  "tay_toplam": {
+   "kosu": 20,
+   "galibiyet": 2,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 31,
+   "G2": 17,
+   "G3": 13
+  }
+ },
+ "RUN AWAY AND HIDE (USA)": {
+  "dosya": "RUN-AWAY-AND-HIDE-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2006,
+  "hara_ulke": "USA",
+  "hara_giris": 2009,
+  "kariyer": {
+   "kosu": 3,
+   "birinci": 3,
+   "ikinci": 0,
+   "ucuncu": 0
+  },
+  "baba": "City Zip",
+  "yillar": {
+   "2012": {
+    "kosan": 28,
+    "kazanan": 10,
+    "kosu": 83,
+    "galibiyet": 13
+   },
+   "2013": {
+    "kosan": 52,
+    "kazanan": 32,
+    "kosu": 293,
+    "galibiyet": 49
+   },
+   "2014": {
+    "kosan": 65,
+    "kazanan": 35,
+    "kosu": 415,
+    "galibiyet": 57
+   },
+   "2015": {
+    "kosan": 80,
+    "kazanan": 45,
+    "kosu": 566,
+    "galibiyet": 75
+   },
+   "2016": {
+    "kosan": 95,
+    "kazanan": 42,
+    "kosu": 507,
+    "galibiyet": 68
+   },
+   "2017": {
+    "kosan": 130,
+    "kazanan": 76,
+    "kosu": 800,
+    "galibiyet": 135
+   },
+   "2018": {
+    "kosan": 156,
+    "kazanan": 102,
+    "kosu": 992,
+    "galibiyet": 152
+   },
+   "2019": {
+    "kosan": 141,
+    "kazanan": 78,
+    "kosu": 905,
+    "galibiyet": 133
+   },
+   "2020": {
+    "kosan": 126,
+    "kazanan": 54,
+    "kosu": 717,
+    "galibiyet": 85
+   },
+   "2021": {
+    "kosan": 148,
+    "kazanan": 78,
+    "kosu": 920,
+    "galibiyet": 134
+   },
+   "2022": {
+    "kosan": 136,
+    "kazanan": 77,
+    "kosu": 889,
+    "galibiyet": 129
+   },
+   "2023": {
+    "kosan": 134,
+    "kazanan": 84,
+    "kosu": 918,
+    "galibiyet": 175
+   },
+   "2024": {
+    "kosan": 121,
+    "kazanan": 70,
+    "kosu": 882,
+    "galibiyet": 125
+   },
+   "2025": {
+    "kosan": 106,
+    "kazanan": 54,
+    "kosu": 787,
+    "galibiyet": 104
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 495,
+   "kazanan": 389,
+   "kosu": 9674,
+   "galibiyet": 1533
+  },
+  "tay_toplam": {
+   "kosu": 9674,
+   "galibiyet": 1434,
+   "yil_sayisi": 14
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 9,
+   "G2": 7,
+   "G3": 7
+  }
+ },
+ "SADLER’S JOY (USA)": {
+  "dosya": "SADLERS-JOY-USA-2026.pdf",
+  "kariyer": {
+   "kosu": 22,
+   "birinci": 13,
+   "ikinci": 120,
+   "ucuncu": 24
+  },
+  "baba": "Kitten’s Joy",
+  "yillar": {
+   "2025": {
+    "kosan": 22,
+    "kazanan": 13,
+    "kosu": 120,
+    "galibiyet": 24
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 22,
+   "kazanan": 13,
+   "kosu": 120,
+   "galibiyet": 24
+  },
+  "tay_toplam": {
+   "kosu": 120,
+   "galibiyet": 24,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 49,
+   "G2": 23,
+   "G3": 16
+  }
+ },
+ "SATONO ARES (JPN)": {
+  "dosya": "SATONO-ARES-JPN-2026.pdf",
+  "don": "DORU",
+  "dogum": 2014,
+  "hara_ulke": "JPN",
+  "hara_giris": 2020,
+  "kariyer": {
+   "kosu": 16,
+   "birinci": 4,
+   "ikinci": 4,
+   "ucuncu": 2
+  },
+  "baba": "Deep Impact",
+  "yillar": {
+   "2023": {
+    "kosan": 13,
+    "kazanan": 3,
+    "kosu": 63,
+    "galibiyet": 4
+   },
+   "2024": {
+    "kosan": 18,
+    "kazanan": 8,
+    "kosu": 160,
+    "galibiyet": 16
+   },
+   "2025": {
+    "kosan": 23,
+    "kazanan": 9,
+    "kosu": 217,
+    "galibiyet": 14
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 25,
+   "kazanan": 12,
+   "kosu": 440,
+   "galibiyet": 34
+  },
+  "tay_toplam": {
+   "kosu": 440,
+   "galibiyet": 34,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 51,
+   "G2": 14,
+   "G3": 15
+  }
+ },
+ "SCOUTLEO (TUR)": {
+  "dosya": "SCOUTLEO-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2016,
+  "hara_ulke": null,
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 36,
+   "birinci": 7,
+   "ikinci": 4,
+   "ucuncu": 8
+  },
+  "baba": "Victory Gallop",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 31,
+   "G2": 25,
+   "G3": 8
+  }
+ },
+ "SHARP KNIFE (USA)": {
+  "dosya": "SHARP-KNIFE-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2014,
+  "hara_ulke": "TUR",
+  "hara_giris": 2019,
+  "kariyer": {
+   "kosu": 4,
+   "birinci": 0,
+   "ikinci": 0,
+   "ucuncu": 1
+  },
+  "baba": "Bodemeister",
+  "yillar": {
+   "2022": {
+    "kosan": 4,
+    "kazanan": 3,
+    "kosu": 14,
+    "galibiyet": 3
+   },
+   "2023": {
+    "kosan": 6,
+    "kazanan": 1,
+    "kosu": 38,
+    "galibiyet": 2
+   },
+   "2024": {
+    "kosan": 7,
+    "kazanan": 3,
+    "kosu": 39,
+    "galibiyet": 6
+   },
+   "2025": {
+    "kosan": 4,
+    "kazanan": 2,
+    "kosu": 24,
+    "galibiyet": 2
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 13,
+   "kazanan": 7,
+   "kosu": 115,
+   "galibiyet": 13
+  },
+  "tay_toplam": {
+   "kosu": 115,
+   "galibiyet": 13,
+   "yil_sayisi": 4
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 8,
+   "G2": 12,
+   "G3": 17
+  }
+ },
+ "SHARPA (TUR)": {
+  "dosya": "SHARPA-TUR-2026.pdf",
+  "don": "KIR",
+  "dogum": 2015,
+  "hara_ulke": "TUR",
+  "hara_giris": 2023,
+  "kariyer": {
+   "kosu": 69,
+   "birinci": 19,
+   "ikinci": 18,
+   "ucuncu": 13
+  },
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 25,
+   "G2": 19,
+   "G3": 15
+  }
+ },
+ "SIDNEY’S CANDY (USA)": {
+  "dosya": "SIDNEY-CANDY-USA-2026.pdf",
+  "don": "AL",
+  "dogum": 2007,
+  "hara_ulke": "USA",
+  "hara_giris": 2012,
+  "kariyer": {
+   "kosu": 17,
+   "birinci": 7,
+   "ikinci": 4,
+   "ucuncu": 1
+  },
+  "baba": "Candy Ride",
+  "yillar": {
+   "2015": {
+    "kosan": 51,
+    "kazanan": 11,
+    "kosu": 143,
+    "galibiyet": 14
+   },
+   "2016": {
+    "kosan": 151,
+    "kazanan": 61,
+    "kosu": 688,
+    "galibiyet": 94
+   },
+   "2017": {
+    "kosan": 245,
+    "kazanan": 124,
+    "kosu": 1463,
+    "galibiyet": 218
+   },
+   "2018": {
+    "kosan": 340,
+    "kazanan": 174,
+    "kosu": 2098,
+    "galibiyet": 309
+   },
+   "2019": {
+    "kosan": 357,
+    "kazanan": 184,
+    "kosu": 2295,
+    "galibiyet": 303
+   },
+   "2020": {
+    "kosan": 259,
+    "kazanan": 106,
+    "kosu": 1238,
+    "galibiyet": 176
+   },
+   "2021": {
+    "kosan": 229,
+    "kazanan": 99,
+    "kosu": 1454,
+    "galibiyet": 159
+   },
+   "2022": {
+    "kosan": 202,
+    "kazanan": 95,
+    "kosu": 1258,
+    "galibiyet": 160
+   },
+   "2023": {
+    "kosan": 142,
+    "kazanan": 54,
+    "kosu": 1010,
+    "galibiyet": 101
+   },
+   "2024": {
+    "kosan": 91,
+    "kazanan": 41,
+    "kosu": 714,
+    "galibiyet": 87
+   },
+   "2025": {
+    "kosan": 51,
+    "kazanan": 25,
+    "kosu": 432,
+    "galibiyet": 51
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 754,
+   "kazanan": 513,
+   "kosu": 12793,
+   "galibiyet": 1672
+  },
+  "tay_toplam": {
+   "kosu": 12793,
+   "galibiyet": 1672,
+   "yil_sayisi": 11
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 8,
+   "G2": 21,
+   "G3": 11
+  }
+ },
+ "SIEMPRE (TUR)": {
+  "dosya": "SIEMPRE-TUR-2026-3.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 54,
+   "birinci": 20,
+   "ikinci": 6,
+   "ucuncu": 6
+  },
+  "baba": "Offlee Wild",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 9,
+   "G2": 5,
+   "G3": 9
+  }
+ },
+ "SMART ROBIN (JPN)": {
+  "dosya": "SMART-ROBIN-JPN-2026.pdf",
+  "don": "DORU",
+  "dogum": 2008,
+  "hara_ulke": "JPN",
+  "hara_giris": 2014,
+  "kariyer": {
+   "kosu": 17,
+   "birinci": 6,
+   "ikinci": 2,
+   "ucuncu": 1
+  },
+  "baba": "Deep Impact",
+  "yillar": {
+   "2017": {
+    "kosan": 13,
+    "kazanan": 2,
+    "kosu": 44,
+    "galibiyet": 4
+   },
+   "2018": {
+    "kosan": 25,
+    "kazanan": 14,
+    "kosu": 247,
+    "galibiyet": 20
+   },
+   "2019": {
+    "kosan": 68,
+    "kazanan": 31,
+    "kosu": 513,
+    "galibiyet": 53
+   },
+   "2020": {
+    "kosan": 107,
+    "kazanan": 44,
+    "kosu": 804,
+    "galibiyet": 81
+   },
+   "2021": {
+    "kosan": 125,
+    "kazanan": 48,
+    "kosu": 1110,
+    "galibiyet": 79
+   },
+   "2022": {
+    "kosan": 108,
+    "kazanan": 57,
+    "kosu": 1148,
+    "galibiyet": 124
+   },
+   "2023": {
+    "kosan": 99,
+    "kazanan": 42,
+    "kosu": 890,
+    "galibiyet": 84
+   },
+   "2024": {
+    "kosan": 81,
+    "kazanan": 38,
+    "kosu": 713,
+    "galibiyet": 67
+   },
+   "2025": {
+    "kosan": 55,
+    "kazanan": 24,
+    "kosu": 533,
+    "galibiyet": 45
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 291,
+   "kazanan": 160,
+   "kosu": 6001,
+   "galibiyet": 556
+  },
+  "tay_toplam": {
+   "kosu": 6002,
+   "galibiyet": 557,
+   "yil_sayisi": 9
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 22,
+   "G2": 12,
+   "G3": 12
+  }
+ },
+ "SUPER SAVER (USA)": {
+  "dosya": "SUPER-SAVER-USA-2026.pdf",
+  "kariyer": {
+   "kosu": 10,
+   "birinci": 3,
+   "ikinci": 2,
+   "ucuncu": 1
+  },
+  "baba": "Maria’s Mon",
+  "yillar": {
+   "2014": {
+    "kosan": 65,
+    "kazanan": 17,
+    "kosu": 187,
+    "galibiyet": 24
+   },
+   "2015": {
+    "kosan": 143,
+    "kazanan": 59,
+    "kosu": 645,
+    "galibiyet": 85
+   },
+   "2016": {
+    "kosan": 183,
+    "kazanan": 86,
+    "kosu": 1132,
+    "galibiyet": 145
+   },
+   "2017": {
+    "kosan": 206,
+    "kazanan": 98,
+    "kosu": 1239,
+    "galibiyet": 162
+   },
+   "2018": {
+    "kosan": 227,
+    "kazanan": 125,
+    "kosu": 1354,
+    "galibiyet": 205
+   },
+   "2019": {
+    "kosan": 239,
+    "kazanan": 130,
+    "kosu": 1504,
+    "galibiyet": 223
+   },
+   "2020": {
+    "kosan": 259,
+    "kazanan": 115,
+    "kosu": 1396,
+    "galibiyet": 208
+   },
+   "2021": {
+    "kosan": 313,
+    "kazanan": 162,
+    "kosu": 1935,
+    "galibiyet": 289
+   },
+   "2022": {
+    "kosan": 371,
+    "kazanan": 201,
+    "kosu": 2130,
+    "galibiyet": 319
+   },
+   "2023": {
+    "kosan": 335,
+    "kazanan": 175,
+    "kosu": 2068,
+    "galibiyet": 288
+   },
+   "2024": {
+    "kosan": 263,
+    "kazanan": 126,
+    "kosu": 1705,
+    "galibiyet": 238
+   },
+   "2025": {
+    "kosan": 177,
+    "kazanan": 86,
+    "kosu": 1255,
+    "galibiyet": 150
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 1022,
+   "kazanan": 717,
+   "kosu": 16550,
+   "galibiyet": 2334
+  },
+  "tay_toplam": {
+   "kosu": 16550,
+   "galibiyet": 2336,
+   "yil_sayisi": 12
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 33,
+   "G2": 16,
+   "G3": 20
+  }
+ },
+ "TEN SOVEREIGNS (IRE)": {
+  "dosya": "TEN-SOVEREIGNS-IRE-2026.pdf",
+  "kariyer": {
+   "kosu": 8,
+   "birinci": 4,
+   "ikinci": 0,
+   "ucuncu": 0
+  },
+  "baba": "No Nay Never",
+  "yillar": {
+   "2023": {
+    "kosan": 83,
+    "kazanan": 27,
+    "kosu": 295,
+    "galibiyet": 40
+   },
+   "2024": {
+    "kosan": 166,
+    "kazanan": 65,
+    "kosu": 780,
+    "galibiyet": 104
+   },
+   "2025": {
+    "kosan": 199,
+    "kazanan": 93,
+    "kosu": 1052,
+    "galibiyet": 152
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 262,
+   "kazanan": 152,
+   "kosu": 2127,
+   "galibiyet": 296
+  },
+  "tay_toplam": {
+   "kosu": 2127,
+   "galibiyet": 296,
+   "yil_sayisi": 3
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 15,
+   "G2": 9,
+   "G3": 14
+  }
+ },
+ "THE GREAT KHAN (TUR)": {
+  "dosya": "THE-GREAT-KHAN-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2021,
+  "hara_ulke": "TUR",
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 4,
+   "birinci": 1,
+   "ikinci": 1,
+   "ucuncu": 0
+  },
+  "baba": "Marcavelly",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 18,
+   "G2": 4,
+   "G3": 12
+  }
+ },
+ "TIGER MOTH (IRE)": {
+  "dosya": "TIGER-MOTH-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 7,
+   "birinci": 1,
+   "ikinci": 15,
+   "ucuncu": 1
+  },
+  "baba": "Galileo",
+  "yillar": {
+   "2025": {
+    "kosan": 7,
+    "kazanan": 1,
+    "kosu": 15,
+    "galibiyet": 1
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 7,
+   "kazanan": 1,
+   "kosu": 15,
+   "galibiyet": 1
+  },
+  "tay_toplam": {
+   "kosu": 15,
+   "galibiyet": 1,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 88,
+   "G2": 5,
+   "G3": 15
+  }
+ },
+ "TILSIT (USA)": {
+  "dosya": "TILSIT-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 8,
+   "birinci": 3,
+   "ikinci": 2,
+   "ucuncu": 0
+  },
+  "baba": "First Defence",
+  "yillar": {
+   "2025": {
+    "kosan": 23,
+    "kazanan": 11,
+    "kosu": 96,
+    "galibiyet": 15
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 23,
+   "kazanan": 11,
+   "kosu": 96,
+   "galibiyet": 15
+  },
+  "tay_toplam": {
+   "kosu": 96,
+   "galibiyet": 15,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 22,
+   "G2": 10,
+   "G3": 11
+  }
+ },
+ "TIME TEST (GB)": {
+  "dosya": "TIME-TEST-GB-2026.pdf",
+  "don": "DORU",
+  "dogum": 2012,
+  "hara_ulke": "GB",
+  "hara_giris": 2018,
+  "kariyer": {
+   "kosu": 14,
+   "birinci": 6,
+   "ikinci": 5,
+   "ucuncu": 1
+  },
+  "baba": "Dubawi",
+  "yillar": {
+   "2021": {
+    "kosan": 51,
+    "kazanan": 11,
+    "kosu": 130,
+    "galibiyet": 17
+   },
+   "2022": {
+    "kosan": 122,
+    "kazanan": 42,
+    "kosu": 518,
+    "galibiyet": 64
+   },
+   "2023": {
+    "kosan": 223,
+    "kazanan": 81,
+    "kosu": 1139,
+    "galibiyet": 122
+   },
+   "2024": {
+    "kosan": 325,
+    "kazanan": 123,
+    "kosu": 1768,
+    "galibiyet": 199
+   },
+   "2025": {
+    "kosan": 443,
+    "kazanan": 176,
+    "kosu": 2429,
+    "galibiyet": 267
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 586,
+   "kazanan": 293,
+   "kosu": 5984,
+   "galibiyet": 669
+  },
+  "tay_toplam": {
+   "kosu": 5984,
+   "galibiyet": 669,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 31,
+   "G2": 13,
+   "G3": 19
+  }
+ },
+ "TOROK (IRE)": {
+  "dosya": "TOROK-IRE-2026.pdf",
+  "don": "DORU",
+  "dogum": 2009,
+  "hara_ulke": "TUR",
+  "hara_giris": 2013,
+  "kariyer": {
+   "kosu": 12,
+   "birinci": 4,
+   "ikinci": 4,
+   "ucuncu": 3
+  },
+  "baba": "Singspiel",
+  "yillar": {
+   "2016": {
+    "kosan": 12,
+    "kazanan": 7,
+    "kosu": 70,
+    "galibiyet": 13
+   },
+   "2017": {
+    "kosan": 31,
+    "kazanan": 17,
+    "kosu": 263,
+    "galibiyet": 39
+   },
+   "2018": {
+    "kosan": 49,
+    "kazanan": 31,
+    "kosu": 369,
+    "galibiyet": 69
+   },
+   "2019": {
+    "kosan": 35,
+    "kazanan": 16,
+    "kosu": 301,
+    "galibiyet": 35
+   },
+   "2020": {
+    "kosan": 44,
+    "kazanan": 25,
+    "kosu": 239,
+    "galibiyet": 33
+   },
+   "2021": {
+    "kosan": 81,
+    "kazanan": 43,
+    "kosu": 619,
+    "galibiyet": 81
+   },
+   "2022": {
+    "kosan": 103,
+    "kazanan": 51,
+    "kosu": 792,
+    "galibiyet": 100
+   },
+   "2023": {
+    "kosan": 109,
+    "kazanan": 56,
+    "kosu": 778,
+    "galibiyet": 126
+   },
+   "2024": {
+    "kosan": 111,
+    "kazanan": 69,
+    "kosu": 868,
+    "galibiyet": 141
+   },
+   "2025": {
+    "kosan": 127,
+    "kazanan": 73,
+    "kosu": 928,
+    "galibiyet": 137
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 322,
+   "kazanan": 214,
+   "kosu": 5227,
+   "galibiyet": 774
+  },
+  "tay_toplam": {
+   "kosu": 5227,
+   "galibiyet": 774,
+   "yil_sayisi": 10
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 28,
+   "G2": 13,
+   "G3": 17
+  }
+ },
+ "TOUCH THE WOLF (TUR)": {
+  "dosya": "TOUCH-THE-WOLF-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2013,
+  "hara_ulke": "TUR",
+  "hara_giris": 2021,
+  "kariyer": {
+   "kosu": 15,
+   "birinci": 8,
+   "ikinci": 2,
+   "ucuncu": 1
+  },
+  "baba": "Kurtiniadis",
+  "yillar": {
+   "2024": {
+    "kosan": 16,
+    "kazanan": 11,
+    "kosu": 68,
+    "galibiyet": 21
+   },
+   "2025": {
+    "kosan": 42,
+    "kazanan": 21,
+    "kosu": 257,
+    "galibiyet": 49
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 43,
+   "kazanan": 26,
+   "kosu": 325,
+   "galibiyet": 70
+  },
+  "tay_toplam": {
+   "kosu": 325,
+   "galibiyet": 70,
+   "yil_sayisi": 2
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 21,
+   "G2": 17,
+   "G3": 21
+  }
+ },
+ "TOURIST (USA)": {
+  "dosya": "TOURIST-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2011,
+  "hara_ulke": "USA",
+  "hara_giris": 2017,
+  "kariyer": {
+   "kosu": 18,
+   "birinci": 6,
+   "ikinci": 3,
+   "ucuncu": 4
+  },
+  "baba": "Tiznow",
+  "yillar": {
+   "2020": {
+    "kosan": 49,
+    "kazanan": 14,
+    "kosu": 134,
+    "galibiyet": 14
+   },
+   "2021": {
+    "kosan": 148,
+    "kazanan": 74,
+    "kosu": 939,
+    "galibiyet": 100
+   },
+   "2022": {
+    "kosan": 190,
+    "kazanan": 100,
+    "kosu": 1633,
+    "galibiyet": 179
+   },
+   "2023": {
+    "kosan": 188,
+    "kazanan": 97,
+    "kosu": 1734,
+    "galibiyet": 170
+   },
+   "2024": {
+    "kosan": 147,
+    "kazanan": 69,
+    "kosu": 1319,
+    "galibiyet": 113
+   },
+   "2025": {
+    "kosan": 103,
+    "kazanan": 59,
+    "kosu": 978,
+    "galibiyet": 102
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 293,
+   "kazanan": 209,
+   "kosu": 6737,
+   "galibiyet": 678
+  },
+  "tay_toplam": {
+   "kosu": 6737,
+   "galibiyet": 678,
+   "yil_sayisi": 6
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 26,
+   "G2": 7,
+   "G3": 18
+  }
+ },
+ "TRAPPE SHOT (USA)": {
+  "dosya": "TRAPPE-SHOT-USA-2026.pdf",
+  "don": "AL",
+  "dogum": 2007,
+  "hara_ulke": "USA",
+  "hara_giris": 2012,
+  "kariyer": {
+   "kosu": 12,
+   "birinci": 6,
+   "ikinci": 2,
+   "ucuncu": 0
+  },
+  "baba": "Tapit",
+  "yillar": {
+   "2015": {
+    "kosan": 38,
+    "kazanan": 11,
+    "kosu": 109,
+    "galibiyet": 11
+   },
+   "2016": {
+    "kosan": 113,
+    "kazanan": 56,
+    "kosu": 555,
+    "galibiyet": 85
+   },
+   "2017": {
+    "kosan": 177,
+    "kazanan": 110,
+    "kosu": 1036,
+    "galibiyet": 166
+   },
+   "2018": {
+    "kosan": 218,
+    "kazanan": 118,
+    "kosu": 1416,
+    "galibiyet": 210
+   },
+   "2019": {
+    "kosan": 206,
+    "kazanan": 111,
+    "kosu": 1303,
+    "galibiyet": 204
+   },
+   "2020": {
+    "kosan": 142,
+    "kazanan": 60,
+    "kosu": 768,
+    "galibiyet": 87
+   },
+   "2021": {
+    "kosan": 111,
+    "kazanan": 61,
+    "kosu": 751,
+    "galibiyet": 105
+   },
+   "2022": {
+    "kosan": 73,
+    "kazanan": 31,
+    "kosu": 473,
+    "galibiyet": 54
+   },
+   "2023": {
+    "kosan": 88,
+    "kazanan": 39,
+    "kosu": 503,
+    "galibiyet": 71
+   },
+   "2024": {
+    "kosan": 103,
+    "kazanan": 48,
+    "kosu": 701,
+    "galibiyet": 99
+   },
+   "2025": {
+    "kosan": 97,
+    "kazanan": 40,
+    "kosu": 800,
+    "galibiyet": 66
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 489,
+   "kazanan": 347,
+   "kosu": 8415,
+   "galibiyet": 1158
+  },
+  "tay_toplam": {
+   "kosu": 8415,
+   "galibiyet": 1158,
+   "yil_sayisi": 11
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 16,
+   "G2": 14,
+   "G3": 15
+  }
+ },
+ "UĞURTAY (TUR)": {
+  "dosya": "UGURTAY-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2018,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 27,
+   "birinci": 9,
+   "ikinci": 3,
+   "ucuncu": 2
+  },
+  "baba": "Justenuffhumor",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 12,
+   "G2": 9,
+   "G3": 7
+  }
+ },
+ "ULAN BATOR (TUR)": {
+  "dosya": "ULAN-BATOR-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2014,
+  "hara_ulke": null,
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 5,
+   "birinci": 0,
+   "ikinci": 11,
+   "ucuncu": 0
+  },
+  "baba": "Luxor",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 38,
+   "G2": 19,
+   "G3": 25
+  }
+ },
+ "VERBAL DEXTERITY (IRE)": {
+  "dosya": "VERBAL-DEXTERITY-IRE-2026.pdf",
+  "kariyer": {
+   "kosu": 4,
+   "birinci": 1,
+   "ikinci": 20,
+   "ucuncu": 1
+  },
+  "baba": "Vocalised",
+  "yillar": {
+   "2024": {
+    "kosan": 1,
+    "kazanan": 1,
+    "kosu": 4,
+    "galibiyet": 1
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 4,
+   "kazanan": 1,
+   "kosu": 20,
+   "galibiyet": 1
+  },
+  "tay_toplam": {
+   "kosu": 4,
+   "galibiyet": 1,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 10,
+   "G2": 3,
+   "G3": 22
+  }
+ },
+ "VERNAZZA (TUR)": {
+  "dosya": "VERNAZZA-TUR-2026.pdf",
+  "don": "DORU",
+  "dogum": 2017,
+  "hara_ulke": "TUR",
+  "hara_giris": 2024,
+  "kariyer": {
+   "kosu": 27,
+   "birinci": 6,
+   "ikinci": 7,
+   "ucuncu": 5
+  },
+  "baba": "Authorized",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 27,
+   "G2": 25,
+   "G3": 27
+  }
+ },
+ "VICTOIRE PISA (JPN)": {
+  "dosya": "VICTOIRE-PISA-JPN-2026.pdf",
+  "don": "DORU",
+  "dogum": 2007,
+  "hara_ulke": "JPN",
+  "hara_giris": 2012,
+  "kariyer": {
+   "kosu": 15,
+   "birinci": 8,
+   "ikinci": 1,
+   "ucuncu": 2
+  },
+  "baba": "Neo Universe",
+  "yillar": {
+   "2015": {
+    "kosan": 67,
+    "kazanan": 16,
+    "kosu": 179,
+    "galibiyet": 16
+   },
+   "2016": {
+    "kosan": 146,
+    "kazanan": 66,
+    "kosu": 869,
+    "galibiyet": 99
+   },
+   "2017": {
+    "kosan": 195,
+    "kazanan": 76,
+    "kosu": 1347,
+    "galibiyet": 122
+   },
+   "2018": {
+    "kosan": 246,
+    "kazanan": 102,
+    "kosu": 1701,
+    "galibiyet": 164
+   },
+   "2019": {
+    "kosan": 290,
+    "kazanan": 110,
+    "kosu": 2084,
+    "galibiyet": 188
+   },
+   "2020": {
+    "kosan": 300,
+    "kazanan": 102,
+    "kosu": 2291,
+    "galibiyet": 156
+   },
+   "2021": {
+    "kosan": 245,
+    "kazanan": 86,
+    "kosu": 2049,
+    "galibiyet": 160
+   },
+   "2022": {
+    "kosan": 215,
+    "kazanan": 92,
+    "kosu": 1840,
+    "galibiyet": 165
+   },
+   "2023": {
+    "kosan": 204,
+    "kazanan": 74,
+    "kosu": 1715,
+    "galibiyet": 122
+   },
+   "2024": {
+    "kosan": 191,
+    "kazanan": 77,
+    "kosu": 1639,
+    "galibiyet": 119
+   },
+   "2025": {
+    "kosan": 172,
+    "kazanan": 70,
+    "kosu": 1557,
+    "galibiyet": 142
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 788,
+   "kazanan": 487,
+   "kosu": 17275,
+   "galibiyet": 1454
+  },
+  "tay_toplam": {
+   "kosu": 17271,
+   "galibiyet": 1453,
+   "yil_sayisi": 11
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 23,
+   "G2": 25,
+   "G3": 16
+  }
+ },
+ "VICTORY IS OURS (TUR)": {
+  "dosya": "VICTORY-IS-OURS-TUR-2026.pdf",
+  "don": "AL",
+  "dogum": 2013,
+  "hara_ulke": null,
+  "hara_giris": 2022,
+  "kariyer": {
+   "kosu": 2,
+   "birinci": 1,
+   "ikinci": 3,
+   "ucuncu": 1
+  },
+  "baba": "Victory Gallop",
+  "yillar": {
+   "2025": {
+    "kosan": 2,
+    "kazanan": 1,
+    "kosu": 3,
+    "galibiyet": 1
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 70,
+   "kazanan": 11,
+   "kosu": 9,
+   "galibiyet": 8
+  },
+  "tay_toplam": {
+   "kosu": 3,
+   "galibiyet": 1,
+   "yil_sayisi": 1
+  },
+  "uyusmazlik": true,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 38,
+   "G2": 25,
+   "G3": 10
+  }
+ },
+ "VINCITORE (TUR)": {
+  "dosya": "VINCITORE-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2018,
+  "hara_ulke": null,
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 52,
+   "birinci": 11,
+   "ikinci": 11,
+   "ucuncu": 11
+  },
+  "baba": "Victory Gallop",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 43,
+   "G2": 29,
+   "G3": 8
+  }
+ },
+ "WAR CORRESPONDENT (USA)": {
+  "dosya": "WAR-CORRESPONDENT-USA-2026.pdf",
+  "don": "DORU",
+  "dogum": 2010,
+  "hara_ulke": "US",
+  "hara_giris": 2018,
+  "kariyer": {
+   "kosu": 16,
+   "birinci": 5,
+   "ikinci": 2,
+   "ucuncu": 5
+  },
+  "baba": "War Front",
+  "yillar": {
+   "2021": {
+    "kosan": 9,
+    "kazanan": 1,
+    "kosu": 36,
+    "galibiyet": 1
+   },
+   "2022": {
+    "kosan": 19,
+    "kazanan": 12,
+    "kosu": 138,
+    "galibiyet": 14
+   },
+   "2023": {
+    "kosan": 22,
+    "kazanan": 13,
+    "kosu": 122,
+    "galibiyet": 24
+   },
+   "2024": {
+    "kosan": 17,
+    "kazanan": 10,
+    "kosu": 129,
+    "galibiyet": 12
+   },
+   "2025": {
+    "kosan": 27,
+    "kazanan": 13,
+    "kosu": 131,
+    "galibiyet": 21
+   }
+  },
+  "katalog_toplam": {
+   "kosan": 43,
+   "kazanan": 29,
+   "kosu": 556,
+   "galibiyet": 72
+  },
+  "tay_toplam": {
+   "kosu": 556,
+   "galibiyet": 72,
+   "yil_sayisi": 5
+  },
+  "uyusmazlik": false,
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 41,
+   "G2": 23,
+   "G3": 15
+  }
+ },
+ "ZALA BEY (TUR)": {
+  "dosya": "ZALA-BEY-TUR-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": "TUR",
+  "hara_giris": 2026,
+  "kariyer": {
+   "kosu": 17,
+   "birinci": 3,
+   "ikinci": 8,
+   "ucuncu": 2
+  },
+  "baba": "Agresivo",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 9,
+   "G2": 5,
+   "G3": 7
+  }
+ },
+ "ZEFFIRO (JPN)": {
+  "dosya": "ZEFFIRO-JPN-2026-2.pdf",
+  "don": "DORU",
+  "dogum": 2019,
+  "hara_ulke": "TUR",
+  "hara_giris": 2025,
+  "kariyer": {
+   "kosu": 14,
+   "birinci": 5,
+   "ikinci": 5,
+   "ucuncu": 3
+  },
+  "baba": "Deep Impact",
+  "taylarin_grup_galibiyet_sayisi": {
+   "G1": 69,
+   "G2": 7,
+   "G3": 11
+  }
+ }
+}
