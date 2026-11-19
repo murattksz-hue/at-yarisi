@@ -328,3 +328,8 @@ Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
 | sihirlikantarma.org | Eski blog yazıları (2022–2025), güncel tablo yok | İşe yaramaz |
 | horseturk.com | Tahmin sitesi, galop listesi yok | İşe yaramaz |
 - pegadrom erişilemezse `gunluk.py` galopsuz çalışır, analizde "idman yok" yazar.
+
+## Ganyan (muhtemel) – 19.11.2026
+- TJK program HTML'inde her atın güncel muhtemel ganyanı var (`Gny` sütunu; CSV'de yok). `analiz3.py` her atın yanına yazar; ganyan ≥ 1,5/olasılık ise ★GANYAN (eküri birim olasılığıyla).
+- **Piyasa oturma kontrolü:** eküri tek birim sayılarak Σ(1/ganyan) normalde ~1,25–1,45 (TJK kesintisi). 1,15–1,60 dışındaysa "piyasa oturmamış" yazılır ve işaret konmaz (sabah erken saatte 546, 999 gibi anlamsız oranlar görülüyor).
+- `scripts/ganyan_kontrol.py GG.AA.YYYY Hipodrom [v8|agfsiz]`: koşudan hemen önce güncel ganyanı çekip dondurulmuş tahminlerle karşılaştırır. En anlamlı kullanım: koşuya ~5–10 dakika kala.
