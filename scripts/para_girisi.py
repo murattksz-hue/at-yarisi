@@ -1,7 +1,7 @@
 """Para girişi takibi: bir atın piyasa olasılığının gün içinde nasıl değiştiği (gerçek kayıtlar: veri/agf_kayit/).
 Kullanım: para_girisi.py GG.AA.YYYY Hipodrom
 Ganyan: ilk ve son kayıttaki 1/ganyan (eküri ayrımı yapılmaz; aynı ganyanı paylaşırlar). AGF: ilk dolu ve son kayıt.
-İşaret 💰: ganyandan türeyen olasılık ≥1,5 kat arttı ya da AGF payı ≥1,5 kat arttı (ve son olasılık ≥%5).
+İşaret 💰: son 30 dakikada ganyan ≥1,4 kat düştü ya da AGF payı ≥1,5 kat arttı (AGF ≥%5). Erken ganyan (havuz küçük) işaret üretmez.
 NOT: Bu sinyal henüz test edilmedi; olasılığa katılmaz, bilgi olarak gösterilir."""
 import sys,os,re,glob,json,datetime
 TAGS={'KG','K','DB','SK','SKG','GKR','ÖG','BB','YP','KK','TB','SKK','ÖN','GK','SGKR','KUL','BH','DS'}
@@ -31,8 +31,17 @@ def hesapla(tarih_iso,hip):
         a0,a1=agf(dolu[0]),agf(dolu[-1])
         for k in a1:
             if a0.get(k,0)>0: out.setdefault(k,{}).update(agf_ilk=a0[k],agf_son=a1[k],agf_kat=round(a1[k]/a0[k],2))
+    # ganyan: sabah/öğle havuzu küçük ve oynak (19.11: VİÇE HANIM 6,20 → 1,75 → 7,15). İşaret yalnızca SON 30 DAKİKADAKİ ganyan
+    # değişimine (≥1,4×) ya da AGF artışına (≥1,5×, AGF ≥%5) dayanır; erken ganyan değişimi işaret üretmez.
+    if len(G)>=2:
+        son_dk=lambda f:((int(os.path.basename(f)[len(hip)+1:len(hip)+3])+3)%24)*60+int(os.path.basename(f)[len(hip)+3:len(hip)+5])
+        gs=son_dk(G[-1]); G30=[f for f in G if gs-son_dk(f)<=30]
+        if len(G30)>=2:
+            ga,gb=json.load(open(G30[0],encoding='utf-8')),json.load(open(G30[-1],encoding='utf-8'))
+            for a in gb:
+                if ga.get(a,0)>1 and gb[a]>1: out.setdefault(a,{})['ganyan_kat30']=round(ga[a]/gb[a],2)
     for a,v in out.items():
-        v['isaret']=(v.get('ganyan_kat',1)>=1.5 and v.get('ganyan_son',99)<=20) or (v.get('agf_kat',1)>=1.5 and v.get('agf_son',0)>=5)
+        v['isaret']=(v.get('ganyan_kat30',1)>=1.4 and v.get('ganyan_son',99)<=20) or (v.get('agf_kat',1)>=1.5 and v.get('agf_son',0)>=5)
     return out
 if __name__=='__main__':
     g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date(); R=hesapla(g.isoformat(),sys.argv[2])
