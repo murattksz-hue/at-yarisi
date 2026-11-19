@@ -1,0 +1,84 @@
+
+===== Arap: en çok kazanan 25 aygır (150+ yavru koşusu) =====
+aygır                  yavru  koşu galibiyet     % alan A/E piyasa A/E 1./2. dönem  genç/4+ A/E  zemin A/E
+TURBO                    172  2283       224   9.8     1.05        0.99/1.05          1.22/1.02  Kum 1.00 Çim 1.02 Sen 1.24
+FATİH AĞA                142  1865       207  11.1     1.22        1.12/1.23          1.11/1.34  Kum 1.24 Çim 1.07 Sen 1.43
+ÖZGÜNHAN                 101  1541       149   9.7     1.00        1.04/0.81          0.92/1.03  Kum 1.11 Çim 0.88 Sen 0.88
+GÜMBÜRGÜMBÜR             147  1448       149  10.3     1.11        1.12/1.04          1.24/0.88  Kum 1.18 Sen 1.07 Çim 0.95
+AYABAKAN                 106  1272       132  10.4     1.16        1.14/1.18          1.27/1.11  Kum 0.91 Sen 1.51 Çim 1.28
+TAMERİNOĞLU               90  1587       123   7.8     0.81        0.79/0.69          0.99/0.77  Kum 0.76 Sen 0.99 Çim 0.85
+KAIZBERT (RU)             73  1055       114  10.8     1.10        0.99/0.93                  -  Kum 1.04 Çim 1.17 Sen 1.28
+SAADIN GÜCÜ               81  1039       110  10.6     1.10        1.09/1.05          1.41/1.04  Kum 1.10 Sen 1.11 Çim 1.12
+SERHANTAY                105  1109       104   9.4     1.01        0.90/1.15          1.01/1.00  Kum 0.98 Çim 1.08 Sen 1.01
+GELİBOLU                 106  1175       103   8.8     0.98        0.82/1.03          1.04/0.90  Çim 1.06 Sen 0.57 Kum 1.05
+ÖZHABER                   57   763        88  11.5     1.26        1.01/1.02          0.96/1.40  Kum 1.16 Çim 1.24 Sen 1.60
+BABA MEVLÜT               79   878        87   9.9     1.07        1.13/0.88          0.95/1.15  Çim 1.09 Kum 0.90 Sen 1.48
+YILMABAŞAR                65   742        85  11.5     1.20        1.08/1.03          0.94/1.32  Çim 0.42 Kum 1.39
+GÜRSU                     71   646        82  12.7     1.42        1.06/0.97          1.35/1.45  Sen 1.36 Çim 1.78 Kum 0.35
+SONALP                    67   943        81   8.6     0.90        0.75/1.19          0.88/0.91  Çim 0.77 Kum 0.94 Sen 0.64
+SERDÜMEN                  89   903        80   8.9     1.00        0.95/0.84          1.08/0.90  Kum 0.83 Çim 1.27 Sen 1.19
+KAYAYÜREKLİ               62   755        79  10.5     1.08        1.25/0.94          0.71/1.25  Kum 0.98 Çim 1.12 Sen 1.31
+TAYKUT                    55   672        73  10.9     1.17        1.01/1.07          1.17/1.16  Sen 0.94 Kum 1.31 Çim 0.80
+DİLİRAN                   83   787        69   8.8     0.98        1.30/0.79          0.90/1.02  Sen 1.09 Çim 1.05 Kum 0.91
+BERKSOY                   59   601        69  11.5     1.24        1.07/1.12          1.22/1.26  Sen 1.70 Kum 1.17 Çim 1.11
+TÜMÖZ BEY                 39   593        66  11.1     1.15        1.13/1.12          0.74/1.24  Çim 0.55 Kum 1.22
+AFRİKAANDER               53   358        65  18.2     1.84           -/1.08                  -  Kum 1.55 Sen 2.35 Çim 2.02
+KARAÜZÜM                  57   683        64   9.4     1.00        0.77/1.13          0.84/1.05  Çim 1.16 Kum 0.81 Sen 0.94
+UÇANBEY                   58   759        59   7.8     0.85        0.94/0.74          0.83/0.86  Çim 0.81 Kum 0.84 Sen 0.95
+UÇANOĞLU                  52   526        55  10.5     1.07        1.07/1.27          0.41/1.27  Sen 1.22 Çim 0.73 Kum 1.16
+
+Arap: 3+ yavrusu koşan 350 anne. Yavruları en başarılı 10 anne (alan A/E):
+  AHSEN HANIM            3 yavru, 26 koşu, 13 galibiyet, A/E 4.93
+  NEŞESEL                3 yavru, 29 koşu, 13 galibiyet, A/E 3.82
+  YILDIZ TÜRE            3 yavru, 35 koşu, 11 galibiyet, A/E 3.19
+  PİRNAZ                 3 yavru, 28 koşu, 8 galibiyet, A/E 3.23
+  BİLANA                 3 yavru, 42 koşu, 11 galibiyet, A/E 2.72
+  GÜLERANA               3 yavru, 41 koşu, 12 galibiyet, A/E 2.64
+  YEŞİLÇAY               3 yavru, 39 koşu, 12 galibiyet, A/E 2.61
+  SÜBEYHİKIZI            3 yavru, 32 koşu, 9 galibiyet, A/E 2.71
+  FOSFOR                 4 yavru, 32 koşu, 8 galibiyet, A/E 2.61
+  TUTKUMUZ               3 yavru, 40 koşu, 11 galibiyet, A/E 2.48
+
+===== İngiliz: en çok kazanan 25 aygır (150+ yavru koşusu) =====
+aygır                  yavru  koşu galibiyet     % alan A/E piyasa A/E 1./2. dönem  genç/4+ A/E  zemin A/E
+TOROK (IRE)              167  1765       236  13.4     1.28        1.07/0.99          1.50/1.00  Kum 1.15 Sen 1.40 Çim 1.30
+MENDIP (USA)             183  2078       204   9.8     0.92        0.96/0.87          1.00/0.73  Kum 0.92 Sen 0.91 Çim 0.89
+KANEKO                   159  1726       197  11.4     1.08        0.94/0.93          1.05/1.13  Kum 1.23 Sen 0.81 Çim 0.90
+TIZWAY (USA)             155  1686       189  11.2     1.10        1.12/0.96          1.10/1.11  Kum 1.10 Çim 1.12 Sen 1.05
+BLUEGRASS CAT (USA)      135  1367       183  13.4     1.28        1.03/1.14          1.35/1.05  Kum 1.42 Çim 1.05 Sen 1.05
+BODEMEISTER (USA)        166  1521       158  10.4     0.98        1.14/0.93          0.94/1.10  Kum 1.00 Çim 0.90 Sen 0.98
+MYBOYCHARLIE (IRE)       160  1544       143   9.3     0.90        1.04/1.02          0.98/0.78  Çim 1.23 Kum 0.65 Sen 0.74
+KLIMT (USA)               99   987       131  13.3     1.14        0.94/0.96          1.15/0.78  Kum 1.15 Sen 1.06 Çim 1.18
+LION HEART (USA)          99  1187       128  10.8     1.01        1.03/1.17          1.14/0.86  Kum 1.03 Sen 0.98 Çim 0.93
+SUPER SAVER (USA)        129  1210       126  10.4     0.96        0.91/1.04          0.99/0.86  Kum 1.13 Sen 0.30 Çim 0.63
+NATIVE KHAN (FR)         129  1159       120  10.4     0.99        0.80/0.92          1.10/0.75  Kum 0.82 Çim 0.99 Sen 1.21
+PAPA CLEM (USA)          110  1332       118   8.9     0.84        1.03/0.80          0.87/0.78  Kum 0.87 Çim 0.88 Sen 0.54
+HAKEEM (USA)              95   869       110  12.7     1.13        1.10/1.16          1.21/0.84  Kum 1.16 Sen 0.82 Çim 1.18
+APPROVE (IRE)             86  1024       101   9.9     1.00        1.01/1.09          1.02/0.98  Çim 0.93 Sen 0.85 Kum 1.06
+AGRESIVO (USA)            87   844        97  11.5     1.11        0.93/1.01          1.24/0.62  Kum 1.31 Çim 0.55 Sen 0.68
+VICTOIRE PISA (JPN)      123  1183        94   7.9     0.81        0.91/0.84          0.80/0.82  Sen 1.14 Çim 0.76 Kum 0.74
+TOUCH THE WOLF            61   616        94  15.3     1.51        1.18/0.99          1.76/0.79  Çim 1.66 Sen 1.52 Kum 1.12
+TRAPPE SHOT (USA)        108  1084        88   8.1     0.78        0.66/0.89          0.77/0.81  Kum 0.83 Sen 0.72 Çim 0.54
+GRAYSTORM                 90  1014        85   8.4     0.83        1.02/1.03          0.75/0.91  Kum 0.76 Çim 0.96 Sen 0.65
+RUN AWAY AND HIDE (USA    77   676        83  12.3     1.14        1.03/1.24          1.23/0.96  Çim 0.86 Kum 1.23 Sen 1.33
+GOOD CURRY                45   529        82  15.5     1.41        1.18/1.56          1.48/1.16  Sen 0.87 Çim 0.74 Kum 1.66
+GENERAL QUARTERS (USA)    78   570        76  13.3     1.19        1.02/1.24          1.13/1.66  Kum 1.27 Çim 0.58 Sen 1.83
+VICTORY GALLOP (CAN)      52   579        74  12.8     1.21        1.04/0.94          1.07/1.31  Çim 1.15 Kum 1.31 Sen 0.88
+AIR VICE MARSHAL (USA)    44   546        71  13.0     1.29        1.09/1.16          1.33/1.26  Çim 0.93 Kum 1.41
+SADLER'S JOY (USA)        47   435        71  16.3     1.47        0.98/1.37                  -  Çim 1.72 Kum 1.28 Sen 1.62
+
+İngiliz: 3+ yavrusu koşan 313 anne. Yavruları en başarılı 10 anne (alan A/E):
+  LASER GIRL             4 yavru, 61 koşu, 22 galibiyet, A/E 3.11
+  MARLA SINGER           3 yavru, 39 koşu, 15 galibiyet, A/E 2.93
+  Fİ FENOMONİ            3 yavru, 27 koşu, 10 galibiyet, A/E 2.97
+  SARAJEVO               3 yavru, 38 koşu, 14 galibiyet, A/E 2.81
+  SİMİRNALI KIZ          4 yavru, 53 koşu, 17 galibiyet, A/E 2.68
+  UNDERCOVER SOLDIER (US 4 yavru, 33 koşu, 12 galibiyet, A/E 2.70
+  TROPICAL THUNDER       3 yavru, 33 koşu, 10 galibiyet, A/E 2.67
+  AIR ROSE               3 yavru, 25 koşu, 8 galibiyet, A/E 2.70
+  MATMAZEL ÇİKOLATA      4 yavru, 26 koşu, 9 galibiyet, A/E 2.55
+  EL KIZI                3 yavru, 28 koşu, 7 galibiyet, A/E 2.50
+
+Arap: aygır piyasa A/E kalıcılığı: 48 aygır, 1. ve 2. dönem korelasyonu 0.22
+
+İngiliz: aygır piyasa A/E kalıcılığı: 50 aygır, 1. ve 2. dönem korelasyonu 0.05
