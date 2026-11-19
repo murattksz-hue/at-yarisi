@@ -442,3 +442,15 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - TJK sonuç CSV'lerinde koşmayan atlar sıra numarasıyla listelenir (derece = "Koşmaz"). 161.404 satırın 2.811'i (%2,8). Betikler bunları (a) kaybeden at sayıyor (alan büyüklüğü şişiyor, jokey/aygır/antrenör A/E hafif düşüyor), (b) koşu sayısına katıyor (deneyim/form), (c) ganyanı boş olduğu için bazı testlerde o koşuyu tümden dışlıyordu.
 - `scripts/sonuc_temizle.py`: ham veri korunur, koşmayanlar çıkarılmış kopya `veri/sonuc_temiz/`. Günlük tablolar (hız puanı, jokey) ve model artık temiz kopyadan.
 - Etki küçük: v9 AGF'li -1,845 → -1,844 (1. seçim %33,0 → %33,2); AGF'siz -1,947 → -1,945 (%31,2 → %31,5). Önceki bulguların hiçbiri değişmedi.
+
+## Güven düzeyine göre isabet (v9, temiz veri, 542 görülmemiş koşu) – kullanıcı hedefi: %50 üstü
+| Model 1. adaya | Koşuların % | 1. aday kazandı | İlk 2'de | 1. aday ganyan getirisi |
+|---|---|---|---|---|
+| hepsi | %100 | %33,2 | %53,5 | %79 |
+| ≥%40 | %29 | %44,9 | %65,4 | %71 |
+| **≥%45** | %20 | **%54,2** | %72,0 | %81 |
+| **≥%50** | %13 | **%69,0** | %83,1 | %97 |
+| **≥%60** | %6 | **%77,1** | %88,6 | %99 |
+- %50 üstü isabet yalnızca seçici oynayarak mümkün (günde ~2 koşu). Ganyanlar düşük olduğu için getiri hâlâ ~başabaş.
+- Her koşuda kazanan ilk 2 adayda %53,5 (ikili/çifte için).
+- `analiz3.py` her koşuya güven düzeyini ve tarihsel isabetini yazar (★ ≥%45, ★★ ≥%50, ★★★ ≥%60). Yalnızca AGF'li model için geçerli; canlı testle doğrulanacak.

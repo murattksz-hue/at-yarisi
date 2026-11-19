@@ -162,6 +162,13 @@ for ri,r in enumerate(races):
     print(f"    Hava/pist: {'ISLAK' if wet else 'kuru'} ({wnot})"+(f"; bu koşullarda favori %{he.get('favori')}, HP lideri %{he.get('hp_lideri')} kazanıyor ({he.get('kosu')} koşu)" if he else ''))
     if kt: print(f"    Koşu türü ({r['tip']}): {kt['kosu']} koşu örneği, favori %{kt['favori']}, HP lideri %{kt['hp_lideri']}, tipik HP {kt['hp_p10']}-{kt['hp_p90']}")
     srt=np.argsort(-p)
+    # güven düzeyi (v9 testi, 542 görülmemiş koşu; yalnızca AGF'li model için geçerli)
+    pm=float(p[srt[0]])
+    if not agf_yok:
+        if pm>=0.60: print(f"    ★★★ ÇOK YÜKSEK GÜVEN (1. aday %{100*pm:.0f}): geçmişte bu düzeyde 1. aday %77 kazandı, ilk 2'de %89 (koşuların %6'sı)")
+        elif pm>=0.50: print(f"    ★★ YÜKSEK GÜVEN (1. aday %{100*pm:.0f}): geçmişte bu düzeyde 1. aday %69 kazandı, ilk 2'de %83 (koşuların %13'ü)")
+        elif pm>=0.45: print(f"    ★ GÜVEN (1. aday %{100*pm:.0f}): geçmişte bu düzeyde 1. aday %54 kazandı, ilk 2'de %72 (koşuların %20'si)")
+        else: print(f"    Güven düşük (1. aday %{100*pm:.0f}): bu düzeyde 1. aday ~%25-45 kazanıyor; atlamayı düşün")
     for i in srt[:5]:
         x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.5 and p[i]>=0.05 and not agf_yok else ''
         bt=(f" → {x['bitis']}." if x['bitis'] else '')+(' [EKÜRİ]' if x['ad'] in ek else '')

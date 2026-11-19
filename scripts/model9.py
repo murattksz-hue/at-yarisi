@@ -135,6 +135,8 @@ for seg in sorted(set(s for s,*_ in egit)):
 Wseg=lambda s:SEG.get(s,wg); Wglob=lambda s:wg
 wa=np.zeros(d); wa[6]=1.0; Wagf=lambda s:wa
 def degerlendir(data,W,ad):
+    if os.environ.get('DUMP') and 'özel' in ad:
+        import pickle; pickle.dump([(seg,(lambda u:np.exp(u-u.max())/np.exp(u-u.max()).sum())(Z@W(seg)),y,o) for seg,Z,y,o in data],open(os.environ['DUMP'],'wb'))
     t1=t3=0; bet=ret=0.0; vb=vr=0.0
     for seg,Z,y,o in data:
         u=Z@W(seg); p=np.exp(u-u.max()); p/=p.sum(); srt=np.argsort(-p); kaz=int(np.argmax(y))
