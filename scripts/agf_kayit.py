@@ -8,7 +8,7 @@ g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date() if len(sys.argv)>1 e
 TR={'İstanbul','Ankara','İzmir','Bursa','Adana','Kocaeli','Elazığ','Diyarbakır','Şanlıurfa','Antalya'}
 tq=urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')
 ana=subprocess.run(['curl','-sS','--max-time','90',f"https://www.tjk.org/TR/YarisSever/Info/Page/GunlukYarisProgrami?QueryParameter_Tarih={tq}"],capture_output=True).stdout.decode('utf-8','replace')
-hips=[a for _,a in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<]',ana) if a in TR]
+SIDS={a:i for i,a in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<]',ana) if a in TR}; hips=list(SIDS)
 kd=os.path.join(K,'veri','agf_kayit',g.isoformat()); os.makedirs(kd,exist_ok=True); saat=datetime.datetime.now(datetime.timezone.utc).strftime('%H%M')
 def agf_kismi(b):   # yalnızca at satırlarının AGF sütunu (değişim karşılaştırması için)
     return [l.split(';')[10] for l in b.decode('utf-8-sig','replace').splitlines() if re.match(r'^\d+;',l) and len(l.split(';'))>10]
@@ -16,6 +16,16 @@ for h in hips:
     u=f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{urllib.parse.quote(h)}-GunlukYarisProgrami-TR.csv"
     b=subprocess.run(['curl','-sS','-f','--max-time','90',u],capture_output=True).stdout
     if not b: print(h,': CSV yok'); continue
+    # ganyan (Gny) anlık görüntüsü: program HTML'inden, her seferinde saklanır (para girişi takibi için)
+    import json,html as H_
+    era='today' if g==datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).date() else 'tomorrow'
+    ht=subprocess.run(['curl','-sS','--max-time','90',f"https://www.tjk.org/TR/YarisSever/Info/Sehir/GunlukYarisProgrami?SehirId={SIDS[h]}&QueryParameter_Tarih={tq}&SehirAdi={urllib.parse.quote(h)}&Era={era}"],capture_output=True).stdout.decode('utf-8','replace')
+    GN={}
+    for a_,v_ in zip(re.findall(r'gunluk-GunlukYarisProgrami-AtAdi"[^>]*>(.*?)</td>',ht,flags=re.S),re.findall(r'gunluk-GunlukYarisProgrami-Gny"[^>]*>(.*?)</td>',ht,flags=re.S)):
+        m_=re.search(r'>\s*([^<]+?)\s*<span',a_) or re.search(r'>\s*([^<]+?)\s*</a>',a_)
+        try: GN[m_.group(1).strip()]=float(re.sub(r'<[^>]+>','',v_).strip().replace(',','.'))
+        except Exception: pass
+    if GN: json.dump(GN,open(os.path.join(kd,f"{h}_{saat}UTC_ganyan.json"),'w'),ensure_ascii=False)
     a=agf_kismi(b); dolu=sum(bool(re.match(r'%[\d.]+',x)) for x in a)
     onceki=sorted(f for f in glob.glob(os.path.join(kd,f"{h}_*UTC.csv")))
     if onceki and agf_kismi(open(onceki[-1],'rb').read())==a: print(f"{h}: AGF değişmemiş ({dolu}/{len(a)} at dolu)"); continue

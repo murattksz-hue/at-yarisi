@@ -423,3 +423,11 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - `scripts/agf_kayit.py`: AGF değiştikçe saat damgalı görüntü (`veri/agf_kayit/<tarih>/<hipodrom>_<SSDD>UTC.csv`), ilk dolu AGF ayrıca `ILK_<hipodrom>.csv`.
 - Her gün 08:00'den koşulara kadar saatte bir otomatik çalıştırılıyor. Yeterli gün birikince test: ilk AGF, son AGF ve kesin ganyanın kazananı tahmin isabeti (log-olabilirlik, favori kazanma oranı) karşılaştırılacak.
 - 19.11 İzmir 1. koşu gözlemi: erken ganyanda LADY ECRİN 1,45 (favori), kesin ganyanda 2,30; kazandı. (Tek gözlem, kanıt değil.)
+
+## Para girişi takibi (kullanıcı uyarısı: "yoğun para girişi olan atlara dikkat et") – 19.11.2026
+- 19.11 İzmir 1. koşu: LADY ECRİN'e erken yoğun para (ganyan 1,45) fark edildi ama kullanılmadı (erken oranlar "oturmamış" sayıldı; koşu altılı dışında, model AGF'siz). Kazandı.
+- `agf_kayit.py` artık her saat ganyanları da saklıyor (`<hipodrom>_<SSDD>UTC_ganyan.json`).
+- `scripts/para_girisi.py`: ilk ve son kayıt arasında ganyandan türeyen olasılık ≥1,5× arttıysa (ganyan ≤20) ya da AGF payı ≥1,5× arttıysa (AGF ≥%5) 💰 işareti. `ganyan_kontrol.py` çıktısında gösterilir.
+- 19.11 Antalya örnekleri (AGF 10:12 → 15:59): YOU ARE BIG %23→%70, SWORD MASTER %20→%51, CANSEFİRE %10→%27, DEĞERHAN %5→%13, BAŞKUT ANA %5→%14.
+- Uyarı: AGF'nin bir kısmı mekanik değişir (sabah az kupon → dağınık yüzdeler). 1,5× eşiği 69 attan 14'ünü işaretledi; eşik veriyle ayarlanacak.
+- **Henüz test edilmedi; olasılığa katılmıyor.** Test: işaretli atlar piyasaya (kesin ganyan) göre fazla mı kazanıyor? Kayıtlar biriktikçe.
