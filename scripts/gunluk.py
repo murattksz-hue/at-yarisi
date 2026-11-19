@@ -48,7 +48,10 @@ for sid,ad in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<
     open(hv,'w').write(r_.stdout.strip().splitlines()[-1] if r_.returncode==0 and r_.stdout.strip() else '{}')
     out=os.path.join(K,'analizler',f"{g.isoformat()}_{ad}.txt"); os.makedirs(os.path.dirname(out),exist_ok=True)
     js=os.path.join(tmp,ad+'_olasilik.json')
+    yeni_tur=subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','kosu_turleri.py'),'kontrol',c,g.isoformat()],capture_output=True,text=True).stdout
     with open(out,'w') as f:
+        if yeni_tur.strip(): f.write(yeni_tur+'\n'); print(yeni_tur.strip())
+        f.flush()
         subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','analiz3.py'),h,c,os.path.join(K,'veri','model.json'),
             os.path.join(K,'veri','irk_zemin_mesafe_profil.json'),ad,idm,os.path.join(K,'veri','kosu_turu_jokey.json'),hv],stdout=f,env=dict(os.environ,ANALIZ_JSON=js))
         f.flush()

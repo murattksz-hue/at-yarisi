@@ -1,0 +1,231 @@
+{
+ "turler": {
+  "Handikap 16": {
+   "ilk": "2026-05-22",
+   "sayi": 272,
+   "tanim": ""
+  },
+  "Şartlı 4": {
+   "ilk": "2026-05-22",
+   "sayi": 359,
+   "tanim": ""
+  },
+  "Maiden": {
+   "ilk": "2026-05-22",
+   "sayi": 643,
+   "tanim": "Hiç birincilik kazanmamış atlar"
+  },
+  "Şartlı 5": {
+   "ilk": "2026-05-22",
+   "sayi": 271,
+   "tanim": ""
+  },
+  "Handikap 22": {
+   "ilk": "2026-05-22",
+   "sayi": 19,
+   "tanim": ""
+  },
+  "Şartlı 1": {
+   "ilk": "2026-05-22",
+   "sayi": 124,
+   "tanim": ""
+  },
+  "Handikap 24": {
+   "ilk": "2026-05-22",
+   "sayi": 20,
+   "tanim": ""
+  },
+  "KV-6": {
+   "ilk": "2026-05-22",
+   "sayi": 141,
+   "tanim": ""
+  },
+  "Handikap 15": {
+   "ilk": "2026-05-22",
+   "sayi": 305,
+   "tanim": ""
+  },
+  "Şartlı 3": {
+   "ilk": "2026-05-23",
+   "sayi": 229,
+   "tanim": ""
+  },
+  "Handikap 14": {
+   "ilk": "2026-05-23",
+   "sayi": 185,
+   "tanim": ""
+  },
+  "Şartlı 19": {
+   "ilk": "2026-05-23",
+   "sayi": 91,
+   "tanim": "Koşu kazanmamışlar (maiden gibi, bölünmez)"
+  },
+  "KV-8": {
+   "ilk": "2026-05-23",
+   "sayi": 85,
+   "tanim": ""
+  },
+  "Satış 1": {
+   "ilk": "2026-05-25",
+   "sayi": 27,
+   "tanim": ""
+  },
+  "Satış 3": {
+   "ilk": "2026-05-26",
+   "sayi": 34,
+   "tanim": ""
+  },
+  "KV-9": {
+   "ilk": "2026-05-26",
+   "sayi": 26,
+   "tanim": ""
+  },
+  "KV-7": {
+   "ilk": "2026-05-27",
+   "sayi": 107,
+   "tanim": ""
+  },
+  "Handikap 21": {
+   "ilk": "2026-05-28",
+   "sayi": 34,
+   "tanim": ""
+  },
+  "Şartlı 27": {
+   "ilk": "2026-05-29",
+   "sayi": 11,
+   "tanim": "Hiç start almamışlar"
+  },
+  "Handikap 17": {
+   "ilk": "2026-05-29",
+   "sayi": 73,
+   "tanim": ""
+  },
+  "Satış 4": {
+   "ilk": "2026-05-29",
+   "sayi": 10,
+   "tanim": ""
+  },
+  "G2": {
+   "ilk": "2026-05-29",
+   "sayi": 34,
+   "tanim": "Grup 2 (açık)"
+  },
+  "Satış 2": {
+   "ilk": "2026-05-30",
+   "sayi": 25,
+   "tanim": ""
+  },
+  "G1": {
+   "ilk": "2026-05-30",
+   "sayi": 28,
+   "tanim": "Grup 1 (açık)"
+  },
+  "Handikap 13": {
+   "ilk": "2026-05-30",
+   "sayi": 21,
+   "tanim": ""
+  },
+  "G3": {
+   "ilk": "2026-05-31",
+   "sayi": 44,
+   "tanim": "Grup 3 (açık)"
+  },
+  "Şartlı 2": {
+   "ilk": "2026-06-02",
+   "sayi": 26,
+   "tanim": ""
+  },
+  "Amatör Binici": {
+   "ilk": "2026-07-15",
+   "sayi": 1,
+   "tanim": ""
+  },
+  "Satış": {
+   "ilk": "2026-08-26",
+   "sayi": 3,
+   "tanim": ""
+  },
+  "KADIN AMATÖR BİNİCİ": {
+   "ilk": "2026-09-05",
+   "sayi": 2,
+   "tanim": ""
+  }
+ },
+ "kodlar": {
+  "H2": {
+   "ilk": "2026-05-22",
+   "sayi": 442,
+   "tanim": "tanım bulunamadı"
+  },
+  "DHÖW": {
+   "ilk": "2026-05-22",
+   "sayi": 1120,
+   "tanim": "Devlet Harası, Özel veya WAHO kayıtlı Arap atları (TJK Genel Hükümler 2026)"
+  },
+  "DHÖ": {
+   "ilk": "2026-05-22",
+   "sayi": 183,
+   "tanim": "tanım bulunamadı"
+  },
+  "H1": {
+   "ilk": "2026-05-22",
+   "sayi": 308,
+   "tanim": "tanım bulunamadı"
+  },
+  "Dişi": {
+   "ilk": "2026-05-22",
+   "sayi": 690,
+   "tanim": "Sadece dişiler"
+  },
+  "H3": {
+   "ilk": "2026-05-23",
+   "sayi": 179,
+   "tanim": "tanım bulunamadı"
+  },
+  "Y1": {
+   "ilk": "2026-05-23",
+   "sayi": 39,
+   "tanim": "Apranti koşusu (Y0-Y1 yamaklar)"
+  },
+  "Y3": {
+   "ilk": "2026-05-24",
+   "sayi": 8,
+   "tanim": "Apranti koşusu (Y0-Y3)"
+  },
+  "DHT": {
+   "ilk": "2026-05-25",
+   "sayi": 129,
+   "tanim": "tanım bulunamadı"
+  },
+  "Y2": {
+   "ilk": "2026-05-29",
+   "sayi": 47,
+   "tanim": "Apranti koşusu (Y0-Y2)"
+  },
+  "ULS": {
+   "ilk": "2026-06-09",
+   "sayi": 17,
+   "tanim": "Uluslararası"
+  },
+  "DH": {
+   "ilk": "2026-06-27",
+   "sayi": 2,
+   "tanim": "tanım bulunamadı"
+  },
+  "EBF": {
+   "ilk": "2026-08-25",
+   "sayi": 5,
+   "tanim": "tanım bulunamadı"
+  },
+  "Satış": {
+   "ilk": "2026-08-26",
+   "sayi": 3,
+   "tanim": "tanım bulunamadı"
+  },
+  "ULS-W": {
+   "ilk": "2026-09-05",
+   "sayi": 2,
+   "tanim": "Uluslararası, WAHO kayıtlı"
+  }
+ }
+}
