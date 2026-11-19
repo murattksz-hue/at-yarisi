@@ -410,3 +410,9 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - Okunan: 113 aygırın babası, 80 aygırın yıllık tay verisi. 13 aygırda katalog toplamı yıllık satırlarla uyuşmuyor (ör. FALCO: 485 koşu / 542 galibiyet; kaynaktaki hata) → `uyusmazlik` işaretli; tabloda yıllık satırların toplamı ayrıca tutuluyor.
 - Yalnızca İngiliz aygırları (Arap aygırları bu katalogda yok).
 - Kullanım planı: katalog verisi 12.12.2025'te kesildiği için 2026 koşularında sızıntısız test edilebilir (uzun dönem aygır başarısı, bizim 560 günlük istatistiğe ek bilgi katıyor mu?).
+
+## ganyancanavari.com.tr (robots.txt izin veriyor) – 19.11.2026
+- Açık: takı değişiklikleri (bugünkü takıyla daha önce kazandıysa *), şehir değişiklikleri (bu şehirde daha önce kazandıysa *), koşmayan atlar, jokey değişiklikleri, pist durumu, yazılan atlar/bankolar, kullanıcı yorumları.
+- Giriş gerektiren: galop incelemesi (kullanılmadı, engel aşılmadı).
+- Kullanıcı yorumları/tahminleri veri değil kişisel görüş (ör. gayrı resmi "yarıştan çıkabilir" söylentisi) → modelde kullanılmaz.
+- Takı ve şehir değişikliği TJK sonuçlarından da hesaplanabildiği için kendi verimizde test edildi (`scripts/sehir_taki_test.py`).
