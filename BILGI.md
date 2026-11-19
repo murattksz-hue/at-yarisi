@@ -416,3 +416,4 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 - Giriş gerektiren: galop incelemesi (kullanılmadı, engel aşılmadı).
 - Kullanıcı yorumları/tahminleri veri değil kişisel görüş (ör. gayrı resmi "yarıştan çıkabilir" söylentisi) → modelde kullanılmaz.
 - Takı ve şehir değişikliği TJK sonuçlarından da hesaplanabildiği için kendi verimizde test edildi (`scripts/sehir_taki_test.py`).
+- Sonuç (7.228 koşu, binde): şehir değişti -0,22; şehir değişti + burada kazanmış +0,28; takı değişti -0,11; takı eklendi -0,05; takı çıkarıldı -0,14; bugünkü takıyla daha önce kazanmış +0,48 → hepsi önemsiz (hız puanı +4,5). Eklenmedi.

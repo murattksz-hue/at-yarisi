@@ -1,0 +1,11 @@
+test koşusu: 7228
+sadece piyasa: -1.8359
+  + sehir_degisti    -1.8361  fark -0.22 binde
+  + sehir_degisti_burada_kazanmis -1.8356  fark +0.28 binde
+  + taki_degisti     -1.8360  fark -0.11 binde
+  + taki_eklendi     -1.8359  fark -0.05 binde
+  + taki_cikarildi   -1.8360  fark -0.14 binde
+  + bu_taki_ile_kazanmis -1.8354  fark +0.48 binde
+işe yarayanlar birlikte ['bu_taki_ile_kazanmis']: fark +0.48 binde; ağırlıklar {'bu_taki_ile_kazanmis': np.float64(0.102)}
+
+[exited with code 0]
