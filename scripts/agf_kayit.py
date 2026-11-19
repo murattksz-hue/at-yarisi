@@ -46,3 +46,21 @@ for y in (_eb(f"program/{g:%Y%m%d}/yarislar.json") or []):
     S={str(k['NO']):{a['AD'].strip():[a.get('AGF1'),a.get('AGF2'),a.get('GANYAN'),bool(a.get('KOSMAZ'))] for a in k.get('atlar',[])} for k in J.get('kosular',[])}
     json.dump(S,open(os.path.join(kd,f"{EBK[y['KEY']]}_{saat}UTC_ebayi.json"),'w',encoding='utf-8'),ensure_ascii=False)
     print(f"{EBK[y['KEY']]}: ebayi görüntüsü {saat} UTC ({sum(len(v) for v in S.values())} at)")
+# ebayi MUHTEMELLER (herkese açık CDN, sayfanın kendi okuduğu dosyalar): her koşunun anlık muhtemel ganyanı ve koşu durumu.
+# checksum: vhs-medya.ebayi.org/muhtemeller/s/YYYY/AA/GG/checksum.json → runs{HIP-NO:[kısa,tam]} ; tam dosya: vhs-medya-cdn.../s/YYYY/AA/GG/HIP-NO-full-<run>.json
+def _mh(u):
+    try: return json.loads(subprocess.run(['curl','-sS','-f','--max-time','60','-A','Mozilla/5.0',u],capture_output=True).stdout.decode('utf-8'))
+    except Exception: return None
+_ck=_mh(f"https://vhs-medya.ebayi.org/muhtemeller/s/{g:%Y/%m/%d}/checksum.json")
+if _ck and _ck.get('runs'):
+    MH={}
+    for key,(kisa,tam) in _ck['runs'].items():
+        hk,no=key.rsplit('-',1)
+        if hk not in EBK: continue
+        J=_mh(f"https://vhs-medya-cdn.ebayi.org/muhtemeller/s/{g:%Y/%m/%d}/{key}-full-{tam}.json")
+        m=((J or {}).get('data') or {}).get('muhtemeller') or {}
+        gb=next((b for b in m.get('bahisler',[]) if b.get('B')=='GANYAN'),None)
+        if gb: MH.setdefault(EBK[hk],{})[no]=dict(durum=m.get('DURUM'),ts=m.get('timestamp'),ganyan={x['S1']:x.get('G') for x in gb.get('muhtemeller',[])},ekuri=[x['S1'] for x in gb.get('muhtemeller',[]) if x.get('E')])
+    for h_,v_ in MH.items():
+        json.dump(v_,open(os.path.join(kd,f"{h_}_{saat}UTC_muhtemel.json"),'w',encoding='utf-8'),ensure_ascii=False)
+        print(f"{h_}: ebayi muhtemel ganyan {saat} UTC ({len(v_)} koşu)")
