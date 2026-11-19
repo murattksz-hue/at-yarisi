@@ -23,7 +23,9 @@ for f in sorted(glob.glob(SD+'/*.csv')):
         c=l.split(';')
         if re.match(r'^\d+\. Kosu',c[0]):
             m=re.search(r'(\d{3,4})m',l); pr=tl(ln[i+2]) if i+2<len(ln) else None
-            cur=dict(g=g,hip=hip,irk='Arap' if 'Arap' in l else 'İngiliz',pist=next((p for p in ('Kum','Çim','Sentetik') if p in l),'?'),m=int(m.group(1)) if m else 0,odul=pr,h=[]); R.append(cur); continue
+            cur=dict(g=g,hip=hip,irk='Arap' if 'Arap' in l else 'İngiliz',pist=next((p for p in ('Kum','Çim','Sentetik') if p in l),'?'),m=int(m.group(1)) if m else 0,odul=pr,h=[],ekuri=[]); R.append(cur); continue
+        if cur is not None and 'eküridir' in l:
+            cur['ekuri'].append([ayir(a)[0] for a in re.findall(r'\(\d+\)([^,\]]+)',l)])
         if cur is not None and c[0].isdigit() and len(c)>13:
             try:o=float(c[13].replace(',','.'))
             except:o=0
@@ -33,13 +35,15 @@ for f in sorted(glob.glob(SD+'/*.csv')):
 R=[r for r in R if len(r['h'])>=4 and r['m']]
 # ---- hız puanı: par (önceki günlerin kazanan süre medyanı) + günlük pist değişkeni
 gunler=sorted(set(r['g'] for r in R)); PAR=collections.defaultdict(list)
-HIS=collections.defaultdict(list); TR=collections.defaultdict(list); JK=collections.defaultdict(lambda:[0,0.0])
+HIS=collections.defaultdict(list); TR=collections.defaultdict(list); JR=collections.defaultdict(list); JH=collections.defaultdict(lambda:[0,0.0]); JK=collections.defaultdict(lambda:[0,0.0])
 def par(r): L=PAR[(r['hip'],r['pist'],r['m'],r['irk'])]; return statistics.median(L) if len(L)>=4 else None
 def ant_ae(a,g):  # antrenör: son 60 gün, alan beklentisine göre
     L=[x for x in TR[a] if x[0]>=g-60]; w=sum(x[1] for x in L); e=sum(x[2] for x in L); return (w+3)/(e+3)
+def jform(j,g):
+    L=[x for x in JR[j] if x[0]>=g-30]; w=sum(x[1] for x in L); e=sum(x[2] for x in L); return (w+3)/(e+3)
 def jae(j): s=JK[j]; return (s[0]+10)/(s[1]+10)
 ORN=[]  # (gün, özellik matrisi, kazanan vektörü)
-FEAT=['hiz_son','hiz_en_iyi3','hiz_yok','son_fark_sn','sinif_degisim','kilo_degisim','ilk_kez_KG','antrenor_form','jokey_yukselme','mesafe_degisim','son_koşu_derece']
+FEAT=['jokey_form30','jokey_hipodrom','hiz_son','hiz_en_iyi3','hiz_yok','son_fark_sn','sinif_degisim','kilo_degisim','ilk_kez_KG','antrenor_form','jokey_yukselme','mesafe_degisim','son_koşu_derece']
 gi={g:i for i,g in enumerate(gunler)}
 for g in gunler:
     gun=[r for r in R if r['g']==g]
@@ -48,11 +52,19 @@ for g in gunler:
         for r in gun:
             h=r['h']
             if not all(x['o']>1 for x in h) or sum(x['pos']==1 for x in h)!=1: continue
-            tot=sum(1/x['o'] for x in h); X=[]
+            grup={}
+            for i,E in enumerate(r['ekuri']):
+                for a in E: grup[a]=i
+            birim={}
+            for x in h: birim.setdefault(grup.get(x['ad'],'t'+x['ad']),[]).append(x)
+            tot=sum(1/L[0]['o'] for L in birim.values())
+            for L in birim.values():
+                for x in L: x['q']=(1/L[0]['o'])/tot/len(L)
+            X=[]
             for x in h:
                 H=HIS[(r['irk'],x['ad'])]; son=H[-1] if H else None
                 figs=[y['fig'] for y in H[-3:] if y['fig'] is not None]
-                X.append([math.log((1/x['o'])/tot),
+                X.append([math.log(x['q']),math.log(jform(x['jok'],gi[g])/jae(x['jok'])),math.log((JH[(x['jok'],r['hip'])][0]+5)/(JH[(x['jok'],r['hip'])][1]+5)/jae(x['jok'])),
                     son['fig'] if son and son['fig'] is not None else np.nan, max(figs) if figs else np.nan, float(not figs),
                     min(son['fark'],10) if son and son['fark'] is not None else np.nan,
                     math.log(r['odul']/son['odul']) if son and son['odul'] and r['odul'] else 0.0,
@@ -65,11 +77,11 @@ for g in gunler:
             X=np.array(X,float)
             for j in range(1,X.shape[1]):   # koşu içi standartlaştırma, eksik = 0
                 col=X[:,j]; ok=np.isfinite(col)
-                if j in (3,5,6,7,8,9,10): X[~ok,j]=0; continue
+                if j in (5,7,8,9,10,11,12): X[~ok,j]=0; continue
                 if ok.sum()>1 and col[ok].std()>0: X[ok,j]=np.clip((col[ok]-col[ok].mean())/col[ok].std(),-2.5,2.5)
                 else: X[ok,j]=0
                 X[~ok,j]=0
-            for j in (5,6,9,10):
+            for j in (1,2,7,8,11,12):
                 col=X[:,j]; X[:,j]=np.clip((col-col.mean())/(col.std() or 1),-2.5,2.5)
             ORN.append((gi[g],X,np.array([x['pos']==1 for x in h],float)))
     # 2) günü geçmişe ekle
@@ -84,6 +96,7 @@ for g in gunler:
             fig=-1000*((x['t']-p)/p-v) if (p and x['t'] and x['pos']<99) else None
             HIS[(r['irk'],x['ad'])].append(dict(fig=fig,fark=(x['t']-w[0]['t']) if (w and x['t']) else None,odul=r['odul'],kg=x['kg'],tg=x['tg'],jok=x['jok'],m=r['m'],pos=x['pos']))
             TR[x['ant']].append((gi[g],x['pos']==1,1/n)); JK[x['jok']][0]+=x['pos']==1; JK[x['jok']][1]+=1/n
+            JR[x['jok']].append((gi[g],x['pos']==1,1/n)); JH[(x['jok'],r['hip'])][0]+=x['pos']==1; JH[(x['jok'],r['hip'])][1]+=1/n
         if w and w[0]['t']: PAR[(r['hip'],r['pist'],r['m'],r['irk'])].append(w[0]['t'])
 print('test koşusu:',len(ORN),'| ısınma günü:',ISINMA)
 def fit(D,cols,it=250,lr=0.15,lam=2.0):
