@@ -4,9 +4,12 @@ Sonuç kaynağı: TJK günlük program sayfası ("X. olarak bitirmiştir"). Bite
 import sys,os,re,json,subprocess,urllib.parse,datetime,math,csv
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date(); hip=sys.argv[2]
-SID={'İstanbul':3,'İzmir':2,'Ankara':1,'Bursa':4,'Adana':5,'Kocaeli':6,'Elazığ':7,'Diyarbakır':8,'Şanlıurfa':9,'Antalya':10}
 T=json.load(open(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{hip}.json"),encoding='utf-8'))
 era='today' if g==datetime.date.today() else 'past'
+tq=urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')
+ana=subprocess.run(['curl','-sS','--max-time','90',f"https://www.tjk.org/TR/YarisSever/Info/Page/GunlukYarisProgrami?QueryParameter_Tarih={tq}"],capture_output=True).stdout.decode('utf-8','replace')
+SID={a:int(i) for i,a in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<]',ana)}
+if hip not in SID: sys.exit(f"{hip} için TJK sayfasında yarış bulunamadı")
 u=f"https://www.tjk.org/TR/YarisSever/Info/Sehir/GunlukYarisProgrami?SehirId={SID[hip]}&QueryParameter_Tarih={urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')}&SehirAdi={urllib.parse.quote(hip)}&Era={era}"
 t=subprocess.run(['curl','-sS','--max-time','90',u],capture_output=True).stdout.decode('utf-8','replace')
 bitis={}
@@ -15,7 +18,7 @@ for v in re.findall(r'gunluk-GunlukYarisProgrami-AtAdi"[^>]*>(.*?)</td>',t,flags
     if m and b: bitis[m.group(1).strip()]=int(b.group(1))
 LOG=os.path.join(K,'veri','canli_takip.csv'); eski=set()
 if os.path.exists(LOG): eski={(r['tarih'],r['hipodrom'],r['kosu']) for r in csv.DictReader(open(LOG,encoding='utf-8'))}
-yeni=[]; print(f"=== {hip} {g} canlı takip ({datetime.datetime.utcnow():%H:%M} UTC) ===")
+yeni=[]; print(f"=== {hip} {g} canlı takip ({datetime.datetime.now(datetime.timezone.utc):%H:%M} UTC) ===")
 for k in T:
     A=[dict(a,bitis=bitis.get(a['ad'])) for a in k['atlar']]
     if not any(a['bitis']==1 for a in A): print(f"  {k['kosu']}. koşu: henüz sonuç yok"); continue
