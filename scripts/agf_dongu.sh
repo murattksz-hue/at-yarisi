@@ -7,10 +7,12 @@ while true; do
   saat=$(TZ=Europe/Istanbul date +%H%M)
   [ "$saat" -gt 2215 ] && break
   python3 -I "$K/scripts/agf_kayit.py" >> "$K/.gunluk/agf_dongu.log" 2>&1
+  # AGF yayınlanan hipodrom için analiz + tahmin dondurma (AGF yayınlanmadan analiz yapılmaz)
+  python3 -I "$K/scripts/agf_sonrasi_analiz.py" >> "$K/.gunluk/agf_dongu.log" 2>&1
   # beygir.com muhtemelleri: 15 dakikada bir (siteyi yormamak için)
   [ $(( 10#$(TZ=Europe/Istanbul date +%M) % 15 )) -lt 5 ] && python3 -I "$K/scripts/muhtemel_kayit.py" >> "$K/.gunluk/agf_dongu.log" 2>&1
   # her kayıttan sonra GitHub'a kaydet (model turu gerektirmez)
-  (cd "$K" && git add -A veri/agf_kayit veri/muhtemel_kayit && git commit -q -m "AGF/ganyan kaydı (otomatik)" >/dev/null 2>&1 && git -c push.negotiate=true push -q >/dev/null 2>&1)
+  (cd "$K" && git add -A veri/agf_kayit veri/muhtemel_kayit veri/tahminler analizler && git commit -q -m "AGF/ganyan kaydı (otomatik)" >/dev/null 2>&1 && git -c push.negotiate=true push -q >/dev/null 2>&1)
   sleep 300
 done
 # gün sonu: kayıtları GitHub'a kaydet (model turu gerektirmez)
