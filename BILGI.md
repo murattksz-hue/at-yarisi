@@ -315,3 +315,4 @@ Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
 - Galop eğitim döneminde yok (galop verisi yalnızca son 30 gün) → v8'de galop ağırlığı 0; galop ayrı doğrulanmış ağırlıklarla (`veri/galop_agirlik.json`) eklenmeye devam ediyor. Galop geçmişi biriktikçe v8'e katılacak.
 - v8 olasılıkları daha temkinli (ör. BEAUTY ALYA %43 → %33): kalibrasyon testindeki aşırı iyimserliği azaltıyor.
 - Canlı test: 19.11 için hem sabahki v6 hem v8 tahminleri koşudan önce donduruldu (`veri/tahminler/*_v8.json`); `canli_takip.py` ikisini ayrı kaydeder (`veri/canli_takip.csv`, `veri/canli_takip_v8.csv`).
+- 19.11 canlı teste üçüncü model eklendi: **AGF'siz** (sadece bizim verimiz, halkın tercihi yok). `AGFSIZ_ZORLA=1` ile üretildi, koşudan önce donduruldu (`veri/tahminler/*_agfsiz.json`), sonuçları `veri/canli_takip_agfsiz.csv`. Karşılaştırma: v6 (sabah), v8 (AGF'li), AGF'siz ve AGF favorisi.

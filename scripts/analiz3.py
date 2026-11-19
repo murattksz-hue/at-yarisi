@@ -97,7 +97,7 @@ for ri,r in enumerate(races):
     h=r['h']
     if len(h)<2: continue
     seg=f"{r['irk']}|{r['pist']}|{r['bant']}"; mseg=f"{r['irk']}|{r['aile']}" if M.get('segmod')=='tur' else seg
-    qq=np.array([x['agf'] for x in h]); agf_yok=qq.std()<1e-6
+    qq=np.array([x['agf'] for x in h]); agf_gercek_yok=qq.std()<1e-6; agf_yok=agf_gercek_yok or os.environ.get('AGFSIZ_ZORLA')=='1'
     MM=MA if (agf_yok and MA) else M
     W=np.array(MM['grup'].get(mseg,MM['genel'])); wet,wnot=islak_mi(r['pist'])
     X=[]
@@ -159,7 +159,7 @@ for ri,r in enumerate(races):
         x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.5 and p[i]>=0.05 and not agf_yok else ''
         bt=(f" → {x['bitis']}." if x['bitis'] else '')+(' [EKÜRİ]' if x['ad'] in ek else '')
         print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}, değer için ganyan ≥{1.5/p[i]:.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')}{' ★pist-mesafe galibi' if x.get('pmg') else (' pist galibi' if x.get('pg') else '')} {x.get('say',0)} koşu | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
-    JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_yok),
+    JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_gercek_yok),model='agfsiz' if agf_yok else 'agfli',
         atlar=[dict(no=x['no'],ad=x['ad'],p=round(float(p[i]),4),agf=round(float(q[i]),4),ekuri=x['ad'] in ek) for i,x in enumerate(h)]))
     kaz=[i for i,x in enumerate(h) if x['bitis']==1]
     if kaz: sk[2]+=1; sk[0]+=srt[0]==kaz[0]; sk[1]+=kaz[0] in srt[:3]

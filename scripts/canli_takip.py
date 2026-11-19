@@ -18,7 +18,7 @@ for v in re.findall(r'gunluk-GunlukYarisProgrami-AtAdi"[^>]*>(.*?)</td>',t,flags
     if m and b: bitis[m.group(1).strip()]=int(b.group(1))
 LOG=os.path.join(K,'veri',f"canli_takip{'_'+SURUM if SURUM else ''}.csv"); eski=set()
 if os.path.exists(LOG): eski={(r['tarih'],r['hipodrom'],r['kosu']) for r in csv.DictReader(open(LOG,encoding='utf-8'))}
-yeni=[]; print(f"=== {hip} {g} canlı takip {SURUM or 'v6 (sabah)'} ({datetime.datetime.now(datetime.timezone.utc):%H:%M} UTC) ===")
+yeni=[]; print(f"=== {hip} {g} canlı takip {dict(v8='v8 (AGF li)',agfsiz='AGF siz (sadece bizim verimiz)').get(SURUM,'v6 (sabah)')} ({datetime.datetime.now(datetime.timezone.utc):%H:%M} UTC) ===")
 for k in T:
     A=[dict(a,bitis=bitis.get(a['ad'])) for a in k['atlar']]
     if not any(a['bitis']==1 for a in A): print(f"  {k['kosu']}. koşu: henüz sonuç yok"); continue
@@ -53,6 +53,7 @@ if os.path.exists(LOG):
           +(f" | ort. log-olasılık model {sum(a for a,_ in LL)/len(LL):.3f} vs AGF {sum(b for _,b in LL)/len(LL):.3f}" if LL else '')
           +(f" | ★DEĞER: {len(D)} at, kazanan {sum(x.endswith(':1') for x in D)}" if D else ''))
 
-v8=os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{hip}_v8.json")
-if not SURUM and os.path.exists(v8):
-    print(); subprocess.run([sys.executable,'-I',os.path.abspath(__file__),sys.argv[1],hip,'v8'])
+if not SURUM:   # diğer dondurulmuş modeller: v8 (AGF'li) ve agfsiz (sadece bizim verimiz)
+    for sr in ('v8','agfsiz'):
+        if os.path.exists(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{hip}_{sr}.json")):
+            print(); subprocess.run([sys.executable,'-I',os.path.abspath(__file__),sys.argv[1],hip,sr])

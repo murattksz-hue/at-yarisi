@@ -1,0 +1,564 @@
+[
+{
+"kosu": "1",
+"baslik": "1. Kosu :   15.00 SATIŞ 2 2 Yaşlı İngilizler 57.00kg 1400m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": true,
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "LADY ECRİN",
+"p": 0.1442,
+"agf": 0.1429,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "PUYOL",
+"p": 0.1995,
+"agf": 0.1429,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "BEAUTY ALYA",
+"p": 0.3299,
+"agf": 0.1429,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "WIN RIVER SOSAN",
+"p": 0.0195,
+"agf": 0.1429,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "OKLOHAMA",
+"p": 0.1656,
+"agf": 0.1429,
+"ekuri": true
+},
+{
+"no": "6",
+"ad": "VENENO",
+"p": 0.108,
+"agf": 0.1429,
+"ekuri": true
+},
+{
+"no": "7",
+"ad": "LAL KIZIM",
+"p": 0.0333,
+"agf": 0.1429,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "2",
+"baslik": "2. Kosu :  BODRUM KOŞUSU 15.30 Maiden/DHÖW 3 Yaşlı Araplar 57.00kg 1600m Kum",
+"coklu_ganyan_baslar": [
+6
+],
+"agf_yok": false,
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "ÇILGINDAĞ",
+"p": 0.1057,
+"agf": 0.1576,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "SİYAH SANCAK",
+"p": 0.1634,
+"agf": 0.2065,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "BAŞ YARGIÇ",
+"p": 0.0999,
+"agf": 0.0772,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "BATINALP",
+"p": 0.0962,
+"agf": 0.0559,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "KASTRİOT",
+"p": 0.0054,
+"agf": 0.006,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "SENOZ FIRTINASI",
+"p": 0.0635,
+"agf": 0.0805,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "TRANSİSTHOR",
+"p": 0.0227,
+"agf": 0.0312,
+"ekuri": false
+},
+{
+"no": "8",
+"ad": "USKUMRU",
+"p": 0.0284,
+"agf": 0.0144,
+"ekuri": false
+},
+{
+"no": "9",
+"ad": "ZİHNİ",
+"p": 0.1041,
+"agf": 0.0503,
+"ekuri": false
+},
+{
+"no": "10",
+"ad": "ZORBEY FIRTINASI",
+"p": 0.0117,
+"agf": 0.0076,
+"ekuri": false
+},
+{
+"no": "11",
+"ad": "YİĞİT NUR",
+"p": 0.1714,
+"agf": 0.1662,
+"ekuri": false
+},
+{
+"no": "12",
+"ad": "ÖZASYALI",
+"p": 0.1274,
+"agf": 0.1468,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "3",
+"baslik": "3. Kosu :   16.00 Handikap 16/DHÖW /H1 4 ve Yukarı Araplar kg 1600m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "BER KEMAL",
+"p": 0.2871,
+"agf": 0.141,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "KILIÇ OSMAN",
+"p": 0.0224,
+"agf": 0.0174,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "SOSAN YILDIZI",
+"p": 0.0681,
+"agf": 0.1171,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "MADEİRA",
+"p": 0.1392,
+"agf": 0.1687,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "KAZANCI",
+"p": 0.042,
+"agf": 0.0255,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "ŞİFNE EFESİ",
+"p": 0.0125,
+"agf": 0.0271,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "GÜNEŞKRAL",
+"p": 0.0125,
+"agf": 0.0145,
+"ekuri": false
+},
+{
+"no": "8",
+"ad": "SERTTAYKUT",
+"p": 0.1243,
+"agf": 0.0858,
+"ekuri": false
+},
+{
+"no": "9",
+"ad": "KUZEYHAN",
+"p": 0.0444,
+"agf": 0.0156,
+"ekuri": false
+},
+{
+"no": "10",
+"ad": "COŞKUNTAY",
+"p": 0.0425,
+"agf": 0.0791,
+"ekuri": false
+},
+{
+"no": "11",
+"ad": "GÜRSELHAN",
+"p": 0.0418,
+"agf": 0.0751,
+"ekuri": false
+},
+{
+"no": "12",
+"ad": "MERTCAN TAY",
+"p": 0.0547,
+"agf": 0.1124,
+"ekuri": false
+},
+{
+"no": "13",
+"ad": "BABA ÇAKMAK",
+"p": 0.1012,
+"agf": 0.1135,
+"ekuri": false
+},
+{
+"no": "14",
+"ad": "SİLLETOKAT",
+"p": 0.0074,
+"agf": 0.0073,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "4",
+"baslik": "4. Kosu :   16.30 Handikap 16 /H1 3 ve Yukarı İngilizler kg 2200m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "SUPER BERK",
+"p": 0.2051,
+"agf": 0.1865,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "BOB VALDES",
+"p": 0.2072,
+"agf": 0.0831,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "DRAGON RUNNER",
+"p": 0.2176,
+"agf": 0.2921,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "ZENITH SKY",
+"p": 0.1216,
+"agf": 0.1137,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "SON OF THE KNIFE",
+"p": 0.1211,
+"agf": 0.0513,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "PHANTOM STRIKE",
+"p": 0.0727,
+"agf": 0.2348,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "ASİLİKOM",
+"p": 0.044,
+"agf": 0.0311,
+"ekuri": false
+},
+{
+"no": "8",
+"ad": "DOĞU ASLANI",
+"p": 0.0107,
+"agf": 0.0075,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "5",
+"baslik": "5. Kosu :   17.00 ŞARTLI 4/Y2 3 ve Yukarı İngilizler 58.00kg 60.00 kg 60.00 kg",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "CANENCAN",
+"p": 0.1408,
+"agf": 0.0889,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "BOCCE",
+"p": 0.2028,
+"agf": 0.0585,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "WOLF DED",
+"p": 0.243,
+"agf": 0.3313,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "LAST SWORD",
+"p": 0.1292,
+"agf": 0.1497,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "BARİ",
+"p": 0.0431,
+"agf": 0.0175,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "AGE OF FIRE",
+"p": 0.1705,
+"agf": 0.3013,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "FOOTSTEP",
+"p": 0.0441,
+"agf": 0.0109,
+"ekuri": false
+},
+{
+"no": "8",
+"ad": "MİRBEY",
+"p": 0.0266,
+"agf": 0.0419,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "6",
+"baslik": "6. Kosu :   17.30 ŞARTLI 4/Dişi 2 Yaşlı İngilizler 57.00kg 1400m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "BRAVE ROSE",
+"p": 0.1124,
+"agf": 0.0963,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "ÇORLİ",
+"p": 0.0217,
+"agf": 0.0199,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "MY BRAVE GIRL",
+"p": 0.0639,
+"agf": 0.0587,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "QUEEN OF MUĞLA",
+"p": 0.7322,
+"agf": 0.7972,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "ROLYANA",
+"p": 0.0698,
+"agf": 0.0279,
+"ekuri": false
+}
+]
+},
+{
+"kosu": "7",
+"baslik": "7. Kosu :   18.00 Handikap 14 /H1 3 Yaşlı İngilizler kg 1400m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "SAVE YOUR TEARS",
+"p": 0.0183,
+"agf": 0.0146,
+"ekuri": false
+},
+{
+"no": "2",
+"ad": "TAŞDEMİR HAN",
+"p": 0.0447,
+"agf": 0.0856,
+"ekuri": false
+},
+{
+"no": "3",
+"ad": "HOLY",
+"p": 0.1576,
+"agf": 0.3444,
+"ekuri": false
+},
+{
+"no": "4",
+"ad": "APOLLO MAXIMUS",
+"p": 0.2375,
+"agf": 0.2054,
+"ekuri": false
+},
+{
+"no": "5",
+"ad": "TI VOGLIO BENE",
+"p": 0.061,
+"agf": 0.0351,
+"ekuri": false
+},
+{
+"no": "6",
+"ad": "BURNING HEART",
+"p": 0.0542,
+"agf": 0.0585,
+"ekuri": false
+},
+{
+"no": "7",
+"ad": "ÇİFTE YÜREKLİ",
+"p": 0.0402,
+"agf": 0.0448,
+"ekuri": false
+},
+{
+"no": "8",
+"ad": "FIREBLADE",
+"p": 0.067,
+"agf": 0.0358,
+"ekuri": false
+},
+{
+"no": "9",
+"ad": "BOUNDLESS GLORY",
+"p": 0.1069,
+"agf": 0.0829,
+"ekuri": false
+},
+{
+"no": "10",
+"ad": "WAR PRINCE",
+"p": 0.0179,
+"agf": 0.0035,
+"ekuri": false
+},
+{
+"no": "11",
+"ad": "DAISY DUKE",
+"p": 0.0083,
+"agf": 0.0045,
+"ekuri": false
+},
+{
+"no": "12",
+"ad": "SAĞLICAK",
+"p": 0.016,
+"agf": 0.0035,
+"ekuri": false
+},
+{
+"no": "13",
+"ad": "SINGLE GUN",
+"p": 0.0423,
+"agf": 0.0273,
+"ekuri": false
+},
+{
+"no": "14",
+"ad": "MİGRAKOM BEYİ",
+"p": 0.0411,
+"agf": 0.0116,
+"ekuri": false
+},
+{
+"no": "15",
+"ad": "VOODOO PEOPLE",
+"p": 0.0181,
+"agf": 0.0057,
+"ekuri": false
+},
+{
+"no": "16",
+"ad": "MYSTIC STRIKE",
+"p": 0.0298,
+"agf": 0.0111,
+"ekuri": false
+},
+{
+"no": "17",
+"ad": "NEW ARTİST",
+"p": 0.039,
+"agf": 0.0258,
+"ekuri": false
+}
+]
+}
+]
