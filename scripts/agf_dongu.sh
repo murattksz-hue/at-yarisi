@@ -1,20 +1,15 @@
 #!/bin/bash
-# Koşu günü AGF + ganyan kaydı: 5 dakikada bir, İstanbul saatiyle 22:15'e kadar. Kilit dosyasıyla tek kopya çalışır.
+# Koşu günü kayıt planı (scripts/agf_plan.py): 09:25–10:30 ilk AGF'ye kadar 5 dk'da bir, 12:00, her koşudan 1 saat önce,
+# her koşudan sonra sonuç kontrolü. Her dakika plan kontrol edilir; zamanı gelen iş bir kez yapılır. Kilit dosyasıyla tek kopya.
 K="$(cd "$(dirname "$0")/.." && pwd)"; KILIT=/tmp/agf_dongu.kilit
 if [ -f "$KILIT" ] && kill -0 "$(cat $KILIT)" 2>/dev/null; then echo "döngü zaten çalışıyor (pid $(cat $KILIT))"; exit 0; fi
 echo $$ > "$KILIT"
 while true; do
-  saat=$(TZ=Europe/Istanbul date +%H%M)
-  [ "$saat" -gt 2215 ] && break
-  python3 -I "$K/scripts/agf_kayit.py" >> "$K/.gunluk/agf_dongu.log" 2>&1
-  # AGF yayınlanan hipodrom için analiz + tahmin dondurma (AGF yayınlanmadan analiz yapılmaz)
-  python3 -I "$K/scripts/agf_sonrasi_analiz.py" >> "$K/.gunluk/agf_dongu.log" 2>&1
-  # beygir.com muhtemelleri: 15 dakikada bir (siteyi yormamak için)
-  [ $(( 10#$(TZ=Europe/Istanbul date +%M) % 15 )) -lt 5 ] && python3 -I "$K/scripts/muhtemel_kayit.py" >> "$K/.gunluk/agf_dongu.log" 2>&1
-  # her kayıttan sonra GitHub'a kaydet (model turu gerektirmez)
-  (cd "$K" && git add -A veri/agf_kayit veri/muhtemel_kayit veri/tahminler analizler && git commit -q -m "AGF/ganyan kaydı (otomatik)" >/dev/null 2>&1 && git -c push.negotiate=true push -q >/dev/null 2>&1)
-  sleep 300
+  python3 -I "$K/scripts/agf_plan.py" >> "$K/.gunluk/agf_dongu.log" 2>&1; kod=$?
+  (cd "$K" && git add -A veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/canli_takip*.csv analizler && git commit -q -m "AGF/ganyan kaydı (otomatik)" >/dev/null 2>&1 && git -c push.negotiate=true push -q >/dev/null 2>&1)
+  [ "$kod" -eq 3 ] && break
+  [ "$(TZ=Europe/Istanbul date +%H%M)" -gt 2330 ] && break
+  sleep 60
 done
-# gün sonu: kayıtları GitHub'a kaydet (model turu gerektirmez)
-cd "$K" && git add -A veri/agf_kayit veri/muhtemel_kayit && git commit -q -m "AGF/ganyan kaydı (gün sonu, otomatik)" >/dev/null 2>&1; for i in 1 2 3 4; do git -c push.negotiate=true push -q >/dev/null 2>&1 && break; sleep $((i*15)); done
+cd "$K" && for i in 1 2 3 4; do git -c push.negotiate=true push -q >/dev/null 2>&1 && break; sleep $((i*15)); done
 rm -f "$KILIT"; echo "döngü bitti $(date)" >> "$K/.gunluk/agf_dongu.log"
