@@ -1,4 +1,4 @@
-HAVA: TJK pist durumu henüz yok | TJK hava: henüz yok | tahmin: yağış 0 mm, önceki gün 0 mm, 22.0°C, nem %84, rüzgar 15.0 km/s (wttr.in)
+HAVA: TJK pist durumu {'Kum': 'Normal'} | TJK hava: AZ BULUTLU 22'C NEM %81 | tahmin: yağış 0 mm, önceki gün 0 mm, 22.0°C, nem %84, rüzgar 15.0 km/s (wttr.in)
 
 === 1. Kosu :   15.00 SATIŞ 2 2 Yaşlı İngilizler 57.00kg 1400m Kum  [İngiliz|Kum|kisa]  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)
     Sürpriz riski (geçmiş): 6 bahis birimi → favori %43.8, ganyan≥10 kazanan %7.5; İngiliz Satış: favori %37.7, sürpriz %11.4
@@ -17,81 +17,81 @@ HAVA: TJK pist durumu henüz yok | TJK hava: henüz yok | tahmin: yağış 0 mm,
     Zemin/mesafe profili: favori %32.3 kazanıyor, ort. 10.5 at; iç kulvar (1-3) piyasaya göre 1.09
     Hava/pist: kuru (tahmini ıslaklık 0.0 mm (kuru)); bu koşullarda favori %28.8, HP lideri %19.1 kazanıyor (549 koşu)
     Koşu türü (Maiden): 992 koşu örneği, favori %32.6, HP lideri %19.5, tipik HP 10-34
-  # 2 SİYAH SANCAK     olasılık %20.1 (adil oran   5.0, değer için ganyan ≥7.5) AGF %19.4 HP31 hız -32 8 koşu | baba OYMAKBEYİ C/1.24 KB NOKTABATUR C | N.AVCİ %19.2 (1837 biniş), 30g 8/55, İzmir 195/821, favoride 119/340 | st 1 | 30g 3 idman, en iyi 400m 28.0, son 2g Rahat ↑çok idman
-  #11 YİĞİT NUR        olasılık %17.5 (adil oran   5.7, değer için ganyan ≥8.6) AGF %15.7 HP33 hız -21 9 koşu | baba SERDÜMEN C/1.15 KB NEVZATBEY C | Ö.F.ÖZEN %11.4 (1120 biniş), 30g 11/102, İzmir 80/661, favoride 37/95 | st 3 | 30g 3 idman, en iyi 400m 27.3, son 1g ? ↑çok idman
-  #12 ÖZASYALI         olasılık %13.3 (adil oran   7.5, değer için ganyan ≥11.3) AGF %14.5 HP30 hız -18 5 koşu | baba BERKSOY B/0.96 KB BERKOŞ C | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 6 | 30g 2 idman, en iyi 400m 28.3, son 11g Rahat
-  # 1 ÇILGINDAĞ        olasılık %13.2 (adil oran   7.6, değer için ganyan ≥11.3) AGF %15.0 HP32 hız -18 13 koşu | baba ATMACA BEYİ D/0.82 KB ŞENTAY C | Y.GÖKÇE %7.5 (1306 biniş), 30g 6/84, İzmir 55/545, favoride 24/76 | st 12 | 30g 2 idman, en iyi 400m 28.5, son 2g ?
-  # 4 BATINALP         olasılık % 9.6 (adil oran  10.4, değer için ganyan ≥15.6) AGF % 7.0 HP26 hız -27 5 koşu | baba YAVUZBEY C/1.32 KB BİLGİN D | A.KÜRÜNDÜK %3.2 (563 biniş), 30g 0/27, İzmir 18/550, favoride 4/11 | st 2 | 30g 4 idman, en iyi 400m 28.0, son 2g ? ↑çok idman
+  # 2 SİYAH SANCAK     olasılık %21.5 (adil oran   4.6, değer için ganyan ≥7.0) AGF %20.6 HP31 hız -32 8 koşu | baba OYMAKBEYİ C/1.24 KB NOKTABATUR C | N.AVCİ %19.2 (1837 biniş), 30g 8/55, İzmir 195/821, favoride 119/340 | st 1 | 30g 3 idman, en iyi 400m 28.0, son 2g Rahat ↑çok idman
+  #11 YİĞİT NUR        olasılık %18.7 (adil oran   5.4, değer için ganyan ≥8.0) AGF %16.6 HP33 hız -21 9 koşu | baba SERDÜMEN C/1.15 KB NEVZATBEY C | Ö.F.ÖZEN %11.4 (1120 biniş), 30g 11/102, İzmir 80/661, favoride 37/95 | st 3 | 30g 3 idman, en iyi 400m 27.3, son 1g ? ↑çok idman
+  # 1 ÇILGINDAĞ        olasılık %14.0 (adil oran   7.2, değer için ganyan ≥10.7) AGF %15.8 HP32 hız -18 13 koşu | baba ATMACA BEYİ D/0.82 KB ŞENTAY C | Y.GÖKÇE %7.5 (1306 biniş), 30g 6/84, İzmir 55/545, favoride 24/76 | st 12 | 30g 2 idman, en iyi 400m 28.5, son 2g ?
+  #12 ÖZASYALI         olasılık %13.5 (adil oran   7.4, değer için ganyan ≥11.1) AGF %14.7 HP30 hız -18 5 koşu | baba BERKSOY B/0.96 KB BERKOŞ C | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 6 | 30g 2 idman, en iyi 400m 28.3, son 11g Rahat
+  # 3 BAŞ YARGIÇ       olasılık % 8.4 (adil oran  11.9, değer için ganyan ≥17.8) AGF % 7.7 HP26 hız -23 6 koşu | baba GÜMBÜRGÜMBÜR B/0.95 KB HABERBATUR C | H.ŞİMŞEK %6.2 (480 biniş), 30g 3/35, İzmir 25/415, favoride 7/18 | st 4 | 30g 3 idman, en iyi 400m 28.7, son 2g Rahat ↑çok idman
 
 === 3. Kosu :   16.00 Handikap 16/DHÖW /H1 4 ve Yukarı Araplar kg 1600m Kum  [Arap|Kum|orta]
     Sürpriz riski (geçmiş): 14 bahis birimi → favori %27.7, ganyan≥10 kazanan %29.2; Arap Handikap: favori %29.0, sürpriz %21.9
     Zemin/mesafe profili: favori %32.3 kazanıyor, ort. 10.5 at; iç kulvar (1-3) piyasaya göre 1.09
     Hava/pist: kuru (tahmini ıslaklık 0.0 mm (kuru)); bu koşullarda favori %28.8, HP lideri %19.1 kazanıyor (549 koşu)
     Koşu türü (Handikap 16): 358 koşu örneği, favori %31.3, HP lideri %8.3, tipik HP 40-69
-  # 1 BER KEMAL        olasılık %15.1 (adil oran   6.6, değer için ganyan ≥10.0) AGF %12.5 HP73 hız 3 ★pist-mesafe galibi 25 koşu | baba SAADIN GÜCÜ B/1.30 KB TIKI TORK K C | N.AVCİ %19.2 (1837 biniş), 30g 8/55, İzmir 195/821, favoride 119/340 | st 14 | 30g 4 idman, en iyi 400m 28.7, son 2g Rahat ↑çok idman
-  #13 BABA ÇAKMAK      olasılık %13.4 (adil oran   7.5, değer için ganyan ≥11.2) AGF %10.4 HP48 hız 8 pist galibi 27 koşu | baba UÇANKRAL D/0.83 KB TURBO C | O.YILDIZ %14.5 (830 biniş), 30g 9/42, İzmir 13/131, favoride 30/68 | st 10 | 30g 3 idman, en iyi 400m 27.7, son 5g Rahat ↑çok idman
-  # 8 SERTTAYKUT       olasılık %12.6 (adil oran   7.9, değer için ganyan ≥11.9) AGF % 9.1 HP59 hız 15 ★pist-mesafe galibi 35 koşu | baba TAYKUT B/1.22 KB TIGRES LIGH C | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 9 | 30g 1 idman, en iyi 400m 29.0, son 2g Rahat
-  #12 MERTCAN TAY      olasılık %12.4 (adil oran   8.1, değer için ganyan ≥12.1) AGF %10.8 HP50 hız 8 pist galibi 30 koşu | baba TURBO C/0.98 KB HİRATASAN C | E.D.ÖKTEN %2.9 (245 biniş), 30g 0/9, İzmir 7/239, favoride 0/3 | st 4 | 30g 2 idman, en iyi 400m 27.0, son 2g Rahat
-  # 4 MADEİRA          olasılık %11.8 (adil oran   8.4, değer için ganyan ≥12.7) AGF %17.5 HP70 hız 2 ★pist-mesafe galibi 23 koşu | baba ARHANBEY C/1.06 KB TUNCAL C | İ.S.SÖĞÜT %3.3 (668 biniş), 30g 3/30, İzmir 18/573, favoride 2/15 | st 8 | 30g 1 idman, en iyi 400m 27.8, son 19g Rahat
+  # 1 BER KEMAL        olasılık %16.8 (adil oran   5.9, değer için ganyan ≥8.9) AGF %14.1 HP73 hız 3 ★pist-mesafe galibi 25 koşu | baba SAADIN GÜCÜ B/1.30 KB TIKI TORK K C | N.AVCİ %19.2 (1837 biniş), 30g 8/55, İzmir 195/821, favoride 119/340 | st 14 | 30g 4 idman, en iyi 400m 28.7, son 2g Rahat ↑çok idman
+  #13 BABA ÇAKMAK      olasılık %14.5 (adil oran   6.9, değer için ganyan ≥10.4) AGF %11.3 HP48 hız 8 pist galibi 27 koşu | baba UÇANKRAL D/0.83 KB TURBO C | O.YILDIZ %14.5 (830 biniş), 30g 9/42, İzmir 13/131, favoride 30/68 | st 10 | 30g 3 idman, en iyi 400m 27.7, son 5g Rahat ↑çok idman
+  #12 MERTCAN TAY      olasılık %12.7 (adil oran   7.9, değer için ganyan ≥11.8) AGF %11.2 HP50 hız 8 pist galibi 30 koşu | baba TURBO C/0.98 KB HİRATASAN C | E.D.ÖKTEN %2.9 (245 biniş), 30g 0/9, İzmir 7/239, favoride 0/3 | st 4 | 30g 2 idman, en iyi 400m 27.0, son 2g Rahat
+  # 8 SERTTAYKUT       olasılık %11.8 (adil oran   8.5, değer için ganyan ≥12.7) AGF % 8.6 HP59 hız 15 ★pist-mesafe galibi 35 koşu | baba TAYKUT B/1.22 KB TIGRES LIGH C | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 9 | 30g 1 idman, en iyi 400m 29.0, son 2g Rahat
+  # 4 MADEİRA          olasılık %11.3 (adil oran   8.8, değer için ganyan ≥13.3) AGF %16.9 HP70 hız 2 ★pist-mesafe galibi 23 koşu | baba ARHANBEY C/1.06 KB TUNCAL C | İ.S.SÖĞÜT %3.3 (668 biniş), 30g 3/30, İzmir 18/573, favoride 2/15 | st 8 | 30g 1 idman, en iyi 400m 27.8, son 19g Rahat
 
 === 4. Kosu :   16.30 Handikap 16 /H1 3 ve Yukarı İngilizler kg 2200m Kum  [İngiliz|Kum|uzun]
     Sürpriz riski (geçmiş): 8 bahis birimi → favori %34.9, ganyan≥10 kazanan %13.7; İngiliz Handikap: favori %32.9, sürpriz %16.2
     Zemin/mesafe profili: favori %34.5 kazanıyor, ort. 8.8 at; iç kulvar (1-3) piyasaya göre 0.97
     Hava/pist: kuru (tahmini ıslaklık 0.0 mm (kuru)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
     Koşu türü (Handikap 16): 434 koşu örneği, favori %33.4, HP lideri %10.8, tipik HP 39-68
-  # 3 DRAGON RUNNER    olasılık %27.1 (adil oran   3.7, değer için ganyan ≥5.5) AGF %26.7 HP71 hız 0 ★pist-mesafe galibi 26 koşu | baba CRIMEAN TATAR C/1.33 KB SRI PEKAN ( C | Ö.F.ÖZEN %11.4 (1120 biniş), 30g 11/102, İzmir 80/661, favoride 37/95 | st 2 | 30g 2 idman, en iyi 400m 26.0, son 5g Rahat
-  # 1 SUPER BERK       olasılık %20.9 (adil oran   4.8, değer için ganyan ≥7.2) AGF %19.5 HP74 hız 6 pist galibi 26 koşu | baba SUPER SAVER ( C/1.11 KB ARCH (USA) C | E.AKPINAR %9.3 (594 biniş), 30g 2/56, İzmir 4/83, favoride 14/47 | st 1 | 30g 2 idman, en iyi 400m 25.0, son 5g Rahat
-  # 6 PHANTOM STRIKE   olasılık %19.3 (adil oran   5.2, değer için ganyan ≥7.8) AGF %23.8 HP60 hız -3 pist galibi 23 koşu | baba PAPA CLEM (US D/0.85 KB PLEASANTLY  D | Y.GÖKÇE %7.5 (1306 biniş), 30g 6/84, İzmir 55/545, favoride 24/76 | st 3 | 30g 1 idman, en iyi 400m 24.8, son 16g Rahat
-  # 2 BOB VALDES       olasılık %13.1 (adil oran   7.6, değer için ganyan ≥11.5) AGF % 9.5 HP71 hız 1 pist galibi 32 koşu | baba DIVINE HEART D/0.73 KB FREE MAN C | A.MEH.ALTIN %10.4 (916 biniş), 30g 2/31, İzmir 53/561, favoride 26/82 | st 4 | 30g 2 idman, en iyi 400m 24.3, son 2g Rahat
-  # 4 ZENITH SKY       olasılık %10.9 (adil oran   9.2, değer için ganyan ≥13.7) AGF %10.9 HP71 hız -8 pist galibi 13 koşu | baba CRIMEAN TATAR C/1.33 KB MAXIOS (GB) C | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 7 | 30g 1 idman, en iyi 400m 25.2, son 5g Rahat
+  # 3 DRAGON RUNNER    olasılık %29.7 (adil oran   3.4, değer için ganyan ≥5.1) AGF %29.2 HP71 hız 0 ★pist-mesafe galibi 26 koşu | baba CRIMEAN TATAR C/1.33 KB SRI PEKAN ( C | Ö.F.ÖZEN %11.4 (1120 biniş), 30g 11/102, İzmir 80/661, favoride 37/95 | st 2 | 30g 2 idman, en iyi 400m 26.0, son 5g Rahat
+  # 1 SUPER BERK       olasılık %20.1 (adil oran   5.0, değer için ganyan ≥7.5) AGF %18.6 HP74 hız 6 pist galibi 26 koşu | baba SUPER SAVER ( C/1.11 KB ARCH (USA) C | E.AKPINAR %9.3 (594 biniş), 30g 2/56, İzmir 4/83, favoride 14/47 | st 1 | 30g 2 idman, en iyi 400m 25.0, son 5g Rahat
+  # 6 PHANTOM STRIKE   olasılık %19.1 (adil oran   5.2, değer için ganyan ≥7.9) AGF %23.5 HP60 hız -3 pist galibi 23 koşu | baba PAPA CLEM (US D/0.85 KB PLEASANTLY  D | Y.GÖKÇE %7.5 (1306 biniş), 30g 6/84, İzmir 55/545, favoride 24/76 | st 3 | 30g 1 idman, en iyi 400m 24.8, son 16g Rahat
+  # 2 BOB VALDES       olasılık %11.5 (adil oran   8.7, değer için ganyan ≥13.1) AGF % 8.3 HP71 hız 1 pist galibi 32 koşu | baba DIVINE HEART D/0.73 KB FREE MAN C | A.MEH.ALTIN %10.4 (916 biniş), 30g 2/31, İzmir 53/561, favoride 26/82 | st 4 | 30g 2 idman, en iyi 400m 24.3, son 2g Rahat
+  # 4 ZENITH SKY       olasılık %11.4 (adil oran   8.7, değer için ganyan ≥13.1) AGF %11.4 HP71 hız -8 pist galibi 13 koşu | baba CRIMEAN TATAR C/1.33 KB MAXIOS (GB) C | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 7 | 30g 1 idman, en iyi 400m 25.2, son 5g Rahat
 
 === 5. Kosu :   17.00 ŞARTLI 4/Y2 3 ve Yukarı İngilizler 58.00kg 60.00 kg 60.00 kg  [İngiliz|Kum|kisa]
     Sürpriz riski (geçmiş): 8 bahis birimi → favori %34.9, ganyan≥10 kazanan %13.7; İngiliz Şartlı: favori %40.2, sürpriz %12.1
     Zemin/mesafe profili: favori %39.4 kazanıyor, ort. 9.7 at; iç kulvar (1-3) piyasaya göre 1.03
     Hava/pist: kuru (tahmini ıslaklık 0.0 mm (kuru)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
     Koşu türü (Şartlı 4): 620 koşu örneği, favori %41.1, HP lideri %27.1, tipik HP 35-87
-  # 3 WOLF DED         olasılık %45.1 (adil oran   2.2, değer için ganyan ≥3.3) AGF %32.9 HP86 hız -0 ★pist-mesafe galibi 13 koşu | baba TIZWAY (USA) B/1.05 KB OKAWANGO (U C | Y.Ş.GÜMÜŞ %4.1 (319 biniş), 30g 1/11, İzmir 2/31, favoride 1/9 | st 3 | 30g 3 idman, en iyi 400m 24.7, son 2g Rahat ↑çok idman
-  # 4 LAST SWORD       olasılık %17.0 (adil oran   5.9, değer için ganyan ≥8.8) AGF %14.9 HP70 hız 12 pist galibi 17 koşu | baba TOUCH THE WOL A/1.14 KB KANEKO B | Y.GÖKÇE %7.5 (1306 biniş), 30g 6/84, İzmir 55/545, favoride 24/76 | st 7 | 30g 2 idman, en iyi 400m 25.2, son 5g Rahat
-  # 6 AGE OF FIRE      olasılık %13.1 (adil oran   7.6, değer için ganyan ≥11.4) AGF %27.6 HP92 hız 12 pist galibi 11 koşu | baba TOROK (IRE) B/1.00 KB MARLIN (USA C | E.AKPINAR %9.3 (594 biniş), 30g 2/56, İzmir 4/83, favoride 14/47 | st 4 | 30g 0 idman, son 32g ?
-  # 1 CANENCAN         olasılık % 9.6 (adil oran  10.4, değer için ganyan ≥15.7) AGF % 8.9 HP82 hız 0 ★pist-mesafe galibi 26 koşu | baba CEMCEM D/0.82 KB VICTORY GAL B | M.GÖL %4.1 (294 biniş), 30g 2/32, İzmir 10/270, favoride 2/3 | st 2 | 30g 2 idman, en iyi 400m 23.5, son 5g Rahat
-  # 2 BOCCE            olasılık % 9.0 (adil oran  11.1, değer için ganyan ≥16.6) AGF % 6.4 HP70 hız -3 ★pist-mesafe galibi 25 koşu | baba VICTOIRE PISA D/0.64 KB VICTORY GAL B | Ö.F.ÖZEN %11.4 (1120 biniş), 30g 11/102, İzmir 80/661, favoride 37/95 | st 1 | 30g 3 idman, en iyi 400m 24.3, son 2g Rahat ↑çok idman
+  # 3 WOLF DED         olasılık %45.8 (adil oran   2.2, değer için ganyan ≥3.3) AGF %33.1 HP86 hız -0 ★pist-mesafe galibi 13 koşu | baba TIZWAY (USA) B/1.05 KB OKAWANGO (U C | Y.Ş.GÜMÜŞ %4.1 (319 biniş), 30g 1/11, İzmir 2/31, favoride 1/9 | st 3 | 30g 3 idman, en iyi 400m 24.7, son 2g Rahat ↑çok idman
+  # 4 LAST SWORD       olasılık %17.2 (adil oran   5.8, değer için ganyan ≥8.7) AGF %15.0 HP70 hız 12 pist galibi 17 koşu | baba TOUCH THE WOL A/1.14 KB KANEKO B | Y.GÖKÇE %7.5 (1306 biniş), 30g 6/84, İzmir 55/545, favoride 24/76 | st 7 | 30g 2 idman, en iyi 400m 25.2, son 5g Rahat
+  # 6 AGE OF FIRE      olasılık %14.5 (adil oran   6.9, değer için ganyan ≥10.4) AGF %30.1 HP92 hız 12 pist galibi 11 koşu | baba TOROK (IRE) B/1.00 KB MARLIN (USA C | E.AKPINAR %9.3 (594 biniş), 30g 2/56, İzmir 4/83, favoride 14/47 | st 4 | 30g 0 idman, son 32g ?
+  # 1 CANENCAN         olasılık % 9.6 (adil oran  10.4, değer için ganyan ≥15.6) AGF % 8.9 HP82 hız 0 ★pist-mesafe galibi 26 koşu | baba CEMCEM D/0.82 KB VICTORY GAL B | M.GÖL %4.1 (294 biniş), 30g 2/32, İzmir 10/270, favoride 2/3 | st 2 | 30g 2 idman, en iyi 400m 23.5, son 5g Rahat
+  # 2 BOCCE            olasılık % 8.3 (adil oran  12.1, değer için ganyan ≥18.1) AGF % 5.8 HP70 hız -3 ★pist-mesafe galibi 25 koşu | baba VICTOIRE PISA D/0.64 KB VICTORY GAL B | Ö.F.ÖZEN %11.4 (1120 biniş), 30g 11/102, İzmir 80/661, favoride 37/95 | st 1 | 30g 3 idman, en iyi 400m 24.3, son 2g Rahat ↑çok idman
 
 === 6. Kosu :   17.30 ŞARTLI 4/Dişi 2 Yaşlı İngilizler 57.00kg 1400m Kum  [İngiliz|Kum|kisa]
     Sürpriz riski (geçmiş): 5 bahis birimi → favori %43.8, ganyan≥10 kazanan %7.5; İngiliz Şartlı: favori %40.2, sürpriz %12.1
     Zemin/mesafe profili: favori %39.4 kazanıyor, ort. 9.7 at; iç kulvar (1-3) piyasaya göre 1.03
     Hava/pist: kuru (tahmini ıslaklık 0.0 mm (kuru)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
     Koşu türü (Şartlı 4): 620 koşu örneği, favori %41.1, HP lideri %27.1, tipik HP 35-87
-  # 4 QUEEN OF MUĞLA   olasılık %82.0 (adil oran   1.2, değer için ganyan ≥1.8) AGF %76.9 HP42 hız -8 pist galibi 2 koşu | baba TOCCET (USA) B/0.85 KB PRESSING (I C | N.AVCİ %19.2 (1837 biniş), 30g 8/55, İzmir 195/821, favoride 119/340 | st 2 | 30g 2 idman, en iyi 400m 23.8, son 5g Rahat
-  # 1 BRAVE ROSE       olasılık % 7.5 (adil oran  13.4, değer için ganyan ≥20.1) AGF %10.2 HP42 hız -15 pist galibi 3 koşu | baba MARCAVELLY (U B/1.07 KB FLIERS FANT C | A.YILDIZ %12.0 (2267 biniş), 30g 16/137, İzmir 41/277, favoride 81/249 | st 4 | 30g 1 idman, en iyi 400m 26.5, son 5g Rahat
-  # 3 MY BRAVE GIRL    olasılık % 5.2 (adil oran  19.2, değer için ganyan ≥28.7) AGF % 7.5 HP42 hız -19 pist galibi 5 koşu | baba MARCAVELLY (U B/1.07 KB UNACCOUNTED C | K.TOKAÇOĞLU %12.6 (784 biniş), 30g 4/39, İzmir 41/311, favoride 34/93 | st 1 | 30g 1 idman, en iyi 400m 25.0, son 4g Çalışarak ⚠zorlanarak
-  # 5 ROLYANA          olasılık % 3.4 (adil oran  29.6, değer için ganyan ≥44.4) AGF % 3.2 HP39 hız -6 pist galibi 5 koşu | baba TIGER MOTH (I D/0.86 KB COMMON GROU C | Y.GÖKÇE %7.5 (1306 biniş), 30g 6/84, İzmir 55/545, favoride 24/76 | st 5 | 30g 1 idman, en iyi 400m 25.5, son 5g Rahat
-  # 2 ÇORLİ            olasılık % 2.0 (adil oran  50.8, değer için ganyan ≥76.2) AGF % 2.2 HP38 hız -9 pist galibi 11 koşu | baba JUNGLE MAN C/0.81 KB MENDIP (USA C | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 3 | 30g 2 idman, en iyi 400m 26.2, son 11g Rahat
+  # 4 QUEEN OF MUĞLA   olasılık %84.2 (adil oran   1.2, değer için ganyan ≥1.8) AGF %79.7 HP42 hız -8 pist galibi 2 koşu | baba TOCCET (USA) B/0.85 KB PRESSING (I C | N.AVCİ %19.2 (1837 biniş), 30g 8/55, İzmir 195/821, favoride 119/340 | st 2 | 30g 2 idman, en iyi 400m 23.8, son 5g Rahat
+  # 1 BRAVE ROSE       olasılık % 7.0 (adil oran  14.2, değer için ganyan ≥21.4) AGF % 9.6 HP42 hız -15 pist galibi 3 koşu | baba MARCAVELLY (U B/1.07 KB FLIERS FANT C | A.YILDIZ %12.0 (2267 biniş), 30g 16/137, İzmir 41/277, favoride 81/249 | st 4 | 30g 1 idman, en iyi 400m 26.5, son 5g Rahat
+  # 3 MY BRAVE GIRL    olasılık % 4.1 (adil oran  24.6, değer için ganyan ≥36.8) AGF % 5.9 HP42 hız -19 pist galibi 5 koşu | baba MARCAVELLY (U B/1.07 KB UNACCOUNTED C | K.TOKAÇOĞLU %12.6 (784 biniş), 30g 4/39, İzmir 41/311, favoride 34/93 | st 1 | 30g 1 idman, en iyi 400m 25.0, son 4g Çalışarak ⚠zorlanarak
+  # 5 ROLYANA          olasılık % 2.9 (adil oran  34.2, değer için ganyan ≥51.3) AGF % 2.8 HP39 hız -6 pist galibi 5 koşu | baba TIGER MOTH (I D/0.86 KB COMMON GROU C | Y.GÖKÇE %7.5 (1306 biniş), 30g 6/84, İzmir 55/545, favoride 24/76 | st 5 | 30g 1 idman, en iyi 400m 25.5, son 5g Rahat
+  # 2 ÇORLİ            olasılık % 1.7 (adil oran  57.3, değer için ganyan ≥86.0) AGF % 2.0 HP38 hız -9 pist galibi 11 koşu | baba JUNGLE MAN C/0.81 KB MENDIP (USA C | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 3 | 30g 2 idman, en iyi 400m 26.2, son 11g Rahat
 
 === 7. Kosu :   18.00 Handikap 14 /H1 3 Yaşlı İngilizler kg 1400m Kum  [İngiliz|Kum|kisa]
     Sürpriz riski (geçmiş): 17 bahis birimi → favori %27.7, ganyan≥10 kazanan %29.2; İngiliz Handikap: favori %32.9, sürpriz %16.2
     Zemin/mesafe profili: favori %39.4 kazanıyor, ort. 9.7 at; iç kulvar (1-3) piyasaya göre 1.03
     Hava/pist: kuru (tahmini ıslaklık 0.0 mm (kuru)); bu koşullarda favori %34.3, HP lideri %20.9 kazanıyor (683 koşu)
     Koşu türü (Handikap 14): 344 koşu örneği, favori %32.8, HP lideri %13.0, tipik HP 29-47
-  # 3 HOLY             olasılık %32.8 (adil oran   3.1, değer için ganyan ≥4.6) AGF %33.2 HP50 hız -1 ★pist-mesafe galibi 6 koşu | baba CEMCEM D/0.82 KB MAKFI (GB) C | M.GÖL %4.1 (294 biniş), 30g 2/32, İzmir 10/270, favoride 2/3 | st 10 | 30g 2 idman, en iyi 400m 25.4, son 5g Rahat
-  # 4 APOLLO MAXIMUS   olasılık %20.6 (adil oran   4.9, değer için ganyan ≥7.3) AGF %18.6 HP49 hız 0 ★pist-mesafe galibi 14 koşu | baba MENDIP (USA) C/0.94 KB VICTORY GAL B | N.AVCİ %19.2 (1837 biniş), 30g 8/55, İzmir 195/821, favoride 119/340 | st 5 | 30g 3 idman, en iyi 400m 25.2, son 2g Rahat ↑çok idman
-  # 2 TAŞDEMİR HAN     olasılık % 9.6 (adil oran  10.4, değer için ganyan ≥15.6) AGF % 9.1 HP53 hız -8 pist galibi 22 koşu | baba TIGER MOTH (I D/0.86 KB THREE VALLE B | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 12 | 30g 3 idman, en iyi 400m 25.8, son 1g Rahat ↑çok idman
-  # 9 BOUNDLESS GLORY  olasılık % 6.5 (adil oran  15.4, değer için ganyan ≥23.2) AGF % 7.9 HP42 hız -16 pist galibi 11 koşu | baba AIR VICE MARS B/1.58 KB EXCHANGE RA C | M.ÇİÇEK %16.1 (1390 biniş), 30g 11/81, İzmir 121/672, favoride 61/189 | st 7 | 30g 1 idman, en iyi 400m 26.0, son 5g Rahat
-  # 7 ÇİFTE YÜREKLİ    olasılık % 5.2 (adil oran  19.4, değer için ganyan ≥29.0) AGF % 6.0 HP43 hız -0 pist galibi 14 koşu | baba MYBOYCHARLIE  C/0.51 KB DAI JIN (GB C | Ö.F.ÖZEN %11.4 (1120 biniş), 30g 11/102, İzmir 80/661, favoride 37/95 | st 8 | 30g 1 idman, en iyi 400m 25.0, son 3g Rahat
+  # 3 HOLY             olasılık %33.9 (adil oran   2.9, değer için ganyan ≥4.4) AGF %34.4 HP50 hız -1 ★pist-mesafe galibi 6 koşu | baba CEMCEM D/0.82 KB MAKFI (GB) C | M.GÖL %4.1 (294 biniş), 30g 2/32, İzmir 10/270, favoride 2/3 | st 10 | 30g 2 idman, en iyi 400m 25.4, son 5g Rahat
+  # 4 APOLLO MAXIMUS   olasılık %22.7 (adil oran   4.4, değer için ganyan ≥6.6) AGF %20.5 HP49 hız 0 ★pist-mesafe galibi 14 koşu | baba MENDIP (USA) C/0.94 KB VICTORY GAL B | N.AVCİ %19.2 (1837 biniş), 30g 8/55, İzmir 195/821, favoride 119/340 | st 5 | 30g 3 idman, en iyi 400m 25.2, son 2g Rahat ↑çok idman
+  # 2 TAŞDEMİR HAN     olasılık % 9.1 (adil oran  11.0, değer için ganyan ≥16.5) AGF % 8.6 HP53 hız -8 pist galibi 22 koşu | baba TIGER MOTH (I D/0.86 KB THREE VALLE B | R.KETME %7.2 (1185 biniş), 30g 8/95, İzmir 30/327, favoride 11/41 | st 12 | 30g 3 idman, en iyi 400m 25.8, son 1g Rahat ↑çok idman
+  # 9 BOUNDLESS GLORY  olasılık % 6.8 (adil oran  14.7, değer için ganyan ≥22.1) AGF % 8.3 HP42 hız -16 pist galibi 11 koşu | baba AIR VICE MARS B/1.58 KB EXCHANGE RA C | M.ÇİÇEK %16.1 (1390 biniş), 30g 11/81, İzmir 121/672, favoride 61/189 | st 7 | 30g 1 idman, en iyi 400m 26.0, son 5g Rahat
+  # 6 BURNING HEART    olasılık % 4.9 (adil oran  20.6, değer için ganyan ≥30.9) AGF % 5.8 HP43 hız -13 pist galibi 13 koşu | baba NATIVE KHAN ( C/0.85 KB EAGLE EYED  C | A.KÜRÜNDÜK %3.2 (563 biniş), 30g 0/27, İzmir 18/550, favoride 4/11 | st 6 | 30g 1 idman, en iyi 400m 26.7, son 5g Rahat
 
 === 6'li ganyan (2. koşudan) | birim 1.0 TL, bütçe 300.0 TL
-  1. ayak (2. koşu): 2 SİYAH SANCAK %20, 11 YİĞİT NUR %18, 12 ÖZASYALI %13, 1 ÇILGINDAĞ %13, 4 BATINALP %10, 3 BAŞ YARGIÇ %9  → ayak kapsama %83
-  2. ayak (3. koşu): 1 BER KEMAL %15, 13 BABA ÇAKMAK %13, 8 SERTTAYKUT %13, 12 MERTCAN TAY %12, 4 MADEİRA %12, 3 SOSAN YILDIZI %11  → ayak kapsama %77
-  3. ayak (4. koşu): 3 DRAGON RUNNER %27, 1 SUPER BERK %21, 6 PHANTOM STRIKE %19, 2 BOB VALDES %13  → ayak kapsama %80
-  4. ayak (5. koşu): 3 WOLF DED %45  → ayak kapsama %45
-  5. ayak (6. koşu): 4 QUEEN OF MUĞLA %82  → ayak kapsama %82
-  6. ayak (7. koşu): 3 HOLY %33, 4 APOLLO MAXIMUS %21  → ayak kapsama %53
-  Kupon: 288 kombinasyon = 288 TL | modele göre isabet olasılığı %10.1
+  1. ayak (2. koşu): 2 SİYAH SANCAK %22, 11 YİĞİT NUR %19, 1 ÇILGINDAĞ %14, 12 ÖZASYALI %13  → ayak kapsama %68
+  2. ayak (3. koşu): 1 BER KEMAL %17, 13 BABA ÇAKMAK %14, 12 MERTCAN TAY %13, 8 SERTTAYKUT %12, 4 MADEİRA %11, 3 SOSAN YILDIZI %11, 11 GÜRSELHAN %7, 10 COŞKUNTAY %7, 5 KAZANCI %3  → ayak kapsama %95
+  3. ayak (4. koşu): 3 DRAGON RUNNER %30, 1 SUPER BERK %20, 6 PHANTOM STRIKE %19, 2 BOB VALDES %11  → ayak kapsama %80
+  4. ayak (5. koşu): 3 WOLF DED %46  → ayak kapsama %46
+  5. ayak (6. koşu): 4 QUEEN OF MUĞLA %84  → ayak kapsama %84
+  6. ayak (7. koşu): 3 HOLY %34, 4 APOLLO MAXIMUS %23  → ayak kapsama %57
+  Kupon: 288 kombinasyon = 288 TL | modele göre isabet olasılığı %11.3
 
 İkili / sıralı ikili (Harville, en olası 3):
   1. koşu: sıralı 3-5/6 %17.2; 3-2 %13.8; 5/6-3 %12.8 | ikili 3/5/6 %30.1; 2/3 %23.5; 1/3 %14.5
-  2. koşu: sıralı 2-11 %4.4; 11-2 %4.3; 2-12 %3.4 | ikili 11/2 %8.7; 12/2 %6.4; 1/2 %6.4
-  3. koşu: sıralı 1-13 %2.4; 13-1 %2.3; 1-8 %2.2 | ikili 1/13 %4.7; 1/8 %4.4; 1/12 %4.3
-  4. koşu: sıralı 3-1 %7.8; 1-3 %7.2; 3-6 %7.2 | ikili 1/3 %14.9; 3/6 %13.6; 1/6 %10.1
-  5. koşu: sıralı 3-4 %14.0; 3-6 %10.8; 4-3 %9.3 | ikili 3/4 %23.3; 3/6 %17.6; 1/3 %12.6
-  6. koşu: sıralı 4-1 %34.0; 4-3 %23.7; 4-5 %15.3 | ikili 1/4 %40.6; 3/4 %28.2; 4/5 %18.2
-  7. koşu: sıralı 3-4 %10.0; 4-3 %8.5; 3-2 %4.7 | ikili 3/4 %18.5; 2/3 %8.2; 3/9 %5.4
+  2. koşu: sıralı 2-11 %5.1; 11-2 %4.9; 2-1 %3.8 | ikili 11/2 %10.1; 1/2 %7.3; 12/2 %7.0
+  3. koşu: sıralı 1-13 %2.9; 13-1 %2.8; 1-12 %2.6 | ikili 1/13 %5.8; 1/12 %5.0; 1/8 %4.7
+  4. koşu: sıralı 3-1 %8.5; 3-6 %8.1; 1-3 %7.5 | ikili 1/3 %16.0; 3/6 %15.1; 1/6 %9.5
+  5. koşu: sıralı 3-4 %14.6; 3-6 %12.2; 4-3 %9.5 | ikili 3/4 %24.1; 3/6 %19.9; 1/3 %13.0
+  6. koşu: sıralı 4-1 %37.6; 4-3 %21.8; 4-5 %15.6 | ikili 1/4 %43.9; 3/4 %25.3; 4/5 %18.1
+  7. koşu: sıralı 3-4 %11.7; 4-3 %10.0; 3-2 %4.7 | ikili 3/4 %21.6; 2/3 %8.0; 3/9 %6.0
