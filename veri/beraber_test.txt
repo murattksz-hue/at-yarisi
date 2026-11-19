@@ -1,0 +1,3 @@
+test koşusu: 9168
+sadece piyasa: -1.8249
+  + h2h_net          -1.8235  fark +1.42 binde
