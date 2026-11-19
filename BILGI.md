@@ -316,3 +316,15 @@ Değer bahsi (koşu sonrası kesin ganyanla; gerçekte bahis anında bilinmez):
 - v8 olasılıkları daha temkinli (ör. BEAUTY ALYA %43 → %33): kalibrasyon testindeki aşırı iyimserliği azaltıyor.
 - Canlı test: 19.11 için hem sabahki v6 hem v8 tahminleri koşudan önce donduruldu (`veri/tahminler/*_v8.json`); `canli_takip.py` ikisini ayrı kaydeder (`veri/canli_takip.csv`, `veri/canli_takip_v8.csv`).
 - 19.11 canlı teste üçüncü model eklendi: **AGF'siz** (sadece bizim verimiz, halkın tercihi yok). `AGFSIZ_ZORLA=1` ile üretildi, koşudan önce donduruldu (`veri/tahminler/*_agfsiz.json`), sonuçları `veri/canli_takip_agfsiz.csv`. Karşılaştırma: v6 (sabah), v8 (AGF'li), AGF'siz ve AGF favorisi.
+
+## Galop kaynakları karşılaştırması – 19.11.2026
+| Site | Durum | Karar |
+|---|---|---|
+| pegadrom.com | Sunucuda hazır HTML, robots.txt izin veriyor; geçmiş idmanlar, efor, ara dereceler, jokey | **Kullanılıyor** |
+| TJK idman bilgileri / İdman İstatistikleri | Otomatik isteklere 403 / zaman aşımı | Engel aşılmadı |
+| puanlibulten.com/galoplar | Tablo JavaScript ile robots.txt'nin yasakladığı /api/'den yükleniyor | Kurala uyuldu, kullanılmadı |
+| sonduzluk.com | Galop sayfası 403 | Engel aşılmadı |
+| hipodrom.com | JavaScript uygulaması, HTML'de veri yok | Kullanılamıyor |
+| sihirlikantarma.org | Eski blog yazıları (2022–2025), güncel tablo yok | İşe yaramaz |
+| horseturk.com | Tahmin sitesi, galop listesi yok | İşe yaramaz |
+- pegadrom erişilemezse `gunluk.py` galopsuz çalışır, analizde "idman yok" yazar.
