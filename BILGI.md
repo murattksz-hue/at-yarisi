@@ -471,3 +471,8 @@ Raporlar: `veri/soy_rapor.txt`, `veri/antrenor_rapor_test.txt`, `veri/sahip_rapo
 | Sıralı ikili | model > 1,6× piyasa | 101 | 6 | %92,3 |
 - Değer kuralı getiriyi %77 → %89–92'ye çıkarıyor ama başabaşın altında. Kanıtlanmış kâr yok.
 - Sınır: piyasa çift olasılığı ganyandan (Harville) türetildi, gerçek ikili havuz fiyatı değil. beygir.com'dan kaydedilen gerçek ikili muhtemelleri biriktikçe tam test yapılacak.
+
+## uatracing.com (19.11.2026)
+- robots.txt üye sayfalarını yasaklıyor (canlı bülten, galoplar, tahminciler…) → girilmedi. İçerik çoğunlukla JavaScript/API ile yükleniyor.
+- Açık bilgiler: 46.000+ anaçlık pedigri, 5 kuşak soy ağacı, **dozaj indeksi** (Chef-de-Race; soydan mesafe yatkınlığı), akrabalık katsayısı; AGF birincileri; sabit ihtimalli bahis açıklamaları. "Kim geçer %88,2 isabet" gibi iddialar doğrulanmamış reklam; kullanılmadı.
+- Asıl faydalı ipucu: verilerinin TJK kaynaklı ve 1970'e uzandığı. Kontrol edildi: **TJK'nın kendi sunucusunda CSV sonuç dosyaları 2021 sonbaharından beri var** (Kasım 2021 var, Haziran 2021 yok). Temmuz 2021 – Mayıs 2025 arası indiriliyor (`.gunluk/eski_sonuc_indir.log`) → veri ~1,5 yıldan ~5 yıla çıkacak. Bittiğinde tablolar ve testler yeniden üretilecek.
