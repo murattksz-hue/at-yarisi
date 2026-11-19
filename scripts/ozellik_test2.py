@@ -43,6 +43,7 @@ def jform(j,g):
     L=[x for x in JR[j] if x[0]>=g-30]; w=sum(x[1] for x in L); e=sum(x[2] for x in L); return (w+3)/(e+3)
 def jae(j): s=JK[j]; return (s[0]+10)/(s[1]+10)
 ORN=[]  # (gün, özellik matrisi, kazanan vektörü)
+META=[]  # (tarih_hipodrom, at adları, ganyan, eküri birim anahtarı)
 FEAT=['hp_degisim','pist_mesafe_galibi','pist_galibi','dinlenme_kisa','dinlenme_uzun','deneyim','antrenor_jokey','sahip','jokey_form30','jokey_hipodrom','hiz_son','hiz_en_iyi3','hiz_yok','son_fark_sn','sinif_degisim','kilo_degisim','ilk_kez_KG','antrenor_form','jokey_yukselme','mesafe_degisim','son_koşu_derece']
 gi={g:i for i,g in enumerate(gunler)}
 for g in gunler:
@@ -92,6 +93,7 @@ for g in gunler:
             for j in (1,6,7,8,9,10,15,16,19,20):
                 col=X[:,j]; X[:,j]=np.clip((col-col.mean())/(col.std() or 1),-2.5,2.5)
             ORN.append((gi[g],X,np.array([x['pos']==1 for x in h],float)))
+            META.append((r['g']+'_'+r['hip'],[x['ad'] for x in h],[x['o'] for x in h],[grup.get(x['ad'],'t'+x['ad']) for x in h]))
     # 2) günü geçmişe ekle
     var=collections.defaultdict(list)
     for r in gun:

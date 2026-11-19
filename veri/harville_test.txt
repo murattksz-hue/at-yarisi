@@ -1,0 +1,23 @@
+koşu: 2446
+İlk ikiye girme (Harville tahmini vs gerçek):
+  tahmin %0-10:   9358 birim, ort. tahmin %  5.7, gerçek %  5.5
+  tahmin %10-20:   5988 birim, ort. tahmin % 14.4, gerçek % 15.7
+  tahmin %20-30:   3475 birim, ort. tahmin % 24.5, gerçek % 25.3
+  tahmin %30-40:   2042 birim, ort. tahmin % 34.6, gerçek % 34.4
+  tahmin %40-50:   1374 birim, ort. tahmin % 44.7, gerçek % 43.7
+  tahmin %50-60:    884 birim, ort. tahmin % 54.7, gerçek % 52.1
+  tahmin %60-70:    584 birim, ort. tahmin % 64.7, gerçek % 62.2
+  tahmin %70-80:    388 birim, ort. tahmin % 74.7, gerçek % 71.4
+  tahmin %80-90:    169 birim, ort. tahmin % 84.0, gerçek % 75.7
+  tahmin %90-100:     33 birim, ort. tahmin % 92.7, gerçek % 87.9
+Sıralı ikili (her koşunun en olası 5 kombinasyonu):
+  tahmin %0-5:   3979 kombinasyon, ort. tahmin %  3.9, gerçek %  3.4
+  tahmin %5-10:   5880 kombinasyon, ort. tahmin %  7.0, gerçek %  6.7
+  tahmin %10-15:   1647 kombinasyon, ort. tahmin % 12.0, gerçek % 11.8
+  tahmin %15-20:    472 kombinasyon, ort. tahmin % 16.9, gerçek % 19.7
+  tahmin %20-25:    152 kombinasyon, ort. tahmin % 22.0, gerçek % 26.3
+  tahmin %25-30:     68 kombinasyon, ort. tahmin % 27.4, gerçek % 29.4
+  tahmin %30-35:     22 kombinasyon, ort. tahmin % 31.9, gerçek % 36.4
+  tahmin %35-40:      7 kombinasyon, ort. tahmin % 36.9, gerçek % 28.6
+  tahmin %40-45:      1 kombinasyon, ort. tahmin % 42.6, gerçek %100.0
+  tahmin %45-50:      2 kombinasyon, ort. tahmin % 47.7, gerçek % 50.0

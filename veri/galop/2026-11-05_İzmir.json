@@ -1,0 +1,7631 @@
+{
+"STORM QUEEN": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "11.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "TUNCAY ALTUNKILIÇ",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "52"
+},
+{
+"tarih": "30.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TUNCAY ALTUNKILIÇ",
+"sure": "1.17.00",
+"mesafe": "1200m",
+"split": {
+"1200": 77.0,
+"1000": 63.0,
+"400": 24.0
+},
+"puan": "52"
+},
+{
+"tarih": "03.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MERTCAN ÇELİK",
+"sure": "1.03.60",
+"mesafe": "1000m",
+"split": {
+"1000": 63.6,
+"400": 24.7
+},
+"puan": "52"
+},
+{
+"tarih": "14.05.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HARUN GÜRGEN",
+"sure": "0.38.00",
+"mesafe": "600m",
+"split": {
+"600": 38.0,
+"400": 25.0
+},
+"puan": "52"
+}
+],
+"tarih": "11.11.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "TUNCAY ALTUNKILIÇ",
+"zaman": {},
+"efor": ""
+},
+"SUPERTRAMP": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ZÜLFÜKAR KURT",
+"sure": "0.50.80",
+"mesafe": "800m",
+"split": {
+"800": 50.8,
+"400": 25.0
+},
+"puan": "85"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ZÜLFÜKAR KURT",
+"sure": "0.36.20",
+"mesafe": "600m",
+"split": {
+"600": 36.2,
+"400": 24.0
+},
+"puan": "85"
+},
+{
+"tarih": "29.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ZÜLFÜKAR KURT",
+"sure": "0.37.40",
+"mesafe": "600m",
+"split": {
+"600": 37.4,
+"400": 24.6
+},
+"puan": "85"
+},
+{
+"tarih": "05.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ZÜLFÜKAR KURT",
+"sure": "1.03.00",
+"mesafe": "1000m",
+"split": {
+"1000": 63.0,
+"400": 25.2
+},
+"puan": "85"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ZÜLFÜKAR KURT",
+"zaman": {
+"800": 50.8,
+"400": 25.0
+},
+"efor": "Rahat"
+},
+"DAUGHTER OF GODDES": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERHAN OK",
+"sure": "0.38.20",
+"mesafe": "600m",
+"split": {
+"600": 38.2,
+"400": 24.7
+},
+"puan": "69"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERHAN OK",
+"sure": "0.37.70",
+"mesafe": "600m",
+"split": {
+"600": 37.7,
+"400": 24.2
+},
+"puan": "69"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERHAN OK",
+"sure": "0.38.20",
+"mesafe": "600m",
+"split": {
+"600": 38.2,
+"400": 24.8
+},
+"puan": "69"
+},
+{
+"tarih": "07.06.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "CUMA AKKILIÇ",
+"sure": "0.38.00",
+"mesafe": "600m",
+"split": {
+"600": 38.0,
+"400": 25.0
+},
+"puan": "69"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ERHAN OK",
+"zaman": {
+"600": 38.2,
+"400": 24.7
+},
+"efor": "Rahat"
+},
+"SHINE AGAIN": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKAY KABAPALAMUT",
+"sure": "0.49.50",
+"mesafe": "800m",
+"split": {
+"800": 49.5,
+"400": 24.5
+},
+"puan": "80"
+},
+{
+"tarih": "31.03.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKAY KABAPALAMUT",
+"sure": "0.49.50",
+"mesafe": "800m",
+"split": {
+"800": 49.5,
+"400": 25.0
+},
+"puan": "80"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "GÖKAY KABAPALAMUT",
+"zaman": {
+"800": 49.5,
+"400": 24.5
+},
+"efor": "Rahat"
+},
+"SMYRNA POWER": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "29.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "SULU",
+"tur": "Kenter",
+"efor": "",
+"jokey": "ERDİ GÖKÇE",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "88"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.38.00",
+"mesafe": "600m",
+"split": {
+"600": 38.0,
+"400": 24.7
+},
+"puan": "88"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.36.20",
+"mesafe": "600m",
+"split": {
+"600": 36.2,
+"400": 24.0
+},
+"puan": "88"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "ERDİ GÖKÇE",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "88"
+}
+],
+"tarih": "29.10.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "ERDİ GÖKÇE",
+"zaman": {},
+"efor": ""
+},
+"SONANDA": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "1.04.30",
+"mesafe": "1000m",
+"split": {
+"1000": 64.3,
+"400": 24.7
+},
+"puan": "100"
+},
+{
+"tarih": "30.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "0.35.70",
+"mesafe": "600m",
+"split": {
+"600": 35.7,
+"400": 23.0
+},
+"puan": "100"
+},
+{
+"tarih": "05.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "1.03.50",
+"mesafe": "1000m",
+"split": {
+"1000": 63.5,
+"400": 25.2
+},
+"puan": "100"
+},
+{
+"tarih": "06.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "0.36.30",
+"mesafe": "600m",
+"split": {
+"600": 36.3,
+"400": 23.6
+},
+"puan": "100"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"zaman": {
+"1000": 64.3,
+"400": 24.7
+},
+"efor": "Rahat"
+},
+"BOMONTİ CADISI": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEMİH RENÇBER",
+"sure": "0.38.40",
+"mesafe": "600m",
+"split": {
+"600": 38.4,
+"400": 25.7
+},
+"puan": "45"
+},
+{
+"tarih": "11.06.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "CİHAT YILDIRIM",
+"sure": "0.38.50",
+"mesafe": "600m",
+"split": {
+"600": 38.5,
+"400": 25.2
+},
+"puan": "45"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "SEMİH RENÇBER",
+"zaman": {
+"600": 38.4,
+"400": 25.7
+},
+"efor": "Rahat"
+},
+"FOOTSTEP": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR AYDİLEK",
+"sure": "1.05.30",
+"mesafe": "1000m",
+"split": {
+"1000": 65.3,
+"400": 25.8
+},
+"puan": "70"
+},
+{
+"tarih": "17.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR AYDİLEK",
+"sure": "1.04.00",
+"mesafe": "1000m",
+"split": {
+"1000": 64.0,
+"400": 25.5
+},
+"puan": "70"
+},
+{
+"tarih": "06.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR AYDİLEK",
+"sure": "0.37.80",
+"mesafe": "600m",
+"split": {
+"600": 37.8,
+"400": 25.3
+},
+"puan": "70"
+},
+{
+"tarih": "24.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR AYDİLEK",
+"sure": "0.36.50",
+"mesafe": "600m",
+"split": {
+"600": 36.5,
+"400": 23.7
+},
+"puan": "70"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "UĞUR AYDİLEK",
+"zaman": {
+"1000": 65.3,
+"400": 25.8
+},
+"efor": "Rahat"
+},
+"TEBLİGAT": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "BARIŞ YANIK",
+"sure": "0.37.20",
+"mesafe": "600m",
+"split": {
+"600": 37.2,
+"400": 24.2
+},
+"puan": "75"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "0.51.30",
+"mesafe": "800m",
+"split": {
+"800": 51.3,
+"400": 25.4
+},
+"puan": "75"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERAY LAP",
+"sure": "0.38.70",
+"mesafe": "600m",
+"split": {
+"600": 38.7,
+"400": 25.5
+},
+"puan": "75"
+},
+{
+"tarih": "25.06.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.37.00",
+"mesafe": "600m",
+"split": {
+"600": 37.0,
+"400": 24.0
+},
+"puan": "75"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "BARIŞ YANIK",
+"zaman": {
+"600": 37.2,
+"400": 24.2
+},
+"efor": "Rahat"
+},
+"VICTORIFLY": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "28.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EMRULLAH TEPE",
+"sure": "1.04.80",
+"mesafe": "1000m",
+"split": {
+"1000": 64.8,
+"400": 26.2
+},
+"puan": "72"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EMRULLAH TEPE",
+"sure": "0.38.50",
+"mesafe": "600m",
+"split": {
+"600": 38.5,
+"400": 25.2
+},
+"puan": "72"
+},
+{
+"tarih": "29.06.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "0.24.40",
+"mesafe": "400m",
+"split": {
+"400": 24.4
+},
+"puan": "72"
+}
+],
+"tarih": "28.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "EMRULLAH TEPE",
+"zaman": {
+"1000": 64.8,
+"400": 26.2
+},
+"efor": "Rahat"
+},
+"AMORE GARDEN": {
+"kosu": 1,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "0.36.20",
+"mesafe": "600m",
+"split": {
+"600": 36.2,
+"400": 24.2
+},
+"puan": "95"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "1.03.80",
+"mesafe": "1000m",
+"split": {
+"1000": 63.8,
+"400": 25.6
+},
+"puan": "95"
+},
+{
+"tarih": "04.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "0.37.40",
+"mesafe": "600m",
+"split": {
+"600": 37.4,
+"400": 24.8
+},
+"puan": "95"
+},
+{
+"tarih": "31.03.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKHAN ERDUMAN",
+"sure": "0.52.00",
+"mesafe": "800m",
+"split": {
+"800": 52.0,
+"400": 25.7
+},
+"puan": "95"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "TOLGA YILMAZ",
+"zaman": {
+"600": 36.2,
+"400": 24.2
+},
+"efor": "Rahat"
+},
+"FALCON OF MUTAFLAR": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "1.05.50",
+"mesafe": "1000m",
+"split": {
+"1000": 65.5,
+"400": 25.8
+},
+"puan": "67"
+},
+{
+"tarih": "10.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "0.52.50",
+"mesafe": "800m",
+"split": {
+"800": 52.5,
+"400": 25.7
+},
+"puan": "67"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "0.50.20",
+"mesafe": "800m",
+"split": {
+"800": 50.2,
+"400": 25.0
+},
+"puan": "67"
+},
+{
+"tarih": "27.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "0.38.60",
+"mesafe": "600m",
+"split": {
+"600": 38.6,
+"400": 25.0
+},
+"puan": "67"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "OKTAY KIZILDAŞ",
+"zaman": {
+"1000": 65.5,
+"400": 25.8
+},
+"efor": "Rahat"
+},
+"FEBRİS": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEFER SOYSAL",
+"sure": "0.37.40",
+"mesafe": "600m",
+"split": {
+"600": 37.4,
+"400": 25.0
+},
+"puan": "75"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEFER SOYSAL",
+"sure": "1.19.50",
+"mesafe": "1200m",
+"split": {
+"1200": 79.5,
+"1000": 65.7,
+"400": 26.0
+},
+"puan": "75"
+},
+{
+"tarih": "19.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEFER SOYSAL",
+"sure": "1.02.30",
+"mesafe": "1000m",
+"split": {
+"1000": 62.3,
+"400": 24.7
+},
+"puan": "75"
+},
+{
+"tarih": "21.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEFER SOYSAL",
+"sure": "0.37.40",
+"mesafe": "600m",
+"split": {
+"600": 37.4,
+"400": 25.0
+},
+"puan": "75"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "SEFER SOYSAL",
+"zaman": {
+"600": 37.4,
+"400": 25.0
+},
+"efor": "Rahat"
+},
+"ASLAN HALİLİM": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SERHAT GÖKÇE",
+"sure": "0.38.70",
+"mesafe": "600m",
+"split": {
+"600": 38.7,
+"400": 25.7
+},
+"puan": "74"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİTCAN GÖKÇE",
+"sure": "1.02.50",
+"mesafe": "1000m",
+"split": {
+"1000": 62.5,
+"400": 25.0
+},
+"puan": "74"
+},
+{
+"tarih": "19.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "KÜRŞAT YILMAZ",
+"sure": "1.03.50",
+"mesafe": "1000m",
+"split": {
+"1000": 63.5,
+"400": 25.0
+},
+"puan": "74"
+},
+{
+"tarih": "29.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "KÜRŞAT YILMAZ",
+"sure": "0.49.50",
+"mesafe": "800m",
+"split": {
+"800": 49.5,
+"400": 24.5
+},
+"puan": "74"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "SERHAT GÖKÇE",
+"zaman": {
+"600": 38.7,
+"400": 25.7
+},
+"efor": "Rahat"
+},
+"CHUMLEE": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKAY KABAPALAMUT",
+"sure": "0.39.30",
+"mesafe": "600m",
+"split": {
+"600": 39.3,
+"400": 25.8
+},
+"puan": "79"
+},
+{
+"tarih": "10.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKAY KABAPALAMUT",
+"sure": "0.39.20",
+"mesafe": "600m",
+"split": {
+"600": 39.2,
+"400": 25.7
+},
+"puan": "79"
+},
+{
+"tarih": "03.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKAY KABAPALAMUT",
+"sure": "0.37.50",
+"mesafe": "600m",
+"split": {
+"600": 37.5,
+"400": 25.0
+},
+"puan": "79"
+},
+{
+"tarih": "08.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKAY KABAPALAMUT",
+"sure": "0.36.50",
+"mesafe": "600m",
+"split": {
+"600": 36.5,
+"400": 23.8
+},
+"puan": "79"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "GÖKAY KABAPALAMUT",
+"zaman": {
+"600": 39.3,
+"400": 25.8
+},
+"efor": "Rahat"
+},
+"LAST SWORD": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FAHRETTİN CEYLAN",
+"sure": "1.05.00",
+"mesafe": "1000m",
+"split": {
+"1000": 65.0,
+"400": 25.2
+},
+"puan": "65"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEFER SOYSAL",
+"sure": "0.53.30",
+"mesafe": "800m",
+"split": {
+"800": 53.3,
+"400": 25.6
+},
+"puan": "65"
+},
+{
+"tarih": "17.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEFER SOYSAL",
+"sure": "1.03.80",
+"mesafe": "1000m",
+"split": {
+"1000": 63.8,
+"400": 25.7
+},
+"puan": "65"
+},
+{
+"tarih": "03.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEFER SOYSAL",
+"sure": "1.02.50",
+"mesafe": "1000m",
+"split": {
+"1000": 62.5,
+"400": 25.0
+},
+"puan": "65"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "FAHRETTİN CEYLAN",
+"zaman": {
+"1000": 65.0,
+"400": 25.2
+},
+"efor": "Rahat"
+},
+"MYSTIC STRIKE": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "18.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "NASUH AKTAŞ",
+"sure": "0.38.80",
+"mesafe": "600m",
+"split": {
+"600": 38.8,
+"400": 25.2
+},
+"puan": "100"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "NASUH AKTAŞ",
+"sure": "0.35.40",
+"mesafe": "600m",
+"split": {
+"600": 35.4,
+"400": 23.8
+},
+"puan": "100"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "NASUH AKTAŞ",
+"sure": "0.36.00",
+"mesafe": "600m",
+"split": {
+"600": 36.0,
+"400": 23.6
+},
+"puan": "100"
+},
+{
+"tarih": "08.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "NASUH AKTAŞ",
+"sure": "0.50.20",
+"mesafe": "800m",
+"split": {
+"800": 50.2,
+"400": 24.5
+},
+"puan": "100"
+}
+],
+"tarih": "18.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "NASUH AKTAŞ",
+"zaman": {
+"600": 38.8,
+"400": 25.2
+},
+"efor": "Rahat"
+},
+"SON ELÇİ": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OSMAN CAN SÖZERİ",
+"sure": "1.06.00",
+"mesafe": "1000m",
+"split": {
+"1000": 66.0,
+"400": 26.0
+},
+"puan": "68"
+},
+{
+"tarih": "16.04.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "0.37.20",
+"mesafe": "600m",
+"split": {
+"600": 37.2,
+"400": 24.0
+},
+"puan": "68"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "OSMAN CAN SÖZERİ",
+"zaman": {
+"1000": 66.0,
+"400": 26.0
+},
+"efor": "Rahat"
+},
+"KARPATINO": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "11.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "60"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MURAT AKALIN",
+"sure": "1.05.80",
+"mesafe": "1000m",
+"split": {
+"1000": 65.8,
+"400": 25.5
+},
+"puan": "60"
+},
+{
+"tarih": "21.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "MURAT AKALIN",
+"sure": "0.26.20",
+"mesafe": "400m",
+"split": {
+"400": 26.2
+},
+"puan": "60"
+},
+{
+"tarih": "10.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YASİN ŞEREF GÜMÜŞ",
+"sure": "1.03.30",
+"mesafe": "1000m",
+"split": {
+"1000": 63.3,
+"400": 25.5
+},
+"puan": "60"
+}
+],
+"tarih": "11.11.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "MUSTAFA TEKPETEK",
+"zaman": {},
+"efor": ""
+},
+"DEALBREAKER": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "ONUR GÖKÇE",
+"sure": "1.30.80",
+"mesafe": "1400m",
+"split": {
+"1000": 65.0,
+"400": 27.0
+},
+"puan": "65"
+},
+{
+"tarih": "21.05.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ONUR FİDAN",
+"sure": "0.37.90",
+"mesafe": "600m",
+"split": {
+"600": 37.9,
+"400": 24.9
+},
+"puan": "65"
+},
+{
+"tarih": "17.05.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ONUR FİDAN",
+"sure": "1.05.20",
+"mesafe": "1000m",
+"split": {
+"1000": 65.2,
+"400": 25.5
+},
+"puan": "65"
+},
+{
+"tarih": "16.04.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ONUR FİDAN",
+"sure": "0.50.20",
+"mesafe": "800m",
+"split": {
+"800": 50.2,
+"400": 25.3
+},
+"puan": "65"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ONUR GÖKÇE",
+"zaman": {
+"1000": 65.0,
+"400": 27.0
+},
+"efor": "Çalışarak"
+},
+"CALL ME NATIVE": {
+"kosu": 2,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EMRULLAH TEPE",
+"sure": "0.56.80",
+"mesafe": "800m",
+"split": {
+"800": 56.8,
+"400": 27.5
+},
+"puan": "45"
+},
+{
+"tarih": "28.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKHAN İREM BODUR",
+"sure": "1.05.50",
+"mesafe": "1000m",
+"split": {
+"1000": 65.5,
+"400": 26.6
+},
+"puan": "45"
+},
+{
+"tarih": "11.06.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "CUMALİ AVLİ",
+"sure": "0.50.20",
+"mesafe": "800m",
+"split": {
+"800": 50.2,
+"400": 25.7
+},
+"puan": "45"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "EMRULLAH TEPE",
+"zaman": {
+"800": 56.8,
+"400": 27.5
+},
+"efor": "Rahat"
+},
+"ÇILGINDAĞ": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "ONUR GÖKÇE",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "76"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ONUR GÖKÇE",
+"sure": "1.12.20",
+"mesafe": "1000m",
+"split": {
+"1000": 72.2,
+"400": 28.5
+},
+"puan": "76"
+},
+{
+"tarih": "08.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ONUR GÖKÇE",
+"sure": "0.42.60",
+"mesafe": "600m",
+"split": {
+"600": 42.6,
+"400": 28.0
+},
+"puan": "76"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ONUR GÖKÇE",
+"sure": "0.43.70",
+"mesafe": "600m",
+"split": {
+"600": 43.7,
+"400": 28.7
+},
+"puan": "76"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "ONUR GÖKÇE",
+"zaman": {},
+"efor": ""
+},
+"ADANIN OĞLU": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TUNCAY ALTUNKILIÇ",
+"sure": "0.41.70",
+"mesafe": "600m",
+"split": {
+"600": 41.7,
+"400": 27.4
+},
+"puan": "100"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TUNCAY ALTUNKILIÇ",
+"sure": "0.54.50",
+"mesafe": "800m",
+"split": {
+"800": 54.5,
+"400": 26.3
+},
+"puan": "100"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "TUNCAY ALTUNKILIÇ",
+"zaman": {
+"600": 41.7,
+"400": 27.4
+},
+"efor": "Rahat"
+},
+"BAŞ YARGIÇ": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"sure": "0.44.00",
+"mesafe": "600m",
+"split": {
+"600": 44.0,
+"400": 29.0
+},
+"puan": "91"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TUNCAY ALTUNKILIÇ",
+"sure": "0.58.50",
+"mesafe": "800m",
+"split": {
+"800": 58.5,
+"400": 29.2
+},
+"puan": "91"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"sure": "1.13.60",
+"mesafe": "1000m",
+"split": {
+"1000": 73.6,
+"400": 28.7
+},
+"puan": "91"
+},
+{
+"tarih": "16.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "",
+"tur": "Galop",
+"efor": "",
+"jokey": "",
+"sure": "0.57.00",
+"mesafe": "800m",
+"split": {
+"800": 57.0,
+"400": 28.6
+},
+"puan": "91"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"zaman": {
+"600": 44.0,
+"400": 29.0
+},
+"efor": "Rahat"
+},
+"KING MERT": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "İSMAİL KALE",
+"sure": "1.25.30",
+"mesafe": "1200m",
+"split": {
+"1200": 85.3,
+"1000": 70.0,
+"400": 28.6
+},
+"puan": "80"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "İSMAİL KALE",
+"zaman": {
+"1200": 85.3,
+"1000": 70.0,
+"400": 28.6
+},
+"efor": "Çalışarak"
+},
+"KUZEYİN POYRAZI": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "95"
+},
+{
+"tarih": "28.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "MURAT AKALIN",
+"sure": "0.27.60",
+"mesafe": "400m",
+"split": {
+"400": 27.6
+},
+"puan": "95"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YASİN ŞEREF GÜMÜŞ",
+"sure": "0.56.00",
+"mesafe": "800m",
+"split": {
+"800": 56.0,
+"400": 28.5
+},
+"puan": "95"
+},
+{
+"tarih": "24.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.41.70",
+"mesafe": "600m",
+"split": {
+"600": 41.7,
+"400": 27.5
+},
+"puan": "95"
+}
+],
+"tarih": "10.11.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "MUSTAFA TEKPETEK",
+"zaman": {},
+"efor": ""
+},
+"SONEJDER": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OSMAN CAN SÖZERİ",
+"sure": "0.45.50",
+"mesafe": "600m",
+"split": {
+"600": 45.5,
+"400": 32.0
+},
+"puan": "45"
+}
+],
+"tarih": "15.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "OSMAN CAN SÖZERİ",
+"zaman": {
+"600": 45.5,
+"400": 32.0
+},
+"efor": "Rahat"
+},
+"ZORBEY FIRTINASI": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERHAN OK",
+"sure": "0.57.20",
+"mesafe": "800m",
+"split": {
+"800": 57.2,
+"400": 28.7
+},
+"puan": "77"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "ERHAN OK",
+"sure": "1.11.50",
+"mesafe": "1000m",
+"split": {
+"1000": 71.5,
+"400": 29.5
+},
+"puan": "77"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ERHAN OK",
+"zaman": {
+"800": 57.2,
+"400": 28.7
+},
+"efor": "Rahat"
+},
+"BERRUNAZ": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "28.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "SİNAN AKŞIN",
+"sure": "0.27.80",
+"mesafe": "400m",
+"split": {
+"400": 27.8
+},
+"puan": "94"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SİNAN AKŞIN",
+"sure": "1.12.50",
+"mesafe": "1000m",
+"split": {
+"1000": 72.5,
+"400": 28.7
+},
+"puan": "94"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SİNAN AKŞIN",
+"sure": "0.41.30",
+"mesafe": "600m",
+"split": {
+"600": 41.3,
+"400": 27.4
+},
+"puan": "94"
+},
+{
+"tarih": "06.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SİNAN AKŞIN",
+"sure": "0.43.30",
+"mesafe": "600m",
+"split": {
+"600": 43.3,
+"400": 29.0
+},
+"puan": "94"
+}
+],
+"tarih": "28.10.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "SİNAN AKŞIN",
+"zaman": {
+"400": 27.8
+},
+"efor": "Rahat"
+},
+"ALEV KIZ": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.42.50",
+"mesafe": "600m",
+"split": {
+"600": 42.5,
+"400": 28.7
+},
+"puan": "84"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.28.70",
+"mesafe": "400m",
+"split": {
+"400": 28.7
+},
+"puan": "84"
+},
+{
+"tarih": "06.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.45.60",
+"mesafe": "600m",
+"split": {
+"600": 45.6,
+"400": 29.4
+},
+"puan": "84"
+},
+{
+"tarih": "24.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.41.80",
+"mesafe": "600m",
+"split": {
+"600": 41.8,
+"400": 28.2
+},
+"puan": "84"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "MUSTAFA TEKPETEK",
+"zaman": {
+"600": 42.5,
+"400": 28.7
+},
+"efor": "Rahat"
+},
+"ALYA HANIM": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YUSUF CAN",
+"sure": "1.13.00",
+"mesafe": "1000m",
+"split": {
+"1000": 73.0,
+"400": 28.0
+},
+"puan": "65"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "YUSUF CAN",
+"zaman": {
+"1000": 73.0,
+"400": 28.0
+},
+"efor": "Rahat"
+},
+"DEMİRİN KILICI": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN AKYOL",
+"sure": "0.44.00",
+"mesafe": "600m",
+"split": {
+"600": 44.0,
+"400": 30.6
+},
+"puan": "81"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN AKYOL",
+"sure": "0.55.50",
+"mesafe": "800m",
+"split": {
+"800": 55.5,
+"400": 27.5
+},
+"puan": "81"
+},
+{
+"tarih": "30.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN AKYOL",
+"sure": "0.43.70",
+"mesafe": "600m",
+"split": {
+"600": 43.7,
+"400": 30.2
+},
+"puan": "81"
+},
+{
+"tarih": "10.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN AKYOL",
+"sure": "0.45.00",
+"mesafe": "600m",
+"split": {
+"600": 45.0,
+"400": 30.0
+},
+"puan": "81"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "HÜSEYİN AKYOL",
+"zaman": {
+"600": 44.0,
+"400": 30.6
+},
+"efor": "Rahat"
+},
+"KAYANİLİM": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "Antalya",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ATAKAN VURAL",
+"sure": "0.56.00",
+"mesafe": "800m",
+"split": {
+"800": 56.0,
+"400": 28.6
+},
+"puan": "87"
+},
+{
+"tarih": "28.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİT ASLAN",
+"sure": "0.41.80",
+"mesafe": "600m",
+"split": {
+"600": 41.8,
+"400": 27.8
+},
+"puan": "87"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİT ASLAN",
+"sure": "1.12.70",
+"mesafe": "1000m",
+"split": {
+"1000": 72.7,
+"400": 29.0
+},
+"puan": "87"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "YİĞİT ASLAN",
+"sure": "1.12.70",
+"mesafe": "1000m",
+"split": {
+"1000": 72.7,
+"400": 29.0
+},
+"puan": "87"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "Antalya",
+"jokey": "ATAKAN VURAL",
+"zaman": {
+"800": 56.0,
+"400": 28.6
+},
+"efor": "Rahat"
+},
+"SOLUKMAVİ": {
+"kosu": 3,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "0.32.50",
+"mesafe": "400m",
+"split": {
+"400": 32.5
+},
+"puan": "50"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "0.59.00",
+"mesafe": "800m",
+"split": {
+"800": 59.0,
+"400": 30.0
+},
+"puan": "50"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "0.45.70",
+"mesafe": "600m",
+"split": {
+"600": 45.7,
+"400": 30.0
+},
+"puan": "50"
+},
+{
+"tarih": "06.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "0.31.80",
+"mesafe": "400m",
+"split": {
+"400": 31.8
+},
+"puan": "50"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "EREN DURSUN ÖKTEN",
+"zaman": {
+"400": 32.5
+},
+"efor": "Rahat"
+},
+"THE BLACK": {
+"kosu": 4,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MERTCAN AKIN",
+"sure": "1.03.70",
+"mesafe": "1000m",
+"split": {
+"1000": 63.7,
+"400": 25.5
+},
+"puan": "83"
+},
+{
+"tarih": "10.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MERTCAN AKIN",
+"sure": "1.03.50",
+"mesafe": "1000m",
+"split": {
+"1000": 63.5,
+"400": 25.5
+},
+"puan": "83"
+},
+{
+"tarih": "19.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MERTCAN AKIN",
+"sure": "1.03.50",
+"mesafe": "1000m",
+"split": {
+"1000": 63.5,
+"400": 25.0
+},
+"puan": "83"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "MERTCAN AKIN",
+"zaman": {
+"1000": 63.7,
+"400": 25.5
+},
+"efor": "Rahat"
+},
+"SOMEBODY LOVES YOU": {
+"kosu": 4,
+"idmanlar": [
+{
+"tarih": "02.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "1.05.50",
+"mesafe": "1000m",
+"split": {
+"1000": 65.5,
+"400": 25.6
+},
+"puan": "100"
+},
+{
+"tarih": "10.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "1.05.20",
+"mesafe": "1000m",
+"split": {
+"1000": 65.2,
+"400": 25.7
+},
+"puan": "100"
+},
+{
+"tarih": "24.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "0.24.50",
+"mesafe": "400m",
+"split": {
+"400": 24.5
+},
+"puan": "100"
+},
+{
+"tarih": "19.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "1.04.30",
+"mesafe": "1000m",
+"split": {
+"1000": 64.3,
+"400": 24.6
+},
+"puan": "100"
+}
+],
+"tarih": "02.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "GÜVEN ÖZDİL",
+"zaman": {
+"1000": 65.5,
+"400": 25.6
+},
+"efor": "Rahat"
+},
+"LADY ECRİN": {
+"kosu": 4,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "0.51.40",
+"mesafe": "800m",
+"split": {
+"800": 51.4,
+"400": 26.2
+},
+"puan": "85"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "1.04.00",
+"mesafe": "1000m",
+"split": {
+"1000": 64.0,
+"400": 24.6
+},
+"puan": "85"
+},
+{
+"tarih": "17.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "1.05.00",
+"mesafe": "1000m",
+"split": {
+"1000": 65.0,
+"400": 25.5
+},
+"puan": "85"
+},
+{
+"tarih": "26.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "1.03.80",
+"mesafe": "1000m",
+"split": {
+"1000": 63.8,
+"400": 25.6
+},
+"puan": "85"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "FERDİ KABADAYI",
+"zaman": {
+"800": 51.4,
+"400": 26.2
+},
+"efor": "Rahat"
+},
+"BİR RÜZGAR": {
+"kosu": 4,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "RAMAZAN ÇATALKAYA",
+"sure": "0.26.80",
+"mesafe": "400m",
+"split": {
+"400": 26.8
+},
+"puan": "75"
+},
+{
+"tarih": "29.09.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "ISLAK",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "ORHAN BOZYEL",
+"sure": "0.26.30",
+"mesafe": "400m",
+"split": {
+"400": 26.3
+},
+"puan": "75"
+},
+{
+"tarih": "29.09.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "ISLAK",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "ORHAN BOZYEL",
+"sure": "0.26.30",
+"mesafe": "400m",
+"split": {
+"400": 26.3
+},
+"puan": "75"
+},
+{
+"tarih": "18.09.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "ORHAN BOZYEL",
+"sure": "0.24.80",
+"mesafe": "400m",
+"split": {
+"400": 24.8
+},
+"puan": "75"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İstanbul",
+"jokey": "RAMAZAN ÇATALKAYA",
+"zaman": {
+"400": 26.8
+},
+"efor": "Rahat"
+},
+"RED WHITE BLACK": {
+"kosu": 4,
+"idmanlar": [
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "RAMAZAN AKŞIN",
+"sure": "1.09.00",
+"mesafe": "1000m",
+"split": {
+"1000": 69.0,
+"400": 27.8
+},
+"puan": "45"
+},
+{
+"tarih": "22.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "RAMAZAN AKŞIN",
+"sure": "0.25.50",
+"mesafe": "400m",
+"split": {
+"400": 25.5
+},
+"puan": "45"
+}
+],
+"tarih": "01.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "RAMAZAN AKŞIN",
+"zaman": {
+"1000": 69.0,
+"400": 27.8
+},
+"efor": "Çalışarak"
+},
+"KAZANCI": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "18.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.30.00",
+"mesafe": "400m",
+"split": {
+"1000": 73.5,
+"400": 30.0
+},
+"puan": "76"
+},
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YASİN ŞEREF GÜMÜŞ",
+"sure": "1.13.50",
+"mesafe": "1000m",
+"split": {
+"1000": 73.5,
+"400": 29.0
+},
+"puan": "76"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YASİN ŞEREF GÜMÜŞ",
+"sure": "0.41.00",
+"mesafe": "600m",
+"split": {
+"600": 41.0,
+"400": 27.5
+},
+"puan": "76"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "RAMAZAN AKŞIN",
+"sure": "0.55.50",
+"mesafe": "800m",
+"split": {
+"800": 55.5,
+"400": 27.8
+},
+"puan": "76"
+}
+],
+"tarih": "18.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "METE GÖL",
+"zaman": {
+"1000": 73.5,
+"400": 30.0
+},
+"efor": "Rahat"
+},
+"MADEİRA": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "İBRAHİM SEFA SÖĞÜT",
+"sure": "1.09.60",
+"mesafe": "1000m",
+"split": {
+"1000": 69.6,
+"400": 27.8
+},
+"puan": "100"
+},
+{
+"tarih": "17.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "İBRAHİM SEFA SÖĞÜT",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "100"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "İBRAHİM SEFA SÖĞÜT",
+"sure": "0.40.20",
+"mesafe": "600m",
+"split": {
+"600": 40.2,
+"400": 27.0
+},
+"puan": "100"
+},
+{
+"tarih": "12.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "1.12.00",
+"mesafe": "1000m",
+"split": {
+"1000": 72.0,
+"400": 28.5
+},
+"puan": "100"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "İBRAHİM SEFA SÖĞÜT",
+"zaman": {
+"1000": 69.6,
+"400": 27.8
+},
+"efor": "Rahat"
+},
+"RÜZGARSU": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "25.10.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "RÜZGAR YILDIZ",
+"sure": "0.44.00",
+"mesafe": "600m",
+"split": {
+"600": 44.0,
+"400": 29.0
+},
+"puan": "62"
+},
+{
+"tarih": "16.10.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "ISLAK",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "APRANTİ",
+"sure": "1.00.00",
+"mesafe": "800m",
+"split": {
+"800": 60.0,
+"400": 30.0
+},
+"puan": "62"
+},
+{
+"tarih": "04.10.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN KAYA",
+"sure": "0.57.00",
+"mesafe": "800m",
+"split": {
+"800": 57.0,
+"400": 28.2
+},
+"puan": "62"
+},
+{
+"tarih": "23.09.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN KAYA",
+"sure": "0.43.00",
+"mesafe": "600m",
+"split": {
+"600": 43.0,
+"400": 28.7
+},
+"puan": "62"
+}
+],
+"tarih": "25.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "Ankara",
+"jokey": "RÜZGAR YILDIZ",
+"zaman": {
+"600": 44.0,
+"400": 29.0
+},
+"efor": "Rahat"
+},
+"ULU YAŞAR": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "1.11.00",
+"mesafe": "1000m",
+"split": {
+"1000": 71.0,
+"400": 28.3
+},
+"puan": "98"
+},
+{
+"tarih": "08.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ÖMER FARUK ÖZEN",
+"sure": "0.42.20",
+"mesafe": "600m",
+"split": {
+"600": 42.2,
+"400": 27.5
+},
+"puan": "98"
+},
+{
+"tarih": "30.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "1.11.00",
+"mesafe": "1000m",
+"split": {
+"1000": 71.0,
+"400": 27.2
+},
+"puan": "98"
+},
+{
+"tarih": "13.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "0.41.30",
+"mesafe": "600m",
+"split": {
+"600": 41.3,
+"400": 27.3
+},
+"puan": "98"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "HÜSEYİN TOPSAKAL",
+"zaman": {
+"1000": 71.0,
+"400": 28.3
+},
+"efor": "Rahat"
+},
+"DEMİRNAL": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "29.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "FURKAN KARAKURT",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "65"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.43.00",
+"mesafe": "600m",
+"split": {
+"600": 43.0,
+"400": 28.5
+},
+"puan": "65"
+},
+{
+"tarih": "13.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.29.60",
+"mesafe": "400m",
+"split": {
+"400": 29.6
+},
+"puan": "65"
+},
+{
+"tarih": "06.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "İBRAHİM SEFA SÖĞÜT",
+"sure": "0.43.00",
+"mesafe": "600m",
+"split": {
+"600": 43.0,
+"400": 28.8
+},
+"puan": "65"
+}
+],
+"tarih": "29.10.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "FURKAN KARAKURT",
+"zaman": {},
+"efor": ""
+},
+"GÜRSELHAN": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"sure": "0.42.00",
+"mesafe": "600m",
+"split": {
+"600": 42.0,
+"400": 27.5
+},
+"puan": "88"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"sure": "0.57.20",
+"mesafe": "800m",
+"split": {
+"800": 57.2,
+"400": 28.0
+},
+"puan": "88"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"sure": "0.40.50",
+"mesafe": "600m",
+"split": {
+"600": 40.5,
+"400": 27.0
+},
+"puan": "88"
+},
+{
+"tarih": "22.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"sure": "0.30.60",
+"mesafe": "400m",
+"split": {
+"400": 30.6
+},
+"puan": "88"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"zaman": {
+"600": 42.0,
+"400": 27.5
+},
+"efor": "Rahat"
+},
+"SİLLETOKAT": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.44.50",
+"mesafe": "600m",
+"split": {
+"600": 44.5,
+"400": 29.7
+},
+"puan": "45"
+}
+],
+"tarih": "01.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "FURKAN KARAKURT",
+"zaman": {
+"600": 44.5,
+"400": 29.7
+},
+"efor": "Rahat"
+},
+"AVANOS EFESİ": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.42.50",
+"mesafe": "600m",
+"split": {
+"600": 42.5,
+"400": 27.8
+},
+"puan": "96"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.43.70",
+"mesafe": "600m",
+"split": {
+"600": 43.7,
+"400": 29.0
+},
+"puan": "96"
+},
+{
+"tarih": "13.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.26.70",
+"mesafe": "400m",
+"split": {
+"400": 26.7
+},
+"puan": "96"
+},
+{
+"tarih": "03.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.56.70",
+"mesafe": "800m",
+"split": {
+"800": 56.7,
+"400": 28.2
+},
+"puan": "96"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "MUSTAFA TEKPETEK",
+"zaman": {
+"600": 42.5,
+"400": 27.8
+},
+"efor": "Rahat"
+},
+"SARSALA": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "95"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "1.10.20",
+"mesafe": "1000m",
+"split": {
+"1000": 70.2,
+"400": 28.0
+},
+"puan": "95"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "0.41.50",
+"mesafe": "600m",
+"split": {
+"600": 41.5,
+"400": 27.0
+},
+"puan": "95"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "0.40.50",
+"mesafe": "600m",
+"split": {
+"600": 40.5,
+"400": 27.0
+},
+"puan": "95"
+}
+],
+"tarih": "10.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"zaman": {},
+"efor": ""
+},
+"KIVIRCIKKIZ": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "BURAK KARAGÖZ",
+"sure": "0.42.80",
+"mesafe": "600m",
+"split": {
+"600": 42.8,
+"400": 28.0
+},
+"puan": "67"
+},
+{
+"tarih": "26.10.2026",
+"hipodrom": "Kocaeli",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TURGAY ÇEKİCİ",
+"sure": "0.59.00",
+"mesafe": "800m",
+"split": {
+"800": 59.0,
+"400": 29.0
+},
+"puan": "67"
+},
+{
+"tarih": "27.09.2026",
+"hipodrom": "Kocaeli",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "NEJDET ALTIN",
+"sure": "0.43.00",
+"mesafe": "600m",
+"split": {
+"600": 43.0,
+"400": 28.0
+},
+"puan": "67"
+},
+{
+"tarih": "06.09.2026",
+"hipodrom": "Kocaeli",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "NEJDET ALTIN",
+"sure": "0.44.30",
+"mesafe": "600m",
+"split": {
+"600": 44.3,
+"400": 29.0
+},
+"puan": "67"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İstanbul",
+"jokey": "BURAK KARAGÖZ",
+"zaman": {
+"600": 42.8,
+"400": 28.0
+},
+"efor": "Rahat"
+},
+"KIVIRCIK MEMET": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "10.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ALİ BERK METİN",
+"sure": "0.42.00",
+"mesafe": "600m",
+"split": {
+"600": 42.0,
+"400": 27.5
+},
+"puan": "77"
+},
+{
+"tarih": "01.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "ALİ BERK METİN",
+"sure": "0.28.80",
+"mesafe": "400m",
+"split": {
+"400": 28.8
+},
+"puan": "77"
+},
+{
+"tarih": "13.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ALİ BERK METİN",
+"sure": "0.44.00",
+"mesafe": "600m",
+"split": {
+"600": 44.0,
+"400": 29.0
+},
+"puan": "77"
+},
+{
+"tarih": "16.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "0.42.00",
+"mesafe": "600m",
+"split": {
+"600": 42.0,
+"400": 27.0
+},
+"puan": "77"
+}
+],
+"tarih": "10.09.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ALİ BERK METİN",
+"zaman": {
+"600": 42.0,
+"400": 27.5
+},
+"efor": "Rahat"
+},
+"LOTUS EMİNE": {
+"kosu": 5,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HALİM YİĞİT ÜNVER",
+"sure": "0.44.20",
+"mesafe": "600m",
+"split": {
+"600": 44.2,
+"400": 29.2
+},
+"puan": "73"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MERTCAN AKIN",
+"sure": "0.41.70",
+"mesafe": "600m",
+"split": {
+"600": 41.7,
+"400": 27.5
+},
+"puan": "73"
+},
+{
+"tarih": "08.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MERTCAN AKIN",
+"sure": "0.42.00",
+"mesafe": "600m",
+"split": {
+"600": 42.0,
+"400": 27.5
+},
+"puan": "73"
+},
+{
+"tarih": "30.04.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METİN MERT KARABULUT",
+"sure": "0.44.50",
+"mesafe": "600m",
+"split": {
+"600": 44.5,
+"400": 28.7
+},
+"puan": "73"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "HALİM YİĞİT ÜNVER",
+"zaman": {
+"600": 44.2,
+"400": 29.2
+},
+"efor": "Rahat"
+},
+"AZRAKTAY": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "1.13.30",
+"mesafe": "1000m",
+"split": {
+"1000": 73.3,
+"400": 28.8
+},
+"puan": "74"
+},
+{
+"tarih": "16.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "FURKAN KARAKURT",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "74"
+},
+{
+"tarih": "07.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.43.70",
+"mesafe": "600m",
+"split": {
+"600": 43.7,
+"400": 28.5
+},
+"puan": "74"
+},
+{
+"tarih": "24.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.42.80",
+"mesafe": "600m",
+"split": {
+"600": 42.8,
+"400": 28.5
+},
+"puan": "74"
+}
+],
+"tarih": "24.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "FURKAN KARAKURT",
+"zaman": {
+"1000": 73.3,
+"400": 28.8
+},
+"efor": "Rahat"
+},
+"ERGİDEN": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.27.80",
+"mesafe": "400m",
+"split": {
+"400": 27.8
+},
+"puan": "90"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.56.70",
+"mesafe": "800m",
+"split": {
+"800": 56.7,
+"400": 28.3
+},
+"puan": "90"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Kenter",
+"efor": "",
+"jokey": "FURKAN KARAKURT",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "90"
+},
+{
+"tarih": "07.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.43.00",
+"mesafe": "600m",
+"split": {
+"600": 43.0,
+"400": 28.0
+},
+"puan": "90"
+}
+],
+"tarih": "10.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "FURKAN KARAKURT",
+"zaman": {
+"400": 27.8
+},
+"efor": "Rahat"
+},
+"BATINALP": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "ERDİ GÖKÇE",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "83"
+},
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "ERDİ GÖKÇE",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "83"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "ATA SITANISLAV AKSOY",
+"sure": "0.28.50",
+"mesafe": "400m",
+"split": {
+"400": 28.5
+},
+"puan": "83"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "CEM YILMAZ",
+"sure": "0.55.80",
+"mesafe": "800m",
+"split": {
+"800": 55.8,
+"400": 28.0
+},
+"puan": "83"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "ERDİ GÖKÇE",
+"zaman": {},
+"efor": ""
+},
+"FIRTINA FEDAİSİ": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "0.42.50",
+"mesafe": "600m",
+"split": {
+"600": 42.5,
+"400": 28.5
+},
+"puan": "92"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "1.14.00",
+"mesafe": "1000m",
+"split": {
+"1000": 74.0,
+"400": 30.0
+},
+"puan": "92"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "0.41.70",
+"mesafe": "600m",
+"split": {
+"600": 41.7,
+"400": 27.5
+},
+"puan": "92"
+},
+{
+"tarih": "08.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "0.42.00",
+"mesafe": "600m",
+"split": {
+"600": 42.0,
+"400": 28.0
+},
+"puan": "92"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "GÜVEN ÖZDİL",
+"zaman": {
+"600": 42.5,
+"400": 28.5
+},
+"efor": "Rahat"
+},
+"KASTRİOT": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "0.30.80",
+"mesafe": "400m",
+"split": {
+"400": 30.8
+},
+"puan": "45"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "BAHTİYAR YANIK",
+"sure": "0.45.00",
+"mesafe": "600m",
+"split": {
+"600": 45.0,
+"400": 30.7
+},
+"puan": "45"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "CEM YILMAZ",
+"sure": "0.59.50",
+"mesafe": "800m",
+"split": {
+"800": 59.5,
+"400": 30.0
+},
+"puan": "45"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "SİNAN AKŞIN",
+"sure": "0.59.20",
+"mesafe": "800m",
+"split": {
+"800": 59.2,
+"400": 30.5
+},
+"puan": "45"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "TOLGA YILMAZ",
+"zaman": {
+"400": 30.8
+},
+"efor": "Rahat"
+},
+"SİYAH SANCAK": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "0.29.20",
+"mesafe": "400m",
+"split": {
+"400": 29.2
+},
+"puan": "92"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "0.28.20",
+"mesafe": "400m",
+"split": {
+"400": 28.2
+},
+"puan": "92"
+},
+{
+"tarih": "27.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "0.41.50",
+"mesafe": "600m",
+"split": {
+"600": 41.5,
+"400": 28.0
+},
+"puan": "92"
+},
+{
+"tarih": "08.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OKTAY KIZILDAŞ",
+"sure": "0.41.00",
+"mesafe": "600m",
+"split": {
+"600": 41.0,
+"400": 27.0
+},
+"puan": "92"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "OKTAY KIZILDAŞ",
+"zaman": {
+"400": 29.2
+},
+"efor": "Rahat"
+},
+"USKUMRU": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.28.20",
+"mesafe": "400m",
+"split": {
+"400": 28.2
+},
+"puan": "76"
+},
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.45.60",
+"mesafe": "600m",
+"split": {
+"600": 45.6,
+"400": 29.6
+},
+"puan": "76"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.56.40",
+"mesafe": "800m",
+"split": {
+"800": 56.4,
+"400": 28.0
+},
+"puan": "76"
+},
+{
+"tarih": "21.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "0.47.50",
+"mesafe": "600m",
+"split": {
+"600": 47.5,
+"400": 31.0
+},
+"puan": "76"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "MUSTAFA TEKPETEK",
+"zaman": {
+"400": 28.2
+},
+"efor": "Rahat"
+},
+"ALAGEZGİN": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERHAN OK",
+"sure": "0.41.00",
+"mesafe": "600m",
+"split": {
+"600": 41.0,
+"400": 27.7
+},
+"puan": "88"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YUSUF CAN",
+"sure": "1.17.20",
+"mesafe": "1000m",
+"split": {
+"1000": 77.2,
+"400": 33.5
+},
+"puan": "88"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ERHAN OK",
+"zaman": {
+"600": 41.0,
+"400": 27.7
+},
+"efor": "Rahat"
+},
+"ATAKÖY GÜZELİ": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "0.43.70",
+"mesafe": "600m",
+"split": {
+"600": 43.7,
+"400": 29.5
+},
+"puan": "69"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "1.14.50",
+"mesafe": "1000m",
+"split": {
+"1000": 74.5,
+"400": 29.5
+},
+"puan": "69"
+},
+{
+"tarih": "06.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METİN MERT KARABULUT",
+"sure": "0.57.50",
+"mesafe": "800m",
+"split": {
+"800": 57.5,
+"400": 29.0
+},
+"puan": "69"
+},
+{
+"tarih": "10.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "İBRAHİM SEFA SÖĞÜT",
+"sure": "0.44.50",
+"mesafe": "600m",
+"split": {
+"600": 44.5,
+"400": 29.7
+},
+"puan": "69"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "EREN DURSUN ÖKTEN",
+"zaman": {
+"600": 43.7,
+"400": 29.5
+},
+"efor": "Rahat"
+},
+"BİTTER ÇİKOLATA": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ALİ BERK METİN",
+"sure": "0.41.70",
+"mesafe": "600m",
+"split": {
+"600": 41.7,
+"400": 28.0
+},
+"puan": "100"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ALİ BERK METİN",
+"sure": "0.40.00",
+"mesafe": "600m",
+"split": {
+"600": 40.0,
+"400": 26.5
+},
+"puan": "100"
+},
+{
+"tarih": "03.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN ŞİMŞEK",
+"sure": "0.57.20",
+"mesafe": "800m",
+"split": {
+"800": 57.2,
+"400": 28.6
+},
+"puan": "100"
+},
+{
+"tarih": "23.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "SİNAN AKŞIN",
+"sure": "0.42.80",
+"mesafe": "600m",
+"split": {
+"600": 42.8,
+"400": 28.5
+},
+"puan": "100"
+}
+],
+"tarih": "24.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ALİ BERK METİN",
+"zaman": {
+"600": 41.7,
+"400": 28.0
+},
+"efor": "Rahat"
+},
+"DENİZOVA": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.42.20",
+"mesafe": "600m",
+"split": {
+"600": 42.2,
+"400": 27.7
+},
+"puan": "91"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SİNAN AKŞIN",
+"sure": "0.43.00",
+"mesafe": "600m",
+"split": {
+"600": 43.0,
+"400": 29.0
+},
+"puan": "91"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "FURKAN KARAKURT",
+"sure": "1.10.00",
+"mesafe": "1000m",
+"split": {
+"1000": 70.0,
+"400": 28.2
+},
+"puan": "91"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FURKAN KARAKURT",
+"sure": "0.43.20",
+"mesafe": "600m",
+"split": {
+"600": 43.2,
+"400": 28.2
+},
+"puan": "91"
+}
+],
+"tarih": "10.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "FURKAN KARAKURT",
+"zaman": {
+"600": 42.2,
+"400": 27.7
+},
+"efor": "Rahat"
+},
+"EGE SULTANI": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "13.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "",
+"jokey": "EMRULLAH TEPE",
+"sure": "0.29.50",
+"mesafe": "400m",
+"split": {
+"400": 29.5
+},
+"puan": "75"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EMRULLAH TEPE",
+"sure": "1.09.60",
+"mesafe": "1000m",
+"split": {
+"1000": 69.6,
+"400": 28.5
+},
+"puan": "75"
+}
+],
+"tarih": "13.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "EMRULLAH TEPE",
+"zaman": {
+"400": 29.5
+},
+"efor": ""
+},
+"YURTHİSAR": {
+"kosu": 6,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "0.57.30",
+"mesafe": "800m",
+"split": {
+"800": 57.3,
+"400": 28.6
+},
+"puan": "72"
+},
+{
+"tarih": "12.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "0.59.00",
+"mesafe": "800m",
+"split": {
+"800": 59.0,
+"400": 28.7
+},
+"puan": "72"
+},
+{
+"tarih": "30.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "0.57.80",
+"mesafe": "800m",
+"split": {
+"800": 57.8,
+"400": 29.0
+},
+"puan": "72"
+},
+{
+"tarih": "20.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "0.29.20",
+"mesafe": "400m",
+"split": {
+"400": 29.2
+},
+"puan": "72"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "TOLGA YILMAZ",
+"zaman": {
+"800": 57.3,
+"400": 28.6
+},
+"efor": "Rahat"
+},
+"O BİR ÇELİK": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "08.07.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "",
+"tur": "Kenter",
+"efor": "",
+"jokey": "TOLGAHAN KERESTECİ",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "-"
+}
+],
+"tarih": "08.07.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İstanbul",
+"jokey": "TOLGAHAN KERESTECİ",
+"zaman": {},
+"efor": ""
+},
+"CANIM ÇITIR": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "29.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "NECATİ DARÇIN",
+"sure": "0.46.50",
+"mesafe": "600m",
+"split": {
+"600": 46.5,
+"400": 30.5
+},
+"puan": "45"
+},
+{
+"tarih": "19.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "KÜRŞAT YILMAZ",
+"sure": "0.57.30",
+"mesafe": "800m",
+"split": {
+"800": 57.3,
+"400": 28.5
+},
+"puan": "45"
+},
+{
+"tarih": "07.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "KÜRŞAT YILMAZ",
+"sure": "1.10.00",
+"mesafe": "1000m",
+"split": {
+"1000": 70.0,
+"400": 27.5
+},
+"puan": "45"
+},
+{
+"tarih": "12.05.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "NECATİ DARÇIN",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "45"
+}
+],
+"tarih": "29.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "NECATİ DARÇIN",
+"zaman": {
+"600": 46.5,
+"400": 30.5
+},
+"efor": "Rahat"
+},
+"ŞAH DRAGON": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "20.10.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "SENAYİ METİN",
+"sure": "0.26.40",
+"mesafe": "400m",
+"split": {
+"400": 26.4
+},
+"puan": "100"
+},
+{
+"tarih": "11.10.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SENAYİ METİN",
+"sure": "0.58.80",
+"mesafe": "800m",
+"split": {
+"800": 58.8,
+"400": 28.8
+},
+"puan": "100"
+},
+{
+"tarih": "23.12.2025",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YUSUF ALAGÖZ",
+"sure": "0.42.30",
+"mesafe": "600m",
+"split": {
+"600": 42.3,
+"400": 28.0
+},
+"puan": "100"
+}
+],
+"tarih": "20.10.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "Bursa",
+"jokey": "SENAYİ METİN",
+"zaman": {
+"400": 26.4
+},
+"efor": "Rahat"
+},
+"AYTEKİNBEY": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "07.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "MURAT DURMUŞ",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "89"
+},
+{
+"tarih": "10.04.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "HAKAN GÜVEN",
+"sure": "0.27.20",
+"mesafe": "400m",
+"split": {
+"400": 27.2
+},
+"puan": "89"
+}
+],
+"tarih": "07.08.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "MURAT DURMUŞ",
+"zaman": {},
+"efor": ""
+},
+"SERTTAYKUT": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MÜRSEL KAYİŞ",
+"sure": "0.57.20",
+"mesafe": "800m",
+"split": {
+"800": 57.2,
+"400": 29.0
+},
+"puan": "64"
+},
+{
+"tarih": "13.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MÜRSEL KAYİŞ",
+"sure": "0.42.20",
+"mesafe": "600m",
+"split": {
+"600": 42.2,
+"400": 28.2
+},
+"puan": "64"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "MÜRSEL KAYİŞ",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "64"
+},
+{
+"tarih": "24.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "BERKAY BÜLBÜL",
+"sure": "1.12.50",
+"mesafe": "1000m",
+"split": {
+"1000": 72.5,
+"400": 28.5
+},
+"puan": "64"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "MÜRSEL KAYİŞ",
+"zaman": {
+"800": 57.2,
+"400": 29.0
+},
+"efor": "Rahat"
+},
+"SÜKANBEY": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "15.10.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "NECDET TUNCER",
+"sure": "0.43.00",
+"mesafe": "600m",
+"split": {
+"600": 43.0,
+"400": 28.2
+},
+"puan": "71"
+},
+{
+"tarih": "09.08.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SUPHİ GÜMÜŞ",
+"sure": "0.56.50",
+"mesafe": "800m",
+"split": {
+"800": 56.5,
+"400": 28.5
+},
+"puan": "71"
+},
+{
+"tarih": "15.07.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "SUPHİ GÜMÜŞ",
+"sure": "0.28.50",
+"mesafe": "400m",
+"split": {
+"400": 28.5
+},
+"puan": "71"
+},
+{
+"tarih": "24.06.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET NURİ SUNKAR",
+"sure": "0.41.00",
+"mesafe": "600m",
+"split": {
+"600": 41.0,
+"400": 26.7
+},
+"puan": "71"
+}
+],
+"tarih": "15.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "Ankara",
+"jokey": "NECDET TUNCER",
+"zaman": {
+"600": 43.0,
+"400": 28.2
+},
+"efor": "Rahat"
+},
+"AKGOBAK": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "0.27.20",
+"mesafe": "400m",
+"split": {
+"400": 27.2
+},
+"puan": "84"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "FERDİ KABADAYI",
+"sure": "0.55.50",
+"mesafe": "800m",
+"split": {
+"800": 55.5,
+"400": 28.0
+},
+"puan": "84"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "0.55.50",
+"mesafe": "800m",
+"split": {
+"800": 55.5,
+"400": 28.0
+},
+"puan": "84"
+},
+{
+"tarih": "18.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TUNCAY ALTUNKILIÇ",
+"sure": "0.41.00",
+"mesafe": "600m",
+"split": {
+"600": 41.0,
+"400": 27.7
+},
+"puan": "84"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "FERDİ KABADAYI",
+"zaman": {
+"400": 27.2
+},
+"efor": "Rahat"
+},
+"FIRTINA BEY": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MÜRSEL KAYİŞ",
+"sure": "0.55.80",
+"mesafe": "800m",
+"split": {
+"800": 55.8,
+"400": 26.3
+},
+"puan": "67"
+},
+{
+"tarih": "21.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "MÜRSEL KAYİŞ",
+"sure": "1.11.80",
+"mesafe": "1000m",
+"split": {
+"1000": 71.8,
+"400": 27.2
+},
+"puan": "67"
+},
+{
+"tarih": "16.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MÜRSEL KAYİŞ",
+"sure": "1.11.80",
+"mesafe": "1000m",
+"split": {
+"1000": 71.8,
+"400": 27.2
+},
+"puan": "67"
+},
+{
+"tarih": "26.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "0.57.20",
+"mesafe": "800m",
+"split": {
+"800": 57.2,
+"400": 28.5
+},
+"puan": "67"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "MÜRSEL KAYİŞ",
+"zaman": {
+"800": 55.8,
+"400": 26.3
+},
+"efor": "Rahat"
+},
+"TURBO KING": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MURAT DURMUŞ",
+"sure": "0.43.60",
+"mesafe": "600m",
+"split": {
+"600": 43.6,
+"400": 29.0
+},
+"puan": "67"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MURAT DURMUŞ",
+"sure": "0.58.70",
+"mesafe": "800m",
+"split": {
+"800": 58.7,
+"400": 29.5
+},
+"puan": "67"
+},
+{
+"tarih": "16.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MURAT DURMUŞ",
+"sure": "0.41.60",
+"mesafe": "600m",
+"split": {
+"600": 41.6,
+"400": 27.8
+},
+"puan": "67"
+},
+{
+"tarih": "11.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MURAT DURMUŞ",
+"sure": "0.41.20",
+"mesafe": "600m",
+"split": {
+"600": 41.2,
+"400": 27.5
+},
+"puan": "67"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "MURAT DURMUŞ",
+"zaman": {
+"600": 43.6,
+"400": 29.0
+},
+"efor": "Rahat"
+},
+"BAD REFTAR": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FATİH ERGÜL",
+"sure": "0.42.90",
+"mesafe": "600m",
+"split": {
+"600": 42.9,
+"400": 28.2
+},
+"puan": "62"
+},
+{
+"tarih": "01.11.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FATİH ERGÜL",
+"sure": "1.11.50",
+"mesafe": "1000m",
+"split": {
+"1000": 71.5,
+"400": 28.6
+},
+"puan": "62"
+},
+{
+"tarih": "21.10.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FATİH ERGÜL",
+"sure": "0.44.70",
+"mesafe": "600m",
+"split": {
+"600": 44.7,
+"400": 28.0
+},
+"puan": "62"
+},
+{
+"tarih": "13.09.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "SALİH AYÇİÇEK",
+"sure": "0.59.20",
+"mesafe": "800m",
+"split": {
+"800": 59.2,
+"400": 29.2
+},
+"puan": "62"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "Bursa",
+"jokey": "FATİH ERGÜL",
+"zaman": {
+"600": 42.9,
+"400": 28.2
+},
+"efor": "Rahat"
+},
+"SİNOPLU MERVE": {
+"kosu": 7,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "HAKAN BERKKAYA",
+"sure": "0.29.50",
+"mesafe": "400m",
+"split": {
+"400": 29.5,
+"200": 14.5
+},
+"puan": "47"
+},
+{
+"tarih": "01.11.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MAHMUT BAĞ",
+"sure": "1.14.00",
+"mesafe": "1000m",
+"split": {
+"1000": 74.0,
+"400": 30.0
+},
+"puan": "47"
+},
+{
+"tarih": "21.10.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SENAYİ METİN",
+"sure": "0.42.50",
+"mesafe": "600m",
+"split": {
+"600": 42.5,
+"400": 28.3
+},
+"puan": "47"
+},
+{
+"tarih": "04.10.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HAKAN BERKKAYA",
+"sure": "0.59.20",
+"mesafe": "800m",
+"split": {
+"800": 59.2,
+"400": 29.4
+},
+"puan": "47"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "Bursa",
+"jokey": "HAKAN BERKKAYA",
+"zaman": {
+"400": 29.5,
+"200": 14.5
+},
+"efor": "Rahat"
+},
+"AÇANAY": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR İRTİŞ",
+"sure": "0.40.00",
+"mesafe": "600m",
+"split": {
+"600": 40.0,
+"400": 26.5
+},
+"puan": "94"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR İRTİŞ",
+"sure": "1.09.80",
+"mesafe": "1000m",
+"split": {
+"1000": 69.8,
+"400": 27.8
+},
+"puan": "94"
+},
+{
+"tarih": "21.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "UĞUR İRTİŞ",
+"sure": "0.28.50",
+"mesafe": "400m",
+"split": {
+"400": 28.5
+},
+"puan": "94"
+},
+{
+"tarih": "17.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR İRTİŞ",
+"sure": "0.41.50",
+"mesafe": "600m",
+"split": {
+"600": 41.5,
+"400": 27.5
+},
+"puan": "94"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "UĞUR İRTİŞ",
+"zaman": {
+"600": 40.0,
+"400": 26.5
+},
+"efor": "Rahat"
+},
+"BİBAHANIM": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "1.10.30",
+"mesafe": "1000m",
+"split": {
+"1000": 70.3,
+"400": 27.8
+},
+"puan": "69"
+},
+{
+"tarih": "10.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "1.09.60",
+"mesafe": "1000m",
+"split": {
+"1000": 69.6,
+"400": 28.0
+},
+"puan": "69"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "0.42.50",
+"mesafe": "600m",
+"split": {
+"600": 42.5,
+"400": 28.8
+},
+"puan": "69"
+},
+{
+"tarih": "30.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "0.43.30",
+"mesafe": "600m",
+"split": {
+"600": 43.3,
+"400": 28.3
+},
+"puan": "69"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "HÜSEYİN TOPSAKAL",
+"zaman": {
+"1000": 70.3,
+"400": 27.8
+},
+"efor": "Rahat"
+},
+"PATARA": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "AYTEK DÜLGER",
+"sure": "0.29.60",
+"mesafe": "400m",
+"split": {
+"400": 29.6,
+"200": 14.0
+},
+"puan": "45"
+},
+{
+"tarih": "04.11.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "ISLAK",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "MAHMUT BAĞ",
+"sure": "0.29.00",
+"mesafe": "400m",
+"split": {
+"400": 29.0
+},
+"puan": "45"
+},
+{
+"tarih": "19.10.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "ISLAK",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "AYTEK DÜLGER",
+"sure": "0.30.70",
+"mesafe": "400m",
+"split": {
+"400": 30.7
+},
+"puan": "45"
+},
+{
+"tarih": "26.09.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "AYTEK DÜLGER",
+"sure": "0.43.60",
+"mesafe": "600m",
+"split": {
+"600": 43.6,
+"400": 28.4
+},
+"puan": "45"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "Bursa",
+"jokey": "AYTEK DÜLGER",
+"zaman": {
+"400": 29.6,
+"200": 14.0
+},
+"efor": "Rahat"
+},
+"ADI YAŞASIN": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "11.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "HARUN GÜRGEN",
+"sure": "0.29.40",
+"mesafe": "400m",
+"split": {
+"400": 29.4
+},
+"puan": "75"
+},
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "HARUN GÜRGEN",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "75"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HARUN GÜRGEN",
+"sure": "0.43.40",
+"mesafe": "600m",
+"split": {
+"600": 43.4,
+"400": 29.0
+},
+"puan": "75"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FEYZULLAH AVCI",
+"sure": "0.42.60",
+"mesafe": "600m",
+"split": {
+"600": 42.6,
+"400": 28.0
+},
+"puan": "75"
+}
+],
+"tarih": "11.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "HARUN GÜRGEN",
+"zaman": {
+"400": 29.4
+},
+"efor": "Rahat"
+},
+"ÖKE HATUN": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR İRTİŞ",
+"sure": "0.39.50",
+"mesafe": "600m",
+"split": {
+"600": 39.5,
+"400": 26.5
+},
+"puan": "100"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR İRTİŞ",
+"sure": "1.11.00",
+"mesafe": "1000m",
+"split": {
+"1000": 71.0,
+"400": 28.5
+},
+"puan": "100"
+},
+{
+"tarih": "08.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "UĞUR İRTİŞ",
+"sure": "0.42.30",
+"mesafe": "600m",
+"split": {
+"600": 42.3,
+"400": 28.0
+},
+"puan": "100"
+}
+],
+"tarih": "10.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "UĞUR İRTİŞ",
+"zaman": {
+"600": 39.5,
+"400": 26.5
+},
+"efor": "Rahat"
+},
+"TEKSEVDAM": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "Ankara",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SERHAT KANSU",
+"sure": "0.59.50",
+"mesafe": "800m",
+"split": {
+"800": 59.5,
+"400": 31.5
+},
+"puan": "73"
+},
+{
+"tarih": "06.09.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "NURETTİN ŞEN",
+"sure": "1.13.80",
+"mesafe": "1000m",
+"split": {
+"1000": 73.8,
+"400": 30.3
+},
+"puan": "73"
+},
+{
+"tarih": "25.08.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "İBRAHİM HALİL KETME",
+"sure": "0.40.40",
+"mesafe": "600m",
+"split": {
+"600": 40.4,
+"400": 26.7
+},
+"puan": "73"
+},
+{
+"tarih": "17.08.2026",
+"hipodrom": "Bursa",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ORHAN KAYA",
+"sure": "0.56.00",
+"mesafe": "800m",
+"split": {
+"800": 56.0,
+"400": 28.7
+},
+"puan": "73"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "Ankara",
+"jokey": "SERHAT KANSU",
+"zaman": {
+"800": 59.5,
+"400": 31.5
+},
+"efor": "Rahat"
+},
+"FELHAN GÜLÜ": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "RAMAZAN AKŞIN",
+"sure": "0.40.00",
+"mesafe": "600m",
+"split": {
+"600": 40.0,
+"400": 27.0
+},
+"puan": "91"
+},
+{
+"tarih": "23.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.43.00",
+"mesafe": "600m",
+"split": {
+"600": 43.0,
+"400": 28.2
+},
+"puan": "91"
+},
+{
+"tarih": "29.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.42.50",
+"mesafe": "600m",
+"split": {
+"600": 42.5,
+"400": 28.0
+},
+"puan": "91"
+},
+{
+"tarih": "09.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "YİĞİT ASLAN",
+"sure": "0.28.70",
+"mesafe": "400m",
+"split": {
+"400": 28.7
+},
+"puan": "91"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "RAMAZAN AKŞIN",
+"zaman": {
+"600": 40.0,
+"400": 27.0
+},
+"efor": "Rahat"
+},
+"HASGÖKÇE": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "İSMAİL KALE",
+"sure": "0.56.00",
+"mesafe": "800m",
+"split": {
+"800": 56.0,
+"400": 28.6
+},
+"puan": "68"
+},
+{
+"tarih": "06.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "İSMAİL KALE",
+"sure": "0.43.40",
+"mesafe": "600m",
+"split": {
+"600": 43.4,
+"400": 29.2
+},
+"puan": "68"
+},
+{
+"tarih": "24.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "İSMAİL KALE",
+"sure": "0.31.50",
+"mesafe": "400m",
+"split": {
+"400": 31.5
+},
+"puan": "68"
+},
+{
+"tarih": "10.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "İSMAİL KALE",
+"sure": "0.27.80",
+"mesafe": "400m",
+"split": {
+"400": 27.8
+},
+"puan": "68"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "İSMAİL KALE",
+"zaman": {
+"800": 56.0,
+"400": 28.6
+},
+"efor": "Rahat"
+},
+"İLDA SULTAN": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "0.56.70",
+"mesafe": "800m",
+"split": {
+"800": 56.7,
+"400": 28.5
+},
+"puan": "69"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ÖMER FARUK ÖZEN",
+"sure": "0.41.70",
+"mesafe": "600m",
+"split": {
+"600": 41.7,
+"400": 27.5
+},
+"puan": "69"
+},
+{
+"tarih": "19.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "İLKER SOYAD",
+"sure": "1.13.50",
+"mesafe": "1000m",
+"split": {
+"1000": 73.5,
+"400": 29.8
+},
+"puan": "69"
+},
+{
+"tarih": "06.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "0.56.70",
+"mesafe": "800m",
+"split": {
+"800": 56.7,
+"400": 27.2
+},
+"puan": "69"
+}
+],
+"tarih": "24.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "GÜVEN ÖZDİL",
+"zaman": {
+"800": 56.7,
+"400": 28.5
+},
+"efor": "Rahat"
+},
+"DİLDA HATUN": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "20.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "METİN MERT KARABULUT",
+"sure": "0.28.50",
+"mesafe": "400m",
+"split": {
+"400": 28.5
+},
+"puan": "61"
+}
+],
+"tarih": "20.07.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "METİN MERT KARABULUT",
+"zaman": {
+"400": 28.5
+},
+"efor": "Rahat"
+},
+"AYANA": {
+"kosu": 8,
+"idmanlar": [
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "MUSTAFA TEKPETEK",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "66"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "1.10.50",
+"mesafe": "1000m",
+"split": {
+"1000": 70.5,
+"400": 27.8
+},
+"puan": "66"
+},
+{
+"tarih": "10.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ATA STANISLAV AKSOY",
+"sure": "0.42.80",
+"mesafe": "600m",
+"split": {
+"600": 42.8,
+"400": 28.8
+},
+"puan": "66"
+},
+{
+"tarih": "26.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.56.50",
+"mesafe": "800m",
+"split": {
+"800": 56.5,
+"400": 28.3
+},
+"puan": "66"
+}
+],
+"tarih": "10.11.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "MUSTAFA TEKPETEK",
+"zaman": {},
+"efor": ""
+},
+"SON OF THE KNIFE": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİTCAN GÖKÇE",
+"sure": "1.04.00",
+"mesafe": "1000m",
+"split": {
+"1000": 64.0,
+"400": 25.5
+},
+"puan": "100"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.41.60",
+"mesafe": "600m",
+"split": {
+"600": 41.6,
+"400": 27.2
+},
+"puan": "100"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ÖMER FARUK ÖZEN",
+"sure": "0.36.70",
+"mesafe": "600m",
+"split": {
+"600": 36.7,
+"400": 24.0
+},
+"puan": "100"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SİNAN AKŞIN",
+"sure": "0.38.00",
+"mesafe": "600m",
+"split": {
+"600": 38.0,
+"400": 25.2
+},
+"puan": "100"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "YİĞİTCAN GÖKÇE",
+"zaman": {
+"1000": 64.0,
+"400": 25.5
+},
+"efor": "Rahat"
+},
+"DRAGON RUNNER": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "0.53.50",
+"mesafe": "800m",
+"split": {
+"800": 53.5,
+"400": 26.6
+},
+"puan": "45"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "0.39.00",
+"mesafe": "600m",
+"split": {
+"600": 39.0,
+"400": 26.0
+},
+"puan": "45"
+},
+{
+"tarih": "13.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "0.38.40",
+"mesafe": "600m",
+"split": {
+"600": 38.4,
+"400": 25.7
+},
+"puan": "45"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "FERDİ KABADAYI",
+"sure": "0.38.60",
+"mesafe": "600m",
+"split": {
+"600": 38.6,
+"400": 25.4
+},
+"puan": "45"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "FERDİ KABADAYI",
+"zaman": {
+"800": 53.5,
+"400": 26.6
+},
+"efor": "Rahat"
+},
+"KIZIM ÇINAR": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "1.03.00",
+"mesafe": "1000m",
+"split": {
+"1000": 63.0,
+"400": 25.6
+},
+"puan": "80"
+},
+{
+"tarih": "21.06.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "1.03.30",
+"mesafe": "1000m",
+"split": {
+"1000": 63.3,
+"400": 24.8
+},
+"puan": "80"
+},
+{
+"tarih": "13.06.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÜVEN ÖZDİL",
+"sure": "1.02.20",
+"mesafe": "1000m",
+"split": {
+"1000": 62.2,
+"400": 24.5
+},
+"puan": "80"
+}
+],
+"tarih": "24.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "GÜVEN ÖZDİL",
+"zaman": {
+"1000": 63.0,
+"400": 25.6
+},
+"efor": "Rahat"
+},
+"DRAGON BORA": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "1.04.00",
+"mesafe": "1000m",
+"split": {
+"1000": 64.0,
+"400": 25.2
+},
+"puan": "99"
+},
+{
+"tarih": "16.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HARUN GÜRGEN",
+"sure": "0.49.80",
+"mesafe": "800m",
+"split": {
+"800": 49.8,
+"400": 24.3
+},
+"puan": "99"
+},
+{
+"tarih": "29.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "0.35.80",
+"mesafe": "600m",
+"split": {
+"600": 35.8,
+"400": 23.8
+},
+"puan": "99"
+},
+{
+"tarih": "15.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "0.37.30",
+"mesafe": "600m",
+"split": {
+"600": 37.3,
+"400": 24.0
+},
+"puan": "99"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "HÜSEYİN TOPSAKAL",
+"zaman": {
+"1000": 64.0,
+"400": 25.2
+},
+"efor": "Rahat"
+},
+"PHANTOM STRIKE": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ÖZCAN GÖKÇE",
+"sure": "0.50.00",
+"mesafe": "800m",
+"split": {
+"800": 50.0,
+"400": 24.8
+},
+"puan": "93"
+},
+{
+"tarih": "17.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MEHMET GÖNÜLTAŞ",
+"sure": "1.18.50",
+"mesafe": "1200m",
+"split": {
+"1200": 78.5,
+"1000": 65.0,
+"400": 26.2
+},
+"puan": "93"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKHAN KALIN",
+"sure": "0.37.70",
+"mesafe": "600m",
+"split": {
+"600": 37.7,
+"400": 24.7
+},
+"puan": "93"
+},
+{
+"tarih": "02.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKHAN KALIN",
+"sure": "0.37.30",
+"mesafe": "600m",
+"split": {
+"600": 37.3,
+"400": 24.3
+},
+"puan": "93"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ÖZCAN GÖKÇE",
+"zaman": {
+"800": 50.0,
+"400": 24.8
+},
+"efor": "Rahat"
+},
+"NAZGAR": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİT ASLAN",
+"sure": "0.51.00",
+"mesafe": "800m",
+"split": {
+"800": 51.0,
+"400": 25.6
+},
+"puan": "76"
+},
+{
+"tarih": "22.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİT ASLAN",
+"sure": "0.37.80",
+"mesafe": "600m",
+"split": {
+"600": 37.8,
+"400": 24.8
+},
+"puan": "76"
+},
+{
+"tarih": "08.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİT ASLAN",
+"sure": "0.37.30",
+"mesafe": "600m",
+"split": {
+"600": 37.3,
+"400": 24.8
+},
+"puan": "76"
+},
+{
+"tarih": "26.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİT ASLAN",
+"sure": "0.50.30",
+"mesafe": "800m",
+"split": {
+"800": 50.3,
+"400": 26.0
+},
+"puan": "76"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "YİĞİT ASLAN",
+"zaman": {
+"800": 51.0,
+"400": 25.6
+},
+"efor": "Rahat"
+},
+"MIDNIGHT BLUE": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKHAN İREM BODUR",
+"sure": "1.04.30",
+"mesafe": "1000m",
+"split": {
+"1000": 64.3,
+"400": 24.7
+},
+"puan": "68"
+},
+{
+"tarih": "17.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKHAN İREM BODUR",
+"sure": "1.19.80",
+"mesafe": "1200m",
+"split": {
+"1200": 79.8,
+"1000": 64.8,
+"400": 25.5
+},
+"puan": "68"
+},
+{
+"tarih": "02.10.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "ISLAK",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "CUMA ALTUNBAŞ",
+"sure": "0.38.50",
+"mesafe": "600m",
+"split": {
+"600": 38.5,
+"400": 25.0
+},
+"puan": "68"
+},
+{
+"tarih": "27.09.2026",
+"hipodrom": "İstanbul",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "CUMA ALTUNBAŞ",
+"sure": "1.15.40",
+"mesafe": "1200m",
+"split": {
+"1200": 75.4,
+"1000": 62.0,
+"400": 26.0
+},
+"puan": "68"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "GÖKHAN İREM BODUR",
+"zaman": {
+"1000": 64.3,
+"400": 24.7
+},
+"efor": "Rahat"
+},
+"ASİLİKOM": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEYİT GÖKÇE",
+"sure": "0.52.50",
+"mesafe": "800m",
+"split": {
+"800": 52.5,
+"400": 25.7
+},
+"puan": "64"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEYİT GÖKÇE",
+"sure": "0.50.50",
+"mesafe": "800m",
+"split": {
+"800": 50.5,
+"400": 25.0
+},
+"puan": "64"
+},
+{
+"tarih": "30.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEYİT GÖKÇE",
+"sure": "0.38.50",
+"mesafe": "600m",
+"split": {
+"600": 38.5,
+"400": 24.7
+},
+"puan": "64"
+},
+{
+"tarih": "09.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SEYİT GÖKÇE",
+"sure": "0.38.50",
+"mesafe": "600m",
+"split": {
+"600": 38.5,
+"400": 24.8
+},
+"puan": "64"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "SEYİT GÖKÇE",
+"zaman": {
+"800": 52.5,
+"400": 25.7
+},
+"efor": "Rahat"
+},
+"MİGRAKOM BEYİ": {
+"kosu": 9,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "59"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "1.18.50",
+"mesafe": "1200m",
+"split": {
+"1200": 78.5,
+"1000": 64.8,
+"400": 25.8
+},
+"puan": "59"
+},
+{
+"tarih": "11.06.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN TOPSAKAL",
+"sure": "0.37.60",
+"mesafe": "600m",
+"split": {
+"600": 37.6,
+"400": 24.8
+},
+"puan": "59"
+},
+{
+"tarih": "28.05.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "HÜSEYİN AKYOL",
+"sure": "0.40.00",
+"mesafe": "600m",
+"split": {
+"600": 40.0,
+"400": 26.5
+},
+"puan": "59"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "HÜSEYİN TOPSAKAL",
+"zaman": {},
+"efor": ""
+},
+"HIRÇIN DADAŞ": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.30.70",
+"mesafe": "400m",
+"split": {
+"400": 30.7
+},
+"puan": "65"
+},
+{
+"tarih": "03.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "METE GÖL",
+"sure": "0.54.50",
+"mesafe": "800m",
+"split": {
+"800": 54.5,
+"400": 27.0
+},
+"puan": "65"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.41.60",
+"mesafe": "600m",
+"split": {
+"600": 41.6,
+"400": 27.4
+},
+"puan": "65"
+},
+{
+"tarih": "05.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.40.80",
+"mesafe": "600m",
+"split": {
+"600": 40.8,
+"400": 26.5
+},
+"puan": "65"
+}
+],
+"tarih": "10.11.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "METE GÖL",
+"zaman": {
+"400": 30.7
+},
+"efor": "Rahat"
+},
+"KANDIRALI": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "Antalya",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUHAMMED TALHA ERTAL",
+"sure": "0.56.00",
+"mesafe": "800m",
+"split": {
+"800": 56.0,
+"400": 28.6
+},
+"puan": "77"
+},
+{
+"tarih": "28.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "MURAT AKALIN",
+"sure": "0.29.20",
+"mesafe": "400m",
+"split": {
+"400": 29.2
+},
+"puan": "77"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "MURAT AKALIN",
+"sure": "1.14.60",
+"mesafe": "1000m",
+"split": {
+"1000": 74.6,
+"400": 29.5
+},
+"puan": "77"
+},
+{
+"tarih": "10.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "MURAT AKALIN",
+"sure": "0.55.00",
+"mesafe": "800m",
+"split": {
+"800": 55.0,
+"400": 27.5
+},
+"puan": "77"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "Antalya",
+"jokey": "MUHAMMED TALHA ERTAL",
+"zaman": {
+"800": 56.0,
+"400": 28.6
+},
+"efor": "Rahat"
+},
+"KRALÇINAR": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "SİNAN AKŞIN",
+"sure": "1.11.50",
+"mesafe": "1000m",
+"split": {
+"1000": 71.5,
+"400": 29.5
+},
+"puan": "66"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EMRULLAH TEPE",
+"sure": "0.43.50",
+"mesafe": "600m",
+"split": {
+"600": 43.5,
+"400": 28.0
+},
+"puan": "66"
+},
+{
+"tarih": "09.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EMRULLAH TEPE",
+"sure": "0.43.20",
+"mesafe": "600m",
+"split": {
+"600": 43.2,
+"400": 29.0
+},
+"puan": "66"
+},
+{
+"tarih": "20.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "EMRULLAH TEPE",
+"sure": "0.27.80",
+"mesafe": "400m",
+"split": {
+"400": 27.8
+},
+"puan": "66"
+}
+],
+"tarih": "24.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "SİNAN AKŞIN",
+"zaman": {
+"1000": 71.5,
+"400": 29.5
+},
+"efor": "Çalışarak"
+},
+"OTAY": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "27.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Kenter",
+"efor": "",
+"jokey": "METE GÖL",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "72"
+},
+{
+"tarih": "09.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "EREN DURSUN ÖKTEN",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "72"
+},
+{
+"tarih": "01.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.42.50",
+"mesafe": "600m",
+"split": {
+"600": 42.5,
+"400": 28.0
+},
+"puan": "72"
+},
+{
+"tarih": "24.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "METE GÖL",
+"sure": "0.41.50",
+"mesafe": "600m",
+"split": {
+"600": 41.5,
+"400": 28.0
+},
+"puan": "72"
+}
+],
+"tarih": "27.10.2026",
+"pist": "Kum",
+"tur": "Kenter",
+"hipodrom": "İzmir",
+"jokey": "METE GÖL",
+"zaman": {},
+"efor": ""
+},
+"SÜLEYMAN AĞA": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "14.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "1.11.00",
+"mesafe": "1000m",
+"split": {
+"1000": 71.0,
+"400": 28.2
+},
+"puan": "57"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "TOLGA YILMAZ",
+"sure": "0.44.30",
+"mesafe": "600m",
+"split": {
+"600": 44.3,
+"400": 29.6
+},
+"puan": "57"
+},
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "TOLGA YILMAZ",
+"sure": "1.10.00",
+"mesafe": "1000m",
+"split": {
+"1000": 70.0,
+"400": 28.2
+},
+"puan": "57"
+},
+{
+"tarih": "20.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "FEYZULLAH AVCI",
+"sure": "0.30.50",
+"mesafe": "400m",
+"split": {
+"400": 30.5
+},
+"puan": "57"
+}
+],
+"tarih": "14.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "TOLGA YILMAZ",
+"zaman": {
+"1000": 71.0,
+"400": 28.2
+},
+"efor": "Rahat"
+},
+"ZİHNİ": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "17.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.43.70",
+"mesafe": "600m",
+"split": {
+"600": 43.7,
+"400": 29.2
+},
+"puan": "83"
+},
+{
+"tarih": "10.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.42.50",
+"mesafe": "600m",
+"split": {
+"600": 42.5,
+"400": 28.5
+},
+"puan": "83"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.41.50",
+"mesafe": "600m",
+"split": {
+"600": 41.5,
+"400": 28.0
+},
+"puan": "83"
+},
+{
+"tarih": "27.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.27.00",
+"mesafe": "400m",
+"split": {
+"400": 27.0
+},
+"puan": "83"
+}
+],
+"tarih": "17.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ERDİ GÖKÇE",
+"zaman": {
+"600": 43.7,
+"400": 29.2
+},
+"efor": "Rahat"
+},
+"ERENDİZ": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "SİNAN AKŞIN",
+"sure": "0.42.80",
+"mesafe": "600m",
+"split": {
+"600": 42.8,
+"400": 28.4
+},
+"puan": "55"
+},
+{
+"tarih": "28.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "BERKAY BÜLBÜL",
+"sure": "0.28.00",
+"mesafe": "400m",
+"split": {
+"400": 28.0
+},
+"puan": "55"
+},
+{
+"tarih": "27.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Kenter",
+"efor": "",
+"jokey": "SİNAN AKŞIN",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "55"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "OSMAN CAN SÖZERİ",
+"sure": "0.44.00",
+"mesafe": "600m",
+"split": {
+"600": 44.0,
+"400": 29.0
+},
+"puan": "55"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "SİNAN AKŞIN",
+"zaman": {
+"600": 42.8,
+"400": 28.4
+},
+"efor": "Rahat"
+},
+"BİR ASLAN KIZI": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YUSUF CAN",
+"sure": "0.42.20",
+"mesafe": "600m",
+"split": {
+"600": 42.2,
+"400": 27.4
+},
+"puan": "61"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YUSUF CAN",
+"sure": "0.43.60",
+"mesafe": "600m",
+"split": {
+"600": 43.6,
+"400": 29.0
+},
+"puan": "61"
+}
+],
+"tarih": "03.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "YUSUF CAN",
+"zaman": {
+"600": 42.2,
+"400": 27.4
+},
+"efor": "Rahat"
+},
+"CEDİDE": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "27.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Sprint",
+"efor": "Rahat",
+"jokey": "SEMİH RENÇBER",
+"sure": "0.30.80",
+"mesafe": "400m",
+"split": {
+"400": 30.8
+},
+"puan": "45"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Kenter",
+"efor": "",
+"jokey": "CEM YILMAZ",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "45"
+},
+{
+"tarih": "03.07.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MUSTAFA TEKEPETEK",
+"sure": "0.43.70",
+"mesafe": "600m",
+"split": {
+"600": 43.7,
+"400": 29.5
+},
+"puan": "45"
+},
+{
+"tarih": "13.06.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "EMİR CİHAN BAYDAN",
+"sure": "0.41.50",
+"mesafe": "600m",
+"split": {
+"600": 41.5,
+"400": 27.0
+},
+"puan": "45"
+}
+],
+"tarih": "27.10.2026",
+"pist": "Kum",
+"tur": "Sprint",
+"hipodrom": "İzmir",
+"jokey": "SEMİH RENÇBER",
+"zaman": {
+"400": 30.8
+},
+"efor": "Rahat"
+},
+"EFSANEVİTAY": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "24.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.40.50",
+"mesafe": "600m",
+"split": {
+"600": 40.5,
+"400": 27.0
+},
+"puan": "100"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "ERDİ GÖKÇE",
+"sure": "0.42.80",
+"mesafe": "600m",
+"split": {
+"600": 42.8,
+"400": 28.6
+},
+"puan": "100"
+},
+{
+"tarih": "07.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "ERDİ GÖKÇR",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "100"
+},
+{
+"tarih": "17.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "MERTCAN ÇELİK",
+"sure": "-",
+"mesafe": "-",
+"split": {},
+"puan": "100"
+}
+],
+"tarih": "24.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "ERDİ GÖKÇE",
+"zaman": {
+"600": 40.5,
+"400": 27.0
+},
+"efor": "Rahat"
+},
+"KÖPRÜCEK": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Çalışarak",
+"jokey": "SEMİH RENÇBER",
+"sure": "1.09.20",
+"mesafe": "1000m",
+"split": {
+"1000": 69.2,
+"400": 28.5
+},
+"puan": "78"
+},
+{
+"tarih": "15.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MÜRSEL KAYİŞ",
+"sure": "0.42.20",
+"mesafe": "600m",
+"split": {
+"600": 42.2,
+"400": 27.7
+},
+"puan": "78"
+},
+{
+"tarih": "07.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Kenter",
+"efor": "",
+"jokey": "MÜRSEL KAYİŞ",
+"sure": "0.57.50",
+"mesafe": "800m",
+"split": {
+"800": 57.5,
+"400": 28.5
+},
+"puan": "78"
+},
+{
+"tarih": "19.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "MÜRSEL KAYIŞ",
+"sure": "0.57.50",
+"mesafe": "800m",
+"split": {
+"800": 57.5,
+"400": 28.5
+},
+"puan": "78"
+}
+],
+"tarih": "31.10.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "SEMİH RENÇBER",
+"zaman": {
+"1000": 69.2,
+"400": 28.5
+},
+"efor": "Çalışarak"
+},
+"VAİ VAİ": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİTCAN GÖKÇE",
+"sure": "0.41.80",
+"mesafe": "600m",
+"split": {
+"600": 41.8,
+"400": 28.2
+},
+"puan": "72"
+},
+{
+"tarih": "31.10.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "YİĞİTCAN GÖKÇE",
+"sure": "1.12.00",
+"mesafe": "1000m",
+"split": {
+"1000": 72.0,
+"400": 29.3
+},
+"puan": "72"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "YİĞİTCAN GÖKÇE",
+"zaman": {
+"600": 41.8,
+"400": 28.2
+},
+"efor": "Rahat"
+},
+"YURTKURAN": {
+"kosu": 10,
+"idmanlar": [
+{
+"tarih": "12.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "CEM YILMAZ",
+"sure": "0.44.50",
+"mesafe": "600m",
+"split": {
+"600": 44.5,
+"400": 29.2
+},
+"puan": "56"
+},
+{
+"tarih": "03.11.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NEMLİ",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "CEM YILMAZ",
+"sure": "0.59.30",
+"mesafe": "800m",
+"split": {
+"800": 59.3,
+"400": 30.0
+},
+"puan": "56"
+},
+{
+"tarih": "01.09.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKHAN KALIN",
+"sure": "0.41.60",
+"mesafe": "600m",
+"split": {
+"600": 41.6,
+"400": 27.4
+},
+"puan": "56"
+},
+{
+"tarih": "20.08.2026",
+"hipodrom": "İzmir",
+"pist": "Kum",
+"zemin": "NORMAL",
+"tur": "Galop",
+"efor": "Rahat",
+"jokey": "GÖKHAN KALIN",
+"sure": "0.42.40",
+"mesafe": "600m",
+"split": {
+"600": 42.4,
+"400": 27.8
+},
+"puan": "56"
+}
+],
+"tarih": "12.11.2026",
+"pist": "Kum",
+"tur": "Galop",
+"hipodrom": "İzmir",
+"jokey": "CEM YILMAZ",
+"zaman": {
+"600": 44.5,
+"400": 29.2
+},
+"efor": "Rahat"
+}
+}
