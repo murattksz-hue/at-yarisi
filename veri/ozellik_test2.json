@@ -1,0 +1,45 @@
+{
+ "ozellikler": [
+  "pist_mesafe_galibi",
+  "pist_galibi",
+  "deneyim",
+  "sahip",
+  "hiz_son",
+  "hiz_en_iyi3",
+  "son_fark_sn"
+ ],
+ "agirlik": [
+  0.13023595648938305,
+  0.06164547099083551,
+  0.05332239035961118,
+  0.03395615065456434,
+  0.03965609630148893,
+  0.10030296189447378,
+  0.028287501558470065
+ ],
+ "tek_tek": {
+  "hp_degisim": -0.58,
+  "pist_mesafe_galibi": 1.48,
+  "pist_galibi": 2.16,
+  "dinlenme_kisa": -0.18,
+  "dinlenme_uzun": 0.34,
+  "deneyim": 1.64,
+  "antrenor_jokey": -1.07,
+  "sahip": 0.81,
+  "jokey_form30": -0.74,
+  "jokey_hipodrom": 0.04,
+  "hiz_son": 1.74,
+  "hiz_en_iyi3": 4.54,
+  "hiz_yok": 0.28,
+  "son_fark_sn": 0.57,
+  "sinif_degisim": -0.35,
+  "kilo_degisim": -0.12,
+  "ilk_kez_KG": 0.02,
+  "antrenor_form": 0.13,
+  "jokey_yukselme": -0.35,
+  "mesafe_degisim": -0.21,
+  "son_koşu_derece": -0.29
+ },
+ "birlikte": 5.8,
+ "test_kosu": 1850
+}

@@ -239,3 +239,24 @@ Favori–sürpriz yanlılığı (oran kovasına göre piyasa A/E ve 1 TL getiris
 
 ## AGF hareketi
 - Geç gelen para (1. ve 2. AGF arası değişim) için geçmiş veri yok. `gunluk.py` her çalıştığında program CSV'sinin saat damgalı kopyasını `veri/agf_kayit/` altına saklar; birkaç gün biriktikten sonra test edilecek.
+
+## 2. tur etken testi (1.850 görülmemiş koşu, eküri düzeltmeli; `scripts/ozellik_test2.py`, `veri/ozellik_test2.json`)
+| Etken | Katkı (binde) | Karar |
+|---|---|---|
+| Hız puanı, son 3'ün en iyisi | +4,54 | ✅ (ağırlık 0,10) |
+| Bu pistte daha önce kazanmış | +2,16 | ✅ (0,062) |
+| Hız puanı, son koşu | +1,74 | ✅ (0,04) |
+| Deneyim (koşu sayısı, log) | +1,64 | ✅ (0,053) |
+| Aynı hipodrom+pist+mesafede (±100 m) kazanmış | +1,48 | ✅ (0,13) |
+| At sahibi (A/E) | +0,81 | ✅ (0,034) |
+| Son koşuda saniye farkı | +0,57 | ❌ birlikte ters işaret aldı (hız puanıyla aynı bilgi) |
+| Uzun dinlenme (>60 gün) | +0,34 | çok küçük |
+| Jokey hipodrom uzmanlığı | +0,04 | ❌ |
+| Jokey son 30 gün formu | -0,74 | ❌ |
+| Antrenör + jokey ikilisi | -1,07 | ❌ |
+| HP değişimi | -0,58 | ❌ |
+| Sınıf / kilo / mesafe değişimi, ilk kez KG, son derece | -0,35…+0,13 | ❌ |
+
+- Seçilenler birlikte: **+5,80 binde** (tek başına hız puanı +4,54).
+- Jokey: beceri gerçek ama halk tam fiyatlıyor; son form ve hipodrom uzmanlığı ek bilgi taşımıyor. Analizde gerçek sayılarla gösteriliyor, olasılığa ek etkisi yok.
+- `veri/hiz_puani.json` artık her at için koşu sayısı, galibiyetleri (hipodrom/pist/mesafe) ve son 3 hız puanını; her sahip için A/E'yi tutar.

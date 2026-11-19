@@ -9,7 +9,9 @@ ID=json.load(open(sys.argv[6],encoding='utf-8')) if len(sys.argv)>6 else {}
 _vd=os.path.dirname(os.path.abspath(mj))
 HZ=json.load(open(os.path.join(_vd,'hiz_puani.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'hiz_puani.json')) else {}
 _ot=json.load(open(os.path.join(_vd,'ozellik_test.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'ozellik_test.json')) else {}
-HW=0.125 if 'hiz_en_iyi3' in _ot.get('tek_tek',{}) else 0.0
+_o2=json.load(open(os.path.join(_vd,'ozellik_test2.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'ozellik_test2.json')) else {}
+GECMIS_W={k:v for k,v in zip(_o2.get('ozellikler',[]),_o2.get('agirlik',[])) if k!='son_fark_sn'}   # saniye farkı: birlikte ters işaret aldı, alınmadı
+HZA=HZ.get('at',{}); HZS=HZ.get('sahip',{})
 JT=json.load(open(os.path.join(_vd,'jokey_tablo.json'),encoding='utf-8'))['jokey'] if os.path.exists(os.path.join(_vd,'jokey_tablo.json')) else {}
 def jmetin(j):
     d=JT.get(j)
@@ -65,7 +67,7 @@ for l in open(pc,encoding='utf-8-sig').read().splitlines():
         m0=re.search(r'(\d\d)/(\d\d)/(\d{4})',l); gun=datetime.date(int(m0.group(3)),int(m0.group(2)),int(m0.group(1))) if m0 else datetime.date.today()
     if re.match(r'^\d+\. Kosu',c[0]):
         m=re.search(r'(\d{3,4})m',l); pist=next((p for p in ('Kum','Çim','Sentetik') if p in l),'?')
-        cur=dict(aile=aile(c[1]),tip=tip(c[1]),bas=' '.join(x.strip() for x in c[:6] if x.strip()),irk='Arap' if 'Arap' in l else 'İngiliz',pist=pist,bant=bant(int(m.group(1))),h=[]);races.append(cur);continue
+        cur=dict(aile=aile(c[1]),tip=tip(c[1]),bas=' '.join(x.strip() for x in c[:6] if x.strip()),irk='Arap' if 'Arap' in l else 'İngiliz',pist=pist,bant=bant(int(m.group(1))),m=int(m.group(1)),h=[]);races.append(cur);continue
     _m=re.search(r"(\d)'L[İIÜU] GANYAN Bu koşudan başlar",l)
     if cur and _m: cur.setdefault('coklu',[]).append(int(_m.group(1)))
     if cur and c[0].isdigit() and len(c)>14 and 'Koşmaz' not in c[1]:
@@ -73,7 +75,7 @@ for l in open(pc,encoding='utf-8-sig').read().splitlines():
         isim=c[1]; a=next((k for k in sorted(ped,key=len,reverse=True) if isim.startswith(k)),isim)
         cur['h'].append(dict(no=c[0],ad=a,baba=c[3].strip(),hp=int(c[11]) if c[11].isdigit() else 0,son6=c[12],kgs=int(c[13]) if c[13].isdigit() else 0,
             s20=int(c[14]) if c[14].isdigit() else 0,agf=float(ag.group(1)) if ag else 0.5,yas=int(y.group(1)) if y else 4,kg=float(kg.group(1).replace(',','.')) if kg else 57,
-            ap=' AP' in c[6],st=int(st.group(1)) if st else 0,jok=c[6].replace(' AP','').strip(),kb=ped.get(a,{}).get('kb','?'),bitis=ped.get(a,{}).get('bitis')))
+            sah=c[7].strip(),ap=' AP' in c[6],st=int(st.group(1)) if st else 0,jok=c[6].replace(' AP','').strip(),kb=ped.get(a,{}).get('kb','?'),bitis=ped.get(a,{}).get('bitis')))
 def galop(ad):
     d=ID.get(ad)
     if not d: return None,None,'idman yok',None,None
@@ -120,11 +122,19 @@ for ri,r in enumerate(races):
     GF=np.array([[max(min(-(a[0]-vm)/(vs or 1),2.5),-2.5) if a[0] else 0.0, float(a[1] is None), float(a[1] is not None and a[1]<=7),
                   min(a[3] or 0,5)/5 if a[3] is not None else 0.0, float(a[4]=='Çalışarak')] for a in g])
     gk=GF@np.array(GW[1:6]); u=u+(gk-gk.mean())   # galop: 420 koşuda (30 gün) piyasaya katkısı doğrulandı
-    # hız puanı (son 3 koşunun en iyisi): 1.837 koşuda piyasaya katkısı doğrulandı (ağırlık veri/ozellik_test.json)
-    hz=np.array([max([y['puan'] for y in HZ.get(f"{r['irk']}|{x['ad']}",[])[-3:]],default=np.nan) for x in h]); ok=np.isfinite(hz)
-    for x,v in zip(h,hz): x['hiz']=v
-    if ok.sum()>1 and hz[ok].std()>0:
-        zz=np.zeros(len(h)); zz[ok]=np.clip((hz[ok]-hz[ok].mean())/hz[ok].std(),-2.5,2.5); u=u+HW*zz
+    # geçmiş performans (veri/ozellik_test2.json: 1.850 koşuda piyasaya katkısı doğrulandı)
+    def zf(v):
+        v=np.array(v,float); ok=np.isfinite(v); z=np.zeros(len(v))
+        if ok.sum()>1 and v[ok].std()>0: z[ok]=np.clip((v[ok]-v[ok].mean())/v[ok].std(),-2.5,2.5)
+        return z
+    HH=[HZA.get(f"{r['irk']}|{x['ad']}",{}) for x in h]
+    for x,H_ in zip(h,HH):
+        sp=[y['puan'] for y in H_.get('son',[])]; x['hiz']=max(sp) if sp else np.nan; x['hiz_son']=sp[-1] if sp else np.nan
+        G_=H_.get('galibiyetler',[]); x['pmg']=any(y['hipodrom']==HIP and y['pist']==r['pist'] and abs(y['mesafe']-r['m'])<=100 for y in G_); x['pg']=any(y['pist']==r['pist'] for y in G_)
+        x['say']=H_.get('sayi',0); sh=HZS.get(x.get('sah',''),[0,0.0]); x['sah_ae']=(sh[0]+3)/(sh[1]+3)
+    F={'hiz_en_iyi3':zf([x['hiz'] for x in h]),'hiz_son':zf([x['hiz_son'] for x in h]),'pist_mesafe_galibi':np.array([float(x['pmg']) for x in h]),
+       'pist_galibi':np.array([float(x['pg']) for x in h]),'deneyim':zf([math.log(1+x['say']) for x in h]),'sahip':zf([math.log(x['sah_ae']) for x in h])}
+    ek_u=sum(GECMIS_W.get(k,0)*v for k,v in F.items()); u=u+ek_u-ek_u.mean()
     p=np.exp(u-u.max()); p/=p.sum(); q=np.array([x['agf'] for x in h]); q=q/q.sum()
     pro=PR['segment'].get(seg,{}); a_=pro.get('ae',{}); ic=a_.get('start 1-3',{}).get('piyasa_ae')
     print(f"\n=== {r['bas']}  [{seg}]"+("  (AGF henüz oluşmadı: AGF'siz model, değer işareti yok)" if agf_yok else ""))
@@ -144,7 +154,7 @@ for ri,r in enumerate(races):
     for i in srt[:5]:
         x=h[i]; deger=p[i]/q[i] if q[i] else 0; isaret=' ★DEĞER' if deger>=1.3 and p[i]>=0.08 and not agf_yok else ''
         bt=(f" → {x['bitis']}." if x['bitis'] else '')+(' [EKÜRİ]' if x['ad'] in ek else '')
-        print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
+        print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')}{' ★pist-mesafe galibi' if x.get('pmg') else (' pist galibi' if x.get('pg') else '')} {x.get('say',0)} koşu | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
     JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_yok),
         atlar=[dict(no=x['no'],ad=x['ad'],p=round(float(p[i]),4),agf=round(float(q[i]),4),ekuri=x['ad'] in ek) for i,x in enumerate(h)]))
     kaz=[i for i,x in enumerate(h) if x['bitis']==1]
