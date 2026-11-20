@@ -668,3 +668,4 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - 09:26 (ilk yayın): Antalya 63 at ort. fark 3,2 puan (HASTA FINAL TJK %53,2 / ebayi %36,4); İzmir 49 at ort. fark 5,0 (O BİR ÇELİK TJK %72,1 / ebayi %36,1).
 - 12:15 ve 14:51: ort. fark 0,02–0,16 puan → aynı veri (küçük fark çekim saniyesi).
 - Yorum: ilk yayında iki kaynak senkron değil; en uç değerler TJK CSV'de (çok az kuponla ilk hesap olabilir – doğrulanmadı). "Sabah ilk AGF" çok oynak → AGF değişimi testinde ikinci bir sabah noktası (~10:00) ve 12:00 da baz alınacak. Kazanan profilinde TJK ILK; para_takip'te ebayi ilk görüntü.
+- Kullanıcı (20.11): "İlk hangisinde çıkıyorsa doğru olan odur; sabah ikisinden de AGF çek." → Sabah kontrolü 5 dk'da bir, TJK ILK (ILK_<hip>.csv) VE ebayi ILK (ILK_<hip>_ebayi.json) alınana kadar sürer; ilk görülme saatleri `veri/agf_kayit/<gün>/ilk_zaman.json`. 20.11'de ikisi de 09:26 kontrolünde doluydu (hangisinin önce yayınladığı bilinmiyor).

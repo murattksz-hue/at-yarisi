@@ -10,6 +10,9 @@ tq=urllib.parse.quote(g.strftime('%d/%m/%Y'),safe='')
 ana=subprocess.run(['curl','-sS','--max-time','90',f"https://www.tjk.org/TR/YarisSever/Info/Page/GunlukYarisProgrami?QueryParameter_Tarih={tq}"],capture_output=True).stdout.decode('utf-8','replace')
 SIDS={a:i for i,a in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<]',ana) if a in TR}; hips=list(SIDS)
 kd=os.path.join(K,'veri','agf_kayit',g.isoformat()); os.makedirs(kd,exist_ok=True); saat=datetime.datetime.now(datetime.timezone.utc).strftime('%H%M')
+def _iz(h,kaynak,saat):   # ilk_zaman.json: {hipodrom:{tjk:'HHMM UTC', ebayi:'HHMM UTC'}}
+    import json as _j; f=os.path.join(kd,'ilk_zaman.json'); D=_j.load(open(f,encoding='utf-8')) if os.path.exists(f) else {}
+    D.setdefault(h,{}).setdefault(kaynak,saat+' UTC'); _j.dump(D,open(f,'w',encoding='utf-8'),ensure_ascii=False)
 def agf_kismi(b):   # yalnızca at satırlarının AGF sütunu (değişim karşılaştırması için)
     return [l.split(';')[10] for l in b.decode('utf-8-sig','replace').splitlines() if re.match(r'^\d+;',l) and len(l.split(';'))>10]
 for h in hips:
@@ -31,7 +34,7 @@ for h in hips:
     if onceki and agf_kismi(open(onceki[-1],'rb').read())==a: print(f"{h}: AGF değişmemiş ({dolu}/{len(a)} at dolu)"); continue
     open(os.path.join(kd,f"{h}_{saat}UTC.csv"),'wb').write(b)
     ilk=os.path.join(kd,f"ILK_{h}.csv")
-    if dolu>0 and not os.path.exists(ilk): open(ilk,'wb').write(b); print(f"{h}: İLK AGF kaydedildi ({saat} UTC, {dolu}/{len(a)} at)")
+    if dolu>0 and not os.path.exists(ilk): open(ilk,'wb').write(b); print(f"{h}: İLK AGF kaydedildi ({saat} UTC, {dolu}/{len(a)} at)"); _iz(h,'tjk',saat)
     else: print(f"{h}: yeni görüntü {saat} UTC ({dolu}/{len(a)} at dolu)")
 # ebayi.org (TJK resmî bayisi) anlık görüntüsü: AGF1, AGF2, canlı ganyan ve koşmaz bilgisi tek dosyada (TJK sayfası gecikirse yedek kaynak)
 import json
@@ -45,6 +48,10 @@ for y in (_eb(f"program/{g:%Y%m%d}/yarislar.json") or []):
     if not J: continue
     S={str(k['NO']):{a['AD'].strip():[a.get('AGF1'),a.get('AGF2'),a.get('GANYAN'),bool(a.get('KOSMAZ'))] for a in k.get('atlar',[])} for k in J.get('kosular',[])}
     json.dump(S,open(os.path.join(kd,f"{EBK[y['KEY']]}_{saat}UTC_ebayi.json"),'w',encoding='utf-8'),ensure_ascii=False)
+    # ebayi'de AGF'nin ilk göründüğü görüntü (TJK ILK ile hangisi önce yayınlıyor karşılaştırması)
+    ie=os.path.join(kd,f"ILK_{EBK[y['KEY']]}_ebayi.json")
+    if not os.path.exists(ie) and any(v[0] for A in S.values() for v in A.values()):
+        json.dump(S,open(ie,'w',encoding='utf-8'),ensure_ascii=False); print(f"{EBK[y['KEY']]}: ebayi İLK AGF kaydedildi ({saat} UTC)"); _iz(EBK[y['KEY']],'ebayi',saat)
     print(f"{EBK[y['KEY']]}: ebayi görüntüsü {saat} UTC ({sum(len(v) for v in S.values())} at)")
 # ebayi MUHTEMELLER (herkese açık CDN, sayfanın kendi okuduğu dosyalar): her koşunun anlık muhtemel ganyanı ve koşu durumu.
 # checksum: vhs-medya.ebayi.org/muhtemeller/s/YYYY/AA/GG/checksum.json → runs{HIP-NO:[kısa,tam]} ; tam dosya: vhs-medya-cdn.../s/YYYY/AA/GG/HIP-NO-full-<run>.json
