@@ -69,10 +69,23 @@ def profil(T,H,NO):
                  jokey_degisti=int(son['jokey']!=w.get('JOKEYADI')),mesafe_fark=int(f(k.get('MESAFE')) or 0)-int(f(son['mesafe']) or 0),
                  pist_degisti=int(son['pist']!=k.get('PISTADI_TR')),hip_degisti=int(son['hip']!=H),tur_onceki=son['tur'])
     else: r['onceki_tarih']='ilk koşu/kayıt yok'
+    try:
+        sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import at_notlari as AN
+        global _ATG
+        if '_ATG' not in globals() or _ATG[0]!=T: _ATG=(T,)+AN.gecmis(T)
+        hv=[x for x in HP.values() if x]; irk='Arap' if (k.get('GRUPKISA') or '').endswith('A') else 'İngiliz'
+        v=AN.ek_vektor(_ATG[1].get(w['AD'].upper(),[]),_ATG[2],H,f(k.get('MESAFE')),sum(hv)/len(hv) if len(hv)>=4 else None,w.get('BABA'),irk)
+        for a,x in zip(['sinif_fark','ilk_kez_hip','ilk_kez_mesafe','en_uzun','en_kisa','mesafe_degisim','soy_bant','iyi_yeni_mes'],v): r[a]='' if x is None else round(x,2)
+        r['irk']=irk
+    except Exception as e: print('ek alanlar hesaplanamadı:',e)
+    if os.path.exists(pt):
+        x=next((x for x in csv.DictReader(open(pt,encoding='utf-8')) if x['tarih']==T and x['hip']==H and x['kosu']==NO and x['at']==w['AD']),None)
+        if x: r['sinyal']=x.get('sinyal','')
     return r
 ALAN=['tarih','hip','kosu','tur','mesafe','pist','kosan','no','at','kesin','surpriz','ganyan_sira','model_agfli_sira','model_agfli_p','model_agfsiz_sira','model_agfsiz_p','aday_sayisi',
       'agf_sabah','agf_sabah_sira','agf_son','agf_son_sira','agf_fark','agf_artis_sira','g60','g30','g_son','para','sessiz','hp','hp_sira','kgs','start','jokey','kilo','yas','son6',
-      'onceki_tarih','onceki_sira','onceki_kosan','onceki_ganyan','jokey_degisti','mesafe_fark','pist_degisti','hip_degisti','tur_onceki']
+      'onceki_tarih','onceki_sira','onceki_kosan','onceki_ganyan','jokey_degisti','mesafe_fark','pist_degisti','hip_degisti','tur_onceki',
+      'irk','sinif_fark','ilk_kez_hip','ilk_kez_mesafe','en_uzun','en_kisa','mesafe_degisim','soy_bant','iyi_yeni_mes','sinyal']
 if sys.argv[1]=='ozet':
     R=list(csv.DictReader(open(OUT,encoding='utf-8')))
     def ort(L,a):
@@ -86,11 +99,28 @@ if sys.argv[1]=='ozet':
         print(f"   jokey değişti {oran(L,'jokey_degisti',lambda v:v=='1')} | pist değişti {oran(L,'pist_degisti',lambda v:v=='1')} | hipodrom değişti {oran(L,'hip_degisti',lambda v:v=='1')} | mesafe değişti {oran(L,'mesafe_fark',lambda v:v!='0')}")
         print(f"   ganyan son 60 dk'da düştü (g60>kesin) {oran([x for x in L if f(x.get('g60'))],'g60',lambda v:True) and oran([x for x in L if f(x.get('g60'))],'kesin',lambda v:True) and ''}"+(f"{sum(f(x['g60'])>f(x['kesin']) for x in L if f(x.get('g60')))}/{sum(1 for x in L if f(x.get('g60')))}"))
     sys.exit()
+if sys.argv[1]=='guncelle':
+    R=list(csv.DictReader(open(OUT,encoding='utf-8'))) if os.path.exists(OUT) else []
+    G=set(sys.argv[2:]); yeni=[]
+    for x in R:
+        if x['tarih'] in G:
+            try:
+                y=profil(x['tarih'],x['hip'],x['kosu']); yeni.append(y or x)
+            except Exception as e: print('hata',x['tarih'],x['hip'],x['kosu'],e); yeni.append(x)
+        else: yeni.append(x)
+    w=csv.DictWriter(open(OUT,'w',encoding='utf-8',newline=''),fieldnames=ALAN,extrasaction='ignore'); w.writeheader(); w.writerows(yeni)
+    print(len([x for x in R if x['tarih'] in G]),'satır güncellendi'); sys.exit()
+if sys.argv[1]=='goster':   # dosyaya yazmadan
+    r=profil(*sys.argv[2:5]); print(' | '.join(f"{a}={r.get(a,'')}" for a in ALAN[3:] if r and r.get(a) not in ('',None))); sys.exit()
 T,H,NO=sys.argv[1:4]; r=profil(T,H,NO)
 if not r: sys.exit('sonuç yok')
 var=set()
 if os.path.exists(OUT): var={(x['tarih'],x['hip'],x['kosu']) for x in csv.DictReader(open(OUT,encoding='utf-8'))}
 if (T,H,NO) not in var:
+    if os.path.exists(OUT):
+        eski=list(csv.DictReader(open(OUT,encoding='utf-8')))
+        if eski and list(eski[0])!=ALAN:
+            w=csv.DictWriter(open(OUT,'w',encoding='utf-8',newline=''),fieldnames=ALAN,extrasaction='ignore'); w.writeheader(); w.writerows(eski)
     yeni=not os.path.exists(OUT); w=csv.DictWriter(open(OUT,'a',encoding='utf-8',newline=''),fieldnames=ALAN,extrasaction='ignore')
     if yeni: w.writeheader()
     w.writerow(r)

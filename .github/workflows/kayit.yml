@@ -52,6 +52,7 @@ jobs:
           done
           if [ "$bitti" = "1" ]; then
             python3 -I scripts/at_gecmisi.py ekle "$(TZ=Europe/Istanbul date +%F)" "$(TZ=Europe/Istanbul date -d yesterday +%F)" || true
+            python3 -I scripts/kazanan_profil.py guncelle "$(TZ=Europe/Istanbul date +%F)" "$(TZ=Europe/Istanbul date -d yesterday +%F)" || true
             kaydet
           elif [ "$ozel" != "true" ]; then
             gh workflow run kayit.yml --ref "$GITHUB_REF_NAME"
