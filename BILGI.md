@@ -607,3 +607,11 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - AGF'li (piyasa+geçmiş): KISA −1,8405 / UZUN −1,8397 → binde +0,76, z +0,99 → **anlamlı değil**.
 - AGF'siz (HP+geçmiş): KISA −2,0710 (1. seçim %23,7) / UZUN −2,0626 (%23,8) → binde **+8,39, z +2,85 → anlamlı fayda**.
 - Karar (kullanıcının kuralı: fayda varsa daha eskisi çekilir): ebayi 2020-01-01..2023-12-31 indirmesi başlatıldı (`.gunluk/ebayi_indir_eski.log`). Sonra AGF'siz modelin geçmiş tabloları uzun veriyle yeniden kurulup aynı testle ölçülecek.
+
+## Hipotez (kullanıcı, 20.11.2026): sabah ham AGF → koşu öncesi AGF değişimi "gerçek" AGF'yi "sahte"den ayırır
+- Durum: TEST EDİLMEDİ. Veri: sabah ilk AGF kaydı yalnızca 19.11 ve 20.11 (2 gün, ~30 altılı koşusu) → yetersiz.
+- Test planı (yeterli veri birikince, hedef ≥ ~600 koşu ≈ 6-8 hafta): her at için sabah AGF, 12:00, −1 saat, son AGF ve kesin ganyan.
+  1) AGF'si sabahtan sona artan / düşen / sabit atların kazanma A/E'si (beklenen = son AGF ve ayrıca kesin ganyan).
+  2) Koşullu logit: piyasa (kesin ganyan) + log(son AGF / sabah AGF) → binde kazanç, iki yarıda da artı mı.
+  3) Model 1. seçim isabeti: sabah AGF ile mi, son AGF ile mi, ikisi birlikte mi daha yüksek.
+- Sonuç ne çıkarsa çıksın yazılacak; tahmin/kurgu yok.
