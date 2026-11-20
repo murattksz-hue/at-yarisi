@@ -3,13 +3,13 @@
   2) 12:00: bir kontrol kaydı
   3) her koşudan 1 saat önce: bir kayıt
   4) her koşudan sonra (başlangıç + 15 dk): sonuç kontrolü (canli_takip → veri/canli_takip*.csv)
-Durum: .gunluk/<tarih>/plan.json. Koşu saatleri: ebayi program kosular/<HIP>.json. Çıkış kodu 3 = günün bütün işleri bitti."""
+Durum: veri/plan/<tarih>.json. Koşu saatleri: ebayi program kosular/<HIP>.json. Çıkış kodu 3 = günün bütün işleri bitti."""
 import sys,os,json,subprocess,datetime
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TZ=datetime.timezone(datetime.timedelta(hours=3)); simdi=datetime.datetime.fromisoformat(os.environ['PLAN_SIMDI']).replace(tzinfo=TZ) if os.environ.get('PLAN_SIMDI') else datetime.datetime.now(TZ); g=simdi.date()
 DENEME=bool(os.environ.get('PLAN_DENEME'))   # deneme: işleri çalıştırmaz, yalnızca yazar
 EBK={'IZMIR':'İzmir','ISTANBUL':'İstanbul','SANLIURFA':'Şanlıurfa','ELAZIG':'Elazığ','DIYARBAKIR':'Diyarbakır','ADANA':'Adana','BURSA':'Bursa','ANKARA':'Ankara','KOCAELI':'Kocaeli','ANTALYA':'Antalya'}
-tmp=os.path.join(K,'.gunluk',g.isoformat()); os.makedirs(tmp,exist_ok=True); PF=os.path.join(tmp,'plan.json')
+tmp=os.path.join(K,'veri','plan'); os.makedirs(tmp,exist_ok=True); PF=os.path.join(tmp,f'{g.isoformat()}.json')   # git'te: GitHub Actions çalıştırmaları arasında korunur
 P=json.load(open(PF)) if os.path.exists(PF) else {}
 def kaydet(): json.dump(P,open(PF,'w'),ensure_ascii=False,indent=0)
 def eb(p):

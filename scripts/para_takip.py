@@ -1,6 +1,6 @@
 """Para girişi takibi (koşu bazında, gerçek kayıtlar). Koşu bittikten sonra çalışır.
 Kullanım: para_takip.py YYYY-AA-GG Hipodrom KosuNo
-Kaynak: veri/agf_kayit/<tarih>/<hip>_<HHMM>UTC_ebayi.json görüntüleri ({koşu:{at:[AGF1,AGF2,GANYAN,KOSMAZ]}}), koşu saati .gunluk/<tarih>/plan.json,
+Kaynak: veri/agf_kayit/<tarih>/<hip>_<HHMM>UTC_ebayi.json görüntüleri ({koşu:{at:[AGF1,AGF2,GANYAN,KOSMAZ]}}), koşu saati veri/plan/<tarih>.json,
 sonuç ve kesin ganyan ebayi sonuclar JSON'u. Her at için: sabah AGF, son AGF, koşudan 60/30/10 dk önceki ve son muhtemel ganyan, kesin ganyan, sonuç.
 💰 işareti (TEST EDİLMEDİ, bilgi): son 30 dk'da ganyan ≥1,4 kat düştü (son ganyan ≤20). Satırlar veri/para_takip.csv'ye eklenir (tekrar yazılmaz)."""
 import sys,os,glob,json,csv,urllib.request
@@ -11,7 +11,7 @@ KEY={v:k for k,v in EBK.items()}[H]
 def f(v):
     try: return float(str(v).replace(',','.'))
     except Exception: return None
-saat=json.load(open(os.path.join(K,'.gunluk',T,'plan.json'),encoding='utf-8'))['kosular'][H][NO]; bas=int(saat[:2])*60+int(saat[3:])
+saat=json.load(open(os.path.join(K,'veri','plan',f'{T}.json'),encoding='utf-8'))['kosular'][H][NO]; bas=int(saat[:2])*60+int(saat[3:])
 G=[]
 for p in sorted(glob.glob(os.path.join(K,'veri','agf_kayit',T,f"{H}_*UTC_ebayi.json"))):
     hm=os.path.basename(p)[len(H)+1:len(H)+5]; m=((int(hm[:2])+3)%24)*60+int(hm[2:])

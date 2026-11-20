@@ -1,0 +1,36 @@
+# Koşu günü AGF/ganyan kayıt planı (scripts/agf_plan.py) GitHub'ın sunucularında çalışır; Claude oturumu kapalıyken de kayıt alınır.
+# Saatler UTC (İstanbul = UTC+3). Sabah 09:10–10:40 her 10 dk (ilk AGF), 11:00–23:45 her 15 dk (öğle, koşu öncesi/sonrası).
+name: kayit
+on:
+  schedule:
+    - cron: '10-59/10 6 * * *'
+    - cron: '0-40/10 7 * * *'
+    - cron: '0-59/15 8-20 * * *'
+  workflow_dispatch:
+    inputs:
+      test:
+        description: 'Plan yerine doğrudan bir AGF kaydı al (bağlantı testi)'
+        type: boolean
+        default: false
+concurrency:
+  group: kayit
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  kayit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet numpy
+      - name: Plan
+        run: |
+          if [ "${{ github.event.inputs.test }}" = "true" ]; then python3 -I scripts/agf_kayit.py; else python3 -I scripts/agf_plan.py || [ $? -eq 3 ]; fi
+      - name: Kaydet
+        run: |
+          git config user.name "kayit-bot"; git config user.email "kayit-bot@users.noreply.github.com"
+          git add -A veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/canli_takip*.csv veri/para_takip.csv analizler 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "AGF/ganyan kaydı (Actions)"
+          for i in 1 2 3 4; do git pull -q --rebase && git push -q && exit 0; sleep $((i*10)); done; exit 1
