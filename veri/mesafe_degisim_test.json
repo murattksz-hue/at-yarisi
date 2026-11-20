@@ -1,0 +1,162 @@
+{
+ "200-399 kısaldı": {
+  "at": 19038,
+  "ae": 1.03,
+  "z": 1.2,
+  "getiri": 67,
+  "ae_ilk": 1.04,
+  "ae_son": 1.01
+ },
+ "200-399 kısaldı | formu iyi": {
+  "at": 5514,
+  "ae": 1.05,
+  "z": 1.5,
+  "getiri": 71,
+  "ae_ilk": 1.09,
+  "ae_son": 1.01
+ },
+ "200-399 uzadı": {
+  "at": 21129,
+  "ae": 0.99,
+  "z": -0.4,
+  "getiri": 61,
+  "ae_ilk": 0.99,
+  "ae_son": 0.99
+ },
+ "200-399 uzadı | formu iyi": {
+  "at": 6494,
+  "ae": 1.0,
+  "z": -0.1,
+  "getiri": 63,
+  "ae_ilk": 1.02,
+  "ae_son": 0.98
+ },
+ "aralık içinde": {
+  "at": 133381,
+  "ae": 1.01,
+  "z": 0.7,
+  "getiri": 65,
+  "ae_ilk": 1.01,
+  "ae_son": 1.01
+ },
+ "aralık içinde | formu iyi": {
+  "at": 39758,
+  "ae": 1.03,
+  "z": 2.3,
+  "getiri": 69,
+  "ae_ilk": 1.03,
+  "ae_son": 1.03
+ },
+ "en kısa (önceki en kısadan −100 altı)": {
+  "at": 1489,
+  "ae": 1.07,
+  "z": 0.8,
+  "getiri": 71,
+  "ae_ilk": 1.04,
+  "ae_son": 1.18
+ },
+ "en kısa (önceki en kısadan −100 altı) | formu iyi": {
+  "at": 359,
+  "ae": 1.17,
+  "z": 1.3,
+  "getiri": 86,
+  "ae_ilk": 1.1,
+  "ae_son": 1.35
+ },
+ "en uzun (+100 üstü)": {
+  "at": 12094,
+  "ae": 1.04,
+  "z": 1.4,
+  "getiri": 61,
+  "ae_ilk": 1.07,
+  "ae_son": 1.01
+ },
+ "en uzun (+100 üstü) | formu iyi": {
+  "at": 3518,
+  "ae": 1.08,
+  "z": 2.0,
+  "getiri": 74,
+  "ae_ilk": 1.1,
+  "ae_son": 1.06
+ },
+ "mesafe daha önce koşulmuş": {
+  "at": 105088,
+  "ae": 1.0,
+  "z": 0.1,
+  "getiri": 65,
+  "ae_ilk": 1.0,
+  "ae_son": 1.0
+ },
+ "mesafe daha önce koşulmuş | formu iyi": {
+  "at": 31850,
+  "ae": 1.02,
+  "z": 1.8,
+  "getiri": 68,
+  "ae_ilk": 1.02,
+  "ae_son": 1.03
+ },
+ "mesafe ilk kez (bu tam mesafe hiç yok)": {
+  "at": 41876,
+  "ae": 1.03,
+  "z": 2.1,
+  "getiri": 66,
+  "ae_ilk": 1.04,
+  "ae_son": 1.02
+ },
+ "mesafe ilk kez (bu tam mesafe hiç yok) | formu iyi": {
+  "at": 11785,
+  "ae": 1.06,
+  "z": 2.6,
+  "getiri": 73,
+  "ae_ilk": 1.08,
+  "ae_son": 1.03
+ },
+ "son koşuya göre ≥400 m kısaldı": {
+  "at": 19655,
+  "ae": 1.02,
+  "z": 0.9,
+  "getiri": 67,
+  "ae_ilk": 1.03,
+  "ae_son": 1.01
+ },
+ "son koşuya göre ≥400 m kısaldı | formu iyi": {
+  "at": 5098,
+  "ae": 1.04,
+  "z": 1.2,
+  "getiri": 72,
+  "ae_ilk": 1.0,
+  "ae_son": 1.09
+ },
+ "son koşuyla ±100": {
+  "at": 64871,
+  "ae": 1.01,
+  "z": 0.6,
+  "getiri": 66,
+  "ae_ilk": 1.0,
+  "ae_son": 1.02
+ },
+ "son koşuyla ±100 | formu iyi": {
+  "at": 20672,
+  "ae": 1.03,
+  "z": 2.0,
+  "getiri": 70,
+  "ae_ilk": 1.03,
+  "ae_son": 1.04
+ },
+ "≥400 m uzadı": {
+  "at": 22271,
+  "ae": 1.01,
+  "z": 0.6,
+  "getiri": 62,
+  "ae_ilk": 1.03,
+  "ae_son": 0.99
+ },
+ "≥400 m uzadı | formu iyi": {
+  "at": 5857,
+  "ae": 1.05,
+  "z": 1.6,
+  "getiri": 71,
+  "ae_ilk": 1.07,
+  "ae_son": 1.03
+ }
+}

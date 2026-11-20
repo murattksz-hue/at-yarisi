@@ -702,3 +702,4 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - `scripts/at_notlari.py` + analiz3: her koşuda adayların altında **AT GEÇMİŞİ** satırı: koşu/birincilik, kısa/orta/uzun ilk 3 kaydı, İLK KEZ <hipodrom>, İLK KEZ bu uzunluk (formu iyiyse testli not), sınıf farkı (rakipler son 3 koşuya göre daha zayıf/güçlü, ±HP), son koşusu. Yalnızca analiz gününden önceki veriler.
 - **⭐ SÜRPRİZ ADAYI** işareti (gny 10–500 ve piyasa oturmuş, AGF ≥1,3× ganyan olasılığı, HP ilk 3).
 - Raporun başında HİPODROM sürpriz satırı (önceden eklendi).
+- Mesafe değişimi testi (`veri/mesafe_degisim_test.json`, 2024+): bu tam mesafede ilk kez A/E 1,03 (z 2,1; 41.876 at), formu iyiyse 1,06 (z 2,6; 1,08/1,03); en kısa mesafe formu iyi 1,17 (359 at, az); son koşuya göre ±200–400 m değişim 0,99–1,05 (anlamsız). Getiriler %61–86 (kârlı değil). Rapora etiket olarak eklendi: İLK KEZ <m>, EN KISA, son koşuya göre ±m.

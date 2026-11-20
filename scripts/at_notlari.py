@@ -28,6 +28,12 @@ def notlar(R,KAL,hip,mesafe,alan_hp):
     if mesafe and mesafe>mm+100:
         iyi=sum(1 for r in R[-3:] if (_f(r['sonuc']) or 99)<=3)>=2
         t.append(f"İLK KEZ bu uzunluk (önceki en uzun {int(mm)}m{', formu iyi: testte A/E 1,08' if iyi else ''})")
+    ms=[_f(r['mesafe']) or 0 for r in R]
+    if mesafe and mesafe not in ms: t.append(f"İLK KEZ {int(mesafe)}m (testte A/E 1,03; formu iyiyse 1,06)")
+    if mesafe and ms and mesafe<min(ms)-100: t.append(f"EN KISA mesafesi (önceki en kısa {int(min(ms))}m)")
+    if mesafe and ms:
+        d=mesafe-ms[-1]
+        if abs(d)>=200: t.append(f"son koşuya göre {'+' if d>0 else ''}{int(d)}m {'uzadı' if d>0 else 'kısaldı'}")
     P=[KAL.get((r['tarih'],r['hip'],r['kosu'])) for r in R[-3:]]; P=[p for p in P if p]
     if P and alan_hp:
         fk=sum(P)/len(P)-alan_hp
