@@ -625,3 +625,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 ## Bahis birim fiyatları (kullanıcı, 20.11.2026)
 - 3'lü ganyan: kombinasyon başı **2 TL** (42 kombinasyon = 84 TL, kullanıcının kupon ekranı). Altılı: **2 TL** (kullanıcı düzeltti; önce 1,25 demişti). En az oynama: **20 TL**.
 - Kupon kayıtları: veri/kuponlar.csv.
+
+## At geçmişi veritabanı (20.11.2026, kullanıcı isteği: "atları koştukça tanı, kim nerede nasıl geldi unutma")
+- `veri/at_gecmisi/<yıl>/<gün>.csv.gz`: her at, her koşu (ebayi resmî sonuçları): hipodrom, koşu no/saat/tür/grup/mesafe/pist, koşan sayısı, at kodu/adı/yaş, baba/anne/anne babası, jokey/antrenör/sahip, kilo, HP, start, takı, AGF, kesin ganyan, sıra, derece, fark.
+- İlk kurulum: 246.919 + 137 satır, 20.321 at, 25.640 koşu; 2020-01 → 2020-11 ve 2024-01 → 2026-11-19 (2020-12..2023 indirmesi sürüyor; bitince `at_gecmisi.py kur .gunluk/ebayi` yeniden).
+- Günlük ekleme: GitHub Actions 23:00–23:45 çalıştırmalarında `at_gecmisi.py ekle <bugün> <dün>` (tekrar yazmaz). Sorgu: `scripts/at_bilgi.py "AT ADI"`.

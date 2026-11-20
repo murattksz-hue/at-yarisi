@@ -27,10 +27,14 @@ jobs:
       - name: Plan
         run: |
           if [ "${{ github.event.inputs.test }}" = "true" ]; then python3 -I scripts/agf_kayit.py; else python3 -I scripts/agf_plan.py || [ $? -eq 3 ]; fi
+      - name: At geçmişi (günün sonuçları, 23:00 sonrası)
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$(date -u +%H)" = "20" ]; then python3 -I scripts/at_gecmisi.py ekle "$(TZ=Europe/Istanbul date +%F)" "$(TZ=Europe/Istanbul date -d yesterday +%F)"; fi
       - name: Kaydet
         run: |
           git config user.name "kayit-bot"; git config user.email "kayit-bot@users.noreply.github.com"
-          for y in veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/canli_takip*.csv veri/para_takip.csv analizler; do [ -e "$y" ] && git add -A "$y"; done; true
+          for y in veri/at_gecmisi veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/canli_takip*.csv veri/para_takip.csv analizler; do [ -e "$y" ] && git add -A "$y"; done; true
           git diff --cached --quiet && exit 0
           git commit -q -m "AGF/ganyan kaydı (Actions)"
           for i in 1 2 3 4; do git pull -q --rebase && git push -q && exit 0; sleep $((i*10)); done; exit 1
