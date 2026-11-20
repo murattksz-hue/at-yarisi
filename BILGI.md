@@ -630,3 +630,10 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - `veri/at_gecmisi/<yıl>/<gün>.csv.gz`: her at, her koşu (ebayi resmî sonuçları): hipodrom, koşu no/saat/tür/grup/mesafe/pist, koşan sayısı, at kodu/adı/yaş, baba/anne/anne babası, jokey/antrenör/sahip, kilo, HP, start, takı, AGF, kesin ganyan, sıra, derece, fark.
 - İlk kurulum: 246.919 + 137 satır, 20.321 at, 25.640 koşu; 2020-01 → 2020-11 ve 2024-01 → 2026-11-19 (2020-12..2023 indirmesi sürüyor; bitince `at_gecmisi.py kur .gunluk/ebayi` yeniden).
 - Günlük ekleme: GitHub Actions 23:00–23:45 çalıştırmalarında `at_gecmisi.py ekle <bugün> <dün>` (tekrar yazmaz). Sorgu: `scripts/at_bilgi.py "AT ADI"`.
+
+## Asıl model (v9) uzun geçmişle (20.11.2026) – KABUL EDİLMEDİ
+- Aygır/kulvar/jokey istatistikleri ve at geçmişi (gecmis_ozellik) KISA (veri/sonuc_temiz, 2025-05→) vs UZUN (+ .gunluk/sonuc_eski 2024-01→2025-05). Program verisi aynı (.gunluk/program, 2026-06-21→), eğitim 2.140, test 542 görülmemiş koşu (2026-10-19→).
+- AGF'siz genel model: LL −1,956 → −1,953 (binde +3); 1. seçim %30,4 → %29,0; ilk 3 %59,6 → %61,8.
+- AGF'li genel model: LL −1,846 → −1,847; 1. seçim %32,8 → %32,3; ilk 3 %66,4 → %66,6.
+- 542 koşuda 1,4 puan ≈ 8 koşu → gürültü. Basit testteki (eski_veri_test, binde +8,4) fayda asıl modelde tekrarlanmadı; v9 zaten jokey/baba/form bilgisini başka özelliklerle taşıyor. Mevcut model değişmedi.
+- Not: eğitim program arşivi scratchpad'den .gunluk/program'a kopyalandı (325 gün).
