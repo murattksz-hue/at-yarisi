@@ -687,3 +687,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Tüm atlarda büyük düşüş (≥10) A/E 1,07 (z 2,9; 1,06/1,08) → küçük artı, getirisi %71 (kârlı değil).
 - Modelde açık bir "sınıf farkı" özelliği yok → ileride özellik testi adayı (sinif_fark).
 - **Modele ekleme testi (sinif_fark, v9 + 1 özellik, 542 görülmemiş koşu, `SINIF` ortam değişkeniyle):** AGF'li LL −1,846 → −1,846, 1. seçim %32,8 → %33,6 (≈4 koşu), ilk 3 %66,4 → %66,1. AGF'siz LL −1,956 → −1,951 (binde +5), 1. seçim %30,4 → %30,3; ağırlık +0,12 (sınıf düşüşü artı yönde). Fark gürültü sınırında → üretime alınmadı; veri birikince (daha çok program günü) tekrar test edilecek. Kapsama: program atlarının %77'si.
+
+## "İlk kez" etkileri (20.11.2026, kullanıcı: DEDEMHAMZAREİS İzmir'de ilk kez koşup kazandı; `scripts/ilk_kez_test.py`, 2024+, en az 2 önceki koşusu olan atlar)
+- İlk kez bu hipodromda (17.128 at): A/E 1,00 (z 0,0) → piyasa doğru fiyatlıyor; formu iyi olanlarda 1,03 (anlamsız); sürpriz adaylarında 1,00 (diğerleri 0,91).
+- İlk kez bu kadar uzun mesafe (+100 m üstü, 12.094 at): A/E 1,04 (z 1,4); formu iyi + en uzun mesafe 1,08 (z 2,0; 1,10/1,06), getiri %74 → küçük artı, kârlı değil. Sürpriz adayı + en uzun mesafe 0,82 (zayıf).
+- Sonuç: modele eklenmedi; tek örnekten (DEDEMHAMZAREİS) genel kural çıkmıyor.

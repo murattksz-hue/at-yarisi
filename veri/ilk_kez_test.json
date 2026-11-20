@@ -1,0 +1,110 @@
+{
+ "hipodrom: daha önce koştu": {
+  "at": 129836,
+  "kazandi": 14001,
+  "ae": 1.01,
+  "z": 1.3,
+  "getiri": 65,
+  "ae_ilk": 1.01,
+  "ae_son": 1.01
+ },
+ "hipodrom: daha önce koştu | gny≥10": {
+  "at": 65330,
+  "kazandi": 2049,
+  "ae": 0.91,
+  "z": -4.3,
+  "getiri": 59,
+  "ae_ilk": 0.93,
+  "ae_son": 0.88
+ },
+ "hipodrom: daha önce koştu | son3'te ≥2 ilk3": {
+  "at": 38647,
+  "kazandi": 6849,
+  "ae": 1.03,
+  "z": 2.8,
+  "getiri": 69,
+  "ae_ilk": 1.03,
+  "ae_son": 1.03
+ },
+ "hipodrom: İLK KEZ burada": {
+  "at": 17128,
+  "kazandi": 1723,
+  "ae": 1.0,
+  "z": 0.0,
+  "getiri": 67,
+  "ae_ilk": 1.02,
+  "ae_son": 0.97
+ },
+ "hipodrom: İLK KEZ burada | gny≥10": {
+  "at": 9159,
+  "kazandi": 306,
+  "ae": 1.0,
+  "z": -0.1,
+  "getiri": 66,
+  "ae_ilk": 1.1,
+  "ae_son": 0.88
+ },
+ "hipodrom: İLK KEZ burada | son3'te ≥2 ilk3": {
+  "at": 4988,
+  "kazandi": 807,
+  "ae": 1.03,
+  "z": 0.8,
+  "getiri": 69,
+  "ae_ilk": 1.06,
+  "ae_son": 0.99
+ },
+ "mesafe: daha önce koştu/kısa": {
+  "at": 134870,
+  "kazandi": 14396,
+  "ae": 1.01,
+  "z": 0.8,
+  "getiri": 65,
+  "ae_ilk": 1.01,
+  "ae_son": 1.01
+ },
+ "mesafe: daha önce koştu/kısa | gny≥10": {
+  "at": 68074,
+  "kazandi": 2190,
+  "ae": 0.93,
+  "z": -3.5,
+  "getiri": 61,
+  "ae_ilk": 0.96,
+  "ae_son": 0.9
+ },
+ "mesafe: daha önce koştu/kısa | son3'te ≥2 ilk3": {
+  "at": 40117,
+  "kazandi": 6995,
+  "ae": 1.03,
+  "z": 2.4,
+  "getiri": 69,
+  "ae_ilk": 1.03,
+  "ae_son": 1.03
+ },
+ "mesafe: en uzun (+100 üstü)": {
+  "at": 12094,
+  "kazandi": 1328,
+  "ae": 1.04,
+  "z": 1.4,
+  "getiri": 61,
+  "ae_ilk": 1.07,
+  "ae_son": 1.01
+ },
+ "mesafe: en uzun (+100 üstü) | gny≥10": {
+  "at": 6415,
+  "kazandi": 165,
+  "ae": 0.82,
+  "z": -2.6,
+  "getiri": 49,
+  "ae_ilk": 0.87,
+  "ae_son": 0.75
+ },
+ "mesafe: en uzun (+100 üstü) | son3'te ≥2 ilk3": {
+  "at": 3518,
+  "kazandi": 661,
+  "ae": 1.08,
+  "z": 2.0,
+  "getiri": 74,
+  "ae_ilk": 1.1,
+  "ae_son": 1.06
+ }
+}
