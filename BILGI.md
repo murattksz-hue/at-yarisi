@@ -637,3 +637,7 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - AGF'li genel model: LL −1,846 → −1,847; 1. seçim %32,8 → %32,3; ilk 3 %66,4 → %66,6.
 - 542 koşuda 1,4 puan ≈ 8 koşu → gürültü. Basit testteki (eski_veri_test, binde +8,4) fayda asıl modelde tekrarlanmadı; v9 zaten jokey/baba/form bilgisini başka özelliklerle taşıyor. Mevcut model değişmedi.
 - Not: eğitim program arşivi scratchpad'den .gunluk/program'a kopyalandı (325 gün).
+
+## Veri kaybı önlemi (20.11.2026)
+- Git dışındaki arşivler repoya alındı: `veri/arsiv/ebayi` (ebayi sonuç JSON.gz, 76 MB), `veri/arsiv/sonuc_eski` (TJK sonuç CSV 2024-01→2025-05), `veri/arsiv/program` (eğitim programları 2026-06-21→11-17, scratchpad'deydi!). `.gunluk/{ebayi,sonuc_eski,program}` bu klasörlere sembolik bağ.
+- Günlük programlar zaten `veri/agf_kayit/<gün>/` altında (AGF'li program CSV görüntüleri) git'te. 2020–2023 indirmesi bittikçe yeni dosyalar commit'lenecek.
