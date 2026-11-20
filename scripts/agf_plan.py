@@ -42,6 +42,9 @@ kd=os.path.join(K,'veri','agf_kayit',g.isoformat())
 ilk_tamam=all(os.path.exists(os.path.join(kd,f"ILK_{h}.csv")) for h in KS)
 if '09:15'<=hm<='10:30' and not ilk_tamam and dk(hm)-P.get('son_sabah',-99)>=10:
     print(f"{hm} sabah AGF kontrolü",flush=True); P['son_sabah']=dk(hm); kaydet(); calis('agf_kayit.py'); ALINDI[0]=False; calis('agf_sonrasi_analiz.py')
+# ilk AGF alındıktan sonra öğleye kadar 15 dk'da bir görüntü: TJK ile ebayi AGF'si ne zaman aynılaşıyor, sabah AGF nasıl oturuyor
+if ilk_tamam and '09:15'<=hm<'12:00' and dk(hm)-P.get('son_sabah2',-99)>=15:
+    P['son_sabah2']=dk(hm); kaydet(); calis('agf_kayit.py')
 # ilk AGF'si kaydedilmiş ama tahmini dondurulmamış hipodrom varsa analiz 5 dakikada bir yeniden denenir
 bekleyen=[h for h in KS if os.path.exists(os.path.join(kd,f"ILK_{h}.csv")) and not os.path.exists(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{h}.json"))]
 if bekleyen and dk(hm)-P.get('son_analiz',-99)>=5:
