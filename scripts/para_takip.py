@@ -47,7 +47,13 @@ for y in yeni:
     y['sinyal']=int(bool(g and tq and a and g>=10 and (a/100)>=1.3*(1/g)/tq and hps.get(y['at'],99)<=3))
 yaz=[y for y in yeni if (y['tarih'],y['hip'],y['kosu'],y['at']) not in var]
 if yaz:
-    ilk=not os.path.exists(out); w=csv.DictWriter(open(out,'a',encoding='utf-8',newline=''),fieldnames=list(yaz[0]))
+    alan=list(yaz[0])
+    if os.path.exists(out):
+        eski=list(csv.DictReader(open(out,encoding='utf-8')))
+        if eski and set(alan)-set(eski[0]):   # yeni sütun eklendiyse dosya birleşik başlıkla yeniden yazılır
+            ea=list(eski[0])+[k for k in alan if k not in eski[0]]; w=csv.DictWriter(open(out,'w',encoding='utf-8',newline=''),fieldnames=ea); w.writeheader(); w.writerows(eski)
+        alan=list(csv.DictReader(open(out,encoding='utf-8')).fieldnames or alan)
+    ilk=not os.path.exists(out); w=csv.DictWriter(open(out,'a',encoding='utf-8',newline=''),fieldnames=alan,extrasaction='ignore')
     if ilk: w.writeheader()
     w.writerows(yaz)
 for y in sorted(yeni,key=lambda y:int(y['sonuc']) if str(y['sonuc']).isdigit() else 99):
