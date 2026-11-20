@@ -657,3 +657,9 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Ganyan≥10 kazanan: Şanlıurfa %20,2 (ort. 11,5 at), Elazığ %18,4, Bursa %15,9, Kocaeli %15,3, İstanbul %14,9, Adana %14,3, Ankara %14,1, İzmir %13,1, Antalya %11,2.
 - Piyasa beklentisine göre: hiçbir hipodromda beklenenden FAZLA sürpriz yok (Elazığ +0,3 puan ≈ 0; diğerleri eksi; İzmir z −4,2, Antalya −3,3). İki dönemde (2024-01..2025-06 / 2025-07..) yön aynı. Favori her yerde beklentiden biraz fazla kazanıyor (ör. Antalya %41,5 vs %34,7).
 - Sonuç: "sürprizli hipodrom" = büyük alan (Şanlıurfa, Elazığ, Bursa). Bu, modelin olasılıklarında ve aday sayısı kuralında zaten var (düz dağılım → daha çok aday). Ek ağırlık eklenmedi; analiz raporuna hipodrom satırı eklendi (analiz3).
+
+## Sürpriz kazanan takibi (20.11.2026, kullanıcı: "sürpriz gelenleri her noktadan analiz et, hepsini kıyasla")
+- `scripts/kazanan_profil.py`: her koşunun kazananı → `veri/kazanan_profil.csv` (Actions'ta koşudan 20 ve 45 dk sonra otomatik). Sürpriz = kesin ganyan ≥10.
+- Alanlar: model sırası (AGF'li/AGF'siz), aday sayısı, AGF sabah/son ve sırası, AGF farkı ve artış sırası, ganyan −60/−30/son/kesin, 💰/🤫, HP sırası, KGS, start, jokey, kilo, yaş, son 6; önceki koşusu (tarih, sıra, ganyan, jokey/pist/hipodrom/mesafe değişimi, tür).
+- Karşılaştırma: `kazanan_profil.py ozet` (sürpriz vs diğer kazananlar). 20.11 itibarıyla 18 koşu, 2 sürpriz → yorum için çok az.
+- Not: "sabah AGF" iki kaynakta farklı olabiliyor (TJK ILK CSV ör. LADY SOVEREIGN %9,27; ebayi ilk görüntüsü %15,41). Kazanan profili TJK ILK'i kullanır.

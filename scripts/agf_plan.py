@@ -57,6 +57,8 @@ for h,R in KS.items():
         # para girişi için koşuya yakın görüntüler (−30, −10, −3 dk); aynı dakikada birden çok iş tek kayıtla yapılır (ALINDI)
         for e in (30,10,3):
             if dk(t)-e<=dk(hm)<dk(t): is_(f"{h} {no}. koşu -{e}dk kayıt",lambda:calis('agf_kayit.py'))
+        for e in (20,45):   # kazanan profili (sürpriz analizi); para takibinden sonra
+            if dk(hm)>=dk(t)+e: is_(f"{h} {no}. koşu kazanan profili +{e}",lambda h=h,no=no:calis('kazanan_profil.py',g.isoformat(),h,no))
         for e in (15,40):   # sonuç geç gelirse ikinci deneme
             if dk(hm)>=dk(t)+e: is_(f"{h} {no}. koşu para takibi +{e}",lambda h=h,no=no:calis('para_takip.py',g.isoformat(),h,no))
         if dk(hm)>=dk(t)+15 and os.path.exists(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{h}.json")):
