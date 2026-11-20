@@ -1,11 +1,11 @@
-# Koşu günü AGF/ganyan kayıt planı (scripts/agf_plan.py) GitHub'ın sunucularında çalışır; Claude oturumu kapalıyken de kayıt alınır.
-# Saatler UTC (İstanbul = UTC+3). Sabah 09:10–10:40 her 10 dk (ilk AGF), 11:00–23:45 her 15 dk (öğle, koşu öncesi/sonrası).
+# Koşu günü AGF/ganyan kayıt planı (scripts/agf_plan.py) GitHub sunucularında.
+# Repo AÇIK ise: tek iş her dakika planı çalıştırır (ücretsiz), ~5,7 saatte bir kendini yeniden başlatır, gün bitince durur.
+# Repo GİZLİ ise: dakika harcamamak için tek seferlik çalışır (zamanlanmış çalıştırmalar seyrek gelebilir).
+# Saatler UTC (İstanbul = UTC+3). Zamanlama yalnızca başlatıcı; çalışan iş varsa yenisi sırada bekler.
 name: kayit
 on:
   schedule:
-    - cron: '10-59/10 6 * * *'
-    - cron: '0-40/10 7 * * *'
-    - cron: '0-59/15 8-20 * * *'
+    - cron: '5 6-20 * * *'
   workflow_dispatch:
     inputs:
       test:
@@ -17,24 +17,41 @@ concurrency:
   cancel-in-progress: false
 permissions:
   contents: write
+  actions: write
 jobs:
   kayit:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 355
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
       - run: pip install --quiet numpy
-      - name: Plan
-        run: |
-          if [ "${{ github.event.inputs.test }}" = "true" ]; then python3 -I scripts/agf_kayit.py; else python3 -I scripts/agf_plan.py || [ $? -eq 3 ]; fi
-      - name: At geçmişi (günün sonuçları, 23:00 sonrası)
-        if: github.event_name == 'schedule'
-        run: |
-          if [ "$(date -u +%H)" = "20" ]; then python3 -I scripts/at_gecmisi.py ekle "$(TZ=Europe/Istanbul date +%F)" "$(TZ=Europe/Istanbul date -d yesterday +%F)"; fi
-      - name: Kaydet
+      - name: Plan döngüsü
         run: |
           git config user.name "kayit-bot"; git config user.email "kayit-bot@users.noreply.github.com"
-          for y in veri/at_gecmisi veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/canli_takip*.csv veri/para_takip.csv analizler; do [ -e "$y" ] && git add -A "$y"; done; true
-          git diff --cached --quiet && exit 0
-          git commit -q -m "AGF/ganyan kaydı (Actions)"
-          for i in 1 2 3 4; do git pull -q --rebase && git push -q && exit 0; sleep $((i*10)); done; exit 1
+          kaydet() {
+            for y in veri/at_gecmisi veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/canli_takip*.csv veri/para_takip.csv analizler; do [ -e "$y" ] && git add -A "$y"; done
+            git diff --cached --quiet && return 0
+            git commit -q -m "AGF/ganyan kaydı (Actions)"
+            for i in 1 2 3 4; do git pull -q --rebase && git push -q && return 0; sleep $((i*10)); done
+          }
+          if [ "${{ github.event.inputs.test }}" = "true" ]; then python3 -I scripts/agf_kayit.py; kaydet; exit 0; fi
+          ozel=$(gh api "repos/$GITHUB_REPOSITORY" --jq .private)
+          bas=$(date +%s); bitti=0
+          while :; do
+            git pull -q --rebase || true
+            python3 -I scripts/agf_plan.py; kod=$?
+            kaydet
+            [ "$kod" -eq 3 ] && { bitti=1; break; }
+            [ "$(TZ=Europe/Istanbul date +%H%M)" -gt 2340 ] && { bitti=1; break; }
+            [ "$ozel" = "true" ] && break
+            [ $(( $(date +%s) - bas )) -gt 20400 ] && break
+            sleep 60
+          done
+          if [ "$bitti" = "1" ]; then
+            python3 -I scripts/at_gecmisi.py ekle "$(TZ=Europe/Istanbul date +%F)" "$(TZ=Europe/Istanbul date -d yesterday +%F)" || true
+            kaydet
+          elif [ "$ozel" != "true" ]; then
+            gh workflow run kayit.yml --ref "$GITHUB_REF_NAME"
+          fi
