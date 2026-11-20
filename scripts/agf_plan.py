@@ -47,7 +47,9 @@ bekleyen=[h for h in KS if os.path.exists(os.path.join(kd,f"ILK_{h}.csv")) and n
 if bekleyen and dk(hm)-P.get('son_analiz',-99)>=5:
     print(f"{hm} dondurulmamış: {', '.join(bekleyen)} → analiz",flush=True); P['son_analiz']=dk(hm); kaydet(); ALINDI[0]=False; calis('agf_sonrasi_analiz.py')
 # 2) 12:00 kontrol
-if hm>='12:00': is_('12:00 kontrol',lambda:(calis('agf_kayit.py'),ALINDI.__setitem__(0,False),calis('agf_sonrasi_analiz.py')))
+# Koşular erken başlarsa öğle kontrolü öne çekilir: min(12:00, ilk koşu − 90 dk); sabah ilk AGF alınmadan yapılmaz.
+ilk_kosu=min(dk(t) for R in KS.values() for t in R.values()); ogle=min(12*60,ilk_kosu-90)
+if dk(hm)>=ogle and (ilk_tamam or hm>'10:30'): is_('12:00 kontrol',lambda:(calis('agf_kayit.py'),ALINDI.__setitem__(0,False),calis('agf_sonrasi_analiz.py')))
 # 3) koşudan 1 saat önce  4) koşudan sonra
 for h,R in KS.items():
     for no,t in R.items():
