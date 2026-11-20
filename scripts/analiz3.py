@@ -14,6 +14,7 @@ GECMIS_W={k:v for k,v in zip(_o2.get('ozellikler',[]),_o2.get('agirlik',[])) if 
 HZA=HZ.get('at',{}); HZS=HZ.get('sahip',{})
 MD=json.load(open(os.path.join(_vd,'maiden_analiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'maiden_analiz.json')) else {}
 KTA=json.load(open(os.path.join(_vd,'kosu_turu_analiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'kosu_turu_analiz.json')) else {}
+HS=json.load(open(os.path.join(_vd,'hipodrom_surpriz.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'hipodrom_surpriz.json')) else {}; _hs_yazildi=[False]
 def ince_tur(s):   # kosu_turu_analiz.py ile aynı sınıflama
     S=s.upper()
     for pat,f in [(r'\bG ?([123])\b',lambda m:'Grup '+m.group(1)),(r'KV-? ?(\d+)',lambda m:'KV-'+m.group(1)),(r'SATI',lambda m:'Satış'),
@@ -163,6 +164,9 @@ for ri,r in enumerate(races):
     alan='≤7' if n_birim<=7 else '8-10' if n_birim<=10 else '11-13' if n_birim<=13 else '14+'
     sa=SUR.get(f"alan (bahis birimi): {alan}",{}); st_=SUR.get(f"koşu türü: {r['irk']} {r['aile']}",{})
     print(f"    Sürpriz riski (geçmiş): {n_birim} bahis birimi → favori %{sa.get('favori','?')}, ganyan≥10 kazanan %{sa.get('surpriz','?')}; {r['irk']} {r['aile']}: favori %{st_.get('favori','?')}, sürpriz %{st_.get('surpriz','?')}")
+    if not _hs_yazildi[0] and HS.get(HIP):
+        h_=HS[HIP]; _hs_yazildi[0]=True
+        print(f"  HİPODROM {HIP} (2024+, {h_['kosu']} koşu, ort. {h_['alan']} at): favori %{h_['fav']} kazandı (beklenti %{h_['fav_bek']}), ganyan≥10 kazanan %{h_['s10']} (beklenti %{h_['s10_bek']}). Sürpriz oranı alan büyüklüğünden; piyasanın beklediğinden fazla sürpriz çıkan hipodrom yok.")
     it=ince_tur(r['bas'].split(':',1)[-1]); kd=KTA.get(f"{r['irk']} {it}") or {}
     if kd.get('kosu',0)>=30:
         print(f"    KOŞU TÜRÜ {r['irk']} {it} ({kd['kosu']} geçmiş koşu, ort. {kd['alan']} birim): ganyan favorisi %{kd['favori']} kazandı (piyasa beklentisi %{kd['fav_bek']}), AGF favorisi %{kd['agf1']}, HP lideri %{kd['hp1']}; ilk 3 favoriden biri %{kd['fav_ilk3']}; ganyan≥10 kazanan %{kd['s10']} (piyasa beklentisi %{kd['s10_bek']}), medyan kazanan ganyanı {kd['medyan']}")

@@ -652,3 +652,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Kazanan, sabahtan koşuya AGF'si EN ÇOK artan at: 6/16; ilk 2'de: 8/16. AGF'si düşen ya da yerinde sayan (sessiz) kazanan: 7/16 (ör. 20.11 Antalya 3 SPEEDTAIL %6,9→%6,0, gny 16,75).
 - Not: 19.11 ILK kaydının gerçek sabah ilk AGF olup olmadığı kesin değil (ILK zamanlaması 20.11'de düzeltildi). Örnek çok küçük, piyasa favorisi etkisinden ayrılmadı → TEST DEĞİL, gözlem. Test planı yukarıda (~600 koşu).
 - Takip eklendi (kullanıcı): belirsiz koşularda (≥5 aday) AGF'si sessiz kalan atlar (sabah→son ≤1 puan, AGF ≥%2) `para_takip.py` ile 🤫 işaretlenir; `veri/para_takip.csv` sütunları belirsiz/sessiz. Test edilmedi; veri birikince kazanma A/E'si ölçülecek.
+
+## Hipodrom sürpriz analizi (20.11.2026, `scripts/hipodrom_surpriz.py`, 18.027 koşu 2024+)
+- Ganyan≥10 kazanan: Şanlıurfa %20,2 (ort. 11,5 at), Elazığ %18,4, Bursa %15,9, Kocaeli %15,3, İstanbul %14,9, Adana %14,3, Ankara %14,1, İzmir %13,1, Antalya %11,2.
+- Piyasa beklentisine göre: hiçbir hipodromda beklenenden FAZLA sürpriz yok (Elazığ +0,3 puan ≈ 0; diğerleri eksi; İzmir z −4,2, Antalya −3,3). İki dönemde (2024-01..2025-06 / 2025-07..) yön aynı. Favori her yerde beklentiden biraz fazla kazanıyor (ör. Antalya %41,5 vs %34,7).
+- Sonuç: "sürprizli hipodrom" = büyük alan (Şanlıurfa, Elazığ, Bursa). Bu, modelin olasılıklarında ve aday sayısı kuralında zaten var (düz dağılım → daha çok aday). Ek ağırlık eklenmedi; analiz raporuna hipodrom satırı eklendi (analiz3).

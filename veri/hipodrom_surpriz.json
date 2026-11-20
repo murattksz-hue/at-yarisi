@@ -1,0 +1,112 @@
+{
+ "TÜMÜ": {
+  "kosu": 18027,
+  "alan": 9.5,
+  "fav": 36.1,
+  "fav_bek": 34.0,
+  "s10": 15.0,
+  "s10_bek": 16.6,
+  "z": -5.86,
+  "ilk_fark": -1.2,
+  "son_fark": -2.0
+ },
+ "İstanbul": {
+  "kosu": 3469,
+  "alan": 9.4,
+  "fav": 36.6,
+  "fav_bek": 34.5,
+  "s10": 14.9,
+  "s10_bek": 16.3,
+  "z": -2.23,
+  "ilk_fark": -1.3,
+  "son_fark": -1.5
+ },
+ "İzmir": {
+  "kosu": 2749,
+  "alan": 9.4,
+  "fav": 37.2,
+  "fav_bek": 34.6,
+  "s10": 13.1,
+  "s10_bek": 16.0,
+  "z": -4.2,
+  "ilk_fark": -1.1,
+  "son_fark": -4.8
+ },
+ "Bursa": {
+  "kosu": 2279,
+  "alan": 10.1,
+  "fav": 34.8,
+  "fav_bek": 33.7,
+  "s10": 15.9,
+  "s10_bek": 18.1,
+  "z": -2.73,
+  "ilk_fark": -2.1,
+  "son_fark": -2.3
+ },
+ "Ankara": {
+  "kosu": 2272,
+  "alan": 8.3,
+  "fav": 36.8,
+  "fav_bek": 35.8,
+  "s10": 14.1,
+  "s10_bek": 14.3,
+  "z": -0.22,
+  "ilk_fark": 0.6,
+  "son_fark": -0.8
+ },
+ "Adana": {
+  "kosu": 2218,
+  "alan": 9.4,
+  "fav": 37.8,
+  "fav_bek": 34.9,
+  "s10": 14.3,
+  "s10_bek": 16.2,
+  "z": -2.42,
+  "ilk_fark": -1.0,
+  "son_fark": -3.1
+ },
+ "Antalya": {
+  "kosu": 1312,
+  "alan": 9.1,
+  "fav": 41.5,
+  "fav_bek": 34.7,
+  "s10": 11.2,
+  "s10_bek": 14.4,
+  "z": -3.27,
+  "ilk_fark": -2.8,
+  "son_fark": -3.9
+ },
+ "Şanlıurfa": {
+  "kosu": 1308,
+  "alan": 11.5,
+  "fav": 29.9,
+  "fav_bek": 28.9,
+  "s10": 20.2,
+  "s10_bek": 21.5,
+  "z": -1.2,
+  "ilk_fark": -1.5,
+  "son_fark": -1.1
+ },
+ "Kocaeli": {
+  "kosu": 1219,
+  "alan": 9.3,
+  "fav": 34.6,
+  "fav_bek": 34.6,
+  "s10": 15.3,
+  "s10_bek": 16.3,
+  "z": -0.9,
+  "ilk_fark": -2.5,
+  "son_fark": 0.5
+ },
+ "Elazığ": {
+  "kosu": 1201,
+  "alan": 9.8,
+  "fav": 33.3,
+  "fav_bek": 30.4,
+  "s10": 18.4,
+  "s10_bek": 18.1,
+  "z": 0.29,
+  "ilk_fark": 0.6,
+  "son_fark": 0.1
+ }
+}
