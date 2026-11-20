@@ -647,3 +647,7 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - İsabet hedef kapsamayı izliyor (kalibrasyon iyi): daha çok at = daha çok isabet ama kupon pahalanır.
 - Örnek 20.11 Antalya 3: kazanan SPEEDTAIL modelde 8. (toplam %89'a 8. atta ulaşılıyor) → yeni kuralla listede olurdu, eskisiyle (6 at) değildi.
 - Uygulandı: scripts/analiz3.py (aday sayısı). Dondurulmuş tahminler değiştirilmedi.
+
+## Kazananın AGF hareketi – ilk gözlem (20.11.2026, `scripts/agf_hareket.py`, 16 koşu: 19.11 + 20.11 Antalya 2-3)
+- Kazanan, sabahtan koşuya AGF'si EN ÇOK artan at: 6/16; ilk 2'de: 8/16. AGF'si düşen ya da yerinde sayan (sessiz) kazanan: 7/16 (ör. 20.11 Antalya 3 SPEEDTAIL %6,9→%6,0, gny 16,75).
+- Not: 19.11 ILK kaydının gerçek sabah ilk AGF olup olmadığı kesin değil (ILK zamanlaması 20.11'de düzeltildi). Örnek çok küçük, piyasa favorisi etkisinden ayrılmadı → TEST DEĞİL, gözlem. Test planı yukarıda (~600 koşu).
