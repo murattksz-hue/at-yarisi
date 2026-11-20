@@ -6,7 +6,7 @@ if [ -f "$KILIT" ] && kill -0 "$(cat $KILIT)" 2>/dev/null; then echo "döngü za
 echo $$ > "$KILIT"
 while true; do
   python3 -I "$K/scripts/agf_plan.py" >> "$K/.gunluk/agf_dongu.log" 2>&1; kod=$?
-  (cd "$K" && git add -A veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/canli_takip*.csv analizler && git commit -q -m "AGF/ganyan kaydı (otomatik)" >/dev/null 2>&1 && git -c push.negotiate=true push -q >/dev/null 2>&1)
+  (cd "$K" && git add -A veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/canli_takip*.csv veri/para_takip.csv analizler && git commit -q -m "AGF/ganyan kaydı (otomatik)" >/dev/null 2>&1 && git -c push.negotiate=true push -q >/dev/null 2>&1)
   [ "$kod" -eq 3 ] && break
   [ "$(TZ=Europe/Istanbul date +%H%M)" -gt 2330 ] && break
   sleep 60
