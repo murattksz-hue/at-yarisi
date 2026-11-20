@@ -686,3 +686,4 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Asıl etki ters yönde: daha güçlü rakiplere çıkan atlar (yükseliş ≥5) beklenenden az kazanıyor: tüm atlar A/E 0,92 (z −5,0), gny≥10 0,80 (z −5,9), kötü form+yükseliş 0,70; iki dönemde aynı.
 - Tüm atlarda büyük düşüş (≥10) A/E 1,07 (z 2,9; 1,06/1,08) → küçük artı, getirisi %71 (kârlı değil).
 - Modelde açık bir "sınıf farkı" özelliği yok → ileride özellik testi adayı (sinif_fark).
+- **Modele ekleme testi (sinif_fark, v9 + 1 özellik, 542 görülmemiş koşu, `SINIF` ortam değişkeniyle):** AGF'li LL −1,846 → −1,846, 1. seçim %32,8 → %33,6 (≈4 koşu), ilk 3 %66,4 → %66,1. AGF'siz LL −1,956 → −1,951 (binde +5), 1. seçim %30,4 → %30,3; ağırlık +0,12 (sınıf düşüşü artı yönde). Fark gürültü sınırında → üretime alınmadı; veri birikince (daha çok program günü) tekrar test edilecek. Kapsama: program atlarının %77'si.
