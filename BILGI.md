@@ -697,3 +697,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Bant: kısa ≤1400 / orta 1401–1900 / uzun ≥2000. Atın bugünkü banttaki sıra yüzdeliği − diğer bantlardaki (≥2+2 koşu, kronolojik).
 - Sonuç: tüm gruplarda A/E ≈1 (belirgin iyi 1,00; belirgin kötü 1,03; z <1,5) → piyasa atın mesafe uyumunu tam fiyatlıyor. Modelde zaten pist_mesafe_galibi ve baba kanı (mesafe bandı) var; ek özellik eklenmedi.
 - Bilgi olarak: `at_bilgi.py` artık her atın kısa/orta/uzun ve pist bazında koşu/birincilik/ilk 3 sayısını gösteriyor.
+
+## Günlük rapora eklenenler (20.11.2026, kullanıcı: "yorum yapma, analizlere ekle")
+- `scripts/at_notlari.py` + analiz3: her koşuda adayların altında **AT GEÇMİŞİ** satırı: koşu/birincilik, kısa/orta/uzun ilk 3 kaydı, İLK KEZ <hipodrom>, İLK KEZ bu uzunluk (formu iyiyse testli not), sınıf farkı (rakipler son 3 koşuya göre daha zayıf/güçlü, ±HP), son koşusu. Yalnızca analiz gününden önceki veriler.
+- **⭐ SÜRPRİZ ADAYI** işareti (gny 10–500 ve piyasa oturmuş, AGF ≥1,3× ganyan olasılığı, HP ilk 3).
+- Raporun başında HİPODROM sürpriz satırı (önceden eklendi).

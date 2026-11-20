@@ -2,8 +2,13 @@
 Olasılık = grup (ırk x zemin x mesafe) özel koşullu logit; galop küçük ek düzeltme (geri test edilmedi)."""
 import sys,re,html,json,math,datetime
 import numpy as np
-ph,pc,mj,pj,HIP=sys.argv[1:6]; M=json.load(open(mj,encoding='utf-8'))
+ph,pc,mj,pj,HIP=sys.argv[1:6]; import re as _re; _tm=_re.search(r'(\d{4}-\d{2}-\d{2})',ph)
+M=json.load(open(mj,encoding='utf-8'))
 import os
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+try:
+    import at_notlari as _AN; _ATG,_KAL=_AN.gecmis(_tm.group(1) if _tm else __import__('datetime').date.today().isoformat())
+except Exception as _e: _AN=None; print('at geçmişi yüklenemedi:',_e)
 MA=json.load(open(os.path.join(os.path.dirname(mj),'model_agfsiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(os.path.dirname(mj),'model_agfsiz.json')) else None; PR=json.load(open(pj,encoding='utf-8'))
 ID=json.load(open(sys.argv[6],encoding='utf-8')) if len(sys.argv)>6 else {}
 _vd=os.path.dirname(os.path.abspath(mj))
@@ -204,7 +209,14 @@ for ri,r in enumerate(races):
         gy=GNY.get(x['ad']); pe=ekp if x['ad'] in ek else p[i]
         _U={('ek' if y['ad'] in ek else y['ad']):GNY[y['ad']] for y in h if GNY.get(y['ad'],0)>1}; _top=sum(1/v for v in _U.values()) if _U else 0
         gtxt=(f" | ganyan {gy:.2f}"+(' ★GANYAN' if 1.15<=_top<=1.6 and gy>=1.5/pe and pe>=0.05 else ('' if 1.15<=_top<=1.6 else ' (piyasa oturmamış)'))) if gy and gy>1 else ''
+        _hps=sorted(range(len(h)),key=lambda j:-(h[j]['hp'] or 0)).index(i)+1
+        _sp=(gy and 10<=gy<500 and _top and 1.15<=_top<=1.6 and not agf_yok and q[i]>=1.3*(1/gy)/_top and _hps<=3)
+        if _sp: gtxt+=' ⭐SÜRPRİZ ADAYI (gny≥10, AGF ≥1,3× ganyan, HP ilk 3: geçmişte getiri %127, canlı test ediliyor)'
         print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}, değer için ganyan ≥{1.5/p[i]:.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret}{gtxt} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')}{' ★pist-mesafe galibi' if x.get('pmg') else (' pist galibi' if x.get('pg') else '')} {x.get('say',0)} koşu{' (İLK KOŞU: maidende piyasa fazla oynuyor)' if MAI and not x.get('say',0) else ''} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
+    if _AN:
+        _m=_re.search(r'(\d{3,4})m',r['bas']); _ms=float(_m.group(1)) if _m else 0; _hv=[y['hp'] for y in h if y['hp']]; _ah=sum(_hv)/len(_hv) if len(_hv)>=4 else None
+        print('    AT GEÇMİŞİ:')
+        for i in srt[:max(5,KA)]: print(f"     #{h[i]['no']:>2} {h[i]['ad'][:16]:16} "+_AN.notlar(_ATG.get(h[i]['ad'].upper(),[]),_KAL,HIP,_ms,_ah))
     JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_gercek_yok),oneri_at=KA,model='agfsiz' if agf_yok else 'agfli',
         atlar=[dict(no=x['no'],ad=x['ad'],p=round(float(p[i]),4),agf=round(float(q[i]),4),ekuri=x['ad'] in ek,ganyan=GNY.get(x['ad'])) for i,x in enumerate(h)]))
     kaz=[i for i,x in enumerate(h) if x['bitis']==1]
