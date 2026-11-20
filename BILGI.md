@@ -621,3 +621,7 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - `.github/workflows/kayit.yml`: 09:10–10:40 her 10 dk, 11:00–23:45 her 15 dk `scripts/agf_plan.py` çalışır, kayıtları repoya yazar. Plan durumu `veri/plan/<tarih>.json` (git'te).
 - Test (20.11 13:47 ve 13:50): TJK + ebayi erişimi çalıştı (Antalya 63/70, İzmir 49/54 at AGF), kayıt commit'lendi. Sabah analiz+dondurma (gunluk.py) Actions'ta henüz denenmedi → 21.11 sabahı ilk gerçek deneme.
 - Konteyner döngüsü (agf_dongu.sh) ve 09:10/13:10/17:10 zamanlanmış görev kapatıldı (çift kayıt ve kota). Repo gizli; ücretsiz paket 2.000 dk/ay, plan ~50 çalıştırma/gün.
+
+## Bahis birim fiyatları (kullanıcı, 20.11.2026)
+- 3'lü ganyan: kombinasyon başı **2 TL** (42 kombinasyon = 84 TL, kullanıcının kupon ekranı). Altılı: **1,25 TL**. En az oynama: **20 TL**.
+- Kupon kayıtları: veri/kuponlar.csv.
