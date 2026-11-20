@@ -220,9 +220,18 @@ for ri,r in enumerate(races):
             for _l in open(pc,encoding='utf-8-sig'):
                 if _l.startswith(f"{_no}. Kosu"): _m=_re.search(r'(\d{3,4})m',_l); break
         _ms=float(_m.group(1)) if _m else 0; _hv=[y['hp'] for y in h if y['hp']]; _ah=sum(_hv)/len(_hv) if len(_hv)>=4 else None
-        print('    AT GEÇMİŞİ:')
-        for i in srt[:max(5,KA)]: print(f"     #{h[i]['no']:>2} {h[i]['ad'][:16]:16} "+_AN.notlar(_ATG.get(h[i]['ad'].upper(),[]),_KAL,HIP,_ms,_ah))
-    JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_gercek_yok),oneri_at=KA,model='agfsiz' if agf_yok else 'agfli',
+        print('    AT GEÇMİŞİ:'); _NT={}
+        for i in srt[:max(KA+3,5)]:
+            _NT[i]=_AN.notlar(_ATG.get(h[i]['ad'].upper(),[]),_KAL,HIP,_ms,_ah)
+            print(f"     #{h[i]['no']:>2} {h[i]['ad'][:16]:16} "+_NT[i])
+        # kullanıcı kuralı (TEST EDİLMEDİ, canlı takip): listenin hemen dışındaki 3 attan olumlu geçmiş etiketi olan EK ADAY olur;
+        # listedeki atlarda "DAHA GÜÇLÜ" rakip etiketi uyarı olarak yazılır. Olasılıklar değişmez.
+        _EK=[i for i in srt[KA:KA+3] if ('formu iyi' in _NT.get(i,'') or 'DAHA ZAYIF' in _NT.get(i,''))]
+        if _EK: print("    ► EK ADAY (geçmiş etiketi, test ediliyor): "+', '.join(f"#{h[i]['no']} {h[i]['ad']}" for i in _EK))
+        _UY=[i for i in srt[:KA] if 'DAHA GÜÇLÜ' in _NT.get(i,'')]
+        if _UY: print("    ► UYARI (rakipler daha güçlü, testte A/E 0,92): "+', '.join(f"#{h[i]['no']} {h[i]['ad']}" for i in _UY))
+    else: _EK=[]
+    JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_gercek_yok),oneri_at=KA,ek_aday=[h[i]['no'] for i in _EK],model='agfsiz' if agf_yok else 'agfli',
         atlar=[dict(no=x['no'],ad=x['ad'],p=round(float(p[i]),4),agf=round(float(q[i]),4),ekuri=x['ad'] in ek,ganyan=GNY.get(x['ad'])) for i,x in enumerate(h)]))
     kaz=[i for i,x in enumerate(h) if x['bitis']==1]
     if kaz: sk[2]+=1; sk[0]+=srt[0]==kaz[0]; sk[1]+=kaz[0] in srt[:3]
