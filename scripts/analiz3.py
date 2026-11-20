@@ -223,6 +223,8 @@ for ri,r in enumerate(races):
         print('    AT GEÇMİŞİ:'); _NT={}
         for i in srt[:max(KA+3,5)]:
             _NT[i]=_AN.notlar(_ATG.get(h[i]['ad'].upper(),[]),_KAL,HIP,_ms,_ah)
+            _so=_AN.soy_not(h[i]['baba'],r['irk'],_ms)
+            if _so: _NT[i]+=' | '+_so
             print(f"     #{h[i]['no']:>2} {h[i]['ad'][:16]:16} "+_NT[i])
         # kullanıcı kuralı (TEST EDİLMEDİ, canlı takip): listenin hemen dışındaki 3 attan olumlu geçmiş etiketi olan EK ADAY olur;
         # listedeki atlarda "DAHA GÜÇLÜ" rakip etiketi uyarı olarak yazılır. Olasılıklar değişmez.

@@ -1,0 +1,7742 @@
+{
+ "Arap|orta": {
+  "Özgünhan": {
+   "kosu": 168,
+   "birinci": 19,
+   "kazanma": 11.3,
+   "ilk3": 33.3,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.29
+  },
+  "Özhaber": {
+   "kosu": 71,
+   "birinci": 6,
+   "kazanma": 8.5,
+   "ilk3": 28.2,
+   "ae_alan": 0.92,
+   "ae_piyasa": 0.88
+  },
+  "Uçanbey": {
+   "kosu": 157,
+   "birinci": 17,
+   "kazanma": 10.8,
+   "ilk3": 29.9,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.12
+  },
+  "Bi̇lgi̇n": {
+   "kosu": 153,
+   "birinci": 15,
+   "kazanma": 9.8,
+   "ilk3": 30.1,
+   "ae_alan": 1.05,
+   "ae_piyasa": 0.93
+  },
+  "Turbo": {
+   "kosu": 316,
+   "birinci": 40,
+   "kazanma": 12.7,
+   "ilk3": 35.1,
+   "ae_alan": 1.25,
+   "ae_piyasa": 0.96
+  },
+  "Kaızbert (Ru)": {
+   "kosu": 270,
+   "birinci": 36,
+   "kazanma": 13.3,
+   "ilk3": 34.4,
+   "ae_alan": 1.36,
+   "ae_piyasa": 1.13
+  },
+  "Atomkarınca": {
+   "kosu": 41,
+   "birinci": 3,
+   "kazanma": 7.3,
+   "ilk3": 22.0,
+   "ae_alan": 0.75,
+   "ae_piyasa": 0.73
+  },
+  "Yaşarcık": {
+   "kosu": 60,
+   "birinci": 3,
+   "kazanma": 5.0,
+   "ilk3": 18.3,
+   "ae_alan": 0.58,
+   "ae_piyasa": 0.73
+  },
+  "Altaha": {
+   "kosu": 114,
+   "birinci": 14,
+   "kazanma": 12.3,
+   "ilk3": 36.8,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.03
+  },
+  "Ateştopu": {
+   "kosu": 53,
+   "birinci": 6,
+   "kazanma": 11.3,
+   "ilk3": 37.7,
+   "ae_alan": 1.06,
+   "ae_piyasa": 1.02
+  },
+  "Koşanefe": {
+   "kosu": 45,
+   "birinci": 1,
+   "kazanma": 2.2,
+   "ilk3": 28.9,
+   "ae_alan": 0.24,
+   "ae_piyasa": 0.33
+  },
+  "Güntay": {
+   "kosu": 63,
+   "birinci": 7,
+   "kazanma": 11.1,
+   "ilk3": 27.0,
+   "ae_alan": 1.1,
+   "ae_piyasa": 1.36
+  },
+  "Ayabakan": {
+   "kosu": 81,
+   "birinci": 12,
+   "kazanma": 14.8,
+   "ilk3": 30.9,
+   "ae_alan": 1.45,
+   "ae_piyasa": 1.38
+  },
+  "Toşur": {
+   "kosu": 102,
+   "birinci": 6,
+   "kazanma": 5.9,
+   "ilk3": 22.5,
+   "ae_alan": 0.63,
+   "ae_piyasa": 0.7
+  },
+  "Tameri̇noğlu": {
+   "kosu": 103,
+   "birinci": 10,
+   "kazanma": 9.7,
+   "ilk3": 26.2,
+   "ae_alan": 0.97,
+   "ae_piyasa": 0.75
+  },
+  "Şi̇mşeği̇noğlu": {
+   "kosu": 102,
+   "birinci": 4,
+   "kazanma": 3.9,
+   "ilk3": 22.5,
+   "ae_alan": 0.45,
+   "ae_piyasa": 0.45
+  },
+  "Gobakbey": {
+   "kosu": 163,
+   "birinci": 15,
+   "kazanma": 9.2,
+   "ilk3": 34.4,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.93
+  },
+  "Tümöz Bey": {
+   "kosu": 41,
+   "birinci": 3,
+   "kazanma": 7.3,
+   "ilk3": 22.0,
+   "ae_alan": 0.74,
+   "ae_piyasa": 0.86
+  },
+  "Araslı": {
+   "kosu": 59,
+   "birinci": 3,
+   "kazanma": 5.1,
+   "ilk3": 27.1,
+   "ae_alan": 0.52,
+   "ae_piyasa": 0.55
+  },
+  "Kırımhan": {
+   "kosu": 55,
+   "birinci": 4,
+   "kazanma": 7.3,
+   "ilk3": 29.1,
+   "ae_alan": 0.81,
+   "ae_piyasa": 1.05
+  },
+  "Sarraf": {
+   "kosu": 91,
+   "birinci": 8,
+   "kazanma": 8.8,
+   "ilk3": 20.9,
+   "ae_alan": 0.98,
+   "ae_piyasa": 1.19
+  },
+  "Deha": {
+   "kosu": 49,
+   "birinci": 3,
+   "kazanma": 6.1,
+   "ilk3": 16.3,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.85
+  },
+  "Yalaz": {
+   "kosu": 45,
+   "birinci": 2,
+   "kazanma": 4.4,
+   "ilk3": 22.2,
+   "ae_alan": 0.47,
+   "ae_piyasa": 0.48
+  },
+  "Sancakbeyi̇": {
+   "kosu": 40,
+   "birinci": 3,
+   "kazanma": 7.5,
+   "ilk3": 27.5,
+   "ae_alan": 0.87,
+   "ae_piyasa": 1.07
+  },
+  "ATEŞTOPU": {
+   "kosu": 318,
+   "birinci": 24,
+   "kazanma": 7.5,
+   "ilk3": 27.0,
+   "ae_alan": 0.76,
+   "ae_piyasa": 0.83
+  },
+  "BOZYİĞİT": {
+   "kosu": 64,
+   "birinci": 1,
+   "kazanma": 1.6,
+   "ilk3": 23.4,
+   "ae_alan": 0.17,
+   "ae_piyasa": 0.27
+  },
+  "BİLGİN": {
+   "kosu": 423,
+   "birinci": 41,
+   "kazanma": 9.7,
+   "ilk3": 29.1,
+   "ae_alan": 0.98,
+   "ae_piyasa": 1.12
+  },
+  "AYABAKAN": {
+   "kosu": 700,
+   "birinci": 68,
+   "kazanma": 9.7,
+   "ilk3": 28.1,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.02
+  },
+  "TURBO": {
+   "kosu": 1928,
+   "birinci": 193,
+   "kazanma": 10.0,
+   "ilk3": 30.3,
+   "ae_alan": 1.0,
+   "ae_piyasa": 0.97
+  },
+  "ÖZGÜNHAN": {
+   "kosu": 1257,
+   "birinci": 154,
+   "kazanma": 12.3,
+   "ilk3": 35.8,
+   "ae_alan": 1.2,
+   "ae_piyasa": 1.02
+  },
+  "ALTAHA": {
+   "kosu": 465,
+   "birinci": 66,
+   "kazanma": 14.2,
+   "ilk3": 34.8,
+   "ae_alan": 1.41,
+   "ae_piyasa": 1.24
+  },
+  "İZBATUR": {
+   "kosu": 49,
+   "birinci": 6,
+   "kazanma": 12.2,
+   "ilk3": 28.6,
+   "ae_alan": 1.25,
+   "ae_piyasa": 1.64
+  },
+  "KAIZBERT (RU)": {
+   "kosu": 1617,
+   "birinci": 204,
+   "kazanma": 12.6,
+   "ilk3": 35.0,
+   "ae_alan": 1.18,
+   "ae_piyasa": 0.99
+  },
+  "UÇANBEY": {
+   "kosu": 682,
+   "birinci": 48,
+   "kazanma": 7.0,
+   "ilk3": 25.2,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.77
+  },
+  "YAŞARCIK": {
+   "kosu": 178,
+   "birinci": 8,
+   "kazanma": 4.5,
+   "ilk3": 23.0,
+   "ae_alan": 0.47,
+   "ae_piyasa": 0.52
+  },
+  "SONALP": {
+   "kosu": 624,
+   "birinci": 59,
+   "kazanma": 9.5,
+   "ilk3": 31.7,
+   "ae_alan": 0.95,
+   "ae_piyasa": 0.97
+  },
+  "ŞİMŞEĞİNOĞLU": {
+   "kosu": 361,
+   "birinci": 50,
+   "kazanma": 13.9,
+   "ilk3": 34.9,
+   "ae_alan": 1.47,
+   "ae_piyasa": 1.41
+  },
+  "KIRIMHAN": {
+   "kosu": 120,
+   "birinci": 10,
+   "kazanma": 8.3,
+   "ilk3": 22.5,
+   "ae_alan": 0.91,
+   "ae_piyasa": 1.12
+  },
+  "YALAZ": {
+   "kosu": 83,
+   "birinci": 9,
+   "kazanma": 10.8,
+   "ilk3": 25.3,
+   "ae_alan": 1.11,
+   "ae_piyasa": 1.28
+  },
+  "TOŞUR": {
+   "kosu": 211,
+   "birinci": 13,
+   "kazanma": 6.2,
+   "ilk3": 23.7,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.82
+  },
+  "GÜNTAY": {
+   "kosu": 427,
+   "birinci": 38,
+   "kazanma": 8.9,
+   "ilk3": 25.3,
+   "ae_alan": 0.92,
+   "ae_piyasa": 0.93
+  },
+  "KARA YAĞIZ": {
+   "kosu": 148,
+   "birinci": 17,
+   "kazanma": 11.5,
+   "ilk3": 34.5,
+   "ae_alan": 1.13,
+   "ae_piyasa": 1.15
+  },
+  "BATURŞAH": {
+   "kosu": 80,
+   "birinci": 7,
+   "kazanma": 8.8,
+   "ilk3": 26.2,
+   "ae_alan": 0.93,
+   "ae_piyasa": 1.12
+  },
+  "DEHA": {
+   "kosu": 61,
+   "birinci": 4,
+   "kazanma": 6.6,
+   "ilk3": 23.0,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.79
+  },
+  "GOBAKBEY": {
+   "kosu": 356,
+   "birinci": 40,
+   "kazanma": 11.2,
+   "ilk3": 29.2,
+   "ae_alan": 1.2,
+   "ae_piyasa": 1.24
+  },
+  "SARUHANAĞA": {
+   "kosu": 54,
+   "birinci": 3,
+   "kazanma": 5.6,
+   "ilk3": 31.5,
+   "ae_alan": 0.59,
+   "ae_piyasa": 0.66
+  },
+  "SULTAN DE FAUST (FR)": {
+   "kosu": 208,
+   "birinci": 24,
+   "kazanma": 11.5,
+   "ilk3": 32.2,
+   "ae_alan": 1.16,
+   "ae_piyasa": 1.3
+  },
+  "KARAKEMAL": {
+   "kosu": 103,
+   "birinci": 10,
+   "kazanma": 9.7,
+   "ilk3": 24.3,
+   "ae_alan": 1.06,
+   "ae_piyasa": 1.26
+  },
+  "TAMERİNOĞLU": {
+   "kosu": 1086,
+   "birinci": 109,
+   "kazanma": 10.0,
+   "ilk3": 33.4,
+   "ae_alan": 1.01,
+   "ae_piyasa": 0.87
+  },
+  "KAMAN": {
+   "kosu": 139,
+   "birinci": 14,
+   "kazanma": 10.1,
+   "ilk3": 28.8,
+   "ae_alan": 1.05,
+   "ae_piyasa": 0.95
+  },
+  "ATİKBEY": {
+   "kosu": 136,
+   "birinci": 9,
+   "kazanma": 6.6,
+   "ilk3": 27.9,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.8
+  },
+  "ONURKAAN": {
+   "kosu": 270,
+   "birinci": 21,
+   "kazanma": 7.8,
+   "ilk3": 23.7,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.85
+  },
+  "ÖZHABER": {
+   "kosu": 506,
+   "birinci": 52,
+   "kazanma": 10.3,
+   "ilk3": 31.0,
+   "ae_alan": 1.04,
+   "ae_piyasa": 0.99
+  },
+  "SERDARHAN": {
+   "kosu": 45,
+   "birinci": 2,
+   "kazanma": 4.4,
+   "ilk3": 28.9,
+   "ae_alan": 0.46,
+   "ae_piyasa": 0.43
+  },
+  "SARRAF": {
+   "kosu": 269,
+   "birinci": 32,
+   "kazanma": 11.9,
+   "ilk3": 30.1,
+   "ae_alan": 1.23,
+   "ae_piyasa": 1.19
+  },
+  "ARASLI": {
+   "kosu": 236,
+   "birinci": 23,
+   "kazanma": 9.7,
+   "ilk3": 32.2,
+   "ae_alan": 0.98,
+   "ae_piyasa": 0.95
+  },
+  "BERKSOY": {
+   "kosu": 376,
+   "birinci": 41,
+   "kazanma": 10.9,
+   "ilk3": 35.1,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.02
+  },
+  "ODİNHAN": {
+   "kosu": 248,
+   "birinci": 16,
+   "kazanma": 6.5,
+   "ilk3": 23.0,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.72
+  },
+  "ÖZDURAN": {
+   "kosu": 266,
+   "birinci": 17,
+   "kazanma": 6.4,
+   "ilk3": 31.2,
+   "ae_alan": 0.65,
+   "ae_piyasa": 0.72
+  },
+  "KOŞANEFE": {
+   "kosu": 84,
+   "birinci": 4,
+   "kazanma": 4.8,
+   "ilk3": 22.6,
+   "ae_alan": 0.49,
+   "ae_piyasa": 0.56
+  },
+  "BALIKHAN": {
+   "kosu": 135,
+   "birinci": 15,
+   "kazanma": 11.1,
+   "ilk3": 29.6,
+   "ae_alan": 1.1,
+   "ae_piyasa": 1.02
+  },
+  "ZİGANA": {
+   "kosu": 41,
+   "birinci": 1,
+   "kazanma": 2.4,
+   "ilk3": 12.2,
+   "ae_alan": 0.26,
+   "ae_piyasa": 0.37
+  },
+  "ANKA": {
+   "kosu": 241,
+   "birinci": 19,
+   "kazanma": 7.9,
+   "ilk3": 29.0,
+   "ae_alan": 0.79,
+   "ae_piyasa": 0.79
+  },
+  "SANCAKBEYİ": {
+   "kosu": 53,
+   "birinci": 3,
+   "kazanma": 5.7,
+   "ilk3": 17.0,
+   "ae_alan": 0.63,
+   "ae_piyasa": 0.88
+  },
+  "UFUKBİR": {
+   "kosu": 167,
+   "birinci": 20,
+   "kazanma": 12.0,
+   "ilk3": 23.4,
+   "ae_alan": 1.25,
+   "ae_piyasa": 1.68
+  },
+  "ZENGİNOĞLU": {
+   "kosu": 41,
+   "birinci": 4,
+   "kazanma": 9.8,
+   "ilk3": 31.7,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.41
+  },
+  "KAFKAS ŞAHI": {
+   "kosu": 91,
+   "birinci": 3,
+   "kazanma": 3.3,
+   "ilk3": 26.4,
+   "ae_alan": 0.36,
+   "ae_piyasa": 0.44
+  },
+  "GÜRGÖKÇE": {
+   "kosu": 85,
+   "birinci": 11,
+   "kazanma": 12.9,
+   "ilk3": 30.6,
+   "ae_alan": 1.32,
+   "ae_piyasa": 1.47
+  },
+  "EFEM": {
+   "kosu": 83,
+   "birinci": 6,
+   "kazanma": 7.2,
+   "ilk3": 20.5,
+   "ae_alan": 0.75,
+   "ae_piyasa": 0.98
+  },
+  "HABERKAN": {
+   "kosu": 233,
+   "birinci": 24,
+   "kazanma": 10.3,
+   "ilk3": 27.0,
+   "ae_alan": 1.09,
+   "ae_piyasa": 1.25
+  },
+  "ATOMKARINCA": {
+   "kosu": 96,
+   "birinci": 6,
+   "kazanma": 6.2,
+   "ilk3": 16.7,
+   "ae_alan": 0.68,
+   "ae_piyasa": 0.8
+  },
+  "KURUŞAĞA": {
+   "kosu": 98,
+   "birinci": 6,
+   "kazanma": 6.1,
+   "ilk3": 26.5,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.8
+  },
+  "KURTEL": {
+   "kosu": 260,
+   "birinci": 14,
+   "kazanma": 5.4,
+   "ilk3": 25.4,
+   "ae_alan": 0.57,
+   "ae_piyasa": 0.64
+  },
+  "HIZLITAY": {
+   "kosu": 214,
+   "birinci": 23,
+   "kazanma": 10.7,
+   "ilk3": 34.1,
+   "ae_alan": 1.02,
+   "ae_piyasa": 1.03
+  },
+  "AĞA KARACA": {
+   "kosu": 47,
+   "birinci": 5,
+   "kazanma": 10.6,
+   "ilk3": 34.0,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.17
+  },
+  "HİSARBEY": {
+   "kosu": 132,
+   "birinci": 7,
+   "kazanma": 5.3,
+   "ilk3": 22.7,
+   "ae_alan": 0.57,
+   "ae_piyasa": 0.58
+  },
+  "YAKUPBEY": {
+   "kosu": 302,
+   "birinci": 30,
+   "kazanma": 9.9,
+   "ilk3": 32.8,
+   "ae_alan": 0.97,
+   "ae_piyasa": 0.85
+  },
+  "ŞAMİLBEY": {
+   "kosu": 48,
+   "birinci": 5,
+   "kazanma": 10.4,
+   "ilk3": 29.2,
+   "ae_alan": 0.95,
+   "ae_piyasa": 0.89
+  },
+  "TÜMÖZ BEY": {
+   "kosu": 459,
+   "birinci": 55,
+   "kazanma": 12.0,
+   "ilk3": 30.5,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.22
+  },
+  "CANGIL": {
+   "kosu": 43,
+   "birinci": 2,
+   "kazanma": 4.7,
+   "ilk3": 23.3,
+   "ae_alan": 0.49,
+   "ae_piyasa": 0.86
+  },
+  "JOKER": {
+   "kosu": 282,
+   "birinci": 23,
+   "kazanma": 8.2,
+   "ilk3": 27.3,
+   "ae_alan": 0.87,
+   "ae_piyasa": 1.0
+  },
+  "GELİBOLU": {
+   "kosu": 450,
+   "birinci": 49,
+   "kazanma": 10.9,
+   "ilk3": 31.8,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.15
+  },
+  "UÇANOĞLU": {
+   "kosu": 468,
+   "birinci": 54,
+   "kazanma": 11.5,
+   "ilk3": 30.3,
+   "ae_alan": 1.13,
+   "ae_piyasa": 1.08
+  },
+  "LİDERTAY": {
+   "kosu": 49,
+   "birinci": 1,
+   "kazanma": 2.0,
+   "ilk3": 22.4,
+   "ae_alan": 0.21,
+   "ae_piyasa": 0.23
+  },
+  "BERKAY EFE": {
+   "kosu": 70,
+   "birinci": 6,
+   "kazanma": 8.6,
+   "ilk3": 27.1,
+   "ae_alan": 0.94,
+   "ae_piyasa": 0.98
+  },
+  "ARTOS": {
+   "kosu": 100,
+   "birinci": 7,
+   "kazanma": 7.0,
+   "ilk3": 30.0,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.72
+  },
+  "OYMAKBEYİ": {
+   "kosu": 130,
+   "birinci": 18,
+   "kazanma": 13.8,
+   "ilk3": 31.5,
+   "ae_alan": 1.28,
+   "ae_piyasa": 1.17
+  },
+  "ESKİŞEHİRLİ": {
+   "kosu": 75,
+   "birinci": 8,
+   "kazanma": 10.7,
+   "ilk3": 24.0,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.38
+  },
+  "SON MARTI": {
+   "kosu": 142,
+   "birinci": 9,
+   "kazanma": 6.3,
+   "ilk3": 30.3,
+   "ae_alan": 0.61,
+   "ae_piyasa": 0.61
+  },
+  "CANBERKTAY": {
+   "kosu": 63,
+   "birinci": 11,
+   "kazanma": 17.5,
+   "ilk3": 36.5,
+   "ae_alan": 1.68,
+   "ae_piyasa": 1.46
+  },
+  "ORÇUN": {
+   "kosu": 261,
+   "birinci": 27,
+   "kazanma": 10.3,
+   "ilk3": 31.8,
+   "ae_alan": 1.01,
+   "ae_piyasa": 1.13
+  },
+  "KAANEFE": {
+   "kosu": 43,
+   "birinci": 6,
+   "kazanma": 14.0,
+   "ilk3": 25.6,
+   "ae_alan": 1.26,
+   "ae_piyasa": 1.48
+  },
+  "KAYAYÜREKLİ": {
+   "kosu": 418,
+   "birinci": 58,
+   "kazanma": 13.9,
+   "ilk3": 34.4,
+   "ae_alan": 1.35,
+   "ae_piyasa": 1.35
+  },
+  "BAYHAN": {
+   "kosu": 64,
+   "birinci": 4,
+   "kazanma": 6.2,
+   "ilk3": 31.2,
+   "ae_alan": 0.54,
+   "ae_piyasa": 0.55
+  },
+  "AKTAŞOĞLU": {
+   "kosu": 63,
+   "birinci": 3,
+   "kazanma": 4.8,
+   "ilk3": 20.6,
+   "ae_alan": 0.5,
+   "ae_piyasa": 0.55
+  },
+  "BERKCAN": {
+   "kosu": 94,
+   "birinci": 6,
+   "kazanma": 6.4,
+   "ilk3": 24.5,
+   "ae_alan": 0.65,
+   "ae_piyasa": 0.81
+  },
+  "BAHARŞAH": {
+   "kosu": 53,
+   "birinci": 4,
+   "kazanma": 7.5,
+   "ilk3": 22.6,
+   "ae_alan": 0.76,
+   "ae_piyasa": 1.18
+  },
+  "CANKARDEŞLER": {
+   "kosu": 260,
+   "birinci": 23,
+   "kazanma": 8.8,
+   "ilk3": 29.6,
+   "ae_alan": 0.91,
+   "ae_piyasa": 0.93
+  },
+  "ULUER": {
+   "kosu": 158,
+   "birinci": 13,
+   "kazanma": 8.2,
+   "ilk3": 22.2,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.86
+  },
+  "GÜRSU": {
+   "kosu": 266,
+   "birinci": 29,
+   "kazanma": 10.9,
+   "ilk3": 35.0,
+   "ae_alan": 1.19,
+   "ae_piyasa": 0.89
+  },
+  "SAADIN GÜCÜ": {
+   "kosu": 601,
+   "birinci": 71,
+   "kazanma": 11.8,
+   "ilk3": 33.8,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.08
+  },
+  "KARAÜZÜM": {
+   "kosu": 446,
+   "birinci": 44,
+   "kazanma": 9.9,
+   "ilk3": 28.3,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.08
+  },
+  "BABA MEVLÜT": {
+   "kosu": 526,
+   "birinci": 52,
+   "kazanma": 9.9,
+   "ilk3": 29.5,
+   "ae_alan": 1.02,
+   "ae_piyasa": 1.04
+  },
+  "DEMİRDÖVEN": {
+   "kosu": 234,
+   "birinci": 11,
+   "kazanma": 4.7,
+   "ilk3": 20.9,
+   "ae_alan": 0.48,
+   "ae_piyasa": 0.51
+  },
+  "BESLENEY": {
+   "kosu": 151,
+   "birinci": 10,
+   "kazanma": 6.6,
+   "ilk3": 21.9,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.81
+  },
+  "YÜREKKAYA": {
+   "kosu": 142,
+   "birinci": 8,
+   "kazanma": 5.6,
+   "ilk3": 26.8,
+   "ae_alan": 0.61,
+   "ae_piyasa": 0.69
+  },
+  "SERHANTAY": {
+   "kosu": 559,
+   "birinci": 69,
+   "kazanma": 12.3,
+   "ilk3": 33.3,
+   "ae_alan": 1.26,
+   "ae_piyasa": 1.22
+  },
+  "KAFKASLIEFSANESİ": {
+   "kosu": 74,
+   "birinci": 7,
+   "kazanma": 9.5,
+   "ilk3": 21.6,
+   "ae_alan": 0.88,
+   "ae_piyasa": 1.1
+  },
+  "DERHADIR": {
+   "kosu": 106,
+   "birinci": 10,
+   "kazanma": 9.4,
+   "ilk3": 24.5,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.17
+  },
+  "ALMAATA": {
+   "kosu": 40,
+   "birinci": 1,
+   "kazanma": 2.5,
+   "ilk3": 15.0,
+   "ae_alan": 0.25,
+   "ae_piyasa": 0.45
+  },
+  "BİTİRİMKARINCA": {
+   "kosu": 79,
+   "birinci": 5,
+   "kazanma": 6.3,
+   "ilk3": 22.8,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.69
+  },
+  "ENDEREFE": {
+   "kosu": 192,
+   "birinci": 21,
+   "kazanma": 10.9,
+   "ilk3": 37.0,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.04
+  },
+  "SAKARBAŞI": {
+   "kosu": 259,
+   "birinci": 28,
+   "kazanma": 10.8,
+   "ilk3": 27.4,
+   "ae_alan": 1.09,
+   "ae_piyasa": 1.03
+  },
+  "AKARÇAY": {
+   "kosu": 117,
+   "birinci": 3,
+   "kazanma": 2.6,
+   "ilk3": 20.5,
+   "ae_alan": 0.24,
+   "ae_piyasa": 0.34
+  },
+  "COŞARTAY": {
+   "kosu": 108,
+   "birinci": 8,
+   "kazanma": 7.4,
+   "ilk3": 27.8,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.78
+  },
+  "EMBİR HAN": {
+   "kosu": 151,
+   "birinci": 17,
+   "kazanma": 11.3,
+   "ilk3": 26.5,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.08
+  },
+  "ŞAH ŞEHRİYAR": {
+   "kosu": 54,
+   "birinci": 4,
+   "kazanma": 7.4,
+   "ilk3": 16.7,
+   "ae_alan": 0.74,
+   "ae_piyasa": 1.14
+  },
+  "OVA": {
+   "kosu": 75,
+   "birinci": 7,
+   "kazanma": 9.3,
+   "ilk3": 17.3,
+   "ae_alan": 0.92,
+   "ae_piyasa": 1.19
+  },
+  "UÇANKRAL": {
+   "kosu": 40,
+   "birinci": 4,
+   "kazanma": 10.0,
+   "ilk3": 32.5,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.91
+  },
+  "SİLAH": {
+   "kosu": 135,
+   "birinci": 16,
+   "kazanma": 11.9,
+   "ilk3": 34.1,
+   "ae_alan": 1.16,
+   "ae_piyasa": 0.98
+  },
+  "KIBRISLI": {
+   "kosu": 47,
+   "birinci": 13,
+   "kazanma": 27.7,
+   "ilk3": 59.6,
+   "ae_alan": 2.34,
+   "ae_piyasa": 1.49
+  },
+  "DİZDAR BEY": {
+   "kosu": 43,
+   "birinci": 6,
+   "kazanma": 14.0,
+   "ilk3": 39.5,
+   "ae_alan": 1.38,
+   "ae_piyasa": 1.82
+  },
+  "DİLİRAN": {
+   "kosu": 274,
+   "birinci": 28,
+   "kazanma": 10.2,
+   "ilk3": 28.5,
+   "ae_alan": 1.09,
+   "ae_piyasa": 1.13
+  },
+  "BİÇER": {
+   "kosu": 79,
+   "birinci": 5,
+   "kazanma": 6.3,
+   "ilk3": 21.5,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.89
+  },
+  "KURTÇABEY": {
+   "kosu": 111,
+   "birinci": 10,
+   "kazanma": 9.0,
+   "ilk3": 27.9,
+   "ae_alan": 0.94,
+   "ae_piyasa": 1.13
+  },
+  "ALTINCI HİS": {
+   "kosu": 193,
+   "birinci": 15,
+   "kazanma": 7.8,
+   "ilk3": 33.2,
+   "ae_alan": 0.77,
+   "ae_piyasa": 0.82
+  },
+  "YILMABAŞAR": {
+   "kosu": 333,
+   "birinci": 37,
+   "kazanma": 11.1,
+   "ilk3": 35.1,
+   "ae_alan": 1.08,
+   "ae_piyasa": 0.96
+  },
+  "SEMEND": {
+   "kosu": 180,
+   "birinci": 24,
+   "kazanma": 13.3,
+   "ilk3": 31.7,
+   "ae_alan": 1.36,
+   "ae_piyasa": 1.33
+  },
+  "ABUŞ": {
+   "kosu": 48,
+   "birinci": 3,
+   "kazanma": 6.2,
+   "ilk3": 27.1,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.99
+  },
+  "FİRİKYA": {
+   "kosu": 188,
+   "birinci": 18,
+   "kazanma": 9.6,
+   "ilk3": 35.6,
+   "ae_alan": 1.0,
+   "ae_piyasa": 0.84
+  },
+  "MADRABAZ": {
+   "kosu": 102,
+   "birinci": 11,
+   "kazanma": 10.8,
+   "ilk3": 25.5,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.23
+  },
+  "ARHANBEY": {
+   "kosu": 47,
+   "birinci": 5,
+   "kazanma": 10.6,
+   "ilk3": 23.4,
+   "ae_alan": 1.14,
+   "ae_piyasa": 2.08
+  },
+  "SERDÜMEN": {
+   "kosu": 229,
+   "birinci": 23,
+   "kazanma": 10.0,
+   "ilk3": 30.6,
+   "ae_alan": 1.11,
+   "ae_piyasa": 0.97
+  },
+  "FATİH AĞA": {
+   "kosu": 456,
+   "birinci": 59,
+   "kazanma": 12.9,
+   "ilk3": 32.9,
+   "ae_alan": 1.31,
+   "ae_piyasa": 1.19
+  },
+  "GÜMBÜRGÜMBÜR": {
+   "kosu": 278,
+   "birinci": 25,
+   "kazanma": 9.0,
+   "ilk3": 24.5,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.93
+  },
+  "TEK YÜREK": {
+   "kosu": 41,
+   "birinci": 3,
+   "kazanma": 7.3,
+   "ilk3": 19.5,
+   "ae_alan": 0.73,
+   "ae_piyasa": 0.96
+  },
+  "DEDE SEYDO": {
+   "kosu": 43,
+   "birinci": 7,
+   "kazanma": 16.3,
+   "ilk3": 51.2,
+   "ae_alan": 1.64,
+   "ae_piyasa": 1.38
+  },
+  "TAYKUT": {
+   "kosu": 162,
+   "birinci": 17,
+   "kazanma": 10.5,
+   "ilk3": 29.6,
+   "ae_alan": 1.13,
+   "ae_piyasa": 0.99
+  },
+  "DENİZİM": {
+   "kosu": 77,
+   "birinci": 7,
+   "kazanma": 9.1,
+   "ilk3": 24.7,
+   "ae_alan": 0.95,
+   "ae_piyasa": 0.91
+  },
+  "BAŞ HÜKÜMDAR": {
+   "kosu": 76,
+   "birinci": 8,
+   "kazanma": 10.5,
+   "ilk3": 28.9,
+   "ae_alan": 1.07,
+   "ae_piyasa": 0.93
+  },
+  "DEMİRTURBO": {
+   "kosu": 55,
+   "birinci": 3,
+   "kazanma": 5.5,
+   "ilk3": 25.5,
+   "ae_alan": 0.52,
+   "ae_piyasa": 0.6
+  }
+ },
+ "Arap|kısa": {
+  "Serdarhan": {
+   "kosu": 80,
+   "birinci": 9,
+   "kazanma": 11.2,
+   "ilk3": 27.5,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.21
+  },
+  "Turbo": {
+   "kosu": 535,
+   "birinci": 51,
+   "kazanma": 9.5,
+   "ilk3": 32.5,
+   "ae_alan": 0.99,
+   "ae_piyasa": 0.8
+  },
+  "Yalaz": {
+   "kosu": 89,
+   "birinci": 13,
+   "kazanma": 14.6,
+   "ilk3": 29.2,
+   "ae_alan": 1.65,
+   "ae_piyasa": 1.35
+  },
+  "Toşur": {
+   "kosu": 267,
+   "birinci": 16,
+   "kazanma": 6.0,
+   "ilk3": 15.7,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.97
+  },
+  "Özhaber": {
+   "kosu": 126,
+   "birinci": 13,
+   "kazanma": 10.3,
+   "ilk3": 34.1,
+   "ae_alan": 1.05,
+   "ae_piyasa": 0.98
+  },
+  "Kaızbert (Ru)": {
+   "kosu": 696,
+   "birinci": 89,
+   "kazanma": 12.8,
+   "ilk3": 35.2,
+   "ae_alan": 1.35,
+   "ae_piyasa": 1.03
+  },
+  "Araslı": {
+   "kosu": 99,
+   "birinci": 5,
+   "kazanma": 5.1,
+   "ilk3": 30.3,
+   "ae_alan": 0.54,
+   "ae_piyasa": 0.49
+  },
+  "Kırımhan": {
+   "kosu": 164,
+   "birinci": 9,
+   "kazanma": 5.5,
+   "ilk3": 15.2,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.92
+  },
+  "Uçanbey": {
+   "kosu": 306,
+   "birinci": 31,
+   "kazanma": 10.1,
+   "ilk3": 32.4,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.15
+  },
+  "Bi̇lgi̇n": {
+   "kosu": 217,
+   "birinci": 23,
+   "kazanma": 10.6,
+   "ilk3": 32.7,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.12
+  },
+  "Gobakbey": {
+   "kosu": 206,
+   "birinci": 14,
+   "kazanma": 6.8,
+   "ilk3": 29.6,
+   "ae_alan": 0.76,
+   "ae_piyasa": 0.74
+  },
+  "Ati̇kbey": {
+   "kosu": 164,
+   "birinci": 12,
+   "kazanma": 7.3,
+   "ilk3": 31.7,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.81
+  },
+  "Deha": {
+   "kosu": 98,
+   "birinci": 3,
+   "kazanma": 3.1,
+   "ilk3": 15.3,
+   "ae_alan": 0.37,
+   "ae_piyasa": 0.54
+  },
+  "Yaşarcık": {
+   "kosu": 103,
+   "birinci": 15,
+   "kazanma": 14.6,
+   "ilk3": 32.0,
+   "ae_alan": 1.66,
+   "ae_piyasa": 1.78
+  },
+  "Odi̇nhan": {
+   "kosu": 65,
+   "birinci": 2,
+   "kazanma": 3.1,
+   "ilk3": 24.6,
+   "ae_alan": 0.38,
+   "ae_piyasa": 0.39
+  },
+  "Şi̇mşeği̇noğlu": {
+   "kosu": 190,
+   "birinci": 13,
+   "kazanma": 6.8,
+   "ilk3": 24.7,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.84
+  },
+  "Güntay": {
+   "kosu": 110,
+   "birinci": 9,
+   "kazanma": 8.2,
+   "ilk3": 27.3,
+   "ae_alan": 0.93,
+   "ae_piyasa": 1.0
+  },
+  "Altaha": {
+   "kosu": 142,
+   "birinci": 16,
+   "kazanma": 11.3,
+   "ilk3": 35.9,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.07
+  },
+  "Atomkarınca": {
+   "kosu": 88,
+   "birinci": 7,
+   "kazanma": 8.0,
+   "ilk3": 20.5,
+   "ae_alan": 0.92,
+   "ae_piyasa": 1.15
+  },
+  "Ayabakan": {
+   "kosu": 173,
+   "birinci": 22,
+   "kazanma": 12.7,
+   "ilk3": 35.8,
+   "ae_alan": 1.35,
+   "ae_piyasa": 1.18
+  },
+  "Özgünhan": {
+   "kosu": 246,
+   "birinci": 33,
+   "kazanma": 13.4,
+   "ilk3": 32.9,
+   "ae_alan": 1.44,
+   "ae_piyasa": 1.12
+  },
+  "Zi̇gana": {
+   "kosu": 51,
+   "birinci": 2,
+   "kazanma": 3.9,
+   "ilk3": 17.6,
+   "ae_alan": 0.46,
+   "ae_piyasa": 0.3
+  },
+  "Hızlıtay": {
+   "kosu": 77,
+   "birinci": 10,
+   "kazanma": 13.0,
+   "ilk3": 33.8,
+   "ae_alan": 1.37,
+   "ae_piyasa": 1.25
+  },
+  "Tümöz Bey": {
+   "kosu": 99,
+   "birinci": 16,
+   "kazanma": 16.2,
+   "ilk3": 36.4,
+   "ae_alan": 1.65,
+   "ae_piyasa": 1.59
+  },
+  "Özduran": {
+   "kosu": 61,
+   "birinci": 4,
+   "kazanma": 6.6,
+   "ilk3": 21.3,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.84
+  },
+  "Onurkaan": {
+   "kosu": 75,
+   "birinci": 9,
+   "kazanma": 12.0,
+   "ilk3": 29.3,
+   "ae_alan": 1.3,
+   "ae_piyasa": 1.27
+  },
+  "Kurtel": {
+   "kosu": 70,
+   "birinci": 4,
+   "kazanma": 5.7,
+   "ilk3": 27.1,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.71
+  },
+  "Tameri̇noğlu": {
+   "kosu": 104,
+   "birinci": 8,
+   "kazanma": 7.7,
+   "ilk3": 23.1,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.69
+  },
+  "Berksoy": {
+   "kosu": 159,
+   "birinci": 16,
+   "kazanma": 10.1,
+   "ilk3": 36.5,
+   "ae_alan": 1.13,
+   "ae_piyasa": 1.21
+  },
+  "Sultan De Faust (Fr)": {
+   "kosu": 43,
+   "birinci": 2,
+   "kazanma": 4.7,
+   "ilk3": 16.3,
+   "ae_alan": 0.56,
+   "ae_piyasa": 0.65
+  },
+  "Şövalye": {
+   "kosu": 45,
+   "birinci": 1,
+   "kazanma": 2.2,
+   "ilk3": 28.9,
+   "ae_alan": 0.24,
+   "ae_piyasa": 0.2
+  },
+  "Sarraf": {
+   "kosu": 130,
+   "birinci": 12,
+   "kazanma": 9.2,
+   "ilk3": 23.1,
+   "ae_alan": 1.06,
+   "ae_piyasa": 1.34
+  },
+  "Karakemal": {
+   "kosu": 57,
+   "birinci": 7,
+   "kazanma": 12.3,
+   "ilk3": 15.8,
+   "ae_alan": 1.47,
+   "ae_piyasa": 1.62
+  },
+  "Joker": {
+   "kosu": 73,
+   "birinci": 10,
+   "kazanma": 13.7,
+   "ilk3": 38.4,
+   "ae_alan": 1.4,
+   "ae_piyasa": 1.12
+  },
+  "Sancakbeyi̇": {
+   "kosu": 74,
+   "birinci": 9,
+   "kazanma": 12.2,
+   "ilk3": 20.3,
+   "ae_alan": 1.4,
+   "ae_piyasa": 2.07
+  },
+  "Ateştopu": {
+   "kosu": 74,
+   "birinci": 12,
+   "kazanma": 16.2,
+   "ilk3": 32.4,
+   "ae_alan": 1.59,
+   "ae_piyasa": 1.21
+  },
+  "Sonalp": {
+   "kosu": 75,
+   "birinci": 6,
+   "kazanma": 8.0,
+   "ilk3": 26.7,
+   "ae_alan": 0.87,
+   "ae_piyasa": 1.11
+  },
+  "Saltukhan": {
+   "kosu": 40,
+   "birinci": 2,
+   "kazanma": 5.0,
+   "ilk3": 20.0,
+   "ae_alan": 0.58,
+   "ae_piyasa": 0.85
+  },
+  "Bozyi̇ği̇t": {
+   "kosu": 53,
+   "birinci": 7,
+   "kazanma": 13.2,
+   "ilk3": 24.5,
+   "ae_alan": 1.6,
+   "ae_piyasa": 1.88
+  },
+  "Li̇dertay": {
+   "kosu": 44,
+   "birinci": 4,
+   "kazanma": 9.1,
+   "ilk3": 11.4,
+   "ae_alan": 0.96,
+   "ae_piyasa": 1.68
+  },
+  "Yakupbey": {
+   "kosu": 59,
+   "birinci": 9,
+   "kazanma": 15.3,
+   "ilk3": 27.1,
+   "ae_alan": 1.72,
+   "ae_piyasa": 1.74
+  },
+  "Geli̇bolu": {
+   "kosu": 78,
+   "birinci": 9,
+   "kazanma": 11.5,
+   "ilk3": 29.5,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.25
+  },
+  "Uçanoğlu": {
+   "kosu": 89,
+   "birinci": 7,
+   "kazanma": 7.9,
+   "ilk3": 31.5,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.56
+  },
+  "YAVUZBEY": {
+   "kosu": 58,
+   "birinci": 8,
+   "kazanma": 13.8,
+   "ilk3": 36.2,
+   "ae_alan": 1.5,
+   "ae_piyasa": 1.27
+  },
+  "BİLGİN": {
+   "kosu": 497,
+   "birinci": 44,
+   "kazanma": 8.9,
+   "ilk3": 30.6,
+   "ae_alan": 0.94,
+   "ae_piyasa": 1.06
+  },
+  "KAIZBERT (RU)": {
+   "kosu": 2494,
+   "birinci": 327,
+   "kazanma": 13.1,
+   "ilk3": 35.2,
+   "ae_alan": 1.3,
+   "ae_piyasa": 1.04
+  },
+  "ÖZGÜNHAN": {
+   "kosu": 1464,
+   "birinci": 145,
+   "kazanma": 9.9,
+   "ilk3": 31.1,
+   "ae_alan": 1.03,
+   "ae_piyasa": 0.91
+  },
+  "BALIKHAN": {
+   "kosu": 163,
+   "birinci": 15,
+   "kazanma": 9.2,
+   "ilk3": 36.2,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.82
+  },
+  "KAMAN": {
+   "kosu": 134,
+   "birinci": 7,
+   "kazanma": 5.2,
+   "ilk3": 22.4,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.58
+  },
+  "KAYAYÜREKLİ": {
+   "kosu": 972,
+   "birinci": 124,
+   "kazanma": 12.8,
+   "ilk3": 35.1,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.24
+  },
+  "TURBO": {
+   "kosu": 3414,
+   "birinci": 408,
+   "kazanma": 12.0,
+   "ilk3": 32.2,
+   "ae_alan": 1.24,
+   "ae_piyasa": 1.03
+  },
+  "KAANEFE": {
+   "kosu": 67,
+   "birinci": 8,
+   "kazanma": 11.9,
+   "ilk3": 26.9,
+   "ae_alan": 1.31,
+   "ae_piyasa": 1.21
+  },
+  "AYABAKAN": {
+   "kosu": 1396,
+   "birinci": 155,
+   "kazanma": 11.1,
+   "ilk3": 29.5,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.09
+  },
+  "YALAZ": {
+   "kosu": 120,
+   "birinci": 10,
+   "kazanma": 8.3,
+   "ilk3": 30.8,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.92
+  },
+  "SARUHANAĞA": {
+   "kosu": 80,
+   "birinci": 5,
+   "kazanma": 6.2,
+   "ilk3": 26.2,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.73
+  },
+  "SANCAKBEYİ": {
+   "kosu": 80,
+   "birinci": 3,
+   "kazanma": 3.8,
+   "ilk3": 15.0,
+   "ae_alan": 0.42,
+   "ae_piyasa": 0.69
+  },
+  "ATİKBEY": {
+   "kosu": 361,
+   "birinci": 28,
+   "kazanma": 7.8,
+   "ilk3": 26.3,
+   "ae_alan": 0.92,
+   "ae_piyasa": 1.01
+  },
+  "KARA YAĞIZ": {
+   "kosu": 194,
+   "birinci": 25,
+   "kazanma": 12.9,
+   "ilk3": 32.0,
+   "ae_alan": 1.41,
+   "ae_piyasa": 1.46
+  },
+  "SERDARHAN": {
+   "kosu": 90,
+   "birinci": 8,
+   "kazanma": 8.9,
+   "ilk3": 23.3,
+   "ae_alan": 1.06,
+   "ae_piyasa": 0.97
+  },
+  "GOBAKBEY": {
+   "kosu": 267,
+   "birinci": 20,
+   "kazanma": 7.5,
+   "ilk3": 25.5,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.89
+  },
+  "UÇANBEY": {
+   "kosu": 1105,
+   "birinci": 97,
+   "kazanma": 8.8,
+   "ilk3": 26.2,
+   "ae_alan": 0.94,
+   "ae_piyasa": 0.97
+  },
+  "TOŞUR": {
+   "kosu": 340,
+   "birinci": 22,
+   "kazanma": 6.5,
+   "ilk3": 21.2,
+   "ae_alan": 0.76,
+   "ae_piyasa": 0.98
+  },
+  "ALTAHA": {
+   "kosu": 534,
+   "birinci": 69,
+   "kazanma": 12.9,
+   "ilk3": 29.0,
+   "ae_alan": 1.3,
+   "ae_piyasa": 1.15
+  },
+  "UFUKBİR": {
+   "kosu": 304,
+   "birinci": 18,
+   "kazanma": 5.9,
+   "ilk3": 21.7,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.87
+  },
+  "GÜNTAY": {
+   "kosu": 651,
+   "birinci": 51,
+   "kazanma": 7.8,
+   "ilk3": 29.5,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.81
+  },
+  "ÖZHABER": {
+   "kosu": 842,
+   "birinci": 104,
+   "kazanma": 12.4,
+   "ilk3": 32.8,
+   "ae_alan": 1.31,
+   "ae_piyasa": 1.22
+  },
+  "ATOMKARINCA": {
+   "kosu": 215,
+   "birinci": 10,
+   "kazanma": 4.7,
+   "ilk3": 15.3,
+   "ae_alan": 0.5,
+   "ae_piyasa": 0.72
+  },
+  "ŞİMŞEĞİNOĞLU": {
+   "kosu": 706,
+   "birinci": 70,
+   "kazanma": 9.9,
+   "ilk3": 26.9,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.11
+  },
+  "PEKSOY": {
+   "kosu": 41,
+   "birinci": 7,
+   "kazanma": 17.1,
+   "ilk3": 41.5,
+   "ae_alan": 1.88,
+   "ae_piyasa": 1.51
+  },
+  "ODİNHAN": {
+   "kosu": 455,
+   "birinci": 29,
+   "kazanma": 6.4,
+   "ilk3": 23.1,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.79
+  },
+  "YAKUPBEY": {
+   "kosu": 611,
+   "birinci": 62,
+   "kazanma": 10.1,
+   "ilk3": 29.8,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.99
+  },
+  "KIRIMHAN": {
+   "kosu": 266,
+   "birinci": 24,
+   "kazanma": 9.0,
+   "ilk3": 24.4,
+   "ae_alan": 1.08,
+   "ae_piyasa": 1.24
+  },
+  "UÇANOĞLU": {
+   "kosu": 945,
+   "birinci": 90,
+   "kazanma": 9.5,
+   "ilk3": 28.8,
+   "ae_alan": 1.0,
+   "ae_piyasa": 0.95
+  },
+  "JOKER": {
+   "kosu": 442,
+   "birinci": 34,
+   "kazanma": 7.7,
+   "ilk3": 23.1,
+   "ae_alan": 0.85,
+   "ae_piyasa": 0.95
+  },
+  "SON MARTI": {
+   "kosu": 421,
+   "birinci": 40,
+   "kazanma": 9.5,
+   "ilk3": 27.8,
+   "ae_alan": 1.04,
+   "ae_piyasa": 0.9
+  },
+  "BERKSOY": {
+   "kosu": 889,
+   "birinci": 97,
+   "kazanma": 10.9,
+   "ilk3": 35.0,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.04
+  },
+  "TÜMÖZ BEY": {
+   "kosu": 781,
+   "birinci": 68,
+   "kazanma": 8.7,
+   "ilk3": 28.4,
+   "ae_alan": 0.9,
+   "ae_piyasa": 0.89
+  },
+  "BOZYİĞİT": {
+   "kosu": 173,
+   "birinci": 9,
+   "kazanma": 5.2,
+   "ilk3": 15.0,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.95
+  },
+  "KILIÇBAYLIM": {
+   "kosu": 71,
+   "birinci": 1,
+   "kazanma": 1.4,
+   "ilk3": 15.5,
+   "ae_alan": 0.17,
+   "ae_piyasa": 0.24
+  },
+  "YAVUZŞAH": {
+   "kosu": 98,
+   "birinci": 10,
+   "kazanma": 10.2,
+   "ilk3": 29.6,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.33
+  },
+  "ÖZDURAN": {
+   "kosu": 567,
+   "birinci": 78,
+   "kazanma": 13.8,
+   "ilk3": 34.2,
+   "ae_alan": 1.42,
+   "ae_piyasa": 1.45
+  },
+  "GELİBOLU": {
+   "kosu": 1117,
+   "birinci": 94,
+   "kazanma": 8.4,
+   "ilk3": 29.8,
+   "ae_alan": 0.9,
+   "ae_piyasa": 0.93
+  },
+  "ONURKAAN": {
+   "kosu": 530,
+   "birinci": 33,
+   "kazanma": 6.2,
+   "ilk3": 23.2,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.75
+  },
+  "ARASLI": {
+   "kosu": 312,
+   "birinci": 20,
+   "kazanma": 6.4,
+   "ilk3": 24.7,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.69
+  },
+  "SARRAF": {
+   "kosu": 397,
+   "birinci": 30,
+   "kazanma": 7.6,
+   "ilk3": 25.7,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.87
+  },
+  "TAMERİNOĞLU": {
+   "kosu": 1151,
+   "birinci": 96,
+   "kazanma": 8.3,
+   "ilk3": 28.5,
+   "ae_alan": 0.86,
+   "ae_piyasa": 0.76
+  },
+  "ATEŞTOPU": {
+   "kosu": 463,
+   "birinci": 50,
+   "kazanma": 10.8,
+   "ilk3": 30.2,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.13
+  },
+  "LİDERTAY": {
+   "kosu": 152,
+   "birinci": 9,
+   "kazanma": 5.9,
+   "ilk3": 27.0,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.74
+  },
+  "SONALP": {
+   "kosu": 918,
+   "birinci": 80,
+   "kazanma": 8.7,
+   "ilk3": 30.2,
+   "ae_alan": 0.89,
+   "ae_piyasa": 0.95
+  },
+  "CANBERKTAY": {
+   "kosu": 257,
+   "birinci": 36,
+   "kazanma": 14.0,
+   "ilk3": 41.2,
+   "ae_alan": 1.37,
+   "ae_piyasa": 1.08
+  },
+  "ANKA": {
+   "kosu": 398,
+   "birinci": 26,
+   "kazanma": 6.5,
+   "ilk3": 27.4,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.82
+  },
+  "HİSARBEY": {
+   "kosu": 243,
+   "birinci": 10,
+   "kazanma": 4.1,
+   "ilk3": 25.1,
+   "ae_alan": 0.46,
+   "ae_piyasa": 0.56
+  },
+  "ORÇUN": {
+   "kosu": 553,
+   "birinci": 54,
+   "kazanma": 9.8,
+   "ilk3": 30.7,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.07
+  },
+  "HIZLITAY": {
+   "kosu": 275,
+   "birinci": 23,
+   "kazanma": 8.4,
+   "ilk3": 29.8,
+   "ae_alan": 0.85,
+   "ae_piyasa": 0.92
+  },
+  "KARAKEMAL": {
+   "kosu": 121,
+   "birinci": 12,
+   "kazanma": 9.9,
+   "ilk3": 23.1,
+   "ae_alan": 1.04,
+   "ae_piyasa": 1.4
+  },
+  "GÜRGÖKÇE": {
+   "kosu": 187,
+   "birinci": 23,
+   "kazanma": 12.3,
+   "ilk3": 35.8,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.17
+  },
+  "AĞA KARACA": {
+   "kosu": 90,
+   "birinci": 6,
+   "kazanma": 6.7,
+   "ilk3": 23.3,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.85
+  },
+  "URLA EFESİ": {
+   "kosu": 54,
+   "birinci": 2,
+   "kazanma": 3.7,
+   "ilk3": 13.0,
+   "ae_alan": 0.42,
+   "ae_piyasa": 0.46
+  },
+  "KARABEDİR": {
+   "kosu": 98,
+   "birinci": 2,
+   "kazanma": 2.0,
+   "ilk3": 15.3,
+   "ae_alan": 0.22,
+   "ae_piyasa": 0.37
+  },
+  "KURTEL": {
+   "kosu": 457,
+   "birinci": 39,
+   "kazanma": 8.5,
+   "ilk3": 27.4,
+   "ae_alan": 0.89,
+   "ae_piyasa": 1.06
+  },
+  "SÖNMEZ": {
+   "kosu": 48,
+   "birinci": 3,
+   "kazanma": 6.2,
+   "ilk3": 27.1,
+   "ae_alan": 0.73,
+   "ae_piyasa": 0.74
+  },
+  "YAŞARCIK": {
+   "kosu": 327,
+   "birinci": 32,
+   "kazanma": 9.8,
+   "ilk3": 25.4,
+   "ae_alan": 1.06,
+   "ae_piyasa": 1.13
+  },
+  "ZİGANA": {
+   "kosu": 54,
+   "birinci": 5,
+   "kazanma": 9.3,
+   "ilk3": 35.2,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.78
+  },
+  "ARTOS": {
+   "kosu": 261,
+   "birinci": 35,
+   "kazanma": 13.4,
+   "ilk3": 29.9,
+   "ae_alan": 1.44,
+   "ae_piyasa": 1.42
+  },
+  "DEMİRSOY": {
+   "kosu": 82,
+   "birinci": 4,
+   "kazanma": 4.9,
+   "ilk3": 18.3,
+   "ae_alan": 0.51,
+   "ae_piyasa": 0.74
+  },
+  "DEHA": {
+   "kosu": 105,
+   "birinci": 9,
+   "kazanma": 8.6,
+   "ilk3": 36.2,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.9
+  },
+  "BATURŞAH": {
+   "kosu": 167,
+   "birinci": 13,
+   "kazanma": 7.8,
+   "ilk3": 32.3,
+   "ae_alan": 0.82,
+   "ae_piyasa": 0.83
+  },
+  "HABERBATUR": {
+   "kosu": 58,
+   "birinci": 4,
+   "kazanma": 6.9,
+   "ilk3": 15.5,
+   "ae_alan": 0.75,
+   "ae_piyasa": 1.24
+  },
+  "ŞAMİLBEY": {
+   "kosu": 104,
+   "birinci": 7,
+   "kazanma": 6.7,
+   "ilk3": 26.9,
+   "ae_alan": 0.65,
+   "ae_piyasa": 0.79
+  },
+  "KADİRİM": {
+   "kosu": 44,
+   "birinci": 2,
+   "kazanma": 4.5,
+   "ilk3": 15.9,
+   "ae_alan": 0.54,
+   "ae_piyasa": 0.66
+  },
+  "EFEM": {
+   "kosu": 122,
+   "birinci": 6,
+   "kazanma": 4.9,
+   "ilk3": 18.0,
+   "ae_alan": 0.55,
+   "ae_piyasa": 0.7
+  },
+  "KAFKAS ŞAHI": {
+   "kosu": 200,
+   "birinci": 13,
+   "kazanma": 6.5,
+   "ilk3": 24.5,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.81
+  },
+  "SALTUKHAN": {
+   "kosu": 74,
+   "birinci": 7,
+   "kazanma": 9.5,
+   "ilk3": 29.7,
+   "ae_alan": 1.01,
+   "ae_piyasa": 1.62
+  },
+  "BAYHAN": {
+   "kosu": 157,
+   "birinci": 15,
+   "kazanma": 9.6,
+   "ilk3": 33.1,
+   "ae_alan": 0.97,
+   "ae_piyasa": 0.95
+  },
+  "AKTAŞOĞLU": {
+   "kosu": 71,
+   "birinci": 3,
+   "kazanma": 4.2,
+   "ilk3": 25.4,
+   "ae_alan": 0.49,
+   "ae_piyasa": 0.76
+  },
+  "YILMAZER": {
+   "kosu": 47,
+   "birinci": 2,
+   "kazanma": 4.3,
+   "ilk3": 12.8,
+   "ae_alan": 0.51,
+   "ae_piyasa": 0.64
+  },
+  "İSFENDİYAR": {
+   "kosu": 51,
+   "birinci": 2,
+   "kazanma": 3.9,
+   "ilk3": 19.6,
+   "ae_alan": 0.38,
+   "ae_piyasa": 0.66
+  },
+  "ESKİŞEHİRLİ": {
+   "kosu": 122,
+   "birinci": 6,
+   "kazanma": 4.9,
+   "ilk3": 23.0,
+   "ae_alan": 0.53,
+   "ae_piyasa": 0.69
+  },
+  "SULTAN DE FAUST (FR)": {
+   "kosu": 279,
+   "birinci": 19,
+   "kazanma": 6.8,
+   "ilk3": 23.7,
+   "ae_alan": 0.73,
+   "ae_piyasa": 0.83
+  },
+  "BERKAY EFE": {
+   "kosu": 110,
+   "birinci": 9,
+   "kazanma": 8.2,
+   "ilk3": 26.4,
+   "ae_alan": 0.9,
+   "ae_piyasa": 1.15
+  },
+  "KILAVUZ": {
+   "kosu": 41,
+   "birinci": 3,
+   "kazanma": 7.3,
+   "ilk3": 22.0,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.93
+  },
+  "OYMAKBEYİ": {
+   "kosu": 190,
+   "birinci": 14,
+   "kazanma": 7.4,
+   "ilk3": 27.4,
+   "ae_alan": 0.75,
+   "ae_piyasa": 0.77
+  },
+  "HABERKAN": {
+   "kosu": 583,
+   "birinci": 49,
+   "kazanma": 8.4,
+   "ilk3": 23.5,
+   "ae_alan": 0.91,
+   "ae_piyasa": 1.09
+  },
+  "KOŞANEFE": {
+   "kosu": 114,
+   "birinci": 6,
+   "kazanma": 5.3,
+   "ilk3": 29.8,
+   "ae_alan": 0.56,
+   "ae_piyasa": 0.7
+  },
+  "MİNİFHAT OĞLU": {
+   "kosu": 61,
+   "birinci": 7,
+   "kazanma": 11.5,
+   "ilk3": 37.7,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.14
+  },
+  "YAMANER": {
+   "kosu": 68,
+   "birinci": 3,
+   "kazanma": 4.4,
+   "ilk3": 17.6,
+   "ae_alan": 0.53,
+   "ae_piyasa": 0.84
+  },
+  "KURUŞAĞA": {
+   "kosu": 206,
+   "birinci": 21,
+   "kazanma": 10.2,
+   "ilk3": 26.7,
+   "ae_alan": 1.07,
+   "ae_piyasa": 1.23
+  },
+  "KAYATUFAN": {
+   "kosu": 58,
+   "birinci": 2,
+   "kazanma": 3.4,
+   "ilk3": 15.5,
+   "ae_alan": 0.39,
+   "ae_piyasa": 0.67
+  },
+  "BERKCAN": {
+   "kosu": 162,
+   "birinci": 14,
+   "kazanma": 8.6,
+   "ilk3": 26.5,
+   "ae_alan": 0.9,
+   "ae_piyasa": 1.22
+  },
+  "GÖĞEBAKAN": {
+   "kosu": 53,
+   "birinci": 2,
+   "kazanma": 3.8,
+   "ilk3": 28.3,
+   "ae_alan": 0.43,
+   "ae_piyasa": 0.43
+  },
+  "ENGİNHAN": {
+   "kosu": 40,
+   "birinci": 5,
+   "kazanma": 12.5,
+   "ilk3": 20.0,
+   "ae_alan": 1.4,
+   "ae_piyasa": 2.32
+  },
+  "CİHANSER": {
+   "kosu": 41,
+   "birinci": 4,
+   "kazanma": 9.8,
+   "ilk3": 24.4,
+   "ae_alan": 0.99,
+   "ae_piyasa": 0.94
+  },
+  "MURATAĞA": {
+   "kosu": 44,
+   "birinci": 3,
+   "kazanma": 6.8,
+   "ilk3": 27.3,
+   "ae_alan": 0.82,
+   "ae_piyasa": 0.87
+  },
+  "GÜNDÜZHAN": {
+   "kosu": 48,
+   "birinci": 4,
+   "kazanma": 8.3,
+   "ilk3": 18.8,
+   "ae_alan": 0.88,
+   "ae_piyasa": 1.49
+  },
+  "DEMİRDÖVEN": {
+   "kosu": 622,
+   "birinci": 57,
+   "kazanma": 9.2,
+   "ilk3": 24.8,
+   "ae_alan": 0.98,
+   "ae_piyasa": 1.13
+  },
+  "KADERŞAH": {
+   "kosu": 104,
+   "birinci": 11,
+   "kazanma": 10.6,
+   "ilk3": 34.6,
+   "ae_alan": 1.02,
+   "ae_piyasa": 1.12
+  },
+  "BABA MEVLÜT": {
+   "kosu": 771,
+   "birinci": 69,
+   "kazanma": 8.9,
+   "ilk3": 27.5,
+   "ae_alan": 0.92,
+   "ae_piyasa": 0.88
+  },
+  "UÇARLIM": {
+   "kosu": 54,
+   "birinci": 6,
+   "kazanma": 11.1,
+   "ilk3": 35.2,
+   "ae_alan": 1.07,
+   "ae_piyasa": 0.96
+  },
+  "COŞARTAY": {
+   "kosu": 176,
+   "birinci": 9,
+   "kazanma": 5.1,
+   "ilk3": 28.4,
+   "ae_alan": 0.56,
+   "ae_piyasa": 0.58
+  },
+  "YÜREKKAYA": {
+   "kosu": 296,
+   "birinci": 23,
+   "kazanma": 7.8,
+   "ilk3": 25.0,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.99
+  },
+  "DEMİRDELEN": {
+   "kosu": 60,
+   "birinci": 2,
+   "kazanma": 3.3,
+   "ilk3": 13.3,
+   "ae_alan": 0.39,
+   "ae_piyasa": 0.71
+  },
+  "SİLAH": {
+   "kosu": 127,
+   "birinci": 16,
+   "kazanma": 12.6,
+   "ilk3": 32.3,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.14
+  },
+  "BİTİRİMKARINCA": {
+   "kosu": 62,
+   "birinci": 5,
+   "kazanma": 8.1,
+   "ilk3": 24.2,
+   "ae_alan": 0.94,
+   "ae_piyasa": 1.11
+  },
+  "GÜNCANHAN": {
+   "kosu": 56,
+   "birinci": 3,
+   "kazanma": 5.4,
+   "ilk3": 19.6,
+   "ae_alan": 0.52,
+   "ae_piyasa": 0.69
+  },
+  "ŞAH ŞEHRİYAR": {
+   "kosu": 51,
+   "birinci": 1,
+   "kazanma": 2.0,
+   "ilk3": 7.8,
+   "ae_alan": 0.2,
+   "ae_piyasa": 0.32
+  },
+  "ULUER": {
+   "kosu": 388,
+   "birinci": 35,
+   "kazanma": 9.0,
+   "ilk3": 30.7,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.0
+  },
+  "UÇARER": {
+   "kosu": 43,
+   "birinci": 7,
+   "kazanma": 16.3,
+   "ilk3": 30.2,
+   "ae_alan": 1.76,
+   "ae_piyasa": 1.49
+  },
+  "CANKARDEŞLER": {
+   "kosu": 419,
+   "birinci": 52,
+   "kazanma": 12.4,
+   "ilk3": 29.6,
+   "ae_alan": 1.3,
+   "ae_piyasa": 1.26
+  },
+  "SERHANTAY": {
+   "kosu": 1197,
+   "birinci": 113,
+   "kazanma": 9.4,
+   "ilk3": 29.0,
+   "ae_alan": 1.02,
+   "ae_piyasa": 1.09
+  },
+  "EMBİR HAN": {
+   "kosu": 393,
+   "birinci": 55,
+   "kazanma": 14.0,
+   "ilk3": 33.6,
+   "ae_alan": 1.47,
+   "ae_piyasa": 1.35
+  },
+  "KAFKASLIEFSANESİ": {
+   "kosu": 207,
+   "birinci": 10,
+   "kazanma": 4.8,
+   "ilk3": 20.3,
+   "ae_alan": 0.47,
+   "ae_piyasa": 0.61
+  },
+  "SAADIN GÜCÜ": {
+   "kosu": 872,
+   "birinci": 100,
+   "kazanma": 11.5,
+   "ilk3": 34.6,
+   "ae_alan": 1.18,
+   "ae_piyasa": 0.96
+  },
+  "SAKARBAŞI": {
+   "kosu": 628,
+   "birinci": 61,
+   "kazanma": 9.7,
+   "ilk3": 24.7,
+   "ae_alan": 1.04,
+   "ae_piyasa": 1.13
+  },
+  "KARAÜZÜM": {
+   "kosu": 758,
+   "birinci": 48,
+   "kazanma": 6.3,
+   "ilk3": 22.6,
+   "ae_alan": 0.68,
+   "ae_piyasa": 0.8
+  },
+  "THOR": {
+   "kosu": 73,
+   "birinci": 4,
+   "kazanma": 5.5,
+   "ilk3": 21.9,
+   "ae_alan": 0.61,
+   "ae_piyasa": 0.75
+  },
+  "GÜLBEŞİR": {
+   "kosu": 60,
+   "birinci": 4,
+   "kazanma": 6.7,
+   "ilk3": 25.0,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.87
+  },
+  "ALMAATA": {
+   "kosu": 116,
+   "birinci": 4,
+   "kazanma": 3.4,
+   "ilk3": 21.6,
+   "ae_alan": 0.38,
+   "ae_piyasa": 0.49
+  },
+  "DERBİŞAH": {
+   "kosu": 65,
+   "birinci": 7,
+   "kazanma": 10.8,
+   "ilk3": 23.1,
+   "ae_alan": 1.21,
+   "ae_piyasa": 1.56
+  },
+  "BAHARŞAH": {
+   "kosu": 102,
+   "birinci": 9,
+   "kazanma": 8.8,
+   "ilk3": 23.5,
+   "ae_alan": 0.99,
+   "ae_piyasa": 1.46
+  },
+  "ENDEREFE": {
+   "kosu": 289,
+   "birinci": 23,
+   "kazanma": 8.0,
+   "ilk3": 31.8,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.78
+  },
+  "OVA": {
+   "kosu": 181,
+   "birinci": 12,
+   "kazanma": 6.6,
+   "ilk3": 24.3,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.9
+  },
+  "MENGÜBERT": {
+   "kosu": 55,
+   "birinci": 8,
+   "kazanma": 14.5,
+   "ilk3": 23.6,
+   "ae_alan": 1.52,
+   "ae_piyasa": 1.83
+  },
+  "AKARÇAY": {
+   "kosu": 314,
+   "birinci": 21,
+   "kazanma": 6.7,
+   "ilk3": 20.1,
+   "ae_alan": 0.73,
+   "ae_piyasa": 1.01
+  },
+  "ALİ RUHİ": {
+   "kosu": 110,
+   "birinci": 10,
+   "kazanma": 9.1,
+   "ilk3": 13.6,
+   "ae_alan": 0.94,
+   "ae_piyasa": 1.25
+  },
+  "DERHADIR": {
+   "kosu": 175,
+   "birinci": 4,
+   "kazanma": 2.3,
+   "ilk3": 14.3,
+   "ae_alan": 0.25,
+   "ae_piyasa": 0.4
+  },
+  "UÇANKRAL": {
+   "kosu": 89,
+   "birinci": 3,
+   "kazanma": 3.4,
+   "ilk3": 19.1,
+   "ae_alan": 0.37,
+   "ae_piyasa": 0.58
+  },
+  "LASMAR": {
+   "kosu": 85,
+   "birinci": 12,
+   "kazanma": 14.1,
+   "ilk3": 35.3,
+   "ae_alan": 1.42,
+   "ae_piyasa": 1.23
+  },
+  "DİZDAR BEY": {
+   "kosu": 96,
+   "birinci": 5,
+   "kazanma": 5.2,
+   "ilk3": 22.9,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.89
+  },
+  "CÖMERTKAN": {
+   "kosu": 47,
+   "birinci": 10,
+   "kazanma": 21.3,
+   "ilk3": 29.8,
+   "ae_alan": 2.05,
+   "ae_piyasa": 1.52
+  },
+  "TANATAR": {
+   "kosu": 49,
+   "birinci": 1,
+   "kazanma": 2.0,
+   "ilk3": 4.1,
+   "ae_alan": 0.22,
+   "ae_piyasa": 0.99
+  },
+  "FAZIL AĞA": {
+   "kosu": 81,
+   "birinci": 7,
+   "kazanma": 8.6,
+   "ilk3": 28.4,
+   "ae_alan": 0.87,
+   "ae_piyasa": 1.11
+  },
+  "BESLENEY": {
+   "kosu": 193,
+   "birinci": 16,
+   "kazanma": 8.3,
+   "ilk3": 26.4,
+   "ae_alan": 0.91,
+   "ae_piyasa": 0.9
+  },
+  "TRANSİT": {
+   "kosu": 49,
+   "birinci": 5,
+   "kazanma": 10.2,
+   "ilk3": 30.6,
+   "ae_alan": 1.24,
+   "ae_piyasa": 1.32
+  },
+  "MERKÜROĞLU": {
+   "kosu": 52,
+   "birinci": 5,
+   "kazanma": 9.6,
+   "ilk3": 36.5,
+   "ae_alan": 1.09,
+   "ae_piyasa": 1.34
+  },
+  "BİLGEKURT": {
+   "kosu": 83,
+   "birinci": 0,
+   "kazanma": 0.0,
+   "ilk3": 6.0,
+   "ae_alan": 0.0,
+   "ae_piyasa": 0.0
+  },
+  "KIZILHİSAR": {
+   "kosu": 55,
+   "birinci": 3,
+   "kazanma": 5.5,
+   "ilk3": 16.4,
+   "ae_alan": 0.6,
+   "ae_piyasa": 1.61
+  },
+  "GÜRSU": {
+   "kosu": 607,
+   "birinci": 80,
+   "kazanma": 13.2,
+   "ilk3": 35.9,
+   "ae_alan": 1.42,
+   "ae_piyasa": 0.95
+  },
+  "KIBRISLI": {
+   "kosu": 67,
+   "birinci": 5,
+   "kazanma": 7.5,
+   "ilk3": 25.4,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.64
+  },
+  "FARUKİ": {
+   "kosu": 45,
+   "birinci": 3,
+   "kazanma": 6.7,
+   "ilk3": 13.3,
+   "ae_alan": 0.71,
+   "ae_piyasa": 1.43
+  },
+  "AKOĞUZ": {
+   "kosu": 47,
+   "birinci": 4,
+   "kazanma": 8.5,
+   "ilk3": 34.0,
+   "ae_alan": 1.01,
+   "ae_piyasa": 0.95
+  },
+  "AZMİ REİS": {
+   "kosu": 92,
+   "birinci": 8,
+   "kazanma": 8.7,
+   "ilk3": 26.1,
+   "ae_alan": 0.96,
+   "ae_piyasa": 1.16
+  },
+  "DİLİRAN": {
+   "kosu": 849,
+   "birinci": 83,
+   "kazanma": 9.8,
+   "ilk3": 27.7,
+   "ae_alan": 1.03,
+   "ae_piyasa": 0.97
+  },
+  "ARHANBEY": {
+   "kosu": 126,
+   "birinci": 10,
+   "kazanma": 7.9,
+   "ilk3": 29.4,
+   "ae_alan": 0.87,
+   "ae_piyasa": 1.12
+  },
+  "KURTÇABEY": {
+   "kosu": 264,
+   "birinci": 21,
+   "kazanma": 8.0,
+   "ilk3": 33.7,
+   "ae_alan": 0.82,
+   "ae_piyasa": 0.82
+  },
+  "KATI SEMİH": {
+   "kosu": 55,
+   "birinci": 12,
+   "kazanma": 21.8,
+   "ilk3": 29.1,
+   "ae_alan": 1.98,
+   "ae_piyasa": 1.0
+  },
+  "ATMACA BEYİ": {
+   "kosu": 50,
+   "birinci": 2,
+   "kazanma": 4.0,
+   "ilk3": 16.0,
+   "ae_alan": 0.47,
+   "ae_piyasa": 0.71
+  },
+  "YILMABAŞAR": {
+   "kosu": 642,
+   "birinci": 77,
+   "kazanma": 12.0,
+   "ilk3": 30.8,
+   "ae_alan": 1.24,
+   "ae_piyasa": 1.07
+  },
+  "MADRABAZ": {
+   "kosu": 256,
+   "birinci": 29,
+   "kazanma": 11.3,
+   "ilk3": 27.0,
+   "ae_alan": 1.22,
+   "ae_piyasa": 1.18
+  },
+  "SEMEND": {
+   "kosu": 317,
+   "birinci": 23,
+   "kazanma": 7.3,
+   "ilk3": 27.1,
+   "ae_alan": 0.78,
+   "ae_piyasa": 0.76
+  },
+  "MÜCİZEKAYA": {
+   "kosu": 102,
+   "birinci": 9,
+   "kazanma": 8.8,
+   "ilk3": 30.4,
+   "ae_alan": 0.87,
+   "ae_piyasa": 0.86
+  },
+  "ATASOY": {
+   "kosu": 109,
+   "birinci": 7,
+   "kazanma": 6.4,
+   "ilk3": 21.1,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.87
+  },
+  "BAŞSEKLAVİ": {
+   "kosu": 100,
+   "birinci": 5,
+   "kazanma": 5.0,
+   "ilk3": 22.0,
+   "ae_alan": 0.52,
+   "ae_piyasa": 0.84
+  },
+  "FİRİKYA": {
+   "kosu": 407,
+   "birinci": 33,
+   "kazanma": 8.1,
+   "ilk3": 25.6,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.82
+  },
+  "HALİÇ": {
+   "kosu": 45,
+   "birinci": 3,
+   "kazanma": 6.7,
+   "ilk3": 15.6,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.61
+  },
+  "ABUŞ": {
+   "kosu": 114,
+   "birinci": 10,
+   "kazanma": 8.8,
+   "ilk3": 28.9,
+   "ae_alan": 0.97,
+   "ae_piyasa": 0.87
+  },
+  "ALTINCI HİS": {
+   "kosu": 408,
+   "birinci": 31,
+   "kazanma": 7.6,
+   "ilk3": 26.5,
+   "ae_alan": 0.82,
+   "ae_piyasa": 0.82
+  },
+  "EGEBEYİ": {
+   "kosu": 78,
+   "birinci": 5,
+   "kazanma": 6.4,
+   "ilk3": 28.2,
+   "ae_alan": 0.63,
+   "ae_piyasa": 0.96
+  },
+  "KARAESER": {
+   "kosu": 40,
+   "birinci": 5,
+   "kazanma": 12.5,
+   "ilk3": 12.5,
+   "ae_alan": 1.36,
+   "ae_piyasa": 1.36
+  },
+  "BİÇER": {
+   "kosu": 240,
+   "birinci": 15,
+   "kazanma": 6.2,
+   "ilk3": 19.2,
+   "ae_alan": 0.71,
+   "ae_piyasa": 1.06
+  },
+  "ONURKAANIM": {
+   "kosu": 41,
+   "birinci": 4,
+   "kazanma": 9.8,
+   "ilk3": 29.3,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.97
+  },
+  "ASLANPARÇASI": {
+   "kosu": 64,
+   "birinci": 3,
+   "kazanma": 4.7,
+   "ilk3": 17.2,
+   "ae_alan": 0.55,
+   "ae_piyasa": 0.8
+  },
+  "RED ROSE": {
+   "kosu": 43,
+   "birinci": 4,
+   "kazanma": 9.3,
+   "ilk3": 30.2,
+   "ae_alan": 1.05,
+   "ae_piyasa": 1.06
+  },
+  "GÜMBÜRGÜMBÜR": {
+   "kosu": 1046,
+   "birinci": 119,
+   "kazanma": 11.4,
+   "ilk3": 32.3,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.08
+  },
+  "FATİH AĞA": {
+   "kosu": 1234,
+   "birinci": 136,
+   "kazanma": 11.0,
+   "ilk3": 29.9,
+   "ae_alan": 1.21,
+   "ae_piyasa": 1.2
+  },
+  "BUMBAİ": {
+   "kosu": 149,
+   "birinci": 10,
+   "kazanma": 6.7,
+   "ilk3": 20.1,
+   "ae_alan": 0.74,
+   "ae_piyasa": 1.32
+  },
+  "SERDÜMEN": {
+   "kosu": 591,
+   "birinci": 51,
+   "kazanma": 8.6,
+   "ilk3": 27.2,
+   "ae_alan": 0.95,
+   "ae_piyasa": 0.86
+  },
+  "BARBAROSBEY": {
+   "kosu": 114,
+   "birinci": 11,
+   "kazanma": 9.6,
+   "ilk3": 29.8,
+   "ae_alan": 1.07,
+   "ae_piyasa": 1.22
+  },
+  "TEK YÜREK": {
+   "kosu": 176,
+   "birinci": 16,
+   "kazanma": 9.1,
+   "ilk3": 28.4,
+   "ae_alan": 0.99,
+   "ae_piyasa": 1.19
+  },
+  "TAYKUT": {
+   "kosu": 425,
+   "birinci": 47,
+   "kazanma": 11.1,
+   "ilk3": 32.7,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.01
+  },
+  "ŞÜKRÜ": {
+   "kosu": 49,
+   "birinci": 10,
+   "kazanma": 20.4,
+   "ilk3": 38.8,
+   "ae_alan": 1.82,
+   "ae_piyasa": 1.2
+  },
+  "BAŞ HÜKÜMDAR": {
+   "kosu": 211,
+   "birinci": 24,
+   "kazanma": 11.4,
+   "ilk3": 28.4,
+   "ae_alan": 1.2,
+   "ae_piyasa": 1.09
+  },
+  "ŞAHİNTER": {
+   "kosu": 89,
+   "birinci": 12,
+   "kazanma": 13.5,
+   "ilk3": 40.4,
+   "ae_alan": 1.32,
+   "ae_piyasa": 1.12
+  },
+  "DENİZİM": {
+   "kosu": 244,
+   "birinci": 26,
+   "kazanma": 10.7,
+   "ilk3": 26.6,
+   "ae_alan": 1.2,
+   "ae_piyasa": 1.26
+  },
+  "PARPALİ": {
+   "kosu": 55,
+   "birinci": 5,
+   "kazanma": 9.1,
+   "ilk3": 32.7,
+   "ae_alan": 1.0,
+   "ae_piyasa": 0.79
+  },
+  "MERTADAM": {
+   "kosu": 70,
+   "birinci": 4,
+   "kazanma": 5.7,
+   "ilk3": 17.1,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.7
+  },
+  "DEMİRTURBO": {
+   "kosu": 134,
+   "birinci": 17,
+   "kazanma": 12.7,
+   "ilk3": 28.4,
+   "ae_alan": 1.4,
+   "ae_piyasa": 1.49
+  },
+  "DEDE SEYDO": {
+   "kosu": 78,
+   "birinci": 5,
+   "kazanma": 6.4,
+   "ilk3": 24.4,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.77
+  },
+  "OĞLUM BURAK": {
+   "kosu": 112,
+   "birinci": 14,
+   "kazanma": 12.5,
+   "ilk3": 32.1,
+   "ae_alan": 1.36,
+   "ae_piyasa": 1.43
+  },
+  "PİRSUS": {
+   "kosu": 57,
+   "birinci": 4,
+   "kazanma": 7.0,
+   "ilk3": 24.6,
+   "ae_alan": 0.84,
+   "ae_piyasa": 1.15
+  },
+  "BALTACI": {
+   "kosu": 64,
+   "birinci": 3,
+   "kazanma": 4.7,
+   "ilk3": 25.0,
+   "ae_alan": 0.56,
+   "ae_piyasa": 0.76
+  },
+  "TALİPHAN": {
+   "kosu": 162,
+   "birinci": 25,
+   "kazanma": 15.4,
+   "ilk3": 34.6,
+   "ae_alan": 1.69,
+   "ae_piyasa": 1.52
+  },
+  "AFRİKAANDER": {
+   "kosu": 300,
+   "birinci": 58,
+   "kazanma": 19.3,
+   "ilk3": 48.0,
+   "ae_alan": 1.88,
+   "ae_piyasa": 1.24
+  },
+  "ORHUNKAAN": {
+   "kosu": 123,
+   "birinci": 16,
+   "kazanma": 13.0,
+   "ilk3": 28.5,
+   "ae_alan": 1.35,
+   "ae_piyasa": 1.63
+  },
+  "BİLDENHAN": {
+   "kosu": 109,
+   "birinci": 10,
+   "kazanma": 9.2,
+   "ilk3": 33.9,
+   "ae_alan": 0.95,
+   "ae_piyasa": 0.93
+  },
+  "BALALAYKA": {
+   "kosu": 133,
+   "birinci": 18,
+   "kazanma": 13.5,
+   "ilk3": 34.6,
+   "ae_alan": 1.49,
+   "ae_piyasa": 1.31
+  },
+  "SABRİNİN ATI": {
+   "kosu": 74,
+   "birinci": 4,
+   "kazanma": 5.4,
+   "ilk3": 33.8,
+   "ae_alan": 0.53,
+   "ae_piyasa": 0.46
+  },
+  "OĞUZBOYLU": {
+   "kosu": 63,
+   "birinci": 6,
+   "kazanma": 9.5,
+   "ilk3": 31.7,
+   "ae_alan": 0.87,
+   "ae_piyasa": 1.33
+  },
+  "BATMANASLANI": {
+   "kosu": 45,
+   "birinci": 3,
+   "kazanma": 6.7,
+   "ilk3": 22.2,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.51
+  }
+ },
+ "İngiliz|uzun": {
+  "Vıctory Gallop (Can)": {
+   "kosu": 158,
+   "birinci": 25,
+   "kazanma": 15.8,
+   "ilk3": 39.9,
+   "ae_alan": 1.31,
+   "ae_piyasa": 1.1
+  },
+  "Powerscourt (Gb)": {
+   "kosu": 45,
+   "birinci": 7,
+   "kazanma": 15.6,
+   "ilk3": 22.2,
+   "ae_alan": 1.32,
+   "ae_piyasa": 1.68
+  },
+  "Lıon Heart (Usa)": {
+   "kosu": 84,
+   "birinci": 7,
+   "kazanma": 8.3,
+   "ilk3": 26.2,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.58
+  },
+  "Wın Rıver Wın (Usa)": {
+   "kosu": 116,
+   "birinci": 18,
+   "kazanma": 15.5,
+   "ilk3": 36.2,
+   "ae_alan": 1.4,
+   "ae_piyasa": 1.25
+  },
+  "After Market (Usa)": {
+   "kosu": 56,
+   "birinci": 9,
+   "kazanma": 16.1,
+   "ilk3": 32.1,
+   "ae_alan": 1.51,
+   "ae_piyasa": 1.69
+  },
+  "Kaneko": {
+   "kosu": 119,
+   "birinci": 16,
+   "kazanma": 13.4,
+   "ilk3": 38.7,
+   "ae_alan": 1.11,
+   "ae_piyasa": 0.99
+  },
+  "Toruk Macto (Ire)": {
+   "kosu": 40,
+   "birinci": 8,
+   "kazanma": 20.0,
+   "ilk3": 40.0,
+   "ae_alan": 1.81,
+   "ae_piyasa": 1.55
+  },
+  "Pleasantly Perfect (Usa)": {
+   "kosu": 62,
+   "birinci": 7,
+   "kazanma": 11.3,
+   "ilk3": 40.3,
+   "ae_alan": 1.03,
+   "ae_piyasa": 1.09
+  },
+  "Luxor": {
+   "kosu": 40,
+   "birinci": 4,
+   "kazanma": 10.0,
+   "ilk3": 50.0,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.79
+  },
+  "Halıcarnassus (Ire)": {
+   "kosu": 44,
+   "birinci": 6,
+   "kazanma": 13.6,
+   "ilk3": 27.3,
+   "ae_alan": 1.11,
+   "ae_piyasa": 1.43
+  },
+  "MENDIP (USA)": {
+   "kosu": 790,
+   "birinci": 80,
+   "kazanma": 10.1,
+   "ilk3": 33.4,
+   "ae_alan": 0.85,
+   "ae_piyasa": 0.86
+  },
+  "LION HEART (USA)": {
+   "kosu": 508,
+   "birinci": 50,
+   "kazanma": 9.8,
+   "ilk3": 33.1,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.93
+  },
+  "VICTORY GALLOP (CAN)": {
+   "kosu": 765,
+   "birinci": 104,
+   "kazanma": 13.6,
+   "ilk3": 38.6,
+   "ae_alan": 1.12,
+   "ae_piyasa": 0.93
+  },
+  "YONAGUSKA (USA)": {
+   "kosu": 83,
+   "birinci": 16,
+   "kazanma": 19.3,
+   "ilk3": 47.0,
+   "ae_alan": 1.52,
+   "ae_piyasa": 1.25
+  },
+  "LUXOR": {
+   "kosu": 258,
+   "birinci": 33,
+   "kazanma": 12.8,
+   "ilk3": 36.0,
+   "ae_alan": 1.11,
+   "ae_piyasa": 0.97
+  },
+  "KANEKO": {
+   "kosu": 825,
+   "birinci": 124,
+   "kazanma": 15.0,
+   "ilk3": 43.2,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.11
+  },
+  "BOSPORUS (IRE)": {
+   "kosu": 148,
+   "birinci": 12,
+   "kazanma": 8.1,
+   "ilk3": 34.5,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.75
+  },
+  "HAKKAR": {
+   "kosu": 89,
+   "birinci": 10,
+   "kazanma": 11.2,
+   "ilk3": 28.1,
+   "ae_alan": 0.94,
+   "ae_piyasa": 1.16
+  },
+  "CUVEE (USA)": {
+   "kosu": 87,
+   "birinci": 8,
+   "kazanma": 9.2,
+   "ilk3": 28.7,
+   "ae_alan": 0.8,
+   "ae_piyasa": 0.86
+  },
+  "ZANJERO (USA)": {
+   "kosu": 57,
+   "birinci": 6,
+   "kazanma": 10.5,
+   "ilk3": 33.3,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.98
+  },
+  "APPROVE (IRE)": {
+   "kosu": 262,
+   "birinci": 26,
+   "kazanma": 9.9,
+   "ilk3": 32.1,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.9
+  },
+  "AFTER MARKET (USA)": {
+   "kosu": 159,
+   "birinci": 25,
+   "kazanma": 15.7,
+   "ilk3": 40.3,
+   "ae_alan": 1.34,
+   "ae_piyasa": 1.45
+  },
+  "TALIP HAN (IRE)": {
+   "kosu": 129,
+   "birinci": 13,
+   "kazanma": 10.1,
+   "ilk3": 35.7,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.99
+  },
+  "DAI JIN (GB)": {
+   "kosu": 117,
+   "birinci": 14,
+   "kazanma": 12.0,
+   "ilk3": 34.2,
+   "ae_alan": 1.08,
+   "ae_piyasa": 1.18
+  },
+  "SMART ROBIN (JPN)": {
+   "kosu": 484,
+   "birinci": 51,
+   "kazanma": 10.5,
+   "ilk3": 33.9,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.91
+  },
+  "AGRESIVO (USA)": {
+   "kosu": 158,
+   "birinci": 19,
+   "kazanma": 12.0,
+   "ilk3": 37.3,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.93
+  },
+  "WIN RIVER WIN (USA)": {
+   "kosu": 338,
+   "birinci": 38,
+   "kazanma": 11.2,
+   "ilk3": 35.5,
+   "ae_alan": 0.98,
+   "ae_piyasa": 1.09
+  },
+  "POWERSCOURT (GB)": {
+   "kosu": 152,
+   "birinci": 18,
+   "kazanma": 11.8,
+   "ilk3": 28.3,
+   "ae_alan": 0.98,
+   "ae_piyasa": 1.15
+  },
+  "PERFECT STORM": {
+   "kosu": 93,
+   "birinci": 8,
+   "kazanma": 8.6,
+   "ilk3": 26.9,
+   "ae_alan": 0.76,
+   "ae_piyasa": 0.94
+  },
+  "DR FONG (USA)": {
+   "kosu": 103,
+   "birinci": 18,
+   "kazanma": 17.5,
+   "ilk3": 44.7,
+   "ae_alan": 1.42,
+   "ae_piyasa": 1.23
+  },
+  "PLEASANTLY PERFECT (USA)": {
+   "kosu": 127,
+   "birinci": 16,
+   "kazanma": 12.6,
+   "ilk3": 35.4,
+   "ae_alan": 1.07,
+   "ae_piyasa": 1.05
+  },
+  "ROCKMASTER (IRE)": {
+   "kosu": 81,
+   "birinci": 8,
+   "kazanma": 9.9,
+   "ilk3": 33.3,
+   "ae_alan": 0.88,
+   "ae_piyasa": 1.11
+  },
+  "INVINCIBLE SON (IRE)": {
+   "kosu": 202,
+   "birinci": 20,
+   "kazanma": 9.9,
+   "ilk3": 33.7,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.83
+  },
+  "SCARFACE": {
+   "kosu": 229,
+   "birinci": 26,
+   "kazanma": 11.4,
+   "ilk3": 37.1,
+   "ae_alan": 1.03,
+   "ae_piyasa": 0.81
+  },
+  "HAKEEM (USA)": {
+   "kosu": 245,
+   "birinci": 22,
+   "kazanma": 9.0,
+   "ilk3": 30.2,
+   "ae_alan": 0.75,
+   "ae_piyasa": 0.88
+  },
+  "DEHA": {
+   "kosu": 62,
+   "birinci": 9,
+   "kazanma": 14.5,
+   "ilk3": 33.9,
+   "ae_alan": 1.16,
+   "ae_piyasa": 1.15
+  },
+  "OFFLEE WILD (USA)": {
+   "kosu": 62,
+   "birinci": 7,
+   "kazanma": 11.3,
+   "ilk3": 38.7,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.84
+  },
+  "HALICARNASSUS (IRE)": {
+   "kosu": 87,
+   "birinci": 10,
+   "kazanma": 11.5,
+   "ilk3": 37.9,
+   "ae_alan": 0.94,
+   "ae_piyasa": 0.97
+  },
+  "MARCAVELLY (USA)": {
+   "kosu": 153,
+   "birinci": 20,
+   "kazanma": 13.1,
+   "ilk3": 34.6,
+   "ae_alan": 1.08,
+   "ae_piyasa": 1.07
+  },
+  "TOCCET (USA)": {
+   "kosu": 197,
+   "birinci": 27,
+   "kazanma": 13.7,
+   "ilk3": 46.2,
+   "ae_alan": 1.13,
+   "ae_piyasa": 1.1
+  },
+  "EL CORREDOR (USA)": {
+   "kosu": 108,
+   "birinci": 13,
+   "kazanma": 12.0,
+   "ilk3": 27.8,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.33
+  },
+  "JUSTENUFFHUMOR (USA)": {
+   "kosu": 80,
+   "birinci": 9,
+   "kazanma": 11.2,
+   "ilk3": 41.2,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.87
+  },
+  "KING DAVID (USA)": {
+   "kosu": 74,
+   "birinci": 15,
+   "kazanma": 20.3,
+   "ilk3": 40.5,
+   "ae_alan": 1.7,
+   "ae_piyasa": 1.09
+  },
+  "CARDINAL PIONEER": {
+   "kosu": 74,
+   "birinci": 7,
+   "kazanma": 9.5,
+   "ilk3": 33.8,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.95
+  },
+  "KALİMDOR": {
+   "kosu": 73,
+   "birinci": 4,
+   "kazanma": 5.5,
+   "ilk3": 23.3,
+   "ae_alan": 0.49,
+   "ae_piyasa": 0.68
+  },
+  "THREE VALLEYS (USA)": {
+   "kosu": 132,
+   "birinci": 14,
+   "kazanma": 10.6,
+   "ilk3": 29.5,
+   "ae_alan": 0.87,
+   "ae_piyasa": 0.93
+  },
+  "DUTYFREE": {
+   "kosu": 97,
+   "birinci": 5,
+   "kazanma": 5.2,
+   "ilk3": 32.0,
+   "ae_alan": 0.43,
+   "ae_piyasa": 0.54
+  },
+  "ASTRAKHAN": {
+   "kosu": 47,
+   "birinci": 5,
+   "kazanma": 10.6,
+   "ilk3": 40.4,
+   "ae_alan": 0.84,
+   "ae_piyasa": 1.08
+  },
+  "BANKNOTE (GB)": {
+   "kosu": 75,
+   "birinci": 9,
+   "kazanma": 12.0,
+   "ilk3": 32.0,
+   "ae_alan": 1.04,
+   "ae_piyasa": 1.15
+  },
+  "EXPANSION (USA)": {
+   "kosu": 60,
+   "birinci": 5,
+   "kazanma": 8.3,
+   "ilk3": 35.0,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.89
+  },
+  "TRIPLE BONUS": {
+   "kosu": 40,
+   "birinci": 5,
+   "kazanma": 12.5,
+   "ilk3": 30.0,
+   "ae_alan": 1.2,
+   "ae_piyasa": 1.5
+  },
+  "NATIVE KHAN (FR)": {
+   "kosu": 434,
+   "birinci": 45,
+   "kazanma": 10.4,
+   "ilk3": 40.1,
+   "ae_alan": 0.89,
+   "ae_piyasa": 0.88
+  },
+  "TOROK (IRE)": {
+   "kosu": 818,
+   "birinci": 116,
+   "kazanma": 14.2,
+   "ilk3": 39.9,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.05
+  },
+  "TIZWAY (USA)": {
+   "kosu": 398,
+   "birinci": 51,
+   "kazanma": 12.8,
+   "ilk3": 37.9,
+   "ae_alan": 1.07,
+   "ae_piyasa": 0.96
+  },
+  "BUSHRANGER (IRE)": {
+   "kosu": 125,
+   "birinci": 11,
+   "kazanma": 8.8,
+   "ilk3": 28.8,
+   "ae_alan": 0.77,
+   "ae_piyasa": 1.14
+  },
+  "TORUK MACTO (IRE)": {
+   "kosu": 116,
+   "birinci": 16,
+   "kazanma": 13.8,
+   "ilk3": 44.8,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.03
+  },
+  "FAIRSON": {
+   "kosu": 49,
+   "birinci": 2,
+   "kazanma": 4.1,
+   "ilk3": 22.4,
+   "ae_alan": 0.37,
+   "ae_piyasa": 0.46
+  },
+  "SPEEDY WOLF": {
+   "kosu": 103,
+   "birinci": 11,
+   "kazanma": 10.7,
+   "ilk3": 38.8,
+   "ae_alan": 0.86,
+   "ae_piyasa": 1.01
+  },
+  "CAPTAIN RIO (GB)": {
+   "kosu": 95,
+   "birinci": 17,
+   "kazanma": 17.9,
+   "ilk3": 40.0,
+   "ae_alan": 1.44,
+   "ae_piyasa": 1.12
+  },
+  "PERFECTO": {
+   "kosu": 58,
+   "birinci": 2,
+   "kazanma": 3.4,
+   "ilk3": 29.3,
+   "ae_alan": 0.3,
+   "ae_piyasa": 0.43
+  },
+  "ENGLISH CHANNEL (USA)": {
+   "kosu": 51,
+   "birinci": 10,
+   "kazanma": 19.6,
+   "ilk3": 52.9,
+   "ae_alan": 1.51,
+   "ae_piyasa": 0.95
+  },
+  "CHURCH PICTURES (GB)": {
+   "kosu": 58,
+   "birinci": 4,
+   "kazanma": 6.9,
+   "ilk3": 31.0,
+   "ae_alan": 0.59,
+   "ae_piyasa": 0.93
+  },
+  "ÇAKAL CARLOS": {
+   "kosu": 47,
+   "birinci": 7,
+   "kazanma": 14.9,
+   "ilk3": 38.3,
+   "ae_alan": 1.22,
+   "ae_piyasa": 1.11
+  },
+  "MALİ": {
+   "kosu": 57,
+   "birinci": 4,
+   "kazanma": 7.0,
+   "ilk3": 17.5,
+   "ae_alan": 0.61,
+   "ae_piyasa": 0.87
+  },
+  "RED GIANT (USA)": {
+   "kosu": 61,
+   "birinci": 6,
+   "kazanma": 9.8,
+   "ilk3": 27.9,
+   "ae_alan": 0.87,
+   "ae_piyasa": 1.05
+  },
+  "GENERAL QUARTERS (USA)": {
+   "kosu": 173,
+   "birinci": 17,
+   "kazanma": 9.8,
+   "ilk3": 38.2,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.76
+  },
+  "KULOĞLU": {
+   "kosu": 79,
+   "birinci": 6,
+   "kazanma": 7.6,
+   "ilk3": 29.1,
+   "ae_alan": 0.68,
+   "ae_piyasa": 0.86
+  },
+  "MAXIMUS DREAM": {
+   "kosu": 67,
+   "birinci": 13,
+   "kazanma": 19.4,
+   "ilk3": 47.8,
+   "ae_alan": 1.43,
+   "ae_piyasa": 1.06
+  },
+  "AMERİKALI": {
+   "kosu": 54,
+   "birinci": 13,
+   "kazanma": 24.1,
+   "ilk3": 61.1,
+   "ae_alan": 1.88,
+   "ae_piyasa": 1.13
+  },
+  "WIENER WALZER (GER)": {
+   "kosu": 165,
+   "birinci": 25,
+   "kazanma": 15.2,
+   "ilk3": 42.4,
+   "ae_alan": 1.21,
+   "ae_piyasa": 1.15
+  },
+  "AUTHORIZED (IRE)": {
+   "kosu": 342,
+   "birinci": 39,
+   "kazanma": 11.4,
+   "ilk3": 35.7,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.92
+  },
+  "PAPA CLEM (USA)": {
+   "kosu": 430,
+   "birinci": 49,
+   "kazanma": 11.4,
+   "ilk3": 39.3,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.98
+  },
+  "WOLF PRINCE": {
+   "kosu": 45,
+   "birinci": 2,
+   "kazanma": 4.4,
+   "ilk3": 20.0,
+   "ae_alan": 0.4,
+   "ae_piyasa": 0.59
+  },
+  "CORINTHIAN (USA)": {
+   "kosu": 62,
+   "birinci": 7,
+   "kazanma": 11.3,
+   "ilk3": 35.5,
+   "ae_alan": 0.89,
+   "ae_piyasa": 1.12
+  },
+  "EUPRHATES (USA)": {
+   "kosu": 138,
+   "birinci": 19,
+   "kazanma": 13.8,
+   "ilk3": 36.2,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.17
+  },
+  "SIDNEY'S CANDY (USA)": {
+   "kosu": 154,
+   "birinci": 18,
+   "kazanma": 11.7,
+   "ilk3": 33.8,
+   "ae_alan": 0.93,
+   "ae_piyasa": 1.2
+  },
+  "YILDIRIMBEY": {
+   "kosu": 76,
+   "birinci": 11,
+   "kazanma": 14.5,
+   "ilk3": 40.8,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.68
+  },
+  "MYBOYCHARLIE (IRE)": {
+   "kosu": 531,
+   "birinci": 66,
+   "kazanma": 12.4,
+   "ilk3": 36.3,
+   "ae_alan": 1.07,
+   "ae_piyasa": 1.06
+  },
+  "SUPER SAVER (USA)": {
+   "kosu": 365,
+   "birinci": 46,
+   "kazanma": 12.6,
+   "ilk3": 41.1,
+   "ae_alan": 1.01,
+   "ae_piyasa": 1.0
+  },
+  "CRIMEAN TATAR": {
+   "kosu": 231,
+   "birinci": 33,
+   "kazanma": 14.3,
+   "ilk3": 39.8,
+   "ae_alan": 1.2,
+   "ae_piyasa": 1.25
+  },
+  "GRAYSTORM": {
+   "kosu": 394,
+   "birinci": 55,
+   "kazanma": 14.0,
+   "ilk3": 30.2,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.36
+  },
+  "HERE TO FLY": {
+   "kosu": 42,
+   "birinci": 4,
+   "kazanma": 9.5,
+   "ilk3": 38.1,
+   "ae_alan": 0.87,
+   "ae_piyasa": 0.87
+  },
+  "FAST 'N' FAMOUS (AUS)": {
+   "kosu": 119,
+   "birinci": 15,
+   "kazanma": 12.6,
+   "ilk3": 43.7,
+   "ae_alan": 0.99,
+   "ae_piyasa": 0.94
+  },
+  "TEMELHAN": {
+   "kosu": 48,
+   "birinci": 7,
+   "kazanma": 14.6,
+   "ilk3": 39.6,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.18
+  },
+  "GÜNGÖR BABA": {
+   "kosu": 141,
+   "birinci": 10,
+   "kazanma": 7.1,
+   "ilk3": 29.1,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.7
+  },
+  "PACO BOY (IRE)": {
+   "kosu": 104,
+   "birinci": 7,
+   "kazanma": 6.7,
+   "ilk3": 25.0,
+   "ae_alan": 0.59,
+   "ae_piyasa": 0.83
+  },
+  "TU BRUTUS (CHI)": {
+   "kosu": 60,
+   "birinci": 5,
+   "kazanma": 8.3,
+   "ilk3": 21.7,
+   "ae_alan": 0.74,
+   "ae_piyasa": 1.03
+  },
+  "CATAPULT (USA)": {
+   "kosu": 130,
+   "birinci": 13,
+   "kazanma": 10.0,
+   "ilk3": 33.1,
+   "ae_alan": 0.79,
+   "ae_piyasa": 0.85
+  },
+  "ABBAS YOLCU": {
+   "kosu": 93,
+   "birinci": 10,
+   "kazanma": 10.8,
+   "ilk3": 30.1,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.96
+  },
+  "PIANO SONATA": {
+   "kosu": 130,
+   "birinci": 13,
+   "kazanma": 10.0,
+   "ilk3": 38.5,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.87
+  },
+  "CEMCEM": {
+   "kosu": 57,
+   "birinci": 6,
+   "kazanma": 10.5,
+   "ilk3": 47.4,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.85
+  },
+  "DAREDEVIL (USA)": {
+   "kosu": 189,
+   "birinci": 17,
+   "kazanma": 9.0,
+   "ilk3": 31.2,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.78
+  },
+  "BLUEGRASS CAT (USA)": {
+   "kosu": 213,
+   "birinci": 16,
+   "kazanma": 7.5,
+   "ilk3": 28.6,
+   "ae_alan": 0.63,
+   "ae_piyasa": 0.66
+  },
+  "AIR VICE MARSHAL (USA)": {
+   "kosu": 107,
+   "birinci": 15,
+   "kazanma": 14.0,
+   "ilk3": 34.6,
+   "ae_alan": 1.25,
+   "ae_piyasa": 1.11
+  },
+  "BODEMEISTER (USA)": {
+   "kosu": 375,
+   "birinci": 52,
+   "kazanma": 13.9,
+   "ilk3": 35.2,
+   "ae_alan": 1.13,
+   "ae_piyasa": 1.14
+  },
+  "TRAPPE SHOT (USA)": {
+   "kosu": 226,
+   "birinci": 27,
+   "kazanma": 11.9,
+   "ilk3": 34.5,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.98
+  },
+  "ABJAR ACADEMY": {
+   "kosu": 48,
+   "birinci": 3,
+   "kazanma": 6.2,
+   "ilk3": 47.9,
+   "ae_alan": 0.5,
+   "ae_piyasa": 0.49
+  },
+  "FLY BY ME": {
+   "kosu": 77,
+   "birinci": 9,
+   "kazanma": 11.7,
+   "ilk3": 33.8,
+   "ae_alan": 1.08,
+   "ae_piyasa": 0.81
+  },
+  "RUN AWAY AND HIDE (USA)": {
+   "kosu": 150,
+   "birinci": 24,
+   "kazanma": 16.0,
+   "ilk3": 41.3,
+   "ae_alan": 1.3,
+   "ae_piyasa": 1.1
+  },
+  "AVERY ISLAND (USA)": {
+   "kosu": 169,
+   "birinci": 25,
+   "kazanma": 14.8,
+   "ilk3": 34.3,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.25
+  },
+  "COOGER": {
+   "kosu": 80,
+   "birinci": 11,
+   "kazanma": 13.8,
+   "ilk3": 38.8,
+   "ae_alan": 1.11,
+   "ae_piyasa": 1.13
+  },
+  "MY DEAR SON": {
+   "kosu": 41,
+   "birinci": 13,
+   "kazanma": 31.7,
+   "ilk3": 65.9,
+   "ae_alan": 2.56,
+   "ae_piyasa": 1.72
+  },
+  "MORE THAN A GAME (USA)": {
+   "kosu": 45,
+   "birinci": 4,
+   "kazanma": 8.9,
+   "ilk3": 31.1,
+   "ae_alan": 0.73,
+   "ae_piyasa": 0.99
+  },
+  "TOUCH THE WOLF": {
+   "kosu": 52,
+   "birinci": 10,
+   "kazanma": 19.2,
+   "ilk3": 44.2,
+   "ae_alan": 1.95,
+   "ae_piyasa": 1.44
+  },
+  "VICTOIRE PISA (JPN)": {
+   "kosu": 296,
+   "birinci": 31,
+   "kazanma": 10.5,
+   "ilk3": 33.8,
+   "ae_alan": 0.94,
+   "ae_piyasa": 0.92
+  },
+  "NOBEL PRIZE (IRE)": {
+   "kosu": 55,
+   "birinci": 3,
+   "kazanma": 5.5,
+   "ilk3": 23.6,
+   "ae_alan": 0.46,
+   "ae_piyasa": 0.62
+  },
+  "KLUGER (JPN)": {
+   "kosu": 99,
+   "birinci": 10,
+   "kazanma": 10.1,
+   "ilk3": 31.3,
+   "ae_alan": 0.88,
+   "ae_piyasa": 1.09
+  },
+  "FINESSE": {
+   "kosu": 71,
+   "birinci": 3,
+   "kazanma": 4.2,
+   "ilk3": 29.6,
+   "ae_alan": 0.36,
+   "ae_piyasa": 0.45
+  },
+  "GOOD CURRY": {
+   "kosu": 90,
+   "birinci": 13,
+   "kazanma": 14.4,
+   "ilk3": 41.1,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.22
+  },
+  "VOODOO SONG (USA)": {
+   "kosu": 49,
+   "birinci": 6,
+   "kazanma": 12.2,
+   "ilk3": 30.6,
+   "ae_alan": 1.01,
+   "ae_piyasa": 0.96
+  },
+  "KLIMT (USA)": {
+   "kosu": 116,
+   "birinci": 18,
+   "kazanma": 15.5,
+   "ilk3": 37.9,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.0
+  },
+  "BATTLEGROUND (USA)": {
+   "kosu": 68,
+   "birinci": 12,
+   "kazanma": 17.6,
+   "ilk3": 39.7,
+   "ae_alan": 1.57,
+   "ae_piyasa": 1.36
+  },
+  "TILSIT (USA)": {
+   "kosu": 40,
+   "birinci": 5,
+   "kazanma": 12.5,
+   "ilk3": 37.5,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.67
+  },
+  "EPAULETTE (AUS)": {
+   "kosu": 51,
+   "birinci": 4,
+   "kazanma": 7.8,
+   "ilk3": 27.5,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.94
+  },
+  "SADLER'S JOY (USA)": {
+   "kosu": 56,
+   "birinci": 7,
+   "kazanma": 12.5,
+   "ilk3": 33.9,
+   "ae_alan": 1.09,
+   "ae_piyasa": 1.25
+  }
+ },
+ "İngiliz|kısa": {
+  "Akındayım (Ire)": {
+   "kosu": 50,
+   "birinci": 3,
+   "kazanma": 6.0,
+   "ilk3": 18.0,
+   "ae_alan": 0.58,
+   "ae_piyasa": 0.94
+  },
+  "Dutyfree": {
+   "kosu": 73,
+   "birinci": 6,
+   "kazanma": 8.2,
+   "ilk3": 26.0,
+   "ae_alan": 0.76,
+   "ae_piyasa": 1.21
+  },
+  "Hakeem (Usa)": {
+   "kosu": 130,
+   "birinci": 17,
+   "kazanma": 13.1,
+   "ilk3": 38.5,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.11
+  },
+  "Lıon Heart (Usa)": {
+   "kosu": 333,
+   "birinci": 39,
+   "kazanma": 11.7,
+   "ilk3": 35.4,
+   "ae_alan": 1.06,
+   "ae_piyasa": 0.9
+  },
+  "Perfect Storm": {
+   "kosu": 115,
+   "birinci": 16,
+   "kazanma": 13.9,
+   "ilk3": 32.2,
+   "ae_alan": 1.47,
+   "ae_piyasa": 1.45
+  },
+  "Bosporus (Ire)": {
+   "kosu": 189,
+   "birinci": 18,
+   "kazanma": 9.5,
+   "ilk3": 33.3,
+   "ae_alan": 0.91,
+   "ae_piyasa": 0.87
+  },
+  "Mendıp (Usa)": {
+   "kosu": 142,
+   "birinci": 21,
+   "kazanma": 14.8,
+   "ilk3": 35.9,
+   "ae_alan": 1.37,
+   "ae_piyasa": 1.43
+  },
+  "Kaneko": {
+   "kosu": 243,
+   "birinci": 32,
+   "kazanma": 13.2,
+   "ilk3": 42.4,
+   "ae_alan": 1.2,
+   "ae_piyasa": 0.9
+  },
+  "Vıctory Gallop (Can)": {
+   "kosu": 244,
+   "birinci": 30,
+   "kazanma": 12.3,
+   "ilk3": 34.4,
+   "ae_alan": 1.15,
+   "ae_piyasa": 0.83
+  },
+  "Three Valleys (Usa)": {
+   "kosu": 149,
+   "birinci": 9,
+   "kazanma": 6.0,
+   "ilk3": 18.8,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.84
+  },
+  "Invıncıble Son (Ire)": {
+   "kosu": 87,
+   "birinci": 19,
+   "kazanma": 21.8,
+   "ilk3": 39.1,
+   "ae_alan": 2.08,
+   "ae_piyasa": 1.61
+  },
+  "Dr Fong (Usa)": {
+   "kosu": 114,
+   "birinci": 13,
+   "kazanma": 11.4,
+   "ilk3": 32.5,
+   "ae_alan": 1.16,
+   "ae_piyasa": 1.18
+  },
+  "Pleasantly Perfect (Usa)": {
+   "kosu": 106,
+   "birinci": 8,
+   "kazanma": 7.5,
+   "ilk3": 23.6,
+   "ae_alan": 0.77,
+   "ae_piyasa": 0.86
+  },
+  "Toruk Macto (Ire)": {
+   "kosu": 52,
+   "birinci": 3,
+   "kazanma": 5.8,
+   "ilk3": 26.9,
+   "ae_alan": 0.68,
+   "ae_piyasa": 0.71
+  },
+  "Halıcarnassus (Ire)": {
+   "kosu": 112,
+   "birinci": 6,
+   "kazanma": 5.4,
+   "ilk3": 24.1,
+   "ae_alan": 0.57,
+   "ae_piyasa": 0.67
+  },
+  "Perfecto": {
+   "kosu": 128,
+   "birinci": 8,
+   "kazanma": 6.2,
+   "ilk3": 25.0,
+   "ae_alan": 0.61,
+   "ae_piyasa": 0.64
+  },
+  "Talıp Han (Ire)": {
+   "kosu": 118,
+   "birinci": 7,
+   "kazanma": 5.9,
+   "ilk3": 26.3,
+   "ae_alan": 0.65,
+   "ae_piyasa": 0.7
+  },
+  "El Corredor (Usa)": {
+   "kosu": 109,
+   "birinci": 12,
+   "kazanma": 11.0,
+   "ilk3": 26.6,
+   "ae_alan": 1.07,
+   "ae_piyasa": 1.01
+  },
+  "Country Reel (Usa)": {
+   "kosu": 58,
+   "birinci": 2,
+   "kazanma": 3.4,
+   "ilk3": 17.2,
+   "ae_alan": 0.39,
+   "ae_piyasa": 0.47
+  },
+  "Toccet (Usa)": {
+   "kosu": 48,
+   "birinci": 3,
+   "kazanma": 6.2,
+   "ilk3": 29.2,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.67
+  },
+  "Daı Jın (Gb)": {
+   "kosu": 73,
+   "birinci": 3,
+   "kazanma": 4.1,
+   "ilk3": 16.4,
+   "ae_alan": 0.45,
+   "ae_piyasa": 0.76
+  },
+  "Bushranger (Ire)": {
+   "kosu": 122,
+   "birinci": 12,
+   "kazanma": 9.8,
+   "ilk3": 28.7,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.94
+  },
+  "Deha": {
+   "kosu": 68,
+   "birinci": 3,
+   "kazanma": 4.4,
+   "ilk3": 17.6,
+   "ae_alan": 0.44,
+   "ae_piyasa": 0.8
+  },
+  "Natıve Khan (Fr)": {
+   "kosu": 133,
+   "birinci": 23,
+   "kazanma": 17.3,
+   "ilk3": 45.1,
+   "ae_alan": 1.42,
+   "ae_piyasa": 1.13
+  },
+  "Smart Robın (Jpn)": {
+   "kosu": 182,
+   "birinci": 19,
+   "kazanma": 10.4,
+   "ilk3": 31.9,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.92
+  },
+  "Luxor": {
+   "kosu": 148,
+   "birinci": 27,
+   "kazanma": 18.2,
+   "ilk3": 41.9,
+   "ae_alan": 1.69,
+   "ae_piyasa": 1.2
+  },
+  "Captaın Rıo (Gb)": {
+   "kosu": 200,
+   "birinci": 14,
+   "kazanma": 7.0,
+   "ilk3": 24.0,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.8
+  },
+  "Approve (Ire)": {
+   "kosu": 207,
+   "birinci": 33,
+   "kazanma": 15.9,
+   "ilk3": 48.3,
+   "ae_alan": 1.44,
+   "ae_piyasa": 1.26
+  },
+  "Justenuffhumor (Usa)": {
+   "kosu": 49,
+   "birinci": 3,
+   "kazanma": 6.1,
+   "ilk3": 28.6,
+   "ae_alan": 0.53,
+   "ae_piyasa": 0.76
+  },
+  "Wın Rıver Wın (Usa)": {
+   "kosu": 191,
+   "birinci": 16,
+   "kazanma": 8.4,
+   "ilk3": 27.2,
+   "ae_alan": 0.82,
+   "ae_piyasa": 0.94
+  },
+  "Yonaguska (Usa)": {
+   "kosu": 170,
+   "birinci": 20,
+   "kazanma": 11.8,
+   "ilk3": 33.5,
+   "ae_alan": 1.05,
+   "ae_piyasa": 0.89
+  },
+  "Cuvee (Usa)": {
+   "kosu": 168,
+   "birinci": 27,
+   "kazanma": 16.1,
+   "ilk3": 35.1,
+   "ae_alan": 1.63,
+   "ae_piyasa": 1.33
+  },
+  "Agresıvo (Usa)": {
+   "kosu": 40,
+   "birinci": 4,
+   "kazanma": 10.0,
+   "ilk3": 40.0,
+   "ae_alan": 0.91,
+   "ae_piyasa": 1.26
+  },
+  "Rey De Cafe (Usa)": {
+   "kosu": 59,
+   "birinci": 8,
+   "kazanma": 13.6,
+   "ilk3": 23.7,
+   "ae_alan": 1.32,
+   "ae_piyasa": 1.76
+  },
+  "Offlee Wıld (Usa)": {
+   "kosu": 75,
+   "birinci": 9,
+   "kazanma": 12.0,
+   "ilk3": 30.7,
+   "ae_alan": 1.2,
+   "ae_piyasa": 1.3
+  },
+  "Cardınal Pıoneer": {
+   "kosu": 44,
+   "birinci": 4,
+   "kazanma": 9.1,
+   "ilk3": 20.5,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.06
+  },
+  "After Market (Usa)": {
+   "kosu": 112,
+   "birinci": 11,
+   "kazanma": 9.8,
+   "ilk3": 38.4,
+   "ae_alan": 0.91,
+   "ae_piyasa": 0.9
+  },
+  "Marcavelly (Usa)": {
+   "kosu": 57,
+   "birinci": 11,
+   "kazanma": 19.3,
+   "ilk3": 47.4,
+   "ae_alan": 1.5,
+   "ae_piyasa": 1.04
+  },
+  "Hakkar": {
+   "kosu": 52,
+   "birinci": 3,
+   "kazanma": 5.8,
+   "ilk3": 23.1,
+   "ae_alan": 0.55,
+   "ae_piyasa": 0.6
+  },
+  "Zanjero (Usa)": {
+   "kosu": 107,
+   "birinci": 7,
+   "kazanma": 6.5,
+   "ilk3": 23.4,
+   "ae_alan": 0.65,
+   "ae_piyasa": 0.91
+  },
+  "Adoni̇se": {
+   "kosu": 45,
+   "birinci": 4,
+   "kazanma": 8.9,
+   "ilk3": 31.1,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.53
+  },
+  "Scarface": {
+   "kosu": 54,
+   "birinci": 5,
+   "kazanma": 9.3,
+   "ilk3": 35.2,
+   "ae_alan": 0.94,
+   "ae_piyasa": 0.99
+  },
+  "Azaraks": {
+   "kosu": 47,
+   "birinci": 3,
+   "kazanma": 6.4,
+   "ilk3": 27.7,
+   "ae_alan": 0.61,
+   "ae_piyasa": 0.52
+  },
+  "Torok (Ire)": {
+   "kosu": 63,
+   "birinci": 11,
+   "kazanma": 17.5,
+   "ilk3": 55.6,
+   "ae_alan": 1.48,
+   "ae_piyasa": 1.27
+  },
+  "LION HEART (USA)": {
+   "kosu": 1814,
+   "birinci": 227,
+   "kazanma": 12.5,
+   "ilk3": 35.7,
+   "ae_alan": 1.1,
+   "ae_piyasa": 1.04
+  },
+  "BOSPORUS (IRE)": {
+   "kosu": 450,
+   "birinci": 68,
+   "kazanma": 15.1,
+   "ilk3": 34.7,
+   "ae_alan": 1.38,
+   "ae_piyasa": 1.25
+  },
+  "EL CORREDOR (USA)": {
+   "kosu": 315,
+   "birinci": 35,
+   "kazanma": 11.1,
+   "ilk3": 29.5,
+   "ae_alan": 1.02,
+   "ae_piyasa": 1.1
+  },
+  "MYBOYCHARLIE (IRE)": {
+   "kosu": 1111,
+   "birinci": 96,
+   "kazanma": 8.6,
+   "ilk3": 28.9,
+   "ae_alan": 0.8,
+   "ae_piyasa": 0.86
+  },
+  "APPROVE (IRE)": {
+   "kosu": 1439,
+   "birinci": 165,
+   "kazanma": 11.5,
+   "ilk3": 34.4,
+   "ae_alan": 1.07,
+   "ae_piyasa": 1.11
+  },
+  "MENDIP (USA)": {
+   "kosu": 2180,
+   "birinci": 252,
+   "kazanma": 11.6,
+   "ilk3": 36.0,
+   "ae_alan": 1.0,
+   "ae_piyasa": 0.96
+  },
+  "DERVİŞ AĞA": {
+   "kosu": 71,
+   "birinci": 8,
+   "kazanma": 11.3,
+   "ilk3": 29.6,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.21
+  },
+  "COUNTRY REEL (USA)": {
+   "kosu": 49,
+   "birinci": 3,
+   "kazanma": 6.1,
+   "ilk3": 22.4,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.71
+  },
+  "PRESSING (IRE)": {
+   "kosu": 70,
+   "birinci": 6,
+   "kazanma": 8.6,
+   "ilk3": 24.3,
+   "ae_alan": 0.85,
+   "ae_piyasa": 0.93
+  },
+  "LUXOR": {
+   "kosu": 808,
+   "birinci": 113,
+   "kazanma": 14.0,
+   "ilk3": 38.2,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.05
+  },
+  "HAKEEM (USA)": {
+   "kosu": 1126,
+   "birinci": 145,
+   "kazanma": 12.9,
+   "ilk3": 35.4,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.08
+  },
+  "CAPTAIN RIO (GB)": {
+   "kosu": 594,
+   "birinci": 79,
+   "kazanma": 13.3,
+   "ilk3": 34.7,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.09
+  },
+  "KANEKO": {
+   "kosu": 1537,
+   "birinci": 195,
+   "kazanma": 12.7,
+   "ilk3": 37.0,
+   "ae_alan": 1.11,
+   "ae_piyasa": 0.94
+  },
+  "MALİ": {
+   "kosu": 186,
+   "birinci": 15,
+   "kazanma": 8.1,
+   "ilk3": 32.3,
+   "ae_alan": 0.79,
+   "ae_piyasa": 0.89
+  },
+  "INVINCIBLE SON (IRE)": {
+   "kosu": 523,
+   "birinci": 48,
+   "kazanma": 9.2,
+   "ilk3": 27.7,
+   "ae_alan": 0.9,
+   "ae_piyasa": 0.85
+  },
+  "SMART ROBIN (JPN)": {
+   "kosu": 970,
+   "birinci": 82,
+   "kazanma": 8.5,
+   "ilk3": 28.5,
+   "ae_alan": 0.8,
+   "ae_piyasa": 0.88
+  },
+  "VICTORY GALLOP (CAN)": {
+   "kosu": 839,
+   "birinci": 108,
+   "kazanma": 12.9,
+   "ilk3": 41.6,
+   "ae_alan": 1.18,
+   "ae_piyasa": 0.93
+  },
+  "BUSHRANGER (IRE)": {
+   "kosu": 486,
+   "birinci": 43,
+   "kazanma": 8.8,
+   "ilk3": 27.4,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.98
+  },
+  "SCARFACE": {
+   "kosu": 309,
+   "birinci": 23,
+   "kazanma": 7.4,
+   "ilk3": 31.7,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.65
+  },
+  "POWERSCOURT (GB)": {
+   "kosu": 164,
+   "birinci": 8,
+   "kazanma": 4.9,
+   "ilk3": 24.4,
+   "ae_alan": 0.45,
+   "ae_piyasa": 0.56
+  },
+  "TORUK MACTO (IRE)": {
+   "kosu": 217,
+   "birinci": 23,
+   "kazanma": 10.6,
+   "ilk3": 26.7,
+   "ae_alan": 0.98,
+   "ae_piyasa": 1.08
+  },
+  "AFTER MARKET (USA)": {
+   "kosu": 314,
+   "birinci": 23,
+   "kazanma": 7.3,
+   "ilk3": 30.9,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.78
+  },
+  "WIN RIVER WIN (USA)": {
+   "kosu": 503,
+   "birinci": 60,
+   "kazanma": 11.9,
+   "ilk3": 35.4,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.15
+  },
+  "TALIP HAN (IRE)": {
+   "kosu": 238,
+   "birinci": 21,
+   "kazanma": 8.8,
+   "ilk3": 22.7,
+   "ae_alan": 0.92,
+   "ae_piyasa": 1.14
+  },
+  "MAXIMUS DREAM": {
+   "kosu": 154,
+   "birinci": 9,
+   "kazanma": 5.8,
+   "ilk3": 20.1,
+   "ae_alan": 0.55,
+   "ae_piyasa": 0.71
+  },
+  "ZANJERO (USA)": {
+   "kosu": 196,
+   "birinci": 22,
+   "kazanma": 11.2,
+   "ilk3": 33.2,
+   "ae_alan": 1.09,
+   "ae_piyasa": 1.15
+  },
+  "GENERAL QUARTERS (USA)": {
+   "kosu": 658,
+   "birinci": 86,
+   "kazanma": 13.1,
+   "ilk3": 31.6,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.13
+  },
+  "AZARAKS": {
+   "kosu": 87,
+   "birinci": 10,
+   "kazanma": 11.5,
+   "ilk3": 36.8,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.13
+  },
+  "BANKNOTE (GB)": {
+   "kosu": 116,
+   "birinci": 6,
+   "kazanma": 5.2,
+   "ilk3": 16.4,
+   "ae_alan": 0.52,
+   "ae_piyasa": 1.19
+  },
+  "AGRESIVO (USA)": {
+   "kosu": 828,
+   "birinci": 94,
+   "kazanma": 11.4,
+   "ilk3": 35.6,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.97
+  },
+  "HALICARNASSUS (IRE)": {
+   "kosu": 176,
+   "birinci": 13,
+   "kazanma": 7.4,
+   "ilk3": 31.8,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.73
+  },
+  "CARDINAL PIONEER": {
+   "kosu": 47,
+   "birinci": 0,
+   "kazanma": 0.0,
+   "ilk3": 12.8,
+   "ae_alan": 0.0,
+   "ae_piyasa": 0.0
+  },
+  "NATIVE KHAN (FR)": {
+   "kosu": 1143,
+   "birinci": 131,
+   "kazanma": 11.5,
+   "ilk3": 35.0,
+   "ae_alan": 1.03,
+   "ae_piyasa": 0.91
+  },
+  "YONAGUSKA (USA)": {
+   "kosu": 328,
+   "birinci": 40,
+   "kazanma": 12.2,
+   "ilk3": 39.0,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.93
+  },
+  "DR FONG (USA)": {
+   "kosu": 232,
+   "birinci": 21,
+   "kazanma": 9.1,
+   "ilk3": 37.9,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.78
+  },
+  "DEHA": {
+   "kosu": 138,
+   "birinci": 12,
+   "kazanma": 8.7,
+   "ilk3": 23.2,
+   "ae_alan": 0.88,
+   "ae_piyasa": 1.04
+  },
+  "AKINDAYIM (IRE)": {
+   "kosu": 114,
+   "birinci": 3,
+   "kazanma": 2.6,
+   "ilk3": 14.9,
+   "ae_alan": 0.28,
+   "ae_piyasa": 0.37
+  },
+  "PLEASANTLY PERFECT (USA)": {
+   "kosu": 162,
+   "birinci": 17,
+   "kazanma": 10.5,
+   "ilk3": 37.7,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.0
+  },
+  "WIENER WALZER (GER)": {
+   "kosu": 270,
+   "birinci": 47,
+   "kazanma": 17.4,
+   "ilk3": 40.0,
+   "ae_alan": 1.45,
+   "ae_piyasa": 1.16
+  },
+  "DAI JIN (GB)": {
+   "kosu": 301,
+   "birinci": 29,
+   "kazanma": 9.6,
+   "ilk3": 29.6,
+   "ae_alan": 0.92,
+   "ae_piyasa": 0.99
+  },
+  "CUVEE (USA)": {
+   "kosu": 270,
+   "birinci": 28,
+   "kazanma": 10.4,
+   "ilk3": 31.9,
+   "ae_alan": 1.01,
+   "ae_piyasa": 0.99
+  },
+  "ASTRAKHAN": {
+   "kosu": 43,
+   "birinci": 3,
+   "kazanma": 7.0,
+   "ilk3": 23.3,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.95
+  },
+  "TOROK (IRE)": {
+   "kosu": 1293,
+   "birinci": 198,
+   "kazanma": 15.3,
+   "ilk3": 43.4,
+   "ae_alan": 1.38,
+   "ae_piyasa": 1.01
+  },
+  "MARCAVELLY (USA)": {
+   "kosu": 485,
+   "birinci": 48,
+   "kazanma": 9.9,
+   "ilk3": 32.4,
+   "ae_alan": 0.86,
+   "ae_piyasa": 0.91
+  },
+  "ABJAR ACADEMY": {
+   "kosu": 128,
+   "birinci": 13,
+   "kazanma": 10.2,
+   "ilk3": 25.8,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.93
+  },
+  "KULOĞLU": {
+   "kosu": 264,
+   "birinci": 15,
+   "kazanma": 5.7,
+   "ilk3": 19.7,
+   "ae_alan": 0.55,
+   "ae_piyasa": 0.84
+  },
+  "ROCKMASTER (IRE)": {
+   "kosu": 85,
+   "birinci": 7,
+   "kazanma": 8.2,
+   "ilk3": 31.8,
+   "ae_alan": 0.79,
+   "ae_piyasa": 1.14
+  },
+  "JUSTENUFFHUMOR (USA)": {
+   "kosu": 120,
+   "birinci": 13,
+   "kazanma": 10.8,
+   "ilk3": 30.8,
+   "ae_alan": 0.99,
+   "ae_piyasa": 1.04
+  },
+  "PERFECT STORM": {
+   "kosu": 186,
+   "birinci": 16,
+   "kazanma": 8.6,
+   "ilk3": 28.5,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.91
+  },
+  "LAST EXIT": {
+   "kosu": 65,
+   "birinci": 3,
+   "kazanma": 4.6,
+   "ilk3": 23.1,
+   "ae_alan": 0.45,
+   "ae_piyasa": 0.71
+  },
+  "EXPANSION (USA)": {
+   "kosu": 66,
+   "birinci": 13,
+   "kazanma": 19.7,
+   "ilk3": 42.4,
+   "ae_alan": 1.48,
+   "ae_piyasa": 1.46
+  },
+  "DUTYFREE": {
+   "kosu": 196,
+   "birinci": 22,
+   "kazanma": 11.2,
+   "ilk3": 30.1,
+   "ae_alan": 1.05,
+   "ae_piyasa": 1.39
+  },
+  "TRIPLE BONUS": {
+   "kosu": 132,
+   "birinci": 15,
+   "kazanma": 11.4,
+   "ilk3": 25.0,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.54
+  },
+  "HAKKAR": {
+   "kosu": 208,
+   "birinci": 5,
+   "kazanma": 2.4,
+   "ilk3": 14.9,
+   "ae_alan": 0.22,
+   "ae_piyasa": 0.49
+  },
+  "PERFECTO": {
+   "kosu": 348,
+   "birinci": 25,
+   "kazanma": 7.2,
+   "ilk3": 26.7,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.78
+  },
+  "TORONADO (IRE)": {
+   "kosu": 51,
+   "birinci": 13,
+   "kazanma": 25.5,
+   "ilk3": 52.9,
+   "ae_alan": 1.88,
+   "ae_piyasa": 1.17
+  },
+  "REY DE CAFE (USA)": {
+   "kosu": 47,
+   "birinci": 5,
+   "kazanma": 10.6,
+   "ilk3": 29.8,
+   "ae_alan": 1.01,
+   "ae_piyasa": 0.99
+  },
+  "THREE VALLEYS (USA)": {
+   "kosu": 420,
+   "birinci": 32,
+   "kazanma": 7.6,
+   "ilk3": 27.9,
+   "ae_alan": 0.75,
+   "ae_piyasa": 0.86
+  },
+  "AYDEMİRHAN": {
+   "kosu": 40,
+   "birinci": 6,
+   "kazanma": 15.0,
+   "ilk3": 32.5,
+   "ae_alan": 1.55,
+   "ae_piyasa": 1.48
+  },
+  "TOCCET (USA)": {
+   "kosu": 301,
+   "birinci": 23,
+   "kazanma": 7.6,
+   "ilk3": 32.2,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.8
+  },
+  "LILBOURNE LAD (IRE)": {
+   "kosu": 263,
+   "birinci": 19,
+   "kazanma": 7.2,
+   "ilk3": 25.1,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.82
+  },
+  "KARABEYHAN (GB)": {
+   "kosu": 42,
+   "birinci": 4,
+   "kazanma": 9.5,
+   "ilk3": 31.0,
+   "ae_alan": 0.92,
+   "ae_piyasa": 1.3
+  },
+  "AUTHORIZED (IRE)": {
+   "kosu": 483,
+   "birinci": 27,
+   "kazanma": 5.6,
+   "ilk3": 22.8,
+   "ae_alan": 0.52,
+   "ae_piyasa": 0.58
+  },
+  "OFFLEE WILD (USA)": {
+   "kosu": 74,
+   "birinci": 4,
+   "kazanma": 5.4,
+   "ilk3": 21.6,
+   "ae_alan": 0.52,
+   "ae_piyasa": 0.56
+  },
+  "RED GIANT (USA)": {
+   "kosu": 224,
+   "birinci": 17,
+   "kazanma": 7.6,
+   "ilk3": 31.7,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.75
+  },
+  "STEP BY STEP": {
+   "kosu": 78,
+   "birinci": 3,
+   "kazanma": 3.8,
+   "ilk3": 20.5,
+   "ae_alan": 0.41,
+   "ae_piyasa": 0.72
+  },
+  "SON OF SUN": {
+   "kosu": 95,
+   "birinci": 11,
+   "kazanma": 11.6,
+   "ilk3": 28.4,
+   "ae_alan": 1.11,
+   "ae_piyasa": 1.22
+  },
+  "DEĞİRMENDERELİ": {
+   "kosu": 166,
+   "birinci": 19,
+   "kazanma": 11.4,
+   "ilk3": 40.4,
+   "ae_alan": 1.03,
+   "ae_piyasa": 1.19
+  },
+  "BLUEGRASS CAT (USA)": {
+   "kosu": 1074,
+   "birinci": 165,
+   "kazanma": 15.4,
+   "ilk3": 39.9,
+   "ae_alan": 1.41,
+   "ae_piyasa": 1.24
+  },
+  "KING DAVID (USA)": {
+   "kosu": 294,
+   "birinci": 34,
+   "kazanma": 11.6,
+   "ilk3": 35.4,
+   "ae_alan": 1.03,
+   "ae_piyasa": 0.92
+  },
+  "BARUDİ": {
+   "kosu": 71,
+   "birinci": 3,
+   "kazanma": 4.2,
+   "ilk3": 15.5,
+   "ae_alan": 0.38,
+   "ae_piyasa": 1.11
+  },
+  "OUT OF CONTROL": {
+   "kosu": 49,
+   "birinci": 2,
+   "kazanma": 4.1,
+   "ilk3": 26.5,
+   "ae_alan": 0.39,
+   "ae_piyasa": 0.8
+  },
+  "SPEEDY WOLF": {
+   "kosu": 50,
+   "birinci": 2,
+   "kazanma": 4.0,
+   "ilk3": 20.0,
+   "ae_alan": 0.37,
+   "ae_piyasa": 0.56
+  },
+  "RAMPOLDI": {
+   "kosu": 60,
+   "birinci": 5,
+   "kazanma": 8.3,
+   "ilk3": 23.3,
+   "ae_alan": 0.74,
+   "ae_piyasa": 0.9
+  },
+  "SALVATORE": {
+   "kosu": 48,
+   "birinci": 0,
+   "kazanma": 0.0,
+   "ilk3": 14.6,
+   "ae_alan": 0.0,
+   "ae_piyasa": 0.0
+  },
+  "TIGHT END": {
+   "kosu": 148,
+   "birinci": 11,
+   "kazanma": 7.4,
+   "ilk3": 28.4,
+   "ae_alan": 0.63,
+   "ae_piyasa": 0.94
+  },
+  "INDIGO RED (GB)": {
+   "kosu": 57,
+   "birinci": 2,
+   "kazanma": 3.5,
+   "ilk3": 21.1,
+   "ae_alan": 0.39,
+   "ae_piyasa": 0.54
+  },
+  "OĞLUMEMRE": {
+   "kosu": 81,
+   "birinci": 3,
+   "kazanma": 3.7,
+   "ilk3": 17.3,
+   "ae_alan": 0.41,
+   "ae_piyasa": 0.66
+  },
+  "AMERİKALI": {
+   "kosu": 160,
+   "birinci": 21,
+   "kazanma": 13.1,
+   "ilk3": 40.0,
+   "ae_alan": 1.16,
+   "ae_piyasa": 0.86
+  },
+  "YAVUZKAYA": {
+   "kosu": 95,
+   "birinci": 10,
+   "kazanma": 10.5,
+   "ilk3": 33.7,
+   "ae_alan": 0.95,
+   "ae_piyasa": 1.23
+  },
+  "CHURCH PICTURES (GB)": {
+   "kosu": 43,
+   "birinci": 3,
+   "kazanma": 7.0,
+   "ilk3": 30.2,
+   "ae_alan": 0.63,
+   "ae_piyasa": 1.4
+  },
+  "TOUGH GUY": {
+   "kosu": 114,
+   "birinci": 36,
+   "kazanma": 31.6,
+   "ilk3": 59.6,
+   "ae_alan": 2.33,
+   "ae_piyasa": 1.5
+  },
+  "ÇAKAL CARLOS": {
+   "kosu": 105,
+   "birinci": 11,
+   "kazanma": 10.5,
+   "ilk3": 27.6,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.93
+  },
+  "BAY ÇİFTÇİOĞLU": {
+   "kosu": 40,
+   "birinci": 1,
+   "kazanma": 2.5,
+   "ilk3": 10.0,
+   "ae_alan": 0.27,
+   "ae_piyasa": 0.48
+  },
+  "KALİMDOR": {
+   "kosu": 52,
+   "birinci": 2,
+   "kazanma": 3.8,
+   "ilk3": 21.2,
+   "ae_alan": 0.38,
+   "ae_piyasa": 0.66
+  },
+  "PAPA CLEM (USA)": {
+   "kosu": 991,
+   "birinci": 117,
+   "kazanma": 11.8,
+   "ilk3": 36.5,
+   "ae_alan": 1.02,
+   "ae_piyasa": 1.01
+  },
+  "MEHMET BORA": {
+   "kosu": 47,
+   "birinci": 3,
+   "kazanma": 6.4,
+   "ilk3": 29.8,
+   "ae_alan": 0.57,
+   "ae_piyasa": 0.68
+  },
+  "GÜNGÖR BABA": {
+   "kosu": 310,
+   "birinci": 24,
+   "kazanma": 7.7,
+   "ilk3": 26.8,
+   "ae_alan": 0.72,
+   "ae_piyasa": 1.04
+  },
+  "GOKEN (FR)": {
+   "kosu": 48,
+   "birinci": 6,
+   "kazanma": 12.5,
+   "ilk3": 35.4,
+   "ae_alan": 1.03,
+   "ae_piyasa": 0.81
+  },
+  "YILDIRIMBEY": {
+   "kosu": 171,
+   "birinci": 18,
+   "kazanma": 10.5,
+   "ilk3": 36.3,
+   "ae_alan": 0.98,
+   "ae_piyasa": 0.98
+  },
+  "FAST 'N' FAMOUS (AUS)": {
+   "kosu": 115,
+   "birinci": 11,
+   "kazanma": 9.6,
+   "ilk3": 31.3,
+   "ae_alan": 0.89,
+   "ae_piyasa": 0.96
+  },
+  "CORINTHIAN (USA)": {
+   "kosu": 208,
+   "birinci": 17,
+   "kazanma": 8.2,
+   "ilk3": 27.4,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.89
+  },
+  "PACO BOY (IRE)": {
+   "kosu": 380,
+   "birinci": 26,
+   "kazanma": 6.8,
+   "ilk3": 26.1,
+   "ae_alan": 0.66,
+   "ae_piyasa": 1.0
+  },
+  "BAWIKAL": {
+   "kosu": 86,
+   "birinci": 7,
+   "kazanma": 8.1,
+   "ilk3": 36.0,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.63
+  },
+  "BALLIKAYA": {
+   "kosu": 76,
+   "birinci": 9,
+   "kazanma": 11.8,
+   "ilk3": 25.0,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.17
+  },
+  "TIZWAY (USA)": {
+   "kosu": 1172,
+   "birinci": 162,
+   "kazanma": 13.8,
+   "ilk3": 39.0,
+   "ae_alan": 1.26,
+   "ae_piyasa": 1.13
+  },
+  "SIDNEY'S CANDY (USA)": {
+   "kosu": 615,
+   "birinci": 64,
+   "kazanma": 10.4,
+   "ilk3": 31.7,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.97
+  },
+  "KAFKASLI": {
+   "kosu": 45,
+   "birinci": 4,
+   "kazanma": 8.9,
+   "ilk3": 37.8,
+   "ae_alan": 0.65,
+   "ae_piyasa": 0.93
+  },
+  "GREY CORAL": {
+   "kosu": 72,
+   "birinci": 4,
+   "kazanma": 5.6,
+   "ilk3": 20.8,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.81
+  },
+  "KING OF TRAKYA": {
+   "kosu": 40,
+   "birinci": 3,
+   "kazanma": 7.5,
+   "ilk3": 37.5,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.73
+  },
+  "PIANO SONATA": {
+   "kosu": 205,
+   "birinci": 17,
+   "kazanma": 8.3,
+   "ilk3": 31.7,
+   "ae_alan": 0.74,
+   "ae_piyasa": 0.76
+  },
+  "FLY BY ME": {
+   "kosu": 104,
+   "birinci": 10,
+   "kazanma": 9.6,
+   "ilk3": 34.6,
+   "ae_alan": 0.85,
+   "ae_piyasa": 1.04
+  },
+  "JUNGLE MAN": {
+   "kosu": 126,
+   "birinci": 10,
+   "kazanma": 7.9,
+   "ilk3": 27.8,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.93
+  },
+  "SUPER SAVER (USA)": {
+   "kosu": 933,
+   "birinci": 104,
+   "kazanma": 11.1,
+   "ilk3": 34.7,
+   "ae_alan": 0.99,
+   "ae_piyasa": 0.97
+  },
+  "BODEMEISTER (USA)": {
+   "kosu": 1151,
+   "birinci": 155,
+   "kazanma": 13.5,
+   "ilk3": 31.8,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.2
+  },
+  "AVERY ISLAND (USA)": {
+   "kosu": 388,
+   "birinci": 46,
+   "kazanma": 11.9,
+   "ilk3": 35.8,
+   "ae_alan": 1.07,
+   "ae_piyasa": 0.97
+  },
+  "GOLDEN TOWER": {
+   "kosu": 74,
+   "birinci": 9,
+   "kazanma": 12.2,
+   "ilk3": 31.1,
+   "ae_alan": 1.07,
+   "ae_piyasa": 1.38
+  },
+  "CRIMEAN TATAR": {
+   "kosu": 237,
+   "birinci": 15,
+   "kazanma": 6.3,
+   "ilk3": 21.1,
+   "ae_alan": 0.63,
+   "ae_piyasa": 0.88
+  },
+  "TU BRUTUS (CHI)": {
+   "kosu": 173,
+   "birinci": 12,
+   "kazanma": 6.9,
+   "ilk3": 24.3,
+   "ae_alan": 0.63,
+   "ae_piyasa": 0.75
+  },
+  "GRAYSTORM": {
+   "kosu": 805,
+   "birinci": 69,
+   "kazanma": 8.6,
+   "ilk3": 30.6,
+   "ae_alan": 0.79,
+   "ae_piyasa": 0.92
+  },
+  "DAREDEVIL (USA)": {
+   "kosu": 401,
+   "birinci": 38,
+   "kazanma": 9.5,
+   "ilk3": 34.4,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.91
+  },
+  "HEMSWORTH (USA)": {
+   "kosu": 137,
+   "birinci": 10,
+   "kazanma": 7.3,
+   "ilk3": 22.6,
+   "ae_alan": 0.68,
+   "ae_piyasa": 0.9
+  },
+  "OĞLUM MELİH": {
+   "kosu": 60,
+   "birinci": 12,
+   "kazanma": 20.0,
+   "ilk3": 48.3,
+   "ae_alan": 1.82,
+   "ae_piyasa": 1.43
+  },
+  "AIR VICE MARSHAL (USA)": {
+   "kosu": 466,
+   "birinci": 70,
+   "kazanma": 15.0,
+   "ilk3": 41.8,
+   "ae_alan": 1.43,
+   "ae_piyasa": 1.13
+  },
+  "SHERE KHAN": {
+   "kosu": 41,
+   "birinci": 4,
+   "kazanma": 9.8,
+   "ilk3": 24.4,
+   "ae_alan": 1.03,
+   "ae_piyasa": 1.47
+  },
+  "TRAPPE SHOT (USA)": {
+   "kosu": 1039,
+   "birinci": 117,
+   "kazanma": 11.3,
+   "ilk3": 33.8,
+   "ae_alan": 0.99,
+   "ae_piyasa": 0.98
+  },
+  "CEMCEM": {
+   "kosu": 120,
+   "birinci": 8,
+   "kazanma": 6.7,
+   "ilk3": 29.2,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.69
+  },
+  "KIRDEMİRKIR": {
+   "kosu": 173,
+   "birinci": 21,
+   "kazanma": 12.1,
+   "ilk3": 37.0,
+   "ae_alan": 1.12,
+   "ae_piyasa": 0.99
+  },
+  "CATAPULT (USA)": {
+   "kosu": 223,
+   "birinci": 28,
+   "kazanma": 12.6,
+   "ilk3": 31.8,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.08
+  },
+  "CROSS FIRE": {
+   "kosu": 48,
+   "birinci": 3,
+   "kazanma": 6.2,
+   "ilk3": 25.0,
+   "ae_alan": 0.59,
+   "ae_piyasa": 0.86
+  },
+  "ARMONDO": {
+   "kosu": 42,
+   "birinci": 1,
+   "kazanma": 2.4,
+   "ilk3": 16.7,
+   "ae_alan": 0.2,
+   "ae_piyasa": 0.38
+  },
+  "ENYALIOS": {
+   "kosu": 84,
+   "birinci": 0,
+   "kazanma": 0.0,
+   "ilk3": 16.7,
+   "ae_alan": 0.0,
+   "ae_piyasa": 0.0
+  },
+  "RUN AWAY AND HIDE (USA)": {
+   "kosu": 624,
+   "birinci": 88,
+   "kazanma": 14.1,
+   "ilk3": 36.9,
+   "ae_alan": 1.26,
+   "ae_piyasa": 1.25
+  },
+  "ABBAS YOLCU": {
+   "kosu": 192,
+   "birinci": 14,
+   "kazanma": 7.3,
+   "ilk3": 29.2,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.83
+  },
+  "IŞIKHÜZMESİ": {
+   "kosu": 46,
+   "birinci": 4,
+   "kazanma": 8.7,
+   "ilk3": 32.6,
+   "ae_alan": 0.89,
+   "ae_piyasa": 1.14
+  },
+  "SİNCLAR": {
+   "kosu": 50,
+   "birinci": 3,
+   "kazanma": 6.0,
+   "ilk3": 14.0,
+   "ae_alan": 0.57,
+   "ae_piyasa": 1.25
+  },
+  "SHARP KNIFE (USA)": {
+   "kosu": 56,
+   "birinci": 10,
+   "kazanma": 17.9,
+   "ilk3": 32.1,
+   "ae_alan": 1.76,
+   "ae_piyasa": 1.76
+  },
+  "COOGER": {
+   "kosu": 207,
+   "birinci": 23,
+   "kazanma": 11.1,
+   "ilk3": 29.0,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.0
+  },
+  "TEMELHAN": {
+   "kosu": 58,
+   "birinci": 10,
+   "kazanma": 17.2,
+   "ilk3": 36.2,
+   "ae_alan": 1.87,
+   "ae_piyasa": 1.56
+  },
+  "EUPRHATES (USA)": {
+   "kosu": 522,
+   "birinci": 41,
+   "kazanma": 7.9,
+   "ilk3": 29.3,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.99
+  },
+  "GORMLEY (USA)": {
+   "kosu": 44,
+   "birinci": 7,
+   "kazanma": 15.9,
+   "ilk3": 38.6,
+   "ae_alan": 1.54,
+   "ae_piyasa": 1.52
+  },
+  "BLAZE TO WIN": {
+   "kosu": 102,
+   "birinci": 12,
+   "kazanma": 11.8,
+   "ilk3": 44.1,
+   "ae_alan": 1.07,
+   "ae_piyasa": 0.94
+  },
+  "LION KING": {
+   "kosu": 77,
+   "birinci": 6,
+   "kazanma": 7.8,
+   "ilk3": 26.0,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.78
+  },
+  "AYRTON": {
+   "kosu": 100,
+   "birinci": 3,
+   "kazanma": 3.0,
+   "ilk3": 27.0,
+   "ae_alan": 0.26,
+   "ae_piyasa": 0.36
+  },
+  "GAZIBORA KHAN (GB)": {
+   "kosu": 100,
+   "birinci": 13,
+   "kazanma": 13.0,
+   "ilk3": 37.0,
+   "ae_alan": 1.17,
+   "ae_piyasa": 0.88
+  },
+  "MORE THAN A GAME (USA)": {
+   "kosu": 45,
+   "birinci": 5,
+   "kazanma": 11.1,
+   "ilk3": 28.9,
+   "ae_alan": 1.0,
+   "ae_piyasa": 0.94
+  },
+  "BODYGUARD HERO (USA)": {
+   "kosu": 227,
+   "birinci": 32,
+   "kazanma": 14.1,
+   "ilk3": 41.0,
+   "ae_alan": 1.33,
+   "ae_piyasa": 0.89
+  },
+  "SUPER ALP (USA)": {
+   "kosu": 100,
+   "birinci": 7,
+   "kazanma": 7.0,
+   "ilk3": 28.0,
+   "ae_alan": 0.59,
+   "ae_piyasa": 0.74
+  },
+  "HEP BERABER": {
+   "kosu": 111,
+   "birinci": 20,
+   "kazanma": 18.0,
+   "ilk3": 52.3,
+   "ae_alan": 1.58,
+   "ae_piyasa": 1.23
+  },
+  "OĞLUM MURAT": {
+   "kosu": 43,
+   "birinci": 3,
+   "kazanma": 7.0,
+   "ilk3": 18.6,
+   "ae_alan": 0.68,
+   "ae_piyasa": 1.69
+  },
+  "KINOWA": {
+   "kosu": 297,
+   "birinci": 25,
+   "kazanma": 8.4,
+   "ilk3": 33.0,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.84
+  },
+  "HERE TO FLY": {
+   "kosu": 94,
+   "birinci": 9,
+   "kazanma": 9.6,
+   "ilk3": 36.2,
+   "ae_alan": 0.86,
+   "ae_piyasa": 1.04
+  },
+  "COPPERFIELD": {
+   "kosu": 210,
+   "birinci": 28,
+   "kazanma": 13.3,
+   "ilk3": 36.7,
+   "ae_alan": 1.2,
+   "ae_piyasa": 1.12
+  },
+  "VICTOIRE PISA (JPN)": {
+   "kosu": 848,
+   "birinci": 79,
+   "kazanma": 9.3,
+   "ilk3": 28.2,
+   "ae_alan": 0.86,
+   "ae_piyasa": 0.92
+  },
+  "NOBEL PRIZE (IRE)": {
+   "kosu": 214,
+   "birinci": 10,
+   "kazanma": 4.7,
+   "ilk3": 26.2,
+   "ae_alan": 0.44,
+   "ae_piyasa": 0.65
+  },
+  "FINESSE": {
+   "kosu": 384,
+   "birinci": 22,
+   "kazanma": 5.7,
+   "ilk3": 27.3,
+   "ae_alan": 0.52,
+   "ae_piyasa": 0.73
+  },
+  "MY FREEDOM": {
+   "kosu": 121,
+   "birinci": 9,
+   "kazanma": 7.4,
+   "ilk3": 29.8,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.82
+  },
+  "KLUGER (JPN)": {
+   "kosu": 429,
+   "birinci": 64,
+   "kazanma": 14.9,
+   "ilk3": 34.7,
+   "ae_alan": 1.35,
+   "ae_piyasa": 1.49
+  },
+  "TOUCH THE WOLF": {
+   "kosu": 433,
+   "birinci": 81,
+   "kazanma": 18.7,
+   "ilk3": 43.9,
+   "ae_alan": 1.71,
+   "ae_piyasa": 1.17
+  },
+  "VOODOO SONG (USA)": {
+   "kosu": 192,
+   "birinci": 25,
+   "kazanma": 13.0,
+   "ilk3": 32.8,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.21
+  },
+  "GOOD CURRY": {
+   "kosu": 427,
+   "birinci": 71,
+   "kazanma": 16.6,
+   "ilk3": 41.0,
+   "ae_alan": 1.46,
+   "ae_piyasa": 1.29
+  },
+  "MORANDI (FR)": {
+   "kosu": 50,
+   "birinci": 8,
+   "kazanma": 16.0,
+   "ilk3": 42.0,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.15
+  },
+  "KING OF THE SUN": {
+   "kosu": 74,
+   "birinci": 0,
+   "kazanma": 0.0,
+   "ilk3": 12.2,
+   "ae_alan": 0.0,
+   "ae_piyasa": 0.0
+  },
+  "SEVENTH SENSE": {
+   "kosu": 63,
+   "birinci": 5,
+   "kazanma": 7.9,
+   "ilk3": 23.8,
+   "ae_alan": 0.81,
+   "ae_piyasa": 1.33
+  },
+  "MASTER PATRICK (IRE)": {
+   "kosu": 55,
+   "birinci": 7,
+   "kazanma": 12.7,
+   "ilk3": 29.1,
+   "ae_alan": 1.28,
+   "ae_piyasa": 1.38
+  },
+  "KLIMT (USA)": {
+   "kosu": 632,
+   "birinci": 94,
+   "kazanma": 14.9,
+   "ilk3": 44.9,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.03
+  },
+  "BATTLEGROUND (USA)": {
+   "kosu": 382,
+   "birinci": 37,
+   "kazanma": 9.7,
+   "ilk3": 29.1,
+   "ae_alan": 0.85,
+   "ae_piyasa": 0.93
+  },
+  "EPAULETTE (AUS)": {
+   "kosu": 388,
+   "birinci": 44,
+   "kazanma": 11.3,
+   "ilk3": 33.2,
+   "ae_alan": 1.06,
+   "ae_piyasa": 1.09
+  },
+  "SADLER'S JOY (USA)": {
+   "kosu": 253,
+   "birinci": 42,
+   "kazanma": 16.6,
+   "ilk3": 40.3,
+   "ae_alan": 1.43,
+   "ae_piyasa": 1.2
+  },
+  "TILSIT (USA)": {
+   "kosu": 244,
+   "birinci": 37,
+   "kazanma": 15.2,
+   "ilk3": 42.6,
+   "ae_alan": 1.33,
+   "ae_piyasa": 1.13
+  },
+  "MER DE GLACE (JPN)": {
+   "kosu": 142,
+   "birinci": 10,
+   "kazanma": 7.0,
+   "ilk3": 26.1,
+   "ae_alan": 0.64,
+   "ae_piyasa": 0.88
+  },
+  "DIVINE HEART": {
+   "kosu": 48,
+   "birinci": 4,
+   "kazanma": 8.3,
+   "ilk3": 35.4,
+   "ae_alan": 0.74,
+   "ae_piyasa": 0.72
+  },
+  "HASAFET": {
+   "kosu": 110,
+   "birinci": 8,
+   "kazanma": 7.3,
+   "ilk3": 26.4,
+   "ae_alan": 0.68,
+   "ae_piyasa": 1.02
+  },
+  "WAR CORRESPONDENT (USA)": {
+   "kosu": 64,
+   "birinci": 11,
+   "kazanma": 17.2,
+   "ilk3": 34.4,
+   "ae_alan": 1.56,
+   "ae_piyasa": 1.3
+  },
+  "RUNNER BULL": {
+   "kosu": 65,
+   "birinci": 4,
+   "kazanma": 6.2,
+   "ilk3": 23.1,
+   "ae_alan": 0.54,
+   "ae_piyasa": 0.71
+  },
+  "CALL TO VICTORY": {
+   "kosu": 63,
+   "birinci": 2,
+   "kazanma": 3.2,
+   "ilk3": 17.5,
+   "ae_alan": 0.29,
+   "ae_piyasa": 0.54
+  },
+  "TIGER MOTH (IRE)": {
+   "kosu": 83,
+   "birinci": 6,
+   "kazanma": 7.2,
+   "ilk3": 28.9,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.74
+  },
+  "ULAN BATOR": {
+   "kosu": 137,
+   "birinci": 10,
+   "kazanma": 7.3,
+   "ilk3": 24.1,
+   "ae_alan": 0.65,
+   "ae_piyasa": 0.91
+  },
+  "RHYTHM DIVINE": {
+   "kosu": 69,
+   "birinci": 7,
+   "kazanma": 10.1,
+   "ilk3": 21.7,
+   "ae_alan": 0.87,
+   "ae_piyasa": 0.9
+  },
+  "ELARQAM (GB)": {
+   "kosu": 84,
+   "birinci": 7,
+   "kazanma": 8.3,
+   "ilk3": 25.0,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.86
+  },
+  "FEARLESS KING (GB)": {
+   "kosu": 110,
+   "birinci": 23,
+   "kazanma": 20.9,
+   "ilk3": 44.5,
+   "ae_alan": 1.61,
+   "ae_piyasa": 1.48
+  },
+  "SATONO ARES (JPN)": {
+   "kosu": 147,
+   "birinci": 34,
+   "kazanma": 23.1,
+   "ilk3": 46.3,
+   "ae_alan": 1.75,
+   "ae_piyasa": 1.43
+  },
+  "SHARPA": {
+   "kosu": 72,
+   "birinci": 6,
+   "kazanma": 8.3,
+   "ilk3": 36.1,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.74
+  }
+ },
+ "Arap|uzun": {
+  "Tameri̇noğlu": {
+   "kosu": 77,
+   "birinci": 13,
+   "kazanma": 16.9,
+   "ilk3": 32.5,
+   "ae_alan": 1.6,
+   "ae_piyasa": 1.4
+  },
+  "Bi̇lgi̇n": {
+   "kosu": 87,
+   "birinci": 11,
+   "kazanma": 12.6,
+   "ilk3": 34.5,
+   "ae_alan": 1.25,
+   "ae_piyasa": 1.24
+  },
+  "Gobakbey": {
+   "kosu": 72,
+   "birinci": 8,
+   "kazanma": 11.1,
+   "ilk3": 36.1,
+   "ae_alan": 1.12,
+   "ae_piyasa": 0.89
+  },
+  "Özgünhan": {
+   "kosu": 84,
+   "birinci": 16,
+   "kazanma": 19.0,
+   "ilk3": 29.8,
+   "ae_alan": 1.87,
+   "ae_piyasa": 1.35
+  },
+  "Kaızbert (Ru)": {
+   "kosu": 127,
+   "birinci": 18,
+   "kazanma": 14.2,
+   "ilk3": 36.2,
+   "ae_alan": 1.3,
+   "ae_piyasa": 1.15
+  },
+  "Uçanbey": {
+   "kosu": 53,
+   "birinci": 4,
+   "kazanma": 7.5,
+   "ilk3": 22.6,
+   "ae_alan": 0.8,
+   "ae_piyasa": 1.11
+  },
+  "Turbo": {
+   "kosu": 107,
+   "birinci": 14,
+   "kazanma": 13.1,
+   "ilk3": 51.4,
+   "ae_alan": 1.19,
+   "ae_piyasa": 0.94
+  },
+  "Altaha": {
+   "kosu": 70,
+   "birinci": 4,
+   "kazanma": 5.7,
+   "ilk3": 22.9,
+   "ae_alan": 0.57,
+   "ae_piyasa": 0.57
+  },
+  "KAIZBERT (RU)": {
+   "kosu": 782,
+   "birinci": 87,
+   "kazanma": 11.1,
+   "ilk3": 30.7,
+   "ae_alan": 0.99,
+   "ae_piyasa": 0.89
+  },
+  "ÖZGÜNHAN": {
+   "kosu": 939,
+   "birinci": 128,
+   "kazanma": 13.6,
+   "ilk3": 39.2,
+   "ae_alan": 1.27,
+   "ae_piyasa": 1.08
+  },
+  "TURBO": {
+   "kosu": 1183,
+   "birinci": 127,
+   "kazanma": 10.7,
+   "ilk3": 34.1,
+   "ae_alan": 0.98,
+   "ae_piyasa": 0.96
+  },
+  "UÇANBEY": {
+   "kosu": 338,
+   "birinci": 33,
+   "kazanma": 9.8,
+   "ilk3": 31.7,
+   "ae_alan": 0.92,
+   "ae_piyasa": 0.94
+  },
+  "GOBAKBEY": {
+   "kosu": 226,
+   "birinci": 21,
+   "kazanma": 9.3,
+   "ilk3": 40.3,
+   "ae_alan": 0.86,
+   "ae_piyasa": 0.85
+  },
+  "ATOMKARINCA": {
+   "kosu": 43,
+   "birinci": 1,
+   "kazanma": 2.3,
+   "ilk3": 18.6,
+   "ae_alan": 0.22,
+   "ae_piyasa": 0.27
+  },
+  "ANKA": {
+   "kosu": 161,
+   "birinci": 22,
+   "kazanma": 13.7,
+   "ilk3": 33.5,
+   "ae_alan": 1.24,
+   "ae_piyasa": 1.13
+  },
+  "ÖZDURAN": {
+   "kosu": 106,
+   "birinci": 11,
+   "kazanma": 10.4,
+   "ilk3": 42.5,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.94
+  },
+  "BERKSOY": {
+   "kosu": 178,
+   "birinci": 13,
+   "kazanma": 7.3,
+   "ilk3": 32.6,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.6
+  },
+  "ÖZHABER": {
+   "kosu": 282,
+   "birinci": 37,
+   "kazanma": 13.1,
+   "ilk3": 37.6,
+   "ae_alan": 1.26,
+   "ae_piyasa": 1.07
+  },
+  "TOŞUR": {
+   "kosu": 85,
+   "birinci": 8,
+   "kazanma": 9.4,
+   "ilk3": 30.6,
+   "ae_alan": 0.89,
+   "ae_piyasa": 1.21
+  },
+  "KURTEL": {
+   "kosu": 166,
+   "birinci": 14,
+   "kazanma": 8.4,
+   "ilk3": 33.7,
+   "ae_alan": 0.77,
+   "ae_piyasa": 0.84
+  },
+  "AYABAKAN": {
+   "kosu": 368,
+   "birinci": 46,
+   "kazanma": 12.5,
+   "ilk3": 32.9,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.03
+  },
+  "KURUŞAĞA": {
+   "kosu": 63,
+   "birinci": 7,
+   "kazanma": 11.1,
+   "ilk3": 23.8,
+   "ae_alan": 1.08,
+   "ae_piyasa": 1.23
+  },
+  "HIZLITAY": {
+   "kosu": 137,
+   "birinci": 22,
+   "kazanma": 16.1,
+   "ilk3": 42.3,
+   "ae_alan": 1.41,
+   "ae_piyasa": 1.28
+  },
+  "GÜNTAY": {
+   "kosu": 171,
+   "birinci": 15,
+   "kazanma": 8.8,
+   "ilk3": 32.2,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.89
+  },
+  "HALİD": {
+   "kosu": 43,
+   "birinci": 5,
+   "kazanma": 11.6,
+   "ilk3": 39.5,
+   "ae_alan": 1.08,
+   "ae_piyasa": 0.91
+  },
+  "TAMERİNOĞLU": {
+   "kosu": 888,
+   "birinci": 91,
+   "kazanma": 10.2,
+   "ilk3": 36.8,
+   "ae_alan": 0.94,
+   "ae_piyasa": 0.84
+  },
+  "KARA YAĞIZ": {
+   "kosu": 117,
+   "birinci": 18,
+   "kazanma": 15.4,
+   "ilk3": 38.5,
+   "ae_alan": 1.38,
+   "ae_piyasa": 1.51
+  },
+  "SARRAF": {
+   "kosu": 197,
+   "birinci": 18,
+   "kazanma": 9.1,
+   "ilk3": 28.4,
+   "ae_alan": 0.86,
+   "ae_piyasa": 0.96
+  },
+  "BİLGİN": {
+   "kosu": 274,
+   "birinci": 26,
+   "kazanma": 9.5,
+   "ilk3": 36.9,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.89
+  },
+  "ALTAHA": {
+   "kosu": 344,
+   "birinci": 34,
+   "kazanma": 9.9,
+   "ilk3": 27.0,
+   "ae_alan": 0.95,
+   "ae_piyasa": 1.03
+  },
+  "ONURKAAN": {
+   "kosu": 157,
+   "birinci": 14,
+   "kazanma": 8.9,
+   "ilk3": 24.8,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.85
+  },
+  "ATEŞTOPU": {
+   "kosu": 200,
+   "birinci": 18,
+   "kazanma": 9.0,
+   "ilk3": 28.0,
+   "ae_alan": 0.83,
+   "ae_piyasa": 1.03
+  },
+  "ATİKBEY": {
+   "kosu": 41,
+   "birinci": 6,
+   "kazanma": 14.6,
+   "ilk3": 46.3,
+   "ae_alan": 1.41,
+   "ae_piyasa": 1.43
+  },
+  "TÜMÖZ BEY": {
+   "kosu": 275,
+   "birinci": 45,
+   "kazanma": 16.4,
+   "ilk3": 39.6,
+   "ae_alan": 1.45,
+   "ae_piyasa": 1.12
+  },
+  "KAMAN": {
+   "kosu": 97,
+   "birinci": 7,
+   "kazanma": 7.2,
+   "ilk3": 25.8,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.86
+  },
+  "SONALP": {
+   "kosu": 375,
+   "birinci": 41,
+   "kazanma": 10.9,
+   "ilk3": 33.1,
+   "ae_alan": 1.03,
+   "ae_piyasa": 1.05
+  },
+  "ARASLI": {
+   "kosu": 133,
+   "birinci": 13,
+   "kazanma": 9.8,
+   "ilk3": 34.6,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.99
+  },
+  "ODİNHAN": {
+   "kosu": 116,
+   "birinci": 15,
+   "kazanma": 12.9,
+   "ilk3": 31.0,
+   "ae_alan": 1.26,
+   "ae_piyasa": 1.5
+  },
+  "YAŞARCIK": {
+   "kosu": 102,
+   "birinci": 7,
+   "kazanma": 6.9,
+   "ilk3": 24.5,
+   "ae_alan": 0.65,
+   "ae_piyasa": 0.83
+  },
+  "DEMİRKAZIK": {
+   "kosu": 47,
+   "birinci": 6,
+   "kazanma": 12.8,
+   "ilk3": 19.1,
+   "ae_alan": 1.1,
+   "ae_piyasa": 1.37
+  },
+  "ŞİMŞEĞİNOĞLU": {
+   "kosu": 175,
+   "birinci": 20,
+   "kazanma": 11.4,
+   "ilk3": 32.6,
+   "ae_alan": 1.14,
+   "ae_piyasa": 1.1
+  },
+  "İZBATUR": {
+   "kosu": 48,
+   "birinci": 5,
+   "kazanma": 10.4,
+   "ilk3": 33.3,
+   "ae_alan": 1.09,
+   "ae_piyasa": 1.13
+  },
+  "KARAKEMAL": {
+   "kosu": 48,
+   "birinci": 3,
+   "kazanma": 6.2,
+   "ilk3": 25.0,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.82
+  },
+  "KIRIMHAN": {
+   "kosu": 45,
+   "birinci": 7,
+   "kazanma": 15.6,
+   "ilk3": 31.1,
+   "ae_alan": 1.53,
+   "ae_piyasa": 1.94
+  },
+  "BALIKHAN": {
+   "kosu": 148,
+   "birinci": 23,
+   "kazanma": 15.5,
+   "ilk3": 31.8,
+   "ae_alan": 1.46,
+   "ae_piyasa": 1.34
+  },
+  "UFUKBİR": {
+   "kosu": 78,
+   "birinci": 10,
+   "kazanma": 12.8,
+   "ilk3": 30.8,
+   "ae_alan": 1.27,
+   "ae_piyasa": 1.52
+  },
+  "JOKER": {
+   "kosu": 135,
+   "birinci": 17,
+   "kazanma": 12.6,
+   "ilk3": 32.6,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.35
+  },
+  "EFEM": {
+   "kosu": 45,
+   "birinci": 3,
+   "kazanma": 6.7,
+   "ilk3": 33.3,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.76
+  },
+  "BERKAY EFE": {
+   "kosu": 40,
+   "birinci": 6,
+   "kazanma": 15.0,
+   "ilk3": 35.0,
+   "ae_alan": 1.54,
+   "ae_piyasa": 1.37
+  },
+  "KAFKAS ŞAHI": {
+   "kosu": 44,
+   "birinci": 3,
+   "kazanma": 6.8,
+   "ilk3": 15.9,
+   "ae_alan": 0.64,
+   "ae_piyasa": 0.92
+  },
+  "EMAEL (PL)": {
+   "kosu": 40,
+   "birinci": 5,
+   "kazanma": 12.5,
+   "ilk3": 50.0,
+   "ae_alan": 0.95,
+   "ae_piyasa": 0.63
+  },
+  "HABERKAN": {
+   "kosu": 113,
+   "birinci": 10,
+   "kazanma": 8.8,
+   "ilk3": 26.5,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.91
+  },
+  "SULTAN DE FAUST (FR)": {
+   "kosu": 117,
+   "birinci": 5,
+   "kazanma": 4.3,
+   "ilk3": 23.9,
+   "ae_alan": 0.38,
+   "ae_piyasa": 0.43
+  },
+  "ARTOS": {
+   "kosu": 63,
+   "birinci": 10,
+   "kazanma": 15.9,
+   "ilk3": 42.9,
+   "ae_alan": 1.43,
+   "ae_piyasa": 1.14
+  },
+  "CANGIL": {
+   "kosu": 46,
+   "birinci": 5,
+   "kazanma": 10.9,
+   "ilk3": 28.3,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.05
+  },
+  "OYMAKBEYİ": {
+   "kosu": 42,
+   "birinci": 3,
+   "kazanma": 7.1,
+   "ilk3": 21.4,
+   "ae_alan": 0.66,
+   "ae_piyasa": 0.82
+  },
+  "HİSARBEY": {
+   "kosu": 61,
+   "birinci": 4,
+   "kazanma": 6.6,
+   "ilk3": 24.6,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.59
+  },
+  "UÇANOĞLU": {
+   "kosu": 231,
+   "birinci": 23,
+   "kazanma": 10.0,
+   "ilk3": 26.0,
+   "ae_alan": 0.9,
+   "ae_piyasa": 1.07
+  },
+  "BAYHAN": {
+   "kosu": 48,
+   "birinci": 3,
+   "kazanma": 6.2,
+   "ilk3": 27.1,
+   "ae_alan": 0.54,
+   "ae_piyasa": 0.55
+  },
+  "GELİBOLU": {
+   "kosu": 187,
+   "birinci": 24,
+   "kazanma": 12.8,
+   "ilk3": 32.1,
+   "ae_alan": 1.21,
+   "ae_piyasa": 1.29
+  },
+  "YAKUPBEY": {
+   "kosu": 158,
+   "birinci": 16,
+   "kazanma": 10.1,
+   "ilk3": 34.2,
+   "ae_alan": 0.91,
+   "ae_piyasa": 0.9
+  },
+  "ORÇUN": {
+   "kosu": 156,
+   "birinci": 15,
+   "kazanma": 9.6,
+   "ilk3": 32.1,
+   "ae_alan": 0.89,
+   "ae_piyasa": 1.0
+  },
+  "COŞARTAY": {
+   "kosu": 43,
+   "birinci": 2,
+   "kazanma": 4.7,
+   "ilk3": 20.9,
+   "ae_alan": 0.48,
+   "ae_piyasa": 0.57
+  },
+  "KARAÜZÜM": {
+   "kosu": 298,
+   "birinci": 36,
+   "kazanma": 12.1,
+   "ilk3": 31.9,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.24
+  },
+  "DEMİRDÖVEN": {
+   "kosu": 91,
+   "birinci": 7,
+   "kazanma": 7.7,
+   "ilk3": 26.4,
+   "ae_alan": 0.64,
+   "ae_piyasa": 0.68
+  },
+  "KAYAYÜREKLİ": {
+   "kosu": 152,
+   "birinci": 20,
+   "kazanma": 13.2,
+   "ilk3": 38.2,
+   "ae_alan": 1.22,
+   "ae_piyasa": 1.09
+  },
+  "BABA MEVLÜT": {
+   "kosu": 399,
+   "birinci": 45,
+   "kazanma": 11.3,
+   "ilk3": 35.1,
+   "ae_alan": 1.09,
+   "ae_piyasa": 1.06
+  },
+  "SİLAH": {
+   "kosu": 95,
+   "birinci": 11,
+   "kazanma": 11.6,
+   "ilk3": 36.8,
+   "ae_alan": 1.17,
+   "ae_piyasa": 0.99
+  },
+  "ENDEREFE": {
+   "kosu": 72,
+   "birinci": 8,
+   "kazanma": 11.1,
+   "ilk3": 34.7,
+   "ae_alan": 0.99,
+   "ae_piyasa": 1.03
+  },
+  "SAADIN GÜCÜ": {
+   "kosu": 406,
+   "birinci": 50,
+   "kazanma": 12.3,
+   "ilk3": 35.0,
+   "ae_alan": 1.15,
+   "ae_piyasa": 1.14
+  },
+  "CANKARDEŞLER": {
+   "kosu": 182,
+   "birinci": 22,
+   "kazanma": 12.1,
+   "ilk3": 26.4,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.21
+  },
+  "BİTİRİMKARINCA": {
+   "kosu": 45,
+   "birinci": 6,
+   "kazanma": 13.3,
+   "ilk3": 28.9,
+   "ae_alan": 1.16,
+   "ae_piyasa": 1.08
+  },
+  "ULUER": {
+   "kosu": 68,
+   "birinci": 2,
+   "kazanma": 2.9,
+   "ilk3": 16.2,
+   "ae_alan": 0.27,
+   "ae_piyasa": 0.31
+  },
+  "GÜRSU": {
+   "kosu": 95,
+   "birinci": 19,
+   "kazanma": 20.0,
+   "ilk3": 38.9,
+   "ae_alan": 2.01,
+   "ae_piyasa": 1.6
+  },
+  "SAKARBAŞI": {
+   "kosu": 102,
+   "birinci": 15,
+   "kazanma": 14.7,
+   "ilk3": 33.3,
+   "ae_alan": 1.36,
+   "ae_piyasa": 1.28
+  },
+  "YÜREKKAYA": {
+   "kosu": 75,
+   "birinci": 5,
+   "kazanma": 6.7,
+   "ilk3": 21.3,
+   "ae_alan": 0.63,
+   "ae_piyasa": 0.8
+  },
+  "BESLENEY": {
+   "kosu": 128,
+   "birinci": 9,
+   "kazanma": 7.0,
+   "ilk3": 34.4,
+   "ae_alan": 0.67,
+   "ae_piyasa": 0.83
+  },
+  "SERHANTAY": {
+   "kosu": 218,
+   "birinci": 26,
+   "kazanma": 11.9,
+   "ilk3": 33.0,
+   "ae_alan": 1.11,
+   "ae_piyasa": 1.02
+  },
+  "VAKKAS": {
+   "kosu": 44,
+   "birinci": 1,
+   "kazanma": 2.3,
+   "ilk3": 25.0,
+   "ae_alan": 0.23,
+   "ae_piyasa": 0.3
+  },
+  "FİRİKYA": {
+   "kosu": 77,
+   "birinci": 7,
+   "kazanma": 9.1,
+   "ilk3": 28.6,
+   "ae_alan": 0.85,
+   "ae_piyasa": 0.74
+  },
+  "YILMABAŞAR": {
+   "kosu": 167,
+   "birinci": 30,
+   "kazanma": 18.0,
+   "ilk3": 44.3,
+   "ae_alan": 1.64,
+   "ae_piyasa": 1.45
+  },
+  "SEMEND": {
+   "kosu": 96,
+   "birinci": 11,
+   "kazanma": 11.5,
+   "ilk3": 33.3,
+   "ae_alan": 1.11,
+   "ae_piyasa": 1.19
+  },
+  "DİLİRAN": {
+   "kosu": 116,
+   "birinci": 12,
+   "kazanma": 10.3,
+   "ilk3": 31.9,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.02
+  },
+  "MADRABAZ": {
+   "kosu": 42,
+   "birinci": 3,
+   "kazanma": 7.1,
+   "ilk3": 21.4,
+   "ae_alan": 0.69,
+   "ae_piyasa": 1.07
+  },
+  "ALTINCI HİS": {
+   "kosu": 95,
+   "birinci": 5,
+   "kazanma": 5.3,
+   "ilk3": 25.3,
+   "ae_alan": 0.49,
+   "ae_piyasa": 0.58
+  },
+  "KURTÇABEY": {
+   "kosu": 66,
+   "birinci": 2,
+   "kazanma": 3.0,
+   "ilk3": 24.2,
+   "ae_alan": 0.28,
+   "ae_piyasa": 0.47
+  },
+  "GÜMBÜRGÜMBÜR": {
+   "kosu": 88,
+   "birinci": 11,
+   "kazanma": 12.5,
+   "ilk3": 36.4,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.07
+  },
+  "FATİH AĞA": {
+   "kosu": 125,
+   "birinci": 12,
+   "kazanma": 9.6,
+   "ilk3": 27.2,
+   "ae_alan": 0.97,
+   "ae_piyasa": 0.92
+  },
+  "SERDÜMEN": {
+   "kosu": 67,
+   "birinci": 7,
+   "kazanma": 10.4,
+   "ilk3": 28.4,
+   "ae_alan": 1.08,
+   "ae_piyasa": 0.87
+  },
+  "TAYKUT": {
+   "kosu": 58,
+   "birinci": 8,
+   "kazanma": 13.8,
+   "ilk3": 34.5,
+   "ae_alan": 1.42,
+   "ae_piyasa": 1.36
+  }
+ },
+ "İngiliz|orta": {
+  "Kaneko": {
+   "kosu": 236,
+   "birinci": 40,
+   "kazanma": 16.9,
+   "ilk3": 41.1,
+   "ae_alan": 1.58,
+   "ae_piyasa": 1.25
+  },
+  "Lıon Heart (Usa)": {
+   "kosu": 198,
+   "birinci": 29,
+   "kazanma": 14.6,
+   "ilk3": 32.3,
+   "ae_alan": 1.31,
+   "ae_piyasa": 1.23
+  },
+  "Approve (Ire)": {
+   "kosu": 84,
+   "birinci": 12,
+   "kazanma": 14.3,
+   "ilk3": 33.3,
+   "ae_alan": 1.28,
+   "ae_piyasa": 1.06
+  },
+  "Halıcarnassus (Ire)": {
+   "kosu": 122,
+   "birinci": 15,
+   "kazanma": 12.3,
+   "ilk3": 33.6,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.15
+  },
+  "After Market (Usa)": {
+   "kosu": 109,
+   "birinci": 17,
+   "kazanma": 15.6,
+   "ilk3": 35.8,
+   "ae_alan": 1.44,
+   "ae_piyasa": 1.42
+  },
+  "Smart Robın (Jpn)": {
+   "kosu": 118,
+   "birinci": 17,
+   "kazanma": 14.4,
+   "ilk3": 38.1,
+   "ae_alan": 1.26,
+   "ae_piyasa": 1.22
+  },
+  "Three Valleys (Usa)": {
+   "kosu": 63,
+   "birinci": 8,
+   "kazanma": 12.7,
+   "ilk3": 34.9,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.41
+  },
+  "Vıctory Gallop (Can)": {
+   "kosu": 257,
+   "birinci": 24,
+   "kazanma": 9.3,
+   "ilk3": 32.7,
+   "ae_alan": 0.86,
+   "ae_piyasa": 0.71
+  },
+  "Rey De Cafe (Usa)": {
+   "kosu": 64,
+   "birinci": 2,
+   "kazanma": 3.1,
+   "ilk3": 28.1,
+   "ae_alan": 0.36,
+   "ae_piyasa": 0.35
+  },
+  "Mendıp (Usa)": {
+   "kosu": 95,
+   "birinci": 14,
+   "kazanma": 14.7,
+   "ilk3": 28.4,
+   "ae_alan": 1.27,
+   "ae_piyasa": 1.41
+  },
+  "Powerscourt (Gb)": {
+   "kosu": 52,
+   "birinci": 4,
+   "kazanma": 7.7,
+   "ilk3": 32.7,
+   "ae_alan": 0.79,
+   "ae_piyasa": 0.88
+  },
+  "El Corredor (Usa)": {
+   "kosu": 83,
+   "birinci": 2,
+   "kazanma": 2.4,
+   "ilk3": 20.5,
+   "ae_alan": 0.26,
+   "ae_piyasa": 0.32
+  },
+  "Indıgo Red (Gb)": {
+   "kosu": 44,
+   "birinci": 4,
+   "kazanma": 9.1,
+   "ilk3": 38.6,
+   "ae_alan": 0.95,
+   "ae_piyasa": 1.07
+  },
+  "Cuvee (Usa)": {
+   "kosu": 101,
+   "birinci": 12,
+   "kazanma": 11.9,
+   "ilk3": 32.7,
+   "ae_alan": 1.11,
+   "ae_piyasa": 1.14
+  },
+  "Yonaguska (Usa)": {
+   "kosu": 85,
+   "birinci": 14,
+   "kazanma": 16.5,
+   "ilk3": 37.6,
+   "ae_alan": 1.36,
+   "ae_piyasa": 1.19
+  },
+  "Wın Rıver Wın (Usa)": {
+   "kosu": 235,
+   "birinci": 19,
+   "kazanma": 8.1,
+   "ilk3": 29.4,
+   "ae_alan": 0.78,
+   "ae_piyasa": 0.82
+  },
+  "Natıve Khan (Fr)": {
+   "kosu": 50,
+   "birinci": 3,
+   "kazanma": 6.0,
+   "ilk3": 34.0,
+   "ae_alan": 0.61,
+   "ae_piyasa": 0.41
+  },
+  "Scarface": {
+   "kosu": 48,
+   "birinci": 4,
+   "kazanma": 8.3,
+   "ilk3": 27.1,
+   "ae_alan": 0.82,
+   "ae_piyasa": 0.92
+  },
+  "Zanjero (Usa)": {
+   "kosu": 60,
+   "birinci": 6,
+   "kazanma": 10.0,
+   "ilk3": 40.0,
+   "ae_alan": 0.9,
+   "ae_piyasa": 1.02
+  },
+  "Deha": {
+   "kosu": 47,
+   "birinci": 4,
+   "kazanma": 8.5,
+   "ilk3": 19.1,
+   "ae_alan": 0.75,
+   "ae_piyasa": 1.14
+  },
+  "Dr Fong (Usa)": {
+   "kosu": 85,
+   "birinci": 8,
+   "kazanma": 9.4,
+   "ilk3": 29.4,
+   "ae_alan": 1.01,
+   "ae_piyasa": 0.92
+  },
+  "Captaın Rıo (Gb)": {
+   "kosu": 80,
+   "birinci": 8,
+   "kazanma": 10.0,
+   "ilk3": 23.8,
+   "ae_alan": 1.1,
+   "ae_piyasa": 1.22
+  },
+  "Pleasantly Perfect (Usa)": {
+   "kosu": 95,
+   "birinci": 8,
+   "kazanma": 8.4,
+   "ilk3": 27.4,
+   "ae_alan": 0.75,
+   "ae_piyasa": 0.79
+  },
+  "Invıncıble Son (Ire)": {
+   "kosu": 86,
+   "birinci": 11,
+   "kazanma": 12.8,
+   "ilk3": 39.5,
+   "ae_alan": 1.36,
+   "ae_piyasa": 1.02
+  },
+  "Country Reel (Usa)": {
+   "kosu": 40,
+   "birinci": 3,
+   "kazanma": 7.5,
+   "ilk3": 40.0,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.64
+  },
+  "Daı Jın (Gb)": {
+   "kosu": 77,
+   "birinci": 8,
+   "kazanma": 10.4,
+   "ilk3": 28.6,
+   "ae_alan": 1.1,
+   "ae_piyasa": 1.1
+  },
+  "Hakeem (Usa)": {
+   "kosu": 106,
+   "birinci": 9,
+   "kazanma": 8.5,
+   "ilk3": 34.9,
+   "ae_alan": 0.74,
+   "ae_piyasa": 0.72
+  },
+  "Talıp Han (Ire)": {
+   "kosu": 117,
+   "birinci": 4,
+   "kazanma": 3.4,
+   "ilk3": 17.1,
+   "ae_alan": 0.35,
+   "ae_piyasa": 0.47
+  },
+  "Toccet (Usa)": {
+   "kosu": 48,
+   "birinci": 12,
+   "kazanma": 25.0,
+   "ilk3": 33.3,
+   "ae_alan": 1.96,
+   "ae_piyasa": 1.96
+  },
+  "Agresıvo (Usa)": {
+   "kosu": 62,
+   "birinci": 4,
+   "kazanma": 6.5,
+   "ilk3": 29.0,
+   "ae_alan": 0.68,
+   "ae_piyasa": 0.89
+  },
+  "Bosporus (Ire)": {
+   "kosu": 102,
+   "birinci": 11,
+   "kazanma": 10.8,
+   "ilk3": 29.4,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.06
+  },
+  "Offlee Wıld (Usa)": {
+   "kosu": 56,
+   "birinci": 3,
+   "kazanma": 5.4,
+   "ilk3": 37.5,
+   "ae_alan": 0.5,
+   "ae_piyasa": 0.51
+  },
+  "Luxor": {
+   "kosu": 103,
+   "birinci": 20,
+   "kazanma": 19.4,
+   "ilk3": 41.7,
+   "ae_alan": 1.79,
+   "ae_piyasa": 1.44
+  },
+  "Perfect Storm": {
+   "kosu": 49,
+   "birinci": 1,
+   "kazanma": 2.0,
+   "ilk3": 22.4,
+   "ae_alan": 0.22,
+   "ae_piyasa": 0.23
+  },
+  "Toruk Macto (Ire)": {
+   "kosu": 69,
+   "birinci": 7,
+   "kazanma": 10.1,
+   "ilk3": 33.3,
+   "ae_alan": 1.0,
+   "ae_piyasa": 0.92
+  },
+  "Bushranger (Ire)": {
+   "kosu": 64,
+   "birinci": 4,
+   "kazanma": 6.2,
+   "ilk3": 32.8,
+   "ae_alan": 0.75,
+   "ae_piyasa": 0.69
+  },
+  "Adoni̇se": {
+   "kosu": 52,
+   "birinci": 2,
+   "kazanma": 3.8,
+   "ilk3": 25.0,
+   "ae_alan": 0.42,
+   "ae_piyasa": 0.56
+  },
+  "AZARAKS": {
+   "kosu": 51,
+   "birinci": 5,
+   "kazanma": 9.8,
+   "ilk3": 27.5,
+   "ae_alan": 0.95,
+   "ae_piyasa": 0.85
+  },
+  "JUSTENUFFHUMOR (USA)": {
+   "kosu": 134,
+   "birinci": 23,
+   "kazanma": 17.2,
+   "ilk3": 44.0,
+   "ae_alan": 1.46,
+   "ae_piyasa": 1.41
+  },
+  "DEHA": {
+   "kosu": 103,
+   "birinci": 9,
+   "kazanma": 8.7,
+   "ilk3": 33.0,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.85
+  },
+  "INVINCIBLE SON (IRE)": {
+   "kosu": 377,
+   "birinci": 45,
+   "kazanma": 11.9,
+   "ilk3": 29.7,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.1
+  },
+  "FAIRSON": {
+   "kosu": 56,
+   "birinci": 5,
+   "kazanma": 8.9,
+   "ilk3": 28.6,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.93
+  },
+  "MENDIP (USA)": {
+   "kosu": 1265,
+   "birinci": 151,
+   "kazanma": 11.9,
+   "ilk3": 32.8,
+   "ae_alan": 1.06,
+   "ae_piyasa": 1.07
+  },
+  "LUXOR": {
+   "kosu": 609,
+   "birinci": 79,
+   "kazanma": 13.0,
+   "ilk3": 36.1,
+   "ae_alan": 1.21,
+   "ae_piyasa": 1.02
+  },
+  "SMART ROBIN (JPN)": {
+   "kosu": 720,
+   "birinci": 70,
+   "kazanma": 9.7,
+   "ilk3": 28.6,
+   "ae_alan": 0.9,
+   "ae_piyasa": 0.98
+  },
+  "VICTORY GALLOP (CAN)": {
+   "kosu": 936,
+   "birinci": 110,
+   "kazanma": 11.8,
+   "ilk3": 37.0,
+   "ae_alan": 1.08,
+   "ae_piyasa": 0.9
+  },
+  "EL CORREDOR (USA)": {
+   "kosu": 244,
+   "birinci": 15,
+   "kazanma": 6.1,
+   "ilk3": 30.7,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.58
+  },
+  "COUNTRY REEL (USA)": {
+   "kosu": 55,
+   "birinci": 5,
+   "kazanma": 9.1,
+   "ilk3": 27.3,
+   "ae_alan": 0.87,
+   "ae_piyasa": 0.96
+  },
+  "LION HEART (USA)": {
+   "kosu": 1202,
+   "birinci": 123,
+   "kazanma": 10.2,
+   "ilk3": 33.0,
+   "ae_alan": 0.91,
+   "ae_piyasa": 0.97
+  },
+  "BUSHRANGER (IRE)": {
+   "kosu": 304,
+   "birinci": 25,
+   "kazanma": 8.2,
+   "ilk3": 24.3,
+   "ae_alan": 0.81,
+   "ae_piyasa": 1.07
+  },
+  "NATIVE KHAN (FR)": {
+   "kosu": 684,
+   "birinci": 74,
+   "kazanma": 10.8,
+   "ilk3": 32.3,
+   "ae_alan": 1.02,
+   "ae_piyasa": 0.89
+  },
+  "PERFECT STORM": {
+   "kosu": 104,
+   "birinci": 10,
+   "kazanma": 9.6,
+   "ilk3": 24.0,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.09
+  },
+  "SCARFACE": {
+   "kosu": 312,
+   "birinci": 30,
+   "kazanma": 9.6,
+   "ilk3": 31.4,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.79
+  },
+  "OFFLEE WILD (USA)": {
+   "kosu": 75,
+   "birinci": 10,
+   "kazanma": 13.3,
+   "ilk3": 30.7,
+   "ae_alan": 1.23,
+   "ae_piyasa": 1.1
+  },
+  "YONAGUSKA (USA)": {
+   "kosu": 201,
+   "birinci": 27,
+   "kazanma": 13.4,
+   "ilk3": 38.8,
+   "ae_alan": 1.09,
+   "ae_piyasa": 0.83
+  },
+  "AGRESIVO (USA)": {
+   "kosu": 363,
+   "birinci": 38,
+   "kazanma": 10.5,
+   "ilk3": 33.3,
+   "ae_alan": 0.96,
+   "ae_piyasa": 0.86
+  },
+  "POWERSCOURT (GB)": {
+   "kosu": 166,
+   "birinci": 13,
+   "kazanma": 7.8,
+   "ilk3": 26.5,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.98
+  },
+  "DAI JIN (GB)": {
+   "kosu": 197,
+   "birinci": 17,
+   "kazanma": 8.6,
+   "ilk3": 30.5,
+   "ae_alan": 0.88,
+   "ae_piyasa": 0.96
+  },
+  "DR FONG (USA)": {
+   "kosu": 163,
+   "birinci": 19,
+   "kazanma": 11.7,
+   "ilk3": 33.7,
+   "ae_alan": 1.04,
+   "ae_piyasa": 0.91
+  },
+  "TRIPLE BONUS": {
+   "kosu": 118,
+   "birinci": 8,
+   "kazanma": 6.8,
+   "ilk3": 28.0,
+   "ae_alan": 0.71,
+   "ae_piyasa": 1.0
+  },
+  "TOCCET (USA)": {
+   "kosu": 320,
+   "birinci": 43,
+   "kazanma": 13.4,
+   "ilk3": 37.2,
+   "ae_alan": 1.22,
+   "ae_piyasa": 1.27
+  },
+  "CARDINAL PIONEER": {
+   "kosu": 74,
+   "birinci": 7,
+   "kazanma": 9.5,
+   "ilk3": 23.0,
+   "ae_alan": 0.88,
+   "ae_piyasa": 1.16
+  },
+  "TALIP HAN (IRE)": {
+   "kosu": 221,
+   "birinci": 20,
+   "kazanma": 9.0,
+   "ilk3": 28.5,
+   "ae_alan": 0.93,
+   "ae_piyasa": 1.16
+  },
+  "HAKEEM (USA)": {
+   "kosu": 616,
+   "birinci": 74,
+   "kazanma": 12.0,
+   "ilk3": 33.3,
+   "ae_alan": 1.05,
+   "ae_piyasa": 1.06
+  },
+  "BARUDİ": {
+   "kosu": 50,
+   "birinci": 2,
+   "kazanma": 4.0,
+   "ilk3": 18.0,
+   "ae_alan": 0.38,
+   "ae_piyasa": 0.74
+  },
+  "WIN RIVER WIN (USA)": {
+   "kosu": 528,
+   "birinci": 46,
+   "kazanma": 8.7,
+   "ilk3": 30.7,
+   "ae_alan": 0.82,
+   "ae_piyasa": 0.78
+  },
+  "CAPTAIN RIO (GB)": {
+   "kosu": 283,
+   "birinci": 26,
+   "kazanma": 9.2,
+   "ilk3": 29.0,
+   "ae_alan": 0.85,
+   "ae_piyasa": 0.9
+  },
+  "KANEKO": {
+   "kosu": 1268,
+   "birinci": 164,
+   "kazanma": 12.9,
+   "ilk3": 35.5,
+   "ae_alan": 1.23,
+   "ae_piyasa": 1.08
+  },
+  "BANKNOTE (GB)": {
+   "kosu": 115,
+   "birinci": 11,
+   "kazanma": 9.6,
+   "ilk3": 25.2,
+   "ae_alan": 0.93,
+   "ae_piyasa": 1.08
+  },
+  "BOSPORUS (IRE)": {
+   "kosu": 228,
+   "birinci": 27,
+   "kazanma": 11.8,
+   "ilk3": 34.6,
+   "ae_alan": 1.07,
+   "ae_piyasa": 1.02
+  },
+  "HALICARNASSUS (IRE)": {
+   "kosu": 169,
+   "birinci": 19,
+   "kazanma": 11.2,
+   "ilk3": 34.9,
+   "ae_alan": 1.05,
+   "ae_piyasa": 1.12
+  },
+  "ZANJERO (USA)": {
+   "kosu": 124,
+   "birinci": 15,
+   "kazanma": 12.1,
+   "ilk3": 33.9,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.29
+  },
+  "SPEEDY WOLF": {
+   "kosu": 125,
+   "birinci": 13,
+   "kazanma": 10.4,
+   "ilk3": 38.4,
+   "ae_alan": 0.92,
+   "ae_piyasa": 0.92
+  },
+  "INDIGO RED (GB)": {
+   "kosu": 45,
+   "birinci": 2,
+   "kazanma": 4.4,
+   "ilk3": 20.0,
+   "ae_alan": 0.48,
+   "ae_piyasa": 0.59
+  },
+  "REY DE CAFE (USA)": {
+   "kosu": 59,
+   "birinci": 7,
+   "kazanma": 11.9,
+   "ilk3": 32.2,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.23
+  },
+  "TORUK MACTO (IRE)": {
+   "kosu": 176,
+   "birinci": 11,
+   "kazanma": 6.2,
+   "ilk3": 30.1,
+   "ae_alan": 0.6,
+   "ae_piyasa": 0.59
+  },
+  "PLEASANTLY PERFECT (USA)": {
+   "kosu": 193,
+   "birinci": 25,
+   "kazanma": 13.0,
+   "ilk3": 38.9,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.1
+  },
+  "HAKKAR": {
+   "kosu": 158,
+   "birinci": 12,
+   "kazanma": 7.6,
+   "ilk3": 29.1,
+   "ae_alan": 0.75,
+   "ae_piyasa": 0.71
+  },
+  "KING DAVID (USA)": {
+   "kosu": 154,
+   "birinci": 24,
+   "kazanma": 15.6,
+   "ilk3": 33.1,
+   "ae_alan": 1.51,
+   "ae_piyasa": 1.28
+  },
+  "NEARLY GREEN": {
+   "kosu": 62,
+   "birinci": 3,
+   "kazanma": 4.8,
+   "ilk3": 21.0,
+   "ae_alan": 0.51,
+   "ae_piyasa": 0.61
+  },
+  "EXPANSION (USA)": {
+   "kosu": 58,
+   "birinci": 11,
+   "kazanma": 19.0,
+   "ilk3": 36.2,
+   "ae_alan": 1.89,
+   "ae_piyasa": 2.18
+  },
+  "ROCKMASTER (IRE)": {
+   "kosu": 120,
+   "birinci": 15,
+   "kazanma": 12.5,
+   "ilk3": 32.5,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.17
+  },
+  "CUVEE (USA)": {
+   "kosu": 183,
+   "birinci": 18,
+   "kazanma": 9.8,
+   "ilk3": 36.6,
+   "ae_alan": 0.93,
+   "ae_piyasa": 0.96
+  },
+  "DUTYFREE": {
+   "kosu": 114,
+   "birinci": 12,
+   "kazanma": 10.5,
+   "ilk3": 25.4,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.25
+  },
+  "THREE VALLEYS (USA)": {
+   "kosu": 259,
+   "birinci": 23,
+   "kazanma": 8.9,
+   "ilk3": 26.6,
+   "ae_alan": 0.85,
+   "ae_piyasa": 0.93
+  },
+  "DERVİŞ AĞA": {
+   "kosu": 45,
+   "birinci": 9,
+   "kazanma": 20.0,
+   "ilk3": 31.1,
+   "ae_alan": 1.93,
+   "ae_piyasa": 2.23
+  },
+  "PRESSING (IRE)": {
+   "kosu": 58,
+   "birinci": 2,
+   "kazanma": 3.4,
+   "ilk3": 15.5,
+   "ae_alan": 0.38,
+   "ae_piyasa": 0.72
+  },
+  "APPROVE (IRE)": {
+   "kosu": 716,
+   "birinci": 63,
+   "kazanma": 8.8,
+   "ilk3": 28.8,
+   "ae_alan": 0.84,
+   "ae_piyasa": 0.92
+  },
+  "AKINDAYIM (IRE)": {
+   "kosu": 55,
+   "birinci": 3,
+   "kazanma": 5.5,
+   "ilk3": 20.0,
+   "ae_alan": 0.55,
+   "ae_piyasa": 1.13
+  },
+  "AFTER MARKET (USA)": {
+   "kosu": 250,
+   "birinci": 21,
+   "kazanma": 8.4,
+   "ilk3": 34.4,
+   "ae_alan": 0.8,
+   "ae_piyasa": 0.87
+  },
+  "MALİ": {
+   "kosu": 128,
+   "birinci": 10,
+   "kazanma": 7.8,
+   "ilk3": 26.6,
+   "ae_alan": 0.72,
+   "ae_piyasa": 0.93
+  },
+  "MARCAVELLY (USA)": {
+   "kosu": 324,
+   "birinci": 41,
+   "kazanma": 12.7,
+   "ilk3": 32.7,
+   "ae_alan": 1.12,
+   "ae_piyasa": 1.21
+  },
+  "DEĞİRMENDERELİ": {
+   "kosu": 57,
+   "birinci": 5,
+   "kazanma": 8.8,
+   "ilk3": 29.8,
+   "ae_alan": 0.74,
+   "ae_piyasa": 0.87
+  },
+  "PERFECTO": {
+   "kosu": 135,
+   "birinci": 15,
+   "kazanma": 11.1,
+   "ilk3": 32.6,
+   "ae_alan": 1.02,
+   "ae_piyasa": 1.15
+  },
+  "YAVUZKAYA": {
+   "kosu": 58,
+   "birinci": 5,
+   "kazanma": 8.6,
+   "ilk3": 36.2,
+   "ae_alan": 0.83,
+   "ae_piyasa": 0.97
+  },
+  "AYDEMİRHAN": {
+   "kosu": 41,
+   "birinci": 0,
+   "kazanma": 0.0,
+   "ilk3": 17.1,
+   "ae_alan": 0.0,
+   "ae_piyasa": 0.0
+  },
+  "ABJAR ACADEMY": {
+   "kosu": 79,
+   "birinci": 10,
+   "kazanma": 12.7,
+   "ilk3": 32.9,
+   "ae_alan": 1.06,
+   "ae_piyasa": 1.09
+  },
+  "LAST EXIT": {
+   "kosu": 82,
+   "birinci": 11,
+   "kazanma": 13.4,
+   "ilk3": 30.5,
+   "ae_alan": 1.29,
+   "ae_piyasa": 1.65
+  },
+  "GENERAL QUARTERS (USA)": {
+   "kosu": 348,
+   "birinci": 50,
+   "kazanma": 14.4,
+   "ilk3": 34.8,
+   "ae_alan": 1.3,
+   "ae_piyasa": 1.24
+  },
+  "TOROK (IRE)": {
+   "kosu": 1042,
+   "birinci": 144,
+   "kazanma": 13.8,
+   "ilk3": 38.5,
+   "ae_alan": 1.27,
+   "ae_piyasa": 1.07
+  },
+  "RED GIANT (USA)": {
+   "kosu": 104,
+   "birinci": 9,
+   "kazanma": 8.7,
+   "ilk3": 24.0,
+   "ae_alan": 0.86,
+   "ae_piyasa": 0.97
+  },
+  "KALİMDOR": {
+   "kosu": 65,
+   "birinci": 6,
+   "kazanma": 9.2,
+   "ilk3": 20.0,
+   "ae_alan": 0.9,
+   "ae_piyasa": 1.15
+  },
+  "MAXIMUS DREAM": {
+   "kosu": 75,
+   "birinci": 6,
+   "kazanma": 8.0,
+   "ilk3": 30.7,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.82
+  },
+  "ÇAKAL CARLOS": {
+   "kosu": 76,
+   "birinci": 8,
+   "kazanma": 10.5,
+   "ilk3": 28.9,
+   "ae_alan": 1.04,
+   "ae_piyasa": 0.8
+  },
+  "INDIAN DAYS (GB)": {
+   "kosu": 42,
+   "birinci": 5,
+   "kazanma": 11.9,
+   "ilk3": 31.0,
+   "ae_alan": 1.13,
+   "ae_piyasa": 1.51
+  },
+  "WIENER WALZER (GER)": {
+   "kosu": 235,
+   "birinci": 30,
+   "kazanma": 12.8,
+   "ilk3": 36.2,
+   "ae_alan": 1.13,
+   "ae_piyasa": 0.97
+  },
+  "KULOĞLU": {
+   "kosu": 125,
+   "birinci": 14,
+   "kazanma": 11.2,
+   "ilk3": 32.8,
+   "ae_alan": 1.1,
+   "ae_piyasa": 1.28
+  },
+  "LILBOURNE LAD (IRE)": {
+   "kosu": 93,
+   "birinci": 6,
+   "kazanma": 6.5,
+   "ilk3": 30.1,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.77
+  },
+  "AMERİKALI": {
+   "kosu": 94,
+   "birinci": 16,
+   "kazanma": 17.0,
+   "ilk3": 43.6,
+   "ae_alan": 1.52,
+   "ae_piyasa": 1.07
+  },
+  "BLUEGRASS CAT (USA)": {
+   "kosu": 574,
+   "birinci": 74,
+   "kazanma": 12.9,
+   "ilk3": 35.2,
+   "ae_alan": 1.19,
+   "ae_piyasa": 1.03
+  },
+  "MYBOYCHARLIE (IRE)": {
+   "kosu": 833,
+   "birinci": 90,
+   "kazanma": 10.8,
+   "ilk3": 33.4,
+   "ae_alan": 1.03,
+   "ae_piyasa": 1.0
+  },
+  "TOUGH GUY": {
+   "kosu": 59,
+   "birinci": 18,
+   "kazanma": 30.5,
+   "ilk3": 47.5,
+   "ae_alan": 2.26,
+   "ae_piyasa": 1.61
+  },
+  "AUTHORIZED (IRE)": {
+   "kosu": 420,
+   "birinci": 35,
+   "kazanma": 8.3,
+   "ilk3": 27.4,
+   "ae_alan": 0.8,
+   "ae_piyasa": 0.89
+  },
+  "FAST 'N' FAMOUS (AUS)": {
+   "kosu": 104,
+   "birinci": 17,
+   "kazanma": 16.3,
+   "ilk3": 39.4,
+   "ae_alan": 1.44,
+   "ae_piyasa": 1.3
+  },
+  "PAPA CLEM (USA)": {
+   "kosu": 740,
+   "birinci": 65,
+   "kazanma": 8.8,
+   "ilk3": 33.8,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.84
+  },
+  "GÜNGÖR BABA": {
+   "kosu": 203,
+   "birinci": 19,
+   "kazanma": 9.4,
+   "ilk3": 34.0,
+   "ae_alan": 0.89,
+   "ae_piyasa": 1.15
+  },
+  "YILDIRIMBEY": {
+   "kosu": 123,
+   "birinci": 10,
+   "kazanma": 8.1,
+   "ilk3": 38.2,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.84
+  },
+  "SUPER SAVER (USA)": {
+   "kosu": 589,
+   "birinci": 64,
+   "kazanma": 10.9,
+   "ilk3": 31.2,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.01
+  },
+  "TIZWAY (USA)": {
+   "kosu": 801,
+   "birinci": 106,
+   "kazanma": 13.2,
+   "ilk3": 34.7,
+   "ae_alan": 1.24,
+   "ae_piyasa": 1.21
+  },
+  "PACO BOY (IRE)": {
+   "kosu": 219,
+   "birinci": 11,
+   "kazanma": 5.0,
+   "ilk3": 19.2,
+   "ae_alan": 0.5,
+   "ae_piyasa": 0.72
+  },
+  "CORINTHIAN (USA)": {
+   "kosu": 105,
+   "birinci": 15,
+   "kazanma": 14.3,
+   "ilk3": 31.4,
+   "ae_alan": 1.23,
+   "ae_piyasa": 1.13
+  },
+  "TRAPPE SHOT (USA)": {
+   "kosu": 501,
+   "birinci": 44,
+   "kazanma": 8.8,
+   "ilk3": 27.9,
+   "ae_alan": 0.8,
+   "ae_piyasa": 0.84
+  },
+  "BODYGUARD HERO (USA)": {
+   "kosu": 123,
+   "birinci": 9,
+   "kazanma": 7.3,
+   "ilk3": 28.5,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.6
+  },
+  "CEMCEM": {
+   "kosu": 91,
+   "birinci": 5,
+   "kazanma": 5.5,
+   "ilk3": 34.1,
+   "ae_alan": 0.46,
+   "ae_piyasa": 0.52
+  },
+  "SIDNEY'S CANDY (USA)": {
+   "kosu": 375,
+   "birinci": 46,
+   "kazanma": 12.3,
+   "ilk3": 33.6,
+   "ae_alan": 1.1,
+   "ae_piyasa": 1.19
+  },
+  "HEMSWORTH (USA)": {
+   "kosu": 94,
+   "birinci": 3,
+   "kazanma": 3.2,
+   "ilk3": 21.3,
+   "ae_alan": 0.31,
+   "ae_piyasa": 0.4
+  },
+  "KING OF TRAKYA": {
+   "kosu": 43,
+   "birinci": 7,
+   "kazanma": 16.3,
+   "ilk3": 44.2,
+   "ae_alan": 1.51,
+   "ae_piyasa": 1.72
+  },
+  "KIRDEMİRKIR": {
+   "kosu": 63,
+   "birinci": 3,
+   "kazanma": 4.8,
+   "ilk3": 27.0,
+   "ae_alan": 0.41,
+   "ae_piyasa": 0.5
+  },
+  "GAZIBORA KHAN (GB)": {
+   "kosu": 78,
+   "birinci": 12,
+   "kazanma": 15.4,
+   "ilk3": 46.2,
+   "ae_alan": 1.32,
+   "ae_piyasa": 1.19
+  },
+  "BODEMEISTER (USA)": {
+   "kosu": 652,
+   "birinci": 67,
+   "kazanma": 10.3,
+   "ilk3": 29.9,
+   "ae_alan": 0.92,
+   "ae_piyasa": 0.88
+  },
+  "DAREDEVIL (USA)": {
+   "kosu": 321,
+   "birinci": 41,
+   "kazanma": 12.8,
+   "ilk3": 32.4,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.15
+  },
+  "RUN AWAY AND HIDE (USA)": {
+   "kosu": 309,
+   "birinci": 34,
+   "kazanma": 11.0,
+   "ilk3": 33.0,
+   "ae_alan": 0.99,
+   "ae_piyasa": 1.04
+  },
+  "GRAYSTORM": {
+   "kosu": 673,
+   "birinci": 71,
+   "kazanma": 10.5,
+   "ilk3": 32.1,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.06
+  },
+  "FLY BY ME": {
+   "kosu": 97,
+   "birinci": 10,
+   "kazanma": 10.3,
+   "ilk3": 33.0,
+   "ae_alan": 1.09,
+   "ae_piyasa": 0.92
+  },
+  "TU BRUTUS (CHI)": {
+   "kosu": 123,
+   "birinci": 8,
+   "kazanma": 6.5,
+   "ilk3": 22.8,
+   "ae_alan": 0.62,
+   "ae_piyasa": 0.88
+  },
+  "AIR VICE MARSHAL (USA)": {
+   "kosu": 240,
+   "birinci": 18,
+   "kazanma": 7.5,
+   "ilk3": 27.1,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.65
+  },
+  "CRIMEAN TATAR": {
+   "kosu": 279,
+   "birinci": 21,
+   "kazanma": 7.5,
+   "ilk3": 31.5,
+   "ae_alan": 0.77,
+   "ae_piyasa": 0.82
+  },
+  "ABBAS YOLCU": {
+   "kosu": 153,
+   "birinci": 16,
+   "kazanma": 10.5,
+   "ilk3": 27.5,
+   "ae_alan": 0.97,
+   "ae_piyasa": 1.37
+  },
+  "GREY CORAL": {
+   "kosu": 45,
+   "birinci": 2,
+   "kazanma": 4.4,
+   "ilk3": 15.6,
+   "ae_alan": 0.51,
+   "ae_piyasa": 0.63
+  },
+  "COOGER": {
+   "kosu": 132,
+   "birinci": 21,
+   "kazanma": 15.9,
+   "ilk3": 32.6,
+   "ae_alan": 1.4,
+   "ae_piyasa": 1.4
+  },
+  "CATAPULT (USA)": {
+   "kosu": 164,
+   "birinci": 18,
+   "kazanma": 11.0,
+   "ilk3": 36.6,
+   "ae_alan": 1.0,
+   "ae_piyasa": 1.01
+  },
+  "OĞLUM MELİH": {
+   "kosu": 50,
+   "birinci": 2,
+   "kazanma": 4.0,
+   "ilk3": 46.0,
+   "ae_alan": 0.37,
+   "ae_piyasa": 0.37
+  },
+  "AVERY ISLAND (USA)": {
+   "kosu": 269,
+   "birinci": 33,
+   "kazanma": 12.3,
+   "ilk3": 37.5,
+   "ae_alan": 1.21,
+   "ae_piyasa": 1.03
+  },
+  "PIANO SONATA": {
+   "kosu": 157,
+   "birinci": 19,
+   "kazanma": 12.1,
+   "ilk3": 35.0,
+   "ae_alan": 1.18,
+   "ae_piyasa": 1.14
+  },
+  "JUNGLE MAN": {
+   "kosu": 47,
+   "birinci": 2,
+   "kazanma": 4.3,
+   "ilk3": 31.9,
+   "ae_alan": 0.4,
+   "ae_piyasa": 0.48
+  },
+  "WOLF PRINCE": {
+   "kosu": 42,
+   "birinci": 4,
+   "kazanma": 9.5,
+   "ilk3": 31.0,
+   "ae_alan": 0.87,
+   "ae_piyasa": 1.06
+  },
+  "KOPENHAG": {
+   "kosu": 55,
+   "birinci": 4,
+   "kazanma": 7.3,
+   "ilk3": 23.6,
+   "ae_alan": 0.69,
+   "ae_piyasa": 0.84
+  },
+  "CROSS FIRE": {
+   "kosu": 56,
+   "birinci": 5,
+   "kazanma": 8.9,
+   "ilk3": 28.6,
+   "ae_alan": 0.81,
+   "ae_piyasa": 0.88
+  },
+  "MORE THAN A GAME (USA)": {
+   "kosu": 43,
+   "birinci": 8,
+   "kazanma": 18.6,
+   "ilk3": 44.2,
+   "ae_alan": 1.57,
+   "ae_piyasa": 1.53
+  },
+  "EUPRHATES (USA)": {
+   "kosu": 245,
+   "birinci": 20,
+   "kazanma": 8.2,
+   "ilk3": 27.3,
+   "ae_alan": 0.8,
+   "ae_piyasa": 0.97
+  },
+  "ENYALIOS": {
+   "kosu": 44,
+   "birinci": 3,
+   "kazanma": 6.8,
+   "ilk3": 29.5,
+   "ae_alan": 0.7,
+   "ae_piyasa": 0.71
+  },
+  "HEP BERABER": {
+   "kosu": 62,
+   "birinci": 6,
+   "kazanma": 9.7,
+   "ilk3": 32.3,
+   "ae_alan": 0.91,
+   "ae_piyasa": 0.75
+  },
+  "HOT CHOCOLATE": {
+   "kosu": 61,
+   "birinci": 5,
+   "kazanma": 8.2,
+   "ilk3": 24.6,
+   "ae_alan": 0.88,
+   "ae_piyasa": 1.03
+  },
+  "TEMELHAN": {
+   "kosu": 63,
+   "birinci": 9,
+   "kazanma": 14.3,
+   "ilk3": 34.9,
+   "ae_alan": 1.5,
+   "ae_piyasa": 1.64
+  },
+  "BLAZE TO WIN": {
+   "kosu": 49,
+   "birinci": 5,
+   "kazanma": 10.2,
+   "ilk3": 34.7,
+   "ae_alan": 0.94,
+   "ae_piyasa": 0.89
+  },
+  "BALLIKAYA": {
+   "kosu": 49,
+   "birinci": 8,
+   "kazanma": 16.3,
+   "ilk3": 44.9,
+   "ae_alan": 1.46,
+   "ae_piyasa": 1.17
+  },
+  "HERE TO FLY": {
+   "kosu": 44,
+   "birinci": 6,
+   "kazanma": 13.6,
+   "ilk3": 27.3,
+   "ae_alan": 1.38,
+   "ae_piyasa": 1.4
+  },
+  "KINOWA": {
+   "kosu": 126,
+   "birinci": 8,
+   "kazanma": 6.3,
+   "ilk3": 29.4,
+   "ae_alan": 0.57,
+   "ae_piyasa": 0.7
+  },
+  "VICTOIRE PISA (JPN)": {
+   "kosu": 521,
+   "birinci": 50,
+   "kazanma": 9.6,
+   "ilk3": 26.3,
+   "ae_alan": 0.92,
+   "ae_piyasa": 0.91
+  },
+  "FINESSE": {
+   "kosu": 130,
+   "birinci": 7,
+   "kazanma": 5.4,
+   "ilk3": 20.0,
+   "ae_alan": 0.5,
+   "ae_piyasa": 0.74
+  },
+  "KLUGER (JPN)": {
+   "kosu": 240,
+   "birinci": 19,
+   "kazanma": 7.9,
+   "ilk3": 31.7,
+   "ae_alan": 0.74,
+   "ae_piyasa": 0.79
+  },
+  "GOOD CURRY": {
+   "kosu": 168,
+   "birinci": 28,
+   "kazanma": 16.7,
+   "ilk3": 41.7,
+   "ae_alan": 1.47,
+   "ae_piyasa": 1.4
+  },
+  "VOODOO SONG (USA)": {
+   "kosu": 107,
+   "birinci": 16,
+   "kazanma": 15.0,
+   "ilk3": 49.5,
+   "ae_alan": 1.31,
+   "ae_piyasa": 1.12
+  },
+  "COPPERFIELD": {
+   "kosu": 62,
+   "birinci": 7,
+   "kazanma": 11.3,
+   "ilk3": 30.6,
+   "ae_alan": 0.91,
+   "ae_piyasa": 0.84
+  },
+  "TOUCH THE WOLF": {
+   "kosu": 221,
+   "birinci": 33,
+   "kazanma": 14.9,
+   "ilk3": 38.9,
+   "ae_alan": 1.43,
+   "ae_piyasa": 0.9
+  },
+  "KING OF THE SUN": {
+   "kosu": 53,
+   "birinci": 7,
+   "kazanma": 13.2,
+   "ilk3": 34.0,
+   "ae_alan": 1.17,
+   "ae_piyasa": 1.19
+  },
+  "NOBEL PRIZE (IRE)": {
+   "kosu": 108,
+   "birinci": 9,
+   "kazanma": 8.3,
+   "ilk3": 36.1,
+   "ae_alan": 0.76,
+   "ae_piyasa": 0.86
+  },
+  "KLIMT (USA)": {
+   "kosu": 200,
+   "birinci": 23,
+   "kazanma": 11.5,
+   "ilk3": 37.0,
+   "ae_alan": 1.01,
+   "ae_piyasa": 1.01
+  },
+  "TILSIT (USA)": {
+   "kosu": 78,
+   "birinci": 8,
+   "kazanma": 10.3,
+   "ilk3": 37.2,
+   "ae_alan": 0.89,
+   "ae_piyasa": 0.83
+  },
+  "BATTLEGROUND (USA)": {
+   "kosu": 160,
+   "birinci": 19,
+   "kazanma": 11.9,
+   "ilk3": 32.5,
+   "ae_alan": 1.08,
+   "ae_piyasa": 1.14
+  },
+  "EPAULETTE (AUS)": {
+   "kosu": 137,
+   "birinci": 13,
+   "kazanma": 9.5,
+   "ilk3": 28.5,
+   "ae_alan": 1.0,
+   "ae_piyasa": 0.89
+  },
+  "SADLER'S JOY (USA)": {
+   "kosu": 111,
+   "birinci": 20,
+   "kazanma": 18.0,
+   "ilk3": 39.6,
+   "ae_alan": 1.6,
+   "ae_piyasa": 1.34
+  },
+  "CALL TO VICTORY": {
+   "kosu": 43,
+   "birinci": 2,
+   "kazanma": 4.7,
+   "ilk3": 9.3,
+   "ae_alan": 0.51,
+   "ae_piyasa": 1.1
+  },
+  "MER DE GLACE (JPN)": {
+   "kosu": 56,
+   "birinci": 4,
+   "kazanma": 7.1,
+   "ilk3": 25.0,
+   "ae_alan": 0.71,
+   "ae_piyasa": 0.73
+  },
+  "ULAN BATOR": {
+   "kosu": 47,
+   "birinci": 7,
+   "kazanma": 14.9,
+   "ilk3": 25.5,
+   "ae_alan": 1.28,
+   "ae_piyasa": 1.84
+  }
+ }
+}

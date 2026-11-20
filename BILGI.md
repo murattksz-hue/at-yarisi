@@ -704,3 +704,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Raporun başında HİPODROM sürpriz satırı (önceden eklendi).
 - Mesafe değişimi testi (`veri/mesafe_degisim_test.json`, 2024+): bu tam mesafede ilk kez A/E 1,03 (z 2,1; 41.876 at), formu iyiyse 1,06 (z 2,6; 1,08/1,03); en kısa mesafe formu iyi 1,17 (359 at, az); son koşuya göre ±200–400 m değişim 0,99–1,05 (anlamsız). Getiriler %61–86 (kârlı değil). Rapora etiket olarak eklendi: İLK KEZ <m>, EN KISA, son koşuya göre ±m.
 - Kullanıcı (20.11): "at seçerken bunlara da bak" → analiz3: listenin hemen dışındaki 3 attan olumlu geçmiş etiketi (formu iyi + ilk kez mesafe/en uzun/en kısa, ya da rakipler DAHA ZAYIF) olanlar **EK ADAY**; listedeki atlarda rakipler DAHA GÜÇLÜ ise **UYARI**. Olasılıklar değişmez; JSON'da `ek_aday`. TEST EDİLMEDİ → canlı takip. 20.11 İzmir üzerinde deneme: 4. koşuda UYARI alan DEDEMHAMZAREİS kazandı (uyarı tek başına güçlü değil).
+
+## Soy x ırk x mesafe (20.11.2026, kullanıcı; `scripts/soy_mesafe.py`, at_gecmisi tüm yıllar, ≥40 koşu)
+- Her ırk+bant için babaların kazanma %, ilk 3 %, A/E (alan büyüklüğüne göre) ve piyasa A/E'si: `veri/soy_mesafe.json`.
+- Öne çıkanlar (A/E alan): Arap kısa AFRİKAANDER (300 koşu %19,3), Arap orta ŞİMŞEĞİNOĞLU (361, %13,9) / ALTAHA (465, %14,2), Arap uzun GÜRSU (95, %20) / YILMABAŞAR (167, %18); İngiliz kısa+orta TOUGH GUY (%31,6 / %30,5), İngiliz uzun MY DEAR SON (41, %31,7), KING DAVID (74, %20,3).
+- Not: çok baba arasından en iyiler seçildiği için küçük örneklerde (40–60 koşu) değerler abartılı olabilir. Raporda AT GEÇMİŞİ satırına "soy … bant: kazanma/ilk3/A/E" eklendi (bilgi; modelde baba kanı zaten var).

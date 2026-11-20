@@ -40,3 +40,13 @@ def notlar(R,KAL,hip,mesafe,alan_hp):
         t.append(f"sınıf: rakipler son 3 koşusuna göre {'DAHA ZAYIF' if fk>=5 else 'DAHA GÜÇLÜ (testte A/E 0,92)' if fk<=-5 else 'benzer'} ({fk:+.0f} HP)")
     s=R[-1]; t.append(f"son: {s['tarih'][5:]} {s['hip']} {s['sonuc']}/{s['kosan']} {s['mesafe']}{(s['pist'] or '?')[:1]}")
     return ' | '.join(t)
+_SM=None
+def soy_not(baba,irk,mesafe):
+    """Babanın bu ırk+mesafe bandındaki geçmişi (veri/soy_mesafe.json, ≥40 koşu)."""
+    global _SM
+    import json
+    if _SM is None:
+        p=os.path.join(K,'veri','soy_mesafe.json'); _SM=json.load(open(p,encoding='utf-8')) if os.path.exists(p) else {}
+    if not mesafe or not baba: return ''
+    v=_SM.get(f"{irk}|{bant(mesafe)}",{}).get(baba)
+    return f"soy {baba[:14]} {bant(mesafe)}: %{v['kazanma']} kazanma, ilk3 %{v['ilk3']} ({v['kosu']} koşu, A/E {v['ae_alan']})" if v else ''
