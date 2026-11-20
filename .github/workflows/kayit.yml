@@ -29,6 +29,7 @@ jobs:
       - run: pip install --quiet numpy
       - name: Plan döngüsü
         run: |
+          set +e
           git config user.name "kayit-bot"; git config user.email "kayit-bot@users.noreply.github.com"
           kaydet() {
             for y in veri/at_gecmisi veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/canli_takip*.csv veri/para_takip.csv analizler; do [ -e "$y" ] && git add -A "$y"; done
