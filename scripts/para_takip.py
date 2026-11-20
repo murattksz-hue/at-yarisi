@@ -38,10 +38,17 @@ for a in kos['atlar']:
     yeni.append(dict(tarih=T,hip=H,kosu=NO,saat=saat,at=at,agf_sabah=agf[0] if agf else '',agf_son=agf[-1] if agf else '',
         g60=g60 or '',g30=g30 or '',g10=g10 or '',g_son=gs or '',g_son_dk=(bas-ms) if ms is not None else '',kesin=f(a.get('GANYAN')) or '',
         sonuc=a.get('SONUC'),para=int(isaret),belirsiz=belirsiz,sessiz=int(bool(agf) and agf[0]>=2 and abs(agf[-1]-agf[0])<=1.0)))
+# ⭐ sürpriz adayı sinyali (geçmiş test: 2.047 bahis, %8 kazandı, ganyan getirisi %127; 2024 %126 / 2025 %133 / 2026 %121 – ama KESİN ganyan ve son AGF ile;
+# canlıda koşu öncesi SON görüntüyle ölçülüyor): son ganyan ≥10, AGF payı ≥1,3 × ganyan olasılığı, HP ilk 3. TEST EDİLİYOR, olasılığa katılmaz.
+HP={a['AD']:f(a.get('HANDIKAP')) or 0 for a in kos['atlar'] if not a.get('KOSMAZ')}; hps={a:i+1 for i,a in enumerate(sorted(HP,key=lambda a:-HP[a]))}
+gs_={y['at']:f(y['g_son']) for y in yeni if f(y['g_son'])}; tq=sum(1/g for g in gs_.values()) if gs_ else 0
+for y in yeni:
+    g=gs_.get(y['at']); a=f(y['agf_son'])
+    y['sinyal']=int(bool(g and tq and a and g>=10 and (a/100)>=1.3*(1/g)/tq and hps.get(y['at'],99)<=3))
 yaz=[y for y in yeni if (y['tarih'],y['hip'],y['kosu'],y['at']) not in var]
 if yaz:
     ilk=not os.path.exists(out); w=csv.DictWriter(open(out,'a',encoding='utf-8',newline=''),fieldnames=list(yaz[0]))
     if ilk: w.writeheader()
     w.writerows(yaz)
 for y in sorted(yeni,key=lambda y:int(y['sonuc']) if str(y['sonuc']).isdigit() else 99):
-    print(f"{'💰' if y['para'] else '  '}{'🤫' if y['sessiz'] else '  '} {y['sonuc']:>2}. {y['at'][:18]:18} AGF %{y['agf_sabah']}→%{y['agf_son']} | gny -60:{y['g60']} -30:{y['g30']} -10:{y['g10']} son:{y['g_son']}({y['g_son_dk']}dk) kesin:{y['kesin']}")
+    print(f"{'💰' if y['para'] else '  '}{'🤫' if y['sessiz'] else '  '}{'⭐' if y.get('sinyal') else '  '} {y['sonuc']:>2}. {y['at'][:18]:18} AGF %{y['agf_sabah']}→%{y['agf_son']} | gny -60:{y['g60']} -30:{y['g30']} -10:{y['g10']} son:{y['g_son']}({y['g_son_dk']}dk) kesin:{y['kesin']}")

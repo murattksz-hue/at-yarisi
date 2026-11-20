@@ -670,3 +670,11 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Yorum: ilk yayında iki kaynak senkron değil; en uç değerler TJK CSV'de (çok az kuponla ilk hesap olabilir – doğrulanmadı). "Sabah ilk AGF" çok oynak → AGF değişimi testinde ikinci bir sabah noktası (~10:00) ve 12:00 da baz alınacak. Kazanan profilinde TJK ILK; para_takip'te ebayi ilk görüntü.
 - Kullanıcı (20.11): "İlk hangisinde çıkıyorsa doğru olan odur; sabah ikisinden de AGF çek." → Sabah kontrolü 5 dk'da bir, TJK ILK (ILK_<hip>.csv) VE ebayi ILK (ILK_<hip>_ebayi.json) alınana kadar sürer; ilk görülme saatleri `veri/agf_kayit/<gün>/ilk_zaman.json`. 20.11'de ikisi de 09:26 kontrolünde doluydu (hangisinin önce yayınladığı bilinmiyor).
 - 20.11 17:15–19:45 Actions döngüsü push edemedi (Claude oturumu aynı CSV'leri – para_takip/kazanan_profil – elle yazınca rebase çakışması). Düzeltme: döngüde `pull --rebase -X theirs`, hata olursa rebase iptal. Kural: Claude oturumu bu CSV'leri elle yazmaz (yalnızca okur/ekrana basar). Kayıp: İzmir koşularının −60/−30/−10 görüntüleri (17:15–19:45).
+
+## Sürprizlerin ortak noktaları (20.11.2026, `scripts/surpriz_ortak.py`, 2024+ gerçek sonuçlar, ganyanı ≥10 olan 88.216 at)
+- Genel: ganyanı ≥10 atlar piyasanın beklediğinden AZ kazanıyor (A/E 0,90; 40+ ganyan 0,62).
+- **Piyasanın küçümsediği sürprizler (iki dönemde de aynı yön):** HP sırası ilk 3 (A/E 1,30, z 7,1; 13.036 at); AGF payı ganyan olasılığının 1,3–2 katı (A/E 1,26, z 4,7; AGF'li koşular). AGF payı ganyanın ≤0,7 katı → A/E 0,47.
+- İkisi birlikte (gny≥10 + AGF≥1,3× + HP ilk 3): 2.047 bahis, %8,0 kazandı, **1 TL ganyan getirisi %127** (2024 %126, 2025 %133, 2026 %121).
+- UYARI: Bu testte KESİN ganyan ve kapanış AGF'si kullanıldı (koşudan önce kesin ganyan bilinmez) → canlıda koşu öncesi son görüntüyle ⭐ olarak ölçülüyor (`para_takip.py`, sütun sinyal). Canlı sonuç gelmeden bahis önerisi değil.
+- İlk denemede AGF'siz koşular "AGF geride" sayılıp sahte sonuç verdi (A/E 1,94) → düzeltildi, yalnızca AGF'li koşular.
+- Etkisiz/zayıf: jokey değişimi, pist/hipodrom değişimi, takı, ara süresi (>60 gün A/E 0,75), tür değişimi.
