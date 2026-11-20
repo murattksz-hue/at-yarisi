@@ -1,4 +1,4 @@
-"""AGF ve ganyan: her koşu için 4 nokta — 1) sabah ilk, 2) öğle (12:30'a en yakın), 3) koşudan 30 dk önce, 4) koşudan 5 dk önce (son). Eski ad: zaman çizelgesi (gerçek kayıtlar: veri/agf_kayit/<tarih>/). Kullanım: takip_rapor.py GG.AA.YYYY Hipodrom [koşu_no]
+"""AGF ve ganyan karşılaştırması, kayıt planına göre (kullanıcı, 20.11): 1) sabah ilk, 2) öğle (12:00 kontrolü), 3) koşudan 1 saat önce, 4) koşu öncesi son kayıt. Eski ad: zaman çizelgesi (gerçek kayıtlar: veri/agf_kayit/<tarih>/). Kullanım: takip_rapor.py GG.AA.YYYY Hipodrom [koşu_no]
 Her koşu için en çok oynanan 5 at: her kayıttaki AGF ve ganyan (İstanbul saati), bitiş (TJK canlı sayfası) ve kesin ganyan (TJK sonuç dosyası, varsa)."""
 import sys,os,re,glob,json,datetime,subprocess,urllib.parse
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -45,14 +45,14 @@ for k in SN[-1][1]:
     bas=BAS.get(k); son_agf=SN[-1][1][k]; top=sorted(son_agf,key=lambda a:-(son_agf[a]['agf'] or 0))[:5]
     dolu=[(s_,R) for s_,R in SN if any((R.get(k,{}).get(a) or {}).get('agf') for a in R.get(k,{}))]
     ilk=dolu[0] if dolu else (None,None)
-    ogle=min(dolu,key=lambda x:abs(dk(x[0])-750)) if dolu else (None,None)
-    n30=nokta(dolu,k,lambda m:bas is not None and m<=bas-25) ; n5=nokta(dolu,k,lambda m:bas is not None and m<=bas-2)
+    ogle=min(dolu,key=lambda x:abs(dk(x[0])-720)) if dolu else (None,None)
+    n30=nokta(dolu,k,lambda m:bas is not None and m<=bas-55) ; n5=nokta(dolu,k,lambda m:bas is not None and m<=bas-2)
     GL=sorted(GN.items())
     g_ilk=GL[0] if GL else (None,{}); g_og=min(GL,key=lambda x:abs(dk(x[0])-750)) if GL else (None,{})
-    g30=nokta(GL,k,lambda m:bas is not None and m<=bas-25); g5=nokta(GL,k,lambda m:bas is not None and m<=bas-2)
+    g30=nokta(GL,k,lambda m:bas is not None and m<=bas-55); g5=nokta(GL,k,lambda m:bas is not None and m<=bas-2)
     t_=lambda x:tr(x) if x else '—'
     print(f"\n=== {hip} {k}. koşu (başlangıç {bas//60:02d}:{bas%60:02d}) ===" if bas else f"\n=== {hip} {k}. koşu ===")
-    print(f"  {'at':22} {'AGF: sabah '+t_(ilk[0]):>17} {'öğle '+t_(ogle[0]):>11} {'-30dk '+t_(n30[0]):>12} {'-5dk '+t_(n5[0]):>11} | {'ganyan: sabah':>13} {'öğle':>6} {'-30dk':>6} {'-5dk':>6} | kesin ganyan, sonuç")
+    print(f"  {'at':22} {'AGF: sabah '+t_(ilk[0]):>17} {'öğle '+t_(ogle[0]):>11} {'-1saat '+t_(n30[0]):>12} {'son '+t_(n5[0]):>11} | {'ganyan: sabah':>13} {'öğle':>6} {'-1saat':>6} {'son':>6} | kesin ganyan, sonuç")
     for a in top:
         fa=lambda sn:(f"%{sn[1][k][a]['agf']:.0f}" if sn[1] and sn[1].get(k,{}).get(a,{}).get('agf') else '—')
         fg=lambda sn:(f"{sn[1][a]:.2f}" if sn[1] and sn[1].get(a,0)>1 else '—')
