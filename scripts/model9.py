@@ -5,6 +5,7 @@ Kullanım: model.py sonuc_dizini program_dizini test_baslangic(YYYY-AA-GG) cikti
 import sys,glob,os,re,json,collections,math
 import numpy as np
 GO=json.load(open(os.environ['GECMIS'],encoding='utf-8'))
+SN=json.load(open(os.environ['SINIF'],encoding='utf-8')) if os.environ.get('SINIF') else None   # deneme: sınıf farkı özelliği
 HV=json.load(open(os.environ.get('HAVA','/home/user/at-yarisi/veri/hava_gecmis.json'),encoding='utf-8'))
 SD,PD,T,OUT=sys.argv[1:5]; LAM=float(sys.argv[5]) if len(sys.argv)>5 else 1000.0; SEGMOD=sys.argv[6] if len(sys.argv)>6 else 'irk'; AGFSIZ=len(sys.argv)>7 and sys.argv[7]=='agfsiz'
 def aile(h):
@@ -61,7 +62,7 @@ def ae(D,k,w,e,pr=4,loo=True):
     return (max(W,0)+pr)/(max(E,0)+pr)
 PC={'K':'Kum','Ç':'Çim','S':'Sentetik'}
 FEAT=['hp','s20','form','pist_form','baba_kani','kulvar','agf','uzun_ara','apranti','yas','kilo','jokey','islak_hp','islak_agf','baba_islak',
-      'hiz_en_iyi3','hiz_son','pist_mesafe_galibi','pist_galibi','deneyim','sahip','galop_400','galop_yok','galop_son7','galop_sayi30','galop_zorlanarak','disi_karma']
+      'hiz_en_iyi3','hiz_son','pist_mesafe_galibi','pist_galibi','deneyim','sahip','galop_400','galop_yok','galop_son7','galop_sayi30','galop_zorlanarak','disi_karma']+(['sinif_fark'] if SN is not None else [])
 def ozellik(r,hip,loo,wet=False,b=None):
     n=len(r['h']); X=[]
     for x in r['h']:
@@ -89,6 +90,11 @@ def ozellik(r,hip,loo,wet=False,b=None):
         E[:,j]=z
     E=np.nan_to_num(E)
     DK=np.array([[float(x.get('dis',False) and not r.get('disi_kosu',False))] for x in r['h']])
+    if SN is not None:
+        key=b[:-4] if b and b.endswith('.csv') else b
+        c=np.array([SN.get(f"{key}|{r['no']}|{x['ad']}",np.nan) for x in r['h']],float); ok=np.isfinite(c); z=np.zeros(len(c))
+        if ok.sum()>1 and c[ok].std()>0: z[ok]=np.clip((c[ok]-c[ok].mean())/c[ok].std(),-2.5,2.5)
+        return np.hstack([Z,E,DK,z[:,None]])
     return np.hstack([Z,E,DK])
 # ---- 2) program + sonuç eşle
 egit,test=[],[]
