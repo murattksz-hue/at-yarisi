@@ -152,6 +152,51 @@
   "ae_ilk": 1.12,
   "ae_son": 0.94
  },
+ "babanın geçmiş A/E: 0,7-1,0": {
+  "at": 33106,
+  "kazandi": 928,
+  "beklenen": 1126.8,
+  "ae": 0.82,
+  "z": -5.92,
+  "ae_ilk": 0.87,
+  "ae_son": 0.78
+ },
+ "babanın geçmiş A/E: 1,0-1,3": {
+  "at": 35601,
+  "kazandi": 1166,
+  "beklenen": 1221.1,
+  "ae": 0.95,
+  "z": -1.58,
+  "ae_ilk": 0.98,
+  "ae_son": 0.94
+ },
+ "babanın geçmiş A/E: <0,7": {
+  "at": 6198,
+  "kazandi": 171,
+  "beklenen": 205.6,
+  "ae": 0.83,
+  "z": -2.41,
+  "ae_ilk": 0.8,
+  "ae_son": 0.91
+ },
+ "babanın geçmiş A/E: az veri (<20 beklenen yok)": {
+  "at": 8213,
+  "kazandi": 238,
+  "beklenen": 260.7,
+  "ae": 0.91,
+  "z": -1.41,
+  "ae_ilk": 0.9,
+  "ae_son": 0.95
+ },
+ "babanın geçmiş A/E: ≥1,3": {
+  "at": 5098,
+  "kazandi": 193,
+  "beklenen": 174.1,
+  "ae": 1.11,
+  "z": 1.43,
+  "ae_ilk": 1.14,
+  "ae_son": 1.07
+ },
  "ganyan: 10-20": {
   "at": 38821,
   "kazandi": 1906,
@@ -502,5 +547,23 @@
   "z": -2.97,
   "ae_ilk": 0.96,
   "ae_son": 0.87
+ },
+ "ırk: Arap": {
+  "at": 44528,
+  "kazandi": 1413,
+  "beklenen": 1483.8,
+  "ae": 0.95,
+  "z": -1.84,
+  "ae_ilk": 0.98,
+  "ae_son": 0.92
+ },
+ "ırk: İngiliz": {
+  "at": 43688,
+  "kazandi": 1283,
+  "beklenen": 1504.6,
+  "ae": 0.85,
+  "z": -5.71,
+  "ae_ilk": 0.87,
+  "ae_son": 0.84
  }
 }

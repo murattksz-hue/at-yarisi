@@ -678,3 +678,4 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - UYARI: Bu testte KESİN ganyan ve kapanış AGF'si kullanıldı (koşudan önce kesin ganyan bilinmez) → canlıda koşu öncesi son görüntüyle ⭐ olarak ölçülüyor (`para_takip.py`, sütun sinyal). Canlı sonuç gelmeden bahis önerisi değil.
 - İlk denemede AGF'siz koşular "AGF geride" sayılıp sahte sonuç verdi (A/E 1,94) → düzeltildi, yalnızca AGF'li koşular.
 - Etkisiz/zayıf: jokey değişimi, pist/hipodrom değişimi, takı, ara süresi (>60 gün A/E 0,75), tür değişimi.
+- Irk ve soy (kullanıcı fikri, aynı analiz): Arap sürprizler A/E 0,95, İngiliz 0,85 (z −5,7; iki dönemde aynı) → İngiliz uzak ihtimaller piyasanın beklediğinden de az kazanıyor; Arap sürprizler beklentiye yakın. Babanın o güne kadarki A/E'si ≥1,3 olan sürprizler A/E 1,11 (z 1,4, 5.098 at) → yön mantıklı ama anlamlı değil; 0,7–1,0 babalar 0,82. Soy etkisi piyasada büyük ölçüde fiyatlanmış.

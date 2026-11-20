@@ -9,7 +9,7 @@ def f(v):
 R=collections.defaultdict(list)
 for fn in sorted(glob.glob(os.path.join(K,'veri','at_gecmisi','202[4-9]','*.csv.gz'))):
     for r in csv.DictReader(io.TextIOWrapper(gzip.open(fn),encoding='utf-8')): R[(r['tarih'],r['hip'],r['kosu'])].append(r)
-SON={}; S=collections.defaultdict(lambda:[0.0,0.0,0,0.0,0.0,0.0,0.0])  # W,E,n, W1,E1, W2,E2
+BABA=collections.defaultdict(lambda:[0.0,0.0]); SON={}; S=collections.defaultdict(lambda:[0.0,0.0,0,0.0,0.0,0.0,0.0])  # W,E,n, W1,E1, W2,E2
 def kova(ad,v): return f"{ad}: {v}"
 for key in sorted(R,key=lambda k:(k[0],k[1],int(k[2] or 0))):
     A=R[key]; t=key[0]; G=[f(a['ganyan']) for a in A]
@@ -39,12 +39,18 @@ for key in sorted(R,key=lambda k:(k[0],k[1],int(k[2] or 0))):
             if all(x>0 for x in AG): B.append(kova('AGF payı / ganyan olasılığı',('AGF ≥2× ganyan' if AG[i]/100>=2*q[i] else 'AGF 1,3-2×' if AG[i]/100>=1.3*q[i] else 'AGF ≤0,7×' if AG[i]/100<=0.7*q[i] else 'yakın')))
             B.append(kova('HP sırası',('1-3' if hp_s[i]<=3 else '4-6' if hp_s[i]<=6 else '7+')))
             B.append(kova('yaş',(a['yas'] or '?').split()[0]))
+            irk='Arap' if (a['grup'] or '').endswith('A') else 'İngiliz' if (a['grup'] or '').endswith('İ') else '?'
+            B.append(kova('ırk',irk))
+            bw,be=BABA[a['baba']]
+            B.append(kova('babanın geçmiş A/E',('az veri (<20 beklenen yok)' if be<2 else '≥1,3' if bw/be>=1.3 else '1,0-1,3' if bw/be>=1.0 else '0,7-1,0' if bw/be>=0.7 else '<0,7')))
             B.append(kova('ganyan',('10-20' if G[i]<20 else '20-40' if G[i]<40 else '40+')))
             w=float(a['sonuc']=='1'); ilk=t<'2025-07'
             for b in B:
                 x=S[b]; x[0]+=w; x[1]+=q[i]; x[2]+=1
                 if ilk: x[3]+=w; x[4]+=q[i]
                 else: x[5]+=w; x[6]+=q[i]
+    if ok:
+        for i,a in enumerate(A): BABA[a['baba']][0]+=a['sonuc']=='1'; BABA[a['baba']][1]+=q[i]
     for a in A: SON[a['kod']]=a
 out={}
 print(f"{'grup':48} {'at':>7} {'kazandı':>7} {'beklenen':>8} {'A/E':>5} {'z':>5} | ilk dön A/E | son dön A/E")
