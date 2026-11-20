@@ -651,3 +651,4 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 ## Kazananın AGF hareketi – ilk gözlem (20.11.2026, `scripts/agf_hareket.py`, 16 koşu: 19.11 + 20.11 Antalya 2-3)
 - Kazanan, sabahtan koşuya AGF'si EN ÇOK artan at: 6/16; ilk 2'de: 8/16. AGF'si düşen ya da yerinde sayan (sessiz) kazanan: 7/16 (ör. 20.11 Antalya 3 SPEEDTAIL %6,9→%6,0, gny 16,75).
 - Not: 19.11 ILK kaydının gerçek sabah ilk AGF olup olmadığı kesin değil (ILK zamanlaması 20.11'de düzeltildi). Örnek çok küçük, piyasa favorisi etkisinden ayrılmadı → TEST DEĞİL, gözlem. Test planı yukarıda (~600 koşu).
+- Takip eklendi (kullanıcı): belirsiz koşularda (≥5 aday) AGF'si sessiz kalan atlar (sabah→son ≤1 puan, AGF ≥%2) `para_takip.py` ile 🤫 işaretlenir; `veri/para_takip.csv` sütunları belirsiz/sessiz. Test edilmedi; veri birikince kazanma A/E'si ölçülecek.

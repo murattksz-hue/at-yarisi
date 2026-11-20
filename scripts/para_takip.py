@@ -26,6 +26,9 @@ def once(dk,at,i):   # koşudan en az dk dakika önceki son görüntü
     return (f(v[-1][1][at][i]),v[-1][0]) if v else (None,None)
 out=os.path.join(K,'veri','para_takip.csv'); var=set()
 if os.path.exists(out): var={(r['tarih'],r['hip'],r['kosu'],r['at']) for r in csv.DictReader(open(out,encoding='utf-8'))}
+# belirsiz koşu: dondurulmuş tahminde ≥5 aday (oneri_at); sessiz AGF: sabah→son değişim ≤1 puan (AGF ≥%2) – TEST EDİLMEDİ, takip
+tf=os.path.join(K,'veri','tahminler',f"{T}_{H}.json"); belirsiz=0
+if os.path.exists(tf): belirsiz=int(next((r.get('oneri_at',0) for r in json.load(open(tf,encoding='utf-8')) if r['kosu']==NO),0)>=5)
 yeni=[]
 for a in kos['atlar']:
     if a.get('KOSMAZ'): continue
@@ -34,11 +37,11 @@ for a in kos['atlar']:
     isaret=bool(g30 and gs and gs<=20 and g30/gs>=1.4)
     yeni.append(dict(tarih=T,hip=H,kosu=NO,saat=saat,at=at,agf_sabah=agf[0] if agf else '',agf_son=agf[-1] if agf else '',
         g60=g60 or '',g30=g30 or '',g10=g10 or '',g_son=gs or '',g_son_dk=(bas-ms) if ms is not None else '',kesin=f(a.get('GANYAN')) or '',
-        sonuc=a.get('SONUC'),para=int(isaret)))
+        sonuc=a.get('SONUC'),para=int(isaret),belirsiz=belirsiz,sessiz=int(bool(agf) and agf[0]>=2 and abs(agf[-1]-agf[0])<=1.0)))
 yaz=[y for y in yeni if (y['tarih'],y['hip'],y['kosu'],y['at']) not in var]
 if yaz:
     ilk=not os.path.exists(out); w=csv.DictWriter(open(out,'a',encoding='utf-8',newline=''),fieldnames=list(yaz[0]))
     if ilk: w.writeheader()
     w.writerows(yaz)
 for y in sorted(yeni,key=lambda y:int(y['sonuc']) if str(y['sonuc']).isdigit() else 99):
-    print(f"{'💰' if y['para'] else '  '} {y['sonuc']:>2}. {y['at'][:18]:18} AGF %{y['agf_sabah']}→%{y['agf_son']} | gny -60:{y['g60']} -30:{y['g30']} -10:{y['g10']} son:{y['g_son']}({y['g_son_dk']}dk) kesin:{y['kesin']}")
+    print(f"{'💰' if y['para'] else '  '}{'🤫' if y['sessiz'] else '  '} {y['sonuc']:>2}. {y['at'][:18]:18} AGF %{y['agf_sabah']}→%{y['agf_son']} | gny -60:{y['g60']} -30:{y['g30']} -10:{y['g10']} son:{y['g_son']}({y['g_son_dk']}dk) kesin:{y['kesin']}")
