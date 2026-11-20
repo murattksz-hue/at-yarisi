@@ -623,5 +623,5 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Konteyner döngüsü (agf_dongu.sh) ve 09:10/13:10/17:10 zamanlanmış görev kapatıldı (çift kayıt ve kota). Repo gizli; ücretsiz paket 2.000 dk/ay, plan ~50 çalıştırma/gün.
 
 ## Bahis birim fiyatları (kullanıcı, 20.11.2026)
-- 3'lü ganyan: kombinasyon başı **2 TL** (42 kombinasyon = 84 TL, kullanıcının kupon ekranı). Altılı: **1,25 TL**. En az oynama: **20 TL**.
+- 3'lü ganyan: kombinasyon başı **2 TL** (42 kombinasyon = 84 TL, kullanıcının kupon ekranı). Altılı: **2 TL** (kullanıcı düzeltti; önce 1,25 demişti). En az oynama: **20 TL**.
 - Kupon kayıtları: veri/kuponlar.csv.
