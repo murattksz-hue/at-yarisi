@@ -214,7 +214,12 @@ for ri,r in enumerate(races):
         if _sp: gtxt+=' ⭐SÜRPRİZ ADAYI (gny≥10, AGF ≥1,3× ganyan, HP ilk 3: geçmişte getiri %127, canlı test ediliyor)'
         print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}, değer için ganyan ≥{1.5/p[i]:.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret}{gtxt} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')}{' ★pist-mesafe galibi' if x.get('pmg') else (' pist galibi' if x.get('pg') else '')} {x.get('say',0)} koşu{' (İLK KOŞU: maidende piyasa fazla oynuyor)' if MAI and not x.get('say',0) else ''} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
     if _AN:
-        _m=_re.search(r'(\d{3,4})m',r['bas']); _ms=float(_m.group(1)) if _m else 0; _hv=[y['hp'] for y in h if y['hp']]; _ah=sum(_hv)/len(_hv) if len(_hv)>=4 else None
+        _m=_re.search(r'(\d{3,4})m',r['bas'])
+        if not _m:   # başlıkta mesafe yoksa program CSV'sinin koşu satırından
+            _no=r['bas'].split('.')[0].strip()
+            for _l in open(pc,encoding='utf-8-sig'):
+                if _l.startswith(f"{_no}. Kosu"): _m=_re.search(r'(\d{3,4})m',_l); break
+        _ms=float(_m.group(1)) if _m else 0; _hv=[y['hp'] for y in h if y['hp']]; _ah=sum(_hv)/len(_hv) if len(_hv)>=4 else None
         print('    AT GEÇMİŞİ:')
         for i in srt[:max(5,KA)]: print(f"     #{h[i]['no']:>2} {h[i]['ad'][:16]:16} "+_AN.notlar(_ATG.get(h[i]['ad'].upper(),[]),_KAL,HIP,_ms,_ah))
     JSONOUT.append(dict(kosu=r['bas'].split(' Kosu')[0].strip().rstrip('.'), baslik=r['bas'], coklu_ganyan_baslar=r.get('coklu',[]), agf_yok=bool(agf_gercek_yok),oneri_at=KA,model='agfsiz' if agf_yok else 'agfli',
