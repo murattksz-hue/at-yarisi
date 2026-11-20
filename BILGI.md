@@ -587,4 +587,4 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Sheep-Meadow-Road-Games/open-horse-data: oyun (Horse Racing Manager) için 12 kaynaktan at + pedigri CSV'si üretir; veri repoda yok, betiklerle indirilir. Lisans MIT + atıf zorunlu (kullanılırsa Sheep Meadow Road Games / Horse Racing Manager adı ve linki).
 - Türkiye kısmı: `fetch_tjk.py` TJK "Orijin" sorgu tablosunu (tjk.org/EN/YarisSever/Query/DataRows/Orijin, form POST, 50'şer satır, ~2.266 istek) indirir: ~113 bin at için baba, anne, anne babası, don, ülke. Yarış sonucu, derece, AGF, ganyan yok.
 - Bizde zaten var: ebayi programında BABA/ANNE/ANNEBABA ve kodları; baba kanı modelde (v2'den beri), anne babası ve anne kardeş v11'de test edildi → gürültü düzeyi.
-- Karar: kullanılmadı. Yeni bilgi yalnızca don ve ülke; tahmine katkısı test edilmedi, beklenen kazanç düşük. Kod indirilmedi/çalıştırılmadı, sadece okundu.
+- Karar: kullanılmadı. Yeni bilgi yalnızca don ve ülke; tahmine katkısı test edilmedi, beklenen kazanç düşük. Repo klonlanıp okundu, betikler çalıştırılmadı.
