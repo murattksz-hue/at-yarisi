@@ -679,3 +679,10 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - İlk denemede AGF'siz koşular "AGF geride" sayılıp sahte sonuç verdi (A/E 1,94) → düzeltildi, yalnızca AGF'li koşular.
 - Etkisiz/zayıf: jokey değişimi, pist/hipodrom değişimi, takı, ara süresi (>60 gün A/E 0,75), tür değişimi.
 - Irk ve soy (kullanıcı fikri, aynı analiz): Arap sürprizler A/E 0,95, İngiliz 0,85 (z −5,7; iki dönemde aynı) → İngiliz uzak ihtimaller piyasanın beklediğinden de az kazanıyor; Arap sürprizler beklentiye yakın. Babanın o güne kadarki A/E'si ≥1,3 olan sürprizler A/E 1,11 (z 1,4, 5.098 at) → yön mantıklı ama anlamlı değil; 0,7–1,0 babalar 0,82. Soy etkisi piyasada büyük ölçüde fiyatlanmış.
+
+## Sınıf düşüşü / yükselişi (20.11.2026, kullanıcı fikri, `scripts/sinif_dusus.py`, 2024+)
+- Ölçü: son 3 koşudaki rakiplerin ortalama HP'si − bugünkü koşunun ortalama HP'si.
+- Kötü formlu sürpriz adaylarında (gny≥10, son 3 ort. sıra ≥6) sınıf düşüşü piyasanın beklediğinden FAZLA kazandırmıyor: düşüş ≥10 A/E 0,95, 5-10 0,97 (anlamsız).
+- Asıl etki ters yönde: daha güçlü rakiplere çıkan atlar (yükseliş ≥5) beklenenden az kazanıyor: tüm atlar A/E 0,92 (z −5,0), gny≥10 0,80 (z −5,9), kötü form+yükseliş 0,70; iki dönemde aynı.
+- Tüm atlarda büyük düşüş (≥10) A/E 1,07 (z 2,9; 1,06/1,08) → küçük artı, getirisi %71 (kârlı değil).
+- Modelde açık bir "sınıf farkı" özelliği yok → ileride özellik testi adayı (sinif_fark).

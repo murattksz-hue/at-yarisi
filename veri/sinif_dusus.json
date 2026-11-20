@@ -1,0 +1,110 @@
+{
+ "gny≥10 + kötü form (son3 ort ≥6) | aynı ±5": {
+  "at": 22919,
+  "kazandi": 624,
+  "ae": 0.93,
+  "z": -1.9,
+  "getiri": 58,
+  "ae_ilk": 0.92,
+  "ae_son": 0.94
+ },
+ "gny≥10 + kötü form (son3 ort ≥6) | düşüş 5-10": {
+  "at": 6354,
+  "kazandi": 198,
+  "ae": 0.97,
+  "z": -0.4,
+  "getiri": 67,
+  "ae_ilk": 1.06,
+  "ae_son": 0.89
+ },
+ "gny≥10 + kötü form (son3 ort ≥6) | düşüş ≥10": {
+  "at": 4169,
+  "kazandi": 134,
+  "ae": 0.95,
+  "z": -0.6,
+  "getiri": 63,
+  "ae_ilk": 1.01,
+  "ae_son": 0.89
+ },
+ "gny≥10 + kötü form (son3 ort ≥6) | yükseliş ≥5": {
+  "at": 11387,
+  "kazandi": 200,
+  "ae": 0.7,
+  "z": -5.1,
+  "getiri": 43,
+  "ae_ilk": 0.69,
+  "ae_son": 0.7
+ },
+ "gny≥10 | aynı ±5": {
+  "at": 34207,
+  "kazandi": 1154,
+  "ae": 0.98,
+  "z": -0.6,
+  "getiri": 63,
+  "ae_ilk": 1.01,
+  "ae_son": 0.96
+ },
+ "gny≥10 | düşüş 5-10": {
+  "at": 8371,
+  "kazandi": 290,
+  "ae": 0.97,
+  "z": -0.5,
+  "getiri": 67,
+  "ae_ilk": 1.07,
+  "ae_son": 0.87
+ },
+ "gny≥10 | düşüş ≥10": {
+  "at": 5338,
+  "kazandi": 187,
+  "ae": 0.95,
+  "z": -0.7,
+  "getiri": 64,
+  "ae_ilk": 0.99,
+  "ae_son": 0.92
+ },
+ "gny≥10 | yükseliş ≥5": {
+  "at": 26439,
+  "kazandi": 698,
+  "ae": 0.8,
+  "z": -5.9,
+  "getiri": 51,
+  "ae_ilk": 0.81,
+  "ae_son": 0.79
+ },
+ "tüm atlar | aynı ±5": {
+  "at": 68855,
+  "kazandi": 7556,
+  "ae": 1.03,
+  "z": 3.0,
+  "getiri": 68,
+  "ae_ilk": 1.04,
+  "ae_son": 1.03
+ },
+ "tüm atlar | düşüş 5-10": {
+  "at": 18484,
+  "kazandi": 2191,
+  "ae": 1.02,
+  "z": 0.9,
+  "getiri": 68,
+  "ae_ilk": 1.02,
+  "ae_son": 1.02
+ },
+ "tüm atlar | düşüş ≥10": {
+  "at": 12715,
+  "kazandi": 1792,
+  "ae": 1.07,
+  "z": 2.9,
+  "getiri": 71,
+  "ae_ilk": 1.06,
+  "ae_son": 1.08
+ },
+ "tüm atlar | yükseliş ≥5": {
+  "at": 45664,
+  "kazandi": 3868,
+  "ae": 0.92,
+  "z": -5.0,
+  "getiri": 57,
+  "ae_ilk": 0.91,
+  "ae_son": 0.93
+ }
+}
