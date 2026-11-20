@@ -35,13 +35,13 @@ jobs:
             for y in veri/at_gecmisi veri/kazanan_profil.csv veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/canli_takip*.csv veri/para_takip.csv analizler; do [ -e "$y" ] && git add -A "$y"; done
             git diff --cached --quiet && return 0
             git commit -q -m "AGF/ganyan kaydı (Actions)"
-            for i in 1 2 3 4; do git pull -q --rebase && git push -q && return 0; sleep $((i*10)); done
+            for i in 1 2 3 4; do git pull -q --rebase -X theirs && git push -q && return 0; git rebase --abort 2>/dev/null; sleep $((i*10)); done
           }
           if [ "${{ github.event.inputs.test }}" = "true" ]; then python3 -I scripts/agf_kayit.py; kaydet; exit 0; fi
           ozel=$(gh api "repos/$GITHUB_REPOSITORY" --jq .private)
           bas=$(date +%s); bitti=0
           while :; do
-            git pull -q --rebase || true
+            git pull -q --rebase -X theirs || git rebase --abort 2>/dev/null
             python3 -I scripts/agf_plan.py; kod=$?
             kaydet
             [ "$kod" -eq 3 ] && { bitti=1; break; }
