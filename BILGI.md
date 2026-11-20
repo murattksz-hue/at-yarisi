@@ -615,3 +615,9 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
   2) Koşullu logit: piyasa (kesin ganyan) + log(son AGF / sabah AGF) → binde kazanç, iki yarıda da artı mı.
   3) Model 1. seçim isabeti: sabah AGF ile mi, son AGF ile mi, ikisi birlikte mi daha yüksek.
 - Sonuç ne çıkarsa çıksın yazılacak; tahmin/kurgu yok.
+
+## Kayıt planı GitHub Actions'ta (20.11.2026)
+- Sebep: Claude konteyneri boşta kalınca kapanıyor, arka plan döngüsü ölüyor (20.11'de 4 kez).
+- `.github/workflows/kayit.yml`: 09:10–10:40 her 10 dk, 11:00–23:45 her 15 dk `scripts/agf_plan.py` çalışır, kayıtları repoya yazar. Plan durumu `veri/plan/<tarih>.json` (git'te).
+- Test (20.11 13:47 ve 13:50): TJK + ebayi erişimi çalıştı (Antalya 63/70, İzmir 49/54 at AGF), kayıt commit'lendi. Sabah analiz+dondurma (gunluk.py) Actions'ta henüz denenmedi → 21.11 sabahı ilk gerçek deneme.
+- Konteyner döngüsü (agf_dongu.sh) ve 09:10/13:10/17:10 zamanlanmış görev kapatıldı (çift kayıt ve kota). Repo gizli; ücretsiz paket 2.000 dk/ay, plan ~50 çalıştırma/gün.
