@@ -709,3 +709,9 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Her ırk+bant için babaların kazanma %, ilk 3 %, A/E (alan büyüklüğüne göre) ve piyasa A/E'si: `veri/soy_mesafe.json`.
 - Öne çıkanlar (A/E alan): Arap kısa AFRİKAANDER (300 koşu %19,3), Arap orta ŞİMŞEĞİNOĞLU (361, %13,9) / ALTAHA (465, %14,2), Arap uzun GÜRSU (95, %20) / YILMABAŞAR (167, %18); İngiliz kısa+orta TOUGH GUY (%31,6 / %30,5), İngiliz uzun MY DEAR SON (41, %31,7), KING DAVID (74, %20,3).
 - Not: çok baba arasından en iyiler seçildiği için küçük örneklerde (40–60 koşu) değerler abartılı olabilir. Raporda AT GEÇMİŞİ satırına "soy … bant: kazanma/ilk3/A/E" eklendi (bilgi; modelde baba kanı zaten var).
+
+## Kullanıcı analizleri modelin içinde (20.11.2026, `scripts/ek_ozellik.py`, model9 + 8 özellik, 542 görülmemiş koşu)
+- Özellikler: sınıf farkı, ilk kez hipodrom, ilk kez mesafe, en uzun, en kısa, mesafe değişimi, soy-bant A/E (kronolojik), formu iyi × yeni mesafe.
+- AGF'li: LL −1,846 → −1,845; 1. seçim %32,8 → %33,9 (≈6 koşu); ilk 3 %66,4 → %64,9; 1. seçim getirisi %80 → %87.
+- AGF'siz: LL −1,956 → −1,950 (binde +6); 1. seçim %30,4 → %30,4; ilk 3 %59,6 → %60,1.
+- Ağırlıklar küçük (en büyük: sınıf farkı +0,12 AGF'siz, en uzun mesafe −0,08/−0,09). Fark gürültü sınırında → üretim modeli değişmedi; özellikler `EKOZ` ile hazır, veri birikince yeniden test. Rapor etiketleri ve takip sürüyor.
