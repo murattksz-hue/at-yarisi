@@ -600,3 +600,10 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Komiser raporları: 356 PDF'ten 2.348 olay (661 jokey değişikliği, 664 koşmaz, 127 kurul olayı) çıkarılmış ama yarış verisiyle eşleşme **%0,04** (1 olay) → kullanılamaz durumda.
 - Yeni olabilecek kaynaklar (TJK açık sorgu sayfaları): `tjk.org/TR/YarisSever/Query/DataRows/KomiserRaporlari` (komiser raporları) ve `tjk.org/AGFv2/{sehir}/{ggaayyyy}/TR/{tablo}/{sayfa}` (AGF sayfası). AGF ebayi'de zaten var. Komiser raporlarındaki "sıkıştı/engellendi" gibi olaylar ileride "sorunlu koşu" özelliği olarak test edilebilir; test edilmedi.
 - Karar: model/kod alınmadı.
+
+## 2024 verisi fayda testi (20.11.2026, `scripts/eski_veri_test.py`, ebayi verisi)
+- Geçmiş özellikleri (jokey, antrenör, baba, atın kendi A/E'si) KISA (2025-05'ten) vs UZUN (2024-01'den) geçmişle. Eğitim 5.676 koşu (2025-07..2026-05), test 2.919 görülmemiş koşu (2026-06..2026-11-18).
+- Sadece piyasa: LL −1,8439, favori %34,5.
+- AGF'li (piyasa+geçmiş): KISA −1,8405 / UZUN −1,8397 → binde +0,76, z +0,99 → **anlamlı değil**.
+- AGF'siz (HP+geçmiş): KISA −2,0710 (1. seçim %23,7) / UZUN −2,0626 (%23,8) → binde **+8,39, z +2,85 → anlamlı fayda**.
+- Karar (kullanıcının kuralı: fayda varsa daha eskisi çekilir): ebayi 2020-01-01..2023-12-31 indirmesi başlatıldı (`.gunluk/ebayi_indir_eski.log`). Sonra AGF'siz modelin geçmiş tabloları uzun veriyle yeniden kurulup aynı testle ölçülecek.
