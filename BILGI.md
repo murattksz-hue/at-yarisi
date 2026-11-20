@@ -692,3 +692,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - İlk kez bu hipodromda (17.128 at): A/E 1,00 (z 0,0) → piyasa doğru fiyatlıyor; formu iyi olanlarda 1,03 (anlamsız); sürpriz adaylarında 1,00 (diğerleri 0,91).
 - İlk kez bu kadar uzun mesafe (+100 m üstü, 12.094 at): A/E 1,04 (z 1,4); formu iyi + en uzun mesafe 1,08 (z 2,0; 1,10/1,06), getiri %74 → küçük artı, kârlı değil. Sürpriz adayı + en uzun mesafe 0,82 (zayıf).
 - Sonuç: modele eklenmedi; tek örnekten (DEDEMHAMZAREİS) genel kural çıkmıyor.
+
+## Atın kendi mesafe uyumu (20.11.2026, kullanıcı: "hangi at kısada, hangisi uzunda iyi"; `scripts/mesafe_uyum_test.py`)
+- Bant: kısa ≤1400 / orta 1401–1900 / uzun ≥2000. Atın bugünkü banttaki sıra yüzdeliği − diğer bantlardaki (≥2+2 koşu, kronolojik).
+- Sonuç: tüm gruplarda A/E ≈1 (belirgin iyi 1,00; belirgin kötü 1,03; z <1,5) → piyasa atın mesafe uyumunu tam fiyatlıyor. Modelde zaten pist_mesafe_galibi ve baba kanı (mesafe bandı) var; ek özellik eklenmedi.
+- Bilgi olarak: `at_bilgi.py` artık her atın kısa/orta/uzun ve pist bazında koşu/birincilik/ilk 3 sayısını gösteriyor.

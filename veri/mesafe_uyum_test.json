@@ -1,0 +1,92 @@
+{
+ "bu mesafede belirgin KÖTÜ (−0,15)": {
+  "at": 13006,
+  "kazandi": 1360,
+  "ae": 1.03,
+  "z": 1.1,
+  "getiri": 66,
+  "ae_ilk": 1.0,
+  "ae_son": 1.06
+ },
+ "bu mesafede belirgin KÖTÜ (−0,15) | gny≥10": {
+  "at": 6641,
+  "kazandi": 215,
+  "ae": 0.93,
+  "z": -1.1,
+  "getiri": 61,
+  "ae_ilk": 0.89,
+  "ae_son": 0.96
+ },
+ "bu mesafede belirgin İYİ (+0,15)": {
+  "at": 20779,
+  "kazandi": 2328,
+  "ae": 1.0,
+  "z": 0.2,
+  "getiri": 66,
+  "ae_ilk": 1.02,
+  "ae_son": 0.98
+ },
+ "bu mesafede belirgin İYİ (+0,15) | gny≥10": {
+  "at": 9774,
+  "kazandi": 338,
+  "ae": 0.96,
+  "z": -0.7,
+  "getiri": 61,
+  "ae_ilk": 1.03,
+  "ae_son": 0.89
+ },
+ "bu mesafede biraz iyi": {
+  "at": 18775,
+  "kazandi": 1997,
+  "ae": 1.0,
+  "z": 0.2,
+  "getiri": 66,
+  "ae_ilk": 0.97,
+  "ae_son": 1.03
+ },
+ "bu mesafede biraz iyi | gny≥10": {
+  "at": 9167,
+  "kazandi": 310,
+  "ae": 0.93,
+  "z": -1.3,
+  "getiri": 61,
+  "ae_ilk": 0.85,
+  "ae_son": 0.98
+ },
+ "bu mesafede biraz kötü": {
+  "at": 14434,
+  "kazandi": 1462,
+  "ae": 0.99,
+  "z": -0.3,
+  "getiri": 63,
+  "ae_ilk": 0.97,
+  "ae_son": 1.01
+ },
+ "bu mesafede biraz kötü | gny≥10": {
+  "at": 7433,
+  "kazandi": 248,
+  "ae": 0.94,
+  "z": -0.9,
+  "getiri": 60,
+  "ae_ilk": 0.96,
+  "ae_son": 0.93
+ },
+ "fark yok": {
+  "at": 20718,
+  "kazandi": 2012,
+  "ae": 0.97,
+  "z": -1.4,
+  "getiri": 63,
+  "ae_ilk": 1.0,
+  "ae_son": 0.95
+ },
+ "fark yok | gny≥10": {
+  "at": 10681,
+  "kazandi": 348,
+  "ae": 0.9,
+  "z": -1.9,
+  "getiri": 60,
+  "ae_ilk": 1.03,
+  "ae_son": 0.81
+ }
+}
