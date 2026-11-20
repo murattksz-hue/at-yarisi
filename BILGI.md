@@ -663,3 +663,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Alanlar: model sırası (AGF'li/AGF'siz), aday sayısı, AGF sabah/son ve sırası, AGF farkı ve artış sırası, ganyan −60/−30/son/kesin, 💰/🤫, HP sırası, KGS, start, jokey, kilo, yaş, son 6; önceki koşusu (tarih, sıra, ganyan, jokey/pist/hipodrom/mesafe değişimi, tür).
 - Karşılaştırma: `kazanan_profil.py ozet` (sürpriz vs diğer kazananlar). 20.11 itibarıyla 18 koşu, 2 sürpriz → yorum için çok az.
 - Not: "sabah AGF" iki kaynakta farklı olabiliyor (TJK ILK CSV ör. LADY SOVEREIGN %9,27; ebayi ilk görüntüsü %15,41). Kazanan profili TJK ILK'i kullanır.
+
+## TJK CSV AGF vs ebayi AGF (20.11.2026, aynı dakikadaki görüntüler, tam isim eşleşmesi)
+- 09:26 (ilk yayın): Antalya 63 at ort. fark 3,2 puan (HASTA FINAL TJK %53,2 / ebayi %36,4); İzmir 49 at ort. fark 5,0 (O BİR ÇELİK TJK %72,1 / ebayi %36,1).
+- 12:15 ve 14:51: ort. fark 0,02–0,16 puan → aynı veri (küçük fark çekim saniyesi).
+- Yorum: ilk yayında iki kaynak senkron değil; en uç değerler TJK CSV'de (çok az kuponla ilk hesap olabilir – doğrulanmadı). "Sabah ilk AGF" çok oynak → AGF değişimi testinde ikinci bir sabah noktası (~10:00) ve 12:00 da baz alınacak. Kazanan profilinde TJK ILK; para_takip'te ebayi ilk görüntü.
