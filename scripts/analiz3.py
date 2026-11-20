@@ -15,6 +15,7 @@ _vd=os.path.dirname(os.path.abspath(mj))
 HZ=json.load(open(os.path.join(_vd,'hiz_puani.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'hiz_puani.json')) else {}
 _ot=json.load(open(os.path.join(_vd,'ozellik_test.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'ozellik_test.json')) else {}
 _o2=json.load(open(os.path.join(_vd,'ozellik_test2.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'ozellik_test2.json')) else {}
+EKW=json.load(open(os.path.join(_vd,'ek_agirlik.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'ek_agirlik.json')) else None
 GECMIS_W={k:v for k,v in zip(_o2.get('ozellikler',[]),_o2.get('agirlik',[])) if k!='son_fark_sn'}   # saniye farkı: birlikte ters işaret aldı, alınmadı
 HZA=HZ.get('at',{}); HZS=HZ.get('sahip',{})
 MD=json.load(open(os.path.join(_vd,'maiden_analiz.json'),encoding='utf-8')) if os.path.exists(os.path.join(_vd,'maiden_analiz.json')) else {}
@@ -136,6 +137,20 @@ for ri,r in enumerate(races):
     if len(W)>=15:
         Z[:,12]=Z[:,0] if wet else 0; Z[:,13]=Z[:,6] if wet else 0; Z[:,14]=X[:,14]-X[:,14].mean()
     u=Z@W[:Z.shape[1]]
+    # kullanıcı analizleri (sınıf, ilk kez hipodrom/mesafe, en uzun/kısa, mesafe değişimi, soy-bant, formu iyi×yeni mesafe) – veri/ek_agirlik.json
+    if EKW and _AN:
+        _mm=_re.search(r'(\d{3,4})m',r['bas'])
+        if not _mm:
+            _no=r['bas'].split('.')[0].strip()
+            for _l in open(pc,encoding='utf-8-sig'):
+                if _l.startswith(f"{_no}. Kosu"): _mm=_re.search(r'(\d{3,4})m',_l); break
+        _ms0=float(_mm.group(1)) if _mm else 0; _hv0=[y['hp'] for y in h if y['hp']]; _ah0=sum(_hv0)/len(_hv0) if len(_hv0)>=4 else None
+        _EV=np.array([[np.nan if v is None else v for v in _AN.ek_vektor(_ATG.get(y['ad'].upper(),[]),_KAL,HIP,_ms0,_ah0,y['baba'],r['irk'])] for y in h],float)
+        for _j in range(_EV.shape[1]):
+            _c=_EV[:,_j]; _ok=np.isfinite(_c); _z=np.zeros(len(_c))
+            if _ok.sum()>1 and _c[_ok].std()>0: _z[_ok]=np.clip((_c[_ok]-_c[_ok].mean())/_c[_ok].std(),-2.5,2.5)
+            _EV[:,_j]=_z
+        u=u+_EV@np.array(EKW['agfsiz' if agf_yok else 'agfli'])
     g=[galop(x['ad']) for x in h]; t4=[a[0] for a in g if a[0]]; best=min(t4) if t4 else None
     GW=json.load(open(os.path.join(os.path.dirname(mj),'galop_agirlik.json')))['agirlik'] if os.path.exists(os.path.join(os.path.dirname(mj),'galop_agirlik.json')) else [1,0,0,0,0,0]
     v=np.array([a[0] if a[0] else np.nan for a in g]); vm=np.nanmean(v) if np.isfinite(v).any() else 0; vs=np.nanstd(v) if np.isfinite(v).sum()>1 else 1

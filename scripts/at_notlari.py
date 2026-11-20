@@ -50,3 +50,16 @@ def soy_not(baba,irk,mesafe):
     if not mesafe or not baba: return ''
     v=_SM.get(f"{irk}|{bant(mesafe)}",{}).get(baba)
     return f"soy {baba[:14]} {bant(mesafe)}: %{v['kazanma']} kazanma, ilk3 %{v['ilk3']} ({v['kosu']} koşu, A/E {v['ae_alan']})" if v else ''
+def ek_vektor(R,KAL,hip,mesafe,alan_hp,baba,irk):
+    """Model özellikleri (scripts/ek_ozellik.py ile aynı tanım): [sinif, ilk_hip, ilk_mes, en_uzun, en_kisa, mes_deg, soy_bant, iyi_yeni_mes]"""
+    global _SM
+    import json,math
+    if _SM is None:
+        p=os.path.join(K,'veri','soy_mesafe.json'); _SM=json.load(open(p,encoding='utf-8')) if os.path.exists(p) else {}
+    v=_SM.get(f"{irk}|{bant(mesafe or 0)}",{}).get(baba)
+    soy=math.log((v['birinci']+2)/(v['birinci']/v['ae_alan']+2)) if v and v.get('ae_alan') else 0.0
+    if not R: return [None,0,0,0,0,0,soy,0]
+    ms=[_f(r['mesafe']) or 0 for r in R]; m=mesafe or 0
+    P=[KAL.get((r['tarih'],r['hip'],r['kosu'])) for r in R[-3:]]; P=[p for p in P if p]
+    iyi=sum(1 for r in R[-3:] if (_f(r['sonuc']) or 99)<=3)>=2; yeni=m not in ms
+    return [(sum(P)/len(P)-alan_hp) if (P and alan_hp) else None, int(hip not in {r['hip'] for r in R}), int(yeni), int(m>max(ms)+100), int(m<min(ms)-100), (m-ms[-1])/100, soy, int(iyi and yeni)]
