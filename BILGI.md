@@ -588,3 +588,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Türkiye kısmı: `fetch_tjk.py` TJK "Orijin" sorgu tablosunu (tjk.org/EN/YarisSever/Query/DataRows/Orijin, form POST, 50'şer satır, ~2.266 istek) indirir: ~113 bin at için baba, anne, anne babası, don, ülke. Yarış sonucu, derece, AGF, ganyan yok.
 - Bizde zaten var: ebayi programında BABA/ANNE/ANNEBABA ve kodları; baba kanı modelde (v2'den beri), anne babası ve anne kardeş v11'de test edildi → gürültü düzeyi.
 - Karar: kullanılmadı. Yeni bilgi yalnızca don ve ülke; tahmine katkısı test edilmedi, beklenen kazanç düşük. Repo klonlanıp okundu, betikler çalıştırılmadı.
+
+## soyline.com (20.11.2026)
+- Site şu an kapalı: soyline.com, www, .com.tr hepsi HTTP 402 "DEPLOYMENT_DISABLED" (Vercel) döndü.
+- Arama sonuçlarına göre (doğrulanamadı, site açık değil): İstanbul merkezli pedigri platformu; soy ağacı sorgusu, akrabalık (inbreeding) renk kodlaması, aygır+kısrak sanal tay eşleştirmesi. Yarış sonucu/AGF/ganyan verisi görünmüyor.
+- Karar: kullanılmadı. Soy bilgisi (baba/anne/anne babası) zaten ebayi'de var; anne babası/anne kardeş testi gürültü düzeyi çıktı.
