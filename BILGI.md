@@ -593,3 +593,10 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Site şu an kapalı: soyline.com, www, .com.tr hepsi HTTP 402 "DEPLOYMENT_DISABLED" (Vercel) döndü.
 - Arama sonuçlarına göre (doğrulanamadı, site açık değil): İstanbul merkezli pedigri platformu; soy ağacı sorgusu, akrabalık (inbreeding) renk kodlaması, aygır+kısrak sanal tay eşleştirmesi. Yarış sonucu/AGF/ganyan verisi görünmüyor.
 - Karar: kullanılmadı. Soy bilgisi (baba/anne/anne babası) zaten ebayi'de var; anne babası/anne kardeş testi gürültü düzeyi çıktı.
+
+## KynTr4/pedigreeall-ai (20.11.2026)
+- Python ML hattı (logistic/CatBoost/XGBoost ensemble), SQLite ambarı, FastAPI pano. Repo klonlanıp okundu, çalıştırılmadı.
+- Kendi raporu (reports/backtest_report_v2.md, 30.06.2026): 2026 holdout 1.642 koşu, kazananı bilme **%27,59**, top-1 ROI **−%28,94**; "Production ready: No". AGF karşılaştırması yok ("AGF value-bet test unavailable"). Karşılaştırma için bizde piyasa favorisi 9.915 koşuda %35,5 kazanıyor → bu model AGF/ganyan favorisinden zayıf.
+- Komiser raporları: 356 PDF'ten 2.348 olay (661 jokey değişikliği, 664 koşmaz, 127 kurul olayı) çıkarılmış ama yarış verisiyle eşleşme **%0,04** (1 olay) → kullanılamaz durumda.
+- Yeni olabilecek kaynaklar (TJK açık sorgu sayfaları): `tjk.org/TR/YarisSever/Query/DataRows/KomiserRaporlari` (komiser raporları) ve `tjk.org/AGFv2/{sehir}/{ggaayyyy}/TR/{tablo}/{sayfa}` (AGF sayfası). AGF ebayi'de zaten var. Komiser raporlarındaki "sıkıştı/engellendi" gibi olaylar ileride "sorunlu koşu" özelliği olarak test edilebilir; test edilmedi.
+- Karar: model/kod alınmadı.
