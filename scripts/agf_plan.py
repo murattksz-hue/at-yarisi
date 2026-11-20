@@ -1,5 +1,5 @@
 """Koşu günü kayıt planı (kullanıcı kuralı, 19.11). agf_dongu.sh her dakika çağırır; zamanı gelen işi bir kez yapar.
-  1) 09:20–10:30: ilk AGF tüm hipodromlar için kaydedilene kadar 10 dakikada bir agf_kayit (+ AGF gelince analiz/dondurma)
+  1) 09:15–10:30: ilk AGF tüm hipodromlar için kaydedilene kadar 10 dakikada bir agf_kayit (+ AGF gelince analiz/dondurma)
   2) 12:00: bir kontrol kaydı
   3) her koşudan 1 saat önce: bir kayıt
   4) her koşudan sonra (başlangıç + 15 dk): sonuç kontrolü (canli_takip → veri/canli_takip*.csv)
@@ -40,7 +40,7 @@ def is_(anahtar,fn):
 # 1) sabah ilk AGF
 kd=os.path.join(K,'veri','agf_kayit',g.isoformat())
 ilk_tamam=all(os.path.exists(os.path.join(kd,f"ILK_{h}.csv")) for h in KS)
-if '09:20'<=hm<='10:30' and not ilk_tamam and dk(hm)-P.get('son_sabah',-99)>=10:
+if '09:15'<=hm<='10:30' and not ilk_tamam and dk(hm)-P.get('son_sabah',-99)>=10:
     print(f"{hm} sabah AGF kontrolü",flush=True); P['son_sabah']=dk(hm); kaydet(); calis('agf_kayit.py'); ALINDI[0]=False; calis('agf_sonrasi_analiz.py')
 # ilk AGF'si kaydedilmiş ama tahmini dondurulmamış hipodrom varsa analiz 5 dakikada bir yeniden denenir
 bekleyen=[h for h in KS if os.path.exists(os.path.join(kd,f"ILK_{h}.csv")) and not os.path.exists(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{h}.json"))]
