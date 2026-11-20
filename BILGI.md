@@ -641,3 +641,9 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 ## Veri kaybı önlemi (20.11.2026)
 - Git dışındaki arşivler repoya alındı: `veri/arsiv/ebayi` (ebayi sonuç JSON.gz, 76 MB), `veri/arsiv/sonuc_eski` (TJK sonuç CSV 2024-01→2025-05), `veri/arsiv/program` (eğitim programları 2026-06-21→11-17, scratchpad'deydi!). `.gunluk/{ebayi,sonuc_eski,program}` bu klasörlere sembolik bağ.
 - Günlük programlar zaten `veri/agf_kayit/<gün>/` altında (AGF'li program CSV görüntüleri) git'te. 2020–2023 indirmesi bittikçe yeni dosyalar commit'lenecek.
+
+## Belirsiz koşuda daha çok at (20.11.2026, kullanıcı: "belirsiz koşularda çok at yazılmalı")
+- Test (v9, 542 görülmemiş koşu; belirsiz = %75 kapsama için ≥5 at gereken 233 koşu): eski kural (%75, en çok 6) belirsizde 5,47 at, isabet %78,1. %80/8: 6,23 at %86,3. **%85/8: 6,91 at %89,3** (seçilen). %85 sınırsız: 7,03 at %89,7.
+- İsabet hedef kapsamayı izliyor (kalibrasyon iyi): daha çok at = daha çok isabet ama kupon pahalanır.
+- Örnek 20.11 Antalya 3: kazanan SPEEDTAIL modelde 8. (toplam %89'a 8. atta ulaşılıyor) → yeni kuralla listede olurdu, eskisiyle (6 at) değildi.
+- Uygulandı: scripts/analiz3.py (aday sayısı). Dondurulmuş tahminler değiştirilmedi.
