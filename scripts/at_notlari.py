@@ -63,3 +63,17 @@ def ek_vektor(R,KAL,hip,mesafe,alan_hp,baba,irk):
     P=[KAL.get((r['tarih'],r['hip'],r['kosu'])) for r in R[-3:]]; P=[p for p in P if p]
     iyi=sum(1 for r in R[-3:] if (_f(r['sonuc']) or 99)<=3)>=2; yeni=m not in ms
     return [(sum(P)/len(P)-alan_hp) if (P and alan_hp) else None, int(hip not in {r['hip'] for r in R}), int(yeni), int(m>max(ms)+100), int(m<min(ms)-100), (m-ms[-1])/100, soy, int(iyi and yeni)]
+_KH=None
+def kan_not(baba,kb,irk,mesafe):
+    """Baba hattı (babanın babası) ve anne babası: bu ırk+bantta (veri/kan_hatti.json, ≥60 koşu)."""
+    global _KH
+    import json
+    if _KH is None:
+        p=os.path.join(K,'veri','kan_hatti.json'); _KH=json.load(open(p,encoding='utf-8')) if os.path.exists(p) else {}
+    if not mesafe: return ''
+    g=f"{irk}|{bant(mesafe)}"; ad=lambda s:(s or '').upper().split(' (')[0].strip(); t=[]
+    bb=_KH.get('baba_babasi',{}).get(ad(baba)); v=_KH.get('baba_hatti',{}).get(g,{}).get(bb) if bb else None
+    if v: t.append(f"baba hattı {bb[:14]} {bant(mesafe)}: %{v['kazanma']} kazanma ({v['kosu']} koşu, A/E {v['ae_alan']})")
+    v=_KH.get('annebaba',{}).get(g,{}).get(ad(kb))
+    if v: t.append(f"anne babası {ad(kb)[:14]} {bant(mesafe)}: %{v['kazanma']} kazanma ({v['kosu']} koşu, A/E {v['ae_alan']})")
+    return ' | '.join(t)
