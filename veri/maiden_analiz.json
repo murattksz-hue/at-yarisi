@@ -1,45 +1,45 @@
 {
  "kosu": {
   "TÜMÜ": {
-   "kosu": 10015,
+   "kosu": 10029,
    "favori": 35.5,
    "s10": 15.4,
    "s20": 4.5,
    "medyan": 3.8
   },
   "Diğer Şartlı": {
-   "kosu": 3189,
+   "kosu": 3192,
    "favori": 37.5,
    "s10": 13.5,
    "s20": 3.3,
    "medyan": 3.45
   },
   "Handikap": {
-   "kosu": 2922,
+   "kosu": 2926,
    "favori": 31.5,
-   "s10": 18.5,
-   "s20": 5.0,
+   "s10": 18.6,
+   "s20": 5.1,
    "medyan": 4.35
   },
   "KV/Grup/Satış": {
-   "kosu": 1631,
-   "favori": 39.3,
-   "s10": 12.3,
-   "s20": 3.6,
-   "medyan": 3.2
+   "kosu": 1634,
+   "favori": 39.2,
+   "s10": 12.4,
+   "s20": 3.5,
+   "medyan": 3.225
   },
   "Kazanmış atların koşuları": {
-   "kosu": 7748,
+   "kosu": 7758,
    "favori": 35.6,
-   "s10": 15.1,
+   "s10": 15.2,
    "s20": 4.0,
    "medyan": 3.8
   },
   "Maiden": {
-   "kosu": 2046,
-   "favori": 35.3,
-   "s10": 16.1,
-   "s20": 6.3,
+   "kosu": 2050,
+   "favori": 35.2,
+   "s10": 16.0,
+   "s20": 6.2,
    "medyan": 3.75
   },
   "Maiden Arap 3 yaş": {
@@ -57,11 +57,11 @@
    "medyan": 3.7
   },
   "Maiden İngiliz 2 yaş": {
-   "kosu": 592,
-   "favori": 38.7,
-   "s10": 15.0,
-   "s20": 5.6,
-   "medyan": 3.4
+   "kosu": 596,
+   "favori": 38.4,
+   "s10": 14.9,
+   "s20": 5.5,
+   "medyan": 3.425
   },
   "Maiden İngiliz 3 yaş": {
    "kosu": 437,
@@ -71,9 +71,9 @@
    "medyan": 3.7
   },
   "Maiden+Ş19 hepsi": {
-   "kosu": 2267,
+   "kosu": 2271,
    "favori": 35.3,
-   "s10": 16.5,
+   "s10": 16.4,
    "s20": 6.3,
    "medyan": 3.85
   },
@@ -115,44 +115,44 @@
  },
  "ae": {
   "ganyan 10-20": {
-   "birim": 3880,
+   "birim": 3885,
    "kazanma": 178,
-   "beklenti": 196.3,
+   "beklenti": 196.6,
    "ae": 0.91,
    "getiri": 64.4
   },
   "ganyan 20-50": {
-   "birim": 5244,
+   "birim": 5251,
    "kazanma": 103,
-   "beklenti": 122.4,
+   "beklenti": 122.6,
    "ae": 0.84,
    "getiri": 57.1
   },
   "ganyan 3-5": {
-   "birim": 2122,
-   "kazanma": 395,
-   "beklenti": 385.2,
+   "birim": 2126,
+   "kazanma": 396,
+   "beklenti": 386.0,
    "ae": 1.03,
-   "getiri": 71.8
+   "getiri": 71.9
   },
   "ganyan 5-10": {
-   "birim": 3634,
-   "kazanma": 389,
-   "beklenti": 364.7,
+   "birim": 3643,
+   "kazanma": 391,
+   "beklenti": 365.7,
    "ae": 1.07,
-   "getiri": 73.7
+   "getiri": 73.8
   },
   "ganyan 50+": {
-   "birim": 1939,
+   "birim": 1942,
    "kazanma": 13,
    "beklenti": 20.5,
-   "ae": 0.64,
-   "getiri": 45.7
+   "ae": 0.63,
+   "getiri": 45.6
   },
   "ganyan <3": {
-   "birim": 1859,
-   "kazanma": 623,
-   "beklenti": 623.7,
+   "birim": 1864,
+   "kazanma": 624,
+   "beklenti": 625.4,
    "ae": 1.0,
    "getiri": 69.0
   },
@@ -185,32 +185,32 @@
    "getiri": 12.6
   },
   "son koşu bitirişi: 2": {
-   "birim": 1825,
-   "kazanma": 421,
-   "beklenti": 431.1,
-   "ae": 0.98,
-   "getiri": 66.7
+   "birim": 1831,
+   "kazanma": 422,
+   "beklenti": 432.9,
+   "ae": 0.97,
+   "getiri": 66.6
   },
   "son koşu bitirişi: 3": {
-   "birim": 1853,
+   "birim": 1855,
    "kazanma": 303,
-   "beklenti": 301.7,
+   "beklenti": 302.0,
    "ae": 1.0,
-   "getiri": 66.7
+   "getiri": 66.6
   },
   "son koşu bitirişi: 4-5": {
-   "birim": 3751,
-   "kazanma": 396,
-   "beklenti": 398.7,
+   "birim": 3757,
+   "kazanma": 397,
+   "beklenti": 399.4,
    "ae": 0.99,
-   "getiri": 66.4
+   "getiri": 66.5
   },
   "son koşu bitirişi: 6+": {
-   "birim": 9790,
-   "kazanma": 492,
-   "beklenti": 473.0,
+   "birim": 9809,
+   "kazanma": 494,
+   "beklenti": 474.1,
    "ae": 1.04,
-   "getiri": 63.0
+   "getiri": 62.9
   },
   "önceki koşu (veride): 0 = ilk koşu": {
    "birim": 1459,
@@ -220,30 +220,30 @@
    "getiri": 52.1
   },
   "önceki koşu (veride): 1": {
-   "birim": 3120,
-   "kazanma": 276,
-   "beklenti": 296.5,
+   "birim": 3130,
+   "kazanma": 277,
+   "beklenti": 297.9,
    "ae": 0.93,
-   "getiri": 59.5
+   "getiri": 59.3
   },
   "önceki koşu (veride): 2-3": {
-   "birim": 4826,
-   "kazanma": 486,
-   "beklenti": 446.9,
+   "birim": 4840,
+   "kazanma": 488,
+   "beklenti": 448.3,
    "ae": 1.09,
-   "getiri": 66.7
+   "getiri": 66.8
   },
   "önceki koşu (veride): 4-6": {
-   "birim": 4461,
-   "kazanma": 405,
-   "beklenti": 406.5,
+   "birim": 4467,
+   "kazanma": 406,
+   "beklenti": 407.3,
    "ae": 1.0,
-   "getiri": 70.9
+   "getiri": 71.0
   },
   "önceki koşu (veride): 7+": {
-   "birim": 4812,
+   "birim": 4815,
    "kazanma": 445,
-   "beklenti": 454.4,
+   "beklenti": 454.9,
    "ae": 0.98,
    "getiri": 59.6
   }
