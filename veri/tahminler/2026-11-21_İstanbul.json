@@ -1,0 +1,769 @@
+[
+{
+"kosu": "1",
+"baslik": "1. Kosu :   17.45 ŞARTLI 4 3 Yaşlı İngilizler 58.00kg 1400m Sentetik",
+"coklu_ganyan_baslar": [
+6
+],
+"agf_yok": false,
+"oneri_at": 4,
+"ek_aday": [
+"5",
+"6"
+],
+"model": "agfli",
+"atlar": [
+{
+"no": "1",
+"ad": "DOĞANHAN",
+"p": 0.2079,
+"agf": 0.2356,
+"ekuri": false,
+"ganyan": 2.8
+},
+{
+"no": "2",
+"ad": "CLEMENZA",
+"p": 0.3597,
+"agf": 0.3564,
+"ekuri": true,
+"ganyan": 1.85
+},
+{
+"no": "3",
+"ad": "MR DODO",
+"p": 0.178,
+"agf": 0.1612,
+"ekuri": false,
+"ganyan": 11.95
+},
+{
+"no": "4",
+"ad": "SARUNAS",
+"p": 0.1159,
+"agf": 0.0936,
+"ekuri": true,
+"ganyan": 1.85
+},
+{
+"no": "5",
+"ad": "NOBLE STRENGTH",
+"p": 0.0687,
+"agf": 0.1047,
+"ekuri": false,
+"ganyan": 5.95
+},
+{
+"no": "6",
+"ad": "FIRST MAY",
+"p": 0.0124,
+"agf": 0.0097,
+"ekuri": false,
+"ganyan": 4.4
+},
+{
+"no": "7",
+"ad": "PRENS EGE",
+"p": 0.0574,
+"agf": 0.0389,
+"ekuri": false,
+"ganyan": 17.1
+}
+]
+},
+{
+"kosu": "2",
+"baslik": "2. Kosu :   18.30 ŞARTLI 4/Y2 3 ve Yukarı İngilizler 57.00kg 60.00 kg 60.00 kg",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 1,
+"ek_aday": [
+"6",
+"2",
+"4"
+],
+"model": "agfli",
+"atlar": [
+{
+"no": "1",
+"ad": "IRON SKY",
+"p": 0.8169,
+"agf": 0.7831,
+"ekuri": false,
+"ganyan": 3.95
+},
+{
+"no": "2",
+"ad": "KING OF THE WIN",
+"p": 0.042,
+"agf": 0.0644,
+"ekuri": false,
+"ganyan": 5.65
+},
+{
+"no": "3",
+"ad": "STASERA",
+"p": 0.03,
+"agf": 0.0384,
+"ekuri": false,
+"ganyan": 9.7
+},
+{
+"no": "4",
+"ad": "ALBAYRAK",
+"p": 0.0413,
+"agf": 0.0576,
+"ekuri": false,
+"ganyan": 1.15
+},
+{
+"no": "5",
+"ad": "COSAS",
+"p": 0.0045,
+"agf": 0.004,
+"ekuri": false,
+"ganyan": 33.95
+},
+{
+"no": "6",
+"ad": "WAR BOY",
+"p": 0.0572,
+"agf": 0.0427,
+"ekuri": false,
+"ganyan": 33.95
+},
+{
+"no": "7",
+"ad": "BORAN",
+"p": 0.0047,
+"agf": 0.0042,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "8",
+"ad": "MEISTER OF HONOUR",
+"p": 0.0033,
+"agf": 0.0056,
+"ekuri": false,
+"ganyan": 999.99
+}
+]
+},
+{
+"kosu": "3",
+"baslik": "3. Kosu :   19.00 Maiden 2 Yaşlı İngilizler 57.00kg 1400m Sentetik",
+"coklu_ganyan_baslar": [
+6
+],
+"agf_yok": false,
+"oneri_at": 3,
+"ek_aday": [
+"9"
+],
+"model": "agfli",
+"atlar": [
+{
+"no": "1",
+"ad": "BAY MENTOR",
+"p": 0.4537,
+"agf": 0.4637,
+"ekuri": false,
+"ganyan": 3.15
+},
+{
+"no": "2",
+"ad": "EL QUIQUE",
+"p": 0.1551,
+"agf": 0.1279,
+"ekuri": false,
+"ganyan": 5.25
+},
+{
+"no": "3",
+"ad": "RIVIAN GERALT",
+"p": 0.0179,
+"agf": 0.0164,
+"ekuri": false,
+"ganyan": 7.4
+},
+{
+"no": "4",
+"ad": "TORANAGA",
+"p": 0.0221,
+"agf": 0.0161,
+"ekuri": false,
+"ganyan": 27.15
+},
+{
+"no": "5",
+"ad": "ULTİMATOR",
+"p": 0.0561,
+"agf": 0.0514,
+"ekuri": false,
+"ganyan": 7.4
+},
+{
+"no": "6",
+"ad": "KIMDRAKA",
+"p": 0.0292,
+"agf": 0.0286,
+"ekuri": false,
+"ganyan": 27.15
+},
+{
+"no": "7",
+"ad": "CROCUS FLOWER",
+"p": 0.0088,
+"agf": 0.0088,
+"ekuri": false,
+"ganyan": 3.1
+},
+{
+"no": "8",
+"ad": "LADY GALA",
+"p": 0.0232,
+"agf": 0.0218,
+"ekuri": false,
+"ganyan": 27.15
+},
+{
+"no": "9",
+"ad": "MARINA",
+"p": 0.0653,
+"agf": 0.0641,
+"ekuri": false,
+"ganyan": 27.15
+},
+{
+"no": "10",
+"ad": "MELLY YAHMAHN",
+"p": 0.1685,
+"agf": 0.2013,
+"ekuri": false,
+"ganyan": 5.25
+}
+]
+},
+{
+"kosu": "4",
+"baslik": "4. Kosu :   19.30 Handikap 17/DHÖW /H1 4 ve Yukarı Araplar kg 2000m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 8,
+"ek_aday": [
+"5"
+],
+"model": "agfli",
+"atlar": [
+{
+"no": "1",
+"ad": "ERDEK",
+"p": 0.0582,
+"agf": 0.064,
+"ekuri": false,
+"ganyan": 97.35
+},
+{
+"no": "2",
+"ad": "SÖZÜ GEÇER",
+"p": 0.0796,
+"agf": 0.0977,
+"ekuri": false,
+"ganyan": 17.3
+},
+{
+"no": "3",
+"ad": "TOZYUTTURAN",
+"p": 0.1484,
+"agf": 0.1151,
+"ekuri": false,
+"ganyan": 55.65
+},
+{
+"no": "4",
+"ad": "AKBELHAN",
+"p": 0.1211,
+"agf": 0.1395,
+"ekuri": false,
+"ganyan": 1.75
+},
+{
+"no": "5",
+"ad": "GÜLALP KIZI",
+"p": 0.037,
+"agf": 0.0595,
+"ekuri": false,
+"ganyan": 194.75
+},
+{
+"no": "6",
+"ad": "GÖKTUĞTAY",
+"p": 0.0133,
+"agf": 0.0227,
+"ekuri": false,
+"ganyan": 194.75
+},
+{
+"no": "7",
+"ad": "TERCAN HAN",
+"p": 0.0281,
+"agf": 0.026,
+"ekuri": false,
+"ganyan": 14.4
+},
+{
+"no": "8",
+"ad": "BİÇERGİLLER",
+"p": 0.0269,
+"agf": 0.0279,
+"ekuri": false,
+"ganyan": 27.8
+},
+{
+"no": "9",
+"ad": "CEBELTUNA",
+"p": 0.0392,
+"agf": 0.0279,
+"ekuri": false,
+"ganyan": 3.7
+},
+{
+"no": "10",
+"ad": "ÇERKEZHAN",
+"p": 0.0712,
+"agf": 0.068,
+"ekuri": false,
+"ganyan": 194.75
+},
+{
+"no": "11",
+"ad": "İLKUTHAN",
+"p": 0.066,
+"agf": 0.0552,
+"ekuri": false,
+"ganyan": 97.35
+},
+{
+"no": "12",
+"ad": "MAHÇİÇEK",
+"p": 0.0578,
+"agf": 0.0776,
+"ekuri": false,
+"ganyan": 20.5
+},
+{
+"no": "13",
+"ad": "ÇUKUROVA EFESİ",
+"p": 0.0734,
+"agf": 0.0698,
+"ekuri": false,
+"ganyan": 97.35
+},
+{
+"no": "14",
+"ad": "ARAM SAMSAM",
+"p": 0.1634,
+"agf": 0.1166,
+"ekuri": false,
+"ganyan": 10.65
+},
+{
+"no": "15",
+"ad": "EGETAY",
+"p": 0.0163,
+"agf": 0.0325,
+"ekuri": false,
+"ganyan": 4.2
+}
+]
+},
+{
+"kosu": "5",
+"baslik": "5. Kosu :   20.00 ŞARTLI 3/DHÖW/Dişi 4 Yaşlı Araplar 58.00kg 1400m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 6,
+"ek_aday": [
+"7"
+],
+"model": "agfli",
+"atlar": [
+{
+"no": "1",
+"ad": "MEVHİDE HANIM",
+"p": 0.0232,
+"agf": 0.0292,
+"ekuri": false,
+"ganyan": 12.4
+},
+{
+"no": "2",
+"ad": "ZİNAMIN",
+"p": 0.1606,
+"agf": 0.1761,
+"ekuri": false,
+"ganyan": 9.55
+},
+{
+"no": "3",
+"ad": "DİLMAKIZ",
+"p": 0.168,
+"agf": 0.1436,
+"ekuri": false,
+"ganyan": 37.3
+},
+{
+"no": "4",
+"ad": "AÇAKIZ",
+"p": 0.0993,
+"agf": 0.1028,
+"ekuri": false,
+"ganyan": 26.65
+},
+{
+"no": "5",
+"ad": "AL SEHER",
+"p": 0.113,
+"agf": 0.1405,
+"ekuri": false,
+"ganyan": 9.55
+},
+{
+"no": "6",
+"ad": "GÜZEL HUYLUM",
+"p": 0.0088,
+"agf": 0.0085,
+"ekuri": false,
+"ganyan": 37.3
+},
+{
+"no": "7",
+"ad": "KURTÇAKIZ",
+"p": 0.0109,
+"agf": 0.0098,
+"ekuri": false,
+"ganyan": 1.4
+},
+{
+"no": "8",
+"ad": "MİSS KÜBRA",
+"p": 0.2077,
+"agf": 0.2373,
+"ekuri": false,
+"ganyan": 7.6
+},
+{
+"no": "9",
+"ad": "YALIKIZI",
+"p": 0.1703,
+"agf": 0.1179,
+"ekuri": false,
+"ganyan": 8.45
+},
+{
+"no": "10",
+"ad": "GÖK MİLA",
+"p": 0.0071,
+"agf": 0.0094,
+"ekuri": false,
+"ganyan": 26.65
+},
+{
+"no": "11",
+"ad": "JULNAR",
+"p": 0.0094,
+"agf": 0.006,
+"ekuri": false,
+"ganyan": 37.3
+},
+{
+"no": "12",
+"ad": "SEVDA ŞAMPİYONU",
+"p": 0.0217,
+"agf": 0.0189,
+"ekuri": false,
+"ganyan": 37.3
+}
+]
+},
+{
+"kosu": "6",
+"baslik": "6. Kosu :   20.30 ŞARTLI 3 2 Yaşlı İngilizler 57.00kg 1300m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 2,
+"ek_aday": [
+"3",
+"4"
+],
+"model": "agfli",
+"atlar": [
+{
+"no": "1",
+"ad": "ÜMİTBEY",
+"p": 0.5589,
+"agf": 0.472,
+"ekuri": false,
+"ganyan": 1.75
+},
+{
+"no": "2",
+"ad": "DOUBLE RUNNER",
+"p": 0.1995,
+"agf": 0.2241,
+"ekuri": false,
+"ganyan": 5.5
+},
+{
+"no": "3",
+"ad": "LA CORDIALE",
+"p": 0.1765,
+"agf": 0.2377,
+"ekuri": false,
+"ganyan": 2.65
+},
+{
+"no": "4",
+"ad": "PRAVDA",
+"p": 0.0479,
+"agf": 0.0422,
+"ekuri": false,
+"ganyan": 11.65
+},
+{
+"no": "5",
+"ad": "MI VOILA",
+"p": 0.0171,
+"agf": 0.024,
+"ekuri": false,
+"ganyan": 4.35
+}
+]
+},
+{
+"kosu": "7",
+"baslik": "7. Kosu :   21.00 Maiden 2 Yaşlı İngilizler 57.00kg 1400m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 2,
+"ek_aday": [
+"8",
+"6"
+],
+"model": "agfli",
+"atlar": [
+{
+"no": "1",
+"ad": "AKALA",
+"p": 0.0329,
+"agf": 0.0433,
+"ekuri": false,
+"ganyan": 4.65
+},
+{
+"no": "2",
+"ad": "AMO ALLER AMOS",
+"p": 0.0216,
+"agf": 0.0202,
+"ekuri": false,
+"ganyan": 15.95
+},
+{
+"no": "3",
+"ad": "JOHNY BLAZE",
+"p": 0.0172,
+"agf": 0.0156,
+"ekuri": false,
+"ganyan": 27.4
+},
+{
+"no": "4",
+"ad": "JUNIOR ALAATTİN",
+"p": 0.3604,
+"agf": 0.3115,
+"ekuri": false,
+"ganyan": 4.65
+},
+{
+"no": "5",
+"ad": "ALDANA",
+"p": 0.0131,
+"agf": 0.0199,
+"ekuri": false,
+"ganyan": 17.4
+},
+{
+"no": "6",
+"ad": "GRAN CANARIA",
+"p": 0.0561,
+"agf": 0.045,
+"ekuri": false,
+"ganyan": 7.1
+},
+{
+"no": "7",
+"ad": "GUENNS MIRACLE",
+"p": 0.0055,
+"agf": 0.0083,
+"ekuri": false,
+"ganyan": 3.3
+},
+{
+"no": "8",
+"ad": "KIZIM ELEKTRA",
+"p": 0.1031,
+"agf": 0.1133,
+"ekuri": false,
+"ganyan": 11.95
+},
+{
+"no": "9",
+"ad": "LET IT BURN",
+"p": 0.3901,
+"agf": 0.4228,
+"ekuri": false,
+"ganyan": 3.1
+}
+]
+},
+{
+"kosu": "8",
+"baslik": "8. Kosu :   21.30 Handikap 15/DHÖW/Dişi /H2 3 Yaşlı Araplar kg 1400m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 8,
+"ek_aday": [],
+"model": "agfli",
+"atlar": [
+{
+"no": "1",
+"ad": "UĞURLU BEBEK",
+"p": 0.0386,
+"agf": 0.0548,
+"ekuri": false,
+"ganyan": 30.5
+},
+{
+"no": "2",
+"ad": "HAYDİ SEVDA",
+"p": 0.0804,
+"agf": 0.1262,
+"ekuri": false,
+"ganyan": 11.65
+},
+{
+"no": "3",
+"ad": "GÜNEŞMİLA",
+"p": 0.0663,
+"agf": 0.0847,
+"ekuri": false,
+"ganyan": 9.8
+},
+{
+"no": "4",
+"ad": "GÜZEL ZEHRA",
+"p": 0.0131,
+"agf": 0.0206,
+"ekuri": false,
+"ganyan": 32.3
+},
+{
+"no": "5",
+"ad": "UÇAN DULO",
+"p": 0.2984,
+"agf": 0.2684,
+"ekuri": false,
+"ganyan": 2.15
+},
+{
+"no": "6",
+"ad": "BİLGE HATUN",
+"p": 0.1257,
+"agf": 0.1246,
+"ekuri": false,
+"ganyan": 23.85
+},
+{
+"no": "7",
+"ad": "ŞENGÜL SULTAN",
+"p": 0.1449,
+"agf": 0.1184,
+"ekuri": false,
+"ganyan": 16.65
+},
+{
+"no": "8",
+"ad": "ALADAĞLAR",
+"p": 0.0181,
+"agf": 0.013,
+"ekuri": false,
+"ganyan": 54.95
+},
+{
+"no": "9",
+"ad": "BALKIZIM",
+"p": 0.0808,
+"agf": 0.0593,
+"ekuri": false,
+"ganyan": 10.35
+},
+{
+"no": "10",
+"ad": "IRMAĞIN GÜLÜ",
+"p": 0.0126,
+"agf": 0.0102,
+"ekuri": false,
+"ganyan": 20.35
+},
+{
+"no": "11",
+"ad": "NİSAM",
+"p": 0.0169,
+"agf": 0.0173,
+"ekuri": false,
+"ganyan": 36.6
+},
+{
+"no": "12",
+"ad": "ŞAHANIL",
+"p": 0.0097,
+"agf": 0.0093,
+"ekuri": false,
+"ganyan": 24.95
+},
+{
+"no": "13",
+"ad": "ALCANZAR",
+"p": 0.0333,
+"agf": 0.0264,
+"ekuri": false,
+"ganyan": 5.8
+},
+{
+"no": "14",
+"ad": "KINALIKAYAM",
+"p": 0.0065,
+"agf": 0.0097,
+"ekuri": false,
+"ganyan": 5.9
+},
+{
+"no": "15",
+"ad": "VARDAKOSTA",
+"p": 0.0108,
+"agf": 0.0118,
+"ekuri": false,
+"ganyan": 78.5
+},
+{
+"no": "16",
+"ad": "PAVLA",
+"p": 0.0438,
+"agf": 0.0454,
+"ekuri": false,
+"ganyan": 34.3
+}
+]
+}
+]
