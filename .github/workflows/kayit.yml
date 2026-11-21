@@ -5,6 +5,8 @@
 name: kayit
 on:
   schedule:
+    - cron: '0,20,40 4 * * *'   # 07:00–07:40 İstanbul: GitHub zamanlaması 1 saate kadar gecikebiliyor; döngü 09:15'te zaten çalışıyor olsun
+    - cron: '0,30 5 * * *'
     - cron: '5 6-20 * * *'
   workflow_dispatch:
     inputs:
