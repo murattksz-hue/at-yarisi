@@ -1,7 +1,7 @@
 """Koşu günü kayıt planı (kullanıcı kuralı, 19.11). agf_dongu.sh her dakika çağırır; zamanı gelen işi bir kez yapar.
   1) 09:15–10:30: ilk AGF tüm hipodromlar için kaydedilene kadar 10 dakikada bir agf_kayit (+ AGF gelince analiz/dondurma)
   2) 12:00: bir kontrol kaydı
-  3) her koşudan 1 saat önce: bir kayıt
+  3) her koşudan 1 saat önce: bir kayıt + TJK/ebayi AGF karşılaştırması (agf_karsilastir.py → GUNLUK.md)
   4) her koşudan sonra (başlangıç + 15 dk): sonuç kontrolü (canli_takip → veri/canli_takip*.csv)
 Durum: veri/plan/<tarih>.json. Koşu saatleri: ebayi program kosular/<HIP>.json. Çıkış kodu 3 = günün bütün işleri bitti."""
 import sys,os,json,subprocess,datetime
@@ -42,7 +42,7 @@ kd=os.path.join(K,'veri','agf_kayit',g.isoformat())
 ilk_tamam=all(os.path.exists(os.path.join(kd,f"ILK_{h}.csv")) for h in KS)
 ilk_iki=ilk_tamam and all(os.path.exists(os.path.join(kd,f"ILK_{h}_ebayi.json")) for h in KS)   # iki kaynakta da ilk AGF alındı mı
 if '09:15'<=hm<='10:30' and not ilk_iki and dk(hm)-P.get('son_sabah',-99)>=5:
-    print(f"{hm} sabah AGF kontrolü",flush=True); P['son_sabah']=dk(hm); kaydet(); calis('agf_kayit.py'); ALINDI[0]=False; calis('agf_sonrasi_analiz.py')
+    print(f"{hm} sabah AGF kontrolü",flush=True); P['son_sabah']=dk(hm); kaydet(); calis('agf_kayit.py'); ALINDI[0]=False; calis('agf_sonrasi_analiz.py'); calis('agf_karsilastir.py',g.isoformat())
 # ilk AGF alındıktan sonra öğleye kadar 15 dk'da bir görüntü: TJK ile ebayi AGF'si ne zaman aynılaşıyor, sabah AGF nasıl oturuyor
 if ilk_tamam and '09:15'<=hm<'12:00' and dk(hm)-P.get('son_sabah2',-99)>=15:
     P['son_sabah2']=dk(hm); kaydet(); calis('agf_kayit.py')
@@ -57,7 +57,8 @@ if dk(hm)>=ogle and (ilk_tamam or hm>'10:30'): is_('12:00 kontrol',lambda:(calis
 # 3) koşudan 1 saat önce  4) koşudan sonra
 for h,R in KS.items():
     for no,t in R.items():
-        if dk(t)-60<=dk(hm)<dk(t): is_(f"{h} {no}. koşu -60dk kayıt",lambda:calis('agf_kayit.py'))
+        # -60 dk: kayıt + TJK/ebayi AGF karşılaştırması (veri/agf_kayit/<tarih>/karsilastirma.json, GUNLUK.md)
+        if dk(t)-60<=dk(hm)<dk(t): is_(f"{h} {no}. koşu -60dk kayıt",lambda h=h,no=no:(calis('agf_kayit.py'),calis('agf_karsilastir.py',g.isoformat(),h,no)))
         # para girişi için koşuya yakın görüntüler (−30, −10, −3 dk); aynı dakikada birden çok iş tek kayıtla yapılır (ALINDI)
         for e in (30,10,3):
             if dk(t)-e<=dk(hm)<dk(t): is_(f"{h} {no}. koşu -{e}dk kayıt",lambda:calis('agf_kayit.py'))

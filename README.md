@@ -4,6 +4,7 @@ Türkiye at yarışları (TJK) için notlar, veri toplama ve analiz araçları. 
 
 | Dosya | Ne yapar |
 |---|---|
+| `scripts/agf_karsilastir.py` | Koşudan 1 saat önce TJK ve ebayi AGF'lerini karşılaştırır; günlük rapor `veri/agf_kayit/<tarih>/GUNLUK.md` (sabah hangi kaynak önce yayınladı + karşılaştırmalar). `agf_plan.py` çağırır |
 | `scripts/sonuc_indir.py` | Son N günün TJK sonuç CSV'lerini indirir |
 | `scripts/aygir_stat.py` | Sonuçlardan aygır kan istatistiği (ırk/zemin/mesafe A/E) üretir |
 | `scripts/idman.py` | Günün programındaki galop (idman) bilgilerini toplar |
