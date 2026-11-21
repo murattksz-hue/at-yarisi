@@ -1,0 +1,130 @@
+{
+ "ŞARTLI 3": {
+  "seviye": 48.0,
+  "kosu": 2030
+ },
+ "ŞARTLI 2": {
+  "seviye": 41.4,
+  "kosu": 409
+ },
+ "ŞARTLI 4": {
+  "seviye": 56.9,
+  "kosu": 2854
+ },
+ "KV-6": {
+  "seviye": 68.5,
+  "kosu": 1000
+ },
+ "ŞARTLI 5": {
+  "seviye": 63.8,
+  "kosu": 2009
+ },
+ "Maiden": {
+  "seviye": 23.9,
+  "kosu": 4194
+ },
+ "SATIŞ 1": {
+  "seviye": 44.1,
+  "kosu": 253
+ },
+ "A 2": {
+  "seviye": 86.6,
+  "kosu": 21
+ },
+ "Handikap 15": {
+  "seviye": 43.8,
+  "kosu": 2605
+ },
+ "Handikap 13": {
+  "seviye": 31.1,
+  "kosu": 158
+ },
+ "Handikap 14": {
+  "seviye": 37.4,
+  "kosu": 1803
+ },
+ "Handikap 16": {
+  "seviye": 53.8,
+  "kosu": 1977
+ },
+ "Handikap 17": {
+  "seviye": 68.3,
+  "kosu": 596
+ },
+ "G 3": {
+  "seviye": 83.4,
+  "kosu": 291
+ },
+ "SATIŞ 2": {
+  "seviye": 44.4,
+  "kosu": 232
+ },
+ "Maiden/Satış": {
+  "seviye": 23.4,
+  "kosu": 96
+ },
+ "A 3": {
+  "seviye": 79.0,
+  "kosu": 79
+ },
+ "SATIŞ 3": {
+  "seviye": 54.4,
+  "kosu": 131
+ },
+ "Handikap 21": {
+  "seviye": 76.4,
+  "kosu": 235
+ },
+ "KV-8": {
+  "seviye": 78.4,
+  "kosu": 775
+ },
+ "KV-7": {
+  "seviye": 71.9,
+  "kosu": 770
+ },
+ "G 2": {
+  "seviye": 82.3,
+  "kosu": 166
+ },
+ "Handikap 22": {
+  "seviye": 78.2,
+  "kosu": 30
+ },
+ "Handikap 24": {
+  "seviye": 87.3,
+  "kosu": 8
+ },
+ "KV-9": {
+  "seviye": 81.0,
+  "kosu": 230
+ },
+ "G 1": {
+  "seviye": 91.1,
+  "kosu": 153
+ },
+ "KV-18": {
+  "seviye": 66.7,
+  "kosu": 10
+ },
+ "ŞARTLI 19": {
+  "seviye": 26.5,
+  "kosu": 231
+ },
+ "SATIŞ 4": {
+  "seviye": 62.6,
+  "kosu": 30
+ },
+ "Kısa Vade Handikap 22": {
+  "seviye": 84.2,
+  "kosu": 99
+ },
+ "Kısa Vade Handikap 24": {
+  "seviye": 90.1,
+  "kosu": 68
+ },
+ "KADIN AMATÖR BİNİCİ": {
+  "seviye": 60.0,
+  "kosu": 6
+ }
+}

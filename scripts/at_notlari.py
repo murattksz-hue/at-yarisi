@@ -50,7 +50,7 @@ def soy_not(baba,irk,mesafe):
     if not mesafe or not baba: return ''
     v=_SM.get(f"{irk}|{bant(mesafe)}",{}).get(baba)
     return f"soy {baba[:14]} {bant(mesafe)}: %{v['kazanma']} kazanma, ilk3 %{v['ilk3']} ({v['kosu']} koşu, A/E {v['ae_alan']})" if v else ''
-def ek_vektor(R,KAL,hip,mesafe,alan_hp,baba,irk):
+def ek_vektor(R,KAL,hip,mesafe,alan_hp,baba,irk,kb=None,tur=None):
     """Model özellikleri (scripts/ek_ozellik.py ile aynı tanım): [sinif, ilk_hip, ilk_mes, en_uzun, en_kisa, mes_deg, soy_bant, iyi_yeni_mes]"""
     global _SM
     import json,math
@@ -58,11 +58,12 @@ def ek_vektor(R,KAL,hip,mesafe,alan_hp,baba,irk):
         p=os.path.join(K,'veri','soy_mesafe.json'); _SM=json.load(open(p,encoding='utf-8')) if os.path.exists(p) else {}
     v=_SM.get(f"{irk}|{bant(mesafe or 0)}",{}).get(baba)
     soy=math.log((v['birinci']+2)/(v['birinci']/v['ae_alan']+2)) if v and v.get('ae_alan') else 0.0
-    if not R: return [None,0,0,0,0,0,soy,0]
+    if not R: return [None,0,0,0,0,0,soy,0]+_kan_tur(baba,kb,irk,mesafe,[],tur)
     ms=[_f(r['mesafe']) or 0 for r in R]; m=mesafe or 0
     P=[KAL.get((r['tarih'],r['hip'],r['kosu'])) for r in R[-3:]]; P=[p for p in P if p]
     iyi=sum(1 for r in R[-3:] if (_f(r['sonuc']) or 99)<=3)>=2; yeni=m not in ms
-    return [(sum(P)/len(P)-alan_hp) if (P and alan_hp) else None, int(hip not in {r['hip'] for r in R}), int(yeni), int(m>max(ms)+100), int(m<min(ms)-100), (m-ms[-1])/100, soy, int(iyi and yeni)]
+    ek=_kan_tur(baba,kb,irk,mesafe,R,tur)
+    return [(sum(P)/len(P)-alan_hp) if (P and alan_hp) else None, int(hip not in {r['hip'] for r in R}), int(yeni), int(m>max(ms)+100), int(m<min(ms)-100), (m-ms[-1])/100, soy, int(iyi and yeni)]+ek
 _KH=None
 def kan_not(baba,kb,irk,mesafe):
     """Baba hattı (babanın babası) ve anne babası: bu ırk+bantta (veri/kan_hatti.json, ≥60 koşu)."""
@@ -77,3 +78,35 @@ def kan_not(baba,kb,irk,mesafe):
     v=_KH.get('annebaba',{}).get(g,{}).get(ad(kb))
     if v: t.append(f"anne babası {ad(kb)[:14]} {bant(mesafe)}: %{v['kazanma']} kazanma ({v['kosu']} koşu, A/E {v['ae_alan']})")
     return ' | '.join(t)
+
+_TS=None
+def tur_seviye(t):
+    global _TS
+    import json
+    if _TS is None:
+        p=os.path.join(K,'veri','tur_seviye.json'); _TS=json.load(open(p,encoding='utf-8')) if os.path.exists(p) else {}
+    v=_TS.get(t or ''); return v['seviye'] if v else None
+def _kan_tur(baba,kb,irk,mesafe,R,tur):
+    """[annebaba_bant(log), baba_hatti_bant(log), grup_dusus, kotu_form_x_grup_dusus] – ek_ozellik.py ile aynı tanım (tablolar: kan_hatti.json, tur_seviye.json)"""
+    global _KH
+    import json,math
+    if _KH is None:
+        p=os.path.join(K,'veri','kan_hatti.json'); _KH=json.load(open(p,encoding='utf-8')) if os.path.exists(p) else {}
+    ad=lambda s:(s or '').upper().split(' (')[0].strip(); g=f"{irk}|{bant(mesafe or 0)}"
+    def lg(v): return math.log((v['birinci']+2)/(v['birinci']/v['ae_alan']+2)) if v and v.get('ae_alan') else 0.0
+    ab=lg(_KH.get('annebaba',{}).get(g,{}).get(ad(kb)))
+    bb=_KH.get('baba_babasi',{}).get(ad(baba)); bh=lg(_KH.get('baba_hatti',{}).get(g,{}).get(bb)) if bb else 0.0
+    if not R: return [ab,bh,None,0]
+    ts=tur_seviye(tur); tp=[tur_seviye(r['tur']) for r in R[-3:]]; tp=[x for x in tp if x]
+    gd=(sum(tp)/len(tp)-ts) if (tp and ts) else None
+    kotu=sum((_f(r['sonuc']) or 99) for r in R[-3:])/len(R[-3:])>=5
+    return [ab,bh,gd,(gd if (gd is not None and kotu and gd>0) else 0)]
+def grup_not(R,tur):
+    ts=tur_seviye(tur)
+    if not R or not ts: return ''
+    son=R[-3:]; tp=[tur_seviye(r['tur']) for r in son]; tp=[x for x in tp if x]
+    if not tp: return ''
+    gd=sum(tp)/len(tp)-ts
+    if abs(gd)<3: return ''
+    yol=', '.join(f"{r['tur']} {r['sonuc']}/{r['kosan']}" for r in son)
+    return (f"GRUP DÜŞÜŞÜ ({gd:+.0f} HP; son 3: {yol}; testte düşüş ≥8 A/E 1,06, kötü formda da 1,06)" if gd>0 else f"GRUP YÜKSELİŞİ ({gd:+.0f} HP; son 3: {yol}; testte A/E 0,96)")

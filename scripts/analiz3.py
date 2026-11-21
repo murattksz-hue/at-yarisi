@@ -144,13 +144,16 @@ for ri,r in enumerate(races):
             _no=r['bas'].split('.')[0].strip()
             for _l in open(pc,encoding='utf-8-sig'):
                 if _l.startswith(f"{_no}. Kosu"): _mm=_re.search(r'(\d{3,4})m',_l); break
+        _tur0=None
+        for _l in open(pc,encoding='utf-8-sig'):
+            if _l.startswith(r['bas'].split('.')[0].strip()+'. Kosu'): _tur0=_l.split(';')[1].split('/')[0].strip(); break
         _ms0=float(_mm.group(1)) if _mm else 0; _hv0=[y['hp'] for y in h if y['hp']]; _ah0=sum(_hv0)/len(_hv0) if len(_hv0)>=4 else None
-        _EV=np.array([[np.nan if v is None else v for v in _AN.ek_vektor(_ATG.get(y['ad'].upper(),[]),_KAL,HIP,_ms0,_ah0,y['baba'],r['irk'])] for y in h],float)
+        _EV=np.array([[np.nan if v is None else v for v in _AN.ek_vektor(_ATG.get(y['ad'].upper(),[]),_KAL,HIP,_ms0,_ah0,y['baba'],r['irk'],y.get('kb'),_tur0)] for y in h],float)
         for _j in range(_EV.shape[1]):
             _c=_EV[:,_j]; _ok=np.isfinite(_c); _z=np.zeros(len(_c))
             if _ok.sum()>1 and _c[_ok].std()>0: _z[_ok]=np.clip((_c[_ok]-_c[_ok].mean())/_c[_ok].std(),-2.5,2.5)
             _EV[:,_j]=_z
-        u=u+_EV@np.array(EKW['agfsiz' if agf_yok else 'agfli'])
+        _w=np.array(EKW['agfsiz' if agf_yok else 'agfli']); u=u+_EV[:,:len(_w)]@_w
     g=[galop(x['ad']) for x in h]; t4=[a[0] for a in g if a[0]]; best=min(t4) if t4 else None
     GW=json.load(open(os.path.join(os.path.dirname(mj),'galop_agirlik.json')))['agirlik'] if os.path.exists(os.path.join(os.path.dirname(mj),'galop_agirlik.json')) else [1,0,0,0,0,0]
     v=np.array([a[0] if a[0] else np.nan for a in g]); vm=np.nanmean(v) if np.isfinite(v).any() else 0; vs=np.nanstd(v) if np.isfinite(v).sum()>1 else 1
@@ -242,6 +245,8 @@ for ri,r in enumerate(races):
             if _so: _NT[i]+=' | '+_so
             _ka=_AN.kan_not(h[i]['baba'],h[i].get('kb'),r['irk'],_ms)
             if _ka: _NT[i]+=' | '+_ka
+            _gn=_AN.grup_not(_ATG.get(h[i]['ad'].upper(),[]),_tur0 if '_tur0' in dir() else None)
+            if _gn: _NT[i]+=' | '+_gn
             print(f"     #{h[i]['no']:>2} {h[i]['ad'][:16]:16} "+_NT[i])
         # kullanıcı kuralı (TEST EDİLMEDİ, canlı takip): listenin hemen dışındaki 3 attan olumlu geçmiş etiketi olan EK ADAY olur;
         # listedeki atlarda "DAHA GÜÇLÜ" rakip etiketi uyarı olarak yazılır. Olasılıklar değişmez.

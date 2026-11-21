@@ -12,6 +12,7 @@ Günlük rapora (scripts/analiz3.py) eklenenler – at seçmeden önce bakılır
 | Atın mesafe uyumu | scripts/mesafe_uyum_test.py | veri/mesafe_uyum_test.json | AT GEÇMİŞİ (bant kaydı) |
 | Sınıf farkı (rakipler daha zayıf/güçlü) | scripts/sinif_dusus.py, sinif_ozellik.py | veri/sinif_dusus.json | AT GEÇMİŞİ, UYARI |
 | Soy x ırk x mesafe | scripts/soy_mesafe.py | veri/soy_mesafe.json | AT GEÇMİŞİ (soy) |
+| Grup (koşu türü) düşüşü/yükselişi | scripts/tur_seviye.py, ek_ozellik.py | veri/tur_seviye.json | AT GEÇMİŞİ (GRUP DÜŞÜŞÜ/YÜKSELİŞİ), model |
 | Baba hattı ve anne babası x ırk x mesafe | scripts/kan_hatti.py | veri/kan_hatti.json | AT GEÇMİŞİ (baba hattı, anne babası) |
 | Sürprizlerin ortak noktaları (HP ilk 3, AGF/ganyan) | scripts/surpriz_ortak.py | veri/surpriz_ortak.json | ⭐ SÜRPRİZ ADAYI |
 | EK ADAY / UYARI kuralı | analiz3.py | JSON ek_aday | ► EK ADAY, ► UYARI |

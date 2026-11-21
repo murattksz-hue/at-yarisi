@@ -63,7 +63,7 @@ def ae(D,k,w,e,pr=4,loo=True):
     return (max(W,0)+pr)/(max(E,0)+pr)
 PC={'K':'Kum','Ç':'Çim','S':'Sentetik'}
 FEAT=['hp','s20','form','pist_form','baba_kani','kulvar','agf','uzun_ara','apranti','yas','kilo','jokey','islak_hp','islak_agf','baba_islak',
-      'hiz_en_iyi3','hiz_son','pist_mesafe_galibi','pist_galibi','deneyim','sahip','galop_400','galop_yok','galop_son7','galop_sayi30','galop_zorlanarak','disi_karma']+(['sinif_fark'] if SN is not None else [])+(['e_sinif','e_ilk_hip','e_ilk_mes','e_en_uzun','e_en_kisa','e_mes_deg','e_soy_bant','e_iyi_yeni_mes'] if EKO is not None else [])
+      'hiz_en_iyi3','hiz_son','pist_mesafe_galibi','pist_galibi','deneyim','sahip','galop_400','galop_yok','galop_son7','galop_sayi30','galop_zorlanarak','disi_karma']+(['sinif_fark'] if SN is not None else [])+(['e_sinif','e_ilk_hip','e_ilk_mes','e_en_uzun','e_en_kisa','e_mes_deg','e_soy_bant','e_iyi_yeni_mes','e_annebaba_bant','e_baba_hatti_bant','e_grup_dusus','e_kotu_form_x_dusus'] if EKO is not None else [])
 def ozellik(r,hip,loo,wet=False,b=None):
     n=len(r['h']); X=[]
     for x in r['h']:
@@ -93,7 +93,7 @@ def ozellik(r,hip,loo,wet=False,b=None):
     DK=np.array([[float(x.get('dis',False) and not r.get('disi_kosu',False))] for x in r['h']])
     if EKO is not None:
         key=b[:-4] if b and b.endswith('.csv') else b
-        M_=np.array([[np.nan if v is None else v for v in EKO.get(f"{key}|{r['no']}|{x['ad']}",[None]*8)] for x in r['h']],float)
+        M_=np.array([[np.nan if v is None else v for v in EKO.get(f"{key}|{r['no']}|{x['ad']}",[None]*12)] for x in r['h']],float)
         for j in range(M_.shape[1]):
             c=M_[:,j]; ok=np.isfinite(c); z=np.zeros(len(c))
             if ok.sum()>1 and c[ok].std()>0: z[ok]=np.clip((c[ok]-c[ok].mean())/c[ok].std(),-2.5,2.5)
