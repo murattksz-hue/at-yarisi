@@ -748,3 +748,9 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - **Piyasadan fazla sürpriz çıkan (A/E>1) anlamlı hiçbir segment yok.** En yakınlar: <1200 m (1,09, n=477, z=+0,9), Elazığ 1,02 — ikisi de gürültü.
 - Uzun atların en çok abartıldığı (A/E düşük, z≤−3): Antalya 0,78 · İzmir 0,82 (ikinci yarıda 0,75, z=−4,4) · KV 0,80 · sentetik pist 0,82 · şartlı 0,86 · 9–11 at 0,86 · şubat 0,76. İzmir ve Antalya iki yarıda da aynı yönde.
 - ~50 segment denendi; z≥3 olanlarda bile bir kısmı tesadüf olabilir. Sürpriz avlamak için bir "av sahası" bulunamadı.
+
+## Yüzeyde "ilk kez" (22.11.2026, `scripts/yuzey_ilk.py`, 126.912 at-koşu, 2024-07+, en az 2 önceki koşusu olan atlar)
+- Hipodromda ilk kez zaten ölçülmüştü (A/E 1,00). Burada **pist yüzeyi** (kum/çim/sentetik): bu yüzeyde ilk kez koşan atlar 7.196, kazanma %8,77 / piyasa beklentisi %8,07 → A/E **1,09 (z +2,3)**, getiri **−%36**. Daha önce koşanlar A/E 1,01.
+- **Kalıcı değil:** ilk yarıda 1,14 (z +2,7), ikinci yarıda 1,03 (z +0,6). Yüzeye göre: kum 1,03 · çim 1,12 (z 1,6) · sentetik 1,12 (z 1,9).
+- Önceki koşuya göre yüzey değişimi: farklı yüzey A/E 1,01, aynı yüzey 1,01 → fark yok. Geçiş çiftlerinin hepsi 0,99–1,05. O yüzeydeki koşu sayısına göre örüntü yok (0: 1,09 · 1–2: 1,02 · 3–9: 1,02 · 10+: 0,97).
+- Sonuç: küçük ve kalıcı olmayan bir fark, kâr getirmiyor. Modele eklenmedi. Uyarı: geçmiş 2024'ten başladığı için "ilk kez" bazı atlarda yanlış olabilir.
