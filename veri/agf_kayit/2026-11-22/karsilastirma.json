@@ -1684,5 +1684,124 @@
     ]
    }
   ]
+ },
+ "Adana-5": {
+  "hipodrom": "Adana",
+  "kosu": 5,
+  "zaman": "19:01",
+  "tjk_goruntu": "19:00",
+  "ebayi_goruntu": "19:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "NOBLE CREST K",
+      "tjk": 11.91,
+      "ebayi": 11.91,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "AL YELE DB SK",
+      "tjk": 7.22,
+      "ebayi": 7.22,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "TRUE ACTION SK",
+      "tjk": 68.14,
+      "ebayi": 68.14,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "MYSTIC RUNNER DB SK",
+      "tjk": 4.11,
+      "ebayi": 4.11,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "DAUGHTER OF VICTOR KG SK",
+      "tjk": 1.28,
+      "ebayi": 1.28,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "PERIWINKLE KG K",
+      "tjk": 7.33,
+      "ebayi": 7.33,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.5,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "NOBLE CREST K",
+      "tjk": 12.12,
+      "ebayi": 12.25,
+      "fark": 0.13
+     },
+     {
+      "at": "2",
+      "ad": "AL YELE DB SK",
+      "tjk": 7.48,
+      "ebayi": 7.61,
+      "fark": 0.13
+     },
+     {
+      "at": "3",
+      "ad": "TRUE ACTION SK",
+      "tjk": 67.79,
+      "ebayi": 67.29,
+      "fark": -0.5
+     },
+     {
+      "at": "4",
+      "ad": "MYSTIC RUNNER DB SK",
+      "tjk": 4.02,
+      "ebayi": 4.05,
+      "fark": 0.03
+     },
+     {
+      "at": "5",
+      "ad": "DAUGHTER OF VICTOR KG SK",
+      "tjk": 1.33,
+      "ebayi": 1.32,
+      "fark": -0.01
+     },
+     {
+      "at": "6",
+      "ad": "PERIWINKLE KG K",
+      "tjk": 7.26,
+      "ebayi": 7.47,
+      "fark": 0.21
+     }
+    ]
+   }
+  ]
  }
 }
