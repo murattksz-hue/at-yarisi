@@ -868,5 +868,104 @@
     ]
    }
   ]
+ },
+ "İzmir-7": {
+  "hipodrom": "İzmir",
+  "kosu": 7,
+  "zaman": "16:30",
+  "tjk_goruntu": "15:50",
+  "ebayi_goruntu": "16:30",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ALÇITEPE SK",
+      "tjk": 17.31,
+      "ebayi": 17.31,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "ARCHER BOY SK",
+      "tjk": 0.79,
+      "ebayi": 0.79,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "BARNADELLI KG K SK SGKR",
+      "tjk": 13.29,
+      "ebayi": 13.29,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "GALA",
+      "tjk": 32.74,
+      "ebayi": 32.74,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "MAGIC SPEED K DB SK",
+      "tjk": 7.56,
+      "ebayi": 7.56,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "MAXIMUS PRIME",
+      "tjk": 6.92,
+      "ebayi": 6.92,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "RÜZGARIN ESİNTİSİ  KG K",
+      "tjk": 2.35,
+      "ebayi": 2.35,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "THRILLER DB SK",
+      "tjk": 10.38,
+      "ebayi": 10.38,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "VOOMİRVAH DB SK",
+      "tjk": 2.52,
+      "ebayi": 2.52,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "BLUE STARLINK K",
+      "tjk": 2.27,
+      "ebayi": 2.27,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "LADY AMED KG K",
+      "tjk": 3.87,
+      "ebayi": 3.87,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
