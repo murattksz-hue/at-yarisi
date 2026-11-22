@@ -1236,5 +1236,208 @@
     ]
    }
   ]
+ },
+ "Adana-3": {
+  "hipodrom": "Adana",
+  "kosu": 3,
+  "zaman": "18:01",
+  "tjk_goruntu": "18:01",
+  "ebayi_goruntu": "18:01",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "HİVE SULTAN KG K",
+      "tjk": 2.53,
+      "ebayi": 2.53,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "KUZGUNİ YEŞİL K SK",
+      "tjk": 19.25,
+      "ebayi": 19.25,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "SEVDA MEVSİMİ K DB SKG",
+      "tjk": 13.35,
+      "ebayi": 13.35,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ÇEŞMEBAŞI K YP",
+      "tjk": 27.74,
+      "ebayi": 27.74,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "ÇIĞGİBİ KG DB",
+      "tjk": 4.85,
+      "ebayi": 4.85,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ESENYIL KG DB SK",
+      "tjk": 8.95,
+      "ebayi": 8.95,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "VARTO ESİNTİSİ KG DB",
+      "tjk": 1.89,
+      "ebayi": 1.89,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "GÜLÜMSE BİRAZ KG DB SK",
+      "tjk": 7.28,
+      "ebayi": 7.28,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KİRAZLI K DB SKG",
+      "tjk": 0.71,
+      "ebayi": 0.71,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "NERGİSLİK TAY KG DB SK",
+      "tjk": 0.71,
+      "ebayi": 0.71,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "GÜMBÜRSOY SKG SK SGKR",
+      "tjk": 1.73,
+      "ebayi": 1.73,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "YETİMABLA DB SKG SK",
+      "tjk": 11.01,
+      "ebayi": 11.01,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.1,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "HİVE SULTAN KG K",
+      "tjk": 2.35,
+      "ebayi": 2.33,
+      "fark": -0.02
+     },
+     {
+      "at": "2",
+      "ad": "KUZGUNİ YEŞİL K SK",
+      "tjk": 20.1,
+      "ebayi": 20.05,
+      "fark": -0.05
+     },
+     {
+      "at": "3",
+      "ad": "SEVDA MEVSİMİ K DB SKG",
+      "tjk": 13.0,
+      "ebayi": 12.98,
+      "fark": -0.02
+     },
+     {
+      "at": "4",
+      "ad": "ÇEŞMEBAŞI K YP",
+      "tjk": 31.17,
+      "ebayi": 31.07,
+      "fark": -0.1
+     },
+     {
+      "at": "5",
+      "ad": "ÇIĞGİBİ KG DB",
+      "tjk": 4.63,
+      "ebayi": 4.65,
+      "fark": 0.02
+     },
+     {
+      "at": "6",
+      "ad": "ESENYIL KG DB SK",
+      "tjk": 7.77,
+      "ebayi": 7.81,
+      "fark": 0.04
+     },
+     {
+      "at": "7",
+      "ad": "VARTO ESİNTİSİ KG DB",
+      "tjk": 1.62,
+      "ebayi": 1.63,
+      "fark": 0.01
+     },
+     {
+      "at": "8",
+      "ad": "GÜLÜMSE BİRAZ KG DB SK",
+      "tjk": 6.25,
+      "ebayi": 6.34,
+      "fark": 0.09
+     },
+     {
+      "at": "9",
+      "ad": "KİRAZLI K DB SKG",
+      "tjk": 0.9,
+      "ebayi": 0.9,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "NERGİSLİK TAY KG DB SK",
+      "tjk": 0.75,
+      "ebayi": 0.73,
+      "fark": -0.02
+     },
+     {
+      "at": "11",
+      "ad": "GÜMBÜRSOY SKG SK SGKR",
+      "tjk": 1.65,
+      "ebayi": 1.71,
+      "fark": 0.06
+     },
+     {
+      "at": "12",
+      "ad": "YETİMABLA DB SKG SK",
+      "tjk": 9.82,
+      "ebayi": 9.8,
+      "fark": -0.02
+     }
+    ]
+   }
+  ]
  }
 }
