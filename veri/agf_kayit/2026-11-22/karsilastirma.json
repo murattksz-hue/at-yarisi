@@ -90,5 +90,111 @@
     ]
    }
   ]
+ },
+ "İzmir-2": {
+  "hipodrom": "İzmir",
+  "kosu": 2,
+  "zaman": "14:01",
+  "tjk_goruntu": "14:00",
+  "ebayi_goruntu": "14:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.15,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "RÜZGAR LİDER K DB",
+      "tjk": 10.08,
+      "ebayi": 10.08,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "KARPATINO DB SKG SK",
+      "tjk": 5.6,
+      "ebayi": 5.59,
+      "fark": -0.01
+     },
+     {
+      "at": "3",
+      "ad": "DAUGHTER OF GODDES K DB SKG SK",
+      "tjk": 25.18,
+      "ebayi": 25.07,
+      "fark": -0.11
+     },
+     {
+      "at": "4",
+      "ad": "FEEL THE BATTLE K DB",
+      "tjk": 38.21,
+      "ebayi": 38.36,
+      "fark": 0.15
+     },
+     {
+      "at": "5",
+      "ad": "SMYRNA POWER DB SKG SK",
+      "tjk": 14.31,
+      "ebayi": 14.25,
+      "fark": -0.06
+     },
+     {
+      "at": "6",
+      "ad": "AVENGING KG K DB",
+      "tjk": 1.26,
+      "ebayi": 1.26,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "POWER OF SISTERS K DB",
+      "tjk": 0.5,
+      "ebayi": 0.51,
+      "fark": 0.01
+     },
+     {
+      "at": "8",
+      "ad": "CHILEAN BRIDE DB SKG SK",
+      "tjk": 0.2,
+      "ebayi": 0.2,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "DATÇA RÜZGARI KG K DB",
+      "tjk": 0.25,
+      "ebayi": 0.27,
+      "fark": 0.02
+     },
+     {
+      "at": "10",
+      "ad": "TEBLİGAT K",
+      "tjk": 1.54,
+      "ebayi": 1.55,
+      "fark": 0.01
+     },
+     {
+      "at": "11",
+      "ad": "BRAVE VICTORY SKG SK",
+      "tjk": 2.61,
+      "ebayi": 2.61,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "CALL ME NATIVE KG DB SK",
+      "tjk": 0.26,
+      "ebayi": 0.26,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
