@@ -762,3 +762,6 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - **At sayısına göre değişiyor:** 9–11 atta sürpriz AGF'nin beklediğinden az (sıra >4: A/E 0,91, z −3,3), 12–14 ve 15+ atta biraz fazla (sıra >5: 1,09 z +2,3 / 1,12 z +1,7). Ham sürpriz oranı da ciddi değişiyor (sıra >4: 5–8 at %12,4 · 9–11 %21,9 · 12–14 %32,4 · 15+ %37,8).
 - **Getiri:** eşik altındaki atların hepsine düz oyun getirisi %42–62 (yani zarar).
 - Öneri: "sürpriz" = AGF %10 altı (≈ilk 4 dışı), "büyük sürpriz" = AGF %5 altı. Karşılaştırmada ham oran değil A/E kullan. Not: canlı takipte sabah/−60 dk AGF kullanılırsa kapanış AGF'den 1–3 puan oynayabilir.
+
+## Yapılacak testler (22.11.2026)
+- Bekleyen test ve fikirler `YAPILACAK_TESTLER.md` dosyasında (önkoşul, ölçüt, kurallarla). Yeni testleri oraya ekle, yapılanları ✅ işaretle ve sonucu burada ayrıca yaz.
