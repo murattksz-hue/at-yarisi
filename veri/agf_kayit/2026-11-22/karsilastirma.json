@@ -196,5 +196,180 @@
     ]
    }
   ]
+ },
+ "İzmir-3": {
+  "hipodrom": "İzmir",
+  "kosu": 3,
+  "zaman": "14:30",
+  "tjk_goruntu": "14:30",
+  "ebayi_goruntu": "14:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.1,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "5",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "DJUMBO KG SK",
+      "tjk": 20.78,
+      "ebayi": 20.83,
+      "fark": 0.05
+     },
+     {
+      "at": "2",
+      "ad": "EGE FIRTINASI KG K",
+      "tjk": 5.59,
+      "ebayi": 5.61,
+      "fark": 0.02
+     },
+     {
+      "at": "3",
+      "ad": "ERRAYN DB SK",
+      "tjk": 4.25,
+      "ebayi": 4.3,
+      "fark": 0.05
+     },
+     {
+      "at": "4",
+      "ad": "NORTH HERO",
+      "tjk": 16.99,
+      "ebayi": 16.96,
+      "fark": -0.03
+     },
+     {
+      "at": "5",
+      "ad": "PEER KING KG K DB",
+      "tjk": 24.53,
+      "ebayi": 24.43,
+      "fark": -0.1
+     },
+     {
+      "at": "6",
+      "ad": "SEROL HAN KG K",
+      "tjk": 2.29,
+      "ebayi": 2.3,
+      "fark": 0.01
+     },
+     {
+      "at": "7",
+      "ad": "SİFOĞLU K DB SK",
+      "tjk": 10.37,
+      "ebayi": 10.37,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "SOLARES SKG SK",
+      "tjk": 1.64,
+      "ebayi": 1.64,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "QUEEN OF SUMMER KG DB SK",
+      "tjk": 1.46,
+      "ebayi": 1.46,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "ROSE OF THE EAST",
+      "tjk": 12.1,
+      "ebayi": 12.1,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.05,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "DJUMBO KG SK",
+      "tjk": 20.28,
+      "ebayi": 20.32,
+      "fark": 0.04
+     },
+     {
+      "at": "2",
+      "ad": "EGE FIRTINASI KG K",
+      "tjk": 4.8,
+      "ebayi": 4.81,
+      "fark": 0.01
+     },
+     {
+      "at": "3",
+      "ad": "ERRAYN DB SK",
+      "tjk": 3.83,
+      "ebayi": 3.83,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "NORTH HERO",
+      "tjk": 17.72,
+      "ebayi": 17.72,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "PEER KING KG K DB",
+      "tjk": 26.26,
+      "ebayi": 26.21,
+      "fark": -0.05
+     },
+     {
+      "at": "6",
+      "ad": "SEROL HAN KG K",
+      "tjk": 1.76,
+      "ebayi": 1.76,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "SİFOĞLU K DB SK",
+      "tjk": 10.7,
+      "ebayi": 10.69,
+      "fark": -0.01
+     },
+     {
+      "at": "8",
+      "ad": "SOLARES SKG SK",
+      "tjk": 1.41,
+      "ebayi": 1.41,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "QUEEN OF SUMMER KG DB SK",
+      "tjk": 1.19,
+      "ebayi": 1.2,
+      "fark": 0.01
+     },
+     {
+      "at": "10",
+      "ad": "ROSE OF THE EAST",
+      "tjk": 12.05,
+      "ebayi": 12.05,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }

@@ -15,8 +15,12 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 |---|---|---|---|---|---|---|---|---|---|---|
 | İzmir | 1 | 13:30 | 1. | 3 | 3 | ✓ | ✓ | 0.03 | 3→3 | 3→3 |
 | İzmir | 2 | 14:01 | 1. | 4 | 4 | ✓ | ✓ | 0.15 | 4→4 | 4→4 |
+| İzmir | 3 | 14:30 | 1. | 5 | 5 | ✓ | ✓ | 0.1 | 5→5 | 5→5 |
+| İzmir | 3 | 14:30 | 2. | 5 | 5 | ✓ | ✓ | 0.05 | 5→5 | 1→5 |
 
 ### Farklı çıkan atlar
 
 - İzmir 1. koşu (1. altılı; TJK görüntüsü 13:30, ebayi 13:30): 1 YETİM AMCA KG DB SK TJK %14.43 / ebayi %14.42, 3 ULU YAŞAR KG DB SK TJK %28.01 / ebayi %27.99, 4 DEMİRNAL KG DB SK TJK %19.03 / ebayi %19.06, 6 SANCAR EFESİ KG K TJK %5.71 / ebayi %5.7
 - İzmir 2. koşu (1. altılı; TJK görüntüsü 14:00, ebayi 14:00): 2 KARPATINO DB SKG SK TJK %5.6 / ebayi %5.59, 3 DAUGHTER OF GODDES K DB SKG SK TJK %25.18 / ebayi %25.07, 4 FEEL THE BATTLE K DB TJK %38.21 / ebayi %38.36, 5 SMYRNA POWER DB SKG SK TJK %14.31 / ebayi %14.25, 7 POWER OF SISTERS K DB TJK %0.5 / ebayi %0.51, 9 DATÇA RÜZGARI KG K DB TJK %0.25 / ebayi %0.27, 10 TEBLİGAT K TJK %1.54 / ebayi %1.55
+- İzmir 3. koşu (1. altılı; TJK görüntüsü 14:30, ebayi 14:30): 1 DJUMBO KG SK TJK %20.78 / ebayi %20.83, 2 EGE FIRTINASI KG K TJK %5.59 / ebayi %5.61, 3 ERRAYN DB SK TJK %4.25 / ebayi %4.3, 4 NORTH HERO TJK %16.99 / ebayi %16.96, 5 PEER KING KG K DB TJK %24.53 / ebayi %24.43, 6 SEROL HAN KG K TJK %2.29 / ebayi %2.3
+- İzmir 3. koşu (2. altılı; TJK görüntüsü 14:30, ebayi 14:30): 1 DJUMBO KG SK TJK %20.28 / ebayi %20.32, 2 EGE FIRTINASI KG K TJK %4.8 / ebayi %4.81, 5 PEER KING KG K DB TJK %26.26 / ebayi %26.21, 7 SİFOĞLU K DB SK TJK %10.7 / ebayi %10.69, 9 QUEEN OF SUMMER KG DB SK TJK %1.19 / ebayi %1.2
