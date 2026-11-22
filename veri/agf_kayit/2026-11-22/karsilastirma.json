@@ -967,5 +967,76 @@
     ]
    }
   ]
+ },
+ "Adana-1": {
+  "hipodrom": "Adana",
+  "kosu": 1,
+  "zaman": "16:46",
+  "tjk_goruntu": "16:45",
+  "ebayi_goruntu": "16:45",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.07,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "GALLOON SKG SK SGKR",
+      "tjk": 14.04,
+      "ebayi": 14.03,
+      "fark": -0.01
+     },
+     {
+      "at": "2",
+      "ad": "MUCHACHO K DB SKG",
+      "tjk": 6.4,
+      "ebayi": 6.37,
+      "fark": -0.03
+     },
+     {
+      "at": "3",
+      "ad": "SELANİK PRENSİ DB SK",
+      "tjk": 33.17,
+      "ebayi": 33.24,
+      "fark": 0.07
+     },
+     {
+      "at": "4",
+      "ad": "WE ARE THE STAR KG DB SK",
+      "tjk": 24.52,
+      "ebayi": 24.55,
+      "fark": 0.03
+     },
+     {
+      "at": "5",
+      "ad": "EXPRESS DB SK",
+      "tjk": 2.09,
+      "ebayi": 2.09,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "JAN AQUA DB SKG SK",
+      "tjk": 8.35,
+      "ebayi": 8.31,
+      "fark": -0.04
+     },
+     {
+      "at": "7",
+      "ad": "ŞERDİL SKG SK",
+      "tjk": 11.44,
+      "ebayi": 11.4,
+      "fark": -0.04
+     }
+    ]
+   }
+  ]
  }
 }
