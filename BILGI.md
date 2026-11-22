@@ -740,3 +740,11 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - **Güven aralığı:** `scripts/guven_araligi.py` model - AGF farkını koşu-eşli bootstrap ile %95 aralıkla verir (`veri/agf_kayit/GUVEN_ARALIGI.md`, günün sonunda otomatik). 46 koşuda her iki model için de aralık sıfırı içeriyor: fark kanıtlanmış değil.
 - Not: bu iki fikir `nino0435/ganyan-model` raporlarındaki yöntem açıklamalarından alındı (kodu açılmadı, lisansı yok); uygulama sıfırdan yazıldı.
 
+
+## Sürprizler nerede çıkıyor? (22.11.2026, `scripts/surpriz_nerede.py`, 17.806 koşu 2024+)
+- Sürpriz = kazananın kesin ganyanı ≥10. Gerçek oran **%15,1**, piyasanın beklediği %16,8 (A/E 0,90). Uzun atlar her yerde fazla oynanıyor.
+- **Ham oran at sayısına bağlı:** 5–8 at %8,8 · 9–11 %15,3 · 12–14 %23,8 · 15+ %29,8. Sürprizleri karşılaştırırken sayıdan çok **A/E** (gerçek/beklenen) bakılmalı.
+- Ham orana göre yüksek: Şanlıurfa %20,2, Elazığ %18,6, handikap %18,7, çim %16,6, haziran–ekim ~%16–17. Düşük: Antalya %11,4, KV %10,4, şubat %11,9, aralık %11,7.
+- **Piyasadan fazla sürpriz çıkan (A/E>1) anlamlı hiçbir segment yok.** En yakınlar: <1200 m (1,09, n=477, z=+0,9), Elazığ 1,02 — ikisi de gürültü.
+- Uzun atların en çok abartıldığı (A/E düşük, z≤−3): Antalya 0,78 · İzmir 0,82 (ikinci yarıda 0,75, z=−4,4) · KV 0,80 · sentetik pist 0,82 · şartlı 0,86 · 9–11 at 0,86 · şubat 0,76. İzmir ve Antalya iki yarıda da aynı yönde.
+- ~50 segment denendi; z≥3 olanlarda bile bir kısmı tesadüf olabilir. Sürpriz avlamak için bir "av sahası" bulunamadı.
