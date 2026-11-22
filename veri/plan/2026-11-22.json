@@ -23,6 +23,7 @@
 },
 "yapilan": [
 "12:00 kontrol",
+"Adana 1. koşu -30dk kayıt",
 "Adana 1. koşu -60dk kayıt",
 "İzmir 1. koşu -10dk kayıt",
 "İzmir 1. koşu -30dk kayıt",
@@ -65,6 +66,7 @@
 "İzmir 5. koşu -3dk kayıt",
 "İzmir 5. koşu -60dk kayıt",
 "İzmir 5. koşu kazanan profili +20",
+"İzmir 5. koşu kazanan profili +45",
 "İzmir 5. koşu para takibi +15",
 "İzmir 5. koşu para takibi +40",
 "İzmir 5. koşu sonrası kontrol",
@@ -72,6 +74,8 @@
 "İzmir 6. koşu -30dk kayıt",
 "İzmir 6. koşu -3dk kayıt",
 "İzmir 6. koşu -60dk kayıt",
+"İzmir 6. koşu para takibi +15",
+"İzmir 6. koşu sonrası kontrol",
 "İzmir 7. koşu -30dk kayıt",
 "İzmir 7. koşu -60dk kayıt",
 "İzmir 8. koşu -60dk kayıt"
