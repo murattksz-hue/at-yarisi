@@ -17,7 +17,7 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 
 **1. Hata raporu** (`scripts/hata_raporu.py`, yeni)
 - Amaç: sürprizlerin neden geldiği, bizim neyi gözden kaçırdığımız; diğer koşularda hata arama.
-- Girdi: `veri/kazanan_profil.csv`, `veri/canli_takip.csv`.
+- Girdi: `veri/kazanan_profil.csv`, `veri/canli_takip.csv`. Sürpriz ayrımı için `scripts/surpriz_ayri.py` hazır (kartlar `veri/agf_kayit/<tarih>/SURPRIZ.md`); hata raporu bunun üstüne kurulabilir.
 - Çıktı: `veri/hata_raporu/<tarih>.md`, gün sonu `agf_plan.py` çağırır (`agf_dogruluk.py` gibi).
 - İçerik: (a) her sürpriz kazanan için piyasadan ayrıldığı yönler ve bizim modelin ona verdiği sıra, nedenleri "olası neden" diye etiketle; sürprizi kendi **segmentinin beklenen oranıyla** (`surpriz_nerede.py`, at sayısı/hipodrom/tür) kıyasla; (b) büyük hatalar: kazananın model sırası ≥4 ya da ilk seçimimiz ≥5. bitmiş; ortak özellikleri say; (c) üstte günlerin toplam tablosu.
 - Not: örnek az (45 kazanan, 7 sürpriz); yorumları "olası" yaz, sağlam sonuç için geçmiş veriyle (`veri/at_gecmisi`) test et.

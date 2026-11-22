@@ -765,3 +765,10 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 
 ## Yapılacak testler (22.11.2026)
 - Bekleyen test ve fikirler `YAPILACAK_TESTLER.md` dosyasında (önkoşul, ölçüt, kurallarla). Yeni testleri oraya ekle, yapılanları ✅ işaretle ve sonucu burada ayrıca yaz.
+
+## Sürprizler ayrı kayıt (22.11.2026, `scripts/surpriz_ayri.py`)
+- `kazanan_profil.csv`'yi okuyup sürpriz kazananları **ayrı** dosyaya çıkarır (gün sonu otomatik): `veri/agf_kayit/surpriz_ayri.csv` (tüm günler) ve `veri/agf_kayit/<tarih>/SURPRIZ.md` (o günün kartları + toplam karşılaştırma). `kazanan_profil.py`'ye dokunulmadı.
+- Tanımlar (etiketli): **G** ganyan ≥10 · **A10** kapanış AGF <%10 · **AS10** sabah AGF <%10 · **A5** kapanış AGF <%5. Notlar kural tabanlı ("olası"), neden değil.
+- 22.11 sürprizleri: İzmir 4 Supertramp (kesin 10,2; AGF 6,6→5,1; start 1, jokey değişti, mesafe −400 m, model 3.), İzmir 5 Chumlee (10,7; AGF 7,3→6,0; start 1, jokey değişti, mesafe +500 m, önceki koşuda favori 6. bitmişti), Adana 2 Selim Usta (12,75; AGF %4,7 hareketsiz 🤫, ganyan son 30 dk'da 26,9→12,1 💰; maiden, pist yüzeyi değişti). Sınır vaka: İzmir 8 Başar Soylu (sabah AGF %7,1 → %11,8, 💰; AGF'siz model 1. sıraya koymuştu).
+- Toplam (22.11 itibarıyla, G: 10 sürpriz): jokey değişti %80 (diğer kazananlar %58) · 🤫 %56 (%20) · 💰 %11 (%43) · AGF'li model ilk 3'te %10 (%82) · iç kulvar %50 (%33). Örnek çok az, yorum değil gözlem.
+
