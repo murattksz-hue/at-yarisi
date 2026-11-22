@@ -1,0 +1,94 @@
+{
+ "İzmir-1": {
+  "hipodrom": "İzmir",
+  "kosu": 1,
+  "zaman": "13:30",
+  "tjk_goruntu": "13:30",
+  "ebayi_goruntu": "13:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.03,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "YETİM AMCA KG DB SK",
+      "tjk": 14.43,
+      "ebayi": 14.42,
+      "fark": -0.01
+     },
+     {
+      "at": "2",
+      "ad": "RÜZGARSU DB SKG SK",
+      "tjk": 13.63,
+      "ebayi": 13.63,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ULU YAŞAR KG DB SK",
+      "tjk": 28.01,
+      "ebayi": 27.99,
+      "fark": -0.02
+     },
+     {
+      "at": "4",
+      "ad": "DEMİRNAL KG DB SK",
+      "tjk": 19.03,
+      "ebayi": 19.06,
+      "fark": 0.03
+     },
+     {
+      "at": "5",
+      "ad": "TİMBİRBİKE KG SK",
+      "tjk": 1.67,
+      "ebayi": 1.67,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "SANCAR EFESİ KG K",
+      "tjk": 5.71,
+      "ebayi": 5.7,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "KIZIM MERYEM DB SKG SK",
+      "tjk": 8.02,
+      "ebayi": 8.02,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "AYBUGA KG",
+      "tjk": 3.19,
+      "ebayi": 3.19,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "AKSOYLUCAN KG DB SK GKR",
+      "tjk": 5.59,
+      "ebayi": 5.59,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "SARMAN RÜZGARI KG DB SK",
+      "tjk": 0.72,
+      "ebayi": 0.72,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
+ }
+}
