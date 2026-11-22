@@ -5,7 +5,7 @@
 name: kayit
 on:
   schedule:
-    - cron: '15 6-20 * * *'   # 09:15 İstanbul başlar (kullanıcı kararı); sonraki saatler yedek
+    - cron: '0 5-20 * * *'   # 08:00 İstanbul başlar (kullanıcı kararı 22.11: ilk yayını yakalamak için); sonraki saatler yedek
   workflow_dispatch:
     inputs:
       test:
