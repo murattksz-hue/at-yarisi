@@ -16,7 +16,7 @@ def _iz(h,kaynak,saat):   # ilk_zaman.json: {hipodrom:{tjk:'HHMM UTC', ebayi:'HH
 def agf_kismi(b):   # yalnızca at satırlarının AGF sütunu (değişim karşılaştırması için)
     return [l.split(';')[10] for l in b.decode('utf-8-sig','replace').splitlines() if re.match(r'^\d+;',l) and len(l.split(';'))>10]
 for h in hips:
-    u=f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{urllib.parse.quote(h)}-GunlukYarisProgrami-TR.csv"
+    u=f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{urllib.parse.quote(h)}-GunlukYarisProgrami-TR.csv?t={int(datetime.datetime.now().timestamp())}"   # ?t=: CDN önbelleğini (max-age=600, 10 dk'ya kadar eski) atlatır; 22.11.2026'da doğrulandı
     b=subprocess.run(['curl','-sS','-f','--max-time','90',u],capture_output=True).stdout
     if not b: print(h,': CSV yok'); continue
     # ganyan (Gny) anlık görüntüsü: program HTML'inden, her seferinde saklanır (para girişi takibi için)
