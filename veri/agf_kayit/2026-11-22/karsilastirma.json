@@ -1439,5 +1439,250 @@
     ]
    }
   ]
+ },
+ "Adana-4": {
+  "hipodrom": "Adana",
+  "kosu": 4,
+  "zaman": "18:31",
+  "tjk_goruntu": "18:30",
+  "ebayi_goruntu": "18:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "8",
+    "favori_ebayi": "8",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "CEZZAR BEY DB",
+      "tjk": 2.68,
+      "ebayi": 2.68,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "CANMERT",
+      "tjk": 12.84,
+      "ebayi": 12.84,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "FOTOROMAN KG DB SK",
+      "tjk": 1.57,
+      "ebayi": 1.57,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "NECMİ BABA KG DB SK",
+      "tjk": 0.83,
+      "ebayi": 0.83,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "PALA SALİH",
+      "tjk": 1.01,
+      "ebayi": 1.01,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "GAZNELİ KG K",
+      "tjk": 4.76,
+      "ebayi": 4.76,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "TABİP BEY KG DB GKR ÖG",
+      "tjk": 11.96,
+      "ebayi": 11.96,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "SERPENÇE KG DB SK",
+      "tjk": 15.91,
+      "ebayi": 15.91,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "AĞASAÇAN KG SK",
+      "tjk": 4.02,
+      "ebayi": 4.02,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "YEDİKARDEŞLER KG SK",
+      "tjk": 1.49,
+      "ebayi": 1.49,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "BOĞAZİÇİ BEYİ KG SK",
+      "tjk": 9.29,
+      "ebayi": 9.29,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "ÖZGÜNVERA KG",
+      "tjk": 13.6,
+      "ebayi": 13.6,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "ODABAŞI DB",
+      "tjk": 7.16,
+      "ebayi": 7.16,
+      "fark": 0.0
+     },
+     {
+      "at": "14",
+      "ad": "KAYA DÜNYASI DB SKG SK",
+      "tjk": 0.66,
+      "ebayi": 0.66,
+      "fark": 0.0
+     },
+     {
+      "at": "15",
+      "ad": "GONDAR KG K DB",
+      "tjk": 12.22,
+      "ebayi": 12.22,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "8",
+    "favori_ebayi": "8",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.05,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "15",
+    "sabah_favori_ebayi": "15",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "CEZZAR BEY DB",
+      "tjk": 2.33,
+      "ebayi": 2.34,
+      "fark": 0.01
+     },
+     {
+      "at": "2",
+      "ad": "CANMERT",
+      "tjk": 13.62,
+      "ebayi": 13.57,
+      "fark": -0.05
+     },
+     {
+      "at": "3",
+      "ad": "FOTOROMAN KG DB SK",
+      "tjk": 1.22,
+      "ebayi": 1.21,
+      "fark": -0.01
+     },
+     {
+      "at": "4",
+      "ad": "NECMİ BABA KG DB SK",
+      "tjk": 0.82,
+      "ebayi": 0.82,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "PALA SALİH",
+      "tjk": 0.94,
+      "ebayi": 0.94,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "GAZNELİ KG K",
+      "tjk": 3.98,
+      "ebayi": 4.0,
+      "fark": 0.02
+     },
+     {
+      "at": "7",
+      "ad": "TABİP BEY KG DB GKR ÖG",
+      "tjk": 12.09,
+      "ebayi": 12.11,
+      "fark": 0.02
+     },
+     {
+      "at": "8",
+      "ad": "SERPENÇE KG DB SK",
+      "tjk": 17.51,
+      "ebayi": 17.46,
+      "fark": -0.05
+     },
+     {
+      "at": "9",
+      "ad": "AĞASAÇAN KG SK",
+      "tjk": 3.72,
+      "ebayi": 3.75,
+      "fark": 0.03
+     },
+     {
+      "at": "10",
+      "ad": "YEDİKARDEŞLER KG SK",
+      "tjk": 1.26,
+      "ebayi": 1.25,
+      "fark": -0.01
+     },
+     {
+      "at": "11",
+      "ad": "BOĞAZİÇİ BEYİ KG SK",
+      "tjk": 8.99,
+      "ebayi": 8.99,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "ÖZGÜNVERA KG",
+      "tjk": 13.9,
+      "ebayi": 13.93,
+      "fark": 0.03
+     },
+     {
+      "at": "13",
+      "ad": "ODABAŞI DB",
+      "tjk": 7.02,
+      "ebayi": 7.03,
+      "fark": 0.01
+     },
+     {
+      "at": "14",
+      "ad": "KAYA DÜNYASI DB SKG SK",
+      "tjk": 0.59,
+      "ebayi": 0.59,
+      "fark": 0.0
+     },
+     {
+      "at": "15",
+      "ad": "GONDAR KG K DB",
+      "tjk": 12.02,
+      "ebayi": 12.03,
+      "fark": 0.01
+     }
+    ]
+   }
+  ]
  }
 }
