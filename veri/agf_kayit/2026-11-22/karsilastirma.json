@@ -1038,5 +1038,118 @@
     ]
    }
   ]
+ },
+ "İzmir-8": {
+  "hipodrom": "İzmir",
+  "kosu": 8,
+  "zaman": "17:01",
+  "tjk_goruntu": "15:50",
+  "ebayi_goruntu": "17:00",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "GÜMBÜR BABA SK",
+      "tjk": 31.4,
+      "ebayi": 31.4,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "KRAL KARACA SKG SK",
+      "tjk": 13.14,
+      "ebayi": 13.14,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ULU CİHAN KG K DB",
+      "tjk": 2.79,
+      "ebayi": 2.79,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "BAŞAR SOYLU KG SK",
+      "tjk": 11.84,
+      "ebayi": 11.84,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "RÜZGAR VEYSEL KG K DB",
+      "tjk": 7.5,
+      "ebayi": 7.5,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "RÜZGAR TINAS KG K DB",
+      "tjk": 1.74,
+      "ebayi": 1.74,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "AYDİNÇ KG DB SK ÖG",
+      "tjk": 4.17,
+      "ebayi": 4.17,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "DEVRAN BEY DB SK",
+      "tjk": 13.11,
+      "ebayi": 13.11,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KAFKAS YÜREKLİ KG DB GKR",
+      "tjk": 8.2,
+      "ebayi": 8.2,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "İLKEJDER KG K DB",
+      "tjk": 1.39,
+      "ebayi": 1.39,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "TURGUL HAN KG K DB",
+      "tjk": 1.77,
+      "ebayi": 1.77,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "ŞAHİNBATUR DB SK",
+      "tjk": 2.36,
+      "ebayi": 2.36,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "FAHRİ BABA KG K",
+      "tjk": 0.58,
+      "ebayi": 0.58,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
