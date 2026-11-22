@@ -574,5 +574,180 @@
     ]
    }
   ]
+ },
+ "İzmir-5": {
+  "hipodrom": "İzmir",
+  "kosu": 5,
+  "zaman": "15:30",
+  "tjk_goruntu": "15:30",
+  "ebayi_goruntu": "15:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AĞUSTOS AHMET K DB SKG",
+      "tjk": 32.63,
+      "ebayi": 32.63,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "CAN SADİ SK",
+      "tjk": 2.1,
+      "ebayi": 2.1,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "COLOUR OF LIGHT KG DB SK",
+      "tjk": 6.46,
+      "ebayi": 6.46,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "NORTHERN SHOT KG K",
+      "tjk": 8.64,
+      "ebayi": 8.64,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "CHUMLEE DB SKG SK",
+      "tjk": 6.03,
+      "ebayi": 6.03,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ENGİNTRON DB SK",
+      "tjk": 27.14,
+      "ebayi": 27.14,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "KAMBOÇYALI KG DB SK",
+      "tjk": 2.37,
+      "ebayi": 2.37,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "QUANTUM OF SOLACE KG DB SK",
+      "tjk": 13.62,
+      "ebayi": 13.62,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "KIZIM ÇINAR KG SK GKR",
+      "tjk": 0.61,
+      "ebayi": 0.61,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "LISIMBA KONTAR K DB",
+      "tjk": 0.2,
+      "ebayi": 0.2,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.07,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AĞUSTOS AHMET K DB SKG",
+      "tjk": 31.7,
+      "ebayi": 31.63,
+      "fark": -0.07
+     },
+     {
+      "at": "2",
+      "ad": "CAN SADİ SK",
+      "tjk": 1.96,
+      "ebayi": 1.97,
+      "fark": 0.01
+     },
+     {
+      "at": "3",
+      "ad": "COLOUR OF LIGHT KG DB SK",
+      "tjk": 6.31,
+      "ebayi": 6.32,
+      "fark": 0.01
+     },
+     {
+      "at": "4",
+      "ad": "NORTHERN SHOT KG K",
+      "tjk": 8.74,
+      "ebayi": 8.77,
+      "fark": 0.03
+     },
+     {
+      "at": "5",
+      "ad": "CHUMLEE DB SKG SK",
+      "tjk": 6.61,
+      "ebayi": 6.64,
+      "fark": 0.03
+     },
+     {
+      "at": "6",
+      "ad": "ENGİNTRON DB SK",
+      "tjk": 27.23,
+      "ebayi": 27.19,
+      "fark": -0.04
+     },
+     {
+      "at": "7",
+      "ad": "KAMBOÇYALI KG DB SK",
+      "tjk": 2.38,
+      "ebayi": 2.39,
+      "fark": 0.01
+     },
+     {
+      "at": "8",
+      "ad": "QUANTUM OF SOLACE KG DB SK",
+      "tjk": 14.18,
+      "ebayi": 14.21,
+      "fark": 0.03
+     },
+     {
+      "at": "10",
+      "ad": "KIZIM ÇINAR KG SK GKR",
+      "tjk": 0.6,
+      "ebayi": 0.6,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "LISIMBA KONTAR K DB",
+      "tjk": 0.2,
+      "ebayi": 0.21,
+      "fark": 0.01
+     }
+    ]
+   }
+  ]
  }
 }
