@@ -1151,5 +1151,90 @@
     ]
    }
   ]
+ },
+ "Adana-2": {
+  "hipodrom": "Adana",
+  "kosu": 2,
+  "zaman": "17:30",
+  "tjk_goruntu": "17:30",
+  "ebayi_goruntu": "17:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "7",
+    "favori_ebayi": "7",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.42,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "7",
+    "sabah_favori_ebayi": "7",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ARKANBERK KG",
+      "tjk": 23.82,
+      "ebayi": 23.75,
+      "fark": -0.07
+     },
+     {
+      "at": "2",
+      "ad": "GÖNÜL SARAYI DB SKG SK",
+      "tjk": 1.21,
+      "ebayi": 1.2,
+      "fark": -0.01
+     },
+     {
+      "at": "3",
+      "ad": "ASLANIN RÜZGARI KG K",
+      "tjk": 7.19,
+      "ebayi": 7.36,
+      "fark": 0.17
+     },
+     {
+      "at": "4",
+      "ad": "HARPUTŞAHİNİ KG",
+      "tjk": 8.04,
+      "ebayi": 8.17,
+      "fark": 0.13
+     },
+     {
+      "at": "5",
+      "ad": "HIZLI ÖZGÜN DB SK",
+      "tjk": 1.29,
+      "ebayi": 1.26,
+      "fark": -0.03
+     },
+     {
+      "at": "6",
+      "ad": "ONURKANBİR KG K",
+      "tjk": 1.02,
+      "ebayi": 1.01,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "RACİH KG SK",
+      "tjk": 48.88,
+      "ebayi": 48.46,
+      "fark": -0.42
+     },
+     {
+      "at": "8",
+      "ad": "SELİM USTA KG SK",
+      "tjk": 4.74,
+      "ebayi": 4.9,
+      "fark": 0.16
+     },
+     {
+      "at": "9",
+      "ad": "ÇİRKİN VE GÜZEL KG DB SK",
+      "tjk": 3.81,
+      "ebayi": 3.91,
+      "fark": 0.1
+     }
+    ]
+   }
+  ]
  }
 }
