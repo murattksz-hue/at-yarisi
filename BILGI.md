@@ -754,3 +754,11 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - **Kalıcı değil:** ilk yarıda 1,14 (z +2,7), ikinci yarıda 1,03 (z +0,6). Yüzeye göre: kum 1,03 · çim 1,12 (z 1,6) · sentetik 1,12 (z 1,9).
 - Önceki koşuya göre yüzey değişimi: farklı yüzey A/E 1,01, aynı yüzey 1,01 → fark yok. Geçiş çiftlerinin hepsi 0,99–1,05. O yüzeydeki koşu sayısına göre örüntü yok (0: 1,09 · 1–2: 1,02 · 3–9: 1,02 · 10+: 0,97).
 - Sonuç: küçük ve kalıcı olmayan bir fark, kâr getirmiyor. Modele eklenmedi. Uyarı: geçmiş 2024'ten başladığı için "ilk kez" bazı atlarda yanlış olabilir.
+
+## AGF'ye göre sürpriz tanımı (22.11.2026, `scripts/agf_surpriz.py`, 11.949 koşu 2024+, kapanış AGF; yalnızca altılıya giren koşular)
+- **Ortalama AGF %, sıraya göre:** 1. 34,8 · 2. 19,9 · 3. 14,1 · **4. 10,2** · 5. 7,3 · 6. 5,3 · 7. 3,9 · 8. 2,9. İlk 3 toplam %68,7, ilk 4 %79,0, ilk 5 %86,2. 4. atın AGF'si at sayısından bağımsız ≈%10 (5–8 at 9,8 · 9–11 10,7 · 12–14 10,3 · 15+ 9,8). **%10 eşiği ≈ "ilk 4 dışı".**
+- **Sürpriz sıklığı (kazanan şu tanımın içinde):** AGF sırası >3 %30,9 · >4 %20,6 · >5 %13,7 · >6 %8,8. AGF % <15 %38,8 · <12,5 %30,5 · <10 %22,7 · <7,5 %15,5 · <5 %8,8. Kıyas: kesin ganyan ≥10 %14,8 ≈ AGF <7,5 ≈ sıra >5.
+- **Kapanış AGF iyi kalibre:** her eşikte gerçek/beklenen 0,96–1,01 (ganyan ≥10 için 0,90'dı). İlk/ikinci yarıda biraz ters yönde (0,87–0,97 → 1,01–1,08), ortalama 1,0.
+- **At sayısına göre değişiyor:** 9–11 atta sürpriz AGF'nin beklediğinden az (sıra >4: A/E 0,91, z −3,3), 12–14 ve 15+ atta biraz fazla (sıra >5: 1,09 z +2,3 / 1,12 z +1,7). Ham sürpriz oranı da ciddi değişiyor (sıra >4: 5–8 at %12,4 · 9–11 %21,9 · 12–14 %32,4 · 15+ %37,8).
+- **Getiri:** eşik altındaki atların hepsine düz oyun getirisi %42–62 (yani zarar).
+- Öneri: "sürpriz" = AGF %10 altı (≈ilk 4 dışı), "büyük sürpriz" = AGF %5 altı. Karşılaştırmada ham oran değil A/E kullan. Not: canlı takipte sabah/−60 dk AGF kullanılırsa kapanış AGF'den 1–3 puan oynayabilir.
