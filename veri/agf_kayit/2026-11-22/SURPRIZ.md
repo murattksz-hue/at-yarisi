@@ -1,6 +1,6 @@
 # Sürpriz kazananlar — 2026-11-22
 
-Kayıtlı kazanan: 10 · sürpriz (herhangi bir tanım): 4. Tanımlar: **G** ganyan ≥10 · **A10** kapanış AGF <%10 · **AS10** sabah AGF <%10 · **A5** kapanış AGF <%5.
+Kayıtlı kazanan: 15 · sürpriz (herhangi bir tanım): 7. Tanımlar: **G** ganyan ≥10 · **A10** kapanış AGF <%10 · **AS10** sabah AGF <%10 · **A5** kapanış AGF <%5.
 
 _Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._
 
@@ -11,6 +11,30 @@ _Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._
 - Model sırası: AGF'li 4. (%7) · AGF'siz 4. · HP sırası 6. · start 3 · KGS 12
 - Önceki koşu: 2026-11-10 · 5. bitti (14 at, ganyan 25,85) · jokey değişti 0 · mesafe -200 m · pist değişti 1
 - **Olası notlar:** iç kulvar (start 3) ; mesafe -200 m (küçük değişim) ; pist yüzeyi değişti ; ganyan son 30 dk'da 26.9→12.1 (💰) ; AGF sessiz (🤫)
+
+## Adana 4. koşu — ODABAŞI  `G+A10+AS10`
+
+- Handikap 16 · 2000 m · Kum · 15 koşan · kesin ganyan **10.6** (ganyan sırası 7)
+- AGF sabah 5.63 (9.) → son 7.16 (7.) · ganyan −60 dk 6.1 → −30 dk 9.3 → son 13.7
+- Model sırası: AGF'li 8. (%5) · AGF'siz 8. · HP sırası 13. · start 11 · KGS 14
+- Önceki koşu: 2026-11-08 · 3. bitti (9 at, ganyan 8,10) · jokey değişti 1 · mesafe 700 m · pist değişti 0
+- **Olası notlar:** jokey değişti ; mesafe +700 m
+
+## Adana 5. koşu — PERIWINKLE  `A10+AS10`
+
+- KV-6 · 1400 m · Kum · 6 koşan · kesin ganyan **9.85** (ganyan sırası 3)
+- AGF sabah 6.3 (4.) → son 7.33 (3.) · ganyan −60 dk 24.7 → −30 dk 19.95 → son 7.35
+- Model sırası: AGF'li 4. (%11) · AGF'siz 4. · HP sırası 4. · start 6 · KGS 15
+- Önceki koşu: 2026-11-07 · 4. bitti (5 at, ganyan 3,45) · jokey değişti 1 · mesafe 100 m · pist değişti 0
+- **Olası notlar:** jokey değişti ; hipodrom değişti ; ganyan son 30 dk'da 19.95→7.35 (💰) ; ilk kez bu hipodromda
+
+## Adana 6. koşu — HIZLI GÖR  `A10+AS10`
+
+- Handikap 16 · 1300 m · Kum · 14 koşan · kesin ganyan **8.65** (ganyan sırası 4)
+- AGF sabah 6.97 (5.) → son 9.71 (4.) · ganyan −60 dk 9.15 → −30 dk 11.9 → son 8.35
+- Model sırası: AGF'li 7. (%5) · AGF'siz 5. · HP sırası 2. · start 8 · KGS 14
+- Önceki koşu: 2026-11-08 · 1. bitti (13 at, ganyan 7,65) · jokey değişti 0 · mesafe -100 m · pist değişti 1
+- **Olası notlar:** pist yüzeyi değişti ; ganyan son 30 dk'da 11.9→8.35 (💰) ; AGF'siz model daha üstte (5. / AGF'li 7.)
 
 ## İzmir 4. koşu — SUPERTRAMP  `G+A10+AS10`
 
@@ -38,17 +62,17 @@ _Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._
 
 ## Bütün günler: sürpriz kazananlar ve diğerleri
 
-Sürpriz **G**: 10 · **A10**: 16 · diğer kazananlar: 33
+Sürpriz **G**: 11 · **A10**: 19 · diğer kazananlar: 35
 
 | Özellik | Sürpriz G | Sürpriz A10 | Diğer kazananlar |
 |---|---|---|---|
-| jokey değişti | %80 (8/10) | %88 (14/16) | %58 (19/33) |
-| iç kulvar (start ≤3) | %50 (5/10) | %38 (6/16) | %33 (11/33) |
-| 💰 para girişi | %11 (1/9) | %14 (2/14) | %43 (9/21) |
-| 🤫 AGF sessiz | %56 (5/9) | %50 (7/14) | %20 (4/20) |
-| AGF'li model ilk 3'te | %10 (1/10) | %12 (2/16) | %82 (27/33) |
-| AGF'siz model ilk 3'te | %0 (0/10) | %19 (3/16) | %85 (28/33) |
-| pist yüzeyi değişti | %30 (3/10) | %38 (6/16) | %25 (7/28) |
-| mesafe ≥200 m değişti | %40 (4/10) | %38 (6/16) | %36 (10/28) |
+| jokey değişti | %82 (9/11) | %84 (16/19) | %57 (20/35) |
+| iç kulvar (start ≤3) | %45 (5/11) | %32 (6/19) | %34 (12/35) |
+| 💰 para girişi | %10 (1/10) | %24 (4/17) | %43 (10/23) |
+| 🤫 AGF sessiz | %50 (5/10) | %41 (7/17) | %18 (4/22) |
+| AGF'li model ilk 3'te | %9 (1/11) | %11 (2/19) | %83 (29/35) |
+| AGF'siz model ilk 3'te | %0 (0/11) | %16 (3/19) | %86 (30/35) |
+| pist yüzeyi değişti | %27 (3/11) | %37 (7/19) | %27 (8/30) |
+| mesafe ≥200 m değişti | %45 (5/11) | %37 (7/19) | %40 (12/30) |
 
 Not: örnek küçük; yorum için `BILGI.md` ve geçmiş veriyle (surpriz_ortak, surpriz_nerede) birlikte oku.
