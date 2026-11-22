@@ -2034,5 +2034,97 @@
     ]
    }
   ]
+ },
+ "Adana-7": {
+  "hipodrom": "Adana",
+  "kosu": 7,
+  "zaman": "20:01",
+  "tjk_goruntu": "19:20",
+  "ebayi_goruntu": "20:00",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "9",
+    "favori_ebayi": "9",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "9",
+    "sabah_favori_ebayi": "9",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ALPLİ SKG SK",
+      "tjk": 4.03,
+      "ebayi": 4.03,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "AMİRSOYLU KG K DB",
+      "tjk": 11.69,
+      "ebayi": 11.69,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "DOĞU SEVDASI KG DB",
+      "tjk": 0.39,
+      "ebayi": 0.39,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ÖLDÜRMEYEN GÜÇLENDİRİR KG",
+      "tjk": 0.43,
+      "ebayi": 0.43,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "RAYNART KG K DB",
+      "tjk": 24.43,
+      "ebayi": 24.43,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ŞAMPİYONEREN DB SKG SK",
+      "tjk": 1.85,
+      "ebayi": 1.85,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "VAHİT BEY KG K",
+      "tjk": 9.61,
+      "ebayi": 9.61,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "YARKAYA KG K DB GKR",
+      "tjk": 1.47,
+      "ebayi": 1.47,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "ZUBİR SKG SK",
+      "tjk": 39.1,
+      "ebayi": 39.1,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "MADAM DAISY KG DB SK",
+      "tjk": 7.01,
+      "ebayi": 7.01,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
