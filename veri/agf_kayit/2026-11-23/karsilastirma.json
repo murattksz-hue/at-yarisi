@@ -1,0 +1,73 @@
+{
+ "Bursa-1": {
+  "hipodrom": "Bursa",
+  "kosu": 1,
+  "zaman": "12:31",
+  "tjk_goruntu": "12:30",
+  "ebayi_goruntu": "12:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.07,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "STEEL STRONG KG K",
+      "tjk": 34.95,
+      "ebayi": 34.92,
+      "fark": -0.03
+     },
+     {
+      "at": "2",
+      "ad": "RICO PASHA KG SK",
+      "tjk": 10.21,
+      "ebayi": 10.27,
+      "fark": 0.06
+     },
+     {
+      "at": "3",
+      "ad": "VOLITIVO KG SK",
+      "tjk": 19.33,
+      "ebayi": 19.33,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "BRUSK SHOT DB SK",
+      "tjk": 8.92,
+      "ebayi": 8.91,
+      "fark": -0.01
+     },
+     {
+      "at": "5",
+      "ad": "FIRE AT WILL DB SKG SK",
+      "tjk": 4.04,
+      "ebayi": 4.03,
+      "fark": -0.01
+     },
+     {
+      "at": "6",
+      "ad": "LOST TREASURE DB SK",
+      "tjk": 6.41,
+      "ebayi": 6.35,
+      "fark": -0.06
+     },
+     {
+      "at": "7",
+      "ad": "VAYNAKH SK",
+      "tjk": 16.13,
+      "ebayi": 16.2,
+      "fark": 0.07
+     }
+    ]
+   }
+  ]
+ }
+}
