@@ -428,5 +428,250 @@
     ]
    }
   ]
+ },
+ "Bursa-5": {
+  "hipodrom": "Bursa",
+  "kosu": 5,
+  "zaman": "14:30",
+  "tjk_goruntu": "14:30",
+  "ebayi_goruntu": "14:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "11",
+    "favori_ebayi": "11",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "7",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AKREP YÜREK KG SK",
+      "tjk": 4.27,
+      "ebayi": 4.27,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "ALATON KG K",
+      "tjk": 5.51,
+      "ebayi": 5.51,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ATEŞ KRALI KG DB",
+      "tjk": 0.86,
+      "ebayi": 0.86,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ÇAKIRYELE KG K",
+      "tjk": 2.63,
+      "ebayi": 2.63,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KALEMEYDAN K DB SK",
+      "tjk": 9.77,
+      "ebayi": 9.77,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "KAPTAN İRFAN KG DB SK",
+      "tjk": 18.88,
+      "ebayi": 18.88,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "SERT KOŞU SK",
+      "tjk": 18.37,
+      "ebayi": 18.37,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "SONKARINCA DB SKG SK",
+      "tjk": 1.11,
+      "ebayi": 1.11,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "YERİN AYRI KG SK",
+      "tjk": 1.47,
+      "ebayi": 1.47,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "FIRTINA BİÇEN SKG SK",
+      "tjk": 6.31,
+      "ebayi": 6.31,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "ŞADİNİN GÜLÜ KG K DB",
+      "tjk": 24.41,
+      "ebayi": 24.41,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "ARSELYA KG DB SKG SK",
+      "tjk": 3.87,
+      "ebayi": 3.87,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "AYDONAT DB SK",
+      "tjk": 1.28,
+      "ebayi": 1.28,
+      "fark": 0.0
+     },
+     {
+      "at": "14",
+      "ad": "ECRİNCAN KG K DB",
+      "tjk": 0.39,
+      "ebayi": 0.39,
+      "fark": 0.0
+     },
+     {
+      "at": "15",
+      "ad": "KIZNEŞESİ KG K",
+      "tjk": 0.86,
+      "ebayi": 0.86,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "11",
+    "favori_ebayi": "11",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.12,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AKREP YÜREK KG SK",
+      "tjk": 3.08,
+      "ebayi": 3.11,
+      "fark": 0.03
+     },
+     {
+      "at": "2",
+      "ad": "ALATON KG K",
+      "tjk": 3.94,
+      "ebayi": 3.93,
+      "fark": -0.01
+     },
+     {
+      "at": "3",
+      "ad": "ATEŞ KRALI KG DB",
+      "tjk": 0.48,
+      "ebayi": 0.48,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ÇAKIRYELE KG K",
+      "tjk": 1.78,
+      "ebayi": 1.78,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KALEMEYDAN K DB SK",
+      "tjk": 8.08,
+      "ebayi": 8.11,
+      "fark": 0.03
+     },
+     {
+      "at": "6",
+      "ad": "KAPTAN İRFAN KG DB SK",
+      "tjk": 20.8,
+      "ebayi": 20.87,
+      "fark": 0.07
+     },
+     {
+      "at": "7",
+      "ad": "SERT KOŞU SK",
+      "tjk": 18.57,
+      "ebayi": 18.57,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "SONKARINCA DB SKG SK",
+      "tjk": 0.72,
+      "ebayi": 0.71,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "YERİN AYRI KG SK",
+      "tjk": 1.14,
+      "ebayi": 1.12,
+      "fark": -0.02
+     },
+     {
+      "at": "10",
+      "ad": "FIRTINA BİÇEN SKG SK",
+      "tjk": 4.81,
+      "ebayi": 4.79,
+      "fark": -0.02
+     },
+     {
+      "at": "11",
+      "ad": "ŞADİNİN GÜLÜ KG K DB",
+      "tjk": 31.94,
+      "ebayi": 31.82,
+      "fark": -0.12
+     },
+     {
+      "at": "12",
+      "ad": "ARSELYA KG DB SKG SK",
+      "tjk": 2.96,
+      "ebayi": 2.97,
+      "fark": 0.01
+     },
+     {
+      "at": "13",
+      "ad": "AYDONAT DB SK",
+      "tjk": 0.87,
+      "ebayi": 0.88,
+      "fark": 0.01
+     },
+     {
+      "at": "14",
+      "ad": "ECRİNCAN KG K DB",
+      "tjk": 0.26,
+      "ebayi": 0.26,
+      "fark": 0.0
+     },
+     {
+      "at": "15",
+      "ad": "KIZNEŞESİ KG K",
+      "tjk": 0.59,
+      "ebayi": 0.59,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
