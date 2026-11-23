@@ -1595,5 +1595,222 @@
     ]
    }
   ]
+ },
+ "Şanlıurfa-4": {
+  "hipodrom": "Şanlıurfa",
+  "kosu": 4,
+  "zaman": "18:31",
+  "tjk_goruntu": "18:30",
+  "ebayi_goruntu": "18:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AZİZOĞLUM KG K",
+      "tjk": 1.75,
+      "ebayi": 1.75,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "BOBS YOUR UNCLE KG DB SK",
+      "tjk": 9.83,
+      "ebayi": 9.83,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "JUNIOR PASCHA KG DB SK",
+      "tjk": 3.12,
+      "ebayi": 3.12,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "KING CAHİT KG K",
+      "tjk": 20.28,
+      "ebayi": 20.28,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KLIMMORE K",
+      "tjk": 18.98,
+      "ebayi": 18.98,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "KUZGUN GÖKMEN DB SKG SK",
+      "tjk": 2.77,
+      "ebayi": 2.77,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "OSMAN HAN DB SKG SK",
+      "tjk": 6.07,
+      "ebayi": 6.07,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "SHOWA HİROHİTO SKG SK",
+      "tjk": 1.32,
+      "ebayi": 1.32,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "STAR SONN KG SK",
+      "tjk": 17.27,
+      "ebayi": 17.27,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "SUPPRESSOR SKG SK",
+      "tjk": 7.66,
+      "ebayi": 7.66,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "MONICA SULTAN KG DB SK",
+      "tjk": 7.53,
+      "ebayi": 7.53,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "ÖZGÜR ESRA KG DB SK",
+      "tjk": 0.99,
+      "ebayi": 0.99,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "VESPERLUNA SKG SK",
+      "tjk": 2.44,
+      "ebayi": 2.44,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.08,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AZİZOĞLUM KG K",
+      "tjk": 2.24,
+      "ebayi": 2.21,
+      "fark": -0.03
+     },
+     {
+      "at": "2",
+      "ad": "BOBS YOUR UNCLE KG DB SK",
+      "tjk": 10.03,
+      "ebayi": 10.01,
+      "fark": -0.02
+     },
+     {
+      "at": "3",
+      "ad": "JUNIOR PASCHA KG DB SK",
+      "tjk": 3.41,
+      "ebayi": 3.4,
+      "fark": -0.01
+     },
+     {
+      "at": "4",
+      "ad": "KING CAHİT KG K",
+      "tjk": 20.55,
+      "ebayi": 20.63,
+      "fark": 0.08
+     },
+     {
+      "at": "5",
+      "ad": "KLIMMORE K",
+      "tjk": 19.0,
+      "ebayi": 19.0,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "KUZGUN GÖKMEN DB SKG SK",
+      "tjk": 2.88,
+      "ebayi": 2.87,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "OSMAN HAN DB SKG SK",
+      "tjk": 5.85,
+      "ebayi": 5.85,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "SHOWA HİROHİTO SKG SK",
+      "tjk": 0.73,
+      "ebayi": 0.73,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "STAR SONN KG SK",
+      "tjk": 16.99,
+      "ebayi": 17.06,
+      "fark": 0.07
+     },
+     {
+      "at": "10",
+      "ad": "SUPPRESSOR SKG SK",
+      "tjk": 7.75,
+      "ebayi": 7.74,
+      "fark": -0.01
+     },
+     {
+      "at": "11",
+      "ad": "MONICA SULTAN KG DB SK",
+      "tjk": 7.39,
+      "ebayi": 7.38,
+      "fark": -0.01
+     },
+     {
+      "at": "12",
+      "ad": "ÖZGÜR ESRA KG DB SK",
+      "tjk": 0.52,
+      "ebayi": 0.52,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "VESPERLUNA SKG SK",
+      "tjk": 2.65,
+      "ebayi": 2.6,
+      "fark": -0.05
+     }
+    ]
+   }
+  ]
  }
 }

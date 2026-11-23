@@ -29,6 +29,8 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Şanlıurfa | 2 | 17:30 | 1. | 5 | 5 | ✓ | ✓ | 0.0 | 3→5 | 3→5 |
 | Şanlıurfa | 3 | 18:00 | 1. | 4 | 4 | ✓ | ✓ | 0.05 | 3→4 | 3→4 |
 | Şanlıurfa | 3 | 18:00 | 2. | 4 | 4 | ✓ | ✓ | 0.0 | 7→4 | 7→4 |
+| Şanlıurfa | 4 | 18:31 | 1. | 4 | 4 | ✓ | ✓ | 0.0 | 4→4 | 2→4 |
+| Şanlıurfa | 4 | 18:31 | 2. | 4 | 4 | ✓ | ✓ | 0.08 | 2→4 | 2→4 |
 
 ### Farklı çıkan atlar
 
@@ -40,3 +42,4 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 - Bursa 6. koşu (2. altılı; TJK görüntüsü 15:00, ebayi 15:00): 1 GRAND MISSION KG DB TJK %6.66 / ebayi %6.77, 2 MONUMENTAL DB SKG SK TJK %1.57 / ebayi %1.53, 3 TYRAXES KG K DB TJK %0.42 / ebayi %0.41, 4 LAKE EAGLE SK TJK %0.68 / ebayi %0.66, 5 BEBEĞİM OLDUN KG K DB TJK %1.46 / ebayi %1.48, 6 CESİ AFFETMEZ DB TJK %2.2 / ebayi %2.16, 7 RICARDO SK TJK %1.77 / ebayi %1.76, 8 COLLECTER DB SK TJK %6.9 / ebayi %6.96, 9 KRAL DAYI SK TJK %72.16 / ebayi %71.95, 10 MISS ECDAD KG DB SK TJK %4.11 / ebayi %4.17, 11 İŞİN ASLI K DB TJK %0.9 / ebayi %0.97, 12 ULUBEY DB SKG SK YP TJK %1.0 / ebayi %1.02, 13 ÇAĞIRANHAN KG K DB TJK %0.17 / ebayi %0.15
 - Şanlıurfa 1. koşu (1. altılı; TJK görüntüsü 17:00, ebayi 17:00): 1 ASİLBOY SKG SK TJK %21.68 / ebayi %21.55, 2 GLACIUS BOREAS KG DB SK TJK %31.07 / ebayi %30.99, 3 DOLAR SKG SK TJK %11.45 / ebayi %11.48, 4 KING ATEROK KG SK TJK %2.9 / ebayi %3.03, 5 KOCA ÖMER KG DB SK TJK %5.94 / ebayi %5.9, 6 NÜSRETCAN KG K TJK %2.25 / ebayi %2.32, 7 REAL GENERAL KG SK TJK %0.62 / ebayi %0.6, 8 SOWER KG SK TJK %9.53 / ebayi %9.56, 9 VAREGON SK TJK %11.92 / ebayi %11.88, 10 CELESTARA KG K TJK %1.6 / ebayi %1.59, 11 ÇILGIN CADI KG DB SK TJK %0.41 / ebayi %0.4, 12 PRINCESS AZRA KG SK TJK %0.62 / ebayi %0.69
 - Şanlıurfa 3. koşu (1. altılı; TJK görüntüsü 18:00, ebayi 18:00): 1 SEYRANTAY KG DB SK TJK %2.97 / ebayi %2.96, 2 YARALI AKBAŞ KG DB SK TJK %7.41 / ebayi %7.43, 3 GELİNİM SİNEM KG DB SK TJK %12.95 / ebayi %12.96, 4 UĞUR MELEĞİ SKG SK TJK %34.92 / ebayi %34.87, 5 MERHAMET K DB SKG TJK %11.08 / ebayi %11.09, 9 BOLGA KG DB SK TJK %3.18 / ebayi %3.19, 10 PRINCESS GIRL KG DB TJK %5.83 / ebayi %5.85
+- Şanlıurfa 4. koşu (2. altılı; TJK görüntüsü 18:30, ebayi 18:30): 1 AZİZOĞLUM KG K TJK %2.24 / ebayi %2.21, 2 BOBS YOUR UNCLE KG DB SK TJK %10.03 / ebayi %10.01, 3 JUNIOR PASCHA KG DB SK TJK %3.41 / ebayi %3.4, 4 KING CAHİT KG K TJK %20.55 / ebayi %20.63, 6 KUZGUN GÖKMEN DB SKG SK TJK %2.88 / ebayi %2.87, 9 STAR SONN KG SK TJK %16.99 / ebayi %17.06, 10 SUPPRESSOR SKG SK TJK %7.75 / ebayi %7.74, 11 MONICA SULTAN KG DB SK TJK %7.39 / ebayi %7.38, 13 VESPERLUNA SKG SK TJK %2.65 / ebayi %2.6
