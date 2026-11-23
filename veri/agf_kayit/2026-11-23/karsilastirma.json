@@ -1812,5 +1812,292 @@
     ]
    }
   ]
+ },
+ "Şanlıurfa-5": {
+  "hipodrom": "Şanlıurfa",
+  "kosu": 5,
+  "zaman": "19:00",
+  "tjk_goruntu": "19:00",
+  "ebayi_goruntu": "19:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "9",
+    "favori_ebayi": "9",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "12",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "INFORMACTION KG SK",
+      "tjk": 6.45,
+      "ebayi": 6.45,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "KING OVA KG DB SK",
+      "tjk": 2.76,
+      "ebayi": 2.76,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "LION ROBERO DB SKG SK",
+      "tjk": 1.7,
+      "ebayi": 1.7,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "MY BRAVE SON K DB ÖG",
+      "tjk": 7.17,
+      "ebayi": 7.17,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "CALIBRATION SK",
+      "tjk": 3.86,
+      "ebayi": 3.86,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "MARDİ GRAS K DB",
+      "tjk": 4.58,
+      "ebayi": 4.58,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "RAND ROWER KG SK",
+      "tjk": 4.3,
+      "ebayi": 4.3,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "TOUCH OF HEAVEN KG DB SK",
+      "tjk": 6.19,
+      "ebayi": 6.19,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "VERMİTHRAX SKG SK",
+      "tjk": 20.35,
+      "ebayi": 20.35,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "KORKMAZ KARDEŞLER KG DB SK",
+      "tjk": 3.3,
+      "ebayi": 3.3,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "BUMMER GIRL DB SK",
+      "tjk": 2.0,
+      "ebayi": 2.0,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "WAR COMANDER SK",
+      "tjk": 15.96,
+      "ebayi": 15.96,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "ARTAX KG DB SK GKR",
+      "tjk": 0.49,
+      "ebayi": 0.49,
+      "fark": 0.0
+     },
+     {
+      "at": "14",
+      "ad": "GOLD POWER SK",
+      "tjk": 1.3,
+      "ebayi": 1.3,
+      "fark": 0.0
+     },
+     {
+      "at": "15",
+      "ad": "AZMİN ZAFERİ KG SK",
+      "tjk": 5.46,
+      "ebayi": 5.46,
+      "fark": 0.0
+     },
+     {
+      "at": "16",
+      "ad": "KING BOREAS DB SKG SK",
+      "tjk": 3.18,
+      "ebayi": 3.18,
+      "fark": 0.0
+     },
+     {
+      "at": "17",
+      "ad": "EMİN AMCA SK",
+      "tjk": 1.03,
+      "ebayi": 1.03,
+      "fark": 0.0
+     },
+     {
+      "at": "18",
+      "ad": "APPROVE WAN SK",
+      "tjk": 9.9,
+      "ebayi": 9.9,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "9",
+    "favori_ebayi": "9",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.09,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "12",
+    "sabah_favori_ebayi": "12",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "INFORMACTION KG SK",
+      "tjk": 5.96,
+      "ebayi": 6.02,
+      "fark": 0.06
+     },
+     {
+      "at": "2",
+      "ad": "KING OVA KG DB SK",
+      "tjk": 2.86,
+      "ebayi": 2.82,
+      "fark": -0.04
+     },
+     {
+      "at": "3",
+      "ad": "LION ROBERO DB SKG SK",
+      "tjk": 1.58,
+      "ebayi": 1.55,
+      "fark": -0.03
+     },
+     {
+      "at": "4",
+      "ad": "MY BRAVE SON K DB ÖG",
+      "tjk": 7.38,
+      "ebayi": 7.4,
+      "fark": 0.02
+     },
+     {
+      "at": "5",
+      "ad": "CALIBRATION SK",
+      "tjk": 3.69,
+      "ebayi": 3.66,
+      "fark": -0.03
+     },
+     {
+      "at": "6",
+      "ad": "MARDİ GRAS K DB",
+      "tjk": 4.0,
+      "ebayi": 4.0,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "RAND ROWER KG SK",
+      "tjk": 4.41,
+      "ebayi": 4.37,
+      "fark": -0.04
+     },
+     {
+      "at": "8",
+      "ad": "TOUCH OF HEAVEN KG DB SK",
+      "tjk": 6.68,
+      "ebayi": 6.69,
+      "fark": 0.01
+     },
+     {
+      "at": "9",
+      "ad": "VERMİTHRAX SKG SK",
+      "tjk": 21.47,
+      "ebayi": 21.49,
+      "fark": 0.02
+     },
+     {
+      "at": "10",
+      "ad": "KORKMAZ KARDEŞLER KG DB SK",
+      "tjk": 3.14,
+      "ebayi": 3.13,
+      "fark": -0.01
+     },
+     {
+      "at": "11",
+      "ad": "BUMMER GIRL DB SK",
+      "tjk": 1.96,
+      "ebayi": 1.91,
+      "fark": -0.05
+     },
+     {
+      "at": "12",
+      "ad": "WAR COMANDER SK",
+      "tjk": 15.09,
+      "ebayi": 15.11,
+      "fark": 0.02
+     },
+     {
+      "at": "13",
+      "ad": "ARTAX KG DB SK GKR",
+      "tjk": 0.44,
+      "ebayi": 0.43,
+      "fark": -0.01
+     },
+     {
+      "at": "14",
+      "ad": "GOLD POWER SK",
+      "tjk": 1.26,
+      "ebayi": 1.22,
+      "fark": -0.04
+     },
+     {
+      "at": "15",
+      "ad": "AZMİN ZAFERİ KG SK",
+      "tjk": 5.76,
+      "ebayi": 5.8,
+      "fark": 0.04
+     },
+     {
+      "at": "16",
+      "ad": "KING BOREAS DB SKG SK",
+      "tjk": 3.27,
+      "ebayi": 3.25,
+      "fark": -0.02
+     },
+     {
+      "at": "17",
+      "ad": "EMİN AMCA SK",
+      "tjk": 0.62,
+      "ebayi": 0.64,
+      "fark": 0.02
+     },
+     {
+      "at": "18",
+      "ad": "APPROVE WAN SK",
+      "tjk": 10.42,
+      "ebayi": 10.51,
+      "fark": 0.09
+     }
+    ]
+   }
+  ]
  }
 }
