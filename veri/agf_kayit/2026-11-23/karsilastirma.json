@@ -69,5 +69,125 @@
     ]
    }
   ]
+ },
+ "Bursa-2": {
+  "hipodrom": "Bursa",
+  "kosu": 2,
+  "zaman": "13:00",
+  "tjk_goruntu": "13:00",
+  "ebayi_goruntu": "13:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.08,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ESDRAGON KG K DB",
+      "tjk": 66.26,
+      "ebayi": 66.18,
+      "fark": -0.08
+     },
+     {
+      "at": "2",
+      "ad": "ALANDER KG GKR",
+      "tjk": 4.14,
+      "ebayi": 4.15,
+      "fark": 0.01
+     },
+     {
+      "at": "3",
+      "ad": "ÇOLAK ARİF K",
+      "tjk": 4.07,
+      "ebayi": 4.1,
+      "fark": 0.03
+     },
+     {
+      "at": "4",
+      "ad": "KOMBO KG K DB",
+      "tjk": 1.65,
+      "ebayi": 1.66,
+      "fark": 0.01
+     },
+     {
+      "at": "5",
+      "ad": "KRAL KARAKAŞ KG K",
+      "tjk": 2.61,
+      "ebayi": 2.6,
+      "fark": -0.01
+     },
+     {
+      "at": "6",
+      "ad": "KRAL YENİKÖYLÜ KG DB SK",
+      "tjk": 1.67,
+      "ebayi": 1.66,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "SERT GÖZ SK",
+      "tjk": 4.25,
+      "ebayi": 4.25,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "TAHKİMAT KG SK",
+      "tjk": 7.32,
+      "ebayi": 7.31,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "ADA PERİSİ KG K DB",
+      "tjk": 0.7,
+      "ebayi": 0.71,
+      "fark": 0.01
+     },
+     {
+      "at": "10",
+      "ad": "CANDAN İLERİ KG DB",
+      "tjk": 4.76,
+      "ebayi": 4.79,
+      "fark": 0.03
+     },
+     {
+      "at": "11",
+      "ad": "ÖZYAĞMUR KG DB SK",
+      "tjk": 0.2,
+      "ebayi": 0.19,
+      "fark": -0.01
+     },
+     {
+      "at": "12",
+      "ad": "PRENSES ÖMÜR KG K DB",
+      "tjk": 0.18,
+      "ebayi": 0.19,
+      "fark": 0.01
+     },
+     {
+      "at": "13",
+      "ad": "TURNA ŞAH KG SK",
+      "tjk": 0.57,
+      "ebayi": 0.58,
+      "fark": 0.01
+     },
+     {
+      "at": "14",
+      "ad": "UZUN SUDE KG DB SK",
+      "tjk": 1.63,
+      "ebayi": 1.64,
+      "fark": 0.01
+     }
+    ]
+   }
+  ]
  }
 }
