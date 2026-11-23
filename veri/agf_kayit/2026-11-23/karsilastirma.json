@@ -2099,5 +2099,222 @@
     ]
    }
   ]
+ },
+ "Şanlıurfa-6": {
+  "hipodrom": "Şanlıurfa",
+  "kosu": 6,
+  "zaman": "19:31",
+  "tjk_goruntu": "19:20",
+  "ebayi_goruntu": "19:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "10",
+    "favori_ebayi": "10",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "8",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ALEMİCİHAN KG DB SK",
+      "tjk": 13.6,
+      "ebayi": 13.6,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "ÇAKAL ÇÖKERTEN SKG SK",
+      "tjk": 9.02,
+      "ebayi": 9.02,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "DEDEBEDO KG K",
+      "tjk": 1.43,
+      "ebayi": 1.43,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "GÖNÜL KALESİ KG K DB",
+      "tjk": 4.81,
+      "ebayi": 4.81,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KAVİM KG DB SK",
+      "tjk": 2.17,
+      "ebayi": 2.17,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ÖZGÜRAK SKG SK",
+      "tjk": 1.53,
+      "ebayi": 1.53,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ALMİNA K",
+      "tjk": 1.54,
+      "ebayi": 1.54,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "AVDANCI",
+      "tjk": 6.65,
+      "ebayi": 6.65,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KARAMAHMUTOĞLU K DB SKG",
+      "tjk": 20.13,
+      "ebayi": 20.13,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "MAÇKA BEY KG K",
+      "tjk": 35.64,
+      "ebayi": 35.64,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "ŞİRİNHAT KG DB SK",
+      "tjk": 1.58,
+      "ebayi": 1.58,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "CANŞİLAN SK",
+      "tjk": 0.58,
+      "ebayi": 0.58,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "MİRAÇHAT SKG SK",
+      "tjk": 1.32,
+      "ebayi": 1.32,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "10",
+    "favori_ebayi": "10",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "8",
+    "sabah_favori_ebayi": "8",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ALEMİCİHAN KG DB SK",
+      "tjk": 14.33,
+      "ebayi": 14.33,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "ÇAKAL ÇÖKERTEN SKG SK",
+      "tjk": 8.57,
+      "ebayi": 8.57,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "DEDEBEDO KG K",
+      "tjk": 0.63,
+      "ebayi": 0.63,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "GÖNÜL KALESİ KG K DB",
+      "tjk": 4.56,
+      "ebayi": 4.56,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KAVİM KG DB SK",
+      "tjk": 2.23,
+      "ebayi": 2.23,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ÖZGÜRAK SKG SK",
+      "tjk": 0.74,
+      "ebayi": 0.74,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ALMİNA K",
+      "tjk": 1.09,
+      "ebayi": 1.09,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "AVDANCI",
+      "tjk": 6.83,
+      "ebayi": 6.83,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KARAMAHMUTOĞLU K DB SKG",
+      "tjk": 21.21,
+      "ebayi": 21.21,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "MAÇKA BEY KG K",
+      "tjk": 37.66,
+      "ebayi": 37.66,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "ŞİRİNHAT KG DB SK",
+      "tjk": 0.62,
+      "ebayi": 0.62,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "CANŞİLAN SK",
+      "tjk": 0.35,
+      "ebayi": 0.35,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "MİRAÇHAT SKG SK",
+      "tjk": 1.18,
+      "ebayi": 1.18,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }

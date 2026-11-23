@@ -33,6 +33,8 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Şanlıurfa | 4 | 18:31 | 2. | 4 | 4 | ✓ | ✓ | 0.08 | 2→4 | 2→4 |
 | Şanlıurfa | 5 | 19:00 | 1. | 9 | 9 | ✓ | ✓ | 0.0 | 4→9 | 12→9 |
 | Şanlıurfa | 5 | 19:00 | 2. | 9 | 9 | ✓ | ✓ | 0.09 | 12→9 | 12→9 |
+| Şanlıurfa | 6 | 19:31 | 1. | 10 | 10 | ✓ | ✓ | 0.0 | 5→10 | 8→10 |
+| Şanlıurfa | 6 | 19:31 | 2. | 10 | 10 | ✓ | ✓ | 0.0 | 8→10 | 8→10 |
 
 ### Farklı çıkan atlar
 
