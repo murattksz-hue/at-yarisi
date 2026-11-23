@@ -1236,5 +1236,111 @@
     ]
    }
   ]
+ },
+ "Şanlıurfa-1": {
+  "hipodrom": "Şanlıurfa",
+  "kosu": 1,
+  "zaman": "17:00",
+  "tjk_goruntu": "17:00",
+  "ebayi_goruntu": "17:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.13,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ASİLBOY SKG SK",
+      "tjk": 21.68,
+      "ebayi": 21.55,
+      "fark": -0.13
+     },
+     {
+      "at": "2",
+      "ad": "GLACIUS BOREAS KG DB SK",
+      "tjk": 31.07,
+      "ebayi": 30.99,
+      "fark": -0.08
+     },
+     {
+      "at": "3",
+      "ad": "DOLAR SKG SK",
+      "tjk": 11.45,
+      "ebayi": 11.48,
+      "fark": 0.03
+     },
+     {
+      "at": "4",
+      "ad": "KING ATEROK KG SK",
+      "tjk": 2.9,
+      "ebayi": 3.03,
+      "fark": 0.13
+     },
+     {
+      "at": "5",
+      "ad": "KOCA ÖMER KG DB SK",
+      "tjk": 5.94,
+      "ebayi": 5.9,
+      "fark": -0.04
+     },
+     {
+      "at": "6",
+      "ad": "NÜSRETCAN KG K",
+      "tjk": 2.25,
+      "ebayi": 2.32,
+      "fark": 0.07
+     },
+     {
+      "at": "7",
+      "ad": "REAL GENERAL KG SK",
+      "tjk": 0.62,
+      "ebayi": 0.6,
+      "fark": -0.02
+     },
+     {
+      "at": "8",
+      "ad": "SOWER KG SK",
+      "tjk": 9.53,
+      "ebayi": 9.56,
+      "fark": 0.03
+     },
+     {
+      "at": "9",
+      "ad": "VAREGON SK",
+      "tjk": 11.92,
+      "ebayi": 11.88,
+      "fark": -0.04
+     },
+     {
+      "at": "10",
+      "ad": "CELESTARA KG K",
+      "tjk": 1.6,
+      "ebayi": 1.59,
+      "fark": -0.01
+     },
+     {
+      "at": "11",
+      "ad": "ÇILGIN CADI KG DB SK",
+      "tjk": 0.41,
+      "ebayi": 0.4,
+      "fark": -0.01
+     },
+     {
+      "at": "12",
+      "ad": "PRINCESS AZRA KG SK",
+      "tjk": 0.62,
+      "ebayi": 0.69,
+      "fark": 0.07
+     }
+    ]
+   }
+  ]
  }
 }
