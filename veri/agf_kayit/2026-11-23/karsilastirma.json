@@ -890,5 +890,83 @@
     ]
    }
   ]
+ },
+ "Bursa-7": {
+  "hipodrom": "Bursa",
+  "kosu": 7,
+  "zaman": "15:31",
+  "tjk_goruntu": "15:20",
+  "ebayi_goruntu": "15:30",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ŞAH DRAGON KG DB SK",
+      "tjk": 1.91,
+      "ebayi": 1.91,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "BALKI TAY KG DB",
+      "tjk": 15.88,
+      "ebayi": 15.88,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "BAKA BABA KG DB SK",
+      "tjk": 36.81,
+      "ebayi": 36.81,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "SURERTAY KG DB SK",
+      "tjk": 17.47,
+      "ebayi": 17.47,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "AĞA TALİP KG SK",
+      "tjk": 20.52,
+      "ebayi": 20.52,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ESKİ TOPRAK DB SKG SK",
+      "tjk": 1.84,
+      "ebayi": 1.84,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "İHTİMAL KG K",
+      "tjk": 5.35,
+      "ebayi": 5.35,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "DADY KG DB",
+      "tjk": 0.22,
+      "ebayi": 0.22,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
