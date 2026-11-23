@@ -2316,5 +2316,111 @@
     ]
    }
   ]
+ },
+ "Şanlıurfa-7": {
+  "hipodrom": "Şanlıurfa",
+  "kosu": 7,
+  "zaman": "20:01",
+  "tjk_goruntu": "19:20",
+  "ebayi_goruntu": "20:01",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "10",
+    "favori_ebayi": "10",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "MAN OF VICTORY SKG SK",
+      "tjk": 13.28,
+      "ebayi": 13.28,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "APOHİKO KG SK",
+      "tjk": 2.36,
+      "ebayi": 2.36,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "INDIANA JONES KG K",
+      "tjk": 3.59,
+      "ebayi": 3.59,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "JER KG SK SGKR",
+      "tjk": 1.95,
+      "ebayi": 1.95,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "KURT BEY KG SK ÖG",
+      "tjk": 7.84,
+      "ebayi": 7.84,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "LORD OF THE SEA KG K DB",
+      "tjk": 2.48,
+      "ebayi": 2.48,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "MR BERZAN KG SK",
+      "tjk": 5.56,
+      "ebayi": 5.56,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "VIA SISTINO KG K DB",
+      "tjk": 8.49,
+      "ebayi": 8.49,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "QUEEN IQRA DB SK",
+      "tjk": 46.97,
+      "ebayi": 46.97,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "ARES GOLD SKG SK",
+      "tjk": 0.38,
+      "ebayi": 0.38,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "MI OJOS OLIVA KG K",
+      "tjk": 2.91,
+      "ebayi": 2.91,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "NORTHERN TOUCH KG K DB",
+      "tjk": 4.14,
+      "ebayi": 4.14,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
