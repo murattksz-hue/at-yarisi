@@ -26,6 +26,7 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Bursa | 8 | 16:01 | 2. | 2 | 2 | ✓ | ✓ | 0.0 | 1→2 | 1→2 |
 | Bursa | 9 | 16:30 | 2. | 4 | 4 | ✓ | ✓ | 0.0 | 1→4 | 1→4 |
 | Şanlıurfa | 1 | 17:00 | 1. | 2 | 2 | ✓ | ✓ | 0.13 | 2→2 | 2→2 |
+| Şanlıurfa | 2 | 17:30 | 1. | 5 | 5 | ✓ | ✓ | 0.0 | 3→5 | 3→5 |
 
 ### Farklı çıkan atlar
 
