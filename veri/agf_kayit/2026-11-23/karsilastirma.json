@@ -189,5 +189,69 @@
     ]
    }
   ]
+ },
+ "Bursa-3": {
+  "hipodrom": "Bursa",
+  "kosu": 3,
+  "zaman": "13:31",
+  "tjk_goruntu": "13:30",
+  "ebayi_goruntu": "13:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.25,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ALL FIRST DB SKG SK",
+      "tjk": 52.78,
+      "ebayi": 52.53,
+      "fark": -0.25
+     },
+     {
+      "at": "2",
+      "ad": "GRAY CONQUEROR DB SKG SK",
+      "tjk": 3.51,
+      "ebayi": 3.5,
+      "fark": -0.01
+     },
+     {
+      "at": "3",
+      "ad": "REBEL HOOF KG SK",
+      "tjk": 2.14,
+      "ebayi": 2.19,
+      "fark": 0.05
+     },
+     {
+      "at": "4",
+      "ad": "SUGAR STORM KG K DB",
+      "tjk": 5.28,
+      "ebayi": 5.25,
+      "fark": -0.03
+     },
+     {
+      "at": "5",
+      "ad": "MESYON KG K",
+      "tjk": 19.6,
+      "ebayi": 19.73,
+      "fark": 0.13
+     },
+     {
+      "at": "6",
+      "ad": "PERSIAN MEMO K DB",
+      "tjk": 16.7,
+      "ebayi": 16.8,
+      "fark": 0.1
+     }
+    ]
+   }
+  ]
  }
 }
