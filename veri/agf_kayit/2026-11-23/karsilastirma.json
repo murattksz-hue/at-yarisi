@@ -253,5 +253,180 @@
     ]
    }
   ]
+ },
+ "Bursa-4": {
+  "hipodrom": "Bursa",
+  "kosu": 4,
+  "zaman": "14:00",
+  "tjk_goruntu": "14:00",
+  "ebayi_goruntu": "14:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SANCARLI BEY KG K",
+      "tjk": 5.04,
+      "ebayi": 5.04,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "STEPHENSON KG K",
+      "tjk": 7.61,
+      "ebayi": 7.61,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "TATARUŞAĞI KG DB SK",
+      "tjk": 9.8,
+      "ebayi": 9.8,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ZENG KG DB",
+      "tjk": 19.8,
+      "ebayi": 19.8,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "AFŞINTAY KG",
+      "tjk": 8.28,
+      "ebayi": 8.28,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "PRENSES MEHLİKA",
+      "tjk": 2.13,
+      "ebayi": 2.13,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "KARANİMO DB",
+      "tjk": 15.9,
+      "ebayi": 15.9,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ZEMBEREK SKG SK",
+      "tjk": 13.17,
+      "ebayi": 13.17,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "GÜNDÜZ REİS KG",
+      "tjk": 17.18,
+      "ebayi": 17.18,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "ARLİNHAN KG DB SK",
+      "tjk": 1.09,
+      "ebayi": 1.09,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.09,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SANCARLI BEY KG K",
+      "tjk": 3.53,
+      "ebayi": 3.56,
+      "fark": 0.03
+     },
+     {
+      "at": "2",
+      "ad": "STEPHENSON KG K",
+      "tjk": 5.79,
+      "ebayi": 5.79,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "TATARUŞAĞI KG DB SK",
+      "tjk": 8.18,
+      "ebayi": 8.25,
+      "fark": 0.07
+     },
+     {
+      "at": "4",
+      "ad": "ZENG KG DB",
+      "tjk": 24.39,
+      "ebayi": 24.39,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "AFŞINTAY KG",
+      "tjk": 5.91,
+      "ebayi": 5.95,
+      "fark": 0.04
+     },
+     {
+      "at": "6",
+      "ad": "PRENSES MEHLİKA",
+      "tjk": 1.44,
+      "ebayi": 1.44,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "KARANİMO DB",
+      "tjk": 17.78,
+      "ebayi": 17.75,
+      "fark": -0.03
+     },
+     {
+      "at": "8",
+      "ad": "ZEMBEREK SKG SK",
+      "tjk": 12.62,
+      "ebayi": 12.61,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "GÜNDÜZ REİS KG",
+      "tjk": 19.83,
+      "ebayi": 19.74,
+      "fark": -0.09
+     },
+     {
+      "at": "10",
+      "ad": "ARLİNHAN KG DB SK",
+      "tjk": 0.53,
+      "ebayi": 0.52,
+      "fark": -0.01
+     }
+    ]
+   }
+  ]
  }
 }
