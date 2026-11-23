@@ -4,6 +4,8 @@
 
 | Hipodrom | TJK | ebayi | İlk |
 |---|---|---|---|
+| Bursa | — | 09:01 | ebayi |
+| Şanlıurfa | — | 09:01 | ebayi |
 
 Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 
