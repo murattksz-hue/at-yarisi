@@ -673,5 +673,222 @@
     ]
    }
   ]
+ },
+ "Bursa-6": {
+  "hipodrom": "Bursa",
+  "kosu": 6,
+  "zaman": "15:00",
+  "tjk_goruntu": "15:00",
+  "ebayi_goruntu": "15:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "9",
+    "favori_ebayi": "9",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "9",
+    "sabah_favori_ebayi": "9",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "GRAND MISSION KG DB",
+      "tjk": 10.34,
+      "ebayi": 10.34,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "MONUMENTAL DB SKG SK",
+      "tjk": 2.7,
+      "ebayi": 2.7,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "TYRAXES KG K DB",
+      "tjk": 0.75,
+      "ebayi": 0.75,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "LAKE EAGLE SK",
+      "tjk": 1.31,
+      "ebayi": 1.31,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "BEBEĞİM OLDUN KG K DB",
+      "tjk": 2.72,
+      "ebayi": 2.72,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "CESİ AFFETMEZ DB",
+      "tjk": 2.99,
+      "ebayi": 2.99,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "RICARDO SK",
+      "tjk": 2.77,
+      "ebayi": 2.77,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "COLLECTER DB SK",
+      "tjk": 9.39,
+      "ebayi": 9.39,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KRAL DAYI SK",
+      "tjk": 57.55,
+      "ebayi": 57.55,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "MISS ECDAD KG DB SK",
+      "tjk": 6.46,
+      "ebayi": 6.46,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "İŞİN ASLI K DB",
+      "tjk": 1.48,
+      "ebayi": 1.48,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "ULUBEY DB SKG SK YP",
+      "tjk": 1.35,
+      "ebayi": 1.35,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "ÇAĞIRANHAN KG K DB",
+      "tjk": 0.19,
+      "ebayi": 0.19,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "9",
+    "favori_ebayi": "9",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.21,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "GRAND MISSION KG DB",
+      "tjk": 6.66,
+      "ebayi": 6.77,
+      "fark": 0.11
+     },
+     {
+      "at": "2",
+      "ad": "MONUMENTAL DB SKG SK",
+      "tjk": 1.57,
+      "ebayi": 1.53,
+      "fark": -0.04
+     },
+     {
+      "at": "3",
+      "ad": "TYRAXES KG K DB",
+      "tjk": 0.42,
+      "ebayi": 0.41,
+      "fark": -0.01
+     },
+     {
+      "at": "4",
+      "ad": "LAKE EAGLE SK",
+      "tjk": 0.68,
+      "ebayi": 0.66,
+      "fark": -0.02
+     },
+     {
+      "at": "5",
+      "ad": "BEBEĞİM OLDUN KG K DB",
+      "tjk": 1.46,
+      "ebayi": 1.48,
+      "fark": 0.02
+     },
+     {
+      "at": "6",
+      "ad": "CESİ AFFETMEZ DB",
+      "tjk": 2.2,
+      "ebayi": 2.16,
+      "fark": -0.04
+     },
+     {
+      "at": "7",
+      "ad": "RICARDO SK",
+      "tjk": 1.77,
+      "ebayi": 1.76,
+      "fark": -0.01
+     },
+     {
+      "at": "8",
+      "ad": "COLLECTER DB SK",
+      "tjk": 6.9,
+      "ebayi": 6.96,
+      "fark": 0.06
+     },
+     {
+      "at": "9",
+      "ad": "KRAL DAYI SK",
+      "tjk": 72.16,
+      "ebayi": 71.95,
+      "fark": -0.21
+     },
+     {
+      "at": "10",
+      "ad": "MISS ECDAD KG DB SK",
+      "tjk": 4.11,
+      "ebayi": 4.17,
+      "fark": 0.06
+     },
+     {
+      "at": "11",
+      "ad": "İŞİN ASLI K DB",
+      "tjk": 0.9,
+      "ebayi": 0.97,
+      "fark": 0.07
+     },
+     {
+      "at": "12",
+      "ad": "ULUBEY DB SKG SK YP",
+      "tjk": 1.0,
+      "ebayi": 1.02,
+      "fark": 0.02
+     },
+     {
+      "at": "13",
+      "ad": "ÇAĞIRANHAN KG K DB",
+      "tjk": 0.17,
+      "ebayi": 0.15,
+      "fark": -0.02
+     }
+    ]
+   }
+  ]
  }
 }

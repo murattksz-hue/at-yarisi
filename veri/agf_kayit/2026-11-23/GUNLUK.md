@@ -20,6 +20,8 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Bursa | 4 | 14:00 | 2. | 4 | 4 | ✓ | ✓ | 0.09 | 1→4 | 1→4 |
 | Bursa | 5 | 14:30 | 1. | 11 | 11 | ✓ | ✓ | 0.0 | 7→11 | 2→11 |
 | Bursa | 5 | 14:30 | 2. | 11 | 11 | ✓ | ✓ | 0.12 | 1→11 | 1→11 |
+| Bursa | 6 | 15:00 | 1. | 9 | 9 | ✓ | ✓ | 0.0 | 9→9 | 9→9 |
+| Bursa | 6 | 15:00 | 2. | 9 | 9 | ✓ | ✓ | 0.21 | 1→9 | 1→9 |
 
 ### Farklı çıkan atlar
 
@@ -28,3 +30,4 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 - Bursa 3. koşu (1. altılı; TJK görüntüsü 13:30, ebayi 13:30): 1 ALL FIRST DB SKG SK TJK %52.78 / ebayi %52.53, 2 GRAY CONQUEROR DB SKG SK TJK %3.51 / ebayi %3.5, 3 REBEL HOOF KG SK TJK %2.14 / ebayi %2.19, 4 SUGAR STORM KG K DB TJK %5.28 / ebayi %5.25, 5 MESYON KG K TJK %19.6 / ebayi %19.73, 6 PERSIAN MEMO K DB TJK %16.7 / ebayi %16.8
 - Bursa 4. koşu (2. altılı; TJK görüntüsü 14:00, ebayi 14:00): 1 SANCARLI BEY KG K TJK %3.53 / ebayi %3.56, 3 TATARUŞAĞI KG DB SK TJK %8.18 / ebayi %8.25, 5 AFŞINTAY KG TJK %5.91 / ebayi %5.95, 7 KARANİMO DB TJK %17.78 / ebayi %17.75, 8 ZEMBEREK SKG SK TJK %12.62 / ebayi %12.61, 9 GÜNDÜZ REİS KG TJK %19.83 / ebayi %19.74, 10 ARLİNHAN KG DB SK TJK %0.53 / ebayi %0.52
 - Bursa 5. koşu (2. altılı; TJK görüntüsü 14:30, ebayi 14:30): 1 AKREP YÜREK KG SK TJK %3.08 / ebayi %3.11, 2 ALATON KG K TJK %3.94 / ebayi %3.93, 5 KALEMEYDAN K DB SK TJK %8.08 / ebayi %8.11, 6 KAPTAN İRFAN KG DB SK TJK %20.8 / ebayi %20.87, 8 SONKARINCA DB SKG SK TJK %0.72 / ebayi %0.71, 9 YERİN AYRI KG SK TJK %1.14 / ebayi %1.12, 10 FIRTINA BİÇEN SKG SK TJK %4.81 / ebayi %4.79, 11 ŞADİNİN GÜLÜ KG K DB TJK %31.94 / ebayi %31.82, 12 ARSELYA KG DB SKG SK TJK %2.96 / ebayi %2.97, 13 AYDONAT DB SK TJK %0.87 / ebayi %0.88
+- Bursa 6. koşu (2. altılı; TJK görüntüsü 15:00, ebayi 15:00): 1 GRAND MISSION KG DB TJK %6.66 / ebayi %6.77, 2 MONUMENTAL DB SKG SK TJK %1.57 / ebayi %1.53, 3 TYRAXES KG K DB TJK %0.42 / ebayi %0.41, 4 LAKE EAGLE SK TJK %0.68 / ebayi %0.66, 5 BEBEĞİM OLDUN KG K DB TJK %1.46 / ebayi %1.48, 6 CESİ AFFETMEZ DB TJK %2.2 / ebayi %2.16, 7 RICARDO SK TJK %1.77 / ebayi %1.76, 8 COLLECTER DB SK TJK %6.9 / ebayi %6.96, 9 KRAL DAYI SK TJK %72.16 / ebayi %71.95, 10 MISS ECDAD KG DB SK TJK %4.11 / ebayi %4.17, 11 İŞİN ASLI K DB TJK %0.9 / ebayi %0.97, 12 ULUBEY DB SKG SK YP TJK %1.0 / ebayi %1.02, 13 ÇAĞIRANHAN KG K DB TJK %0.17 / ebayi %0.15
