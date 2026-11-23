@@ -968,5 +968,125 @@
     ]
    }
   ]
+ },
+ "Bursa-8": {
+  "hipodrom": "Bursa",
+  "kosu": 8,
+  "zaman": "16:01",
+  "tjk_goruntu": "15:20",
+  "ebayi_goruntu": "16:00",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ŞENSOY KG DB SK",
+      "tjk": 13.12,
+      "ebayi": 13.12,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "TAM PAKET KG DB SK",
+      "tjk": 23.29,
+      "ebayi": 23.29,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ASLAN ARAS KG K",
+      "tjk": 14.62,
+      "ebayi": 14.62,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "BİLGETUNA KG DB SK",
+      "tjk": 16.3,
+      "ebayi": 16.3,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "CABALLO KG K",
+      "tjk": 0.57,
+      "ebayi": 0.57,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "GÖLGESER KG SK",
+      "tjk": 0.58,
+      "ebayi": 0.58,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "MANGAL DAĞI KG K",
+      "tjk": 5.27,
+      "ebayi": 5.27,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "SEZGİNAĞA KG DB SK",
+      "tjk": 15.62,
+      "ebayi": 15.62,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "YEDİKAPILI KG",
+      "tjk": 1.75,
+      "ebayi": 1.75,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "İCLAL HANIM KG K GKR",
+      "tjk": 1.38,
+      "ebayi": 1.38,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "DAĞARDI K DB",
+      "tjk": 5.98,
+      "ebayi": 5.98,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "DİKKALDIRIM KG DB SK",
+      "tjk": 0.5,
+      "ebayi": 0.5,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "GECE PERİSİ KG DB SK",
+      "tjk": 0.19,
+      "ebayi": 0.19,
+      "fark": 0.0
+     },
+     {
+      "at": "14",
+      "ad": "YEŞİM HATUN KG",
+      "tjk": 0.84,
+      "ebayi": 0.84,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
