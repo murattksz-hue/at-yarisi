@@ -1406,5 +1406,194 @@
     ]
    }
   ]
+ },
+ "Şanlıurfa-3": {
+  "hipodrom": "Şanlıurfa",
+  "kosu": 3,
+  "zaman": "18:00",
+  "tjk_goruntu": "18:00",
+  "ebayi_goruntu": "18:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.05,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SEYRANTAY KG DB SK",
+      "tjk": 2.97,
+      "ebayi": 2.96,
+      "fark": -0.01
+     },
+     {
+      "at": "2",
+      "ad": "YARALI AKBAŞ KG DB SK",
+      "tjk": 7.41,
+      "ebayi": 7.43,
+      "fark": 0.02
+     },
+     {
+      "at": "3",
+      "ad": "GELİNİM SİNEM KG DB SK",
+      "tjk": 12.95,
+      "ebayi": 12.96,
+      "fark": 0.01
+     },
+     {
+      "at": "4",
+      "ad": "UĞUR MELEĞİ SKG SK",
+      "tjk": 34.92,
+      "ebayi": 34.87,
+      "fark": -0.05
+     },
+     {
+      "at": "5",
+      "ad": "MERHAMET K DB SKG",
+      "tjk": 11.08,
+      "ebayi": 11.09,
+      "fark": 0.01
+     },
+     {
+      "at": "6",
+      "ad": "AY FERİDE K DB",
+      "tjk": 5.01,
+      "ebayi": 5.01,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "DENİZİM GÜLÜ DB SK",
+      "tjk": 14.13,
+      "ebayi": 14.13,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "KIZIM ATİK KG K DB",
+      "tjk": 1.8,
+      "ebayi": 1.8,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "BOLGA KG DB SK",
+      "tjk": 3.18,
+      "ebayi": 3.19,
+      "fark": 0.01
+     },
+     {
+      "at": "10",
+      "ad": "PRINCESS GIRL KG DB",
+      "tjk": 5.83,
+      "ebayi": 5.85,
+      "fark": 0.02
+     },
+     {
+      "at": "11",
+      "ad": "KRALİÇEANNA KG DB",
+      "tjk": 0.71,
+      "ebayi": 0.71,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "7",
+    "sabah_favori_ebayi": "7",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SEYRANTAY KG DB SK",
+      "tjk": 2.33,
+      "ebayi": 2.33,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "YARALI AKBAŞ KG DB SK",
+      "tjk": 7.53,
+      "ebayi": 7.53,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "GELİNİM SİNEM KG DB SK",
+      "tjk": 12.27,
+      "ebayi": 12.27,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "UĞUR MELEĞİ SKG SK",
+      "tjk": 36.39,
+      "ebayi": 36.39,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "MERHAMET K DB SKG",
+      "tjk": 11.09,
+      "ebayi": 11.09,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "AY FERİDE K DB",
+      "tjk": 4.63,
+      "ebayi": 4.63,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "DENİZİM GÜLÜ DB SK",
+      "tjk": 15.07,
+      "ebayi": 15.07,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "KIZIM ATİK KG K DB",
+      "tjk": 2.2,
+      "ebayi": 2.2,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "BOLGA KG DB SK",
+      "tjk": 2.7,
+      "ebayi": 2.7,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "PRINCESS GIRL KG DB",
+      "tjk": 4.81,
+      "ebayi": 4.81,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "KRALİÇEANNA KG DB",
+      "tjk": 0.98,
+      "ebayi": 0.98,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
