@@ -1088,5 +1088,132 @@
     ]
    }
   ]
+ },
+ "Adana-9": {
+  "hipodrom": "Adana",
+  "kosu": 9,
+  "zaman": "17:01",
+  "tjk_goruntu": "15:57",
+  "ebayi_goruntu": "17:00",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "PİSİFORMİS K DB",
+      "tjk": 19.0,
+      "ebayi": 19.0,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "QUEEN HANIM DB SKG SK",
+      "tjk": 10.48,
+      "ebayi": 10.48,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "BOZALAN KG DB SK",
+      "tjk": 24.65,
+      "ebayi": 24.65,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "KESTEL YİĞİDİ DB SK",
+      "tjk": 13.26,
+      "ebayi": 13.26,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "ŞARK AYAZI KG DB SK",
+      "tjk": 1.0,
+      "ebayi": 1.0,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "SERHAN ATEŞİ KG K",
+      "tjk": 1.47,
+      "ebayi": 1.47,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "KRAL LAMİ KG DB SK",
+      "tjk": 5.69,
+      "ebayi": 5.69,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ATEŞ KUŞLARI KG DB SK",
+      "tjk": 1.5,
+      "ebayi": 1.5,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "ASİLBULUT KG K DB",
+      "tjk": 5.86,
+      "ebayi": 5.86,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "KURT BAKIŞLI KG K",
+      "tjk": 8.28,
+      "ebayi": 8.28,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "KAUÇUKÇU K SKG",
+      "tjk": 1.65,
+      "ebayi": 1.65,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "EMOHELİL KG DB SK",
+      "tjk": 0.89,
+      "ebayi": 0.89,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "KIR ZİNCİRLERİNİ KG DB SK",
+      "tjk": 2.78,
+      "ebayi": 2.78,
+      "fark": 0.0
+     },
+     {
+      "at": "14",
+      "ad": "KOYUNEVİ ASLANI KG K DB",
+      "tjk": 3.11,
+      "ebayi": 3.11,
+      "fark": 0.0
+     },
+     {
+      "at": "15",
+      "ad": "BALTIMORE KG SK",
+      "tjk": 0.36,
+      "ebayi": 0.36,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
