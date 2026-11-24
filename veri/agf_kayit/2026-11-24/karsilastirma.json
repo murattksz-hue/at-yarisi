@@ -1279,5 +1279,104 @@
     ]
    }
   ]
+ },
+ "Antalya-2": {
+  "hipodrom": "Antalya",
+  "kosu": 2,
+  "zaman": "18:00",
+  "tjk_goruntu": "18:00",
+  "ebayi_goruntu": "18:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ANGEL OF DEFNE DB SKG SK",
+      "tjk": 5.94,
+      "ebayi": 5.94,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "LADY GROUND K",
+      "tjk": 18.3,
+      "ebayi": 18.3,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "STEEL ROCK KG SK",
+      "tjk": 12.0,
+      "ebayi": 12.0,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "VERAGORN DB SK",
+      "tjk": 10.34,
+      "ebayi": 10.34,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KOKO LOKO KG K DB",
+      "tjk": 30.38,
+      "ebayi": 30.38,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "QUIET RIVER SKG SK",
+      "tjk": 3.07,
+      "ebayi": 3.07,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "YAMATAİ DB SK",
+      "tjk": 5.96,
+      "ebayi": 5.96,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ROZERYA DB",
+      "tjk": 8.48,
+      "ebayi": 8.48,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "MURATIN KIZI SK",
+      "tjk": 4.02,
+      "ebayi": 4.02,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "ENTITY DB SK",
+      "tjk": 0.75,
+      "ebayi": 0.75,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "PİTON KIZ KG K DB",
+      "tjk": 0.76,
+      "ebayi": 0.76,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
