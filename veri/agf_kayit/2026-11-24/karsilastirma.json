@@ -982,5 +982,111 @@
     ]
    }
   ]
+ },
+ "Adana-8": {
+  "hipodrom": "Adana",
+  "kosu": 8,
+  "zaman": "16:30",
+  "tjk_goruntu": "15:57",
+  "ebayi_goruntu": "16:30",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AKGÜL HANIM SKG SK",
+      "tjk": 10.95,
+      "ebayi": 10.95,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "KATI HANIM SKG SK",
+      "tjk": 15.17,
+      "ebayi": 15.17,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "REYNA KIZI DB SK",
+      "tjk": 24.89,
+      "ebayi": 24.89,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ERDEMLİ KIZ K",
+      "tjk": 0.95,
+      "ebayi": 0.95,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "GÜLBEGÜM KG DB SK",
+      "tjk": 1.92,
+      "ebayi": 1.92,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "İLTER KG K",
+      "tjk": 3.66,
+      "ebayi": 3.66,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "KIZIM DAMLA KG SK",
+      "tjk": 0.66,
+      "ebayi": 0.66,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "MAVİ YAR KG DB SK",
+      "tjk": 8.44,
+      "ebayi": 8.44,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "MOR GELİNCİK KG DB SK",
+      "tjk": 0.37,
+      "ebayi": 0.37,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "NATROSE KG SK",
+      "tjk": 23.78,
+      "ebayi": 23.78,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "SABIRLI CAN KG DB SK",
+      "tjk": 8.24,
+      "ebayi": 8.24,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "SABRİNİN RÜZGARI KG DB SK",
+      "tjk": 0.97,
+      "ebayi": 0.97,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
