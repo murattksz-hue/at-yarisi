@@ -16,9 +16,12 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Adana | 1 | 13:00 | 1. | 4 | 4 | ✓ | ✓ | 0.04 | 4→4 | 4→4 |
 | Adana | 2 | 13:31 | 1. | 2 | 2 | ✓ | ✓ | 0.04 | 2→2 | 2→2 |
 | Adana | 3 | 14:00 | 1. | 1 | 1 | ✓ | ✓ | 0.05 | 1→1 | 1→1 |
+| Adana | 4 | 14:30 | 1. | 7 | 7 | ✓ | ✓ | 0.0 | 7→7 | 7→7 |
+| Adana | 4 | 14:30 | 2. | 3 | 3 | ✓ | ✓ | 0.05 | 7→3 | 3→3 |
 
 ### Farklı çıkan atlar
 
 - Adana 1. koşu (1. altılı; TJK görüntüsü 13:00, ebayi 13:00): 1 DOĞANGİR KG DB SK TJK %13.53 / ebayi %13.55, 3 YILKAR KG K DB TJK %4.41 / ebayi %4.39, 4 ARDANUÇDAN KG DB SK TJK %38.4 / ebayi %38.42, 5 BAYANPAPATYA KG DB SK TJK %0.95 / ebayi %0.99, 6 KAPIKULELİ KG DB SK GKR TJK %1.06 / ebayi %1.05, 7 MAHPAREM KG TJK %4.63 / ebayi %4.6, 8 MOSKOVALI TANYA KG SK TJK %2.32 / ebayi %2.31, 9 SABRİNİN KIZI KG DB SK TJK %1.59 / ebayi %1.58, 10 SILANAZ KG DB SK TJK %9.86 / ebayi %9.88, 12 UÇAN TURBOCU DB GKR TJK %4.65 / ebayi %4.62
 - Adana 2. koşu (1. altılı; TJK görüntüsü 13:30, ebayi 13:30): 1 MON BİJOU KG DB TJK %7.06 / ebayi %7.1, 2 GENGAR KG DB SK TJK %23.41 / ebayi %23.39, 3 SHINING FORCE DB SK TJK %3.31 / ebayi %3.29, 4 ADANALI KIZ K DB TJK %19.88 / ebayi %19.87, 5 LAMAZİ GOGO DB SK TJK %2.76 / ebayi %2.75, 6 EURO POWER SKG SK TJK %1.04 / ebayi %1.05, 7 ALPHECCA DB SK TJK %6.59 / ebayi %6.61, 9 YÖRÜKÇEM DB SK TJK %21.62 / ebayi %21.63, 10 FALCONGIRL KG K TJK %0.41 / ebayi %0.4
 - Adana 3. koşu (1. altılı; TJK görüntüsü 14:00, ebayi 14:00): 1 BANKO MEHMET SK TJK %60.26 / ebayi %60.25, 2 OTTANTOTTO KG SK TJK %3.25 / ebayi %3.2, 4 SYDNEY WIZARD DB SK TJK %2.11 / ebayi %2.12, 5 VEGVİSİR KG TJK %4.41 / ebayi %4.44, 6 LAS WEGAS KG DB SK TJK %1.21 / ebayi %1.2, 8 WHITE RAIN DB SK TJK %8.78 / ebayi %8.81
+- Adana 4. koşu (2. altılı; TJK görüntüsü 14:30, ebayi 14:30): 1 ASIL OĞUL DB SK TJK %2.92 / ebayi %2.89, 5 ÖMER EYÜP KG DB SK TJK %12.7 / ebayi %12.66, 7 UMUTSER KG DB TJK %27.18 / ebayi %27.23, 8 ATLI QUEEN K DB TJK %1.89 / ebayi %1.88, 9 ARKEN TAŞI TJK %5.78 / ebayi %5.76, 10 EFRUZKIZI KG DB SK TJK %3.28 / ebayi %3.32, 11 PRENSES KOŞKOŞUM DB SKG SK TJK %0.51 / ebayi %0.53

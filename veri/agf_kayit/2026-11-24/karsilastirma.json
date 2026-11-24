@@ -281,5 +281,194 @@
     ]
    }
   ]
+ },
+ "Adana-4": {
+  "hipodrom": "Adana",
+  "kosu": 4,
+  "zaman": "14:30",
+  "tjk_goruntu": "14:30",
+  "ebayi_goruntu": "14:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "7",
+    "favori_ebayi": "7",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "7",
+    "sabah_favori_ebayi": "7",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ASIL OĞUL DB SK",
+      "tjk": 3.12,
+      "ebayi": 3.12,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "GÜVENABİ KG SK",
+      "tjk": 13.59,
+      "ebayi": 13.59,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "MESTAN BEY KG DB",
+      "tjk": 26.81,
+      "ebayi": 26.81,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ZULEMA DB SK",
+      "tjk": 3.84,
+      "ebayi": 3.84,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "ÖMER EYÜP KG DB SK",
+      "tjk": 12.6,
+      "ebayi": 12.6,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "DODOKAN KG GKR",
+      "tjk": 1.28,
+      "ebayi": 1.28,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "UMUTSER KG DB",
+      "tjk": 27.21,
+      "ebayi": 27.21,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ATLI QUEEN K DB",
+      "tjk": 2.0,
+      "ebayi": 2.0,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "ARKEN TAŞI",
+      "tjk": 5.57,
+      "ebayi": 5.57,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "EFRUZKIZI KG DB SK",
+      "tjk": 3.54,
+      "ebayi": 3.54,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "PRENSES KOŞKOŞUM DB SKG SK",
+      "tjk": 0.45,
+      "ebayi": 0.45,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.05,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "7",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ASIL OĞUL DB SK",
+      "tjk": 2.92,
+      "ebayi": 2.89,
+      "fark": -0.03
+     },
+     {
+      "at": "2",
+      "ad": "GÜVENABİ KG SK",
+      "tjk": 13.02,
+      "ebayi": 13.02,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "MESTAN BEY KG DB",
+      "tjk": 28.26,
+      "ebayi": 28.26,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ZULEMA DB SK",
+      "tjk": 3.21,
+      "ebayi": 3.21,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "ÖMER EYÜP KG DB SK",
+      "tjk": 12.7,
+      "ebayi": 12.66,
+      "fark": -0.04
+     },
+     {
+      "at": "6",
+      "ad": "DODOKAN KG GKR",
+      "tjk": 1.24,
+      "ebayi": 1.24,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "UMUTSER KG DB",
+      "tjk": 27.18,
+      "ebayi": 27.23,
+      "fark": 0.05
+     },
+     {
+      "at": "8",
+      "ad": "ATLI QUEEN K DB",
+      "tjk": 1.89,
+      "ebayi": 1.88,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "ARKEN TAŞI",
+      "tjk": 5.78,
+      "ebayi": 5.76,
+      "fark": -0.02
+     },
+     {
+      "at": "10",
+      "ad": "EFRUZKIZI KG DB SK",
+      "tjk": 3.28,
+      "ebayi": 3.32,
+      "fark": 0.04
+     },
+     {
+      "at": "11",
+      "ad": "PRENSES KOŞKOŞUM DB SKG SK",
+      "tjk": 0.51,
+      "ebayi": 0.53,
+      "fark": 0.02
+     }
+    ]
+   }
+  ]
  }
 }
