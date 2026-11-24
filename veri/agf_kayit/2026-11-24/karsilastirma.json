@@ -104,5 +104,97 @@
     ]
    }
   ]
+ },
+ "Adana-2": {
+  "hipodrom": "Adana",
+  "kosu": 2,
+  "zaman": "13:31",
+  "tjk_goruntu": "13:30",
+  "ebayi_goruntu": "13:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.04,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "MON BİJOU KG DB",
+      "tjk": 7.06,
+      "ebayi": 7.1,
+      "fark": 0.04
+     },
+     {
+      "at": "2",
+      "ad": "GENGAR KG DB SK",
+      "tjk": 23.41,
+      "ebayi": 23.39,
+      "fark": -0.02
+     },
+     {
+      "at": "3",
+      "ad": "SHINING FORCE DB SK",
+      "tjk": 3.31,
+      "ebayi": 3.29,
+      "fark": -0.02
+     },
+     {
+      "at": "4",
+      "ad": "ADANALI KIZ K DB",
+      "tjk": 19.88,
+      "ebayi": 19.87,
+      "fark": -0.01
+     },
+     {
+      "at": "5",
+      "ad": "LAMAZİ GOGO DB SK",
+      "tjk": 2.76,
+      "ebayi": 2.75,
+      "fark": -0.01
+     },
+     {
+      "at": "6",
+      "ad": "EURO POWER SKG SK",
+      "tjk": 1.04,
+      "ebayi": 1.05,
+      "fark": 0.01
+     },
+     {
+      "at": "7",
+      "ad": "ALPHECCA DB SK",
+      "tjk": 6.59,
+      "ebayi": 6.61,
+      "fark": 0.02
+     },
+     {
+      "at": "8",
+      "ad": "FORLORN SKG SK",
+      "tjk": 13.92,
+      "ebayi": 13.92,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "YÖRÜKÇEM DB SK",
+      "tjk": 21.62,
+      "ebayi": 21.63,
+      "fark": 0.01
+     },
+     {
+      "at": "10",
+      "ad": "FALCONGIRL KG K",
+      "tjk": 0.41,
+      "ebayi": 0.4,
+      "fark": -0.01
+     }
+    ]
+   }
+  ]
  }
 }
