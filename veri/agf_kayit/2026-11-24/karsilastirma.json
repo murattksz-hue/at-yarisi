@@ -1,0 +1,108 @@
+{
+ "Adana-1": {
+  "hipodrom": "Adana",
+  "kosu": 1,
+  "zaman": "13:00",
+  "tjk_goruntu": "13:00",
+  "ebayi_goruntu": "13:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.04,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "DOĞANGİR KG DB SK",
+      "tjk": 13.53,
+      "ebayi": 13.55,
+      "fark": 0.02
+     },
+     {
+      "at": "2",
+      "ad": "MUŞUN GÜLÜ KG DB SKG SK",
+      "tjk": 18.02,
+      "ebayi": 18.02,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "YILKAR KG K DB",
+      "tjk": 4.41,
+      "ebayi": 4.39,
+      "fark": -0.02
+     },
+     {
+      "at": "4",
+      "ad": "ARDANUÇDAN KG DB SK",
+      "tjk": 38.4,
+      "ebayi": 38.42,
+      "fark": 0.02
+     },
+     {
+      "at": "5",
+      "ad": "BAYANPAPATYA KG DB SK",
+      "tjk": 0.95,
+      "ebayi": 0.99,
+      "fark": 0.04
+     },
+     {
+      "at": "6",
+      "ad": "KAPIKULELİ KG DB SK GKR",
+      "tjk": 1.06,
+      "ebayi": 1.05,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "MAHPAREM KG",
+      "tjk": 4.63,
+      "ebayi": 4.6,
+      "fark": -0.03
+     },
+     {
+      "at": "8",
+      "ad": "MOSKOVALI TANYA KG SK",
+      "tjk": 2.32,
+      "ebayi": 2.31,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "SABRİNİN KIZI KG DB SK",
+      "tjk": 1.59,
+      "ebayi": 1.58,
+      "fark": -0.01
+     },
+     {
+      "at": "10",
+      "ad": "SILANAZ KG DB SK",
+      "tjk": 9.86,
+      "ebayi": 9.88,
+      "fark": 0.02
+     },
+     {
+      "at": "11",
+      "ad": "ŞAHİDE ZÜMRA KG SK",
+      "tjk": 0.58,
+      "ebayi": 0.58,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "UÇAN TURBOCU DB GKR",
+      "tjk": 4.65,
+      "ebayi": 4.62,
+      "fark": -0.03
+     }
+    ]
+   }
+  ]
+ }
+}
