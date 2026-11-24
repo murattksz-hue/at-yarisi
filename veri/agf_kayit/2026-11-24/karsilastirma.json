@@ -1215,5 +1215,69 @@
     ]
    }
   ]
+ },
+ "Antalya-1": {
+  "hipodrom": "Antalya",
+  "kosu": 1,
+  "zaman": "17:30",
+  "tjk_goruntu": "17:30",
+  "ebayi_goruntu": "17:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": null,
+    "favori_ebayi": null,
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": null,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": null,
+    "sabah_favori_ebayi": null,
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "DORUKLAR BEYİ KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "2",
+      "ad": "HALLAND KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "3",
+      "ad": "HEY JUDE KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "4",
+      "ad": "SARI MAMBA DB SKG SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "5",
+      "ad": "TEJON MELERO SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "6",
+      "ad": "QUEEN PARLA K",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     }
+    ]
+   }
+  ]
  }
 }
