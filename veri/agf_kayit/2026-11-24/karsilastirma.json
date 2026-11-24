@@ -1676,5 +1676,104 @@
     ]
    }
   ]
+ },
+ "Antalya-7": {
+  "hipodrom": "Antalya",
+  "kosu": 7,
+  "zaman": "20:31",
+  "tjk_goruntu": "19:20",
+  "ebayi_goruntu": "20:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "6",
+    "favori_ebayi": "6",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "6",
+    "sabah_favori_ebayi": "6",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "METİNCİM DB SK",
+      "tjk": 9.81,
+      "ebayi": 9.81,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "ŞAHLANTAY KG DB SK",
+      "tjk": 11.42,
+      "ebayi": 11.42,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "LOSTRA DB SKG SK",
+      "tjk": 3.58,
+      "ebayi": 3.58,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "AKÇAOVA DB",
+      "tjk": 1.48,
+      "ebayi": 1.48,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "DEMİRHAN TAYI KG DB SK",
+      "tjk": 15.99,
+      "ebayi": 15.99,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "CİMİRİNGO KG SK",
+      "tjk": 21.08,
+      "ebayi": 21.08,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ŞAFAK BEY KG SK GKR",
+      "tjk": 6.93,
+      "ebayi": 6.93,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ESKİ KALELİ KG SK",
+      "tjk": 1.68,
+      "ebayi": 1.68,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "OLGUN VEDAT KG K DB",
+      "tjk": 4.93,
+      "ebayi": 4.93,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "SANCAK TAŞIYAN KG",
+      "tjk": 14.38,
+      "ebayi": 14.38,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "ÖZGÜNALP KG",
+      "tjk": 8.73,
+      "ebayi": 8.73,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }

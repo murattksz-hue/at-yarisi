@@ -31,6 +31,7 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Antalya | 4 | 19:00 | 1. | 2 | 2 | ✓ | ✓ | 0.0 | 3→2 | 6→2 |
 | Antalya | 5 | 19:31 | 1. | 1 | 1 | ✓ | ✓ | 0.0 | 1→1 | 1→1 |
 | Antalya | 6 | 20:01 | 1. | 5 | 5 | ✓ | ✓ | 0.0 | 5→5 | 2→5 |
+| Antalya | 7 | 20:31 | 1. | 6 | 6 | ✓ | ✓ | 0.0 | 6→6 | 6→6 |
 
 ### Farklı çıkan atlar
 
