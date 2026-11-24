@@ -196,5 +196,90 @@
     ]
    }
   ]
+ },
+ "Adana-3": {
+  "hipodrom": "Adana",
+  "kosu": 3,
+  "zaman": "14:00",
+  "tjk_goruntu": "14:00",
+  "ebayi_goruntu": "14:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.05,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "BANKO MEHMET SK",
+      "tjk": 60.26,
+      "ebayi": 60.25,
+      "fark": -0.01
+     },
+     {
+      "at": "2",
+      "ad": "OTTANTOTTO KG SK",
+      "tjk": 3.25,
+      "ebayi": 3.2,
+      "fark": -0.05
+     },
+     {
+      "at": "3",
+      "ad": "SHUEN KG K",
+      "tjk": 2.16,
+      "ebayi": 2.16,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "SYDNEY WIZARD DB SK",
+      "tjk": 2.11,
+      "ebayi": 2.12,
+      "fark": 0.01
+     },
+     {
+      "at": "5",
+      "ad": "VEGVİSİR KG",
+      "tjk": 4.41,
+      "ebayi": 4.44,
+      "fark": 0.03
+     },
+     {
+      "at": "6",
+      "ad": "LAS WEGAS KG DB SK",
+      "tjk": 1.21,
+      "ebayi": 1.2,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "MISS TOKOÇİN DB SK",
+      "tjk": 17.4,
+      "ebayi": 17.4,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "WHITE RAIN DB SK",
+      "tjk": 8.78,
+      "ebayi": 8.81,
+      "fark": 0.03
+     },
+     {
+      "at": "9",
+      "ad": "STRENGHT DB SKG SK",
+      "tjk": 0.42,
+      "ebayi": 0.42,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
