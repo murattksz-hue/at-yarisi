@@ -1442,5 +1442,76 @@
     ]
    }
   ]
+ },
+ "Antalya-4": {
+  "hipodrom": "Antalya",
+  "kosu": 4,
+  "zaman": "19:00",
+  "tjk_goruntu": "19:00",
+  "ebayi_goruntu": "19:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "6",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "HAWK SK",
+      "tjk": 17.72,
+      "ebayi": 17.72,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "YURIBOYKA KG K",
+      "tjk": 33.67,
+      "ebayi": 33.67,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "HAS TURBO DB SKG SK",
+      "tjk": 6.18,
+      "ebayi": 6.18,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "KING BALDWIN KG K",
+      "tjk": 12.2,
+      "ebayi": 12.2,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "FURIOUSD K SK",
+      "tjk": 24.7,
+      "ebayi": 24.7,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "MR ÇINAR KG K DB",
+      "tjk": 4.41,
+      "ebayi": 4.41,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ALPERİN KIZI KG SK",
+      "tjk": 1.11,
+      "ebayi": 1.11,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
