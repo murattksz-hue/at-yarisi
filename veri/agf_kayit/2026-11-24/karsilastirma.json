@@ -1378,5 +1378,69 @@
     ]
    }
   ]
+ },
+ "Antalya-3": {
+  "hipodrom": "Antalya",
+  "kosu": 3,
+  "zaman": "18:31",
+  "tjk_goruntu": "18:27",
+  "ebayi_goruntu": "18:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.17,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "5",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ESPANOL KG DB SK",
+      "tjk": 27.94,
+      "ebayi": 28.07,
+      "fark": 0.13
+     },
+     {
+      "at": "2",
+      "ad": "IBAN DB SKG SK",
+      "tjk": 1.98,
+      "ebayi": 1.95,
+      "fark": -0.03
+     },
+     {
+      "at": "4",
+      "ad": "NIKO KAHN KG SK",
+      "tjk": 7.32,
+      "ebayi": 7.44,
+      "fark": 0.12
+     },
+     {
+      "at": "5",
+      "ad": "SKY MARSHALL KG K DB",
+      "tjk": 55.11,
+      "ebayi": 55.28,
+      "fark": 0.17
+     },
+     {
+      "at": "6",
+      "ad": "SON OF ŞÜKRAN KG SK",
+      "tjk": 3.99,
+      "ebayi": 3.92,
+      "fark": -0.07
+     },
+     {
+      "at": "7",
+      "ad": "ÇİKOK POWER KG K DB GKR",
+      "tjk": 2.11,
+      "ebayi": 2.04,
+      "fark": -0.07
+     }
+    ]
+   }
+  ]
  }
 }

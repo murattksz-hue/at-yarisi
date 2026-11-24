@@ -27,6 +27,7 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Adana | 9 | 17:01 | 2. | 3 | 3 | ✓ | ✓ | 0.0 | 3→3 | 3→3 |
 | Antalya | 1 | 17:30 | 1. | — | — | ✓ | ✓ | — | —→— | —→— |
 | Antalya | 2 | 18:00 | 1. | 5 | 5 | ✓ | ✓ | 0.0 | 2→5 | 2→5 |
+| Antalya | 3 | 18:31 | 1. | 5 | 5 | ✓ | ✓ | 0.17 | 5→5 | 5→5 |
 
 ### Farklı çıkan atlar
 
@@ -36,3 +37,4 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 - Adana 4. koşu (2. altılı; TJK görüntüsü 14:30, ebayi 14:30): 1 ASIL OĞUL DB SK TJK %2.92 / ebayi %2.89, 5 ÖMER EYÜP KG DB SK TJK %12.7 / ebayi %12.66, 7 UMUTSER KG DB TJK %27.18 / ebayi %27.23, 8 ATLI QUEEN K DB TJK %1.89 / ebayi %1.88, 9 ARKEN TAŞI TJK %5.78 / ebayi %5.76, 10 EFRUZKIZI KG DB SK TJK %3.28 / ebayi %3.32, 11 PRENSES KOŞKOŞUM DB SKG SK TJK %0.51 / ebayi %0.53
 - Adana 5. koşu (2. altılı; TJK görüntüsü 15:00, ebayi 15:00): 3 AKÇALIKIZ KG DB SK TJK %2.41 / ebayi %2.39, 4 DİLEK ABLA KG SK TJK %17.72 / ebayi %17.69, 5 EFE SULTAN KG DB SK TJK %5.77 / ebayi %5.78, 6 ESLİNA DEFNE DB SKG SK TJK %1.56 / ebayi %1.55, 8 İMPO KG DB SK TJK %9.82 / ebayi %9.84, 10 NEŞE HATUN KG K GKR TJK %3.25 / ebayi %3.28, 11 SEVOLA KG DB SK TJK %7.04 / ebayi %7.07, 12 ŞEHLA KG SK TJK %0.96 / ebayi %0.95
 - Adana 6. koşu (2. altılı; TJK görüntüsü 15:30, ebayi 15:30): 1 BLACK COLT KG K TJK %0.46 / ebayi %0.45, 2 BORGA KG DB SK GKR TJK %3.63 / ebayi %3.66, 3 CASH FOR YOU DB SKG SK TJK %11.94 / ebayi %12.11, 4 KNOW WORTH KG SK TJK %44.08 / ebayi %43.58, 5 ZAEDNO KG K DB TJK %12.12 / ebayi %12.19, 6 HIGH HILLS DB SK TJK %1.57 / ebayi %1.61, 7 LACCARETHA K DB TJK %3.0 / ebayi %3.03, 8 LUCKY ANGEL DB SKG SK TJK %0.29 / ebayi %0.28, 9 LUXUARY KG DB SK TJK %1.27 / ebayi %1.26, 10 REALISTIC GIRL DB SKG SK TJK %4.4 / ebayi %4.46, 11 FRÜHLİNG KG SK TJK %3.17 / ebayi %3.22, 12 MISS ELLEN KG SK TJK %1.67 / ebayi %1.64, 13 MEKANSIZ KRAL DB SK TJK %12.4 / ebayi %12.51
+- Antalya 3. koşu (1. altılı; TJK görüntüsü 18:27, ebayi 18:30): 1 ESPANOL KG DB SK TJK %27.94 / ebayi %28.07, 2 IBAN DB SKG SK TJK %1.98 / ebayi %1.95, 4 NIKO KAHN KG SK TJK %7.32 / ebayi %7.44, 5 SKY MARSHALL KG K DB TJK %55.11 / ebayi %55.28, 6 SON OF ŞÜKRAN KG SK TJK %3.99 / ebayi %3.92, 7 ÇİKOK POWER KG K DB GKR TJK %2.11 / ebayi %2.04
