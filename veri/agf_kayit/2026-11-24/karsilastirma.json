@@ -890,5 +890,97 @@
     ]
    }
   ]
+ },
+ "Adana-7": {
+  "hipodrom": "Adana",
+  "kosu": 7,
+  "zaman": "16:00",
+  "tjk_goruntu": "15:57",
+  "ebayi_goruntu": "16:00",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "6",
+    "favori_ebayi": "6",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "6",
+    "sabah_favori_ebayi": "6",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "OĞLUM VELAT KG K GKR",
+      "tjk": 1.85,
+      "ebayi": 1.85,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "YOSUNKAYA KG SK",
+      "tjk": 0.43,
+      "ebayi": 0.43,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ÇELİK PARÇASI DB SKG SK",
+      "tjk": 7.56,
+      "ebayi": 7.56,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "VETCİHAN KG K",
+      "tjk": 1.12,
+      "ebayi": 1.12,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KIRKPINAR BEYİ KG K DB",
+      "tjk": 0.27,
+      "ebayi": 0.27,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "TEPELİ DB SKG SK",
+      "tjk": 73.13,
+      "ebayi": 73.13,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "İYİMSER DB SK",
+      "tjk": 11.62,
+      "ebayi": 11.62,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "KÜLÜNÇE BEYİ KG DB SK",
+      "tjk": 1.22,
+      "ebayi": 1.22,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "ÇETİNYEL KG SK",
+      "tjk": 2.55,
+      "ebayi": 2.55,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "CANMİNAM KG DB SK",
+      "tjk": 0.26,
+      "ebayi": 0.26,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
