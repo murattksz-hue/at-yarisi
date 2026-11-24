@@ -18,6 +18,8 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Adana | 3 | 14:00 | 1. | 1 | 1 | ✓ | ✓ | 0.05 | 1→1 | 1→1 |
 | Adana | 4 | 14:30 | 1. | 7 | 7 | ✓ | ✓ | 0.0 | 7→7 | 7→7 |
 | Adana | 4 | 14:30 | 2. | 3 | 3 | ✓ | ✓ | 0.05 | 7→3 | 3→3 |
+| Adana | 5 | 15:00 | 1. | 2 | 2 | ✓ | ✓ | 0.0 | 11→2 | 11→2 |
+| Adana | 5 | 15:00 | 2. | 2 | 2 | ✓ | ✓ | 0.03 | 2→2 | 2→2 |
 
 ### Farklı çıkan atlar
 
@@ -25,3 +27,4 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 - Adana 2. koşu (1. altılı; TJK görüntüsü 13:30, ebayi 13:30): 1 MON BİJOU KG DB TJK %7.06 / ebayi %7.1, 2 GENGAR KG DB SK TJK %23.41 / ebayi %23.39, 3 SHINING FORCE DB SK TJK %3.31 / ebayi %3.29, 4 ADANALI KIZ K DB TJK %19.88 / ebayi %19.87, 5 LAMAZİ GOGO DB SK TJK %2.76 / ebayi %2.75, 6 EURO POWER SKG SK TJK %1.04 / ebayi %1.05, 7 ALPHECCA DB SK TJK %6.59 / ebayi %6.61, 9 YÖRÜKÇEM DB SK TJK %21.62 / ebayi %21.63, 10 FALCONGIRL KG K TJK %0.41 / ebayi %0.4
 - Adana 3. koşu (1. altılı; TJK görüntüsü 14:00, ebayi 14:00): 1 BANKO MEHMET SK TJK %60.26 / ebayi %60.25, 2 OTTANTOTTO KG SK TJK %3.25 / ebayi %3.2, 4 SYDNEY WIZARD DB SK TJK %2.11 / ebayi %2.12, 5 VEGVİSİR KG TJK %4.41 / ebayi %4.44, 6 LAS WEGAS KG DB SK TJK %1.21 / ebayi %1.2, 8 WHITE RAIN DB SK TJK %8.78 / ebayi %8.81
 - Adana 4. koşu (2. altılı; TJK görüntüsü 14:30, ebayi 14:30): 1 ASIL OĞUL DB SK TJK %2.92 / ebayi %2.89, 5 ÖMER EYÜP KG DB SK TJK %12.7 / ebayi %12.66, 7 UMUTSER KG DB TJK %27.18 / ebayi %27.23, 8 ATLI QUEEN K DB TJK %1.89 / ebayi %1.88, 9 ARKEN TAŞI TJK %5.78 / ebayi %5.76, 10 EFRUZKIZI KG DB SK TJK %3.28 / ebayi %3.32, 11 PRENSES KOŞKOŞUM DB SKG SK TJK %0.51 / ebayi %0.53
+- Adana 5. koşu (2. altılı; TJK görüntüsü 15:00, ebayi 15:00): 3 AKÇALIKIZ KG DB SK TJK %2.41 / ebayi %2.39, 4 DİLEK ABLA KG SK TJK %17.72 / ebayi %17.69, 5 EFE SULTAN KG DB SK TJK %5.77 / ebayi %5.78, 6 ESLİNA DEFNE DB SKG SK TJK %1.56 / ebayi %1.55, 8 İMPO KG DB SK TJK %9.82 / ebayi %9.84, 10 NEŞE HATUN KG K GKR TJK %3.25 / ebayi %3.28, 11 SEVOLA KG DB SK TJK %7.04 / ebayi %7.07, 12 ŞEHLA KG SK TJK %0.96 / ebayi %0.95

@@ -470,5 +470,208 @@
     ]
    }
   ]
+ },
+ "Adana-5": {
+  "hipodrom": "Adana",
+  "kosu": 5,
+  "zaman": "15:00",
+  "tjk_goruntu": "15:00",
+  "ebayi_goruntu": "15:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "11",
+    "sabah_favori_ebayi": "11",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SERÇE KIZI KG DB SK",
+      "tjk": 19.19,
+      "ebayi": 19.19,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "SÜPER NİL KG K GKR",
+      "tjk": 24.52,
+      "ebayi": 24.52,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "AKÇALIKIZ KG DB SK",
+      "tjk": 2.46,
+      "ebayi": 2.46,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "DİLEK ABLA KG SK",
+      "tjk": 17.42,
+      "ebayi": 17.42,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "EFE SULTAN KG DB SK",
+      "tjk": 5.78,
+      "ebayi": 5.78,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ESLİNA DEFNE DB SKG SK",
+      "tjk": 1.44,
+      "ebayi": 1.44,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "HÜKÜMDAR ATLI KG K DB",
+      "tjk": 5.78,
+      "ebayi": 5.78,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "İMPO KG DB SK",
+      "tjk": 10.2,
+      "ebayi": 10.2,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KATI CANAN DB SK",
+      "tjk": 1.25,
+      "ebayi": 1.25,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "NEŞE HATUN KG K GKR",
+      "tjk": 3.4,
+      "ebayi": 3.4,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "SEVOLA KG DB SK",
+      "tjk": 7.37,
+      "ebayi": 7.37,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "ŞEHLA KG SK",
+      "tjk": 1.2,
+      "ebayi": 1.2,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.03,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SERÇE KIZI KG DB SK",
+      "tjk": 19.56,
+      "ebayi": 19.56,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "SÜPER NİL KG K GKR",
+      "tjk": 24.63,
+      "ebayi": 24.63,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "AKÇALIKIZ KG DB SK",
+      "tjk": 2.41,
+      "ebayi": 2.39,
+      "fark": -0.02
+     },
+     {
+      "at": "4",
+      "ad": "DİLEK ABLA KG SK",
+      "tjk": 17.72,
+      "ebayi": 17.69,
+      "fark": -0.03
+     },
+     {
+      "at": "5",
+      "ad": "EFE SULTAN KG DB SK",
+      "tjk": 5.77,
+      "ebayi": 5.78,
+      "fark": 0.01
+     },
+     {
+      "at": "6",
+      "ad": "ESLİNA DEFNE DB SKG SK",
+      "tjk": 1.56,
+      "ebayi": 1.55,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "HÜKÜMDAR ATLI KG K DB",
+      "tjk": 6.25,
+      "ebayi": 6.25,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "İMPO KG DB SK",
+      "tjk": 9.82,
+      "ebayi": 9.84,
+      "fark": 0.02
+     },
+     {
+      "at": "9",
+      "ad": "KATI CANAN DB SK",
+      "tjk": 1.03,
+      "ebayi": 1.03,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "NEŞE HATUN KG K GKR",
+      "tjk": 3.25,
+      "ebayi": 3.28,
+      "fark": 0.03
+     },
+     {
+      "at": "11",
+      "ad": "SEVOLA KG DB SK",
+      "tjk": 7.04,
+      "ebayi": 7.07,
+      "fark": 0.03
+     },
+     {
+      "at": "12",
+      "ad": "ŞEHLA KG SK",
+      "tjk": 0.96,
+      "ebayi": 0.95,
+      "fark": -0.01
+     }
+    ]
+   }
+  ]
  }
 }
