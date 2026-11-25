@@ -847,3 +847,4 @@ Kısa sonuçlar; örnek küçük olanlar "olası" diye okunmalı.
 - **#23 yenibeygir karşılaştırma (✅):** 25.11 08:49 görüntüsü Elazığ 08:26 ile aynı (0/96 değişim); bizim TAM'la ayrıntılı kıyas yarın/ilerleyen günlerde, yalnızca elle kayıt.
 - **#24 pytest (✅):** `tests/test_agf_tam.py` (9) + `tests/test_veri_saglik.py`: toplam 53 geçti.
 - Beklemede (veri biriksin): #7 (≥500 koşu −60 dk), #9 (≥7 düzeltmeli gün), #10 (≥10 gün ilk_zaman), #11/#11a, #12 (≥300 koşu; şimdi 106), #13 (≥100 ayrışan koşu), #14 (~1 ay). #8 yapılamaz (2022–23 verisi yok). #22 (TAM geriye dönük) ve #25 (BİRLEŞİK puanlama) sonra.
+- **#25 BİRLEŞİK puanlama betiği (✅ hazır, `scripts/birlesik_puan.py <tarih>`):** ilk ara sonuç 25.11, 13 koşu bitmişken: 1. seçim kazandı birleşik 3, v9 AGF'li 4, v9 AGF'siz 2, piyasa 3; kazananın ort. log-olasılığı −2,241 / −2,809 / −2,050 / −2,232. Örnek çok küçük, anlam çıkarılmaz; Elazığ bitince (≈21:45) yinelenir. Elazığ'ın v9 AGF'li kolu kısmi AGF'liydi (⚠).
