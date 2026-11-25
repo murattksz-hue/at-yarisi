@@ -1,0 +1,94 @@
+{
+ "İstanbul-1": {
+  "hipodrom": "İstanbul",
+  "kosu": 1,
+  "zaman": "13:01",
+  "tjk_goruntu": "13:00",
+  "ebayi_goruntu": "13:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "8",
+    "favori_ebayi": "8",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.04,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "8",
+    "sabah_favori_ebayi": "8",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "BİGASİ KG DB SK",
+      "tjk": 20.73,
+      "ebayi": 20.69,
+      "fark": -0.04
+     },
+     {
+      "at": "2",
+      "ad": "AZRAKTAY DB SKG SK",
+      "tjk": 8.22,
+      "ebayi": 8.22,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "DEMİR KÜTÜK KG",
+      "tjk": 4.34,
+      "ebayi": 4.34,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "MİHRALİ",
+      "tjk": 1.83,
+      "ebayi": 1.84,
+      "fark": 0.01
+     },
+     {
+      "at": "5",
+      "ad": "O BİR KARACA KG K",
+      "tjk": 1.63,
+      "ebayi": 1.62,
+      "fark": -0.01
+     },
+     {
+      "at": "6",
+      "ad": "RULER STONE KG DB GKR",
+      "tjk": 11.51,
+      "ebayi": 11.52,
+      "fark": 0.01
+     },
+     {
+      "at": "7",
+      "ad": "TAŞANYEL",
+      "tjk": 0.29,
+      "ebayi": 0.29,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ÇINARALTI KIZI KG K DB",
+      "tjk": 47.04,
+      "ebayi": 47.03,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "ÖZGÜNDEN KG DB SK GKR",
+      "tjk": 4.04,
+      "ebayi": 4.08,
+      "fark": 0.04
+     },
+     {
+      "at": "10",
+      "ad": "BALKAN SULTAN KG K DB GKR",
+      "tjk": 0.37,
+      "ebayi": 0.37,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
+ }
+}
