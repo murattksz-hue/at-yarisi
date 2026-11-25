@@ -834,5 +834,90 @@
     ]
    }
   ]
+ },
+ "İstanbul-7": {
+  "hipodrom": "İstanbul",
+  "kosu": 7,
+  "zaman": "16:00",
+  "tjk_goruntu": "15:50",
+  "ebayi_goruntu": "16:00",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "KIZILCAHAMAM BEYİ KG K DB",
+      "tjk": 33.78,
+      "ebayi": 33.78,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "BELLICOSO K DB",
+      "tjk": 3.53,
+      "ebayi": 3.53,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "TURKISH PUNCH K",
+      "tjk": 17.77,
+      "ebayi": 17.77,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "LIVE YOUR FREEDOM DB SK",
+      "tjk": 23.19,
+      "ebayi": 23.19,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "WINNER GETS IT ALL DB SK",
+      "tjk": 3.38,
+      "ebayi": 3.38,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "POLPOO DB SKG SK",
+      "tjk": 1.77,
+      "ebayi": 1.77,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "SANDUHAN KG DB SK",
+      "tjk": 14.79,
+      "ebayi": 14.79,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "OPPENHEIMER DB SK",
+      "tjk": 1.36,
+      "ebayi": 1.36,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "SANS PAREİL DB SK",
+      "tjk": 0.42,
+      "ebayi": 0.42,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }

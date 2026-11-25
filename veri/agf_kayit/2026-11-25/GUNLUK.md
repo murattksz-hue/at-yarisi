@@ -22,6 +22,7 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | İstanbul | 5 | 15:01 | 2. | 2 | 2 | ✓ | ✓ | 0.13 | 2→2 | 2→2 |
 | İstanbul | 6 | 15:31 | 1. | 6 | 6 | ✓ | ✓ | 0.0 | 3→6 | 3→6 |
 | İstanbul | 6 | 15:31 | 2. | 6 | 6 | ✓ | ✓ | 0.36 | 4→6 | 4→6 |
+| İstanbul | 7 | 16:00 | 2. | 1 | 1 | ✓ | ✓ | 0.0 | 1→1 | 1→1 |
 
 ### Farklı çıkan atlar
 
