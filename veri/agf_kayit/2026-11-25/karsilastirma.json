@@ -2116,5 +2116,118 @@
     ]
    }
   ]
+ },
+ "Elazığ-9": {
+  "hipodrom": "Elazığ",
+  "kosu": 9,
+  "zaman": "20:31",
+  "tjk_goruntu": "20:27",
+  "ebayi_goruntu": "20:30",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "8",
+    "favori_ebayi": "8",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "9",
+    "sabah_favori_ebayi": "9",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "İLBAN BEYİ KG DB SK",
+      "tjk": 4.57,
+      "ebayi": 4.57,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "YALNIZ TURBO DB",
+      "tjk": 13.87,
+      "ebayi": 13.87,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "BIÇKIN KRAL KG SK",
+      "tjk": 6.2,
+      "ebayi": 6.2,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "OĞLUMBENİM KG DB SK",
+      "tjk": 2.17,
+      "ebayi": 2.17,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "SULTAN ASİYE KG SK",
+      "tjk": 7.27,
+      "ebayi": 7.27,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "LARİSA KG DB",
+      "tjk": 4.27,
+      "ebayi": 4.27,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "KÜÇÜK BOZTEPE SKG SK",
+      "tjk": 5.89,
+      "ebayi": 5.89,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "MUCİZE HAN KG DB SK",
+      "tjk": 27.71,
+      "ebayi": 27.71,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "ÖZAYDIN KG K DB",
+      "tjk": 18.7,
+      "ebayi": 18.7,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "BİRÇETİN K",
+      "tjk": 2.53,
+      "ebayi": 2.53,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "MUCİT TAY DB SK",
+      "tjk": 3.06,
+      "ebayi": 3.06,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "PRESTİJ SKG SK",
+      "tjk": 2.28,
+      "ebayi": 2.28,
+      "fark": 0.0
+     },
+     {
+      "at": "14",
+      "ad": "BAY UĞUR KG DB SK",
+      "tjk": 0.57,
+      "ebayi": 0.57,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
