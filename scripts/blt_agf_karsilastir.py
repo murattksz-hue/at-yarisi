@@ -1,4 +1,4 @@
-"""yenibeygir Blt ile resmi (eBayi) AGF karşılaştırması. Kullanım: blt_agf_karsilastir.py <YYYY-AA-GG> <hipodrom> [agf_dosyası]
+"""yenibeygir Blt ile resmi (eBayi) AGF karşılaştırması. Kullanım: blt_agf_karsilastir.py <YYYY-AA-GG> <hipodrom> [agf_dosyası] [Blt|AGF]
 Girdi: veri/yenibeygir_el_kayit/blt_<tarih>.csv (en son zaman_tr satırı alınır) ve veri/agf_kayit/<tarih>/TAM_<hip>_ebayi.json (yoksa verilen dosya; yoksa en son <hip>_*UTC_ebayi.json).
 Çıktı: ekrana ve veri/yenibeygir_el_kayit/blt_agf_<tarih>_<hip>.md. Ölçütler (koşu başına): ortalama mutlak fark (puan), Spearman sırası, en yüksek Blt = en yüksek AGF mi, Blt toplamı.
 Not: yenibeygir tamsayı verir; AGF1/AGF2 varsa (iki altılı) ortalaması değil AGF1 ve AGF2'ye en yakın olan alınır."""
@@ -11,17 +11,23 @@ f=lambda v:(float(str(v).replace(',','.')) if v not in (None,'') else None)
 B={}
 fn=os.path.join(K,'veri','yenibeygir_el_kayit',f'blt_{tarih}.csv')
 R=[r for r in csv.DictReader(open(fn,encoding='utf-8')) if r['hipodrom']==hip]
+SUT=sys.argv[4] if len(sys.argv)>4 else 'Blt'   # 'Blt' ya da 'AGF': yenibeygir aynı sütunu AGF yayınlanınca AGF diye gösterebilir
+R=[r for r in R if r.get('sutun','Blt')==SUT]
+if not R: sys.exit(f'{SUT} başlıklı kayıt yok')
 son=max(r['zaman_tr'] for r in R)
 for r in R:
     if r['zaman_tr']==son and r['blt'].strip().isdigit(): B.setdefault(r['kosu'],{})[ak(r['at_adi'])]=int(r['blt'])
-if len(sys.argv)>3: yol=sys.argv[3]
+if len(sys.argv)>3 and sys.argv[3]!='-': yol=sys.argv[3]
 else:
     yol=os.path.join(K,'veri','agf_kayit',tarih,f'TAM_{hip}_ebayi.json')
-    if not os.path.exists(yol): yol=sorted(glob.glob(os.path.join(K,'veri','agf_kayit',tarih,f'{hip}_????UTC_ebayi.json')))[-1]
+    if not os.path.exists(yol):
+        g_=sorted(glob.glob(os.path.join(K,'veri','agf_kayit',tarih,f'{hip}_????UTC_ebayi.json')))
+        if not g_: sys.exit('resmi (eBayi) AGF kaydı henüz yok')
+        yol=g_[-1]
 E=json.load(open(yol,encoding='utf-8'))
 def sp(a,b):
     ra=np.argsort(np.argsort(a));rb=np.argsort(np.argsort(b)); return float(np.corrcoef(ra,rb)[0,1]) if len(a)>2 else float('nan')
-L=[f'# Blt ve resmi AGF — {tarih} {hip}','',f'Blt kaydı zamanı {son} (TR). AGF kaynağı: {os.path.relpath(yol,K)}.','','| Koşu | At | Blt toplamı | AGF toplamı | Ort. mutlak fark | Spearman | En yüksek aynı mı |','|---|---|---|---|---|---|---|']
+L=[f'# yenibeygir {SUT} ve resmi AGF — {tarih} {hip}','',f'Blt kaydı zamanı {son} (TR). AGF kaynağı: {os.path.relpath(yol,K)}.','','| Koşu | At | Blt toplamı | AGF toplamı | Ort. mutlak fark | Spearman | En yüksek aynı mı |','|---|---|---|---|---|---|---|']
 T=[]
 for no in sorted(B,key=int):
     E_=E.get(no) or {}; ea={ak(a):v for a,v in E_.items() if not v[3]}
@@ -33,4 +39,4 @@ for no in sorted(B,key=int):
     mae=float(np.abs(b-a).mean()); s=sp(b,a); ayni=ad[int(np.argmax(b))]==ad[int(np.argmax(a))]
     T.append((mae,s,ayni)); L.append(f'| {no} | {len(ad)} | {b.sum():.0f} | {a.sum():.0f} | {mae:.1f} | {s:+.2f} | {"evet" if ayni else "hayır"} |')
 if T: L+=['',f'Özet: {len(T)} koşu, ort. mutlak fark {np.mean([t[0] for t in T]):.1f} puan, ort. Spearman {np.nanmean([t[1] for t in T]):+.2f}, en yüksek aynı: {sum(t[2] for t in T)}/{len(T)}.','','Yorum: fark ~1–2 puansa Blt = AGF (yuvarlama); belirgin büyükse ayrı bir sinyal. Küçük örnek.']
-open(os.path.join(K,'veri','yenibeygir_el_kayit',f'blt_agf_{tarih}_{hip}.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n'); print('\n'.join(L))
+open(os.path.join(K,'veri','yenibeygir_el_kayit',f'blt_agf_{tarih}_{hip}_{SUT}.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n'); print('\n'.join(L))
