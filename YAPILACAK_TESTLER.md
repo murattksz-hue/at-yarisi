@@ -67,6 +67,9 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 **12. Model ↔ AGF güven aralığı**
 - `veri/agf_kayit/GUVEN_ARALIGI.md` (gün sonu otomatik). Önkoşul ≥300 koşu: AGF'li ve AGF'siz v9 AGF favorisinden anlamlı iyi mi (46 koşuda aralık sıfırı kapsıyor).
 
+**25. BİRLEŞİK tahmin puanlaması** (25.11'de başladı)
+- Günlük `scripts/tahmin_birlesik.py <tarih>` KOŞUDAN ÖNCE çalıştırılıp `veri/tahminler_birlesik/` altına commit+push edilir. Koşular bitince dört kolu (v9 AGF'li, v9 AGF'siz, piyasa, BİRLEŞİK) aynı ölçütle puanla: ilk seçim 1. bitti mi, kazananın log-olasılığı; ≥300 koşuda bootstrap %95 aralık. Elazığ/İstanbul v9 AGF'li kolu kısmi AGF'li (25.11), ayrı raporla. Sonuç `BILGI.md`'ye yazılır; BİRLEŞİK piyasayı anlamlı geçmedikçe ağırlık ayarlama.
+
 **13. Model ayrışma testi: AGF'li ↔ AGF'siz ilk seçim farklı olunca kim haklı**
 - Önkoşul ≥100 ayrışan koşu (`veri/tahminler/*` ve `canli_takip*.csv`). 22.11'de ayrışanlar: İzmir 1, 2, 4, 7, 8; Adana 6, 8 (sonuçlar akşam `canli_takip.csv`'de).
 

@@ -819,3 +819,9 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - **Test:** `tests/test_agf_tam.py` (9 test, `pytest`), 22–25.11 kayıtlarıyla geriye dönük doğrulama, gerçek veriyle kopyada çalıştırma, plan için 4 senaryo (ILK yalnızca → dondurma yok, TAM → var, 10:15 sonrası ILK → yedek, 10:10 → yok).
 - **Çıplak except:** 34 yer `except Exception:` yapıldı (ruff E722: 0; hiçbirinde `sys.exit`/sinyal yoktu, canlı kayıt betiklerinde değildi). Dokunulmayan: 36 `BLE001` (kör except), 37 `subprocess.run` `check`siz, 235 `SIM115` (`with`'siz dosya).
 
+## BİRLEŞİK günlük tahmin testi (25.11.2026, `scripts/tahmin_birlesik.py`)
+- Kullanıcı isteği: bugünün koşularına bütün analizlerle tahmin, hem test hem takip için. Dosya: `veri/tahminler_birlesik/<tarih>.json` ve `.md`, **koşulardan önce** kaydedilir ve gönderilir (25.11: 13:18, ilk koşu 14:00).
+- **Kollar** (hepsi kaydedilir, hepsi puanlanır): v9 AGF'li, v9 AGF'siz (dondurulmuş, değişmedi), piyasa (son eBayi AGF; yoksa ganyan^1,05), **BİRLEŞİK** = softmax(log piyasa + 0,5·baş-başa skoru). BİRLEŞİK yalnızca **test edilmiş bileşenleri** kullanır (AGF kapanışta kalibre, A/E ~1,0; baş-başa lideri A/E 1,13 z +7,3, logit kazancı +0,0017). Ağırlıklar bugün ayarlanmadı, tek ayarlanan b=0,5 (daha önce öğrenildi).
+- Ek alanlar: dört kolun mutabakatı (kaç kol BİRLEŞİK'le aynı atı seçti), güven (net ≥%40, orta %28–40, düşük), sürpriz olasılığı (piyasaya göre kazananın AGF %10 altı attan çıkma olasılığı), sürpriz adayları. Elazığ v9 AGF'li kolunda kısmi AGF uyarısı (atların %12'sinde AGF 0).
+- **Beklenti (dürüst):** BİRLEŞİK ile piyasa farkı küçük (baş-başa kazancı koşu başına +0,0017 log). Tek günde bir şey kanıtlanamaz; ≥300 koşu birikince güven aralığıyla kıyaslanacak (`YAPILACAK_TESTLER.md` madde 12 ile birlikte).
+
