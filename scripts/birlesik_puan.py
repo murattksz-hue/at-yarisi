@@ -15,7 +15,7 @@ acc={a:dict(n=0,top1=0,ll=0.0) for a in ARMS}; kayit=[]
 for hip,H in S['hipodromlar'].items():
     try:
         J=json.loads(subprocess.run(['curl','-sS','--max-time','60','-A','Mozilla/5.0',f"https://ebayi.org/s/d/sonuclar/{g:%Y%m%d}/full/{EB.get(hip,hip.upper())}.json"],capture_output=True).stdout.decode('utf-8'))
-    except Exception: continue
+    except Exception as e: print("uyarı: sonuç alınamadı",hip,e,file=sys.stderr); continue
     SON={str(k['NO']):{anahtar(a['AD']):int(a['SONUC']) for a in k.get('atlar',[]) if not a.get('KOSMAZ') and str(a.get('SONUC') or '').isdigit()} for k in J.get('kosular',[])}
     for k in H['kosular']:
         r=SON.get(str(k['kosu']));
