@@ -1096,5 +1096,76 @@
     ]
    }
   ]
+ },
+ "Elazığ-2": {
+  "hipodrom": "Elazığ",
+  "kosu": 2,
+  "zaman": "16:46",
+  "tjk_goruntu": "16:46",
+  "ebayi_goruntu": "16:46",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.42,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "VICTORY XECE K",
+      "tjk": 31.42,
+      "ebayi": 31.0,
+      "fark": -0.42
+     },
+     {
+      "at": "2",
+      "ad": "KING OF LINGO SK",
+      "tjk": 12.14,
+      "ebayi": 12.2,
+      "fark": 0.06
+     },
+     {
+      "at": "3",
+      "ad": "ÇELİK STAR KG DB SK",
+      "tjk": 9.96,
+      "ebayi": 10.15,
+      "fark": 0.19
+     },
+     {
+      "at": "4",
+      "ad": "ŞAHPERİ DB SKG SK",
+      "tjk": 5.32,
+      "ebayi": 5.41,
+      "fark": 0.09
+     },
+     {
+      "at": "5",
+      "ad": "BRAVO ÇEVİK SKG SK",
+      "tjk": 10.59,
+      "ebayi": 10.66,
+      "fark": 0.07
+     },
+     {
+      "at": "6",
+      "ad": "SARİŞİM DB SKG SK ÖG",
+      "tjk": 21.2,
+      "ebayi": 21.14,
+      "fark": -0.06
+     },
+     {
+      "at": "7",
+      "ad": "LORD OF KİRVE K",
+      "tjk": 9.39,
+      "ebayi": 9.45,
+      "fark": 0.06
+     }
+    ]
+   }
+  ]
  }
 }
