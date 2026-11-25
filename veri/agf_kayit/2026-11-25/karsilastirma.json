@@ -687,5 +687,152 @@
     ]
    }
   ]
+ },
+ "İstanbul-6": {
+  "hipodrom": "İstanbul",
+  "kosu": 6,
+  "zaman": "15:31",
+  "tjk_goruntu": "15:30",
+  "ebayi_goruntu": "15:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "6",
+    "favori_ebayi": "6",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "HAVASUPAI KG SK",
+      "tjk": 2.4,
+      "ebayi": 2.4,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "LEOPARDESS SK",
+      "tjk": 4.88,
+      "ebayi": 4.88,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ASİL KRALİÇE DB SK",
+      "tjk": 23.58,
+      "ebayi": 23.58,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "GIANT WAVE SK",
+      "tjk": 29.27,
+      "ebayi": 29.27,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "NALDÖKEN SK",
+      "tjk": 1.34,
+      "ebayi": 1.34,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "OKAMİ K DB",
+      "tjk": 31.32,
+      "ebayi": 31.32,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "JOYFUL KING KG DB",
+      "tjk": 2.86,
+      "ebayi": 2.86,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ARISTOCAT K",
+      "tjk": 4.36,
+      "ebayi": 4.36,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "6",
+    "favori_ebayi": "6",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.36,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "HAVASUPAI KG SK",
+      "tjk": 1.86,
+      "ebayi": 1.86,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "LEOPARDESS SK",
+      "tjk": 4.78,
+      "ebayi": 4.76,
+      "fark": -0.02
+     },
+     {
+      "at": "3",
+      "ad": "ASİL KRALİÇE DB SK",
+      "tjk": 21.96,
+      "ebayi": 21.86,
+      "fark": -0.1
+     },
+     {
+      "at": "4",
+      "ad": "GIANT WAVE SK",
+      "tjk": 26.36,
+      "ebayi": 26.31,
+      "fark": -0.05
+     },
+     {
+      "at": "5",
+      "ad": "NALDÖKEN SK",
+      "tjk": 1.38,
+      "ebayi": 1.32,
+      "fark": -0.06
+     },
+     {
+      "at": "6",
+      "ad": "OKAMİ K DB",
+      "tjk": 36.6,
+      "ebayi": 36.96,
+      "fark": 0.36
+     },
+     {
+      "at": "7",
+      "ad": "JOYFUL KING KG DB",
+      "tjk": 2.92,
+      "ebayi": 2.84,
+      "fark": -0.08
+     },
+     {
+      "at": "8",
+      "ad": "ARISTOCAT K",
+      "tjk": 4.13,
+      "ebayi": 4.09,
+      "fark": -0.04
+     }
+    ]
+   }
+  ]
  }
 }
