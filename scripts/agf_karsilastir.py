@@ -45,7 +45,9 @@ def karsilastir(h,no):
        'ebayi_goruntu':tr_saat(os.path.basename(fe).split('_')[-2]) if fe else None,'altililar':[]}
     if not ft or not fe: R['not']='TJK veya ebayi görüntüsü yok'; return R
     T,E=tjk_kosu(ft,no),eb_kosu(fe,no)
-    ilk_t=os.path.join(kd,f"ILK_{h}.csv"); ilk_e=os.path.join(kd,f"ILK_{h}_ebayi.json")
+    ilk_t=os.path.join(kd,f"TAM_{h}.csv"); ilk_e=os.path.join(kd,f"TAM_{h}_ebayi.json")   # sabah AGF: TAM (dolu), yoksa ILK
+    if not os.path.exists(ilk_t): ilk_t=os.path.join(kd,f"ILK_{h}.csv")
+    if not os.path.exists(ilk_e): ilk_e=os.path.join(kd,f"ILK_{h}_ebayi.json")
     IT=tjk_kosu(ilk_t,no) if os.path.exists(ilk_t) else {}; IE=eb_kosu(ilk_e,no) if os.path.exists(ilk_e) else {}
     # ebayi'de AGF1 dolu olan koşu 1. altılıdadır; TJK sütunundaki değerler de aynı sırayla gelir
     var=[i for i in (0,1) if any(v[i] is not None for v in E.values())] or [0]

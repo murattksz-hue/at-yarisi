@@ -38,7 +38,10 @@ for sid,ad in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<
     if ad not in TR: continue
     enc=urllib.parse.quote(ad); h=os.path.join(tmp,ad+'.html'); c=os.path.join(tmp,ad+'.csv')
     get(f"https://www.tjk.org/TR/YarisSever/Info/Sehir/GunlukYarisProgrami?SehirId={sid}&QueryParameter_Tarih={tarih}&SehirAdi={enc}&Era={era}",h)
-    if not get(f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{enc}-GunlukYarisProgrami-TR.csv",c):
+    tamf=os.path.join(K,'veri','agf_kayit',g.isoformat(),f"TAM_{ad}.csv")
+    if os.environ.get('AGF_TAM_KULLAN')=='1' and os.path.exists(tamf):   # tahmin dondurma: AGF'si TAM (dolu) görüntüyü kullan, yeniden indirme boş/kısmi gelebilir
+        import shutil; shutil.copyfile(tamf,c)
+    elif not get(f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{enc}-GunlukYarisProgrami-TR.csv?t={int(datetime.datetime.now().timestamp())}",c):   # ?t=: CDN önbelleğini atlatır
         print(ad,': CSV alınamadı'); continue
     subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','soy_kayit.py'),h])   # soy: baba, anne, anne babası
     # AGF hareketi için saat damgalı kopya (gün içinde her çalıştırmada bir anlık görüntü)

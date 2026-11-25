@@ -8,14 +8,17 @@ import sys,os,json,shutil,subprocess,datetime
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date() if len(sys.argv)>1 else datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).date()
 kd=os.path.join(K,'veri','agf_kayit',g.isoformat()); td=os.path.join(K,'veri','tahminler'); tmp=os.path.join(K,'.gunluk',g.isoformat())
-hazir=[f[4:-4] for f in sorted(os.listdir(kd)) if f.startswith('ILK_') and f.endswith('.csv')] if os.path.isdir(kd) else []
+_tr=datetime.timezone(datetime.timedelta(hours=3)); _simdi=datetime.datetime.now(_tr)
+_yedek=(g!=_simdi.date()) or _simdi.strftime('%H:%M')>='10:15'   # TAM yoksa ILK'e yalnızca 10:15'ten sonra (ya da geçmiş gün için) düş
+hazir=[f[4:-4] for f in sorted(os.listdir(kd)) if f.startswith('TAM_') and f.endswith('.csv')] if os.path.isdir(kd) else []
+if os.path.isdir(kd) and _yedek: hazir+=[f[4:-4] for f in sorted(os.listdir(kd)) if f.startswith('ILK_') and f.endswith('.csv') and f[4:-4] not in hazir]
 bekleyen=[h for h in hazir if not os.path.exists(os.path.join(td,f"{g.isoformat()}_{h}.json"))]
 if not bekleyen: sys.exit(0)
 print(f"{datetime.datetime.now():%H:%M} AGF yayınlandı, analiz: {', '.join(bekleyen)}",flush=True)
 for h in bekleyen:   # eski (önceki çalıştırmadan kalma) çıktı kullanılmasın
     for e in (f"{h}_olasilik.json",f"{h}.csv",f"{h}.html"):
         if os.path.exists(os.path.join(tmp,e)): os.remove(os.path.join(tmp,e))
-subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','gunluk.py'),g.strftime('%d.%m.%Y')],stdout=subprocess.DEVNULL)
+subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','gunluk.py'),g.strftime('%d.%m.%Y')],stdout=subprocess.DEVNULL,env=dict(os.environ,AGF_TAM_KULLAN='1'))
 for h in bekleyen:
     js=os.path.join(tmp,f"{h}_olasilik.json")
     if not os.path.exists(js): print(h,': analiz çıktısı yok'); continue

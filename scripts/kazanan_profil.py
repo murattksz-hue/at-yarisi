@@ -37,7 +37,8 @@ def profil(T,H,NO):
             if kk==NO and c[0].isdigit() and len(c)>10:
                 a=re.match(r'%([\d.]+)',c[10]); D[c[0]]=float(a.group(1)) if a else None
         return D
-    kd=os.path.join(K,'veri','agf_kayit',T); ilk=os.path.join(kd,f"ILK_{H}.csv")
+    kd=os.path.join(K,'veri','agf_kayit',T); ilk=os.path.join(kd,f"TAM_{H}.csv")   # sabah AGF: TAM (dolu) görüntü; yoksa ILK (25.11.2026'dan beri; öncesi ILK)
+    if not os.path.exists(ilk): ilk=os.path.join(kd,f"ILK_{H}.csv")
     if os.path.exists(ilk):
         I=agf(ilk)
         if any(I.values()): r['agf_sabah']=I.get(w['NO']); r['agf_sabah_sira']=sira(I,w['NO'])

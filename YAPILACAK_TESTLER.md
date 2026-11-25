@@ -82,10 +82,11 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 - **Otomatik/zamanlı çekim EKLEME:** site kullanım şartları (madde 4) izinsiz otomatik taramayı yasaklıyor. Sürekli takip istenirse önce site sahibinden (İletişim sayfası) izin al. Repo açık olduğundan yalnızca sayılar tutulur, sayfa içeriği kopyalanmaz.
 - İlk kayıt: 25.11 08:49 (Elazığ ve İstanbul; Elazığ 08:26 ile aynı, 0/96 değişim). Sıradaki karşılaştırma: bugün 09:05'ten sonra bizim ilk AGF'miz geldiğinde (`ILK_*`) bu değerlerle.
 
-**22. İlk yayın KISMİ geliyor: `ILK` görüntüsü ile "sabah AGF" ayrı tanımlanmalı** (öncelikli, 25.11'de bulundu)
+**22. ✅ YAPILDI 25.11 (TAM AGF, `BILGI.md` "TAM AGF düzeltmesi"); kalan: geçmişi onar. İlk yayın KISMİ geliyor: `ILK` görüntüsü ile "sabah AGF" ayrı tanımlanmalı** (öncelikli, 25.11'de bulundu)
 - 08:00 penceresi AGF'nin ilk yayınını yakalıyor (09:01–09:06), ama o an atların çoğunda AGF henüz %0 (23.11 Şanlıurfa: 104 attan 33'ü dolu). `ILK_*.csv` "ilk yayın saati" için doğru, "sabah AGF" değeri olarak yanlış.
 - Yapılacak: ilk görüntüyle birlikte **"ILK_TAM"** (≥%90 atın AGF'si dolu ilk görüntü) ya da sabit bir sabah saati (örn. 10:00) kaydet; `kazanan_profil.py`'deki `agf_sabah`, `agf_fark`, `agf_artis_sira`, 💰/🤫 işaretlerini ona bağla. 23.11 ve sonrası kayıtlar bu açıdan güvenilmez (22.11 ve öncesi 09:15'te alındığı için dolu).
 - Geçici: `surpriz_ayri.py` doluluk <%80 ise AS10 vermiyor ve uyarı yazıyor.
+- Kalan iş (isteğe bağlı): 23–25.11 için eski görüntülerden **TAM'ı geriye dönük türet** (`agf_tam.py` ile) ve `kazanan_profil` sabah AGF/hareket alanlarını yeniden hesapla (ayrı dosya, mevcut CSV'ye elle yazma). 25.11 Elazığ/İstanbul AGF'li tahminleri kısmi AGF'li, `canli_takip` değerlendirmelerinde ayrı etiketle.
 - Ölçüm (pandera, `scripts/saglik_ilk_yayin.py`): 22.11 geçti; 23.11 14/17, 24.11 11/16 koşu kısmi. Gün sonu raporuna bu kontrolü eklemek de mümkün.
 - Not: bu, `agf_kayit.py` (canlı kayıt sistemi) değişikliği, kullanıcıdan onay al.
 
@@ -99,6 +100,7 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 - `canli_takip.py` yalnızca koşudan ÖNCE dondurulmuş tahminleri saysın: dosya zamanı ile koşu saatini karşılaştıran açık bir kontrol ekle ve rapora "geçerli koşu sayısı" yaz.
 
 **24. Kod kalitesi: ruff + pytest** (25.11'de kuruldu, `BILGI.md` "Araçlar")
+- **✅ 25.11: 34 çıplak `except:` → `except Exception:`** (E722 0). Kalan: 36 kör `except Exception`, 37 `subprocess.run` `check`siz.
 - Önce **çıplak/kör `except` (70 yer) ve `subprocess.run` `check`siz (37)**: hataları sessizce yutuyor olabilirler (kosai makalesindeki "sessiz veri hatası" dersi). Dosyalara dokunmadan önce kullanıcıdan onay al, canlı kayıt betiklerinde (`agf_kayit.py`, `agf_plan.py`) davranış değiştirme.
 - pytest: önce TJK CSV ve eBayi JSON **ayrıştırıcıları** için örnek dosyalarla testler (format değişirse hemen fark edilir).
 

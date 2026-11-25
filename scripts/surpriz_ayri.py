@@ -16,7 +16,8 @@ import re
 _ILK={}
 def ilk_dolu(r):
     """O koşuda ILK (ilk yayın) görüntüsünde AGF'si >0 olan at oranı. İlk yayın kısmi olabilir (AGF yeni açılırken çoğu at %0). Bilinmiyorsa None."""
-    yol=os.path.join(K,'veri','agf_kayit',r['tarih'],f"ILK_{r['hip']}.csv")
+    yol=os.path.join(K,'veri','agf_kayit',r['tarih'],f"TAM_{r['hip']}.csv")
+    if not os.path.exists(yol): yol=os.path.join(K,'veri','agf_kayit',r['tarih'],f"ILK_{r['hip']}.csv")
     if yol not in _ILK:
         D={};k=None
         if os.path.exists(yol):

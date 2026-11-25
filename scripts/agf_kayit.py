@@ -3,6 +3,7 @@ O günün Türkiye hipodromlarının program CSV'sini (AGF sütunu) çeker; AGF 
 veri/agf_kayit/<tarih>/<hipodrom>_<SSDD>UTC.csv olarak saklar. AGF'nin ilk dolu olduğu görüntü ayrıca
 veri/agf_kayit/<tarih>/ILK_<hipodrom>.csv olarak saklanır (kullanıcı gözlemi: sabah ilk AGF daha isabetli olabilir; test edilecek)."""
 import sys,os,re,glob,subprocess,urllib.parse,datetime,hashlib
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import agf_tam   # TAM AGF tespiti (-I ile script dizini sys.path'te olmaz)
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date() if len(sys.argv)>1 else datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).date()
 TR={'İstanbul','Ankara','İzmir','Bursa','Adana','Kocaeli','Elazığ','Diyarbakır','Şanlıurfa','Antalya'}
@@ -15,10 +16,12 @@ def _iz(h,kaynak,saat):   # ilk_zaman.json: {hipodrom:{tjk:'HHMM UTC', ebayi:'HH
     D.setdefault(h,{}).setdefault(kaynak,saat+' UTC'); _j.dump(D,open(f,'w',encoding='utf-8'),ensure_ascii=False)
 def agf_kismi(b):   # yalnızca at satırlarının AGF sütunu (değişim karşılaştırması için)
     return [l.split(';')[10] for l in b.decode('utf-8-sig','replace').splitlines() if re.match(r'^\d+;',l) and len(l.split(';'))>10]
+YAR={}   # hipodrom -> altılıya giren koşular (program CSV'sinden)
 for h in hips:
     u=f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{urllib.parse.quote(h)}-GunlukYarisProgrami-TR.csv?t={int(datetime.datetime.now().timestamp())}"   # ?t=: CDN önbelleğini (max-age=600, 10 dk'ya kadar eski) atlatır; 22.11.2026'da doğrulandı
     b=subprocess.run(['curl','-sS','-f','--max-time','90',u],capture_output=True).stdout
     if not b: print(h,': CSV yok'); continue
+    YAR[h]=agf_tam.altili_yarislar(b)
     # ganyan (Gny) anlık görüntüsü: program HTML'inden, her seferinde saklanır (para girişi takibi için)
     import json,html as H_
     era='today' if g==datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).date() else 'tomorrow'
@@ -36,6 +39,9 @@ for h in hips:
     ilk=os.path.join(kd,f"ILK_{h}.csv")
     if dolu>0 and not os.path.exists(ilk): open(ilk,'wb').write(b); print(f"{h}: İLK AGF kaydedildi ({saat} UTC, {dolu}/{len(a)} at)"); _iz(h,'tjk',saat)
     else: print(f"{h}: yeni görüntü {saat} UTC ({dolu}/{len(a)} at dolu)")
+    # TAM: altılıya giren HER koşuda atların >=%90'ının AGF'si dolu ilk görüntü (ILK kısmi olabilir; tahmin dondurma ve sabah AGF'si TAM'dan alınır)
+    tamf=os.path.join(kd,f"TAM_{h}.csv")
+    if not os.path.exists(tamf) and agf_tam.tam_tjk(b,YAR.get(h)): open(tamf,'wb').write(b); print(f"{h}: TAM AGF kaydedildi ({saat} UTC)"); _iz(h,'tjk_tam',saat)
 # ebayi.org (TJK resmî bayisi) anlık görüntüsü: AGF1, AGF2, canlı ganyan ve koşmaz bilgisi tek dosyada (TJK sayfası gecikirse yedek kaynak)
 import json
 EBK={'IZMIR':'İzmir','ISTANBUL':'İstanbul','SANLIURFA':'Şanlıurfa','ELAZIG':'Elazığ','DIYARBAKIR':'Diyarbakır','ADANA':'Adana','BURSA':'Bursa','ANKARA':'Ankara','KOCAELI':'Kocaeli','ANTALYA':'Antalya'}
@@ -52,6 +58,9 @@ for y in (_eb(f"program/{g:%Y%m%d}/yarislar.json") or []):
     ie=os.path.join(kd,f"ILK_{EBK[y['KEY']]}_ebayi.json")
     if not os.path.exists(ie) and any(v[0] for A in S.values() for v in A.values()):
         json.dump(S,open(ie,'w',encoding='utf-8'),ensure_ascii=False); print(f"{EBK[y['KEY']]}: ebayi İLK AGF kaydedildi ({saat} UTC)"); _iz(EBK[y['KEY']],'ebayi',saat)
+    te=os.path.join(kd,f"TAM_{EBK[y['KEY']]}_ebayi.json")
+    if not os.path.exists(te) and agf_tam.tam_ebayi(S,YAR.get(EBK[y['KEY']])):
+        json.dump(S,open(te,'w',encoding='utf-8'),ensure_ascii=False); print(f"{EBK[y['KEY']]}: ebayi TAM AGF kaydedildi ({saat} UTC)"); _iz(EBK[y['KEY']],'ebayi_tam',saat)
     print(f"{EBK[y['KEY']]}: ebayi görüntüsü {saat} UTC ({sum(len(v) for v in S.values())} at)")
 # ebayi MUHTEMELLER (herkese açık CDN, sayfanın kendi okuduğu dosyalar): her koşunun anlık muhtemel ganyanı ve koşu durumu.
 # checksum: vhs-medya.ebayi.org/muhtemeller/s/YYYY/AA/GG/checksum.json → runs{HIP-NO:[kısa,tam]} ; tam dosya: vhs-medya-cdn.../s/YYYY/AA/GG/HIP-NO-full-<run>.json
