@@ -2,6 +2,8 @@
 
 Türkiye at yarışları (TJK) için notlar, veri toplama ve analiz araçları. Ayrıntılar ve geri test sonuçları: `BILGI.md`.
 
+> **Sahibi:** [murattksz-hue](https://github.com/murattksz-hue). Bu proje ve içindeki veri/analizler ona aittir. Kopyalar (fork) ve türevler bu kaynağı belirtmelidir: https://github.com/murattksz-hue/at-yarisi
+
 | Dosya | Ne yapar |
 |---|---|
 | `scripts/agf_karsilastir.py` | Koşudan 1 saat önce TJK ve ebayi AGF'lerini karşılaştırır; günlük rapor `veri/agf_kayit/<tarih>/GUNLUK.md` (sabah hangi kaynak önce yayınladı + karşılaştırmalar). `agf_plan.py` çağırır |
