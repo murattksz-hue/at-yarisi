@@ -101,7 +101,7 @@ def galop(ad):
     d=ID.get(ad)
     if not d: return None,None,'idman yok',None,None
     try: fk=(gun-datetime.datetime.strptime(d['tarih'],'%d.%m.%Y').date()).days
-    except: fk=99
+    except Exception: fk=99
     z={int(k):v for k,v in d['zaman'].items()}; t4=z.get(400) or (z[200]*2.05 if 200 in z else None)
     L=d.get('idmanlar')
     if L:   # pegadrom: geçmiş idmanlar

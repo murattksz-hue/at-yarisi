@@ -28,7 +28,7 @@ for f in sorted(glob.glob(SD+'/*.csv')):
             cur['ekuri'].append([ayir(a)[0] for a in re.findall(r'\(\d+\)([^,\]]+)',l)])
         if cur is not None and c[0].isdigit() and len(c)>13:
             try:o=float(c[13].replace(',','.'))
-            except:o=0
+            except Exception:o=0
             ad,tg=ayir(c[1]); kg=re.match(r'([\d,]+)',c[5])
             cur['h'].append(dict(ad=ad,tg=tg,pos=int(c[0]) if c[12].strip() else 99,o=o,t=sn(c[12]),kg=float(kg.group(1).replace(',','.')) if kg else None,
                 jok=c[6].replace(' AP','').strip(),ant=c[8].strip()))

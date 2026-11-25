@@ -8,7 +8,7 @@ def galop(ad,gun):
     d=ID.get(ad)
     if not d: return None,None,'idman yok'
     try: fark=(gun-datetime.datetime.strptime(d['tarih'],'%d.%m.%Y').date()).days
-    except: fark=99
+    except Exception: fark=99
     z={int(k):v for k,v in d['zaman'].items()}
     t4=z.get(400) or (z[200]*2.05 if 200 in z else None)
     return t4,fark,f"{d['tur']} {d['pist']} {fark}g önce"+(f" 400m {t4:.1f}sn" if t4 else '')

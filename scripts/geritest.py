@@ -14,7 +14,7 @@ def kosular(f,sonuc):
         if cur and c[0].isdigit() and len(c)>13:
             if sonuc:
                 try:o=float(c[13].replace(',','.'))
-                except:o=0
+                except Exception:o=0
                 cur['atlar'].append(dict(pos=int(c[0]) if c[12].strip() else 99,ad=c[1].split(' ')[0:3],isim=c[1],baba=c[3].strip(),o=o))
             elif len(c)>14 and 'Koşmaz' not in c[1]:
                 cur['atlar'].append(dict(agf=float(re.match(r'%([\d.]+)',c[10]).group(1)) if re.match(r'%([\d.]+)',c[10]) else 0,isim=c[1],baba=c[3].strip(),hp=int(c[11]) if c[11].isdigit() else 0,son6=c[12],s20=int(c[14]) if c[14].isdigit() else 0))

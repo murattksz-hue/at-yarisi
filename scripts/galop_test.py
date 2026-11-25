@@ -18,7 +18,7 @@ for gf in sorted(glob.glob(GD+'/*.json')):
         if re.match(r'^\d+\. Kosu',c[0]): cur=[]; rs.append(cur); continue
         if cur is not None and c[0].isdigit() and len(c)>13:
             try:o=float(c[13].replace(',','.'))
-            except:o=0
+            except Exception:o=0
             cur.append(dict(ad=norm(c[1]),pos=int(c[0]) if c[12].strip() else 99,o=o))
     for h in rs:
         if len(h)<4 or not all(x['o']>1 for x in h): continue

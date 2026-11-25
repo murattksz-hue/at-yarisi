@@ -19,7 +19,7 @@ for f in fs:
         if cur is not None and 'eküridir' in l: cur['ek'].append([ad_(a) for a in re.findall(r'\(\d+\)([^,\]]+)',l)])
         if cur is not None and c[0].isdigit() and len(c)>13:
             try:o=float(c[13].replace(',','.'))
-            except:o=0
+            except Exception:o=0
             y=c[2].split(); yas=int(y[0][:-1]) if y and y[0][:-1].isdigit() else None
             cur['h'].append(dict(ad=ad_(c[1]),pos=int(c[0]) if c[12].strip() else 99,o=o,cins=CINS.get(y[-1],'?') if y else '?',yas=yas))
     for r in rs:

@@ -18,7 +18,7 @@ for f in sorted(glob.glob(SD+'/*.csv')):
         if cur is not None and 'eküridir' in l: cur['ek'].append([ad_(a) for a in re.findall(r'\(\d+\)([^,\]]+)',l)])
         if cur is not None and c[0].isdigit() and len(c)>13:
             try:o=float(c[13].replace(',','.'))
-            except:o=0
+            except Exception:o=0
             cur['h'].append(dict(ad=ad_(c[1]),pos=int(c[0]) if c[12].strip() else 99,o=o,ant=c[8].strip()))
 gunler=sorted(set(r['g'] for r in R)); gi={g:i for i,g in enumerate(gunler)}; orta=gunler[len(gunler)//2]
 SON={}   # at -> son koşu tarihi

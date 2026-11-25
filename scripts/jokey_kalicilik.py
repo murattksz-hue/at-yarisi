@@ -9,7 +9,7 @@ for f in fs:
         if re.match(r'^\d+\. Kosu',c[0]): cur=[]; rs.append(cur); continue
         if cur is not None and c[0].isdigit() and len(c)>13:
             try:o=float(c[13].replace(',','.'))
-            except:o=0
+            except Exception:o=0
             cur.append((int(c[0]) if c[12].strip() else 99,o,c[6].replace(' AP','').strip()))
     for h in rs:
         oo=[x for x in h if x[1]>1]; tot=sum(1/x[1] for x in oo) or 1

@@ -21,7 +21,7 @@ for f in sorted(glob.glob(sys.argv[1]+'/*.csv')):
             cur=dict(tip=tip(c[1]),irk='Arap' if 'Arap' in l else 'İngiliz',dis='Dişi' in c[1],h=[]); rs.append(cur); continue
         if cur and c[0].isdigit() and len(c)>13:
             try:o=float(c[13].replace(',','.'))
-            except:o=0
+            except Exception:o=0
             y=c[2].split(); kg=re.match(r'([\d,]+)',c[5])
             cur['h'].append(dict(pos=int(c[0]) if c[12].strip() else 99,o=o,hp=int(c[11]) if c[11].isdigit() else 0,cins=CINS.get(y[-1],'?') if y else '?',
                 yas=y[0] if y else '?',jok=c[6].replace(' AP','').strip(),ap=' AP' in c[6],kg=float(kg.group(1).replace(',','.')) if kg else 0))

@@ -25,7 +25,7 @@ for f in sorted(glob.glob(sys.argv[1]+'/*.csv')):
             flush(); hdr=l; runners=[]; continue
         if hdr and c[0].isdigit() and len(c)>13:
             try: o=float(c[13].replace(',','.'))
-            except: o=0
+            except Exception: o=0
             runners.append((int(c[0]) if c[12].strip() else 99,c[3].strip(),o))
     flush()
 out={k:{kk:dict(n=v[0],w=v[1],exp=round(v[2],2),mexp=round(v[3],2),top3=v[4]) for kk,v in d.items()} for k,d in S.items()}

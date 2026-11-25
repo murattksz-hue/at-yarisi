@@ -27,7 +27,7 @@ def oku(f,sonuc):
         if not(cur and c[0].isdigit()): continue
         if sonuc and len(c)>13:
             try:o=float(c[13].replace(',','.'))
-            except:o=0
+            except Exception:o=0
             st=re.match(r'(\d+)',c[9])
             cur['h'].append(dict(ad=norm(c[1]),pos=int(c[0]) if c[12].strip() else 99,o=o,baba=c[3].strip(),st=int(st.group(1)) if st else 0,jok=c[6].replace(' AP','').strip()))
         elif not sonuc and len(c)>14 and 'Koşmaz' not in c[1]:

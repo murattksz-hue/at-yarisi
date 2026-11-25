@@ -20,7 +20,7 @@ for f in sorted(glob.glob(SD+'/*.csv')):
         if cur is not None and 'eküridir' in l: cur['ek'].append([ad_(a) for a in re.findall(r'\(\d+\)([^,\]]+)',l)])
         if cur is not None and c[0].isdigit() and len(c)>13:
             try:o=float(c[13].replace(',','.'))
-            except:o=0
+            except Exception:o=0
             y=c[2].split()
             cur['h'].append(dict(ad=ad_(c[1]),pos=int(c[0]) if c[12].strip() else 99,t=sn(c[12]),sah=c[7].strip(),o=o,baba=c[3].strip(),anne=c[4].strip(),genc=bool(y) and y[-1] in ('e','d')))
 BY=collections.defaultdict(lambda:[0,0.0]); AK=collections.defaultdict(lambda:collections.defaultdict(lambda:[0,0.0])); SP=collections.defaultdict(lambda:[0,0.0])
