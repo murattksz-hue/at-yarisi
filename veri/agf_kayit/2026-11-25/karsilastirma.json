@@ -267,5 +267,208 @@
     ]
    }
   ]
+ },
+ "İstanbul-4": {
+  "hipodrom": "İstanbul",
+  "kosu": 4,
+  "zaman": "14:31",
+  "tjk_goruntu": "14:31",
+  "ebayi_goruntu": "14:31",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ANGLE RISING KG K DB",
+      "tjk": 13.2,
+      "ebayi": 13.2,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "FINALLY ITS TIME KG DB SK",
+      "tjk": 7.84,
+      "ebayi": 7.84,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "VENUS DOOM KG SK",
+      "tjk": 12.74,
+      "ebayi": 12.74,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "VALTROX KG SK",
+      "tjk": 16.84,
+      "ebayi": 16.84,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "CROWN JEWEL DB SK",
+      "tjk": 11.25,
+      "ebayi": 11.25,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "RETTILINEO FINALE DB SK",
+      "tjk": 3.15,
+      "ebayi": 3.15,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "BOLD RUNNER K DB",
+      "tjk": 4.85,
+      "ebayi": 4.85,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "DANCING KING KG DB SK",
+      "tjk": 12.95,
+      "ebayi": 12.95,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "MR HERMES DB",
+      "tjk": 6.09,
+      "ebayi": 6.09,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "SARILAR KIZI KG DB SK",
+      "tjk": 2.48,
+      "ebayi": 2.48,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "DRAGON BREATH KG SK",
+      "tjk": 3.98,
+      "ebayi": 3.98,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "REDATIVE DB SK",
+      "tjk": 4.61,
+      "ebayi": 4.61,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.03,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ANGLE RISING KG K DB",
+      "tjk": 13.59,
+      "ebayi": 13.57,
+      "fark": -0.02
+     },
+     {
+      "at": "2",
+      "ad": "FINALLY ITS TIME KG DB SK",
+      "tjk": 8.51,
+      "ebayi": 8.53,
+      "fark": 0.02
+     },
+     {
+      "at": "3",
+      "ad": "VENUS DOOM KG SK",
+      "tjk": 12.96,
+      "ebayi": 12.96,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "VALTROX KG SK",
+      "tjk": 17.52,
+      "ebayi": 17.5,
+      "fark": -0.02
+     },
+     {
+      "at": "5",
+      "ad": "CROWN JEWEL DB SK",
+      "tjk": 12.03,
+      "ebayi": 12.03,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "RETTILINEO FINALE DB SK",
+      "tjk": 2.93,
+      "ebayi": 2.9,
+      "fark": -0.03
+     },
+     {
+      "at": "7",
+      "ad": "BOLD RUNNER K DB",
+      "tjk": 4.53,
+      "ebayi": 4.54,
+      "fark": 0.01
+     },
+     {
+      "at": "8",
+      "ad": "DANCING KING KG DB SK",
+      "tjk": 12.29,
+      "ebayi": 12.26,
+      "fark": -0.03
+     },
+     {
+      "at": "9",
+      "ad": "MR HERMES DB",
+      "tjk": 5.53,
+      "ebayi": 5.54,
+      "fark": 0.01
+     },
+     {
+      "at": "10",
+      "ad": "SARILAR KIZI KG DB SK",
+      "tjk": 2.4,
+      "ebayi": 2.43,
+      "fark": 0.03
+     },
+     {
+      "at": "11",
+      "ad": "DRAGON BREATH KG SK",
+      "tjk": 3.66,
+      "ebayi": 3.64,
+      "fark": -0.02
+     },
+     {
+      "at": "12",
+      "ad": "REDATIVE DB SK",
+      "tjk": 4.06,
+      "ebayi": 4.09,
+      "fark": 0.03
+     }
+    ]
+   }
+  ]
  }
 }
