@@ -33,6 +33,7 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 - Gereksinim: `pip install scikit-learn shap` (Actions'a ekleme, yalnızca elle).
 
 **4. Kalibrasyon betiğini repoya al ve modele uygula**
+- 25.11: Shin yöntemi denendi (✅, **kötü**, kullanma); basit güç dönüşümü p ∝ (1/g)^k, k=1,05 küçük ama anlamlı iyileşme (+0,0016), `scripts/olasilik_donusumu.py`. Kalan: v9'un kendi olasılıklarının kalibrasyonu ve k'yı canlı oranla (−60 dk) yeniden öğrenme.
 - Piyasa kalibrasyonu repoda (taslak içinde): ganyan <%2 A/E 0,69, %2–4 0,86, orta 1,0, favori 1,05; izotonik düzeltme fayda sağlamadı (Brier 0,07893→0,07895).
 - Yapılacak: v9'un **kendi olasılıklarının** kalibrasyonu (AGF'li ve AGF'siz), tahmin dosyaları/`geritest.py` çıktısıyla, görülmemiş dönemde; scikit-learn `calibration_curve`, Brier, izotonik/Platt.
 
@@ -85,6 +86,7 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 - 08:00 penceresi AGF'nin ilk yayınını yakalıyor (09:01–09:06), ama o an atların çoğunda AGF henüz %0 (23.11 Şanlıurfa: 104 attan 33'ü dolu). `ILK_*.csv` "ilk yayın saati" için doğru, "sabah AGF" değeri olarak yanlış.
 - Yapılacak: ilk görüntüyle birlikte **"ILK_TAM"** (≥%90 atın AGF'si dolu ilk görüntü) ya da sabit bir sabah saati (örn. 10:00) kaydet; `kazanan_profil.py`'deki `agf_sabah`, `agf_fark`, `agf_artis_sira`, 💰/🤫 işaretlerini ona bağla. 23.11 ve sonrası kayıtlar bu açıdan güvenilmez (22.11 ve öncesi 09:15'te alındığı için dolu).
 - Geçici: `surpriz_ayri.py` doluluk <%80 ise AS10 vermiyor ve uyarı yazıyor.
+- Ölçüm (pandera, `scripts/saglik_ilk_yayin.py`): 22.11 geçti; 23.11 14/17, 24.11 11/16 koşu kısmi. Gün sonu raporuna bu kontrolü eklemek de mümkün.
 - Not: bu, `agf_kayit.py` (canlı kayıt sistemi) değişikliği, kullanıcıdan onay al.
 
 **15. Veri sağlık kontrolü** (kosai makalesindeki "veri toplama hatası" dersi)
@@ -95,6 +97,10 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 
 **17. Dondurma zamanı < koşu saati doğrulaması** (ileri test koruması fikri)
 - `canli_takip.py` yalnızca koşudan ÖNCE dondurulmuş tahminleri saysın: dosya zamanı ile koşu saatini karşılaştıran açık bir kontrol ekle ve rapora "geçerli koşu sayısı" yaz.
+
+**24. Kod kalitesi: ruff + pytest** (25.11'de kuruldu, `BILGI.md` "Araçlar")
+- Önce **çıplak/kör `except` (70 yer) ve `subprocess.run` `check`siz (37)**: hataları sessizce yutuyor olabilirler (kosai makalesindeki "sessiz veri hatası" dersi). Dosyalara dokunmadan önce kullanıcıdan onay al, canlı kayıt betiklerinde (`agf_kayit.py`, `agf_plan.py`) davranış değiştirme.
+- pytest: önce TJK CSV ve eBayi JSON **ayrıştırıcıları** için örnek dosyalarla testler (format değişirse hemen fark edilir).
 
 ## D. Düşük öncelik / isteğe bağlı
 

@@ -801,3 +801,11 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 ## DuckDB kuruldu (25.11.2026)
 - `pip install duckdb` (sürüm 2.0.1; yalnızca elle analiz için, Actions'a eklenmedi). `scripts/duckdb_ornek.py`: `at_gecmisi/*.csv.gz` üzerinde SQL ile "at sayısına göre sürpriz oranı", 17.884 koşuda **0,7 sn**; Python analizimizle birebir aynı sonuç (genel gerçek %15,2, beklenen %16,8, A/E 0,90). Yeni analizlerde (baş-başa, segment, kalibrasyon) şablon olarak kullan.
 
+## Araçlar kuruldu ve denendi (25.11.2026)
+- Kurulum (yalnızca elle analiz için, **Actions'a eklenmedi**): `pip install duckdb pandera ruff pytest shin flumine` (duckdb 2.0.1, pandera 0.36.0, ruff, pytest 9.1.1, shin 0.2.2, flumine 3.4.1). Yeni oturumda tekrar kurulması gerekir.
+- **pandera** (`scripts/saglik_ilk_yayin.py`): ilk yayın AGF doluluğu kontrolü. 22.11 geçti; **23.11'de 17 koşunun 14'ü, 24.11'de 16'nın 11'i kaldı**: kısmi ilk yayın sorunu sandığımızdan yaygın (`YAPILACAK_TESTLER.md` madde 22).
+- **ruff** (yalnızca sayım, dosyalara dokunulmadı; 89 betik): en sık 235 `SIM115` (dosya `with`'siz açılmış), 170 `C408`, 115 sırasız import, **70 çıplak/kör `except` (E722+BLE001)**, 37 `subprocess.run` `check`siz. Çıplak `except` hataları sessizce yutabilir (ör. kosai'deki "sessiz veri hatası" dersi); önce bunlar.
+- **Shin (`mberk/shin`) kötü:** ganyandan olasılıkta kazananın log-olasılığı −1,8122; basit normalizasyon −1,7993 (fark −0,0129, güven aralığı anlamlı). En küçük olasılıklarda A/E 1,68 (aşırı düzeltiyor): Shin sabit oranlı bahis bürosu modeli, ganyan toplu havuz. **Kullanma.**
+- **Güç dönüşümü** p ∝ (1/g)^k: k=1,05 (ilk %60'ta öğrenildi), son %40'ta koşu başına log-olabilirlik kazancı **+0,0016** (%95 [+0,0007, +0,0025]); %2–4 aralığında A/E 0,84→0,96, %2 altı hâlâ 0,75. Küçük ama anlamlı. Betik: `scripts/olasilik_donusumu.py`.
+- **flumine** yalnızca mimari okumak için (modüller: `markets`, `streams`, `simulation`, `strategy`, `execution`...), kullanılmadı.
+
