@@ -787,3 +787,8 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - **Dikkat 1, kullanım şartları (madde 4):** "İzinsiz veri kazıma (scraping), otomatik tarama veya ticari yeniden yayınlama amacıyla sistem kaynaklarının aşırı tüketilmesi yasaktır." **Otomatik çekim eklenmedi ve önerilmez**; incelemede elle birkaç sayfa okundu. İzin gerekirse site sahibine (İletişim) sorulmalı. robots.txt yalnızca bazı site kopyalama araçlarını engelliyor, genel tarayıcıya kural yok, ama şartlar ayrıca geçerli.
 - **Dikkat 2, ERKEN YAYIN SORUSU (açık):** 25.11 08:26'da yenibeygir Elazığ için tam AGF gösteriyordu (1. koşu toplam %95) iken TJK AGF sayfası boştu ve bizim TJK CSV/eBayi kayıtlarında AGF yoktu (ilk yayın bizde ~09:00–09:05). Bu ya yenibeygir'in daha erken kaynağı, ya da eski/başka veri. Karar: bugün bizim ilk AGF'miz gelince karşılaştır (`YAPILACAK_TESTLER.md` madde 23).
 
+## yenibeygir akşamdan AGF yayınlıyor (kullanıcı bilgisi, 25.11.2026) — ayrı takip
+- Kullanıcı: yenibeygir AGF'yi **akşamdan** yayınlıyor. Gözlemimizle uyumlu: 25.11 08:26–08:49'da hem Elazığ hem İstanbul için dolu AGF (koşu toplamları %92–98, tamsayı), TJK'nın üç yerinde boş: AGF tablosu (`AGFv2`, 08:26), günlük program sayfası (AGFORAN hücreleri `-`, 08:48), program CSV'si; eBayi'de de boş. Yani akşamki AGF **TJK/eBayi kaynaklarımızda görünmüyor**, yenibeygir başka kaynaktan alıyor (bilinmiyor).
+- **Sabah 08:26 ↔ 08:49 Elazığ: 96 attan 0'ında değişim** (değerler sabit, akşam AGF'si dondurulmuş gibi). 09:00'dan sonra TJK/eBayi'nin ilk AGF'si (kısmi, 09:01–09:06) ile farkı bekleniyor.
+- Takip düzeni ve amaç: `YAPILACAK_TESTLER.md` madde 23. Anlık görüntüler `veri/yenibeygir_el_kayit/<tarih>.csv` (yalnızca sayılar). **Otomatik/zamanlı çekim YOK** (kullanım şartı madde 4).
+
