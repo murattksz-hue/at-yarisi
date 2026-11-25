@@ -1004,5 +1004,97 @@
     ]
    }
   ]
+ },
+ "İstanbul-8": {
+  "hipodrom": "İstanbul",
+  "kosu": 8,
+  "zaman": "16:30",
+  "tjk_goruntu": "15:50",
+  "ebayi_goruntu": "16:30",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "KORMAN ŞAH KG GKR",
+      "tjk": 20.98,
+      "ebayi": 20.98,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "BAŞKATAY DB SKG SK",
+      "tjk": 0.51,
+      "ebayi": 0.51,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "BEDRAN BEY KG K GKR",
+      "tjk": 55.56,
+      "ebayi": 55.56,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "HÜRŞANINOĞLU KG DB SK",
+      "tjk": 0.89,
+      "ebayi": 0.89,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KARACA SELÇUK KG SK",
+      "tjk": 6.35,
+      "ebayi": 6.35,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "LA MIRAGE",
+      "tjk": 8.5,
+      "ebayi": 8.5,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "RÜZGARSELİ KG K DB",
+      "tjk": 0.33,
+      "ebayi": 0.33,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "NURİYE YENGE KG K DB",
+      "tjk": 3.05,
+      "ebayi": 3.05,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "USUNBİKE KG K",
+      "tjk": 0.59,
+      "ebayi": 0.59,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "ZEYTİN DİBİ KG K",
+      "tjk": 3.24,
+      "ebayi": 3.24,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
