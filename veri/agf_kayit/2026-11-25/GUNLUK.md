@@ -15,8 +15,10 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 |---|---|---|---|---|---|---|---|---|---|---|
 | İstanbul | 1 | 13:01 | 1. | 8 | 8 | ✓ | ✓ | 0.04 | 8→8 | 8→8 |
 | İstanbul | 2 | 13:30 | 1. | 4 | 4 | ✓ | ✓ | 0.26 | 4→4 | 4→4 |
+| İstanbul | 3 | 14:01 | 1. | 1 | 1 | ✓ | ✓ | 0.11 | 1→1 | 1→1 |
 
 ### Farklı çıkan atlar
 
 - İstanbul 1. koşu (1. altılı; TJK görüntüsü 13:00, ebayi 13:00): 1 BİGASİ KG DB SK TJK %20.73 / ebayi %20.69, 4 MİHRALİ TJK %1.83 / ebayi %1.84, 5 O BİR KARACA KG K TJK %1.63 / ebayi %1.62, 6 RULER STONE KG DB GKR TJK %11.51 / ebayi %11.52, 8 ÇINARALTI KIZI KG K DB TJK %47.04 / ebayi %47.03, 9 ÖZGÜNDEN KG DB SK GKR TJK %4.04 / ebayi %4.08
 - İstanbul 2. koşu (1. altılı; TJK görüntüsü 13:30, ebayi 13:30): 1 SANCAR KG DB SK TJK %11.17 / ebayi %11.09, 2 PENÇSİR KG DB SK GKR TJK %3.36 / ebayi %3.29, 3 ŞENALPTUĞ KG DB SK TJK %29.59 / ebayi %29.85, 4 SARAFİM KG DB SK TJK %49.87 / ebayi %49.82, 5 AKSÖZ SK TJK %1.16 / ebayi %1.14, 6 HAZNEDAR KG TJK %1.41 / ebayi %1.43, 7 ORMANCIBEY KG DB SK TJK %2.1 / ebayi %2.08, 8 SAKALLI BABAM DB SKG SK TJK %1.34 / ebayi %1.31
+- İstanbul 3. koşu (1. altılı; TJK görüntüsü 14:00, ebayi 14:00): 1 KAHRAMAN FATİH KG SK TJK %25.65 / ebayi %25.54, 2 AKÇAALİ KG DB SK TJK %16.73 / ebayi %16.71, 4 CESUR KRAL KG DB SK TJK %1.0 / ebayi %0.99, 5 MAVİ KENT KG DB SK TJK %6.3 / ebayi %6.32, 6 ÖZOĞUL KG K TJK %12.94 / ebayi %13.0, 7 SUFRİ K DB TJK %3.15 / ebayi %3.18, 9 GÜNEŞÇEKER KG SK TJK %8.71 / ebayi %8.72, 10 MEBRURE K DB TJK %1.43 / ebayi %1.41, 11 ROSA Dİ HÜMA KG K TJK %18.74 / ebayi %18.76
