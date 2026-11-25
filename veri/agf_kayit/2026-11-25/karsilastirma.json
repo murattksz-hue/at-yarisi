@@ -1365,5 +1365,208 @@
     ]
    }
   ]
+ },
+ "Elazığ-4": {
+  "hipodrom": "Elazığ",
+  "kosu": 4,
+  "zaman": "18:00",
+  "tjk_goruntu": "18:00",
+  "ebayi_goruntu": "18:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "6",
+    "favori_ebayi": "6",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "7",
+    "sabah_favori_ebayi": "7",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AEMOND DB SK",
+      "tjk": 4.4,
+      "ebayi": 4.4,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "KATANA BOY KG DB SK",
+      "tjk": 6.07,
+      "ebayi": 6.07,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ÜÇ MATRA SKG SK",
+      "tjk": 1.89,
+      "ebayi": 1.89,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "DUMANLI PARS K DB",
+      "tjk": 3.43,
+      "ebayi": 3.43,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "PROMISE ME DELIGHT K DB",
+      "tjk": 6.53,
+      "ebayi": 6.53,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "BEYAZ SARAY DB SK",
+      "tjk": 43.35,
+      "ebayi": 43.35,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "MAVERICK SHADOW DB SKG SK",
+      "tjk": 20.56,
+      "ebayi": 20.56,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "DARK SOUL KG DB SK",
+      "tjk": 1.62,
+      "ebayi": 1.62,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KİKAZARU DB SKG SK",
+      "tjk": 4.94,
+      "ebayi": 4.94,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "MELONI K DB",
+      "tjk": 2.04,
+      "ebayi": 2.04,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "HELLO KUTTY KG DB SK",
+      "tjk": 2.38,
+      "ebayi": 2.38,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "RONNIE DB SK",
+      "tjk": 2.79,
+      "ebayi": 2.79,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "6",
+    "favori_ebayi": "6",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "7",
+    "sabah_favori_ebayi": "7",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AEMOND DB SK",
+      "tjk": 3.6,
+      "ebayi": 3.6,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "KATANA BOY KG DB SK",
+      "tjk": 5.37,
+      "ebayi": 5.37,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ÜÇ MATRA SKG SK",
+      "tjk": 1.29,
+      "ebayi": 1.29,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "DUMANLI PARS K DB",
+      "tjk": 2.74,
+      "ebayi": 2.74,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "PROMISE ME DELIGHT K DB",
+      "tjk": 5.5,
+      "ebayi": 5.5,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "BEYAZ SARAY DB SK",
+      "tjk": 45.88,
+      "ebayi": 45.88,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "MAVERICK SHADOW DB SKG SK",
+      "tjk": 24.25,
+      "ebayi": 24.25,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "DARK SOUL KG DB SK",
+      "tjk": 1.11,
+      "ebayi": 1.11,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KİKAZARU DB SKG SK",
+      "tjk": 3.9,
+      "ebayi": 3.9,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "MELONI K DB",
+      "tjk": 1.49,
+      "ebayi": 1.49,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "HELLO KUTTY KG DB SK",
+      "tjk": 2.31,
+      "ebayi": 2.31,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "RONNIE DB SK",
+      "tjk": 2.56,
+      "ebayi": 2.56,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
