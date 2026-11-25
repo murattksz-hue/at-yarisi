@@ -3,6 +3,8 @@
 Türkiye at yarışları (TJK) için notlar, veri toplama ve analiz araçları. Ayrıntılar ve geri test sonuçları: `BILGI.md`.
 
 > **Sahibi:** [murattksz-hue](https://github.com/murattksz-hue). Bu proje ve içindeki veri/analizler ona aittir. Kopyalar (fork) ve türevler bu kaynağı belirtmelidir: https://github.com/murattksz-hue/at-yarisi
+>
+> **Tüm hakları saklıdır.** Bu repoda lisans yoktur: kod, veri ve analizler sahibinin izni olmadan kopyalanamaz, değiştirilip dağıtılamaz, ticari ya da başka bir projede kullanılamaz. Fork etmek (GitHub içinde görüntülemek) bu izni vermez.
 
 | Dosya | Ne yapar |
 |---|---|
