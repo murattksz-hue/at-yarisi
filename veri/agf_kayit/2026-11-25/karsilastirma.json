@@ -2038,5 +2038,83 @@
     ]
    }
   ]
+ },
+ "Elazığ-8": {
+  "hipodrom": "Elazığ",
+  "kosu": 8,
+  "zaman": "20:01",
+  "tjk_goruntu": "19:57",
+  "ebayi_goruntu": "20:00",
+  "altililar": [
+   {
+    "altili": 2,
+    "favori_tjk": "10",
+    "favori_ebayi": "10",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "10",
+    "atlar": [
+     {
+      "at": "3",
+      "ad": "BROOS WIN KG K",
+      "tjk": 11.15,
+      "ebayi": 11.15,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "DRAGON STAR DB SKG SK",
+      "tjk": 1.91,
+      "ebayi": 1.91,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "LARALİVA KG K DB",
+      "tjk": 7.31,
+      "ebayi": 7.31,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "LOVE IS LOVE KG DB SK",
+      "tjk": 1.24,
+      "ebayi": 1.24,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "MY MIRAGE SK",
+      "tjk": 23.7,
+      "ebayi": 23.7,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "PEARL GRAIN DB SK",
+      "tjk": 4.51,
+      "ebayi": 4.51,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "SNOWDRIFT DB SKG SK",
+      "tjk": 41.67,
+      "ebayi": 41.67,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "TIME OF DREAMS K GKR",
+      "tjk": 2.68,
+      "ebayi": 2.68,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
