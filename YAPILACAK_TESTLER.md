@@ -74,6 +74,12 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 
 ## C. Altyapı / veri kalitesi
 
+**22. İlk yayın KISMİ geliyor: `ILK` görüntüsü ile "sabah AGF" ayrı tanımlanmalı** (öncelikli, 25.11'de bulundu)
+- 08:00 penceresi AGF'nin ilk yayınını yakalıyor (09:01–09:06), ama o an atların çoğunda AGF henüz %0 (23.11 Şanlıurfa: 104 attan 33'ü dolu). `ILK_*.csv` "ilk yayın saati" için doğru, "sabah AGF" değeri olarak yanlış.
+- Yapılacak: ilk görüntüyle birlikte **"ILK_TAM"** (≥%90 atın AGF'si dolu ilk görüntü) ya da sabit bir sabah saati (örn. 10:00) kaydet; `kazanan_profil.py`'deki `agf_sabah`, `agf_fark`, `agf_artis_sira`, 💰/🤫 işaretlerini ona bağla. 23.11 ve sonrası kayıtlar bu açıdan güvenilmez (22.11 ve öncesi 09:15'te alındığı için dolu).
+- Geçici: `surpriz_ayri.py` doluluk <%80 ise AS10 vermiyor ve uyarı yazıyor.
+- Not: bu, `agf_kayit.py` (canlı kayıt sistemi) değişikliği, kullanıcıdan onay al.
+
 **15. Veri sağlık kontrolü** (kosai makalesindeki "veri toplama hatası" dersi)
 - TJK CSV'de AGF sütunu 10. indekse bağlı, ganyan/AGF/HP sütunu kayarsa fark edilmiyor. Günlük kontrol: "AGF toplamı ~%100 mü", "ganyan = HP oranı %0'a yakın mı", "at sayısı makul mü"; sapma olursa `GUNLUK.md` başına uyarı.
 

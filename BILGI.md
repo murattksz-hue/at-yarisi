@@ -772,3 +772,11 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - 22.11 sürprizleri: İzmir 4 Supertramp (kesin 10,2; AGF 6,6→5,1; start 1, jokey değişti, mesafe −400 m, model 3.), İzmir 5 Chumlee (10,7; AGF 7,3→6,0; start 1, jokey değişti, mesafe +500 m, önceki koşuda favori 6. bitmişti), Adana 2 Selim Usta (12,75; AGF %4,7 hareketsiz 🤫, ganyan son 30 dk'da 26,9→12,1 💰; maiden, pist yüzeyi değişti). Sınır vaka: İzmir 8 Başar Soylu (sabah AGF %7,1 → %11,8, 💰; AGF'siz model 1. sıraya koymuştu).
 - Toplam (22.11 itibarıyla, G: 10 sürpriz): jokey değişti %80 (diğer kazananlar %58) · 🤫 %56 (%20) · 💰 %11 (%43) · AGF'li model ilk 3'te %10 (%82) · iç kulvar %50 (%33). Örnek çok az, yorum değil gözlem.
 
+## 22–24 Kasım kontrolü (25.11.2026)
+- **Sistem çalıştı:** cron-job.org tetiği 07:55'te GitHub'ı başlattı (23, 24 ve 25.11 ilk Actions commit'i 07:55). 22.11: 94, 23.11: 117, 24.11: 114 Actions commit'i.
+- **İlk yayın (08:00 penceresi, TJK önbelleksiz):** 23.11 eBayi **09:01**, TJK **09:06** (eBayi 5 dk önce). 24.11 ikisi de **09:05**. AGF yaklaşık 09:00–09:05'te yayınlanıyor. 5 dk çözünürlük.
+- **Doğruluk (`DOGRULUK.md`, 5 gün):** eBayi kapanış AGF'ye daha yakın (0,699 puan; TJK 0,743). Önbellek düzeltmesinden sonra (23: 0,748 / 0,837; 24: 0,935 / 0,977) fark küçüldü ama sürüyor. TJK CSV'sinin kaynak dosyası da birkaç dakikada bir yenileniyor olabilir (doğrulanmadı).
+- **Tahmin sonuçları (22–24, 48 koşu, ilk seçim 1. bitti):** AGF'li model 11 (%23), AGF'siz 13 (%27), AGF favorisi 13 (%27). Günlük: 22.11 5/5/6 (16 koşu), 23.11 4/5/5 (17), 24.11 2/3/2 (15). Güven aralığı (94 koşu): iki model için de aralık sıfırı kapsıyor.
+- **Sürpriz oranı:** ganyan ≥10: 22.11 %25 (4/16), 23.11 %29 (5/17), 24.11 %25 (4/16), genel beklenti ~%15; AGF %5 altı büyük sürpriz 1, 4 ve 2 tane. Bu 3 gün sürprizli geçti.
+- **Veri sorunu (düzeltildi/raporlandı):** 08:00 penceresi AGF'nin ilk yayınını yakalıyor ama o an **kısmi** (23.11 Şanlıurfa ilk görüntüde 104 attan 33'ünün AGF'si dolu, kalanı %0). `kazanan_profil.csv`'deki `agf_sabah`, `agf_fark`, `agf_artis_sira` ve 💰/🤫 işaretleri bu yüzden 23.11'den itibaren bozuk (sahte "AGF 0→17 para girişi"). `surpriz_ayri.py` artık ilk görüntüde doluluk <%80 ise AS10 vermiyor ve "sabah AGF kısmi" uyarısı yazıyor. Kalıcı çözüm: `YAPILACAK_TESTLER.md` madde 22.
+

@@ -12,12 +12,32 @@ def f(v):
     try: return float(str(v).replace(',','.'))
     except Exception: return None
 R=list(csv.DictReader(open(os.path.join(K,'veri','kazanan_profil.csv'),encoding='utf-8')))
+import re
+_ILK={}
+def ilk_dolu(r):
+    """O koşuda ILK (ilk yayın) görüntüsünde AGF'si >0 olan at oranı. İlk yayın kısmi olabilir (AGF yeni açılırken çoğu at %0). Bilinmiyorsa None."""
+    yol=os.path.join(K,'veri','agf_kayit',r['tarih'],f"ILK_{r['hip']}.csv")
+    if yol not in _ILK:
+        D={};k=None
+        if os.path.exists(yol):
+            for l in open(yol,encoding='utf-8-sig',errors='replace'):
+                m=re.match(r'^(\d+)\. Kosu',l)
+                if m: k=m.group(1);D[k]=[];continue
+                p=l.rstrip('\n').split(';')
+                if k and re.match(r'^\d+$',p[0]) and len(p)>10 and 'Koşmaz' not in p[1]:
+                    v=re.findall(r'%([\d.]+)\(',p[10]); D[k].append(float(v[0]) if v else 0.0)
+        _ILK[yol]=D
+    L=_ILK[yol].get(str(r['kosu']))
+    return (sum(x>0 for x in L)/len(L)) if L else None
+def sabah_gecerli(r):
+    d=ilk_dolu(r)
+    return d is None or d>=0.8
 def tanim(r):
     t=[]
     if r.get('surpriz')=='1': t.append('G')
     a_son,a_sabah=f(r.get('agf_son')),f(r.get('agf_sabah'))
     if a_son is not None and a_son<10: t.append('A10')
-    if a_sabah is not None and a_sabah<10: t.append('AS10')
+    if a_sabah is not None and a_sabah<10 and sabah_gecerli(r): t.append('AS10')
     if a_son is not None and a_son<5: t.append('A5')
     return t
 def notlar(r):
@@ -30,7 +50,8 @@ def notlar(r):
     if r.get('pist_degisti')=='1': n.append('pist yüzeyi değişti')
     if r.get('hip_degisti')=='1': n.append('hipodrom değişti')
     ao,ag=g('agf_sabah'),g('agf_son')
-    if ao is not None and ag is not None:
+    if not sabah_gecerli(r): n.append(f"sabah AGF kısmi (ilk yayında atların %{100*ilk_dolu(r):.0f}'i dolu): AGF hareketi/AS10 güvenilmez")
+    elif ao is not None and ag is not None:
         if ag-ao>=3: n.append(f"AGF yükseldi {ao:.1f}→{ag:.1f} (para girişi?)")
         elif ag-ao<=-1: n.append(f"AGF düştü {ao:.1f}→{ag:.1f}")
     g30,gs=g('g30'),g('g_son')
