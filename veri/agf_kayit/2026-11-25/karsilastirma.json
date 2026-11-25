@@ -470,5 +470,222 @@
     ]
    }
   ]
+ },
+ "İstanbul-5": {
+  "hipodrom": "İstanbul",
+  "kosu": 5,
+  "zaman": "15:01",
+  "tjk_goruntu": "15:00",
+  "ebayi_goruntu": "15:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "UZBOYLU KG GKR",
+      "tjk": 7.63,
+      "ebayi": 7.63,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "ÖZGÜN BAŞKAN KG DB SK",
+      "tjk": 21.68,
+      "ebayi": 21.68,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "KOCA KAPTAN KG DB SK",
+      "tjk": 11.33,
+      "ebayi": 11.33,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "İZOTOP KG K",
+      "tjk": 4.27,
+      "ebayi": 4.27,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "KARAT KG SK",
+      "tjk": 2.47,
+      "ebayi": 2.47,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "MESTAN KG K DB GKR",
+      "tjk": 14.24,
+      "ebayi": 14.24,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "BALBEYİM KG K",
+      "tjk": 4.92,
+      "ebayi": 4.92,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "KAYALARIN ASLANI KG K",
+      "tjk": 1.87,
+      "ebayi": 1.87,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "YÜREK ŞAH KG DB SK",
+      "tjk": 3.25,
+      "ebayi": 3.25,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "PESENHAN KG DB",
+      "tjk": 7.48,
+      "ebayi": 7.48,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "ERYÜREKLİ SKG SK",
+      "tjk": 4.36,
+      "ebayi": 4.36,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "TÜMÇIKMAZ KG DB SK",
+      "tjk": 4.12,
+      "ebayi": 4.12,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "ATEŞİZİ KG",
+      "tjk": 12.38,
+      "ebayi": 12.38,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.13,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "UZBOYLU KG GKR",
+      "tjk": 7.88,
+      "ebayi": 7.89,
+      "fark": 0.01
+     },
+     {
+      "at": "2",
+      "ad": "ÖZGÜN BAŞKAN KG DB SK",
+      "tjk": 21.42,
+      "ebayi": 21.34,
+      "fark": -0.08
+     },
+     {
+      "at": "3",
+      "ad": "KOCA KAPTAN KG DB SK",
+      "tjk": 11.84,
+      "ebayi": 11.79,
+      "fark": -0.05
+     },
+     {
+      "at": "4",
+      "ad": "İZOTOP KG K",
+      "tjk": 4.49,
+      "ebayi": 4.47,
+      "fark": -0.02
+     },
+     {
+      "at": "5",
+      "ad": "KARAT KG SK",
+      "tjk": 2.58,
+      "ebayi": 2.58,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "MESTAN KG K DB GKR",
+      "tjk": 13.92,
+      "ebayi": 13.9,
+      "fark": -0.02
+     },
+     {
+      "at": "7",
+      "ad": "BALBEYİM KG K",
+      "tjk": 5.39,
+      "ebayi": 5.52,
+      "fark": 0.13
+     },
+     {
+      "at": "8",
+      "ad": "KAYALARIN ASLANI KG K",
+      "tjk": 1.76,
+      "ebayi": 1.85,
+      "fark": 0.09
+     },
+     {
+      "at": "9",
+      "ad": "YÜREK ŞAH KG DB SK",
+      "tjk": 3.13,
+      "ebayi": 3.12,
+      "fark": -0.01
+     },
+     {
+      "at": "10",
+      "ad": "PESENHAN KG DB",
+      "tjk": 6.92,
+      "ebayi": 6.88,
+      "fark": -0.04
+     },
+     {
+      "at": "11",
+      "ad": "ERYÜREKLİ SKG SK",
+      "tjk": 4.36,
+      "ebayi": 4.36,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "TÜMÇIKMAZ KG DB SK",
+      "tjk": 3.93,
+      "ebayi": 3.92,
+      "fark": -0.01
+     },
+     {
+      "at": "13",
+      "ad": "ATEŞİZİ KG",
+      "tjk": 12.39,
+      "ebayi": 12.38,
+      "fark": -0.01
+     }
+    ]
+   }
+  ]
  }
 }
