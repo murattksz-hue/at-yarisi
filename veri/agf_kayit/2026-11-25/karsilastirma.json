@@ -1287,5 +1287,83 @@
     ]
    }
   ]
+ },
+ "Elazığ-3": {
+  "hipodrom": "Elazığ",
+  "kosu": 3,
+  "zaman": "17:30",
+  "tjk_goruntu": "17:30",
+  "ebayi_goruntu": "17:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "IRRITABLE GIRL KG K",
+      "tjk": 8.44,
+      "ebayi": 8.44,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "AMALASUNTA KG SK",
+      "tjk": 45.72,
+      "ebayi": 45.72,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "LADY ÇEVİK DB SK",
+      "tjk": 7.59,
+      "ebayi": 7.59,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "BILDIRCIN K DB",
+      "tjk": 2.45,
+      "ebayi": 2.45,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "FUCHICHO SK",
+      "tjk": 2.8,
+      "ebayi": 2.8,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "THE BIG RUNNER KG K DB",
+      "tjk": 21.51,
+      "ebayi": 21.51,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "WALLEY OF DAWN K DB",
+      "tjk": 6.71,
+      "ebayi": 6.71,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "YOU ARE A RAIN K DB",
+      "tjk": 3.2,
+      "ebayi": 3.2,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
