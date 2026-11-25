@@ -919,5 +919,90 @@
     ]
    }
   ]
+ },
+ "Elazığ-1": {
+  "hipodrom": "Elazığ",
+  "kosu": 1,
+  "zaman": "16:15",
+  "tjk_goruntu": "16:15",
+  "ebayi_goruntu": "16:15",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "9",
+    "favori_ebayi": "9",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.13,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "9",
+    "sabah_favori_ebayi": "9",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ASYANIN GÜNEŞİ",
+      "tjk": 2.12,
+      "ebayi": 2.25,
+      "fark": 0.13
+     },
+     {
+      "at": "2",
+      "ad": "ATTACK GIRL KG SK",
+      "tjk": 13.05,
+      "ebayi": 13.14,
+      "fark": 0.09
+     },
+     {
+      "at": "3",
+      "ad": "CANOPUS DB SK",
+      "tjk": 9.13,
+      "ebayi": 9.03,
+      "fark": -0.1
+     },
+     {
+      "at": "4",
+      "ad": "DARKNESS GIRL KG SK",
+      "tjk": 18.21,
+      "ebayi": 18.18,
+      "fark": -0.03
+     },
+     {
+      "at": "6",
+      "ad": "LADY ALİS KG DB SK",
+      "tjk": 6.38,
+      "ebayi": 6.45,
+      "fark": 0.07
+     },
+     {
+      "at": "7",
+      "ad": "MYSARIA KG DB SK",
+      "tjk": 8.63,
+      "ebayi": 8.59,
+      "fark": -0.04
+     },
+     {
+      "at": "8",
+      "ad": "STAR YİRMİÜÇ K",
+      "tjk": 5.43,
+      "ebayi": 5.38,
+      "fark": -0.05
+     },
+     {
+      "at": "9",
+      "ad": "THE FIRST DANCE DB SK",
+      "tjk": 29.65,
+      "ebayi": 29.6,
+      "fark": -0.05
+     },
+     {
+      "at": "10",
+      "ad": "ZİANADA KG K DB",
+      "tjk": 5.59,
+      "ebayi": 5.66,
+      "fark": 0.07
+     }
+    ]
+   }
+  ]
  }
 }

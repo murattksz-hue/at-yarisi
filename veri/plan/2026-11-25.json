@@ -25,6 +25,7 @@
 },
 "yapilan": [
 "12:00 kontrol",
+"Elazığ 1. koşu -60dk kayıt",
 "İstanbul 1. koşu -10dk kayıt",
 "İstanbul 1. koşu -30dk kayıt",
 "İstanbul 1. koşu -3dk kayıt",
@@ -57,6 +58,7 @@
 "İstanbul 4. koşu -3dk kayıt",
 "İstanbul 4. koşu -60dk kayıt",
 "İstanbul 4. koşu kazanan profili +20",
+"İstanbul 4. koşu kazanan profili +45",
 "İstanbul 4. koşu para takibi +15",
 "İstanbul 4. koşu para takibi +40",
 "İstanbul 4. koşu sonrası kontrol",
@@ -64,6 +66,8 @@
 "İstanbul 5. koşu -30dk kayıt",
 "İstanbul 5. koşu -3dk kayıt",
 "İstanbul 5. koşu -60dk kayıt",
+"İstanbul 5. koşu para takibi +15",
+"İstanbul 5. koşu sonrası kontrol",
 "İstanbul 6. koşu -30dk kayıt",
 "İstanbul 6. koşu -60dk kayıt",
 "İstanbul 7. koşu -60dk kayıt"
