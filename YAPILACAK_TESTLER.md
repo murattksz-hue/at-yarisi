@@ -61,6 +61,8 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 **10. İlk yayınlayan tespiti (08:00 penceresi)**
 - Önkoşul: ≥10 gün `ilk_zaman.json`. Hangi kaynak önce yayınlıyor, saat dağılımı, hipodrom bazında. Kontrol aralığı 5 dk; yeterince kısa mı (1–2 dk) karar ver.
 
+**11a. 🤫 sessiz AGF uzun atlarda umut verici (25.11, canlı 71 at, 8 kazandı, beklenen 3,1, A/E 2,62 z +2,9, getiri +%63):** TAM (dolu) sabah AGF'si 26.11'den itibaren biriktiği için, ≥150 uzun at ve ≥20 kazanan olunca yeniden test et; kümelenmeyi (günlere göre) ve çoklu testi hesaba kat, piyasa beklentisine karşı A/E ve bootstrap ver. Şimdilik bahis önerisi değil.
+
 **11. Oran hareketi (💰/🤫, sabah→−60→−30→−10)**
 - Önkoşul: ≥500 koşu −60/−30/−10 görüntüsü ve ≥50 sürpriz. Hareket (AGF ve ganyan) kesin sonuca ek bilgi taşıyor mu: A/E, bootstrap, iki yarı. Bizim özel verimiz, en umutlu madde.
 

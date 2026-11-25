@@ -825,3 +825,10 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - Ek alanlar: dört kolun mutabakatı (kaç kol BİRLEŞİK'le aynı atı seçti), güven (net ≥%40, orta %28–40, düşük), sürpriz olasılığı (piyasaya göre kazananın AGF %10 altı attan çıkma olasılığı), sürpriz adayları. Elazığ v9 AGF'li kolunda kısmi AGF uyarısı (atların %12'sinde AGF 0).
 - **Beklenti (dürüst):** BİRLEŞİK ile piyasa farkı küçük (baş-başa kazancı koşu başına +0,0017 log). Tek günde bir şey kanıtlanamaz; ≥300 koşu birikince güven aralığıyla kıyaslanacak (`YAPILACAK_TESTLER.md` madde 12 ile birlikte).
 
+## Sürprizlerin ortak noktası, canlı kayıtlar (25.11.2026, 19–25 Kasım, 22 ganyan≥10 sürprizi)
+- **Statik profilde belirgin ortak nokta YOK.** Sürprizler genel uzun at popülasyonuna (ganyan≥10, 80.827 at, 2024+) benziyor: HP sırası ≥4 %91 (popülasyon %82), jokey değişti %86 (%78), önceki koşuda 4. ve sonrası %86 (%85), iç kulvar %41 (%28), handikap %45 (%33), ortalama 11,3 at (diğer kazananlar 9,7). Hepsi n=22 ile anlamsız. Geçmişte de bu özelliklerin A/E'si 0,89–0,98 (uzun atlar genel A/E 0,90): "sürprizlere özgü" statik işaret bulunmadı.
+- **Modeller göremiyor:** AGF'li model sürprizlerin %9'unu (2/22), AGF'siz %5'ini (1/22) ilk 3'e koymuş.
+- **"Diğer kazananlarla" kıyas yanıltıcı:** sürprizleri favorilerden oluşan kazananlarla kıyaslamak (örn. 💰 %10'a %41) yanlış sonuç verir; doğru karşılaştırma uzun at popülasyonuyla.
+- **Canlı işaretler (`para_takip.csv`, 85 koşu, 867 at, piyasa beklentisine karşı):** **🤫 sessiz AGF + ganyan≥10: 71 at, 8 kazandı, beklenen 3,1 → A/E 2,62 (z +2,9), getiri +%63**; sessiz olmayan uzun atlar 11/13,3 (A/E 0,83, −%47). 💰 para girişi: ganyan≥10'da A/E 1,21 (z +0,3), anlamsız. ⭐ sinyal: 14 at, 0 kazanan (beklenen 1,0).
+- **🤫 için uyarılar:** (1) 3 kazanan 24.11'de (6 attan 3), kümelenme; (2) 23–25.11'de sabah AGF kısmi ilk yayındı (TAM yok), o günlerin 🤫'sı güvenilmez; (3) birden çok işaret ve alt küme denendi (çoklu test); (4) 8 kazanan çok az. **İlk umut verici işaret, kanıt değil.** `YAPILACAK_TESTLER.md` madde 11'de TAM'lı temiz AGF ve ≥150 uzun atla yeniden test.
+
