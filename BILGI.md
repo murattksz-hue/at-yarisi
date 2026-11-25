@@ -798,3 +798,6 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - **Ama kâr yok:** düz oyun getirisi −%18,9 (favoriye düz oyun −%27'ye göre daha iyi, yine negatif). Koşullu logit (piyasa + b·skor, b=0,5): test koşusu başına log-olabilirlik kazancı **+0,0017** (%95 [+0,0004, +0,0031]); karşılaşması çok olan koşularda +0,0042. Yani piyasanın tam fiyatlamadığı küçük ama gerçek bir sinyal.
 - Sonraki adım: v9'a özellik olarak ekle (`YAPILACAK_TESTLER.md` madde 5) ve **eklenince katkıyı** 542+ koşuda ölç (v9 form/sınıf bilgisiyle örtüşebilir). Günlük rapora "baş-başa" etiketi (bilgi) eklenebilir.
 
+## DuckDB kuruldu (25.11.2026)
+- `pip install duckdb` (sürüm 2.0.1; yalnızca elle analiz için, Actions'a eklenmedi). `scripts/duckdb_ornek.py`: `at_gecmisi/*.csv.gz` üzerinde SQL ile "at sayısına göre sürpriz oranı", 17.884 koşuda **0,7 sn**; Python analizimizle birebir aynı sonuç (genel gerçek %15,2, beklenen %16,8, A/E 0,90). Yeni analizlerde (baş-başa, segment, kalibrasyon) şablon olarak kullan.
+
