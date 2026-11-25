@@ -74,6 +74,20 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 
 ## C. Altyapı / veri kalitesi
 
+**23. yenibeygir AGF'si bizim kaynaklardan ERKEN mi? (25.11'de başladı, bugün 09:05'ten sonra karşılaştır)**
+- 25.11 08:26'da yenibeygir Elazığ'da dolu AGF gösteriyordu, TJK AGF sayfası ve bizim kayıtlarımız boştu. Aşağıdaki değerler yenibeygir'den elle okundu (08:26, tamsayı %):
+  - 1. koşu (at:AGF%) 1:0 2:1 3:17 4:24 5:3 6:11 7:5 8:1 9:26 10:7
+  - 2. koşu (at:AGF%) 1:28 2:19 3:25 4:3 5:8 6:2 7:11
+  - 3. koşu (at:AGF%) 1:23 2:26 3:6 4:1 5:4 6:2 7:0 8:11 9:8 10:14
+  - 4. koşu (at:AGF%) 1:4 2:14 3:12 4:5 5:1 6:21 7:19 8:0 9:2 10:1 11:6 12:9
+  - 5. koşu (at:AGF%) 1:12 2:13 3:3 4:20 5:2 6:10 7:0 8:18 9:1 10:5 11:7 12:0 13:1
+  - 6. koşu (at:AGF%) 1:25 2:17 3:3 4:12 5:1 6:5 7:9 8:22 9:0
+  - 7. koşu (at:AGF%) 1:12 2:23 3:25 4:5 5:16 6:9 7:0 8:1 9:3 10:2
+  - 8. koşu (at:AGF%) 1:2 2:1 3:14 4:5 5:6 6:10 7:1 8:23 9:8 10:21 11:3
+  - 9. koşu (at:AGF%) 1:8 2:17 3:1 4:4 5:3 6:6 7:10 8:20 9:11 10:2 11:1 12:9 13:0 14:0
+- Yapılacak: `veri/agf_kayit/2026-11-25/ILK_Elazığ.csv` ve ilk eBayi görüntüsündeki Elazığ AGF'siyle karşılaştır. Eşleşiyorsa (±1) yenibeygir daha erken yayınlıyor ve bunun kaynağı araştırılmalı (TJK'nın başka bir uç noktası olabilir, yenibeygir'i otomatik çekmeden); eşleşmiyorsa eski/başka veri, madde kapanır.
+- Önemli: yenibeygir kullanım şartları otomatik çekimi yasaklıyor, bot eklenmez.
+
 **22. İlk yayın KISMİ geliyor: `ILK` görüntüsü ile "sabah AGF" ayrı tanımlanmalı** (öncelikli, 25.11'de bulundu)
 - 08:00 penceresi AGF'nin ilk yayınını yakalıyor (09:01–09:06), ama o an atların çoğunda AGF henüz %0 (23.11 Şanlıurfa: 104 attan 33'ü dolu). `ILK_*.csv` "ilk yayın saati" için doğru, "sabah AGF" değeri olarak yanlış.
 - Yapılacak: ilk görüntüyle birlikte **"ILK_TAM"** (≥%90 atın AGF'si dolu ilk görüntü) ya da sabit bir sabah saati (örn. 10:00) kaydet; `kazanan_profil.py`'deki `agf_sabah`, `agf_fark`, `agf_artis_sira`, 💰/🤫 işaretlerini ona bağla. 23.11 ve sonrası kayıtlar bu açıdan güvenilmez (22.11 ve öncesi 09:15'te alındığı için dolu).
