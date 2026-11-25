@@ -1785,5 +1785,166 @@
     ]
    }
   ]
+ },
+ "Elazığ-6": {
+  "hipodrom": "Elazığ",
+  "kosu": 6,
+  "zaman": "19:02",
+  "tjk_goruntu": "19:01",
+  "ebayi_goruntu": "19:01",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SERÜVENTAY KG K DB",
+      "tjk": 23.8,
+      "ebayi": 23.8,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "SEYYARETAY DB SKG SK",
+      "tjk": 17.99,
+      "ebayi": 17.99,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "BÜCÜRÜK AKTAŞ KG K",
+      "tjk": 6.45,
+      "ebayi": 6.45,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "SEDERİ GÜZELİ KG K",
+      "tjk": 5.24,
+      "ebayi": 5.24,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "GÜNÇİÇEK KG K DB",
+      "tjk": 8.74,
+      "ebayi": 8.74,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ŞUBAT BEY DB SKG SK",
+      "tjk": 5.4,
+      "ebayi": 5.4,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ATEŞATAR KG SK",
+      "tjk": 9.76,
+      "ebayi": 9.76,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ELİFİN IŞIĞI KG K DB",
+      "tjk": 15.64,
+      "ebayi": 15.64,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "GÜLPAŞA KG SK",
+      "tjk": 6.98,
+      "ebayi": 6.98,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "1",
+    "favori_ebayi": "1",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.14,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SERÜVENTAY KG K DB",
+      "tjk": 24.75,
+      "ebayi": 24.65,
+      "fark": -0.1
+     },
+     {
+      "at": "2",
+      "ad": "SEYYARETAY DB SKG SK",
+      "tjk": 17.91,
+      "ebayi": 17.77,
+      "fark": -0.14
+     },
+     {
+      "at": "3",
+      "ad": "BÜCÜRÜK AKTAŞ KG K",
+      "tjk": 5.96,
+      "ebayi": 6.04,
+      "fark": 0.08
+     },
+     {
+      "at": "4",
+      "ad": "SEDERİ GÜZELİ KG K",
+      "tjk": 4.57,
+      "ebayi": 4.6,
+      "fark": 0.03
+     },
+     {
+      "at": "5",
+      "ad": "GÜNÇİÇEK KG K DB",
+      "tjk": 8.85,
+      "ebayi": 8.91,
+      "fark": 0.06
+     },
+     {
+      "at": "6",
+      "ad": "ŞUBAT BEY DB SKG SK",
+      "tjk": 4.86,
+      "ebayi": 4.94,
+      "fark": 0.08
+     },
+     {
+      "at": "7",
+      "ad": "ATEŞATAR KG SK",
+      "tjk": 9.85,
+      "ebayi": 9.9,
+      "fark": 0.05
+     },
+     {
+      "at": "8",
+      "ad": "ELİFİN IŞIĞI KG K DB",
+      "tjk": 16.54,
+      "ebayi": 16.46,
+      "fark": -0.08
+     },
+     {
+      "at": "9",
+      "ad": "GÜLPAŞA KG SK",
+      "tjk": 6.71,
+      "ebayi": 6.73,
+      "fark": 0.02
+     }
+    ]
+   }
+  ]
  }
 }
