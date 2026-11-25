@@ -792,3 +792,9 @@ Kullanıcı önerisi: "sürprizli koşuda 3 değil 5 at öner". Gerçek veriyle 
 - **Sabah 08:26 ↔ 08:49 Elazığ: 96 attan 0'ında değişim** (değerler sabit, akşam AGF'si dondurulmuş gibi). 09:00'dan sonra TJK/eBayi'nin ilk AGF'si (kısmi, 09:01–09:06) ile farkı bekleniyor.
 - Takip düzeni ve amaç: `YAPILACAK_TESTLER.md` madde 23. Anlık görüntüler `veri/yenibeygir_el_kayit/<tarih>.csv` (yalnızca sayılar). **Otomatik/zamanlı çekim YOK** (kullanım şartı madde 4).
 
+## Baş-başa karşılaştırma testi (25.11.2026, `scripts/bas_basa.py`, 14.847 koşu 2024-07+)
+- Skor: atın bugünkü rakiplerini daha önce yenip yenmediği ((galibiyet−yenilgi)/(karşılaşma+1), yalnızca daha önce karşılaşılan rakipler, sızıntısız). Ortalama at başına 2,56 karşılaşmalı rakip. Fikir yenibeygir `/karsilastirma` sayfasından; **veri kullanılmadı**, kendi geçmişimizden hesaplandı.
+- **Baş-başa lideri** (≥2 karşılaşmalı rakibi olan en yüksek skorlu at; 11.564 koşu) kazandı **%21,6**, piyasanın beklediği %19,1 → **A/E 1,13 (z +7,3)**. Üç dönemde de aynı: 1,12 · 1,12 · 1,15. Favori olmayan liderlerde de 1,14 (8.206 koşu). Piyasa favorisiyle aynı at olma oranı %29.
+- **Ama kâr yok:** düz oyun getirisi −%18,9 (favoriye düz oyun −%27'ye göre daha iyi, yine negatif). Koşullu logit (piyasa + b·skor, b=0,5): test koşusu başına log-olabilirlik kazancı **+0,0017** (%95 [+0,0004, +0,0031]); karşılaşması çok olan koşularda +0,0042. Yani piyasanın tam fiyatlamadığı küçük ama gerçek bir sinyal.
+- Sonraki adım: v9'a özellik olarak ekle (`YAPILACAK_TESTLER.md` madde 5) ve **eklenince katkıyı** 542+ koşuda ölç (v9 form/sınıf bilgisiyle örtüşebilir). Günlük rapora "baş-başa" etiketi (bilgi) eklenebilir.
+

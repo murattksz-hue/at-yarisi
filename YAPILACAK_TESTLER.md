@@ -37,7 +37,7 @@ Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dedi
 - Yapılacak: v9'un **kendi olasılıklarının** kalibrasyonu (AGF'li ve AGF'siz), tahmin dosyaları/`geritest.py` çıktısıyla, görülmemiş dönemde; scikit-learn `calibration_curve`, Brier, izotonik/Platt.
 
 **5. Baş-başa, tabela ortalaması, aynı jokey, "orta kilo"** (kosai makalesindeki fikirler, `BILGI.md`'de YOK)
-- Fikirler (kendi verimizle sıfırdan): (i) son 8 koşunun bitiş ortalaması en düşük at (tabela), (ii) önceki koşuyla aynı jokey, (iii) handikapta yaş grubu içinde kategoriye özel "orta kilo", (iv) atın bu kategori/mesafe/hipodromda geçmiş top-3 oranı ≥%50 (`pist_mesafe_galibi` ile örtüşebilir, katkıyı ölç), (v) baş-başa üstünlük.
+- Fikirler (kendi verimizle sıfırdan): (i) son 8 koşunun bitiş ortalaması en düşük at (tabela), (ii) önceki koşuyla aynı jokey, (iii) handikapta yaş grubu içinde kategoriye özel "orta kilo", (iv) atın bu kategori/mesafe/hipodromda geçmiş top-3 oranı ≥%50 (`pist_mesafe_galibi` ile örtüşebilir, katkıyı ölç), (v) baş-başa üstünlük: **✅ tek başına test edildi (25.11, `scripts/bas_basa.py`): lider A/E 1,13 z +7,3, üç dönemde tutarlı, getiri −%18,9; sıradaki: v9'a ekleyip katkıyı ölç.**
 - Ölçüt: v9'a eklenince 542+ görülmemiş koşuda log kaybı değişimi + bootstrap aralığı. Makaledeki "havuz-yakalama %75–83" rakamlarını **kullanma** (havuz büyüklüğü olmadan yanıltıcı); ölçüt havuz içi değil, olasılık kalitesi.
 - Zaten yapılmış, tekrarlama: antrenör, jokey hipodrom uzmanlığı, ilk kez hipodrom/mesafe/yüzey, mesafe değişimi, sınıf farkı, soy, kulvar.
 
