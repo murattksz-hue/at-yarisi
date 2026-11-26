@@ -232,5 +232,62 @@
     ]
    }
   ]
+ },
+ "İzmir-4": {
+  "hipodrom": "İzmir",
+  "kosu": 4,
+  "zaman": "15:32",
+  "tjk_goruntu": "15:30",
+  "ebayi_goruntu": "15:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.28,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "FINAL SHOT DB SK",
+      "tjk": 7.96,
+      "ebayi": 8.01,
+      "fark": 0.05
+     },
+     {
+      "at": "2",
+      "ad": "MARVELLE KG K",
+      "tjk": 33.61,
+      "ebayi": 33.33,
+      "fark": -0.28
+     },
+     {
+      "at": "3",
+      "ad": "VICTORYS CALL DB SK",
+      "tjk": 33.72,
+      "ebayi": 33.67,
+      "fark": -0.05
+     },
+     {
+      "at": "4",
+      "ad": "MUKKİ KG K DB",
+      "tjk": 12.27,
+      "ebayi": 12.33,
+      "fark": 0.06
+     },
+     {
+      "at": "5",
+      "ad": "HEART OF ÖNER DB SKG SK",
+      "tjk": 12.44,
+      "ebayi": 12.66,
+      "fark": 0.22
+     }
+    ]
+   }
+  ]
  }
 }
