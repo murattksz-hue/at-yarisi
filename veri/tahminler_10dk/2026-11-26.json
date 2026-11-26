@@ -15060,6 +15060,1580 @@
      }
     }
    ]
+  },
+  "Antalya|7": {
+   "tip": {
+    "tur": "Maiden",
+    "aile": "Maiden (kazanmamışlar)",
+    "irk": "Arap",
+    "yas": "3",
+    "mesafe": "1400",
+    "mesafe_band": "1400-1699",
+    "pist": "Kum"
+   },
+   "hip": "Antalya",
+   "kosu": 7,
+   "saat": "21:30",
+   "olusturma_tr": "2026-11-26T21:19:03+03:00",
+   "goruntu_utc": "1818",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "BESNİ",
+   "secim_ilk3": [
+    "BESNİ",
+    "ATAERİ",
+    "KÜÇÜK ŞOVALYE"
+   ],
+   "surpriz_riski": "orta",
+   "surpriz_p": 0.247,
+   "liste_uzunlugu": 4,
+   "secim_liste": [
+    "BESNİ",
+    "ATAERİ",
+    "KÜÇÜK ŞOVALYE",
+    "YAĞIZSOY"
+   ],
+   "guven": "düşük",
+   "atlar": [
+    {
+     "ad": "ATAERİ",
+     "p_birlesik10": 0.2071,
+     "p_piyasa10": 0.2046,
+     "p_v9_agfli": 0.4063,
+     "p_v9_agfsiz": 0.1984,
+     "h2h": 0.083,
+     "tercih": {
+      "baba": "BABA MEVLÜT",
+      "kendi_mesafe": {
+       "n": 6,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 433,
+       "birinci": 37,
+       "ae": 0.89,
+       "z": -0.8
+      },
+      "kendi_pist": {
+       "n": 8,
+       "birinci": 0,
+       "ilk3": 4
+      },
+      "baba_pist": {
+       "n": 724,
+       "birinci": 62,
+       "ae": 0.86,
+       "z": -1.3
+      },
+      "kendi_aile": {
+       "n": 14,
+       "birinci": 0,
+       "ilk3": 6
+      },
+      "baba_aile": {
+       "n": 362,
+       "birinci": 32,
+       "ae": 0.89,
+       "z": -0.7
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 149,
+       "birinci": 9,
+       "ae": 0.53,
+       "z": -2.2
+      },
+      "annebaba": "TAMERİNOĞLU",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        400,
+        32,
+        0.89,
+        -0.7
+       ],
+       "1300-1400": [
+        681,
+        55,
+        0.89,
+        -0.9
+       ],
+       "1500-1700": [
+        344,
+        28,
+        0.93,
+        -0.4
+       ],
+       "1800-2100": [
+        530,
+        67,
+        1.11,
+        1.0
+       ],
+       "2200+": [
+        67,
+        6,
+        0.75,
+        -0.8
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        3,
+        0,
+        0
+       ],
+       "1300-1400": [
+        6,
+        0,
+        1
+       ],
+       "1500-1700": [
+        5,
+        0,
+        4
+       ],
+       "1800-2100": [
+        1,
+        0,
+        1
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        285,
+        29,
+        0.96,
+        -0.3
+       ],
+       "1300-1400": [
+        433,
+        37,
+        0.89,
+        -0.8
+       ],
+       "1500-1700": [
+        300,
+        32,
+        1.16,
+        0.9
+       ],
+       "1800-2100": [
+        538,
+        53,
+        0.96,
+        -0.3
+       ],
+       "2200+": [
+        88,
+        12,
+        1.19,
+        0.7
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.107,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "BESNİ",
+     "p_birlesik10": 0.2394,
+     "p_piyasa10": 0.2345,
+     "p_v9_agfli": 0.3901,
+     "p_v9_agfsiz": 0.3015,
+     "h2h": 0.1,
+     "tercih": {
+      "baba": "BESLENEY",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_mesafe": {
+       "n": 126,
+       "birinci": 13,
+       "ae": 1.03,
+       "z": 0.1
+      },
+      "kendi_pist": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 126,
+       "birinci": 7,
+       "ae": 0.66,
+       "z": -1.2
+      },
+      "kendi_aile": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_aile": {
+       "n": 133,
+       "birinci": 8,
+       "ae": 0.68,
+       "z": -1.2
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 54,
+       "birinci": 8,
+       "ae": 1.9,
+       "z": 2.0
+      },
+      "annebaba": "BATYSKAF (PL)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        52,
+        5,
+        0.77,
+        -0.7
+       ],
+       "1300-1400": [
+        99,
+        8,
+        0.76,
+        -0.9
+       ],
+       "1500-1700": [
+        64,
+        5,
+        0.76,
+        -0.7
+       ],
+       "1800-2100": [
+        137,
+        18,
+        1.01,
+        0.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        1
+       ],
+       "1300-1400": [
+        4,
+        0,
+        2
+       ],
+       "1500-1700": [
+        2,
+        0,
+        1
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        66,
+        3,
+        0.55,
+        -1.2
+       ],
+       "1300-1400": [
+        126,
+        13,
+        1.03,
+        0.1
+       ],
+       "1500-1700": [
+        92,
+        5,
+        0.71,
+        -0.8
+       ],
+       "1800-2100": [
+        149,
+        13,
+        0.98,
+        -0.1
+       ],
+       "2200+": [
+        40,
+        2,
+        0.64,
+        -0.7
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.021,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "KÜÇÜK ŞOVALYE",
+     "p_birlesik10": 0.1984,
+     "p_piyasa10": 0.1911,
+     "p_v9_agfli": 0.0789,
+     "p_v9_agfsiz": 0.1679,
+     "h2h": 0.133,
+     "tercih": {
+      "baba": "DENİZİM",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 136,
+       "birinci": 12,
+       "ae": 1.02,
+       "z": 0.1
+      },
+      "kendi_pist": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 189,
+       "birinci": 23,
+       "ae": 1.41,
+       "z": 1.8
+      },
+      "kendi_aile": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_aile": {
+       "n": 141,
+       "birinci": 17,
+       "ae": 1.28,
+       "z": 1.1
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 40,
+       "birinci": 3,
+       "ae": 0.72,
+       "z": -0.6
+      },
+      "annebaba": "KOŞANEFE",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        79,
+        5,
+        0.74,
+        -0.8
+       ],
+       "1300-1400": [
+        114,
+        9,
+        0.9,
+        -0.4
+       ],
+       "1500-1700": [
+        57,
+        4,
+        0.87,
+        -0.3
+       ],
+       "1800-2100": [
+        66,
+        13,
+        1.74,
+        2.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        4,
+        0,
+        1
+       ],
+       "1500-1700": [
+        2,
+        0,
+        1
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        107,
+        14,
+        1.62,
+        2.0
+       ],
+       "1300-1400": [
+        136,
+        12,
+        1.02,
+        0.1
+       ],
+       "1500-1700": [
+        60,
+        6,
+        0.94,
+        -0.2
+       ],
+       "1800-2100": [
+        31,
+        1,
+        0.41,
+        -1.0
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.013,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "MERDÜMGİRİZ",
+     "p_birlesik10": 0.0568,
+     "p_piyasa10": 0.057,
+     "p_v9_agfli": 0.0174,
+     "p_v9_agfsiz": 0.0944,
+     "h2h": 0.05,
+     "tercih": {
+      "baba": "DİLİRAN",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 503,
+       "birinci": 53,
+       "ae": 1.02,
+       "z": 0.1
+      },
+      "kendi_pist": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 646,
+       "birinci": 62,
+       "ae": 0.92,
+       "z": -0.8
+      },
+      "kendi_aile": {
+       "n": 13,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_aile": {
+       "n": 415,
+       "birinci": 49,
+       "ae": 1.1,
+       "z": 0.7
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 137,
+       "birinci": 11,
+       "ae": 1.06,
+       "z": 0.2
+      },
+      "annebaba": "SARUHANAĞA",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        63,
+        1,
+        0.26,
+        -1.6
+       ],
+       "1300-1400": [
+        85,
+        5,
+        0.89,
+        -0.3
+       ],
+       "1500-1700": [
+        44,
+        0,
+        0.0,
+        -2.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        8,
+        0,
+        1
+       ],
+       "1300-1400": [
+        4,
+        0,
+        1
+       ],
+       "1500-1700": [
+        2,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        350,
+        32,
+        0.94,
+        -0.4
+       ],
+       "1300-1400": [
+        503,
+        53,
+        1.02,
+        0.1
+       ],
+       "1500-1700": [
+        196,
+        19,
+        1.1,
+        0.4
+       ],
+       "1800-2100": [
+        182,
+        20,
+        1.13,
+        0.6
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.016,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "PLOMARİ",
+     "p_birlesik10": 0.0147,
+     "p_piyasa10": 0.0155,
+     "p_v9_agfli": 0.006,
+     "p_v9_agfsiz": 0.0087,
+     "h2h": -0.05,
+     "tercih": {
+      "baba": "UÇANBEY",
+      "kendi_mesafe": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 436,
+       "birinci": 41,
+       "ae": 0.95,
+       "z": -0.3
+      },
+      "kendi_pist": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 578,
+       "birinci": 50,
+       "ae": 0.87,
+       "z": -1.1
+      },
+      "kendi_aile": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 244,
+       "birinci": 26,
+       "ae": 1.14,
+       "z": 0.7
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 115,
+       "birinci": 9,
+       "ae": 0.89,
+       "z": -0.4
+      },
+      "annebaba": "GÜNDENİZ",
+      "annebaba_mesafe_hepsi": {
+       "1300-1400": [
+        47,
+        9,
+        1.46,
+        1.3
+       ],
+       "1500-1700": [
+        31,
+        2,
+        0.8,
+        -0.3
+       ],
+       "1800-2100": [
+        66,
+        11,
+        1.44,
+        1.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        0
+       ],
+       "1300-1400": [
+        2,
+        0,
+        0
+       ],
+       "1500-1700": [
+        2,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        256,
+        24,
+        1.04,
+        0.2
+       ],
+       "1300-1400": [
+        436,
+        41,
+        0.95,
+        -0.3
+       ],
+       "1500-1700": [
+        272,
+        21,
+        0.88,
+        -0.7
+       ],
+       "1800-2100": [
+        373,
+        23,
+        0.59,
+        -2.9
+       ],
+       "2200+": [
+        56,
+        7,
+        1.05,
+        0.1
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.042,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "YAĞIZSOY",
+     "p_birlesik10": 0.1192,
+     "p_piyasa10": 0.1227,
+     "p_v9_agfli": 0.0504,
+     "p_v9_agfsiz": 0.1155,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "ŞİMŞEĞİNOĞLU",
+      "kendi_mesafe": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 219,
+       "birinci": 20,
+       "ae": 1.14,
+       "z": 0.6
+      },
+      "kendi_pist": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 680,
+       "birinci": 81,
+       "ae": 1.26,
+       "z": 2.3
+      },
+      "kendi_aile": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 203,
+       "birinci": 25,
+       "ae": 1.31,
+       "z": 1.5
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "annebaba": "ATEŞTOPU",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        146,
+        21,
+        1.25,
+        1.2
+       ],
+       "1300-1400": [
+        165,
+        14,
+        0.74,
+        -1.3
+       ],
+       "1500-1700": [
+        66,
+        5,
+        0.81,
+        -0.5
+       ],
+       "1800-2100": [
+        59,
+        5,
+        0.88,
+        -0.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        3,
+        0,
+        0
+       ],
+       "1300-1400": [
+        5,
+        0,
+        1
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        265,
+        28,
+        1.08,
+        0.4
+       ],
+       "1300-1400": [
+        219,
+        20,
+        1.14,
+        0.6
+       ],
+       "1500-1700": [
+        131,
+        14,
+        1.23,
+        0.8
+       ],
+       "1800-2100": [
+        183,
+        28,
+        1.39,
+        1.9
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.102,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "ÇİLDUTAY",
+     "p_birlesik10": 0.0754,
+     "p_piyasa10": 0.0776,
+     "p_v9_agfli": 0.0066,
+     "p_v9_agfsiz": 0.0111,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "UÇANBEY",
+      "kendi_mesafe": {
+       "n": 9,
+       "birinci": 0,
+       "ilk3": 4
+      },
+      "baba_mesafe": {
+       "n": 436,
+       "birinci": 41,
+       "ae": 0.95,
+       "z": -0.3
+      },
+      "kendi_pist": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_pist": {
+       "n": 578,
+       "birinci": 50,
+       "ae": 0.87,
+       "z": -1.1
+      },
+      "kendi_aile": {
+       "n": 18,
+       "birinci": 0,
+       "ilk3": 7
+      },
+      "baba_aile": {
+       "n": 244,
+       "birinci": 26,
+       "ae": 1.14,
+       "z": 0.7
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 115,
+       "birinci": 9,
+       "ae": 0.89,
+       "z": -0.4
+      },
+      "annebaba": "KAIZBERT (RU)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        340,
+        45,
+        1.37,
+        2.4
+       ],
+       "1300-1400": [
+        500,
+        57,
+        1.11,
+        0.9
+       ],
+       "1500-1700": [
+        196,
+        25,
+        1.37,
+        1.8
+       ],
+       "1800-2100": [
+        202,
+        14,
+        0.81,
+        -0.9
+       ],
+       "2200+": [
+        36,
+        3,
+        0.92,
+        -0.2
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        7,
+        0,
+        3
+       ],
+       "1300-1400": [
+        9,
+        0,
+        4
+       ],
+       "1500-1700": [
+        4,
+        0,
+        1
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        256,
+        24,
+        1.04,
+        0.2
+       ],
+       "1300-1400": [
+        436,
+        41,
+        0.95,
+        -0.3
+       ],
+       "1500-1700": [
+        272,
+        21,
+        0.88,
+        -0.7
+       ],
+       "1800-2100": [
+        373,
+        23,
+        0.59,
+        -2.9
+       ],
+       "2200+": [
+        56,
+        7,
+        1.05,
+        0.1
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.042,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "BUZLUBADEM",
+     "p_birlesik10": 0.0528,
+     "p_piyasa10": 0.0591,
+     "p_v9_agfli": 0.0347,
+     "p_v9_agfsiz": 0.0472,
+     "h2h": -0.167,
+     "tercih": {
+      "baba": "FATİH AĞA",
+      "kendi_mesafe": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 638,
+       "birinci": 67,
+       "ae": 1.18,
+       "z": 1.5
+      },
+      "kendi_pist": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 1103,
+       "birinci": 129,
+       "ae": 1.18,
+       "z": 2.1
+      },
+      "kendi_aile": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 711,
+       "birinci": 74,
+       "ae": 1.16,
+       "z": 1.4
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 78,
+       "birinci": 11,
+       "ae": 1.28,
+       "z": 0.9
+      },
+      "annebaba": "BERKCAN",
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        3,
+        0,
+        1
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        604,
+        68,
+        1.19,
+        1.6
+       ],
+       "1300-1400": [
+        638,
+        67,
+        1.18,
+        1.5
+       ],
+       "1500-1700": [
+        275,
+        29,
+        1.0,
+        -0.0
+       ],
+       "1800-2100": [
+        288,
+        43,
+        1.34,
+        2.2
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.155,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "İVECEN",
+     "p_birlesik10": 0.0083,
+     "p_piyasa10": 0.0085,
+     "p_v9_agfli": 0.0032,
+     "p_v9_agfsiz": 0.0155,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "KURTÇABEY",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 158,
+       "birinci": 13,
+       "ae": 0.86,
+       "z": -0.6
+      },
+      "kendi_pist": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 320,
+       "birinci": 28,
+       "ae": 0.93,
+       "z": -0.4
+      },
+      "kendi_aile": {
+       "n": 8,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 119,
+       "birinci": 13,
+       "ae": 0.92,
+       "z": -0.4
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 45,
+       "birinci": 4,
+       "ae": 0.69,
+       "z": -0.9
+      },
+      "annebaba": "TAMERİNOĞLU",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        400,
+        32,
+        0.89,
+        -0.7
+       ],
+       "1300-1400": [
+        681,
+        55,
+        0.89,
+        -0.9
+       ],
+       "1500-1700": [
+        344,
+        28,
+        0.93,
+        -0.4
+       ],
+       "1800-2100": [
+        530,
+        67,
+        1.11,
+        1.0
+       ],
+       "2200+": [
+        67,
+        6,
+        0.75,
+        -0.8
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        4,
+        0,
+        0
+       ],
+       "1300-1400": [
+        4,
+        0,
+        1
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        107,
+        8,
+        0.76,
+        -0.9
+       ],
+       "1300-1400": [
+        158,
+        13,
+        0.86,
+        -0.6
+       ],
+       "1500-1700": [
+        58,
+        5,
+        1.02,
+        0.0
+       ],
+       "1800-2100": [
+        109,
+        7,
+        0.9,
+        -0.3
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.107,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "MADAM BONANZA",
+     "p_birlesik10": 0.0036,
+     "p_piyasa10": 0.004,
+     "p_v9_agfli": 0.002,
+     "p_v9_agfsiz": 0.0045,
+     "h2h": -0.15,
+     "tercih": {
+      "baba": "ARASLI",
+      "kendi_mesafe": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 124,
+       "birinci": 5,
+       "ae": 0.46,
+       "z": -1.9
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "baba_pist": {
+       "n": 297,
+       "birinci": 27,
+       "ae": 0.87,
+       "z": -0.8
+      },
+      "kendi_aile": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 102,
+       "birinci": 6,
+       "ae": 0.67,
+       "z": -1.1
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "annebaba": "HİSARBEY",
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        0
+       ],
+       "1300-1400": [
+        2,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        62,
+        6,
+        1.13,
+        0.3
+       ],
+       "1300-1400": [
+        124,
+        5,
+        0.46,
+        -1.9
+       ],
+       "1500-1700": [
+        68,
+        6,
+        0.94,
+        -0.2
+       ],
+       "1800-2100": [
+        151,
+        12,
+        0.82,
+        -0.7
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.455,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "YAZGILI",
+     "p_birlesik10": 0.0245,
+     "p_piyasa10": 0.0252,
+     "p_v9_agfli": 0.0045,
+     "p_v9_agfsiz": 0.0354,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "YILMABAŞAR",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 350,
+       "birinci": 44,
+       "ae": 1.12,
+       "z": 0.8
+      },
+      "kendi_pist": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 861,
+       "birinci": 126,
+       "ae": 1.18,
+       "z": 2.1
+      },
+      "kendi_aile": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 337,
+       "birinci": 32,
+       "ae": 0.98,
+       "z": -0.1
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 47,
+       "birinci": 4,
+       "ae": 0.85,
+       "z": -0.4
+      },
+      "annebaba": "ALBATUR",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        95,
+        13,
+        1.31,
+        1.1
+       ],
+       "1300-1400": [
+        183,
+        20,
+        1.08,
+        0.4
+       ],
+       "1500-1700": [
+        75,
+        7,
+        0.99,
+        -0.0
+       ],
+       "1800-2100": [
+        126,
+        6,
+        0.62,
+        -1.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        0
+       ],
+       "1300-1400": [
+        1,
+        0,
+        0
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        292,
+        34,
+        1.03,
+        0.2
+       ],
+       "1300-1400": [
+        350,
+        44,
+        1.12,
+        0.8
+       ],
+       "1500-1700": [
+        191,
+        22,
+        1.02,
+        0.1
+       ],
+       "1800-2100": [
+        288,
+        42,
+        1.2,
+        1.3
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.099,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Maiden (kazanmamışlar)",
+       "hip": "Antalya"
+      }
+     }
+    }
+   ]
   }
  }
 }
