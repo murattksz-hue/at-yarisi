@@ -66,6 +66,8 @@ for h,R in KS.items():
         # para girişi için koşuya yakın görüntüler (−30, −10, −3 dk); aynı dakikada birden çok iş tek kayıtla yapılır (ALINDI)
         for e in (30,10,3):
             if dk(t)-e<=dk(hm)<dk(t): is_(f"{h} {no}. koşu -{e}dk kayıt",lambda:calis('agf_kayit.py'))
+        # son dakika piyasa özeti (−10 dk görüntüsünden sonra, koşuya ~10 dk kala): veri/son_dakika/<tarih>/<hip>_<koşu>.md (yalnızca bilgi)
+        if dk(t)-10<=dk(hm)<dk(t): is_(f"{h} {no}. koşu son dakika özeti",lambda h=h,no=no:calis('son_dakika_ozet.py',g.isoformat(),h,no))
         for e in (20,45):   # kazanan profili (sürpriz analizi); para takibinden sonra
             if dk(hm)>=dk(t)+e: is_(f"{h} {no}. koşu kazanan profili +{e}",lambda h=h,no=no:calis('kazanan_profil.py',g.isoformat(),h,no))
         for e in (15,40):   # sonuç geç gelirse ikinci deneme
