@@ -22,12 +22,16 @@ for gun in gunler:
             try: cache[key]=json.loads(subprocess.run(['curl','-sS','--max-time','60','-A','Mozilla/5.0',f"https://ebayi.org/s/d/sonuclar/{gun.replace('-','')}/full/{EB.get(hip,hip.upper())}.json"],capture_output=True).stdout.decode('utf-8'))
             except Exception: cache[key]={}
         sk={str(x['NO']):{ak(a['AD']):int(a['SONUC']) for a in x.get('atlar',[]) if not a.get('KOSMAZ') and str(a.get('SONUC') or '').isdigit()} for x in cache[key].get('kosular',[])}
+        gk={str(x['NO']):{ak(a['AD']):a.get('GANYAN') for a in x.get('atlar',[]) if not a.get('KOSMAZ')} for x in cache[key].get('kosular',[])}
         r=sk.get(str(v['kosu']))
         if not r or sorted(r.values()).count(1)!=1: sonucsuz+=1; continue
         if not (0<=v['goruntu_koşuya_dk']<=20): bayat+=1; continue
         win=[a for a in v['atlar'] if r.get(ak(a['ad']))==1]
         if len(win)!=1: continue
-        row=dict(gun=gun,hip=hip,kosu=v['kosu'],kazanan=win[0]['ad'],guven=v['guven'],tip=v.get('tip') or {},risk=v.get('surpriz_riski'),KL=v.get('liste_uzunlugu'),listede=(win[0]['ad'] in (v.get('secim_liste') or [])) if v.get('secim_liste') else None)
+        G=gk.get(str(v['kosu']),{}); fg=lambda ad:(lambda x:float(str(x).replace(',','.')) if x not in (None,'') else None)(G.get(ak(ad)))
+        row=dict(gun=gun,hip=hip,kosu=v['kosu'],kazanan=win[0]['ad'],guven=v['guven'],tip=v.get('tip') or {},risk=v.get('surpriz_riski'),KL=v.get('liste_uzunlugu'),listede=(win[0]['ad'] in (v.get('secim_liste') or [])) if v.get('secim_liste') else None,
+                 g_kazanan=fg(win[0]['ad']),ilk_secim_kazandi=(v.get('secim_1')==win[0]['ad']),
+                 satirlar=[dict(at=a['ad'],sonuc=r.get(ak(a['ad'])),ganyan=fg(a['ad']),p_birlesik10=a['p_birlesik10'],p_piyasa10=a['p_piyasa10'],listede=int(a['ad'] in (v.get('secim_liste') or []))) for a in v['atlar']])
         for n,pk,_ in ARMS:
             ps=[a[pk] for a in v['atlar']]
             if any(p is None for p in ps): row[n]=None; continue
@@ -59,6 +63,15 @@ for gv in ('net','orta','düşük'):
     if sel: L.append(f"- Güven '{gv}': {len(sel)} koşu, 1. seçim tuttu %{100*sum(r['birlesik10'][0]==1 for r in sel)/len(sel):.0f}")
 L+=['','Rastgele beklenti ≈ 1/ortalama at sayısı (≈%10); piyasa favorisi tarihsel olarak ~%33–35 kazanır.']
 import csv as _csv
+with open(os.path.join(od,'sonuc_ganyan.csv'),'w',newline='',encoding='utf-8') as _f:   # her at: sonuç sırası ve kesin (kapanış) ganyan, tahmin olasılıkları, listede mi (her çalıştırmada yeniden üretilir)
+    _w=_csv.writer(_f); _w.writerow(['tarih','hip','kosu','at','sonuc','kesin_ganyan','p_birlesik10','p_piyasa10','listede'])
+    for r in S:
+        for a in r['satirlar']: _w.writerow([r['gun'],r['hip'],r['kosu'],a['at'],a['sonuc'] if a['sonuc'] is not None else '',a['ganyan'] if a['ganyan'] is not None else '',a['p_birlesik10'],a['p_piyasa10'],a['listede']])
+GL=[r for r in S if r['g_kazanan']]
+if GL:
+    _cost=sum(r['KL'] or 0 for r in GL); _ret=sum(r['g_kazanan'] for r in GL if r['listede']); _c1=len(GL); _r1=sum(r['g_kazanan'] for r in GL if r['ilk_secim_kazandi'])
+    L+=['',f"**Ganyan getirisi (kapanış ganyanıyla, 1 TL/at; kesinti dahil, gerçek bahis bu rakama yakın):** tüm liste her koşuda ({_cost} TL): {_ret:.1f} TL → %{100*_ret/max(_cost,1):.0f}; yalnızca ilk seçim ({_c1} TL): {_r1:.1f} TL → %{100*_r1/max(_c1,1):.0f}. Küçük örnekte anlamsız; tarihsel düz oyun getirisi ~%70–80."]
+
 with open(os.path.join(od,'kosu_sonuclari.csv'),'w',newline='',encoding='utf-8') as _f:   # koşu başına kol sıraları (koşu çeşidi raporu için; her çalıştırmada yeniden üretilir)
     _w=_csv.writer(_f); _w.writerow(['tarih','hip','kosu','irk','tur','aile','mesafe','pist','guven','birlesik10_sira','piyasa10_sira','v9_agfli_sira','v9_agfsiz_sira'])
     for r in S: _w.writerow([r['gun'],r['hip'],r['kosu'],r['tip'].get('irk',''),r['tip'].get('tur',''),r['tip'].get('aile',''),r['tip'].get('mesafe',''),r['tip'].get('pist',''),r['guven']]+[(r[n][0] if r[n] else '') for n in ('birlesik10','piyasa10','v9_agfli','v9_agfsiz')])
