@@ -971,3 +971,6 @@ Kısa sonuçlar; örnek küçük olanlar "olası" diye okunmalı.
 - **Sabah v9 AGF'li kolu bugün −12 dk BİRLEŞİK_10'dan iyi** (7/14 ilk seçim; İzmir 5'te Cabbar Efe'yi 1. seçmişti). 14 koşu anlamsız; ≥300 koşuda ölçülecek.
 - **Hatalar/düzeltmeler (bugün):** HP sırası eşitlik sızıntısı bulundu, eski "HP ilk 3, getiri %127" bulgusu geri çekildi; kodda iki sözdizimi hatası (tırnak) yapıldı ve aynı saat içinde düzeltildi; 🎯 işaretinin dayanağı kalmadı (A/E 0,98). −12 dk tetiği, mesafe profili (at+baba), koşu çeşidi kaydı, sonuç ganyanları ve gözden kaçan kazanan raporu eklendi. İndirme tamamlandı: at_gecmisi 2020-01→2026-11 (402 bin satır).
 - Yarın sabah beklenen: TAM+15 dk dondurma doğrulaması, yeni gün programı.
+
+## 27.11.2026 hazırlığı
+- Program (ebayi, 26.11 akşamı): **Bursa ve İzmir** (+ yabancı hipodromlar). Yenibeygir gece Blt kaydı alındı: `veri/yenibeygir_el_kayit/blt_2026-11-27.csv` (İzmir 6 koşu 53 at, Bursa 7 koşu 74 at; koşu başı toplam 93–97). Sabah 09:40 TR'de otomatik kontrol (plan, TAM saatleri, TAM+15 dk dondurma, Blt–AGF karşılaştırması) zamanlandı. Actions döngüsü yarın 07:55 cron-job.org tetiğiyle başlar. 61 pytest geçti.
