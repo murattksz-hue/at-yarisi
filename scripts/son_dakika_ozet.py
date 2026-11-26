@@ -2,7 +2,7 @@
 Girdiler (yalnızca okur): veri/tahminler/<tarih>_<hip>[_agfsiz].json (dondurulmuş v9), veri/agf_kayit/<tarih>/<hip>_<HHMM>UTC_ebayi.json (AGF1/AGF2/ganyan/koşmaz), veri/plan/<tarih>.json (koşu saati),
 veri/tahminler_birlesik/<tarih>.json (varsa BİRLEŞİK). Çıktı: veri/son_dakika/<tarih>/<hip>_<koşu>.md (yeni dosya).
 İçerik: at başına bizim olasılıklar (v9 AGF'li, AGF'siz, varsa BİRLEŞİK), piyasa (şimdi, AGF), sabaha ve −60 dk'ya göre AGF/ganyan değişimi, işaretler; bizim ve piyasanın favorisi farklı mı; para girişi olan atlar.
-İşaretler (YALNIZCA bilgi, test edilmedi): 💰 ganyan −60 dk'ya göre >=%30 düştü (g60/g_şimdi >=1,4), 📈 AGF sabaha göre +%30 ve +3 puan, 📉 AGF sabaha göre −%30 ve −3 puan, ⚖ bizim olasılığımız piyasanın >=1,3 katı (değer adayı; kanıtlanmış değil), 🎯 uzun at (piyasa <%10) + bu mesafede atın geçmişi uyumlu (bantta >=4 koşu, ilk-3 >=%50) + babası bu bantta olumlu (test: A/E ~1,1-1,2 ama anlamsız; yalnızca bilgi)."""
+İşaretler (YALNIZCA bilgi, test edilmedi): 💰 ganyan −60 dk'ya göre >=%30 düştü (g60/g_şimdi >=1,4), 📈 AGF sabaha göre +%30 ve +3 puan, 📉 AGF sabaha göre −%30 ve −3 puan, ⚖ bizim olasılığımız piyasanın >=1,3 katı (değer adayı; kanıtlanmış değil), 🎯 uzun at (piyasa <%10) + bu mesafede atın geçmişi uyumlu (bantta >=4 koşu, ilk-3 >=%50) + babası bu bantta olumlu (26.11 genişletilmiş veriyle test: A/E ≈0,98, avantaj YOK; yalnızca bilgi)."""
 import os,sys,re,json,glob,datetime,csv
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import kosu_tipi   # -I ile script dizini sys.path'te olmaz
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
