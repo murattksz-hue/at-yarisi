@@ -55,5 +55,111 @@
     ]
    }
   ]
+ },
+ "İzmir-2": {
+  "hipodrom": "İzmir",
+  "kosu": 2,
+  "zaman": "14:30",
+  "tjk_goruntu": "14:30",
+  "ebayi_goruntu": "14:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "11",
+    "favori_ebayi": "11",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.05,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "11",
+    "sabah_favori_ebayi": "11",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ANGEL ON THE RIGHT DB SKG SK",
+      "tjk": 3.66,
+      "ebayi": 3.67,
+      "fark": 0.01
+     },
+     {
+      "at": "2",
+      "ad": "BOARDING PASS KG SK",
+      "tjk": 5.37,
+      "ebayi": 5.37,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "BLUE REFLECTION KG DB SK",
+      "tjk": 7.32,
+      "ebayi": 7.31,
+      "fark": -0.01
+     },
+     {
+      "at": "4",
+      "ad": "BOCCE DB SKG SK",
+      "tjk": 9.66,
+      "ebayi": 9.65,
+      "fark": -0.01
+     },
+     {
+      "at": "5",
+      "ad": "LAST SWORD KG DB SK",
+      "tjk": 16.64,
+      "ebayi": 16.59,
+      "fark": -0.05
+     },
+     {
+      "at": "6",
+      "ad": "NO BRAKES KG K DB",
+      "tjk": 10.54,
+      "ebayi": 10.52,
+      "fark": -0.02
+     },
+     {
+      "at": "7",
+      "ad": "BARİ DB SK",
+      "tjk": 1.45,
+      "ebayi": 1.47,
+      "fark": 0.02
+     },
+     {
+      "at": "8",
+      "ad": "LODATO DB SKG SK",
+      "tjk": 7.13,
+      "ebayi": 7.12,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "BATTLECAT DB SK YP",
+      "tjk": 6.47,
+      "ebayi": 6.47,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "CHEROKEE KG K DB",
+      "tjk": 2.44,
+      "ebayi": 2.45,
+      "fark": 0.01
+     },
+     {
+      "at": "11",
+      "ad": "MUFASA KG K DB SK",
+      "tjk": 28.73,
+      "ebayi": 28.74,
+      "fark": 0.01
+     },
+     {
+      "at": "12",
+      "ad": "LORD SENTINEL K DB",
+      "tjk": 0.61,
+      "ebayi": 0.65,
+      "fark": 0.04
+     }
+    ]
+   }
+  ]
  }
 }
