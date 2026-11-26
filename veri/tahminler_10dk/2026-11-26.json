@@ -1,0 +1,85 @@
+{
+ "tarih": "2026-11-26",
+ "surum": "tahmin_10dk_v1",
+ "ayarlar": {
+  "b_h2h": 0.5,
+  "k_ganyan": 1.05
+ },
+ "kosular": {
+  "İzmir|1": {
+   "tip": {
+    "tur": "Şartlı 2",
+    "aile": "Şartlı",
+    "irk": "Arap",
+    "yas": "3",
+    "mesafe": "1400",
+    "mesafe_band": "1400-1699",
+    "pist": "Kum"
+   },
+   "hip": "İzmir",
+   "kosu": 1,
+   "saat": "15:00",
+   "olusturma_tr": "2026-11-26T14:52:07+03:00",
+   "goruntu_utc": "1151",
+   "goruntu_koşuya_dk": 9,
+   "piyasa_kaynak": "ganyan",
+   "secim_1": "BAŞ YARGIÇ",
+   "secim_ilk3": [
+    "BAŞ YARGIÇ",
+    "KÜÇÜK HASO",
+    "HIRÇIN DADAŞ"
+   ],
+   "surpriz_riski": "düşük",
+   "surpriz_p": 0.122,
+   "liste_uzunlugu": 3,
+   "secim_liste": [
+    "BAŞ YARGIÇ",
+    "KÜÇÜK HASO",
+    "HIRÇIN DADAŞ"
+   ],
+   "guven": "net",
+   "atlar": [
+    {
+     "ad": "KÜÇÜK HASO",
+     "p_birlesik10": 0.225,
+     "p_piyasa10": 0.2384,
+     "p_v9_agfli": 0.292,
+     "p_v9_agfsiz": 0.292,
+     "h2h": 0.0
+    },
+    {
+     "ad": "BAŞ YARGIÇ",
+     "p_birlesik10": 0.4705,
+     "p_piyasa10": 0.431,
+     "p_v9_agfli": 0.3588,
+     "p_v9_agfsiz": 0.3588,
+     "h2h": 0.292
+    },
+    {
+     "ad": "HIRÇIN DADAŞ",
+     "p_birlesik10": 0.1964,
+     "p_piyasa10": 0.2081,
+     "p_v9_agfli": 0.2288,
+     "p_v9_agfsiz": 0.2288,
+     "h2h": 0.0
+    },
+    {
+     "ad": "SONEJDER",
+     "p_birlesik10": 0.0477,
+     "p_piyasa10": 0.0585,
+     "p_v9_agfli": 0.0541,
+     "p_v9_agfsiz": 0.0541,
+     "h2h": -0.292
+    },
+    {
+     "ad": "SUPHRA",
+     "p_birlesik10": 0.0604,
+     "p_piyasa10": 0.064,
+     "p_v9_agfli": 0.0663,
+     "p_v9_agfsiz": 0.0663,
+     "h2h": 0.0
+    }
+   ]
+  }
+ }
+}
