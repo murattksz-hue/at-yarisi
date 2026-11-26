@@ -161,5 +161,76 @@
     ]
    }
   ]
+ },
+ "İzmir-3": {
+  "hipodrom": "İzmir",
+  "kosu": 3,
+  "zaman": "15:00",
+  "tjk_goruntu": "15:00",
+  "ebayi_goruntu": "15:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.06,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "5",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "FLOR DA ROSA KG K DB",
+      "tjk": 1.41,
+      "ebayi": 1.41,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ZEYTİN KG K DB",
+      "tjk": 3.44,
+      "ebayi": 3.43,
+      "fark": -0.01
+     },
+     {
+      "at": "4",
+      "ad": "DO IT FOR LOVE KG K",
+      "tjk": 10.49,
+      "ebayi": 10.5,
+      "fark": 0.01
+     },
+     {
+      "at": "5",
+      "ad": "DREAM OF ANGEL DB SKG SK",
+      "tjk": 60.74,
+      "ebayi": 60.8,
+      "fark": 0.06
+     },
+     {
+      "at": "6",
+      "ad": "LIFE IS SIMPLE K DB",
+      "tjk": 0.75,
+      "ebayi": 0.75,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "SIDE FIRE K DB",
+      "tjk": 3.09,
+      "ebayi": 3.1,
+      "fark": 0.01
+     },
+     {
+      "at": "8",
+      "ad": "SWEET HARD DB SK",
+      "tjk": 18.59,
+      "ebayi": 18.56,
+      "fark": -0.03
+     }
+    ]
+   }
+  ]
  }
 }
