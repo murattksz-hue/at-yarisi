@@ -706,5 +706,104 @@
     ]
    }
   ]
+ },
+ "Antalya-2": {
+  "hipodrom": "Antalya",
+  "kosu": 2,
+  "zaman": "18:00",
+  "tjk_goruntu": "18:00",
+  "ebayi_goruntu": "18:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.03,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "BABA TUNA DB GKR",
+      "tjk": 17.07,
+      "ebayi": 17.09,
+      "fark": 0.02
+     },
+     {
+      "at": "2",
+      "ad": "HARESE KG DB SK",
+      "tjk": 32.01,
+      "ebayi": 32.01,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ALŞUBATHAN KG DB SK",
+      "tjk": 8.84,
+      "ebayi": 8.85,
+      "fark": 0.01
+     },
+     {
+      "at": "4",
+      "ad": "BELALI CİBEK KG DB SK",
+      "tjk": 12.63,
+      "ebayi": 12.66,
+      "fark": 0.03
+     },
+     {
+      "at": "5",
+      "ad": "KOCAMUTLU KG K",
+      "tjk": 8.65,
+      "ebayi": 8.62,
+      "fark": -0.03
+     },
+     {
+      "at": "6",
+      "ad": "KEMİK KAPTAN KG K DB GKR",
+      "tjk": 8.38,
+      "ebayi": 8.36,
+      "fark": -0.02
+     },
+     {
+      "at": "7",
+      "ad": "ASIM EFE KG SK",
+      "tjk": 0.72,
+      "ebayi": 0.72,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "ÇELİK BARON KG DB SK",
+      "tjk": 0.48,
+      "ebayi": 0.47,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "ORLİGON KG K",
+      "tjk": 4.46,
+      "ebayi": 4.48,
+      "fark": 0.02
+     },
+     {
+      "at": "10",
+      "ad": "TARIKCANBEY KG SK",
+      "tjk": 2.55,
+      "ebayi": 2.54,
+      "fark": -0.01
+     },
+     {
+      "at": "11",
+      "ad": "ÜLGENHAN",
+      "tjk": 4.2,
+      "ebayi": 4.19,
+      "fark": -0.01
+     }
+    ]
+   }
+  ]
  }
 }
