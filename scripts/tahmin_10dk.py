@@ -47,6 +47,37 @@ for key in R:
     for a in ks:
         for c in ks:
             if a!=c: H[(a,c)][1]+=1; H[(a,c)][0]+=pos[a]<pos[c]
+# --- koşul tercihleri: atın kendisi ve babası (yavruları) hangi mesafe/pist/çeşitte iyi (kapanış ganyanına göre piyasa-düzeltmeli A/E)
+def _band(m):
+    try: m=int(m)
+    except Exception: return '?'
+    return '≤1200' if m<=1200 else '1300-1400' if m<=1400 else '1500-1700' if m<=1700 else '1800-2100' if m<=2100 else '2200+'
+HS=collections.defaultdict(lambda:[0,0,0]); SS=collections.defaultdict(lambda:[0,0.0,0,0.0]); BABA={}
+for key,rs0 in R.items():
+    gg=[f(r['ganyan']) for r in rs0]; ok=len(rs0)>=5 and not any(x is None or x<=1 for x in gg) and sum(r['sonuc'].strip()=='1' for r in rs0)==1
+    if ok: iv=[1/x for x in gg]; sv=sum(iv)
+    for i,r in enumerate(rs0):
+        hk=ak(r['at']); bb=(r['baba'] or '').upper().strip()
+        if bb: BABA[hk]=bb
+        if not r['sonuc'].strip().isdigit(): continue
+        dims=(('mesafe',_band(r['mesafe'])),('pist',r['pist'] or '?'))
+        pos=int(r['sonuc'])
+        for d in dims:
+            h=HS[(hk,)+d]; h[0]+=1; h[1]+=pos==1; h[2]+=pos<=3
+            if ok and bb:
+                p=iv[i]/sv; t=SS[(bb,)+d]; t[0]+=1; t[1]+=p; t[2]+=pos==1; t[3]+=p*(1-p)
+_bk=None
+for _k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []):
+    if str(_k['kosu'])==kno: _bk=_k.get('baslik','')
+_ti=kosu_tipi.sinif(_bk) if _bk else {}
+_dd=(('mesafe',_band(_ti.get('mesafe',''))),('pist',_ti.get('pist','?')))
+def tercih(ad):
+    hk=ak(ad); bb=BABA.get(hk); o={'baba':bb}
+    for d,v in _dd:
+        h=HS.get((hk,d,v)); o['kendi_'+d]={'n':h[0],'birinci':h[1],'ilk3':h[2]} if h else {'n':0}
+        t=SS.get((bb,d,v)) if bb else None
+        if t and t[0]>=30: o['baba_'+d]={'n':t[0],'birinci':t[2],'ae':round(t[2]/max(t[1],1e-9),2),'z':round((t[2]-t[1])/max(t[3],1e-9)**0.5,1)}
+    o['baslik']=dict(_dd); return o
 ks=[ak(a) for a in atlar]; sk=[]
 for i,a in enumerate(ks):
     t=0.0
@@ -73,7 +104,7 @@ for _k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []):
     if str(_k['kosu'])==kno: _b=_k.get('baslik','')
 D['kosular'][anah]={'tip':kosu_tipi.sinif(_b) if _b else None,'hip':hip,'kosu':int(kno),'saat':saat,'olusturma_tr':datetime.datetime.now(TR).isoformat(timespec='seconds'),'goruntu_utc':b,'goruntu_koşuya_dk':once,'piyasa_kaynak':kaynak,
   'secim_1':atlar[sira[0]],'secim_ilk3':[atlar[i] for i in sira[:3]],'surpriz_riski':risk,'surpriz_p':round(p_sur,3),'liste_uzunlugu':KL,'secim_liste':[atlar[i] for i in sira[:KL]],'guven':'net' if pc.max()>=0.40 else 'orta' if pc.max()>=0.28 else 'düşük',
-  'atlar':[{'ad':atlar[i],'p_birlesik10':round(float(pc[i]),4),'p_piyasa10':round(float(pm[i]),4),'p_v9_agfli':None if p9 is None else round(float(p9[i]),4),'p_v9_agfsiz':None if p9s is None else round(float(p9s[i]),4),'h2h':round(float(sk[i]),3)} for i in range(len(atlar))]}
+  'atlar':[{'ad':atlar[i],'p_birlesik10':round(float(pc[i]),4),'p_piyasa10':round(float(pm[i]),4),'p_v9_agfli':None if p9 is None else round(float(p9[i]),4),'p_v9_agfsiz':None if p9s is None else round(float(p9s[i]),4),'h2h':round(float(sk[i]),3),'tercih':tercih(atlar[i])} for i in range(len(atlar))]}
 json.dump(D,open(yol,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 L=[f'# −10 dk tahminleri — {gun}','','| Koşu | Saat | Liste (BİRLEŞİK_10; sürpriz riskine göre 3/4/5 at) | Risk | Güven | Piyasa favorisi | Görüntü (koşuya dk) |','|---|---|---|---|---|---|---|']
 for k,v in sorted(D['kosular'].items(),key=lambda kv:(kv[1]['saat'],kv[1]['hip'])):
