@@ -54,6 +54,8 @@ B=yukle(os.path.join(K,'veri','tahminler_birlesik',f'{gun}.json'))
 if B:
     for k in B.get('hipodromlar',{}).get(hip,{}).get('kosular',[]):
         if str(k['kosu'])==kno: PB={ak(a['ad']):a['p_birlesik'] for a in k['atlar']}
+R10=(yukle(os.path.join(K,'veri','tahminler_10dk',f'{gun}.json')) or {}).get('kosular',{}).get(f'{hip}|{kno}')
+if R10: PB={ak(a['ad']):a['p_birlesik10'] for a in R10['atlar']}   # −10 dk BİRLEŞİK (sabahki BİRLEŞİK değil)
 if not N: sys.exit('bu koşu için eBayi verisi yok')
 agfs=[v['agf'] for v in N.values() if v['agf']]
 piyasa={k:(v['agf']/sum(agfs) if (v['agf'] and sum(1 for x in N.values() if x['agf'])>=0.7*len(N)) else None) for k,v in N.items()}
@@ -87,7 +89,7 @@ L+=['','**Favoriler:** '+' · '.join(f"{n}: {ad(k) if k else '—'}" for n,k in 
 farkli={n for n,k in favs.items() if k and k!=favs['piyasa'] and favs['piyasa']}
 L.append('Bizim kollarla piyasa favorisi **ayrışıyor**: '+', '.join(sorted(farkli)) if farkli else 'Bizim kollar piyasa favorisiyle **aynı atta birleşiyor** (ya da tahmin yok).')
 _ps=sum(x for x in piyasa.values() if x is not None and x<0.10); _r='yüksek' if _ps>0.31 else 'orta' if _ps>0.198 else 'düşük'; _kl={'düşük':3,'orta':4,'yüksek':5}[_r]
-_pr=PB or P9 or piyasa; _top=sorted(_pr,key=lambda k:-(_pr.get(k) or 0))[:_kl]
+_pr=PB or P9 or piyasa; _top=[ak(x) for x in R10['secim_liste']] if R10 else sorted(_pr,key=lambda k:-(_pr.get(k) or 0))[:_kl]; _r=R10['surpriz_riski'] if R10 else _r; _kl=len(_top)
 L.append(f"**Sürpriz riski: {_r}** (piyasada %10 altı atların payı %{100*_ps:.0f}) → liste {_kl} at: "+', '.join(ad(k) for k in _top)+'. Geçmişte bu uzunlukta kazanan listede ~%76–81.')
 para=[ad(k) for k,v,fl in rows if '💰' in fl]
 if para: L.append('Para girişi (💰): '+', '.join(para))
