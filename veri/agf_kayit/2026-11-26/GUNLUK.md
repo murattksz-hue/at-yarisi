@@ -13,6 +13,7 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 
 | Hipodrom | Koşu | Saat | Altılı | Favori TJK | Favori ebayi | Aynı favori | İlk 3 aynı | Maks fark | Sabah→şimdi favori TJK | Sabah→şimdi favori ebayi |
 |---|---|---|---|---|---|---|---|---|---|---|
+| Antalya | 1 | 17:31 | 1. | — | — | ✓ | ✓ | — | —→— | —→— |
 | İzmir | 1 | 14:01 | 1. | — | — | ✓ | ✓ | — | —→— | —→— |
 | İzmir | 2 | 14:30 | 1. | 11 | 11 | ✓ | ✓ | 0.05 | 11→11 | 11→11 |
 | İzmir | 3 | 15:00 | 1. | 5 | 5 | ✓ | ✓ | 0.06 | 5→5 | 5→5 |

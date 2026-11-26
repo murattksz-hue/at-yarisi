@@ -600,5 +600,111 @@
     ]
    }
   ]
+ },
+ "Antalya-1": {
+  "hipodrom": "Antalya",
+  "kosu": 1,
+  "zaman": "17:31",
+  "tjk_goruntu": "17:30",
+  "ebayi_goruntu": "17:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": null,
+    "favori_ebayi": null,
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": null,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": null,
+    "sabah_favori_ebayi": null,
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ÇAĞIM KG SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "2",
+      "ad": "BEKATA KG K",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "3",
+      "ad": "AĞIR ŞEKİL KG SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "4",
+      "ad": "ORTUNÇ KG SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "5",
+      "ad": "SENAN KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "6",
+      "ad": "TUGUNTAY KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "7",
+      "ad": "ÜNYE BEYİ KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "8",
+      "ad": "DERİN DERYA DB SKG SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "9",
+      "ad": "GÖKSU KATUN K",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "10",
+      "ad": "GÖREN ABLA DB",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "11",
+      "ad": "MENESSAL KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "12",
+      "ad": "REFİYE KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     }
+    ]
+   }
+  ]
  }
 }
