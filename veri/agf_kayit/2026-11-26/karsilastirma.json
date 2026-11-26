@@ -289,5 +289,125 @@
     ]
    }
   ]
+ },
+ "İzmir-5": {
+  "hipodrom": "İzmir",
+  "kosu": 5,
+  "zaman": "16:00",
+  "tjk_goruntu": "15:48",
+  "ebayi_goruntu": "16:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "6",
+    "sabah_favori_ebayi": "6",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "BER KEMAL KG GKR",
+      "tjk": 1.44,
+      "ebayi": 1.44,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "UMUT TAY KG DB SK",
+      "tjk": 5.03,
+      "ebayi": 5.03,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ALTINTEPE KG K DB",
+      "tjk": 28.65,
+      "ebayi": 28.65,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "SEMEND BATUR KG DB SK",
+      "tjk": 5.37,
+      "ebayi": 5.37,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "JÖN ROME KG SK",
+      "tjk": 6.31,
+      "ebayi": 6.31,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "CABBAR EFE KG SK GKR",
+      "tjk": 9.89,
+      "ebayi": 9.89,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "EDİZBARIŞ KG DB SK",
+      "tjk": 5.9,
+      "ebayi": 5.9,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "GERARD KG K DB",
+      "tjk": 11.12,
+      "ebayi": 11.12,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "KÖYCÜ BEY KG K DB",
+      "tjk": 4.28,
+      "ebayi": 4.28,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "ÖZTAMER KG DB SK",
+      "tjk": 0.47,
+      "ebayi": 0.47,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "TILISIM KG DB SK",
+      "tjk": 1.12,
+      "ebayi": 1.12,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "AHUU ATA KG SK",
+      "tjk": 1.15,
+      "ebayi": 1.15,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "CİHANA BEDEL KG",
+      "tjk": 10.73,
+      "ebayi": 10.73,
+      "fark": 0.0
+     },
+     {
+      "at": "14",
+      "ad": "IŞIK GECE KG DB SK ÖG",
+      "tjk": 8.54,
+      "ebayi": 8.54,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
