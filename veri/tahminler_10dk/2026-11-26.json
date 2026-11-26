@@ -80,6 +80,139 @@
      "h2h": 0.0
     }
    ]
+  },
+  "İzmir|2": {
+   "tip": {
+    "tur": "Handikap 16",
+    "aile": "Handikap",
+    "irk": "İngiliz",
+    "yas": "3+",
+    "mesafe": "1400",
+    "mesafe_band": "1400-1699",
+    "pist": "Kum"
+   },
+   "hip": "İzmir",
+   "kosu": 2,
+   "saat": "15:30",
+   "olusturma_tr": "2026-11-26T15:18:22+03:00",
+   "goruntu_utc": "1218",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "MUFASA",
+   "secim_ilk3": [
+    "MUFASA",
+    "LAST SWORD",
+    "NO BRAKES"
+   ],
+   "surpriz_riski": "yüksek",
+   "surpriz_p": 0.446,
+   "liste_uzunlugu": 5,
+   "secim_liste": [
+    "MUFASA",
+    "LAST SWORD",
+    "NO BRAKES",
+    "BOCCE",
+    "BLUE REFLECTION"
+   ],
+   "guven": "düşük",
+   "atlar": [
+    {
+     "ad": "ANGEL ON THE RIGHT",
+     "p_birlesik10": 0.0414,
+     "p_piyasa10": 0.0366,
+     "p_v9_agfli": 0.0501,
+     "p_v9_agfsiz": 0.068,
+     "h2h": 0.212
+    },
+    {
+     "ad": "BOARDING PASS",
+     "p_birlesik10": 0.0591,
+     "p_piyasa10": 0.0563,
+     "p_v9_agfli": 0.0568,
+     "p_v9_agfsiz": 0.0675,
+     "h2h": 0.064
+    },
+    {
+     "ad": "BLUE REFLECTION",
+     "p_birlesik10": 0.0786,
+     "p_piyasa10": 0.0713,
+     "p_v9_agfli": 0.0699,
+     "p_v9_agfsiz": 0.1325,
+     "h2h": 0.164
+    },
+    {
+     "ad": "BOCCE",
+     "p_birlesik10": 0.0882,
+     "p_piyasa10": 0.0959,
+     "p_v9_agfli": 0.0929,
+     "p_v9_agfsiz": 0.1563,
+     "h2h": -0.2
+    },
+    {
+     "ad": "LAST SWORD",
+     "p_birlesik10": 0.1553,
+     "p_piyasa10": 0.1599,
+     "p_v9_agfli": 0.1547,
+     "p_v9_agfsiz": 0.1709,
+     "h2h": -0.091
+    },
+    {
+     "ad": "NO BRAKES",
+     "p_birlesik10": 0.1088,
+     "p_piyasa10": 0.1004,
+     "p_v9_agfli": 0.0723,
+     "p_v9_agfsiz": 0.085,
+     "h2h": 0.129
+    },
+    {
+     "ad": "BARİ",
+     "p_birlesik10": 0.0153,
+     "p_piyasa10": 0.0165,
+     "p_v9_agfli": 0.058,
+     "p_v9_agfsiz": 0.0505,
+     "h2h": -0.189
+    },
+    {
+     "ad": "LODATO",
+     "p_birlesik10": 0.0688,
+     "p_piyasa10": 0.0702,
+     "p_v9_agfli": 0.0692,
+     "p_v9_agfsiz": 0.05,
+     "h2h": -0.071
+    },
+    {
+     "ad": "BATTLECAT",
+     "p_birlesik10": 0.0726,
+     "p_piyasa10": 0.0668,
+     "p_v9_agfli": 0.062,
+     "p_v9_agfsiz": 0.0452,
+     "h2h": 0.135
+    },
+    {
+     "ad": "CHEROKEE",
+     "p_birlesik10": 0.027,
+     "p_piyasa10": 0.0262,
+     "p_v9_agfli": 0.0805,
+     "p_v9_agfsiz": 0.0699,
+     "h2h": 0.03
+    },
+    {
+     "ad": "MUFASA",
+     "p_birlesik10": 0.2787,
+     "p_piyasa10": 0.2936,
+     "p_v9_agfli": 0.1793,
+     "p_v9_agfsiz": 0.0944,
+     "h2h": -0.136
+    },
+    {
+     "ad": "LORD SENTINEL",
+     "p_birlesik10": 0.0064,
+     "p_piyasa10": 0.0064,
+     "p_v9_agfli": 0.0544,
+     "p_v9_agfsiz": 0.0097,
+     "h2h": -0.045
+    }
+   ]
   }
  }
 }
