@@ -1,7 +1,10 @@
 {
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
-      "source": { "source": "github", "repo": "anthropics/claude-plugins-official" }
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
     }
   },
   "enabledPlugins": {
@@ -13,5 +16,17 @@
     "session-report@claude-plugins-official": true,
     "security-guidance@claude-plugins-official": true,
     "pyright-lsp@claude-plugins-official": true
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"$CLAUDE_PROJECT_DIR/.claude/hooks/task-observer-start.sh\""
+          }
+        ]
+      }
+    ]
   }
 }

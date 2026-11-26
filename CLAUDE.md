@@ -40,7 +40,7 @@ Türkiye at yarışları (TJK): her koşuyu kaydet, koşudan önce tahmin yap, s
 - `.claude/hookify.*.local.md` kuralları: canlı betik/CSV düzenleme uyarısı, eşitlikte sıralama sızıntı uyarısı, push öncesi kontrol hatırlatması, bota kapalı sitelere (agftablosu, agftahmin, liderform) istek **engeli**.
 
 ## task-observer (oturum gözlemleri → skill iyileştirmeleri)
-Skill: `.claude/skills/task-observer/` (CC-BY-4.0, kaynak rebelytics/one-skill-to-rule-them-all). Gözlemler `skill-observations/` içinde, **her oturum sonunda commit+push** edilir (public repo: kişisel bilgi/anahtar yazma). Yanıtlarda gözlem raporu **tek satır**, laf kalabalığı yok.
+Skill: `.claude/skills/task-observer/` (CC-BY-4.0, kaynak rebelytics/one-skill-to-rule-them-all). Gözlemler `skill-observations/` içinde, **her oturum sonunda commit+push** edilir (public repo: kişisel bilgi/anahtar yazma). Yanıtlarda gözlem raporu **tek satır**, laf kalabalığı yok. Aktivasyon `SessionStart` kancasıyla da zorlanır (`.claude/hooks/task-observer-start.sh`, `.claude/settings.json`); sorun çıkarsa `settings.json`'dan `hooks` bölümünü silmek yeter.
 
 ```text
 (task-observer activation block — template of v3.12.0)
