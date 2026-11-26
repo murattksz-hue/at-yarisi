@@ -16,7 +16,7 @@ R=collections.defaultdict(list)
 for fn in sorted(glob.glob(os.path.join(K,'veri','at_gecmisi','*','*.csv.gz'))):
     for r in csv.DictReader(io.TextIOWrapper(gzip.open(fn),encoding='utf-8')): R[(r['tarih'],r['hip'],r['kosu'])].append(r)
 HA=collections.defaultdict(lambda:[0,0]); HB=collections.defaultdict(lambda:[0,0]); SB=collections.defaultdict(lambda:[0,0,0.0])
-races=[]; G=collections.defaultdict(lambda:[0,0.0,0.0,0,0,0.0,0.0])   # grup: n,beklenen,gerçek, ... (ilk/ikinci yarı ayrı)
+races=[]; HROWS=[]   # grup: n,beklenen,gerçek, ... (ilk/ikinci yarı ayrı)
 def z(x):
     x=np.array(x,float); s=x.std(); return (x-x.mean())/s if s>1e-9 else x*0
 for key in sorted(R):
@@ -34,6 +34,7 @@ for key in sorted(R):
             s=(r['baba'] or '').upper().strip(); n_s,w_s,e_s=SB[(s,b)] if s else (0,0,0.0)
             bab.append(math.log((w_s+5)/(e_s+5)) if n_s>=30 else 0.0)
         races.append(dict(t=key[0],L=np.log(p),w=w,F={'kendi':z(own),'baba':z(bab),'ikisi':z(own)+z(bab)},grp=grp,p=p))
+        for i,r in enumerate(rs): HROWS.append((key[0],float(p[i]),i==w,own[i],bab[i],grp[i],g[i]))
     # geçmişi güncelle (bu koşu bitti)
     if b is not None:
         if ok: iv=[1/v for v in g]; sv=sum(iv)
@@ -81,3 +82,23 @@ for gr in ('uyumlu','uyumsuz'):
                 if gg==gr: n+=1; e+=r['p'][i]; o+=(i==r['w']); v+=r['p'][i]*(1-r['p'][i])
         out.append(f"{ad} yarı n={n} gerçek {o} beklenen {e:.1f} A/E {o/e if e else 0:.2f} z {(o-e)/math.sqrt(v) if v else 0:+.1f}")
     print(f"  {gr:8s} "+' | '.join(out))
+
+# --- SÜRPRİZ ODAKLI: yalnızca uzun atlar (piyasa olasılığı <%10), ham özellik (standartlaştırılmamış) ---
+print('\nUZUN ATLAR (piyasa p<%10): özellik gruplarına göre A/E (beklenen = kapanış piyasası), ilk yarı | ikinci yarı')
+def blok(ad,sel):
+    out=[]
+    for yn,y in (('ilk',lambda t:t<orta),('ikinci',lambda t:t>=orta)):
+        n=0;e=0.0;o=0;v=0.0
+        for t,p,w,ow,ba,gr,gn in HROWS:
+            if p<0.10 and y(t) and sel(ow,ba,gr): n+=1;e+=p;o+=w;v+=p*(1-p)
+        out.append(f"{yn} n={n:5d} gerçek {o:3d} beklenen {e:6.1f} A/E {o/e if e else 0:.2f} z {(o-e)/math.sqrt(v) if v else 0:+.1f}")
+    print(f"  {ad:34s} "+' | '.join(out))
+blok('tüm uzun atlar',lambda ow,ba,gr:True)
+blok('mesafeye uyumlu at',lambda ow,ba,gr:gr=='uyumlu')
+blok('mesafeye uyumsuz at',lambda ow,ba,gr:gr=='uyumsuz')
+blok('kendi bant farkı >= +0,15',lambda ow,ba,gr:ow>=0.15)
+blok('kendi bant farkı <= -0,15',lambda ow,ba,gr:ow<=-0.15)
+blok('baba bant log(A/E) >= +0,10',lambda ow,ba,gr:ba>=0.10)
+blok('baba bant log(A/E) <= -0,10',lambda ow,ba,gr:ba<=-0.10)
+blok('uyumlu at + baba olumlu',lambda ow,ba,gr:gr=='uyumlu' and ba>=0.05)
+blok('ganyan>=20 ve uyumlu',lambda ow,ba,gr:gr=='uyumlu')
