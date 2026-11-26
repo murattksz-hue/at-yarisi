@@ -91,19 +91,17 @@ L.append('Bizim kollarla piyasa favorisi **ayrışıyor**: '+', '.join(sorted(fa
 _ps=sum(x for x in piyasa.values() if x is not None and x<0.10); _r='yüksek' if _ps>0.31 else 'orta' if _ps>0.198 else 'düşük'; _kl={'düşük':3,'orta':4,'yüksek':5}[_r]
 _pr=PB or P9 or piyasa; _top=[ak(x) for x in R10['secim_liste']] if R10 else sorted(_pr,key=lambda k:-(_pr.get(k) or 0))[:_kl]; _r=R10['surpriz_riski'] if R10 else _r; _kl=len(_top)
 L.append(f"**Sürpriz riski: {_r}** (piyasada %10 altı atların payı %{100*_ps:.0f}) → liste {_kl} at: "+', '.join(ad(k) for k in _top)+'. Geçmişte bu uzunlukta kazanan listede ~%76–81.')
-if R10:   # koşul tercihleri: atın kendisi ve babası bugünkü mesafe bandı, pist, koşu türü (aile) ve hipodromda (n küçükse gösterge değil)
-    _tm={ak(a['ad']):a.get('tercih') for a in R10['atlar']}; _ls=[]
-    _ad={'mesafe':'mesafe','pist':'pist','aile':'tür','hip':'hipodrom'}
+if R10:   # mesafe tercihi: atın kendisi ve babasının yavruları hangi mesafeyi seviyor (bugünkü bant [..] içinde); n küçükse gösterge değil
+    _tm={ak(a['ad']):a.get('tercih') for a in R10['atlar']}; _ls=[]; B5=('≤1200','1300-1400','1500-1700','1800-2100','2200+')
     for _k in [ak(x) for x in R10['secim_liste']]:
         t=_tm.get(_k)
-        if not t: continue
-        kendi=[]; baba=[]
-        for d in ('mesafe','pist','aile','hip'):
-            v=t['baslik'].get(d,'?'); kd=t.get('kendi_'+d,{}); bd=t.get('baba_'+d)
-            kendi.append(f"{_ad[d]} {kd.get('birinci',0)}/{kd.get('ilk3',0)}/{kd.get('n',0)}")
-            if bd: baba.append(f"{_ad[d]} {bd['ae']} (n={bd['n']})")
-        _ls.append(f"- {ad(_k)[:16]}: kendi (birinci/ilk3/koşu) "+', '.join(kendi)+(f" | baba {str(t['baba'])[:14]} A/E: "+', '.join(baba) if baba else ''))
-    if _ls: L+=['','**Koşul uyumu (listedeki atlar; bugünkü mesafe bandı, pist, koşu türü ve hipodromda; n küçükse gösterge değil):**']+_ls
+        if not t or 'kendi_mesafe_hepsi' not in t: continue
+        bg=t['baslik'].get('mesafe','?'); kh=t['kendi_mesafe_hepsi']; bh=t['baba_mesafe_hepsi']
+        mk=lambda b:('['+b+']' if b==bg else b)
+        kendi=' | '.join(f"{mk(b)} {kh[b][1]}/{kh[b][2]}/{kh[b][0]}" for b in B5 if kh[b][0])
+        baba=' | '.join(f"{mk(b)} {bh[b][2]}" for b in B5 if b in bh)
+        _ls.append(f"- {ad(_k)[:16]}: kendi (birinci/ilk3/koşu) {kendi or 'geçmiş yok'}"+(f" || baba {str(t['baba'])[:14]} A/E {baba}" if baba else ''))
+    if _ls: L+=['','**Mesafe tercihi (listedeki atlar; [köşeli] = bugünkü mesafe; n küçükse gösterge değil):**']+_ls
 para=[ad(k) for k,v,fl in rows if '💰' in fl]
 if para: L.append('Para girişi (💰): '+', '.join(para))
 # koşu çeşidi: tarihsel taban oranları ve bizim canlı sicilimiz

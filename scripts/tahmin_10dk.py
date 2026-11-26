@@ -77,6 +77,13 @@ def tercih(ad):
         h=HS.get((hk,d,v)); o['kendi_'+d]={'n':h[0],'birinci':h[1],'ilk3':h[2]} if h else {'n':0}
         t=SS.get((bb,d,v)) if bb else None
         if t and t[0]>=30: o['baba_'+d]={'n':t[0],'birinci':t[2],'ae':round(t[2]/max(t[1],1e-9),2),'z':round((t[2]-t[1])/max(t[3],1e-9)**0.5,1)}
+    # tüm mesafe bantları: atın kendisi ve babası hangi mesafeyi seviyor
+    B5=('≤1200','1300-1400','1500-1700','1800-2100','2200+'); kh={}; bh={}
+    for b in B5:
+        h=HS.get((hk,'mesafe',b)); kh[b]=[h[0],h[1],h[2]] if h else [0,0,0]
+        t=SS.get((bb,'mesafe',b)) if bb else None
+        if t and t[0]>=30: bh[b]=[t[0],t[2],round(t[2]/max(t[1],1e-9),2),round((t[2]-t[1])/max(t[3],1e-9)**0.5,1)]
+    o['kendi_mesafe_hepsi']=kh; o['baba_mesafe_hepsi']=bh
     o['baslik']=dict(_dd); return o
 ks=[ak(a) for a in atlar]; sk=[]
 for i,a in enumerate(ks):
