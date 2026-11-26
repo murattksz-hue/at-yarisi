@@ -10875,6 +10875,1360 @@
      }
     }
    ]
+  },
+  "Antalya|4": {
+   "tip": {
+    "tur": "Handikap 15",
+    "aile": "Handikap",
+    "irk": "İngiliz",
+    "yas": "3",
+    "mesafe": "2100",
+    "mesafe_band": "2000+",
+    "pist": "Sentetik"
+   },
+   "hip": "Antalya",
+   "kosu": 4,
+   "saat": "20:00",
+   "olusturma_tr": "2026-11-26T19:49:45+03:00",
+   "goruntu_utc": "1649",
+   "goruntu_koşuya_dk": 11,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "NART THE BATTLE",
+   "secim_ilk3": [
+    "NART THE BATTLE",
+    "APOLLON",
+    "MAEGELLE"
+   ],
+   "surpriz_riski": "yüksek",
+   "surpriz_p": 0.352,
+   "liste_uzunlugu": 5,
+   "secim_liste": [
+    "NART THE BATTLE",
+    "APOLLON",
+    "MAEGELLE",
+    "DEEP OF ANCESTOR",
+    "TAŞDEMİR HAN"
+   ],
+   "guven": "düşük",
+   "atlar": [
+    {
+     "ad": "APOLLON",
+     "p_birlesik10": 0.2244,
+     "p_piyasa10": 0.2153,
+     "p_v9_agfli": 0.2101,
+     "p_v9_agfsiz": 0.1595,
+     "h2h": 0.083,
+     "tercih": {
+      "baba": "ABBAS YOLCU",
+      "kendi_mesafe": {
+       "n": 8,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 163,
+       "birinci": 16,
+       "ae": 1.11,
+       "z": 0.4
+      },
+      "kendi_pist": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_pist": {
+       "n": 30,
+       "birinci": 2,
+       "ae": 1.01,
+       "z": 0.0
+      },
+      "kendi_aile": {
+       "n": 15,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_aile": {
+       "n": 146,
+       "birinci": 15,
+       "ae": 1.15,
+       "z": 0.6
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": "VICTORY GALLOP (CAN)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        549,
+        71,
+        1.06,
+        0.5
+       ],
+       "1300-1400": [
+        1138,
+        131,
+        1.01,
+        0.1
+       ],
+       "1500-1700": [
+        616,
+        74,
+        1.13,
+        1.2
+       ],
+       "1800-2100": [
+        1387,
+        173,
+        1.06,
+        0.9
+       ],
+       "2200+": [
+        138,
+        14,
+        0.82,
+        -0.8
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        1
+       ],
+       "1300-1400": [
+        10,
+        2,
+        3
+       ],
+       "1500-1700": [
+        7,
+        1,
+        2
+       ],
+       "1800-2100": [
+        8,
+        0,
+        1
+       ],
+       "2200+": [
+        2,
+        0,
+        1
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        72,
+        4,
+        0.58,
+        -1.2
+       ],
+       "1300-1400": [
+        119,
+        10,
+        1.01,
+        0.0
+       ],
+       "1500-1700": [
+        58,
+        7,
+        1.5,
+        1.2
+       ],
+       "1800-2100": [
+        163,
+        16,
+        1.11,
+        0.4
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.075,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "NART THE BATTLE",
+     "p_birlesik10": 0.2618,
+     "p_piyasa10": 0.2692,
+     "p_v9_agfli": 0.256,
+     "p_v9_agfsiz": 0.3333,
+     "h2h": -0.056,
+     "tercih": {
+      "baba": "BATTLEGROUND (USA)",
+      "kendi_mesafe": {
+       "n": 7,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_mesafe": {
+       "n": 111,
+       "birinci": 16,
+       "ae": 1.14,
+       "z": 0.6
+      },
+      "kendi_pist": {
+       "n": 7,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "baba_pist": {
+       "n": 119,
+       "birinci": 17,
+       "ae": 1.36,
+       "z": 1.4
+      },
+      "kendi_aile": {
+       "n": 5,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_aile": {
+       "n": 117,
+       "birinci": 13,
+       "ae": 1.09,
+       "z": 0.3
+      },
+      "kendi_hip": {
+       "n": 3,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 30,
+       "birinci": 7,
+       "ae": 2.05,
+       "z": 2.2
+      },
+      "annebaba": "RIP VAN WINKLE (IRE)",
+      "annebaba_mesafe_hepsi": {
+       "1800-2100": [
+        37,
+        1,
+        0.25,
+        -1.7
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        0
+       ],
+       "1300-1400": [
+        3,
+        0,
+        0
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        7,
+        1,
+        4
+       ],
+       "2200+": [
+        5,
+        1,
+        4
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        172,
+        14,
+        0.78,
+        -1.1
+       ],
+       "1300-1400": [
+        208,
+        23,
+        1.09,
+        0.5
+       ],
+       "1500-1700": [
+        101,
+        12,
+        1.36,
+        1.2
+       ],
+       "1800-2100": [
+        111,
+        16,
+        1.14,
+        0.6
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.097,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "TAŞDEMİR HAN",
+     "p_birlesik10": 0.0863,
+     "p_piyasa10": 0.0863,
+     "p_v9_agfli": 0.0411,
+     "p_v9_agfsiz": 0.1411,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "TIGER MOTH (IRE)",
+      "kendi_mesafe": {
+       "n": 9,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "kendi_pist": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "kendi_aile": {
+       "n": 14,
+       "birinci": 1,
+       "ilk3": 6
+      },
+      "baba_aile": {
+       "n": 41,
+       "birinci": 3,
+       "ae": 0.58,
+       "z": -1.1
+      },
+      "kendi_hip": {
+       "n": 10,
+       "birinci": 1,
+       "ilk3": 5
+      },
+      "annebaba": "THREE VALLEYS (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        94,
+        7,
+        0.62,
+        -1.4
+       ],
+       "1300-1400": [
+        153,
+        14,
+        0.9,
+        -0.5
+       ],
+       "1500-1700": [
+        74,
+        6,
+        0.83,
+        -0.5
+       ],
+       "1800-2100": [
+        82,
+        11,
+        1.11,
+        0.4
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        1
+       ],
+       "1300-1400": [
+        9,
+        0,
+        4
+       ],
+       "1500-1700": [
+        2,
+        1,
+        2
+       ],
+       "1800-2100": [
+        9,
+        1,
+        4
+       ],
+       "2200+": [
+        1,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        31,
+        3,
+        0.71,
+        -0.7
+       ],
+       "1300-1400": [
+        53,
+        3,
+        0.75,
+        -0.5
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "WINNING DRAGON",
+     "p_birlesik10": 0.0753,
+     "p_piyasa10": 0.0753,
+     "p_v9_agfli": 0.0334,
+     "p_v9_agfsiz": 0.1112,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "TIGER MOTH (IRE)",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 4
+      },
+      "kendi_pist": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "kendi_aile": {
+       "n": 10,
+       "birinci": 1,
+       "ilk3": 5
+      },
+      "baba_aile": {
+       "n": 41,
+       "birinci": 3,
+       "ae": 0.58,
+       "z": -1.1
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": "VELOCIRAPTOR (GB)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        37,
+        3,
+        1.02,
+        0.0
+       ],
+       "1300-1400": [
+        106,
+        7,
+        0.7,
+        -1.1
+       ],
+       "1500-1700": [
+        76,
+        6,
+        0.73,
+        -0.9
+       ],
+       "1800-2100": [
+        119,
+        19,
+        1.31,
+        1.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        3,
+        0,
+        1
+       ],
+       "1300-1400": [
+        10,
+        1,
+        5
+       ],
+       "1500-1700": [
+        4,
+        1,
+        1
+       ],
+       "1800-2100": [
+        4,
+        0,
+        4
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        31,
+        3,
+        0.71,
+        -0.7
+       ],
+       "1300-1400": [
+        53,
+        3,
+        0.75,
+        -0.5
+       ]
+      },
+      "mesafe_uyum": "uyumlu",
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "MAEGELLE",
+     "p_birlesik10": 0.1573,
+     "p_piyasa10": 0.164,
+     "p_v9_agfli": 0.2007,
+     "p_v9_agfsiz": 0.0456,
+     "h2h": -0.083,
+     "tercih": {
+      "baba": "TORUK MACTO (IRE)",
+      "kendi_mesafe": {
+       "n": 6,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_mesafe": {
+       "n": 90,
+       "birinci": 9,
+       "ae": 0.89,
+       "z": -0.4
+      },
+      "kendi_pist": {
+       "n": 8,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_pist": {
+       "n": 47,
+       "birinci": 5,
+       "ae": 1.24,
+       "z": 0.5
+      },
+      "kendi_aile": {
+       "n": 14,
+       "birinci": 0,
+       "ilk3": 5
+      },
+      "baba_aile": {
+       "n": 106,
+       "birinci": 5,
+       "ae": 0.49,
+       "z": -1.8
+      },
+      "kendi_hip": {
+       "n": 8,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_hip": {
+       "n": 54,
+       "birinci": 4,
+       "ae": 0.83,
+       "z": -0.4
+      },
+      "annebaba": "INVINCIBLE SPIRIT (IRE)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        44,
+        7,
+        1.13,
+        0.4
+       ],
+       "1300-1400": [
+        103,
+        13,
+        1.06,
+        0.2
+       ],
+       "1500-1700": [
+        57,
+        8,
+        1.09,
+        0.3
+       ],
+       "1800-2100": [
+        66,
+        5,
+        1.01,
+        0.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        6,
+        1,
+        2
+       ],
+       "1500-1700": [
+        7,
+        1,
+        3
+       ],
+       "1800-2100": [
+        6,
+        0,
+        3
+       ],
+       "2200+": [
+        2,
+        0,
+        2
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        39,
+        5,
+        1.38,
+        0.8
+       ],
+       "1300-1400": [
+        94,
+        6,
+        0.71,
+        -0.9
+       ],
+       "1500-1700": [
+        45,
+        3,
+        0.72,
+        -0.6
+       ],
+       "1800-2100": [
+        90,
+        9,
+        0.89,
+        -0.4
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.073,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "SERREŞ",
+     "p_birlesik10": 0.023,
+     "p_piyasa10": 0.0236,
+     "p_v9_agfli": 0.0269,
+     "p_v9_agfsiz": 0.0434,
+     "h2h": -0.056,
+     "tercih": {
+      "baba": "EUPRHATES (USA)",
+      "kendi_mesafe": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 242,
+       "birinci": 30,
+       "ae": 1.2,
+       "z": 1.1
+      },
+      "kendi_pist": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 110,
+       "birinci": 21,
+       "ae": 1.69,
+       "z": 2.8
+      },
+      "kendi_aile": {
+       "n": 6,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 225,
+       "birinci": 15,
+       "ae": 0.87,
+       "z": -0.6
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 54,
+       "birinci": 6,
+       "ae": 1.15,
+       "z": 0.4
+      },
+      "annebaba": "LAWMAN (FR)",
+      "annebaba_mesafe_hepsi": {
+       "1300-1400": [
+        33,
+        1,
+        0.25,
+        -1.7
+       ],
+       "1800-2100": [
+        52,
+        7,
+        1.41,
+        1.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        3,
+        0,
+        1
+       ],
+       "1300-1400": [
+        8,
+        1,
+        2
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        7,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        259,
+        26,
+        1.22,
+        1.1
+       ],
+       "1300-1400": [
+        254,
+        14,
+        0.79,
+        -1.0
+       ],
+       "1500-1700": [
+        129,
+        10,
+        0.96,
+        -0.1
+       ],
+       "1800-2100": [
+        242,
+        30,
+        1.2,
+        1.1
+       ]
+      },
+      "mesafe_uyum": "uyumsuz",
+      "baba_log_ae": 0.157,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "SWEET VICTORY",
+     "p_birlesik10": 0.0466,
+     "p_piyasa10": 0.0466,
+     "p_v9_agfli": 0.0349,
+     "p_v9_agfsiz": 0.0627,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "VICTORY GALLOP (CAN)",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 686,
+       "birinci": 84,
+       "ae": 0.9,
+       "z": -1.1
+      },
+      "kendi_pist": {
+       "n": 4,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 253,
+       "birinci": 24,
+       "ae": 0.71,
+       "z": -1.9
+      },
+      "kendi_aile": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 568,
+       "birinci": 57,
+       "ae": 0.88,
+       "z": -1.0
+      },
+      "kendi_hip": {
+       "n": 2,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 129,
+       "birinci": 21,
+       "ae": 1.01,
+       "z": 0.1
+      },
+      "annebaba": "AFTER MARKET (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        101,
+        16,
+        1.7,
+        2.4
+       ],
+       "1300-1400": [
+        131,
+        12,
+        0.93,
+        -0.3
+       ],
+       "1500-1700": [
+        76,
+        6,
+        0.88,
+        -0.3
+       ],
+       "1800-2100": [
+        168,
+        16,
+        0.99,
+        -0.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        5,
+        1,
+        1
+       ],
+       "1500-1700": [
+        3,
+        0,
+        0
+       ],
+       "1800-2100": [
+        1,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        129,
+        14,
+        0.92,
+        -0.4
+       ],
+       "1300-1400": [
+        365,
+        50,
+        0.95,
+        -0.4
+       ],
+       "1500-1700": [
+        242,
+        31,
+        0.92,
+        -0.6
+       ],
+       "1800-2100": [
+        686,
+        84,
+        0.9,
+        -1.1
+       ],
+       "2200+": [
+        99,
+        15,
+        1.0,
+        -0.0
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.102,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "DEEP OF ANCESTOR",
+     "p_birlesik10": 0.103,
+     "p_piyasa10": 0.0974,
+     "p_v9_agfli": 0.1768,
+     "p_v9_agfsiz": 0.0633,
+     "h2h": 0.111,
+     "tercih": {
+      "baba": "APPROVE (IRE)",
+      "kendi_mesafe": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 407,
+       "birinci": 35,
+       "ae": 0.88,
+       "z": -0.9
+      },
+      "kendi_pist": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_pist": {
+       "n": 303,
+       "birinci": 34,
+       "ae": 1.08,
+       "z": 0.5
+      },
+      "kendi_aile": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 681,
+       "birinci": 68,
+       "ae": 1.09,
+       "z": 0.8
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 95,
+       "birinci": 16,
+       "ae": 1.36,
+       "z": 1.5
+      },
+      "annebaba": "GREAT JOURNEY (JPN)",
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        0
+       ],
+       "1300-1400": [
+        7,
+        0,
+        5
+       ],
+       "1500-1700": [
+        5,
+        0,
+        4
+       ],
+       "1800-2100": [
+        5,
+        0,
+        1
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        402,
+        54,
+        1.19,
+        1.5
+       ],
+       "1300-1400": [
+        731,
+        69,
+        1.04,
+        0.4
+       ],
+       "1500-1700": [
+        337,
+        32,
+        1.07,
+        0.4
+       ],
+       "1800-2100": [
+        407,
+        35,
+        0.88,
+        -0.9
+       ],
+       "2200+": [
+        44,
+        6,
+        1.17,
+        0.4
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.115,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "SOSAN",
+     "p_birlesik10": 0.0146,
+     "p_piyasa10": 0.0146,
+     "p_v9_agfli": 0.0156,
+     "p_v9_agfsiz": 0.0173,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "ENYALIOS",
+      "kendi_mesafe": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 35,
+       "birinci": 3,
+       "ae": 0.79,
+       "z": -0.5
+      },
+      "kendi_pist": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "kendi_aile": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 44,
+       "birinci": 1,
+       "ae": 0.29,
+       "z": -1.4
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": "SEA HERO (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        158,
+        12,
+        0.91,
+        -0.4
+       ],
+       "1300-1400": [
+        245,
+        9,
+        0.45,
+        -2.7
+       ],
+       "1500-1700": [
+        139,
+        10,
+        0.98,
+        -0.1
+       ],
+       "1800-2100": [
+        202,
+        14,
+        0.85,
+        -0.7
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        7,
+        0,
+        2
+       ],
+       "1300-1400": [
+        7,
+        0,
+        2
+       ],
+       "1500-1700": [
+        2,
+        0,
+        1
+       ],
+       "1800-2100": [
+        7,
+        0,
+        1
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        51,
+        0,
+        0.0,
+        -1.6
+       ],
+       "1300-1400": [
+        33,
+        0,
+        0.0,
+        -1.6
+       ],
+       "1800-2100": [
+        35,
+        3,
+        0.79,
+        -0.5
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.095,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    },
+    {
+     "ad": "FIRE CROWN",
+     "p_birlesik10": 0.0078,
+     "p_piyasa10": 0.0078,
+     "p_v9_agfli": 0.0044,
+     "p_v9_agfsiz": 0.0227,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "TIZWAY (USA)",
+      "kendi_mesafe": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_mesafe": {
+       "n": 672,
+       "birinci": 79,
+       "ae": 1.0,
+       "z": -0.0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "baba_pist": {
+       "n": 360,
+       "birinci": 45,
+       "ae": 1.06,
+       "z": 0.4
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "baba_aile": {
+       "n": 699,
+       "birinci": 96,
+       "ae": 1.11,
+       "z": 1.2
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 183,
+       "birinci": 27,
+       "ae": 1.09,
+       "z": 0.5
+      },
+      "annebaba": "UNACCOUNTED FOR (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        416,
+        69,
+        1.25,
+        2.1
+       ],
+       "1300-1400": [
+        856,
+        104,
+        1.02,
+        0.2
+       ],
+       "1500-1700": [
+        571,
+        80,
+        1.14,
+        1.3
+       ],
+       "1800-2100": [
+        1025,
+        181,
+        1.23,
+        3.2
+       ],
+       "2200+": [
+        112,
+        17,
+        0.99,
+        -0.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        0
+       ],
+       "1300-1400": [
+        1,
+        0,
+        0
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        5,
+        0,
+        2
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        399,
+        51,
+        1.0,
+        0.0
+       ],
+       "1300-1400": [
+        763,
+        104,
+        1.16,
+        1.7
+       ],
+       "1500-1700": [
+        428,
+        63,
+        1.34,
+        2.7
+       ],
+       "1800-2100": [
+        672,
+        79,
+        1.0,
+        -0.0
+       ],
+       "2200+": [
+        77,
+        6,
+        0.7,
+        -1.0
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.003,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Sentetik",
+       "aile": "Handikap",
+       "hip": "Antalya"
+      }
+     }
+    }
+   ]
   }
  }
 }
