@@ -1,6 +1,6 @@
 # at-yarisi: Claude için proje notları
 
-Türkiye at yarışları (TJK): her koşuyu kaydet, koşudan önce tahmin yap, sonucu ölç, hatalarımızdan öğren. Ayrıntılı bulgular `BILGI.md` (tarihli bölümler), bekleyen testler `YAPILACAK_TESTLER.md`.
+Türkiye at yarışları (TJK): her koşuyu kaydet, koşudan önce tahmin yap, sonucu ölç, hatalarımızdan öğren. **Önce `ANALIZ_INDEKSI.md` oku** (tüm analizler ve sonuçları tek tabloda; geri çekilen/geçersiz bulgular işaretli). Ayrıntılı bulgular `BILGI.md` (tarihli bölümler), bekleyen testler `YAPILACAK_TESTLER.md`.
 
 ## Kullanıcı tercihleri (uy)
 - **Kısa ve net Türkçe**, laf kalabalığı yok. Telefondan adım adım yönlendir. Belirsizliği açıkça söyle.
