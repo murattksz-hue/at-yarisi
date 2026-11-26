@@ -1,47 +1,66 @@
 # Baba × koşul tercihleri (piyasa-düzeltmeli)
 
-Kaynak: at_gecmisi (2020-01-01 – 2026-11-25); n>=150 ve |z|>=2,5; 3342 hücreden 41 tanesi. A/E>1: yavrular o koşulda piyasadan iyi. Son sütun: yalnızca ikinci yarıdaki A/E (kalıcılık). Çok hücre bakıldığı için bir kısmı şans olabilir.
+Kaynak: at_gecmisi (2020-01-01 – 2026-11-25); n>=150 ve |z|>=2,5; 4587 hücreden 83 tanesi. A/E>1: yavrular o koşulda piyasadan iyi. Son sütun: yalnızca ikinci yarıdaki A/E (kalıcılık). Çok hücre bakıldığı için bir kısmı şans olabilir.
 
 | Baba | Boyut | Değer | n | Birinci | Beklenen | A/E | z | A/E (2. yarı) |
 |---|---|---|---|---|---|---|---|---|
-| KAYAYÜREKLİ | aile | Handikap | 521 | 80 | 51.0 | 1.57 | 4.5 | 1.73 |
-| GOOD CURRY | pist | Kum | 460 | 91 | 64.1 | 1.42 | 3.9 | 1.43 |
-| TAMERİNOĞLU | aile | Şartlı | 876 | 75 | 106.5 | 0.7 | -3.5 | 0.8 |
-| ŞİMŞEĞİNOĞLU | hip | Şanlıurfa | 451 | 65 | 44.2 | 1.47 | 3.5 | 1.62 |
-| TAMERİNOĞLU | pist | Kum | 1915 | 182 | 226.7 | 0.8 | -3.4 | 0.86 |
-| KINOWA | aile | Maiden (kazanmamışlar) | 180 | 4 | 15.8 | 0.25 | -3.3 | 0.23 |
-| KAYAYÜREKLİ | mesafe | 1500-1700 | 254 | 39 | 24.5 | 1.59 | 3.2 | 1.37 |
-| TOUGH GUY | pist | Kum | 151 | 45 | 30.8 | 1.46 | 3.2 | 1.45 |
-| ARTOS | mesafe | 1300-1400 | 163 | 26 | 15.3 | 1.7 | 3.1 | 1.79 |
-| KAYAYÜREKLİ | pist | Çim | 446 | 65 | 46.2 | 1.41 | 3.1 | 1.3 |
-| GÜRSU | pist | Kum | 179 | 5 | 16.1 | 0.31 | -3.0 | 0.32 |
-| EXPANSION (USA) | pist | Kum | 176 | 35 | 23.0 | 1.52 | 2.9 | 1.64 |
-| KAYAYÜREKLİ | aile | Maiden (kazanmamışlar) | 289 | 41 | 27.6 | 1.49 | 2.9 | 1.19 |
-| KLUGER (JPN) | mesafe | ≤1200 | 151 | 24 | 14.4 | 1.67 | 2.9 | 1.53 |
-| RUN AWAY AND HIDE (USA) | mesafe | ≤1200 | 214 | 35 | 22.9 | 1.53 | 2.9 | 1.46 |
-| AUTHORIZED (IRE) | hip | İstanbul | 423 | 24 | 39.7 | 0.61 | -2.8 | 0.58 |
-| HİSARBEY | pist | Kum | 235 | 10 | 22.1 | 0.45 | -2.8 | 0.45 |
-| LION HEART (USA) | hip | Şanlıurfa | 214 | 7 | 17.7 | 0.4 | -2.8 | 0.35 |
-| ŞİMŞEĞİNOĞLU | pist | Kum | 1040 | 124 | 98.9 | 1.25 | 2.8 | 1.36 |
-| ARASLI | mesafe | 1300-1400 | 257 | 12 | 23.8 | 0.5 | -2.7 | 0.38 |
-| AYABAKAN | pist | Sentetik | 518 | 72 | 54.0 | 1.33 | 2.7 | 1.28 |
-| EL CORREDOR (USA) | mesafe | ≤1200 | 159 | 28 | 18.0 | 1.56 | 2.7 | 0.88 |
-| EMBİR HAN | pist | Kum | 403 | 60 | 44.3 | 1.36 | 2.7 | 1.21 |
-| GRAYSTORM | aile | Handikap | 664 | 82 | 62.8 | 1.31 | 2.7 | 1.19 |
-| KLUGER (JPN) | mesafe | 1300-1400 | 283 | 42 | 29.1 | 1.44 | 2.7 | 1.4 |
+| FAST 'N' FAMOUS (AUS) | aile | Handikap | 218 | 49 | 26.1 | 1.88 | 5.0 | 1.54 |
+| KAYAYÜREKLİ | mesafe | 1500-1700 | 348 | 55 | 34.0 | 1.62 | 4.0 | 1.59 |
+| SUPER SAVER (USA) | hip | Şanlıurfa | 159 | 28 | 14.1 | 1.98 | 4.0 | 1.98 |
+| GOOD CURRY | pist | Kum | 460 | 91 | 64.1 | 1.42 | 3.9 | 1.42 |
+| KAYAYÜREKLİ | aile | Handikap | 631 | 89 | 61.1 | 1.46 | 3.9 | 1.52 |
+| TOUGH GUY | pist | Kum | 200 | 54 | 35.9 | 1.51 | 3.7 | 1.48 |
+| ŞİMŞEĞİNOĞLU | hip | Şanlıurfa | 855 | 109 | 79.0 | 1.38 | 3.7 | 1.47 |
+| RUN AWAY AND HIDE (USA) | mesafe | ≤1200 | 288 | 52 | 33.6 | 1.55 | 3.6 | 1.44 |
+| TAMERİNOĞLU | pist | Kum | 3056 | 298 | 357.9 | 0.83 | -3.6 | 0.87 |
+| KAYAYÜREKLİ | aile | Maiden (kazanmamışlar) | 477 | 64 | 43.4 | 1.48 | 3.5 | 1.5 |
+| TAMERİNOĞLU | aile | Şartlı | 1483 | 132 | 172.4 | 0.77 | -3.5 | 0.76 |
+| DERVİŞ AĞA | pist | Kum | 280 | 38 | 23.3 | 1.63 | 3.3 | 0.0 |
+| FAST 'N' FAMOUS (AUS) | pist | Çim | 329 | 64 | 45.0 | 1.42 | 3.3 | 1.11 |
+| HİSARBEY | pist | Kum | 449 | 18 | 36.0 | 0.5 | -3.3 | 0.43 |
+| KINOWA | aile | Maiden (kazanmamışlar) | 180 | 4 | 15.8 | 0.25 | -3.3 | 0.25 |
+| TÜMÖZ BEY | hip | Kocaeli | 280 | 49 | 32.3 | 1.51 | 3.3 | 1.39 |
+| ÖZHABER | hip | Bursa | 668 | 99 | 74.0 | 1.34 | 3.3 | 1.1 |
+| SON MARTI | aile | Handikap | 301 | 16 | 32.5 | 0.49 | -3.2 | 0.49 |
+| ŞİMŞEĞİNOĞLU | pist | Kum | 2428 | 274 | 229.3 | 1.2 | 3.2 | 1.24 |
+| AUTHORIZED (IRE) | hip | İstanbul | 458 | 25 | 43.4 | 0.58 | -3.1 | 0.5 |
+| HAKEEM (USA) | mesafe | 1300-1400 | 1314 | 195 | 161.2 | 1.21 | 3.1 | 1.09 |
+| POWERSCOURT (GB) | mesafe | 1300-1400 | 304 | 13 | 27.5 | 0.47 | -3.1 | 0.29 |
+| ÖZDURAN | mesafe | ≤1200 | 400 | 55 | 37.6 | 1.46 | 3.1 | 1.52 |
+| JOKER | hip | Şanlıurfa | 280 | 35 | 21.9 | 1.6 | 3.0 | 1.84 |
+| KAYAYÜREKLİ | pist | Çim | 695 | 94 | 71.2 | 1.32 | 3.0 | 1.32 |
+| EXPANSION (USA) | pist | Kum | 277 | 47 | 32.6 | 1.44 | 2.9 | 1.57 |
+| KLUGER (JPN) | mesafe | ≤1200 | 151 | 24 | 14.4 | 1.67 | 2.9 | 1.67 |
+| ROCKMASTER (IRE) | pist | Kum | 514 | 69 | 50.3 | 1.37 | 2.9 | 1.34 |
+| TÜMÖZ BEY | mesafe | 1800-2100 | 793 | 122 | 96.9 | 1.26 | 2.9 | 1.18 |
+| TÜMÖZ BEY | pist | Kum | 2286 | 291 | 250.8 | 1.16 | 2.9 | 1.14 |
+| ÖZDURAN | pist | Kum | 1175 | 140 | 111.9 | 1.25 | 2.9 | 1.26 |
+| BANKNOTE (GB) | pist | Kum | 239 | 5 | 14.9 | 0.34 | -2.8 | 0.0 |
+| BİTİRİMKARINCA | aile | Handikap | 160 | 22 | 12.9 | 1.7 | 2.8 | 1.53 |
+| CAPTAIN RIO (GB) | aile | Maiden (kazanmamışlar) | 556 | 73 | 54.9 | 1.33 | 2.8 | 1.44 |
+| RED GIANT (USA) | aile | Handikap | 337 | 19 | 34.0 | 0.56 | -2.8 | 0.48 |
+| TRAPPE SHOT (USA) | pist | Çim | 325 | 16 | 29.8 | 0.54 | -2.8 | 0.51 |
+| VICTORY GALLOP (CAN) | aile | Maiden (kazanmamışlar) | 989 | 99 | 126.9 | 0.78 | -2.8 | 0.79 |
+| VICTORY GALLOP (CAN) | hip | İstanbul | 1490 | 154 | 187.2 | 0.82 | -2.8 | 0.69 |
+| VICTORY GALLOP (CAN) | mesafe | 1500-1700 | 1025 | 104 | 132.1 | 0.79 | -2.8 | 0.86 |
+| ÖZHABER | hip | Ankara | 265 | 13 | 25.8 | 0.5 | -2.8 | 0.55 |
+| ALMAATA | mesafe | ≤1200 | 183 | 6 | 15.7 | 0.38 | -2.7 | 0.33 |
+| COŞARTAY | aile | Handikap | 170 | 3 | 11.7 | 0.26 | -2.7 | 0.19 |
+| GÜNTAY | hip | Elazığ | 187 | 7 | 17.2 | 0.41 | -2.7 | 0.46 |
+| JOKER | mesafe | 1500-1700 | 293 | 35 | 23.1 | 1.52 | 2.7 | 1.21 |
+| KARA YAĞIZ | hip | Elazığ | 183 | 33 | 21.7 | 1.52 | 2.7 | 1.74 |
+| KLUGER (JPN) | mesafe | 1300-1400 | 283 | 42 | 29.1 | 1.44 | 2.7 | 1.44 |
+| LUXOR | hip | İstanbul | 1643 | 260 | 225.4 | 1.15 | 2.7 | 1.11 |
 | SEMEND | mesafe | 1800-2100 | 166 | 25 | 15.3 | 1.64 | 2.7 | 1.64 |
-| AFTER MARKET (USA) | mesafe | 1800-2100 | 403 | 57 | 41.8 | 1.36 | 2.6 | 0.89 |
-| GOOD CURRY | aile | Maiden (kazanmamışlar) | 156 | 26 | 16.6 | 1.57 | 2.6 | 1.69 |
-| MADRABAZ | mesafe | 1300-1400 | 152 | 23 | 14.2 | 1.62 | 2.6 | 1.66 |
-| RUN AWAY AND HIDE (USA) | aile | Handikap | 293 | 52 | 37.8 | 1.37 | 2.6 | 1.34 |
-| TIZWAY (USA) | hip | Şanlıurfa | 247 | 41 | 28.8 | 1.42 | 2.6 | 1.35 |
-| TIZWAY (USA) | mesafe | 1500-1700 | 430 | 63 | 47.2 | 1.33 | 2.6 | 1.31 |
-| APPROVE (IRE) | hip | Şanlıurfa | 280 | 46 | 33.1 | 1.39 | 2.5 | 1.23 |
-| CANKARDEŞLER | aile | Handikap | 438 | 52 | 37.6 | 1.38 | 2.5 | 1.23 |
-| JOKER | hip | Şanlıurfa | 187 | 21 | 12.8 | 1.64 | 2.5 | 1.7 |
-| KAIZBERT (RU) | hip | Ankara | 548 | 102 | 82.3 | 1.24 | 2.5 | 1.06 |
-| KLUGER (JPN) | aile | Şartlı | 231 | 34 | 23.5 | 1.45 | 2.5 | 1.29 |
-| LUXOR | hip | İstanbul | 919 | 149 | 124.9 | 1.19 | 2.5 | 1.13 |
-| MYBOYCHARLIE (IRE) | mesafe | 1300-1400 | 744 | 54 | 73.4 | 0.74 | -2.5 | 0.71 |
-| NOBEL PRIZE (IRE) | pist | Kum | 221 | 8 | 17.6 | 0.46 | -2.5 | 0.46 |
-| ÖZDURAN | mesafe | ≤1200 | 250 | 35 | 24.0 | 1.46 | 2.5 | 1.79 |
+| TÜMÖZ BEY | aile | Maiden (kazanmamışlar) | 643 | 75 | 56.7 | 1.32 | 2.7 | 1.19 |
+| APPROVE (IRE) | mesafe | ≤1200 | 967 | 138 | 113.0 | 1.22 | 2.6 | 1.16 |
+| AUTHORIZED (IRE) | mesafe | ≤1200 | 185 | 11 | 22.0 | 0.5 | -2.6 | 0.51 |
+| BİLGİN | hip | Kocaeli | 459 | 62 | 45.9 | 1.35 | 2.6 | 1.12 |
+| GENERAL QUARTERS (USA) | hip | Bursa | 284 | 50 | 36.6 | 1.36 | 2.6 | 1.33 |
+| GOOD CURRY | aile | Maiden (kazanmamışlar) | 156 | 26 | 16.6 | 1.57 | 2.6 | 1.57 |
+| HİSARBEY | mesafe | 1800-2100 | 237 | 11 | 22.2 | 0.5 | -2.6 | 0.63 |
+| JUSTENUFFHUMOR (USA) | pist | Çim | 315 | 46 | 32.5 | 1.41 | 2.6 | 1.68 |
+| KURTEL | hip | Ankara | 170 | 6 | 15.3 | 0.39 | -2.6 | 0.71 |
+| MADRABAZ | mesafe | 1300-1400 | 152 | 23 | 14.2 | 1.62 | 2.6 | 1.62 |
+| OFFLEE WILD (USA) | aile | Şartlı | 154 | 29 | 19.3 | 1.5 | 2.6 | 0.91 |
+| OYMAKBEYİ | aile | Şartlı | 217 | 35 | 23.7 | 1.47 | 2.6 | 1.04 |
