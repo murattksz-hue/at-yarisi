@@ -4,6 +4,8 @@
 
 | Hipodrom | TJK | ebayi | İlk |
 |---|---|---|---|
+| Antalya | 09:06 | 09:06 | aynı kontrolde |
+| İzmir | 09:06 | 09:06 | aynı kontrolde |
 
 Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 
