@@ -409,5 +409,69 @@
     ]
    }
   ]
+ },
+ "İzmir-6": {
+  "hipodrom": "İzmir",
+  "kosu": 6,
+  "zaman": "16:30",
+  "tjk_goruntu": "16:18",
+  "ebayi_goruntu": "16:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "2",
+      "ad": "ESENCE DB SK",
+      "tjk": 30.97,
+      "ebayi": 30.97,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "CAREFULLY SELECTED KG DB SK",
+      "tjk": 12.26,
+      "ebayi": 12.26,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "DEVRİM KG K",
+      "tjk": 44.9,
+      "ebayi": 44.9,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "ES BANA KG DB SK",
+      "tjk": 2.29,
+      "ebayi": 2.29,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "GOLDEN DOLPHIN KG SK",
+      "tjk": 3.04,
+      "ebayi": 3.04,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ICE BEAUTY KG K",
+      "tjk": 5.93,
+      "ebayi": 5.93,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
