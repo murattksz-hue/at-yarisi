@@ -10,7 +10,8 @@ def f(v):
     try: return float(str(v).replace(',','.'))
     except Exception: return None
 def sira(d,k):  # büyükten küçüğe sıra
-    s=sorted(d,key=lambda x:-(d[x] or 0)); return s.index(k)+1 if k in s else ''
+    # eşitlikte sıra YOK: sonuç JSON'u bitiş sırasında olduğundan sıralı sort bağı kazananı öne alıyordu (26.11 düzeltme)
+    return 1+sum(1 for x in d if (d[x] or 0)>(d.get(k) or 0)) if k in d else ''
 def profil(T,H,NO):
     J=json.loads(urllib.request.urlopen(urllib.request.Request(f"https://ebayi.org/s/d/sonuclar/{T.replace('-','')}/full/{EBK[H]}.json",headers={'User-Agent':'Mozilla/5.0'}),timeout=40).read())
     k=next((k for k in J.get('kosular',[]) if str(k.get('NO'))==NO),None)
