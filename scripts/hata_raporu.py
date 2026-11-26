@@ -18,7 +18,7 @@ def kisim(rows):
     return n
 gunler=sorted({r['tarih'] for r in KP})
 L=[f'# Hata raporu — {gun}','','_Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._','','## Günlük özet (19 Kasım\'dan beri)','',
-   '| Gün | Koşu | İlk seçim doğru: AGF\'li | AGF\'siz | AGF favorisi | Sürpriz (ganyan≥10) |','|---|---|---|---|---|---|']
+   '| Gün | Koşu | İlk seçim doğru: AGF\'li | AGF\'siz | AGF favorisi | Gözden kaçan kazanan (ganyan≥10) |','|---|---|---|---|---|---|']
 T=collections.Counter()
 for g in gunler:
     ct=[r for r in CT if r['tarih']==g]; cs=[r for r in CS if r['tarih']==g]; kp=[r for r in KP if r['tarih']==g]
@@ -28,14 +28,14 @@ for g in gunler:
     T['n']+=len(ct);T['a']+=a;T['s']+=s;T['f']+=fv;T['su']+=su;T['kp']+=len(kp)
 if T['n']: L.append(f"| **Toplam** | {T['n']} | {T['a']} ({100*T['a']/T['n']:.0f}%) | {T['s']} ({100*T['s']/T['n']:.0f}%) | {T['f']} ({100*T['f']/T['n']:.0f}%) | {T['su']}/{T['kp']} |")
 L.append('')
-# ---- (a) günün sürprizleri
+# ---- (a) günün gözden kaçan kazananları
 kp=[r for r in KP if r['tarih']==gun]
 S=[r for r in kp if r['surpriz']=='1' or (f(r['agf_son']) is not None and f(r['agf_son'])<10)]
-L+=[f'## (a) {gun} sürprizleri ({len(S)}): ganyan ≥10 ya da kapanış AGF <%10','']
+L+=[f'## (a) {gun} gözden kaçan kazananlar ({len(S)}): ganyan ≥10 ya da kapanış AGF <%10','']
 fiil=sum(r['surpriz']=='1' for r in kp)
 if kp:
     beklenen=sum(TABAN[bin_(int(f(r['kosan']) or 9))] for r in kp)
-    L+=[f"Segment kıyası: {len(kp)} koşuda ganyan≥10 sürpriz **{fiil}** (%{100*fiil/len(kp):.0f}); at sayısına göre taban oranlarla beklenen **{beklenen:.1f}** (%{100*beklenen/len(kp):.0f}).",'']
+    L+=[f"Segment kıyası: {len(kp)} koşuda ganyan≥10 olan (gözden kaçan) kazanan **{fiil}** (%{100*fiil/len(kp):.0f}); at sayısına göre taban oranlarla beklenen **{beklenen:.1f}** (%{100*beklenen/len(kp):.0f}).",'']
 for r in sorted(S,key=lambda r:(r['hip'],int(r['kosu']))):
     nots=[]
     hs=f(r['hp_sira']); ms=f(r['model_agfli_sira']); ss=f(r['model_agfsiz_sira']); ao=f(r['agf_sabah']); ag=f(r['agf_son'])
@@ -50,7 +50,7 @@ for r in sorted(S,key=lambda r:(r['hip'],int(r['kosu']))):
     if r['sessiz']=='1': nots.append('AGF sessiz (🤫)')
     if f(r['g30']) and f(r['g_son']) and f(r['g30'])/f(r['g_son'])>=1.4: nots.append(f"ganyan son 30 dk'da {f(r['g30']):g}→{f(r['g_son']):g} (💰)")
     L.append(f"- **{r['hip']} {r['kosu']}. koşu — {r['at']}**: ganyan {r['kesin']}, AGF {r['agf_son']}%, {r['kosan']} at, model {r['model_agfli_sira']}./{r['model_agfsiz_sira']}. | " + ('; '.join(nots) or 'belirgin işaret yok'))
-if not S: L.append('Bu gün sürpriz kazanan yok ya da henüz kayıt yok.')
+if not S: L.append('Bu gün gözden kaçan kazanan yok ya da henüz kayıt yok.')
 L.append('')
 # ---- (b) büyük hatalar
 L+=[f'## (b) {gun} büyük hatalar','','Kazananın AGF\'li model sırası ≥4 ya da ilk seçimimiz ≥5. bitmiş koşular:','']
@@ -69,8 +69,8 @@ HT=[r for r in CT if f(r['kazanan_model_sira']) is not None and f(r['kazanan_mod
 fav_kaybetti=[r for r in CT if f(r['agf_favori_bitis']) is not None and f(r['agf_favori_bitis'])>=2]
 L+=['## (c) Toplam (19 Kasım\'dan beri)','',f"- Kazananın model sırası ≥4: {len(HT)}/{len(CT)} koşu (%{100*len(HT)/max(len(CT),1):.0f}).",
     f"- AGF favorisi kazanamadı: {len(fav_kaybetti)}/{len([r for r in CT if r['agf_favori_bitis']])} koşu.",
-    f"- Sürpriz (ganyan≥10) toplam {T['su']}/{T['kp']} (%{100*T['su']/max(T['kp'],1):.0f}), beklenen taban ~%16.",'',
+    f"- Gözden kaçan kazanan (ganyan≥10) toplam {T['su']}/{T['kp']} (%{100*T['su']/max(T['kp'],1):.0f}), beklenen taban ~%16.",'',
     '_Bu rapor yorum değil gözlemdir; sağlam sonuçlar için `BILGI.md` ve geçmiş verili testlere bak._']
 od=os.path.join(K,'veri','hata_raporu'); os.makedirs(od,exist_ok=True)
 open(os.path.join(od,f'{gun}.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n')
-print('yazıldı: veri/hata_raporu/%s.md | sürpriz %d | büyük hata %d/%d'%(gun,len(S),len(H),n_g))
+print('yazıldı: veri/hata_raporu/%s.md | gözden kaçan %d | büyük hata %d/%d'%(gun,len(S),len(H),n_g))

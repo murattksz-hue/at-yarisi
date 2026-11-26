@@ -48,7 +48,7 @@ for n,_,ad in ARMS:
     L.append(f"| {ad} | {m} | {t1} (%{100*t1/m:.1f}) | %{100*lo:.0f}–{100*hi:.0f} | %{100*t2/m:.1f} | %{100*t3/m:.1f} | {np.mean([x[1] for x in R]):.3f} |")
 LS=[r for r in S if r['listede'] is not None]
 if LS:
-    L+=['','**Sürpriz riskine göre değişken liste (yüksek risk 5, orta 4, düşük 3 at):** kazanan listede %{:.0f} ({}/{} koşu).'.format(100*sum(r['listede'] for r in LS)/len(LS),sum(r['listede'] for r in LS),len(LS)),'','| Risk | Liste | Koşu | Kazanan listede | İlk 3\'te |','|---|---|---|---|---|']
+    L+=['','**Açık koşu riskine göre değişken liste (yüksek risk 5, orta 4, düşük 3 at):** kazanan listede %{:.0f} ({}/{} koşu).'.format(100*sum(r['listede'] for r in LS)/len(LS),sum(r['listede'] for r in LS),len(LS)),'','| Risk | Liste | Koşu | Kazanan listede | İlk 3\'te |','|---|---|---|---|---|']
     for rk in ('yüksek','orta','düşük'):
         q=[r for r in LS if r['risk']==rk]
         if q: L.append(f"| {rk} | {q[0]['KL']} at | {len(q)} | %{100*sum(r['listede'] for r in q)/len(q):.0f} | %{100*sum(r['birlesik10'][0]<=3 for r in q if r['birlesik10'])/len(q):.0f} |")

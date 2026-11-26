@@ -12,7 +12,7 @@ def satir(ad,rs,hist):
     sur=f"%{100*sum(r['surpriz']=='1' for r in rs)/len(rs):.0f}"
     fav,_=yz(rs,'fav_kazandi'); a,na=yz(rs,'v9_agfli_ilk'); s,ns=yz(rs,'v9_agfsiz_ilk'); b,nb=yz(rs,'b10_ilk')
     return f"| {ad} | {h} | {len(rs)} | {fav} | {sur} | {a} | {s} | {b} ({nb}) |"
-H='| Çeşit | Tarihsel (2024+) | Canlı n | Favori kazandı | Sürpriz | v9 AGF\'li ilk | v9 AGF\'siz ilk | BİRLEŞİK_10 ilk (n) |\n|---|---|---|---|---|---|---|---|'
+H='| Çeşit | Tarihsel (2024+) | Canlı n | Favori kazandı | Gözden kaçan kazanan | v9 AGF\'li ilk | v9 AGF\'siz ilk | BİRLEŞİK_10 ilk (n) |\n|---|---|---|---|---|---|---|---|'
 L=['# Koşu çeşidi raporu','',f'Canlı kayıt: {len(R)} koşu ({min((r["tarih"] for r in R),default="—")} – {max((r["tarih"] for r in R),default="—")}). n<10 olanlar gösterge değildir.','','## Aile × ırk',H]
 G=collections.defaultdict(list)
 for r in R: G[(r['irk'],r['aile'])].append(r)

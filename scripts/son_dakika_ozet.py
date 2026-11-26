@@ -93,7 +93,7 @@ farkli={n for n,k in favs.items() if k and k!=favs['piyasa'] and favs['piyasa']}
 L.append('Bizim kollarla piyasa favorisi **ayrışıyor**: '+', '.join(sorted(farkli)) if farkli else 'Bizim kollar piyasa favorisiyle **aynı atta birleşiyor** (ya da tahmin yok).')
 _ps=sum(x for x in piyasa.values() if x is not None and x<0.10); _r='yüksek' if _ps>0.31 else 'orta' if _ps>0.198 else 'düşük'; _kl={'düşük':3,'orta':4,'yüksek':5}[_r]
 _pr=PB or P9 or piyasa; _top=[ak(x) for x in R10['secim_liste']] if R10 else sorted(_pr,key=lambda k:-(_pr.get(k) or 0))[:_kl]; _r=R10['surpriz_riski'] if R10 else _r; _kl=len(_top)
-L.append(f"**Sürpriz riski: {_r}** (piyasada %10 altı atların payı %{100*_ps:.0f}) → liste {_kl} at: "+', '.join(ad(k) for k in _top)+'. Geçmişte bu uzunlukta kazanan listede ~%76–81.')
+L.append(f"**Açık koşu riski: {_r}** (piyasada %10 altı atların payı %{100*_ps:.0f}) → liste {_kl} at: "+', '.join(ad(k) for k in _top)+'. Geçmişte bu uzunlukta kazanan listede ~%76–81.')
 if R10:   # mesafe tercihi: atın kendisi ve babasının yavruları hangi mesafeyi seviyor (bugünkü bant [..] içinde); n küçükse gösterge değil
     _tm={ak(a['ad']):a.get('tercih') for a in R10['atlar']}; _ls=[]; B5=('≤1200','1300-1400','1500-1700','1800-2100','2200+')
     for _k in [ak(x) for x in R10['secim_liste']]:
@@ -116,12 +116,12 @@ try:
     L.append(f"**Koşu çeşidi:** {ti['irk']} {ti['tur']} · {ti['yas']} yaş · {ti['mesafe']} m {ti['pist']}")
     for ad,key in ((ti['tur'],f"{ti['irk']} {ti['tur']}"),(ti['aile'],f"{ti['irk']} {ti['aile']}")):
         h=KA.get(key)
-        if h: L.append(f"- Tarihsel ({key}, 2024+): {h['kosu']} koşu, ort. {h['alan']:.1f} at, favori kazandı %{h['favori']:.0f}, ganyan≥10 sürpriz %{h['s10']:.0f}"); break
+        if h: L.append(f"- Tarihsel ({key}, 2024+): {h['kosu']} koşu, ort. {h['alan']:.1f} at, favori kazandı %{h['favori']:.0f}, ganyan≥10 olan (gözden kaçan) kazanan %{h['s10']:.0f}"); break
     KR=[r for r in csv.DictReader(open(os.path.join(K,'veri','kosu_tipi_kayit.csv'),encoding='utf-8'))] if os.path.exists(os.path.join(K,'veri','kosu_tipi_kayit.csv')) else []
     ay=[r for r in KR if r['irk']==ti['irk'] and r['tur']==ti['tur']] or [r for r in KR if r['irk']==ti['irk'] and r['aile']==ti['aile']]
     if ay:
         pc=lambda c:(lambda v:'—' if not v else f"%{100*sum(x=='1' for x in v)/len(v):.0f}")([r[c] for r in ay if r[c]!=''])
-        L.append(f"- Canlı sicilimiz (aynı çeşit, {len(ay)} koşu{', gösterge değil' if len(ay)<10 else ''}): favori kazandı {pc('fav_kazandi')}, sürpriz %{100*sum(r['surpriz']=='1' for r in ay)/len(ay):.0f}, v9 AGF'li ilk tuttu {pc('v9_agfli_ilk')}, AGF'siz {pc('v9_agfsiz_ilk')}, BİRLEŞİK_10 {pc('b10_ilk')}")
+        L.append(f"- Canlı sicilimiz (aynı çeşit, {len(ay)} koşu{', gösterge değil' if len(ay)<10 else ''}): favori kazandı {pc('fav_kazandi')}, gözden kaçan kazanan %{100*sum(r['surpriz']=='1' for r in ay)/len(ay):.0f}, v9 AGF'li ilk tuttu {pc('v9_agfli_ilk')}, AGF'siz {pc('v9_agfsiz_ilk')}, BİRLEŞİK_10 {pc('b10_ilk')}")
     L.append('')
 except Exception as e: print('koşu çeşidi bilgisi eklenemedi:',e,file=sys.stderr)
 od=os.path.join(K,'veri','son_dakika',gun); os.makedirs(od,exist_ok=True)
