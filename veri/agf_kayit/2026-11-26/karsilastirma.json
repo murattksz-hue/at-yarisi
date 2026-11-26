@@ -805,5 +805,104 @@
     ]
    }
   ]
+ },
+ "Antalya-3": {
+  "hipodrom": "Antalya",
+  "kosu": 3,
+  "zaman": "18:30",
+  "tjk_goruntu": "18:30",
+  "ebayi_goruntu": "18:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.04,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "MR NALÇAKAN DB SKG SK",
+      "tjk": 8.69,
+      "ebayi": 8.7,
+      "fark": 0.01
+     },
+     {
+      "at": "2",
+      "ad": "BOSTON LIGHT DB SKG SK",
+      "tjk": 12.95,
+      "ebayi": 12.98,
+      "fark": 0.03
+     },
+     {
+      "at": "3",
+      "ad": "ÇAĞANIM KG DB SK",
+      "tjk": 11.32,
+      "ebayi": 11.33,
+      "fark": 0.01
+     },
+     {
+      "at": "4",
+      "ad": "LA JEFA SK ÖG",
+      "tjk": 34.14,
+      "ebayi": 34.1,
+      "fark": -0.04
+     },
+     {
+      "at": "5",
+      "ad": "SALONIKATOR DB SKG SK",
+      "tjk": 2.11,
+      "ebayi": 2.11,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "FOOT LOOS KG SK",
+      "tjk": 0.78,
+      "ebayi": 0.77,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "SON OF THE KNIFE DB SK",
+      "tjk": 2.15,
+      "ebayi": 2.17,
+      "fark": 0.02
+     },
+     {
+      "at": "8",
+      "ad": "DATABASE DB SKG SK",
+      "tjk": 5.01,
+      "ebayi": 5.01,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "MAMBA FOREVER KG K ÖG",
+      "tjk": 3.81,
+      "ebayi": 3.79,
+      "fark": -0.02
+     },
+     {
+      "at": "10",
+      "ad": "OĞLUMSUN SKG SK",
+      "tjk": 1.73,
+      "ebayi": 1.72,
+      "fark": -0.01
+     },
+     {
+      "at": "11",
+      "ad": "HAS SERÇE KG DB SK",
+      "tjk": 17.32,
+      "ebayi": 17.32,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
