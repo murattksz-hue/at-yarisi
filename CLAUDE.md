@@ -34,3 +34,7 @@ Türkiye at yarışları (TJK): her koşuyu kaydet, koşudan önce tahmin yap, s
 - ≥300 canlı koşuda: BİRLEŞİK_10 / v9 / piyasa karşılaştırması; 💰 (aşırı hareket ayrı grup), Blt–AGF, çeşit/hipodrom bazlı kol seçimi (YAPILACAK_TESTLER.md B grubu).
 - 26 Aralık 10:00 TR: 1 aylık değerlendirme (zamanlı hatırlatma kuruldu).
 - Test: `python3 -m pytest tests -q` (61); sözdizimi: `python3 -I -c "import ast,glob;[ast.parse(open(p).read()) for p in glob.glob('scripts/*.py')]"`; tarama: `bash scripts/kor_hata_tara.sh`.
+
+## Araçlar (claude-plugins-official)
+- `.claude/settings.json` marketplace'i ve şu plugin'leri açar: claude-md-management, hookify, code-review, pr-review-toolkit, code-simplifier, session-report, security-guidance, pyright-lsp (yeni oturumda yüklenir; onay istenirse kabul et).
+- `.claude/hookify.*.local.md` kuralları: canlı betik/CSV düzenleme uyarısı, eşitlikte sıralama sızıntı uyarısı, push öncesi kontrol hatırlatması, bota kapalı sitelere (agftablosu, agftahmin, liderform) istek **engeli**.
