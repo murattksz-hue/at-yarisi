@@ -103,7 +103,8 @@ if R10:   # mesafe tercihi: atın kendisi ve babasının yavruları hangi mesafe
         mk=lambda b:('['+b+']' if b==bg else b)
         kendi=' | '.join(f"{mk(b)} {kh[b][1]}/{kh[b][2]}/{kh[b][0]}" for b in B5 if kh[b][0])
         baba=' | '.join(f"{mk(b)} {bh[b][2]}" for b in B5 if b in bh)
-        _ls.append(f"- {ad(_k)[:16]}: kendi (birinci/ilk3/koşu) {kendi or 'geçmiş yok'}"+(f" || baba {str(t['baba'])[:14]} A/E {baba}" if baba else ''))
+        ah=t.get('annebaba_mesafe_hepsi',{}); anne=' | '.join(f"{mk(b)} {ah[b][2]}" for b in B5 if b in ah)
+        _ls.append(f"- {ad(_k)[:16]}: kendi (birinci/ilk3/koşu) {kendi or 'geçmiş yok'}"+(f" || baba {str(t['baba'])[:14]} A/E {baba}" if baba else '')+(f" || anne babası {str(t.get('annebaba'))[:14]} A/E {anne}" if anne else ''))
     if _ls: L+=['','**Mesafe tercihi (listedeki atlar; [köşeli] = bugünkü mesafe; n küçükse gösterge değil):**']+_ls
 para=[ad(k) for k,v,fl in rows if '💰' in fl]
 if para: L.append('Para girişi (💰): '+', '.join(para))

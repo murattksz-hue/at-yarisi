@@ -52,13 +52,15 @@ def _band(m):
     try: m=int(m)
     except Exception: return '?'
     return '≤1200' if m<=1200 else '1300-1400' if m<=1400 else '1500-1700' if m<=1700 else '1800-2100' if m<=2100 else '2200+'
-HS=collections.defaultdict(lambda:[0,0,0]); SS=collections.defaultdict(lambda:[0,0.0,0,0.0]); BABA={}
+HS=collections.defaultdict(lambda:[0,0,0]); SS=collections.defaultdict(lambda:[0,0.0,0,0.0]); SA=collections.defaultdict(lambda:[0,0.0,0,0.0]); BABA={}; ABABA={}
 for key,rs0 in R.items():
     gg=[f(r['ganyan']) for r in rs0]; ok=len(rs0)>=5 and not any(x is None or x<=1 for x in gg) and sum(r['sonuc'].strip()=='1' for r in rs0)==1
     if ok: iv=[1/x for x in gg]; sv=sum(iv)
     for i,r in enumerate(rs0):
         hk=ak(r['at']); bb=(r['baba'] or '').upper().strip()
         if bb: BABA[hk]=bb
+        ab=(r['annebaba'] or '').upper().strip()
+        if ab: ABABA[hk]=ab
         if not r['sonuc'].strip().isdigit(): continue
         dims=(('mesafe',_band(r['mesafe'])),('pist',r['pist'] or '?'),('aile',kosu_tipi.aile(kosu_tipi.tur(r['tur'] or ''))),('hip',r['hip']))
         pos=int(r['sonuc'])
@@ -66,6 +68,8 @@ for key,rs0 in R.items():
             h=HS[(hk,)+d]; h[0]+=1; h[1]+=pos==1; h[2]+=pos<=3
             if ok and bb:
                 p=iv[i]/sv; t=SS[(bb,)+d]; t[0]+=1; t[1]+=p; t[2]+=pos==1; t[3]+=p*(1-p)
+            if ok and ab and d[0]=='mesafe':
+                p=iv[i]/sv; t=SA[(ab,)+d]; t[0]+=1; t[1]+=p; t[2]+=pos==1; t[3]+=p*(1-p)
 _bk=None
 for _k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []):
     if str(_k['kosu'])==kno: _bk=_k.get('baslik','')
@@ -83,6 +87,11 @@ def tercih(ad):
         h=HS.get((hk,'mesafe',b)); kh[b]=[h[0],h[1],h[2]] if h else [0,0,0]
         t=SS.get((bb,'mesafe',b)) if bb else None
         if t and t[0]>=30: bh[b]=[t[0],t[2],round(t[2]/max(t[1],1e-9),2),round((t[2]-t[1])/max(t[3],1e-9)**0.5,1)]
+    ab=ABABA.get(hk); ah={}
+    for b in B5:
+        t=SA.get((ab,'mesafe',b)) if ab else None
+        if t and t[0]>=30: ah[b]=[t[0],t[2],round(t[2]/max(t[1],1e-9),2),round((t[2]-t[1])/max(t[3],1e-9)**0.5,1)]
+    o['annebaba']=ab; o['annebaba_mesafe_hepsi']=ah
     o['kendi_mesafe_hepsi']=kh; o['baba_mesafe_hepsi']=bh
     # 🎯 işareti (bilgi amaçlı; mesafe_profil_testi.py ile aynı tanım): atın bu bantta ≥4 koşusu, ilk-3 oranı ≥%50 ve genel orandan ≥15 puan iyi (uyumlu), babası bu bantta büzülmüş log(A/E) ≥ +0,05
     n_all=sum(v[0] for v in kh.values()); t_all=sum(v[2] for v in kh.values()); nb,wb,tb=kh.get(_dd[0][1],[0,0,0])
