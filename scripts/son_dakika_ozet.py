@@ -3,7 +3,8 @@ Girdiler (yalnızca okur): veri/tahminler/<tarih>_<hip>[_agfsiz].json (dondurulm
 veri/tahminler_birlesik/<tarih>.json (varsa BİRLEŞİK). Çıktı: veri/son_dakika/<tarih>/<hip>_<koşu>.md (yeni dosya).
 İçerik: at başına bizim olasılıklar (v9 AGF'li, AGF'siz, varsa BİRLEŞİK), piyasa (şimdi, AGF), sabaha ve −60 dk'ya göre AGF/ganyan değişimi, işaretler; bizim ve piyasanın favorisi farklı mı; para girişi olan atlar.
 İşaretler (YALNIZCA bilgi, test edilmedi): 💰 ganyan −60 dk'ya göre >=%30 düştü (g60/g_şimdi >=1,4), 📈 AGF sabaha göre +%30 ve +3 puan, 📉 AGF sabaha göre −%30 ve −3 puan, ⚖ bizim olasılığımız piyasanın >=1,3 katı (değer adayı; kanıtlanmış değil)."""
-import os,sys,re,json,glob,datetime
+import os,sys,re,json,glob,datetime,csv
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import kosu_tipi   # -I ile script dizini sys.path'te olmaz
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 gun,hip,kno=sys.argv[1:4]
 ak=lambda s:re.sub(r'\W','',str(s).upper())
@@ -87,5 +88,22 @@ farkli={n for n,k in favs.items() if k and k!=favs['piyasa'] and favs['piyasa']}
 L.append('Bizim kollarla piyasa favorisi **ayrışıyor**: '+', '.join(sorted(farkli)) if farkli else 'Bizim kollar piyasa favorisiyle **aynı atta birleşiyor** (ya da tahmin yok).')
 para=[ad(k) for k,v,fl in rows if '💰' in fl]
 if para: L.append('Para girişi (💰): '+', '.join(para))
+# koşu çeşidi: tarihsel taban oranları ve bizim canlı sicilimiz
+try:
+    _b=''
+    for _k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []):
+        if str(_k['kosu'])==kno: _b=_k.get('baslik','')
+    ti=kosu_tipi.sinif(_b); KA=yukle(os.path.join(K,'veri','kosu_turu_analiz.json')) or {}
+    L.append(f"**Koşu çeşidi:** {ti['irk']} {ti['tur']} · {ti['yas']} yaş · {ti['mesafe']} m {ti['pist']}")
+    for ad,key in ((ti['tur'],f"{ti['irk']} {ti['tur']}"),(ti['aile'],f"{ti['irk']} {ti['aile']}")):
+        h=KA.get(key)
+        if h: L.append(f"- Tarihsel ({key}, 2024+): {h['kosu']} koşu, ort. {h['alan']:.1f} at, favori kazandı %{h['favori']:.0f}, ganyan≥10 sürpriz %{h['s10']:.0f}"); break
+    KR=[r for r in csv.DictReader(open(os.path.join(K,'veri','kosu_tipi_kayit.csv'),encoding='utf-8'))] if os.path.exists(os.path.join(K,'veri','kosu_tipi_kayit.csv')) else []
+    ay=[r for r in KR if r['irk']==ti['irk'] and r['tur']==ti['tur']] or [r for r in KR if r['irk']==ti['irk'] and r['aile']==ti['aile']]
+    if ay:
+        pc=lambda c:(lambda v:'—' if not v else f"%{100*sum(x=='1' for x in v)/len(v):.0f}")([r[c] for r in ay if r[c]!=''])
+        L.append(f"- Canlı sicilimiz (aynı çeşit, {len(ay)} koşu{', gösterge değil' if len(ay)<10 else ''}): favori kazandı {pc('fav_kazandi')}, sürpriz %{100*sum(r['surpriz']=='1' for r in ay)/len(ay):.0f}, v9 AGF'li ilk tuttu {pc('v9_agfli_ilk')}, AGF'siz {pc('v9_agfsiz_ilk')}, BİRLEŞİK_10 {pc('b10_ilk')}")
+    L.append('')
+except Exception as e: print('koşu çeşidi bilgisi eklenemedi:',e,file=sys.stderr)
 od=os.path.join(K,'veri','son_dakika',gun); os.makedirs(od,exist_ok=True)
 open(os.path.join(od,f'{hip}_{kno}.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n'); print('\n'.join(L))

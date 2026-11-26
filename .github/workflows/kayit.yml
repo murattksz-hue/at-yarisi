@@ -32,7 +32,7 @@ jobs:
           set +e
           git config user.name "kayit-bot"; git config user.email "kayit-bot@users.noreply.github.com"
           kaydet() {
-            for y in veri/sonuc veri/sonuc_temiz veri/hiz_puani.json veri/jokey_tablo.json veri/kosu_turu_analiz.json veri/maiden_analiz.json veri/soy_kayit.json veri/at_gecmisi veri/kazanan_profil.csv veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/son_dakika veri/tahminler_10dk veri/hata_raporu veri/canli_takip*.csv veri/para_takip.csv analizler; do [ -e "$y" ] && git add -A "$y"; done
+            for y in veri/sonuc veri/sonuc_temiz veri/hiz_puani.json veri/jokey_tablo.json veri/kosu_turu_analiz.json veri/maiden_analiz.json veri/soy_kayit.json veri/at_gecmisi veri/kazanan_profil.csv veri/agf_kayit veri/muhtemel_kayit veri/tahminler veri/plan veri/son_dakika veri/tahminler_10dk veri/hata_raporu veri/kosu_tipi_kayit.csv veri/kosu_tipi_rapor.md veri/canli_takip*.csv veri/para_takip.csv analizler; do [ -e "$y" ] && git add -A "$y"; done
             git diff --cached --quiet && return 0
             git commit -q -m "AGF/ganyan kaydı (Actions)"
             for i in 1 2 3 4; do git pull -q --rebase --autostash -X theirs && git push -q && return 0; git rebase --abort 2>/dev/null; sleep $((i*10)); done

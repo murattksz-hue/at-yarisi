@@ -27,7 +27,7 @@ for gun in gunler:
         if not (0<=v['goruntu_koşuya_dk']<=20): bayat+=1; continue
         win=[a for a in v['atlar'] if r.get(ak(a['ad']))==1]
         if len(win)!=1: continue
-        row=dict(gun=gun,hip=hip,kosu=v['kosu'],kazanan=win[0]['ad'],guven=v['guven'])
+        row=dict(gun=gun,hip=hip,kosu=v['kosu'],kazanan=win[0]['ad'],guven=v['guven'],tip=v.get('tip') or {})
         for n,pk,_ in ARMS:
             ps=[a[pk] for a in v['atlar']]
             if any(p is None for p in ps): row[n]=None; continue
@@ -51,4 +51,8 @@ for gv in ('net','orta','düşük'):
     sel=[r for r in S if r['guven']==gv and r['birlesik10']]
     if sel: L.append(f"- Güven '{gv}': {len(sel)} koşu, 1. seçim tuttu %{100*sum(r['birlesik10'][0]==1 for r in sel)/len(sel):.0f}")
 L+=['','Rastgele beklenti ≈ 1/ortalama at sayısı (≈%10); piyasa favorisi tarihsel olarak ~%33–35 kazanır.']
+import csv as _csv
+with open(os.path.join(od,'kosu_sonuclari.csv'),'w',newline='',encoding='utf-8') as _f:   # koşu başına kol sıraları (koşu çeşidi raporu için; her çalıştırmada yeniden üretilir)
+    _w=_csv.writer(_f); _w.writerow(['tarih','hip','kosu','irk','tur','aile','mesafe','pist','guven','birlesik10_sira','piyasa10_sira','v9_agfli_sira','v9_agfsiz_sira'])
+    for r in S: _w.writerow([r['gun'],r['hip'],r['kosu'],r['tip'].get('irk',''),r['tip'].get('tur',''),r['tip'].get('aile',''),r['tip'].get('mesafe',''),r['tip'].get('pist',''),r['guven']]+[(r[n][0] if r[n] else '') for n in ('birlesik10','piyasa10','v9_agfli','v9_agfsiz')])
 open(os.path.join(od,'SONUC.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n'); print('\n'.join(L))

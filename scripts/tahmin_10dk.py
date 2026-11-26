@@ -4,6 +4,7 @@ Girdiler (yalnızca okur): son eBayi görüntüsü, veri/tahminler/<tarih>_<hip>
 Çıktı: veri/tahminler_10dk/<tarih>.json içine bu koşu EKLENİR (bir koşu bir kez; üzerine yazılmaz) ve veri/tahminler_10dk/<tarih>.md. Puanlama: puan_10dk.py. Ağırlıklar ayarlanmadı (BİRLEŞİK testindeki gibi)."""
 import os,sys,json,glob,gzip,csv,io,re,datetime,collections
 import numpy as np
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import kosu_tipi   # -I ile script dizini sys.path'te olmaz
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 gun,hip,kno=sys.argv[1:4]; B_H2H=0.5; K_GANYAN=1.05
 TR=datetime.timezone(datetime.timedelta(hours=3))
@@ -64,7 +65,10 @@ def kol(p):
     return None
 p9=kol(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')); p9s=kol(os.path.join(K,'veri','tahminler',f'{gun}_{hip}_agfsiz.json'))
 sira=np.argsort(-pc)
-D['kosular'][anah]={'hip':hip,'kosu':int(kno),'saat':saat,'olusturma_tr':datetime.datetime.now(TR).isoformat(timespec='seconds'),'goruntu_utc':b,'goruntu_koşuya_dk':once,'piyasa_kaynak':kaynak,
+_b=''
+for _k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []):
+    if str(_k['kosu'])==kno: _b=_k.get('baslik','')
+D['kosular'][anah]={'tip':kosu_tipi.sinif(_b) if _b else None,'hip':hip,'kosu':int(kno),'saat':saat,'olusturma_tr':datetime.datetime.now(TR).isoformat(timespec='seconds'),'goruntu_utc':b,'goruntu_koşuya_dk':once,'piyasa_kaynak':kaynak,
   'secim_1':atlar[sira[0]],'secim_ilk3':[atlar[i] for i in sira[:3]],'guven':'net' if pc.max()>=0.40 else 'orta' if pc.max()>=0.28 else 'düşük',
   'atlar':[{'ad':atlar[i],'p_birlesik10':round(float(pc[i]),4),'p_piyasa10':round(float(pm[i]),4),'p_v9_agfli':None if p9 is None else round(float(p9[i]),4),'p_v9_agfsiz':None if p9s is None else round(float(p9s[i]),4),'h2h':round(float(sk[i]),3)} for i in range(len(atlar))]}
 json.dump(D,open(yol,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
