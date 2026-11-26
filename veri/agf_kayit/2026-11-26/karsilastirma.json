@@ -1,0 +1,59 @@
+{
+ "İzmir-1": {
+  "hipodrom": "İzmir",
+  "kosu": 1,
+  "zaman": "14:01",
+  "tjk_goruntu": "14:01",
+  "ebayi_goruntu": "14:01",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": null,
+    "favori_ebayi": null,
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": null,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": null,
+    "sabah_favori_ebayi": null,
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "KÜÇÜK HASO KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "3",
+      "ad": "BAŞ YARGIÇ K DB GKR",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "4",
+      "ad": "HIRÇIN DADAŞ KG K DB",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "5",
+      "ad": "SONEJDER KG DB SK GKR",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "6",
+      "ad": "SUPHRA KG K",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     }
+    ]
+   }
+  ]
+ }
+}
