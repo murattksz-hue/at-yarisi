@@ -213,6 +213,97 @@
      "h2h": -0.045
     }
    ]
+  },
+  "İzmir|3": {
+   "tip": {
+    "tur": "Maiden",
+    "aile": "Maiden (kazanmamışlar)",
+    "irk": "İngiliz",
+    "yas": "2",
+    "mesafe": "1600",
+    "mesafe_band": "1400-1699",
+    "pist": "Kum"
+   },
+   "hip": "İzmir",
+   "kosu": 3,
+   "saat": "16:00",
+   "olusturma_tr": "2026-11-26T15:48:44+03:00",
+   "goruntu_utc": "1248",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "DREAM OF ANGEL",
+   "secim_ilk3": [
+    "DREAM OF ANGEL",
+    "SWEET HARD",
+    "DO IT FOR LOVE"
+   ],
+   "surpriz_riski": "düşük",
+   "surpriz_p": 0.087,
+   "liste_uzunlugu": 3,
+   "secim_liste": [
+    "DREAM OF ANGEL",
+    "SWEET HARD",
+    "DO IT FOR LOVE"
+   ],
+   "guven": "net",
+   "atlar": [
+    {
+     "ad": "FLOR DA ROSA",
+     "p_birlesik10": 0.0109,
+     "p_piyasa10": 0.0126,
+     "p_v9_agfli": 0.0267,
+     "p_v9_agfsiz": 0.0173,
+     "h2h": -0.208
+    },
+    {
+     "ad": "ZEYTİN",
+     "p_birlesik10": 0.0329,
+     "p_piyasa10": 0.034,
+     "p_v9_agfli": 0.0211,
+     "p_v9_agfsiz": 0.0159,
+     "h2h": 0.0
+    },
+    {
+     "ad": "DO IT FOR LOVE",
+     "p_birlesik10": 0.1159,
+     "p_piyasa10": 0.1081,
+     "p_v9_agfli": 0.1342,
+     "p_v9_agfsiz": 0.1245,
+     "h2h": 0.208
+    },
+    {
+     "ad": "DREAM OF ANGEL",
+     "p_birlesik10": 0.6174,
+     "p_piyasa10": 0.6132,
+     "p_v9_agfli": 0.6523,
+     "p_v9_agfsiz": 0.5988,
+     "h2h": 0.083
+    },
+    {
+     "ad": "LIFE IS SIMPLE",
+     "p_birlesik10": 0.0081,
+     "p_piyasa10": 0.0084,
+     "p_v9_agfli": 0.0316,
+     "p_v9_agfsiz": 0.0117,
+     "h2h": 0.0
+    },
+    {
+     "ad": "SIDE FIRE",
+     "p_birlesik10": 0.0298,
+     "p_piyasa10": 0.0322,
+     "p_v9_agfli": 0.0426,
+     "p_v9_agfsiz": 0.0364,
+     "h2h": -0.083
+    },
+    {
+     "ad": "SWEET HARD",
+     "p_birlesik10": 0.185,
+     "p_piyasa10": 0.1915,
+     "p_v9_agfli": 0.0915,
+     "p_v9_agfsiz": 0.1954,
+     "h2h": 0.0
+    }
+   ]
   }
  }
 }
