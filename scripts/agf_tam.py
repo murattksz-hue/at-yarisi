@@ -45,3 +45,29 @@ def tam_ebayi(S,yar=None):
         except Exception: continue
         D[kn]=[max(_f(v[0]),_f(v[1])) for v in A.values() if not v[3]]
     return _tamam(D,yar)
+
+BEKLEME_DK=15
+def olgun(kd,hip,simdi_utc,bekleme=BEKLEME_DK):
+    """TAM AGF görüntüsü oturdu mu? 26.11 ölçümü: TAM anındaki AGF kapanışa göre ort. 1,8-5,5 puan oynak, ~15-20 dk sonra 0,3 puana iniyor.
+    Dondurma bu yüzden TAM'dan (iki kaynaktan geç olanından) en az bekleme dk sonra yapılır. Saat bilgisi yoksa True (beklemeden)."""
+    import json,os
+    try: d=json.load(open(os.path.join(kd,'ilk_zaman.json'),encoding='utf-8')).get(hip,{})
+    except Exception: return True
+    ts=[]
+    for k in ('tjk_tam','ebayi_tam'):
+        m=re.match(r'(\d\d)(\d\d)',str(d.get(k,'')))
+        if m: ts.append(int(m.group(1))*60+int(m.group(2)))
+    if not ts: return True
+    return simdi_utc.hour*60+simdi_utc.minute>=max(ts)+bekleme
+def en_son_tam_csv(kd,hip):
+    """O hipodromun en son TAM (dolu) TJK görüntüsünün yolu; yoksa None. Önbellek/boş görüntüler tam_tjk ile elenir."""
+    import glob,os
+    yar=None
+    tf=os.path.join(kd,f"TAM_{hip}.csv")
+    if os.path.exists(tf): yar=altili_yarislar(open(tf,'rb').read())
+    for yol in sorted(glob.glob(os.path.join(kd,f"{hip}_[0-9][0-9][0-9][0-9]UTC.csv")),reverse=True):
+        try:
+            b=open(yol,'rb').read()
+            if tam_tjk(b,altili_yarislar(b) or yar): return yol
+        except Exception: continue
+    return None

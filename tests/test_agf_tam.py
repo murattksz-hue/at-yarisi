@@ -41,3 +41,22 @@ def test_ebayi_tam_ve_kosmaz():
     assert T.tam_ebayi(S,[1,2,3,4,5,6])
     S['2']={f'AT{j}':[(None if j else '20.5'),None,'3,0',False] for j in range(5)}
     assert not T.tam_ebayi(S,[1,2,3,4,5,6])
+
+# --- 26.11: TAM sonrası bekleme ve en son dolu görüntü ---
+import datetime,json
+def _kd(tmp_path,tjk_tam='0610 UTC',ebayi_tam='0606 UTC'):
+    json.dump({'X':{'tjk_tam':tjk_tam,'ebayi_tam':ebayi_tam}},open(tmp_path/'ilk_zaman.json','w'))
+    return str(tmp_path)
+def test_olgun_bekleme(tmp_path):
+    kd=_kd(tmp_path); u=lambda h,m:datetime.datetime(2026,11,26,h,m)
+    assert not T.olgun(kd,'X',u(6,24)) and T.olgun(kd,'X',u(6,25))   # geç olan kaynak (06:10) + 15 dk
+def test_olgun_saat_yoksa_bekleme_yok(tmp_path):
+    assert T.olgun(str(tmp_path),'X',datetime.datetime(2026,11,26,6,0))
+def test_en_son_tam_dolu_olani_secer(tmp_path):
+    kd=str(tmp_path)
+    (tmp_path/'X_0610UTC.csv').write_bytes(csv(yarislar(dolu=True),(1,)))
+    (tmp_path/'X_0620UTC.csv').write_bytes(csv(yarislar(dolu=True),(1,)))
+    (tmp_path/'X_0630UTC.csv').write_bytes(csv(yarislar(dolu=False),(1,)))   # titreyen/kısmi görüntü atlanmalı
+    assert os.path.basename(T.en_son_tam_csv(kd,'X'))=='X_0620UTC.csv'
+def test_en_son_tam_yoksa_none(tmp_path):
+    assert T.en_son_tam_csv(str(tmp_path),'X') is None

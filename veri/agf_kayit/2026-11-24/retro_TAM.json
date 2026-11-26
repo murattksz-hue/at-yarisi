@@ -1,0 +1,22 @@
+{
+ "Adana": {
+  "ilk_doluluk": 0.702,
+  "tjk_tam": "0609 UTC",
+  "tam_doluluk": 0.99,
+  "ebayi_tam": "0609 UTC",
+  "ilk_yayin": {
+   "tjk": "0605 UTC",
+   "ebayi": "0605 UTC"
+  }
+ },
+ "Antalya": {
+  "ilk_doluluk": 0.537,
+  "tjk_tam": "0617 UTC",
+  "tam_doluluk": 1.0,
+  "ebayi_tam": "0609 UTC",
+  "ilk_yayin": {
+   "tjk": "0605 UTC",
+   "ebayi": "0605 UTC"
+  }
+ }
+}

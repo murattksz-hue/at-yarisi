@@ -1,7 +1,7 @@
 # Yapılacak testler
 
 
-> **Durum 25.11.2026 akşam (ayrıntı `BILGI.md` "YAPILACAK_TESTLER çalıştırıldı"):** ✅ yapıldı: #1 hata raporu (`hata_raporu.py`, gün sonu çağrılıyor), #2 sayım, #3 SHAP (düzeltilmiş), #4, #5, #6 (devir verisi yok), #15, #16, #17, #23, #24. Bekleyen: B grubu (veri birikmesi), #8 (veri yok), #22 ve #25 (puanlama, Elazığ bitince).
+> **Durum 25.11.2026 akşam (ayrıntı `BILGI.md` "YAPILACAK_TESTLER çalıştırıldı"):** ✅ yapıldı: #1 hata raporu (`hata_raporu.py`, gün sonu çağrılıyor), #2 sayım, #3 SHAP (düzeltilmiş), #4, #5, #6 (devir verisi yok), #15, #16, #17, #23, #24. #22 retro TAM ✅ (`tam_geriye_donuk.py`, `BILGI.md`); dondurma TAM+15 dk ✅ (26.11). Bekleyen: B grubu (veri birikmesi), #8 (veri yok), #22 ve #25 (puanlama, Elazığ bitince).
 
 Son güncelleme: 22.11.2026. Kullanıcı: "Yapılması gereken testleri yap dediğimde hepsini yaparsın." Bu dosya o liste.
 

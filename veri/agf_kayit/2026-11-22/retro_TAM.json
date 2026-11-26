@@ -1,0 +1,22 @@
+{
+ "Adana": {
+  "ilk_doluluk": 1.0,
+  "tjk_tam": "0615 UTC",
+  "tam_doluluk": 1.0,
+  "ebayi_tam": "0615 UTC",
+  "ilk_yayin": {
+   "tjk": "0615 UTC",
+   "ebayi": "0615 UTC"
+  }
+ },
+ "İzmir": {
+  "ilk_doluluk": 1.0,
+  "tjk_tam": "0615 UTC",
+  "tam_doluluk": 1.0,
+  "ebayi_tam": "0615 UTC",
+  "ilk_yayin": {
+   "tjk": "0615 UTC",
+   "ebayi": "0615 UTC"
+  }
+ }
+}

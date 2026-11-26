@@ -5,12 +5,14 @@ Bir hipodromun ilk AGF'si (veri/agf_kayit/<tarih>/ILK_<hip>.csv) kaydedildiyse v
   2) aynı girdilerle AGF'siz model (AGFSIZ_ZORLA=1) → analizler/<tarih>_<hip>_agfsiz.txt, veri/tahminler/<tarih>_<hip>_agfsiz.json
 AGF'si olmayan hipodrom için hiçbir şey yapılmaz. Altılıya girmeyen koşuların (AGF'si hiç olmayan) beklenmez. Bir kez dondurulan tahmin bir daha değiştirilmez."""
 import sys,os,json,shutil,subprocess,datetime
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import agf_tam   # -I ile script dizini sys.path'te olmaz
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date() if len(sys.argv)>1 else datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).date()
 kd=os.path.join(K,'veri','agf_kayit',g.isoformat()); td=os.path.join(K,'veri','tahminler'); tmp=os.path.join(K,'.gunluk',g.isoformat())
 _tr=datetime.timezone(datetime.timedelta(hours=3)); _simdi=datetime.datetime.now(_tr)
 _yedek=(g!=_simdi.date()) or _simdi.strftime('%H:%M')>='10:15'   # TAM yoksa ILK'e yalnızca 10:15'ten sonra (ya da geçmiş gün için) düş
-hazir=[f[4:-4] for f in sorted(os.listdir(kd)) if f.startswith('TAM_') and f.endswith('.csv')] if os.path.isdir(kd) else []
+_utc=datetime.datetime.now(datetime.timezone.utc)
+hazir=[f[4:-4] for f in sorted(os.listdir(kd)) if f.startswith('TAM_') and f.endswith('.csv') and (g!=_simdi.date() or agf_tam.olgun(kd,f[4:-4],_utc))] if os.path.isdir(kd) else []   # bugün: TAM'dan sonra 15 dk bekle (AGF otursun)
 if os.path.isdir(kd) and _yedek: hazir+=[f[4:-4] for f in sorted(os.listdir(kd)) if f.startswith('ILK_') and f.endswith('.csv') and f[4:-4] not in hazir]
 bekleyen=[h for h in hazir if not os.path.exists(os.path.join(td,f"{g.isoformat()}_{h}.json"))]
 if not bekleyen: sys.exit(0)

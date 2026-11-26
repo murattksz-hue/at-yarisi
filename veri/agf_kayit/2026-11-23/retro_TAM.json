@@ -1,0 +1,22 @@
+{
+ "Bursa": {
+  "ilk_doluluk": 0.448,
+  "tjk_tam": "0623 UTC",
+  "tam_doluluk": 1.0,
+  "ebayi_tam": "0612 UTC",
+  "ilk_yayin": {
+   "ebayi": "0601 UTC",
+   "tjk": "0606 UTC"
+  }
+ },
+ "Şanlıurfa": {
+  "ilk_doluluk": 0.356,
+  "tjk_tam": "0628 UTC",
+  "tam_doluluk": 1.0,
+  "ebayi_tam": "0628 UTC",
+  "ilk_yayin": {
+   "ebayi": "0601 UTC",
+   "tjk": "0606 UTC"
+  }
+ }
+}

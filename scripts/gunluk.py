@@ -2,6 +2,7 @@
 Türkiye hipodromlarının programını, CSV'sini, hava tahminini ve galoplarını (pegadrom; tjkgalop ile TJK) indirir, analizi çalıştırır.
 Çıktı: analizler/YYYY-AA-GG_<hipodrom>.txt"""
 import sys,os,re,subprocess,urllib.parse,datetime,json
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import agf_tam   # -I ile script dizini sys.path'te olmaz
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); g=datetime.datetime.strptime(sys.argv[1],'%d.%m.%Y').date()
 mod=sys.argv[2] if len(sys.argv)>2 else 'pegadrom'
 if mod=='galop': mod='pegadrom'
@@ -40,7 +41,7 @@ for sid,ad in re.findall(r'data-sehir-id="(\d+)" href="[^"]+">\s*([^<(]+?)\s*[(<
     get(f"https://www.tjk.org/TR/YarisSever/Info/Sehir/GunlukYarisProgrami?SehirId={sid}&QueryParameter_Tarih={tarih}&SehirAdi={enc}&Era={era}",h)
     tamf=os.path.join(K,'veri','agf_kayit',g.isoformat(),f"TAM_{ad}.csv")
     if os.environ.get('AGF_TAM_KULLAN')=='1' and os.path.exists(tamf):   # tahmin dondurma: AGF'si TAM (dolu) görüntüyü kullan, yeniden indirme boş/kısmi gelebilir
-        import shutil; shutil.copyfile(tamf,c)
+        import shutil; shutil.copyfile(agf_tam.en_son_tam_csv(os.path.join(K,'veri','agf_kayit',g.isoformat()),ad) or tamf,c)   # en son DOLU görüntü (TAM anındaki AGF henüz oturmamış olabilir)
     elif not get(f"https://medya-cdn.tjk.org/raporftp/TJKPDF/{g.year}/{g.isoformat()}/CSV/GunlukYarisProgrami/{g.strftime('%d.%m.%Y')}-{enc}-GunlukYarisProgrami-TR.csv?t={int(datetime.datetime.now().timestamp())}",c):   # ?t=: CDN önbelleğini atlatır
         print(ad,': CSV alınamadı'); continue
     subprocess.run([sys.executable,'-I',os.path.join(K,'scripts','soy_kayit.py'),h])   # soy: baba, anne, anne babası

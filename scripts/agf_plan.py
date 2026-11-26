@@ -5,6 +5,7 @@
   4) her koşudan sonra (başlangıç + 15 dk): sonuç kontrolü (canli_takip → veri/canli_takip*.csv)
 Durum: veri/plan/<tarih>.json. Koşu saatleri: ebayi program kosular/<HIP>.json. Çıkış kodu 3 = günün bütün işleri bitti."""
 import sys,os,json,subprocess,datetime
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import agf_tam   # -I ile script dizini sys.path'te olmaz
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TZ=datetime.timezone(datetime.timedelta(hours=3)); simdi=datetime.datetime.fromisoformat(os.environ['PLAN_SIMDI']).replace(tzinfo=TZ) if os.environ.get('PLAN_SIMDI') else datetime.datetime.now(TZ); g=simdi.date()
 DENEME=bool(os.environ.get('PLAN_DENEME'))   # deneme: işleri çalıştırmaz, yalnızca yazar
@@ -49,7 +50,7 @@ if ilk_tamam and '08:00'<=hm<'12:00' and dk(hm)-P.get('son_sabah2',-99)>=15:
     P['son_sabah2']=dk(hm); kaydet(); calis('agf_kayit.py')
 # ilk AGF'si kaydedilmiş ama tahmini dondurulmamış hipodrom varsa analiz 5 dakikada bir yeniden denenir
 # dondurma TAM (altılıdaki her koşuda AGF dolu) görüntüyle yapılır; ilk yayın kısmi gelir (22 dk kadar). Yedek: TAM 10:15'e kadar oluşmazsa ILK ile dondur.
-def agf_hazir(h): return os.path.exists(os.path.join(kd,f"TAM_{h}.csv")) or (os.path.exists(os.path.join(kd,f"ILK_{h}.csv")) and hm>='10:15')
+def agf_hazir(h): return (os.path.exists(os.path.join(kd,f"TAM_{h}.csv")) and agf_tam.olgun(kd,h,datetime.datetime.now(datetime.timezone.utc))) or (os.path.exists(os.path.join(kd,f"ILK_{h}.csv")) and hm>='10:15')   # TAM'dan 15 dk sonra dondur
 bekleyen=[h for h in KS if agf_hazir(h) and not os.path.exists(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{h}.json"))]
 if bekleyen and dk(hm)-P.get('son_analiz',-99)>=5:
     print(f"{hm} dondurulmamış: {', '.join(bekleyen)} → analiz",flush=True); P['son_analiz']=dk(hm); kaydet(); ALINDI[0]=False; calis('agf_sonrasi_analiz.py')
