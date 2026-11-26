@@ -60,7 +60,7 @@ for key,rs0 in R.items():
         hk=ak(r['at']); bb=(r['baba'] or '').upper().strip()
         if bb: BABA[hk]=bb
         if not r['sonuc'].strip().isdigit(): continue
-        dims=(('mesafe',_band(r['mesafe'])),('pist',r['pist'] or '?'))
+        dims=(('mesafe',_band(r['mesafe'])),('pist',r['pist'] or '?'),('aile',kosu_tipi.aile(kosu_tipi.tur(r['tur'] or ''))),('hip',r['hip']))
         pos=int(r['sonuc'])
         for d in dims:
             h=HS[(hk,)+d]; h[0]+=1; h[1]+=pos==1; h[2]+=pos<=3
@@ -70,7 +70,7 @@ _bk=None
 for _k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []):
     if str(_k['kosu'])==kno: _bk=_k.get('baslik','')
 _ti=kosu_tipi.sinif(_bk) if _bk else {}
-_dd=(('mesafe',_band(_ti.get('mesafe',''))),('pist',_ti.get('pist','?')))
+_dd=(('mesafe',_band(_ti.get('mesafe',''))),('pist',_ti.get('pist','?')),('aile',_ti.get('aile','?')),('hip',hip))
 def tercih(ad):
     hk=ak(ad); bb=BABA.get(hk); o={'baba':bb}
     for d,v in _dd:
