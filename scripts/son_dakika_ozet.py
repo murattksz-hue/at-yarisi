@@ -2,7 +2,7 @@
 Girdiler (yalnızca okur): veri/tahminler/<tarih>_<hip>[_agfsiz].json (dondurulmuş v9), veri/agf_kayit/<tarih>/<hip>_<HHMM>UTC_ebayi.json (AGF1/AGF2/ganyan/koşmaz), veri/plan/<tarih>.json (koşu saati),
 veri/tahminler_birlesik/<tarih>.json (varsa BİRLEŞİK). Çıktı: veri/son_dakika/<tarih>/<hip>_<koşu>.md (yeni dosya).
 İçerik: at başına bizim olasılıklar (v9 AGF'li, AGF'siz, varsa BİRLEŞİK), piyasa (şimdi, AGF), sabaha ve −60 dk'ya göre AGF/ganyan değişimi, işaretler; bizim ve piyasanın favorisi farklı mı; para girişi olan atlar.
-İşaretler (YALNIZCA bilgi, test edilmedi): 💰 ganyan −60 dk'ya göre >=%30 düştü (g60/g_şimdi >=1,4), 📈 AGF sabaha göre +%30 ve +3 puan, 📉 AGF sabaha göre −%30 ve −3 puan, ⚖ bizim olasılığımız piyasanın >=1,3 katı (değer adayı; kanıtlanmış değil)."""
+İşaretler (YALNIZCA bilgi, test edilmedi): 💰 ganyan −60 dk'ya göre >=%30 düştü (g60/g_şimdi >=1,4), 📈 AGF sabaha göre +%30 ve +3 puan, 📉 AGF sabaha göre −%30 ve −3 puan, ⚖ bizim olasılığımız piyasanın >=1,3 katı (değer adayı; kanıtlanmış değil), 🎯 uzun at (piyasa <%10) + bu mesafede atın geçmişi uyumlu (bantta >=4 koşu, ilk-3 >=%50) + babası bu bantta olumlu (test: A/E ~1,1-1,2 ama anlamsız; yalnızca bilgi)."""
 import os,sys,re,json,glob,datetime,csv
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import kosu_tipi   # -I ile script dizini sys.path'te olmaz
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -71,6 +71,9 @@ for k,v in sorted(N.items(),key=lambda kv:-(piyasa.get(kv[0]) or 0)):
     a0=OS.get(k,{}).get('agf'); a1=v['agf']
     if a0 and a1 and a1>=1.3*a0 and a1-a0>=3: fl.append('📈')
     if a0 and a1 and a1<=0.7*a0 and a0-a1>=3: fl.append('📉')
+    if R10:
+        _t=next((a.get('tercih') for a in R10['atlar'] if ak(a['ad'])==k),None)
+        if _t and _t.get('hedef') and piyasa.get(k) is not None and piyasa[k]<0.10: fl.append('🎯')
     ours=PB.get(k) or P9.get(k)
     if ours and piyasa.get(k) and ours>=1.3*piyasa[k] and piyasa[k]<0.25: fl.append('⚖')
     rows.append((k,v,fl))

@@ -2,7 +2,7 @@
 Kol: BİRLEŞİK_10 = −10 dk piyasa (AGF; yoksa ganyan^1,05) + b*baş-başa skoru (b=0,5), koşmaz atlar çıkarılır. Aynı kayıtta karşılaştırma kolları: piyasa_10 (yalnızca piyasa), v9 AGF'li, v9 AGF'siz (dondurulmuş sabah tahminleri).
 Girdiler (yalnızca okur): son eBayi görüntüsü, veri/tahminler/<tarih>_<hip>[_agfsiz].json, veri/at_gecmisi (baş-başa, <tarih>'ten önce), veri/plan/<tarih>.json.
 Çıktı: veri/tahminler_10dk/<tarih>.json içine bu koşu EKLENİR (bir koşu bir kez; üzerine yazılmaz) ve veri/tahminler_10dk/<tarih>.md. Puanlama: puan_10dk.py. Ağırlıklar ayarlanmadı (BİRLEŞİK testindeki gibi)."""
-import os,sys,json,glob,gzip,csv,io,re,datetime,collections
+import os,sys,json,glob,gzip,csv,io,re,math,datetime,collections
 import numpy as np
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import kosu_tipi   # -I ile script dizini sys.path'te olmaz
 K=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -84,6 +84,14 @@ def tercih(ad):
         t=SS.get((bb,'mesafe',b)) if bb else None
         if t and t[0]>=30: bh[b]=[t[0],t[2],round(t[2]/max(t[1],1e-9),2),round((t[2]-t[1])/max(t[3],1e-9)**0.5,1)]
     o['kendi_mesafe_hepsi']=kh; o['baba_mesafe_hepsi']=bh
+    # 🎯 işareti (bilgi amaçlı; mesafe_profil_testi.py ile aynı tanım): atın bu bantta ≥4 koşusu, ilk-3 oranı ≥%50 ve genel orandan ≥15 puan iyi (uyumlu), babası bu bantta büzülmüş log(A/E) ≥ +0,05
+    n_all=sum(v[0] for v in kh.values()); t_all=sum(v[2] for v in kh.values()); nb,wb,tb=kh.get(_dd[0][1],[0,0,0])
+    uy=None
+    if n_all>=4 and nb>=4:
+        ra=t_all/n_all; uy='uyumlu' if (tb/nb>=0.5 and tb/nb-ra>=0.15) else ('uyumsuz' if tb==0 else None)
+    tt=SS.get((bb,'mesafe',_dd[0][1])) if bb else None
+    la=math.log((tt[2]+5)/(tt[1]+5)) if tt and tt[0]>=30 else None
+    o['mesafe_uyum']=uy; o['baba_log_ae']=None if la is None else round(la,3); o['hedef']=bool(uy=='uyumlu' and la is not None and la>=0.05)
     o['baslik']=dict(_dd); return o
 ks=[ak(a) for a in atlar]; sk=[]
 for i,a in enumerate(ks):
