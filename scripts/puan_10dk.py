@@ -27,7 +27,7 @@ for gun in gunler:
         if not (0<=v['goruntu_koşuya_dk']<=20): bayat+=1; continue
         win=[a for a in v['atlar'] if r.get(ak(a['ad']))==1]
         if len(win)!=1: continue
-        row=dict(gun=gun,hip=hip,kosu=v['kosu'],kazanan=win[0]['ad'],guven=v['guven'],tip=v.get('tip') or {})
+        row=dict(gun=gun,hip=hip,kosu=v['kosu'],kazanan=win[0]['ad'],guven=v['guven'],tip=v.get('tip') or {},risk=v.get('surpriz_riski'),KL=v.get('liste_uzunlugu'),listede=(win[0]['ad'] in (v.get('secim_liste') or [])) if v.get('secim_liste') else None)
         for n,pk,_ in ARMS:
             ps=[a[pk] for a in v['atlar']]
             if any(p is None for p in ps): row[n]=None; continue
@@ -42,6 +42,13 @@ for n,_,ad in ARMS:
     if not m: L.append(f'| {ad} | 0 | — | | | | |'); continue
     t1=sum(x[0]==1 for x in R); t2=sum(x[0]<=2 for x in R); t3=sum(x[0]<=3 for x in R); lo,hi=wilson(t1,m)
     L.append(f"| {ad} | {m} | {t1} (%{100*t1/m:.1f}) | %{100*lo:.0f}–{100*hi:.0f} | %{100*t2/m:.1f} | %{100*t3/m:.1f} | {np.mean([x[1] for x in R]):.3f} |")
+LS=[r for r in S if r['listede'] is not None]
+if LS:
+    L+=['','**Sürpriz riskine göre değişken liste (yüksek risk 5, orta 4, düşük 3 at):** kazanan listede %{:.0f} ({}/{} koşu).'.format(100*sum(r['listede'] for r in LS)/len(LS),sum(r['listede'] for r in LS),len(LS)),'','| Risk | Liste | Koşu | Kazanan listede | İlk 3\'te |','|---|---|---|---|---|']
+    for rk in ('yüksek','orta','düşük'):
+        q=[r for r in LS if r['risk']==rk]
+        if q: L.append(f"| {rk} | {q[0]['KL']} at | {len(q)} | %{100*sum(r['listede'] for r in q)/len(q):.0f} | %{100*sum(r['birlesik10'][0]<=3 for r in q if r['birlesik10'])/len(q):.0f} |")
+    L.append('Geçmiş beklenti (17.873 koşu, kapanış piyasası): düşük risk K3 %77, orta K4 %81, yüksek K5 %76 (yüksek riskte yalnızca 3 at olsaydı %60).')
 E=[(r['birlesik10'],r['piyasa10']) for r in S if r['birlesik10'] and r['piyasa10']]
 if len(E)>=100:
     d=[(a[1]-b[1]) for a,b in E]; rr=random.Random(1); bs=sorted(np.mean([d[rr.randrange(len(d))] for _ in d]) for _ in range(1000))

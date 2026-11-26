@@ -65,15 +65,18 @@ def kol(p):
     return None
 p9=kol(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')); p9s=kol(os.path.join(K,'veri','tahminler',f'{gun}_{hip}_agfsiz.json'))
 sira=np.argsort(-pc)
+# sürpriz riski: piyasada %10 altı atların toplam payı. Terzil eşikleri 17.873 geçmiş koşudan (2024+, kapanış ganyanı): <=0,198 düşük, <=0,31 orta, üstü yüksek.
+# Geçmişte kazananın ilk K piyasa atında olma oranı: düşük risk K3 %77, orta K4 %81, yüksek K5 %76 (K3 yalnızca %60) -> liste uzunluğu 3/4/5 (iki yarıda tutarlı: yüksek riskte K5 %76 / %76).
+p_sur=float(pm[pm<0.10].sum()); risk='yüksek' if p_sur>0.31 else 'orta' if p_sur>0.198 else 'düşük'; KL={'düşük':3,'orta':4,'yüksek':5}[risk]; KL=min(KL,len(atlar))
 _b=''
 for _k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []):
     if str(_k['kosu'])==kno: _b=_k.get('baslik','')
 D['kosular'][anah]={'tip':kosu_tipi.sinif(_b) if _b else None,'hip':hip,'kosu':int(kno),'saat':saat,'olusturma_tr':datetime.datetime.now(TR).isoformat(timespec='seconds'),'goruntu_utc':b,'goruntu_koşuya_dk':once,'piyasa_kaynak':kaynak,
-  'secim_1':atlar[sira[0]],'secim_ilk3':[atlar[i] for i in sira[:3]],'guven':'net' if pc.max()>=0.40 else 'orta' if pc.max()>=0.28 else 'düşük',
+  'secim_1':atlar[sira[0]],'secim_ilk3':[atlar[i] for i in sira[:3]],'surpriz_riski':risk,'surpriz_p':round(p_sur,3),'liste_uzunlugu':KL,'secim_liste':[atlar[i] for i in sira[:KL]],'guven':'net' if pc.max()>=0.40 else 'orta' if pc.max()>=0.28 else 'düşük',
   'atlar':[{'ad':atlar[i],'p_birlesik10':round(float(pc[i]),4),'p_piyasa10':round(float(pm[i]),4),'p_v9_agfli':None if p9 is None else round(float(p9[i]),4),'p_v9_agfsiz':None if p9s is None else round(float(p9s[i]),4),'h2h':round(float(sk[i]),3)} for i in range(len(atlar))]}
 json.dump(D,open(yol,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
-L=[f'# −10 dk tahminleri — {gun}','','| Koşu | Saat | Seçim (BİRLEŞİK_10, ilk 3) | Güven | Piyasa favorisi | Görüntü (koşuya dk) |','|---|---|---|---|---|---|']
+L=[f'# −10 dk tahminleri — {gun}','','| Koşu | Saat | Liste (BİRLEŞİK_10; sürpriz riskine göre 3/4/5 at) | Risk | Güven | Piyasa favorisi | Görüntü (koşuya dk) |','|---|---|---|---|---|---|---|']
 for k,v in sorted(D['kosular'].items(),key=lambda kv:(kv[1]['saat'],kv[1]['hip'])):
     pf=max(v['atlar'],key=lambda a:a['p_piyasa10'])['ad']
-    L.append(f"| {v['hip']} {v['kosu']} | {v['saat']} | {' · '.join(x[:14] for x in v['secim_ilk3'])} | {v['guven']} | {pf[:14]} | {v['goruntu_koşuya_dk']} |")
+    L.append(f"| {v['hip']} {v['kosu']} | {v['saat']} | {' · '.join(x[:14] for x in v['secim_liste'])} | {v['surpriz_riski']} (%{100*v['surpriz_p']:.0f}) | {v['guven']} | {pf[:14]} | {v['goruntu_koşuya_dk']} |")
 open(os.path.join(od,f'{gun}.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n'); print(anah,'→',atlar[sira[0]],f'%{100*pc[sira[0]]:.0f}',kaynak,f'(görüntü koşuya {once} dk)')

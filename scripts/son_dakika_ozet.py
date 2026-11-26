@@ -86,6 +86,9 @@ for k,v,fl in rows:
 L+=['','**Favoriler:** '+' · '.join(f"{n}: {ad(k) if k else '—'}" for n,k in favs.items()),'']
 farkli={n for n,k in favs.items() if k and k!=favs['piyasa'] and favs['piyasa']}
 L.append('Bizim kollarla piyasa favorisi **ayrışıyor**: '+', '.join(sorted(farkli)) if farkli else 'Bizim kollar piyasa favorisiyle **aynı atta birleşiyor** (ya da tahmin yok).')
+_ps=sum(x for x in piyasa.values() if x is not None and x<0.10); _r='yüksek' if _ps>0.31 else 'orta' if _ps>0.198 else 'düşük'; _kl={'düşük':3,'orta':4,'yüksek':5}[_r]
+_pr=PB or P9 or piyasa; _top=sorted(_pr,key=lambda k:-(_pr.get(k) or 0))[:_kl]
+L.append(f"**Sürpriz riski: {_r}** (piyasada %10 altı atların payı %{100*_ps:.0f}) → liste {_kl} at: "+', '.join(ad(k) for k in _top)+'. Geçmişte bu uzunlukta kazanan listede ~%76–81.')
 para=[ad(k) for k,v,fl in rows if '💰' in fl]
 if para: L.append('Para girişi (💰): '+', '.join(para))
 # koşu çeşidi: tarihsel taban oranları ve bizim canlı sicilimiz
