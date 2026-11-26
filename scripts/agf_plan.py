@@ -67,7 +67,7 @@ for h,R in KS.items():
         for e in (30,10,3):
             if dk(t)-e<=dk(hm)<dk(t): is_(f"{h} {no}. koşu -{e}dk kayıt",lambda:calis('agf_kayit.py'))
         # son dakika piyasa özeti (−10 dk görüntüsünden sonra, koşuya ~10 dk kala): veri/son_dakika/<tarih>/<hip>_<koşu>.md (yalnızca bilgi)
-        if dk(t)-10<=dk(hm)<dk(t): is_(f"{h} {no}. koşu son dakika özeti",lambda h=h,no=no:calis('son_dakika_ozet.py',g.isoformat(),h,no))
+        if dk(t)-10<=dk(hm)<dk(t): is_(f"{h} {no}. koşu son dakika özeti",lambda h=h,no=no:(calis('son_dakika_ozet.py',g.isoformat(),h,no),calis('tahmin_10dk.py',g.isoformat(),h,no)))
         for e in (20,45):   # kazanan profili (sürpriz analizi); para takibinden sonra
             if dk(hm)>=dk(t)+e: is_(f"{h} {no}. koşu kazanan profili +{e}",lambda h=h,no=no:calis('kazanan_profil.py',g.isoformat(),h,no))
         for e in (15,40):   # sonuç geç gelirse ikinci deneme
@@ -75,5 +75,5 @@ for h,R in KS.items():
         if dk(hm)>=dk(t)+15 and os.path.exists(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{h}.json")):
             is_(f"{h} {no}. koşu sonrası kontrol",lambda h=h:calis('canli_takip.py',g.strftime('%d.%m.%Y'),h))
 son=max(dk(t) for R in KS.values() for t in R.values())
-if dk(hm)>=son+15 and all(f"{h} {no}. koşu sonrası kontrol" in yap for h,R in KS.items() for no in R): is_('doğruluk raporu',lambda:(calis('agf_dogruluk.py'),calis('guven_araligi.py'),calis('surpriz_ayri.py'),calis('hata_raporu.py'))); sys.exit(3)   # gün sonu: TJK/ebayi AGF doğruluk özeti (veri/agf_kayit/DOGRULUK.md)
-if dk(hm)>=son+120: is_('doğruluk raporu',lambda:(calis('agf_dogruluk.py'),calis('guven_araligi.py'),calis('surpriz_ayri.py'),calis('hata_raporu.py'))); sys.exit(3)
+if dk(hm)>=son+15 and all(f"{h} {no}. koşu sonrası kontrol" in yap for h,R in KS.items() for no in R): is_('doğruluk raporu',lambda:(calis('agf_dogruluk.py'),calis('guven_araligi.py'),calis('surpriz_ayri.py'),calis('hata_raporu.py'),calis('puan_10dk.py',g.isoformat()))); sys.exit(3)   # gün sonu: TJK/ebayi AGF doğruluk özeti (veri/agf_kayit/DOGRULUK.md)
+if dk(hm)>=son+120: is_('doğruluk raporu',lambda:(calis('agf_dogruluk.py'),calis('guven_araligi.py'),calis('surpriz_ayri.py'),calis('hata_raporu.py'),calis('puan_10dk.py',g.isoformat()))); sys.exit(3)
