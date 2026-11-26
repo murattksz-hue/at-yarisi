@@ -304,6 +304,702 @@
      "h2h": 0.0
     }
    ]
+  },
+  "İzmir|4": {
+   "tip": {
+    "tur": "Handikap 14",
+    "aile": "Handikap",
+    "irk": "İngiliz",
+    "yas": "2",
+    "mesafe": "1400",
+    "mesafe_band": "1400-1699",
+    "pist": "Kum"
+   },
+   "hip": "İzmir",
+   "kosu": 4,
+   "saat": "16:30",
+   "olusturma_tr": "2026-11-26T16:18:52+03:00",
+   "goruntu_utc": "1318",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "VICTORYS CALL",
+   "secim_ilk3": [
+    "VICTORYS CALL",
+    "MARVELLE",
+    "HEART OF ÖNER"
+   ],
+   "surpriz_riski": "düşük",
+   "surpriz_p": 0.08,
+   "liste_uzunlugu": 3,
+   "secim_liste": [
+    "VICTORYS CALL",
+    "MARVELLE",
+    "HEART OF ÖNER"
+   ],
+   "guven": "orta",
+   "atlar": [
+    {
+     "ad": "FINAL SHOT",
+     "p_birlesik10": 0.0802,
+     "p_piyasa10": 0.0803,
+     "p_v9_agfli": 0.1545,
+     "p_v9_agfsiz": 0.0764,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "TOCCET (USA)",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 1,
+       "ilk3": 3
+      },
+      "baba_mesafe": {
+       "n": 154,
+       "birinci": 12,
+       "ae": 0.8,
+       "z": -0.9
+      },
+      "kendi_pist": {
+       "n": 9,
+       "birinci": 1,
+       "ilk3": 6
+      },
+      "baba_pist": {
+       "n": 496,
+       "birinci": 64,
+       "ae": 1.15,
+       "z": 1.3
+      },
+      "kendi_aile": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_aile": {
+       "n": 231,
+       "birinci": 19,
+       "ae": 0.76,
+       "z": -1.4
+      },
+      "kendi_hip": {
+       "n": 9,
+       "birinci": 1,
+       "ilk3": 6
+      },
+      "baba_hip": {
+       "n": 202,
+       "birinci": 27,
+       "ae": 1.2,
+       "z": 1.1
+      },
+      "annebaba": "UNACCOUNTED FOR (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        416,
+        69,
+        1.25,
+        2.1
+       ],
+       "1300-1400": [
+        856,
+        104,
+        1.02,
+        0.2
+       ],
+       "1500-1700": [
+        571,
+        80,
+        1.14,
+        1.3
+       ],
+       "1800-2100": [
+        1025,
+        181,
+        1.23,
+        3.2
+       ],
+       "2200+": [
+        112,
+        17,
+        0.99,
+        -0.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        4,
+        0,
+        3
+       ],
+       "1300-1400": [
+        4,
+        1,
+        3
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        63,
+        6,
+        0.85,
+        -0.4
+       ],
+       "1300-1400": [
+        154,
+        12,
+        0.8,
+        -0.9
+       ],
+       "1500-1700": [
+        85,
+        10,
+        1.16,
+        0.5
+       ],
+       "1800-2100": [
+        263,
+        35,
+        1.17,
+        1.0
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.167,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "MARVELLE",
+     "p_birlesik10": 0.3322,
+     "p_piyasa10": 0.3325,
+     "p_v9_agfli": 0.2827,
+     "p_v9_agfsiz": 0.2975,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "FEARLESS KING (GB)",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 58,
+       "birinci": 11,
+       "ae": 1.48,
+       "z": 1.5
+      },
+      "kendi_pist": {
+       "n": 2,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 60,
+       "birinci": 11,
+       "ae": 1.21,
+       "z": 0.8
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 2,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 40,
+       "birinci": 10,
+       "ae": 1.32,
+       "z": 1.1
+      },
+      "annebaba": "BUSHRANGER (IRE)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        102,
+        2,
+        0.3,
+        -1.9
+       ],
+       "1300-1400": [
+        99,
+        8,
+        1.21,
+        0.6
+       ],
+       "1500-1700": [
+        53,
+        4,
+        0.71,
+        -0.8
+       ],
+       "1800-2100": [
+        61,
+        5,
+        0.89,
+        -0.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        0
+       ],
+       "1300-1400": [
+        1,
+        1,
+        1
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        57,
+        12,
+        1.43,
+        1.5
+       ],
+       "1300-1400": [
+        58,
+        11,
+        1.48,
+        1.5
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.25,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "VICTORYS CALL",
+     "p_birlesik10": 0.3364,
+     "p_piyasa10": 0.3367,
+     "p_v9_agfli": 0.175,
+     "p_v9_agfsiz": 0.3065,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "VICTORY GALLOP (CAN)",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 365,
+       "birinci": 50,
+       "ae": 0.95,
+       "z": -0.4
+      },
+      "kendi_pist": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 883,
+       "birinci": 126,
+       "ae": 0.97,
+       "z": -0.4
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "baba_aile": {
+       "n": 568,
+       "birinci": 57,
+       "ae": 0.88,
+       "z": -1.0
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 174,
+       "birinci": 32,
+       "ae": 1.07,
+       "z": 0.5
+      },
+      "annebaba": "CUVEE (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        217,
+        21,
+        0.93,
+        -0.4
+       ],
+       "1300-1400": [
+        475,
+        53,
+        1.22,
+        1.6
+       ],
+       "1500-1700": [
+        195,
+        18,
+        0.98,
+        -0.1
+       ],
+       "1800-2100": [
+        251,
+        21,
+        1.0,
+        0.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        1,
+        1,
+        1
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        129,
+        14,
+        0.92,
+        -0.4
+       ],
+       "1300-1400": [
+        365,
+        50,
+        0.95,
+        -0.4
+       ],
+       "1500-1700": [
+        242,
+        31,
+        0.92,
+        -0.6
+       ],
+       "1800-2100": [
+        686,
+        84,
+        0.9,
+        -1.1
+       ],
+       "2200+": [
+        99,
+        15,
+        1.0,
+        -0.0
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.048,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "MUKKİ",
+     "p_birlesik10": 0.1156,
+     "p_piyasa10": 0.1232,
+     "p_v9_agfli": 0.1462,
+     "p_v9_agfsiz": 0.2428,
+     "h2h": -0.125,
+     "tercih": {
+      "baba": "KLIMT (USA)",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 371,
+       "birinci": 50,
+       "ae": 1.03,
+       "z": 0.2
+      },
+      "kendi_pist": {
+       "n": 3,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 547,
+       "birinci": 76,
+       "ae": 0.99,
+       "z": -0.2
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "baba_aile": {
+       "n": 220,
+       "birinci": 19,
+       "ae": 0.7,
+       "z": -1.8
+      },
+      "kendi_hip": {
+       "n": 3,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 115,
+       "birinci": 22,
+       "ae": 1.11,
+       "z": 0.6
+      },
+      "annebaba": "GENERAL QUARTERS (USA)",
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        0
+       ],
+       "1300-1400": [
+        1,
+        1,
+        1
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        253,
+        41,
+        1.08,
+        0.6
+       ],
+       "1300-1400": [
+        371,
+        50,
+        1.03,
+        0.2
+       ],
+       "1500-1700": [
+        137,
+        16,
+        1.04,
+        0.2
+       ],
+       "1800-2100": [
+        161,
+        20,
+        0.94,
+        -0.3
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.023,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "HEART OF ÖNER",
+     "p_birlesik10": 0.1355,
+     "p_piyasa10": 0.1274,
+     "p_v9_agfli": 0.2416,
+     "p_v9_agfsiz": 0.0768,
+     "h2h": 0.125,
+     "tercih": {
+      "baba": "FEARLESS KING (GB)",
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "baba_mesafe": {
+       "n": 58,
+       "birinci": 11,
+       "ae": 1.48,
+       "z": 1.5
+      },
+      "kendi_pist": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 60,
+       "birinci": 11,
+       "ae": 1.21,
+       "z": 0.8
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 40,
+       "birinci": 10,
+       "ae": 1.32,
+       "z": 1.1
+      },
+      "annebaba": "CAPTAIN RIO (GB)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        111,
+        14,
+        1.14,
+        0.5
+       ],
+       "1300-1400": [
+        164,
+        15,
+        0.86,
+        -0.7
+       ],
+       "1500-1700": [
+        67,
+        2,
+        0.29,
+        -2.1
+       ],
+       "1800-2100": [
+        58,
+        4,
+        0.82,
+        -0.5
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        4,
+        0,
+        1
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        57,
+        12,
+        1.43,
+        1.5
+       ],
+       "1300-1400": [
+        58,
+        11,
+        1.48,
+        1.5
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.25,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "İzmir"
+      }
+     }
+    }
+   ]
   }
  }
 }
