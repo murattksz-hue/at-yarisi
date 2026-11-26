@@ -1187,5 +1187,104 @@
     ]
    }
   ]
+ },
+ "Antalya-7": {
+  "hipodrom": "Antalya",
+  "kosu": 7,
+  "zaman": "20:30",
+  "tjk_goruntu": "19:18",
+  "ebayi_goruntu": "20:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ATAERİ KG SK",
+      "tjk": 20.46,
+      "ebayi": 20.46,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "BESNİ KG DB",
+      "tjk": 23.45,
+      "ebayi": 23.45,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "KÜÇÜK ŞOVALYE KG DB SK",
+      "tjk": 19.11,
+      "ebayi": 19.11,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "MERDÜMGİRİZ SKG SK",
+      "tjk": 5.7,
+      "ebayi": 5.7,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "PLOMARİ KG K",
+      "tjk": 1.55,
+      "ebayi": 1.55,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "YAĞIZSOY KG K",
+      "tjk": 12.27,
+      "ebayi": 12.27,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ÇİLDUTAY KG DB SK",
+      "tjk": 7.76,
+      "ebayi": 7.76,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "BUZLUBADEM K DB",
+      "tjk": 5.91,
+      "ebayi": 5.91,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "İVECEN KG K DB",
+      "tjk": 0.85,
+      "ebayi": 0.85,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "MADAM BONANZA KG DB SK",
+      "tjk": 0.4,
+      "ebayi": 0.4,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "YAZGILI DB SKG SK",
+      "tjk": 2.52,
+      "ebayi": 2.52,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
