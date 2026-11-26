@@ -64,10 +64,10 @@ for h,R in KS.items():
         # -60 dk: kayıt + TJK/ebayi AGF karşılaştırması (veri/agf_kayit/<tarih>/karsilastirma.json, GUNLUK.md)
         if dk(t)-60<=dk(hm)<dk(t): is_(f"{h} {no}. koşu -60dk kayıt",lambda h=h,no=no:(calis('agf_kayit.py'),calis('agf_karsilastir.py',g.isoformat(),h,no)))
         # para girişi için koşuya yakın görüntüler (−30, −10, −3 dk); aynı dakikada birden çok iş tek kayıtla yapılır (ALINDI)
-        for e in (30,10,3):
+        for e in (30,12,10,3):
             if dk(t)-e<=dk(hm)<dk(t): is_(f"{h} {no}. koşu -{e}dk kayıt",lambda:calis('agf_kayit.py'))
-        # son dakika piyasa özeti (−10 dk görüntüsünden sonra, koşuya ~10 dk kala): veri/son_dakika/<tarih>/<hip>_<koşu>.md (yalnızca bilgi)
-        if dk(t)-10<=dk(hm)<dk(t): is_(f"{h} {no}. koşu son dakika özeti",lambda h=h,no=no:(calis('tahmin_10dk.py',g.isoformat(),h,no),calis('son_dakika_ozet.py',g.isoformat(),h,no)))
+        # son dakika piyasa özeti + −10 dk tahmini (tetik −12 dk: tur gecikirse de gerçekte ≈−10 dk'da çıkar; −12 dk görüntüsünden sonra): veri/son_dakika/<tarih>/<hip>_<koşu>.md (yalnızca bilgi)
+        if dk(t)-12<=dk(hm)<dk(t): is_(f"{h} {no}. koşu son dakika özeti",lambda h=h,no=no:(calis('tahmin_10dk.py',g.isoformat(),h,no),calis('son_dakika_ozet.py',g.isoformat(),h,no)))
         for e in (20,45):   # kazanan profili (sürpriz analizi); para takibinden sonra
             if dk(hm)>=dk(t)+e: is_(f"{h} {no}. koşu kazanan profili +{e}",lambda h=h,no=no:calis('kazanan_profil.py',g.isoformat(),h,no))
         for e in (15,40):   # sonuç geç gelirse ikinci deneme
