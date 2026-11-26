@@ -1109,5 +1109,83 @@
     ]
    }
   ]
+ },
+ "Antalya-6": {
+  "hipodrom": "Antalya",
+  "kosu": 6,
+  "zaman": "20:01",
+  "tjk_goruntu": "19:18",
+  "ebayi_goruntu": "20:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "OKLOHAMA SK",
+      "tjk": 12.08,
+      "ebayi": 12.08,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "OY YARE KG K",
+      "tjk": 7.79,
+      "ebayi": 7.79,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "SILA ALEYNA KG K DB SK",
+      "tjk": 6.84,
+      "ebayi": 6.84,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "MELİKE KG K",
+      "tjk": 65.94,
+      "ebayi": 65.94,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "USLU TAY KG DB SK",
+      "tjk": 3.74,
+      "ebayi": 3.74,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "ARASIN KIZI DB SKG SK",
+      "tjk": 0.66,
+      "ebayi": 0.66,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "BERNAMCAN DB SK",
+      "tjk": 1.91,
+      "ebayi": 1.91,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "MAYBE FOR US DB SKG SK",
+      "tjk": 1.04,
+      "ebayi": 1.04,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
