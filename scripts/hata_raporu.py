@@ -39,7 +39,7 @@ if kp:
 for r in sorted(S,key=lambda r:(r['hip'],int(r['kosu']))):
     nots=[]
     hs=f(r['hp_sira']); ms=f(r['model_agfli_sira']); ss=f(r['model_agfsiz_sira']); ao=f(r['agf_sabah']); ag=f(r['agf_son'])
-    if hs is not None and hs<=3: nots.append(f'HP sırası {int(hs)}. (HP üstündeydi, piyasa küçümsemiş; geçmişte HP ilk 3 uzun atlar piyasadan fazla kazanıyor)')
+    if hs is not None and hs<=3: nots.append(f'HP sırası {int(hs)}. (HP üstündeydi; not: düzeltilmiş testte HP ilk 3 uzun atların A/E'si 0,95, yani avantaj yok)')
     if hs is not None and hs>=6: nots.append(f'HP sırası {int(hs)}. (HP geride)')
     if ms is not None and ms>=5: nots.append(f"AGF'li model {int(ms)}. sıraya koymuş (kaçırdık)")
     if ss is not None and ms is not None and ss<ms-1: nots.append(f"AGF'siz model daha üstte ({int(ss)}.)")

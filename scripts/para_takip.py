@@ -40,7 +40,7 @@ for a in kos['atlar']:
         sonuc=a.get('SONUC'),para=int(isaret),belirsiz=belirsiz,sessiz=int(bool(agf) and agf[0]>=2 and abs(agf[-1]-agf[0])<=1.0)))
 # ⭐ sürpriz adayı sinyali (geçmiş test: 2.047 bahis, %8 kazandı, ganyan getirisi %127; 2024 %126 / 2025 %133 / 2026 %121 – ama KESİN ganyan ve son AGF ile;
 # canlıda koşu öncesi SON görüntüyle ölçülüyor): son ganyan ≥10, AGF payı ≥1,3 × ganyan olasılığı, HP ilk 3. TEST EDİLİYOR, olasılığa katılmaz.
-HP={a['AD']:f(a.get('HANDIKAP')) or 0 for a in kos['atlar'] if not a.get('KOSMAZ')}; hps={a:i+1 for i,a in enumerate(sorted(HP,key=lambda a:-HP[a]))}
+HP={a['AD']:f(a.get('HANDIKAP')) or 0 for a in kos['atlar'] if not a.get('KOSMAZ')}; hps={a:1+sum(1 for b in HP if HP[b]>HP[a]) for a in HP}   # eşitlikte sıra yok (sonuç JSON'u bitiş sırasında; sıralı sort bağı sızıntı yapıyordu, 26.11 düzeltme)
 gs_={y['at']:f(y['g_son']) for y in yeni if f(y['g_son'])}; tq=sum(1/g for g in gs_.values()) if gs_ else 0
 for y in yeni:
     g=gs_.get(y['at']); a=f(y['agf_son'])

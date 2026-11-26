@@ -18,7 +18,7 @@ for key in sorted(R,key=lambda k:(k[0],k[1],int(k[2] or 0))):
         q=[1/g for g in G]; s=sum(q); q=[x/s for x in q]
         AG=[f(a['agf']) or 0 for a in A]; agf_s={i:r+1 for r,i in enumerate(sorted(range(len(A)),key=lambda i:-AG[i]))}
         gny_s={i:r+1 for r,i in enumerate(sorted(range(len(A)),key=lambda i:G[i]))}
-        HP=[f(a['hp']) or 0 for a in A]; hp_s={i:r+1 for r,i in enumerate(sorted(range(len(A)),key=lambda i:-HP[i]))}
+        HP=[f(a['hp']) or 0 for a in A]; hp_s={i:1+sum(1 for j in range(len(A)) if HP[j]>HP[i]) for i in range(len(A))}   # eşitlikte sıra yok (satırlar sonuca göre sıralı olduğundan sıralı sort bağı sızıntı yapıyordu, 26.11 düzeltme)
         for i,a in enumerate(A):
             if G[i]<10: continue
             p=SON.get(a['kod']); B=['TÜM gny≥10']

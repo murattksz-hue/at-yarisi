@@ -30,7 +30,7 @@ for key in sorted(R):
     inv=np.array([1/v for v in g]); pm=inv/inv.sum()
     hp=[f(r['hp']) or 0 for r in rs]; st=[f(r['start']) or 0 for r in rs]; kl=[f(r['kilo']) or 0 for r in rs]
     hpm=np.mean(hp); klm=np.mean(kl)
-    hp_rank=(-np.array(hp)).argsort().argsort()+1
+    hp_rank=(lambda h:1+(h[None,:]>h[:,None]).sum(1))(np.array(hp,float))
     for i,r in enumerate(rs):
         y=re.match(r'(\d+)y',r['yas']); age=int(y.group(1)) if y else 0
         sx=r['yas'].split()[1] if len(r['yas'].split())>1 else ''

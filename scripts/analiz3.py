@@ -229,7 +229,7 @@ for ri,r in enumerate(races):
         gtxt=(f" | ganyan {gy:.2f}"+(' ★GANYAN' if 1.15<=_top<=1.6 and gy>=1.5/pe and pe>=0.05 else ('' if 1.15<=_top<=1.6 else ' (piyasa oturmamış)'))) if gy and gy>1 else ''
         _hps=sorted(range(len(h)),key=lambda j:-(h[j]['hp'] or 0)).index(i)+1
         _sp=(gy and 10<=gy<500 and _top and 1.15<=_top<=1.6 and not agf_yok and q[i]>=1.3*(1/gy)/_top and _hps<=3)
-        if _sp: gtxt+=' ⭐SÜRPRİZ ADAYI (gny≥10, AGF ≥1,3× ganyan, HP ilk 3: geçmişte getiri %127, canlı test ediliyor)'
+        if _sp: gtxt+=' ⭐ GÖZDEN KAÇABİLİR (gny≥10, AGF ≥1,3× ganyan, HP ilk 3; 26.11'de bulunan hata düzeltilince eski %127 getiri iddiası geçersiz, yalnızca bilgi)'
         print(f"  #{x['no']:>2} {x['ad'][:16]:16} olasılık %{100*p[i]:4.1f} (adil oran {1/p[i]:5.1f}, değer için ganyan ≥{1.5/p[i]:.1f}){'' if agf_yok else f' AGF %{100*q[i]:4.1f}'}{isaret}{gtxt} HP{x['hp']}{'' if not np.isfinite(x.get('hiz',np.nan)) else ' hız '+format(x['hiz'],'.0f')}{' ★pist-mesafe galibi' if x.get('pmg') else (' pist galibi' if x.get('pg') else '')} {x.get('say',0)} koşu{' (İLK KOŞU: maidende piyasa fazla oynuyor)' if MAI and not x.get('say',0) else ''} | baba {x['baba'][:13]} {not_(x['bg'])}/{x['bae']:.2f} KB {x['kb'][:11]} {not_(x['kbg'])} | {jmetin(x['jok'])} | st {x['st']} | {g[i][2]}{bt}")
     if _AN:
         _m=_re.search(r'(\d{3,4})m',r['bas'])

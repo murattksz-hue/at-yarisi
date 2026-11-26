@@ -29,7 +29,7 @@ for key in sorted(R):
     pos={r['kod']:int(r['sonuc']) for r in rs if r['sonuc'].strip().isdigit()}
     if ok and key[0]>='2024-07-01':
         n=len(rs); hp=[f(r['hp']) or 0 for r in rs]; kl=[f(r['kilo']) or 0 for r in rs]; hm=np.mean(hp); km=np.mean(kl)
-        hr=(-np.array(hp)).argsort().argsort()+1; inv=np.array([1/v for v in g]); pm=inv/inv.sum(); w=[r['sonuc'].strip()=='1' for r in rs].index(True)
+        hr=(lambda h:1+(h[None,:]>h[:,None]).sum(1))(np.array(hp,float)); inv=np.array([1/v for v in g]); pm=inv/inv.sum(); w=[r['sonuc'].strip()=='1' for r in rs].index(True)
         kods=[r['kod'] for r in rs]
         for i,r in enumerate(rs):
             t=r['yas'].split(); ym=re.match(r'(\d+)y',t[0]) if t else None
