@@ -670,5 +670,97 @@
     ]
    }
   ]
+ },
+ "İzmir-1": {
+  "hipodrom": "İzmir",
+  "kosu": 1,
+  "zaman": "18:00",
+  "tjk_goruntu": "18:00",
+  "ebayi_goruntu": "18:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "10",
+    "favori_ebayi": "10",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.06,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "10",
+    "sabah_favori_ebayi": "10",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "CAN AYDINIM KG SK",
+      "tjk": 1.72,
+      "ebayi": 1.71,
+      "fark": -0.01
+     },
+     {
+      "at": "2",
+      "ad": "ÇİMEN BERA K DB",
+      "tjk": 14.6,
+      "ebayi": 14.57,
+      "fark": -0.03
+     },
+     {
+      "at": "3",
+      "ad": "FRAMEZ KG K DB",
+      "tjk": 15.26,
+      "ebayi": 15.24,
+      "fark": -0.02
+     },
+     {
+      "at": "4",
+      "ad": "FUATHAN BEY KG K DB",
+      "tjk": 15.09,
+      "ebayi": 15.14,
+      "fark": 0.05
+     },
+     {
+      "at": "5",
+      "ad": "MIO ZIO KG DB SK",
+      "tjk": 9.86,
+      "ebayi": 9.84,
+      "fark": -0.02
+     },
+     {
+      "at": "6",
+      "ad": "MÖSYÖ DENİZ KG DB SK",
+      "tjk": 0.96,
+      "ebayi": 0.95,
+      "fark": -0.01
+     },
+     {
+      "at": "7",
+      "ad": "RAŞAMO KG K DB",
+      "tjk": 10.53,
+      "ebayi": 10.51,
+      "fark": -0.02
+     },
+     {
+      "at": "8",
+      "ad": "SHADOW KG DB SK",
+      "tjk": 3.45,
+      "ebayi": 3.44,
+      "fark": -0.01
+     },
+     {
+      "at": "9",
+      "ad": "ALBAYRAĞIN AKKUŞU KG K",
+      "tjk": 1.07,
+      "ebayi": 1.07,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "NINJA QUEEN KG DB SK",
+      "tjk": 27.46,
+      "ebayi": 27.52,
+      "fark": 0.06
+     }
+    ]
+   }
+  ]
  }
 }
