@@ -1013,3 +1013,6 @@ Ders: kupon kararında önce −12 dk listesi uzunluğu ve 💰 işareti; "tek a
 4. **Bugünkü iki vaka:** Emsalli Er (HP 8., start 5, jokey değişti, AGF %5,6→%5,2, para yok) ve Kızım Beril (HP 3., start 4, jokey değişti, AGF sessiz, ganyan −60 dk 5,3 → son 13,35, para çekildi). Ortak: jokey değişimi, AGF kenarda, apranti/hafif kilo (Emsalli Er). Jokey değişimi tarihsel testte ayırt etmedi.
 5. **Hipotezler:** (a) alan büyüklüğü: destekleniyor (Bursa 3 riski %49); (b) kulvar/kilo/apranti: tek başına destek yok (A/E ~1,0); (c) para hareketi: Kızım Beril'de ters yönde; (d) veri hatası: yok (resmî ganyanlar ebayi'den doğrulandı); (e) bizim hatamız: kuponda riskli koşuya tek at (süreç).
 6. **Sonuç:** bugünkü gözden kaçan kazananlar olağandışı değil; neden bilinen riskli koşu yapısı (çok at, zayıf favori). Önlem: riskli koşuya geniş liste, riskli koşuya tek at yok (CLAUDE.md kuralı).
+
+## 27.11.2026 koşu riski v2
+`scripts/kosu_riski_v2.py`: hedef kazananın piyasa ilk 3 dışından gelmesi. AUC 0,648 (yalnız piyasa riski 0,597); tersil kaçırma oranı %19/%33/%44. Gözden kaçan kazanan hedefinde ek katkı yok. Bugünkü koşular: Bursa 3 yüksek (%41), Bursa 4 orta (%25, eski sınıf düşüktü, kazanan ilk 3 dışından geldi), Bursa 2 düşük (%23). Kural: eski AGF sınıfı ile v2 çelişirse riskli olan.
