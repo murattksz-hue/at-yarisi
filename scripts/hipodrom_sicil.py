@@ -19,6 +19,7 @@ for fn in sorted(glob.glob(os.path.join(K,'veri','at_gecmisi','*','*.csv.gz'))):
         if ad in adlar and r['tarih']<GUN:
             s=r['sonuc'].strip()
             H[ad].append((r['tarih'],r['hip'],r['mesafe'],(r['pist'] or '').strip(),int(s) if s.isdigit() else None,r['kosan']))
+JS={}
 L=[f'# Hipodrom sicili — {GUN}','','Her atın bu hipodromdaki geçmişi (start / galibiyet / ilk 3). Kaynak at_gecmisi 2020+, ad eşleşmesi. Aynı adlı farklı at olabilir. Yorum değil kayıt.','']
 for hip,J in hiplar.items():
     L+=[f'## {hip}','']
@@ -28,6 +29,7 @@ for hip,J in hiplar.items():
         for a in r['atlar']:
             ad=a['ad'].strip(); h=[x for x in H.get(ad,[]) if x[1]==hip]; h.sort()
             n=len(h); w=sum(1 for x in h if x[4]==1); t=sum(1 for x in h if x[4] and x[4]<=3)
+            JS.setdefault(hip,{})[ad]=[sum(1 for x in h if x[4]),w,t]   # start (sonuçlu), galibiyet, ilk 3
             son=f"{h[-1][0]} {h[-1][2]} m {h[-1][4]}." if h else '-'
             iyi=''
             if h:
@@ -36,5 +38,6 @@ for hip,J in hiplar.items():
             L.append(f"| {ad} | {n} | {w} | {t} | {('%'+str(round(100*w/n))) if n else '-'} | {son} | {iyi or '-'} |")
         L.append('')
 os.makedirs(os.path.join(K,'veri','hipodrom_sicil'),exist_ok=True)
+json.dump(JS,open(os.path.join(K,'veri','hipodrom_sicil',f'{GUN}.json'),'w',encoding='utf-8'),ensure_ascii=False)
 open(os.path.join(K,'veri','hipodrom_sicil',f'{GUN}.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n')
 print('yazıldı veri/hipodrom_sicil/%s.md | %d hipodrom, %d at'%(GUN,len(hiplar),len(adlar)))

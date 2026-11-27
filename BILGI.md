@@ -1035,3 +1035,6 @@ Victor The Brave (İzmir 4, kazanan, ganyan 5,25): 4 Eylül İzmir 2200 m galibi
 
 ## 27.11.2026 geçmiş koşular için hipodrom sicili
 `scripts/hipodrom_sicil_gecmis.py` → `veri/hipodrom_sicil_gecmis.csv.gz` (403.662 at-koşu, 2020+, koşu öncesi sicil: start, galibiyet, ilk 3, son sıra; sızıntı yok; anahtar tarih,hip,kosu,kod). 19–26 Kasım için günlük `veri/hipodrom_sicil/<gün>.md` dosyaları üretildi. Analizler (`hipodrom_galibi_testi.py`, `gozden_kacan_ozellik.py`) bu bilgiyi zaten satır içinde hesaplıyordu; yeni dosya model ve kartlarda birleştirmek içindir.
+
+## 27.11.2026 hipodrom sicili tahmine ve kartlara eklendi (kullanıcı onayı)
+`hipodrom_sicil.py` artık `veri/hipodrom_sicil/<gün>.json` da yazıyor; `tahmin_10dk.py` BİRLEŞİK_10'a sicil çarpanı uyguluyor (>=3 start: gal. oranı >=%30 ×1,08; ilk 3 oranı >=%50 ×1,12; hiç galibiyet yok ×0,93; veri yoksa 1) ve atlar çıktısına `sicil`, `sicil_carpan` yazıyor; `son_dakika_ozet.py` tabloya "Hip. sicil (start/gal/ilk3)" sütunu ekledi. Deneme scratch kopyada (İzmir 6, 27.11): Bay Taylan ×1,12, Cihan Şahı ×0,93, diğerleri 1,0; kartta sütun görünüyor. Not: v9 modeli yeniden eğitilmedi (v9'a özellik olarak girmedi), sicil BİRLEŞİK_10 çarpanı olarak uygulanıyor. 27.11 öncesi kayıtlı tahminler sicilsizdir; karşılaştırmalarda bu geçişi hesaba kat.

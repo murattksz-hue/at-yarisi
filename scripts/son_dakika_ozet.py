@@ -82,12 +82,16 @@ def top(d):
 favs={'piyasa':top(piyasa),'v9 AGF\'li':top(P9),'v9 AGF\'siz':top(P9s),'BİRLEŞİK':top(PB)}
 ad=lambda k:N[k]['ad'] if k in N else '—'
 L=[f'# Son dakika özeti — {hip} {kno}. koşu ({saat}), {gun}','',f'Görüntü: {simdi[0]//60:02d}:{simdi[0]%60:02d} UTC (koşuya {tdk-simdi[0]} dk); karşılaştırma: −60 dk ≈ {s60[0]//60:02d}:{s60[0]%60:02d} UTC, sabah = TAM/ilk görüntü. Piyasa kaynağı: {kaynak}. İşaretler yalnızca bilgi, test edilmedi.','',
-   '| At | Piyasa % | Sabah AGF | Ganyan −60 → şimdi | v9 AGF\'li % | v9 AGF\'siz % | BİRLEŞİK % | İşaret |','|---|---|---|---|---|---|---|---|']
+   '| At | Piyasa % | Sabah AGF | Ganyan −60 → şimdi | v9 AGF\'li % | v9 AGF\'siz % | BİRLEŞİK % | Hip. sicil (start/gal/ilk3) | İşaret |','|---|---|---|---|---|---|---|---|---|']
 fm=lambda x:'—' if x is None else f'{100*x:.0f}'
+def _sic_txt(k):
+    if not R10: return '—'
+    _s=next((a.get('sicil') for a in R10['atlar'] if ak(a['ad'])==k),None)
+    return '—' if not _s or not _s[0] else f'{_s[0]}/{_s[1]}/{_s[2]}'
 for k,v,fl in rows:
     g0=O60.get(k,{}).get('gan'); a0=OS.get(k,{}).get('agf'); g1=v['gan']
     gtxt=('—' if g0 is None else f'{g0:g}')+' → '+('—' if g1 is None else f'{g1:g}')
-    L.append(f"| {v['ad'][:18]} | {fm(piyasa.get(k))} | {'—' if a0 is None else f'{a0:.1f}'} | {gtxt} | {fm(P9.get(k))} | {fm(P9s.get(k))} | {fm(PB.get(k))} | {' '.join(fl)} |")
+    L.append(f"| {v['ad'][:18]} | {fm(piyasa.get(k))} | {'—' if a0 is None else f'{a0:.1f}'} | {gtxt} | {fm(P9.get(k))} | {fm(P9s.get(k))} | {fm(PB.get(k))} | {_sic_txt(k)} | {' '.join(fl)} |")
 L+=['','**Favoriler:** '+' · '.join(f"{n}: {ad(k) if k else '—'}" for n,k in favs.items()),'']
 farkli={n for n,k in favs.items() if k and k!=favs['piyasa'] and favs['piyasa']}
 L.append('Bizim kollarla piyasa favorisi **ayrışıyor**: '+', '.join(sorted(farkli)) if farkli else 'Bizim kollar piyasa favorisiyle **aynı atta birleşiyor** (ya da tahmin yok).')

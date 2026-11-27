@@ -111,6 +111,18 @@ for i,a in enumerate(ks):
             if m>0: t+=(2*w-m)/(m+1)
     sk.append(t/max(len(ks)-1,1))
 sk=np.array(sk); pc=softmax(np.log(pm)+B_H2H*sk)
+# hipodrom sicili çarpanı (27.11, kullanıcı onayı): bu hipodromda >=3 start; galibiyet oranı >=%30 ×1,08; ilk 3 oranı >=%50 ×1,12; hiç galibiyet yok ×0,93 (hipodrom_galibi_testi.py / gozden_kacan_ozellik.py). Veri yoksa çarpan 1.
+try: _SJ=json.load(open(os.path.join(K,'veri','hipodrom_sicil',f'{gun}.json'),encoding='utf-8')).get(hip,{})
+except Exception: _SJ={}
+def _sic(ad):
+    st,gl,t3=_SJ.get(ad,[0,0,0]); f=1.0
+    if st>=3:
+        if gl==0: f=0.93
+        else:
+            if gl/st>=0.30: f=1.08
+            if t3/st>=0.5: f=max(f,1.12)
+    return st,gl,t3,f
+_SC=np.array([_sic(a)[3] for a in atlar]); pc=pc*_SC; pc=pc/pc.sum()
 def kol(p):
     A=yukle(p)
     if not A: return None
@@ -128,7 +140,7 @@ for _k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []):
     if str(_k['kosu'])==kno: _b=_k.get('baslik','')
 D['kosular'][anah]={'tip':kosu_tipi.sinif(_b) if _b else None,'hip':hip,'kosu':int(kno),'saat':saat,'olusturma_tr':datetime.datetime.now(TR).isoformat(timespec='seconds'),'goruntu_utc':b,'goruntu_koşuya_dk':once,'piyasa_kaynak':kaynak,
   'secim_1':atlar[sira[0]],'secim_ilk3':[atlar[i] for i in sira[:3]],'surpriz_riski':risk,'surpriz_p':round(p_sur,3),'liste_uzunlugu':KL,'secim_liste':[atlar[i] for i in sira[:KL]],'guven':'net' if pc.max()>=0.40 else 'orta' if pc.max()>=0.28 else 'düşük',
-  'atlar':[{'ad':atlar[i],'p_birlesik10':round(float(pc[i]),4),'p_piyasa10':round(float(pm[i]),4),'p_v9_agfli':None if p9 is None else round(float(p9[i]),4),'p_v9_agfsiz':None if p9s is None else round(float(p9s[i]),4),'h2h':round(float(sk[i]),3),'tercih':tercih(atlar[i])} for i in range(len(atlar))]}
+  'atlar':[{'ad':atlar[i],'p_birlesik10':round(float(pc[i]),4),'p_piyasa10':round(float(pm[i]),4),'p_v9_agfli':None if p9 is None else round(float(p9[i]),4),'p_v9_agfsiz':None if p9s is None else round(float(p9s[i]),4),'h2h':round(float(sk[i]),3),'tercih':tercih(atlar[i]),'sicil':list(_sic(atlar[i])[:3]),'sicil_carpan':_sic(atlar[i])[3]} for i in range(len(atlar))]}
 json.dump(D,open(yol,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 L=[f'# −10 dk tahminleri — {gun}','','| Koşu | Saat | Liste (BİRLEŞİK_10; açık koşu riskine göre 3/4/5 at) | Risk | Güven | Piyasa favorisi | Görüntü (koşuya dk) |','|---|---|---|---|---|---|---|']
 for k,v in sorted(D['kosular'].items(),key=lambda kv:(kv[1]['saat'],kv[1]['hip'])):
