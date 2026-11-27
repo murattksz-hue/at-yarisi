@@ -1,0 +1,1018 @@
+{
+ "tarih": "2026-11-27",
+ "surum": "tahmin_10dk_v1",
+ "ayarlar": {
+  "b_h2h": 0.5,
+  "k_ganyan": 1.05
+ },
+ "kosular": {
+  "Bursa|1": {
+   "tip": {
+    "tur": "Şartlı 3",
+    "aile": "Şartlı",
+    "irk": "İngiliz",
+    "yas": "2",
+    "mesafe": "1400",
+    "mesafe_band": "1400-1699",
+    "pist": "Kum"
+   },
+   "hip": "Bursa",
+   "kosu": 1,
+   "saat": "14:00",
+   "olusturma_tr": "2026-11-27T13:49:51+03:00",
+   "goruntu_utc": "1048",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "ganyan",
+   "secim_1": "SİRENE",
+   "secim_ilk3": [
+    "SİRENE",
+    "ARCANE SOVEREIGN",
+    "GOLDEN RHYTHM"
+   ],
+   "surpriz_riski": "düşük",
+   "surpriz_p": 0.197,
+   "liste_uzunlugu": 3,
+   "secim_liste": [
+    "SİRENE",
+    "ARCANE SOVEREIGN",
+    "GOLDEN RHYTHM"
+   ],
+   "guven": "orta",
+   "atlar": [
+    {
+     "ad": "ARCANE SOVEREIGN",
+     "p_birlesik10": 0.2122,
+     "p_piyasa10": 0.1944,
+     "p_v9_agfli": 0.0531,
+     "p_v9_agfsiz": 0.0531,
+     "h2h": 0.194,
+     "tercih": {
+      "baba": "SATONO ARES (JPN)",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 81,
+       "birinci": 13,
+       "ae": 1.05,
+       "z": 0.2
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "baba_pist": {
+       "n": 64,
+       "birinci": 17,
+       "ae": 1.35,
+       "z": 1.5
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 59,
+       "birinci": 15,
+       "ae": 1.31,
+       "z": 1.3
+      },
+      "kendi_hip": {
+       "n": 3,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "annebaba": "LUXOR",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        281,
+        31,
+        1.01,
+        0.0
+       ],
+       "1300-1400": [
+        542,
+        56,
+        0.97,
+        -0.2
+       ],
+       "1500-1700": [
+        311,
+        37,
+        1.15,
+        1.0
+       ],
+       "1800-2100": [
+        311,
+        31,
+        0.98,
+        -0.2
+       ],
+       "2200+": [
+        37,
+        5,
+        1.05,
+        0.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        1
+       ],
+       "1300-1400": [
+        1,
+        1,
+        1
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        73,
+        20,
+        1.64,
+        2.7
+       ],
+       "1300-1400": [
+        81,
+        13,
+        1.05,
+        0.2
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.038,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "AURELIA BLITZ",
+     "p_birlesik10": 0.0804,
+     "p_piyasa10": 0.0779,
+     "p_v9_agfli": 0.1406,
+     "p_v9_agfsiz": 0.1406,
+     "h2h": 0.083,
+     "tercih": {
+      "baba": "KULOĞLU",
+      "kendi_mesafe": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 129,
+       "birinci": 7,
+       "ae": 0.74,
+       "z": -0.9
+      },
+      "kendi_pist": {
+       "n": 6,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "baba_pist": {
+       "n": 198,
+       "birinci": 21,
+       "ae": 1.18,
+       "z": 0.9
+      },
+      "kendi_aile": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 82,
+       "birinci": 5,
+       "ae": 0.8,
+       "z": -0.5
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 175,
+       "birinci": 13,
+       "ae": 0.83,
+       "z": -0.8
+      },
+      "annebaba": "PERFECTO",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        81,
+        14,
+        1.34,
+        1.3
+       ],
+       "1300-1400": [
+        73,
+        3,
+        0.48,
+        -1.4
+       ],
+       "1500-1700": [
+        33,
+        2,
+        0.81,
+        -0.3
+       ],
+       "1800-2100": [
+        38,
+        3,
+        0.84,
+        -0.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        4,
+        1,
+        2
+       ],
+       "1300-1400": [
+        3,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        70,
+        4,
+        0.84,
+        -0.4
+       ],
+       "1300-1400": [
+        129,
+        7,
+        0.74,
+        -0.9
+       ],
+       "1500-1700": [
+        47,
+        3,
+        0.97,
+        -0.1
+       ],
+       "1800-2100": [
+        109,
+        11,
+        1.02,
+        0.1
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.183,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "SİRENE",
+     "p_birlesik10": 0.3873,
+     "p_piyasa10": 0.3911,
+     "p_v9_agfli": 0.319,
+     "p_v9_agfsiz": 0.319,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "TIZWAY (USA)",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 763,
+       "birinci": 104,
+       "ae": 1.16,
+       "z": 1.7
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "baba_pist": {
+       "n": 1295,
+       "birinci": 176,
+       "ae": 1.14,
+       "z": 2.0
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 661,
+       "birinci": 101,
+       "ae": 1.18,
+       "z": 1.9
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 271,
+       "birinci": 30,
+       "ae": 0.89,
+       "z": -0.7
+      },
+      "annebaba": "OKAWANGO (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        207,
+        27,
+        1.08,
+        0.5
+       ],
+       "1300-1400": [
+        531,
+        68,
+        1.11,
+        1.0
+       ],
+       "1500-1700": [
+        257,
+        28,
+        0.89,
+        -0.7
+       ],
+       "1800-2100": [
+        438,
+        57,
+        1.1,
+        0.8
+       ],
+       "2200+": [
+        39,
+        8,
+        2.82,
+        3.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        1,
+        1,
+        1
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        399,
+        51,
+        1.0,
+        0.0
+       ],
+       "1300-1400": [
+        763,
+        104,
+        1.16,
+        1.7
+       ],
+       "1500-1700": [
+        430,
+        64,
+        1.36,
+        2.8
+       ],
+       "1800-2100": [
+        673,
+        79,
+        1.0,
+        -0.0
+       ],
+       "2200+": [
+        77,
+        6,
+        0.7,
+        -1.0
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.142,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "ALTIN KELEBEK",
+     "p_birlesik10": 0.0814,
+     "p_piyasa10": 0.0869,
+     "p_v9_agfli": 0.1379,
+     "p_v9_agfsiz": 0.1379,
+     "h2h": -0.111,
+     "tercih": {
+      "baba": "GHOST PASHA",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "kendi_pist": {
+       "n": 3,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "kendi_hip": {
+       "n": 6,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "annebaba": "MENDIP (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        118,
+        6,
+        0.54,
+        -1.7
+       ],
+       "1300-1400": [
+        194,
+        20,
+        1.14,
+        0.7
+       ],
+       "1500-1700": [
+        74,
+        7,
+        1.31,
+        0.8
+       ],
+       "1800-2100": [
+        119,
+        6,
+        0.65,
+        -1.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        0
+       ],
+       "1300-1400": [
+        4,
+        1,
+        1
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "STEEL HUNTER",
+     "p_birlesik10": 0.0954,
+     "p_piyasa10": 0.1005,
+     "p_v9_agfli": 0.201,
+     "p_v9_agfsiz": 0.201,
+     "h2h": -0.083,
+     "tercih": {
+      "baba": "GENERAL QUARTERS (USA)",
+      "kendi_mesafe": {
+       "n": 3,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 310,
+       "birinci": 45,
+       "ae": 1.18,
+       "z": 1.3
+      },
+      "kendi_pist": {
+       "n": 7,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "baba_pist": {
+       "n": 646,
+       "birinci": 100,
+       "ae": 1.13,
+       "z": 1.4
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 248,
+       "birinci": 40,
+       "ae": 1.11,
+       "z": 0.8
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 118,
+       "birinci": 25,
+       "ae": 1.43,
+       "z": 2.1
+      },
+      "annebaba": "BOSPORUS (IRE)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        577,
+        59,
+        1.02,
+        0.2
+       ],
+       "1300-1400": [
+        923,
+        68,
+        0.77,
+        -2.5
+       ],
+       "1500-1700": [
+        421,
+        32,
+        0.87,
+        -0.9
+       ],
+       "1800-2100": [
+        674,
+        67,
+        0.98,
+        -0.2
+       ],
+       "2200+": [
+        65,
+        3,
+        0.49,
+        -1.4
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        3,
+        0,
+        1
+       ],
+       "1300-1400": [
+        3,
+        1,
+        1
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        207,
+        30,
+        1.2,
+        1.1
+       ],
+       "1300-1400": [
+        310,
+        45,
+        1.18,
+        1.3
+       ],
+       "1500-1700": [
+        134,
+        12,
+        0.93,
+        -0.3
+       ],
+       "1800-2100": [
+        255,
+        34,
+        0.97,
+        -0.2
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.147,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "GOLDEN RHYTHM",
+     "p_birlesik10": 0.1109,
+     "p_piyasa10": 0.1168,
+     "p_v9_agfli": 0.1334,
+     "p_v9_agfsiz": 0.1334,
+     "h2h": -0.083,
+     "tercih": {
+      "baba": "BLUEGRASS CAT (USA)",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 699,
+       "birinci": 100,
+       "ae": 1.22,
+       "z": 2.3
+      },
+      "kendi_pist": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 1148,
+       "birinci": 165,
+       "ae": 1.12,
+       "z": 1.7
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 508,
+       "birinci": 71,
+       "ae": 1.05,
+       "z": 0.5
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 282,
+       "birinci": 38,
+       "ae": 1.06,
+       "z": 0.4
+      },
+      "annebaba": "MEDAGLIA D'ORO (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        43,
+        6,
+        0.97,
+        -0.1
+       ],
+       "1300-1400": [
+        81,
+        6,
+        0.72,
+        -0.9
+       ],
+       "1500-1700": [
+        61,
+        15,
+        1.92,
+        2.9
+       ],
+       "1800-2100": [
+        50,
+        4,
+        0.63,
+        -1.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        1
+       ],
+       "1300-1400": [
+        1,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        354,
+        60,
+        1.28,
+        2.2
+       ],
+       "1300-1400": [
+        699,
+        100,
+        1.22,
+        2.3
+       ],
+       "1500-1700": [
+        324,
+        45,
+        1.05,
+        0.4
+       ],
+       "1800-2100": [
+        426,
+        41,
+        0.87,
+        -1.0
+       ],
+       "2200+": [
+        32,
+        1,
+        0.27,
+        -1.6
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.187,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "EYLÜL MASALI",
+     "p_birlesik10": 0.0322,
+     "p_piyasa10": 0.0325,
+     "p_v9_agfli": 0.0151,
+     "p_v9_agfsiz": 0.0151,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "HAKEEM (USA)",
+      "kendi_mesafe": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 532,
+       "birinci": 70,
+       "ae": 1.1,
+       "z": 0.9
+      },
+      "kendi_pist": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 923,
+       "birinci": 118,
+       "ae": 1.03,
+       "z": 0.4
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 415,
+       "birinci": 64,
+       "ae": 1.14,
+       "z": 1.2
+      },
+      "kendi_hip": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 215,
+       "birinci": 23,
+       "ae": 1.0,
+       "z": -0.0
+      },
+      "annebaba": "CUVEE (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        217,
+        21,
+        0.93,
+        -0.4
+       ],
+       "1300-1400": [
+        476,
+        53,
+        1.21,
+        1.6
+       ],
+       "1500-1700": [
+        195,
+        18,
+        0.98,
+        -0.1
+       ],
+       "1800-2100": [
+        251,
+        21,
+        1.0,
+        0.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        3,
+        0,
+        0
+       ],
+       "1300-1400": [
+        1,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        312,
+        35,
+        0.99,
+        -0.1
+       ],
+       "1300-1400": [
+        532,
+        70,
+        1.1,
+        0.9
+       ],
+       "1500-1700": [
+        244,
+        26,
+        0.99,
+        -0.1
+       ],
+       "1800-2100": [
+        333,
+        42,
+        1.13,
+        0.9
+       ],
+       "2200+": [
+        32,
+        4,
+        1.38,
+        0.7
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.09,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    }
+   ]
+  }
+ }
+}
