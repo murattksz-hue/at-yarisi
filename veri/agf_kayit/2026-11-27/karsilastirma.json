@@ -444,5 +444,104 @@
     ]
    }
   ]
+ },
+ "Bursa-6": {
+  "hipodrom": "Bursa",
+  "kosu": 6,
+  "zaman": "15:30",
+  "tjk_goruntu": "14:48",
+  "ebayi_goruntu": "15:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "10",
+    "favori_ebayi": "10",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "11",
+    "sabah_favori_ebayi": "11",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "BARLASKO DB SKG SK",
+      "tjk": 3.91,
+      "ebayi": 3.91,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "TATU KG K",
+      "tjk": 3.22,
+      "ebayi": 3.22,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "AVŞARCAN KG K SK",
+      "tjk": 16.59,
+      "ebayi": 16.59,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "BORN TO SHINE KG K DB",
+      "tjk": 6.47,
+      "ebayi": 6.47,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "DEFACTO KIZI KG K DB",
+      "tjk": 5.59,
+      "ebayi": 5.59,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "MIRANDA PRENSES KG K DB",
+      "tjk": 1.75,
+      "ebayi": 1.75,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "NOBLE BEAUTIFUL KG K DB",
+      "tjk": 5.97,
+      "ebayi": 5.97,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "SECRET SWEET DB SKG SK",
+      "tjk": 1.43,
+      "ebayi": 1.43,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "SELLY ELA SK",
+      "tjk": 4.02,
+      "ebayi": 4.02,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "SUNSET LADY KG DB SK BB",
+      "tjk": 37.39,
+      "ebayi": 37.39,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "WE ARE LEGENDS DB SKG SK",
+      "tjk": 13.66,
+      "ebayi": 13.66,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
