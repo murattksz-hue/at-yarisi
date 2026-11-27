@@ -40,7 +40,7 @@ Türkiye at yarışları (TJK): her koşuyu kaydet, koşudan önce tahmin yap, s
 - `.claude/hookify.*.local.md` kuralları: canlı betik/CSV düzenleme uyarısı, eşitlikte sıralama sızıntı uyarısı, push öncesi kontrol hatırlatması, bota kapalı sitelere (agftablosu, agftahmin, liderform) istek **engeli**.
 
 ## task-observer (oturum gözlemleri → skill iyileştirmeleri)
-Skill: `.claude/skills/task-observer/` (CC-BY-4.0, kaynak rebelytics/one-skill-to-rule-them-all). Gözlemler `skill-observations/` içinde, **her oturum sonunda commit+push** edilir (public repo: kişisel bilgi/anahtar yazma). Yanıtlarda gözlem raporu **tek satır**, laf kalabalığı yok. Aktivasyon `SessionStart` kancasıyla da zorlanır (`.claude/hooks/task-observer-start.sh`, `.claude/settings.json`); sorun çıkarsa `settings.json`'dan `hooks` bölümünü silmek yeter.
+Skill: `.claude/skills/task-observer/` (CC-BY-4.0, kaynak rebelytics/one-skill-to-rule-them-all). Gözlemler `skill-observations/` içinde (çalışma kökü `/home/user/at-yarisi`, skill `skill-observations/` alt klasörünü kendisi ekler), **her oturum sonunda commit+push** edilir (public repo: kişisel bilgi/anahtar yazma). Yanıtlarda gözlem raporu **tek satır**, laf kalabalığı yok. Aktivasyon `SessionStart` kancasıyla da zorlanır (`.claude/hooks/task-observer-start.sh`, `.claude/settings.json`); sorun çıkarsa `settings.json`'dan `hooks` bölümünü silmek yeter.
 
 ```text
 (task-observer activation block — template of v3.12.0)
@@ -69,7 +69,7 @@ reply names what was logged, or says nothing was logged, in one line;
 details are in checkpoints.log. It catches a skill that never ran.
 
 The task-observer workspace for this project is:
-  /home/user/at-yarisi/skill-observations
+  /home/user/at-yarisi
 Every path the skill uses derives from that root, never from the working
 directory. A subagent dispatched by a session that runs this protocol does
 not run it and does not write to the log; it reports its findings to its

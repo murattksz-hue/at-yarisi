@@ -1,9 +1,9 @@
 #!/bin/sh
 # task-observer SessionStart kancası (kaynak: skill references/environments.md, "A session-start hook").
 # Aktivasyonu ve inceleme durumunu additionalContext olarak enjekte eder.
-OBS_WORKSPACE="${CLAUDE_PROJECT_DIR:-/home/user/at-yarisi}/skill-observations"
+OBS_WORKSPACE="${CLAUDE_PROJECT_DIR:-/home/user/at-yarisi}"   # çalışma kökü; skill "skill-observations/" alt klasörünü kendisi ekler
 OBS_SKILL_DIR="${CLAUDE_PROJECT_DIR:-/home/user/at-yarisi}/.claude/skills/task-observer"
-d="$OBS_WORKSPACE"
+d="$OBS_WORKSPACE/skill-observations"
 s="$OBS_SKILL_DIR"
 if [ ! -f "$s/SKILL.md" ] || [ ! -f "$s/scripts/new-observation.sh" ]; then
   msg="task-observer is NOT INSTALLED at $s (SKILL.md or scripts/ missing): tell the user in your first reply and offer to install it from the repository. Do not invoke it and do not offer a review."

@@ -1,0 +1,2 @@
+NOTE: the principles file has no '## Active Principles' heading — 'could not parse', not 'no principles'; read it directly
+DUE: starter-set reconciliation — skill-observations/starter-principles-reviewed.txt is absent; offer once, in a review or a session opened for skill work, never in another task's reply (references/starter-principles.md, Reconciliation)

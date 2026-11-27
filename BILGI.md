@@ -974,3 +974,8 @@ Kısa sonuçlar; örnek küçük olanlar "olası" diye okunmalı.
 
 ## 27.11.2026 hazırlığı
 - Program (ebayi, 26.11 akşamı): **Bursa ve İzmir** (+ yabancı hipodromlar). Yenibeygir gece Blt kaydı alındı: `veri/yenibeygir_el_kayit/blt_2026-11-27.csv` (İzmir 6 koşu 53 at, Bursa 7 koşu 74 at; koşu başı toplam 93–97). Sabah 09:40 TR'de otomatik kontrol (plan, TAM saatleri, TAM+15 dk dondurma, Blt–AGF karşılaştırması) zamanlandı. Actions döngüsü yarın 07:55 cron-job.org tetiğiyle başlar. 61 pytest geçti.
+
+## 27.11.2026 sabah kontrolü (otomatik, 09:44 TR)
+- **Sorunsuz:** plan oluştu (Bursa 14:00–17:00, 7 koşu; İzmir 19:00–21:30, 6 koşu); ilk yayın 09:05 TR (tjk=ebayi), TAM 09:15; **v9 dondurma 09:33 = TAM+18 dk** (düzeltme çalıştı), AGF=0 at oranı 0,000; Actions 07:55'ten beri kayıt yapıyor (cron-job.org tetiği çalıştı).
+- **Blt/AGF (Bursa+İzmir):** yenibeygir sütunu sabah altılı koşularda AGF'ye döndü (Bursa/İzmir 1. koşu Blt kaldı). Yenibeygir sabah AGF'si resmî AGF ile (09:45 görüntü): İzmir ort. fark 1,5 puan (Spearman 0,95; en yüksek aynı 6/6), Bursa 1,1 (0,96; 5/6) = resmî kaynağın kopyası. **Gece Blt'si resmî AGF'ye karşı:** İzmir 7,0 puan fark (Spearman 0,62; en yüksek aynı 3/6), Bursa 5,8 (0,61; 3/7): dünkü sonuçla aynı, Blt AGF'den ayrı ama ilişkili bir sinyal. Kayıt: `veri/yenibeygir_el_kayit/blt_2026-11-27.csv`. Sonuçlarla (Blt'nin kazananı bilme oranı) akşam bakılacak.
+- **Kurulum düzeltmesi:** task-observer çalışma kökü sabitlemesi yanlıştı (`.../skill-observations` yerine skill'in kendi eklediği alt klasör için kök `/home/user/at-yarisi` olmalı); `CLAUDE.md` bloğu ve `.claude/hooks/task-observer-start.sh` düzeltildi, çalışma alanı oluşturuldu, ilk oturum başlangıç taraması çalıştı (0 gözlem).
