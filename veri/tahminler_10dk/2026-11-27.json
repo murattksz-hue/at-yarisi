@@ -13630,6 +13630,822 @@
      }
     }
    ]
+  },
+  "İzmir|5": {
+   "tip": {
+    "tur": "Şartlı 5",
+    "aile": "Şartlı",
+    "irk": "Arap",
+    "yas": "4",
+    "mesafe": "1400",
+    "mesafe_band": "1400-1699",
+    "pist": "Kum"
+   },
+   "hip": "İzmir",
+   "kosu": 5,
+   "saat": "21:00",
+   "olusturma_tr": "2026-11-27T20:49:10+03:00",
+   "goruntu_utc": "1748",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "DENİZ KESTANESİ",
+   "secim_ilk3": [
+    "DENİZ KESTANESİ",
+    "KIRKLAR DAĞI",
+    "OĞUL ÇINAR"
+   ],
+   "surpriz_riski": "orta",
+   "surpriz_p": 0.229,
+   "liste_uzunlugu": 4,
+   "secim_liste": [
+    "DENİZ KESTANESİ",
+    "KIRKLAR DAĞI",
+    "OĞUL ÇINAR",
+    "SAKIZ ADASI"
+   ],
+   "guven": "net",
+   "atlar": [
+    {
+     "ad": "OĞUL ÇINAR",
+     "p_birlesik10": 0.1045,
+     "p_piyasa10": 0.097,
+     "p_v9_agfli": 0.1689,
+     "p_v9_agfsiz": 0.2044,
+     "h2h": 0.2,
+     "tercih": {
+      "baba": "TURBO",
+      "kendi_mesafe": {
+       "n": 13,
+       "birinci": 4,
+       "ilk3": 7
+      },
+      "baba_mesafe": {
+       "n": 1781,
+       "birinci": 196,
+       "ae": 0.99,
+       "z": -0.1
+      },
+      "kendi_pist": {
+       "n": 23,
+       "birinci": 5,
+       "ilk3": 11
+      },
+      "baba_pist": {
+       "n": 2435,
+       "birinci": 255,
+       "ae": 0.98,
+       "z": -0.4
+      },
+      "kendi_aile": {
+       "n": 11,
+       "birinci": 3,
+       "ilk3": 6
+      },
+      "baba_aile": {
+       "n": 1706,
+       "birinci": 219,
+       "ae": 1.06,
+       "z": 1.0
+      },
+      "kendi_hip": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 654,
+       "birinci": 71,
+       "ae": 1.08,
+       "z": 0.7
+      },
+      "annebaba": "HORASANLI",
+      "annebaba_mesafe_hepsi": {
+       "1300-1400": [
+        44,
+        8,
+        1.41,
+        1.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        7,
+        0,
+        2
+       ],
+       "1300-1400": [
+        13,
+        4,
+        7
+       ],
+       "1500-1700": [
+        4,
+        1,
+        2
+       ],
+       "1800-2100": [
+        1,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        805,
+        113,
+        1.19,
+        2.1
+       ],
+       "1300-1400": [
+        1781,
+        196,
+        0.99,
+        -0.1
+       ],
+       "1500-1700": [
+        896,
+        88,
+        0.94,
+        -0.6
+       ],
+       "1800-2100": [
+        1312,
+        135,
+        0.99,
+        -0.1
+       ],
+       "2200+": [
+        222,
+        32,
+        1.12,
+        0.7
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.005,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "KIRKLAR DAĞI",
+     "p_birlesik10": 0.2176,
+     "p_piyasa10": 0.2289,
+     "p_v9_agfli": 0.153,
+     "p_v9_agfsiz": 0.3821,
+     "h2h": -0.05,
+     "tercih": {
+      "baba": "TAYKUT",
+      "kendi_mesafe": {
+       "n": 8,
+       "birinci": 1,
+       "ilk3": 5
+      },
+      "baba_mesafe": {
+       "n": 243,
+       "birinci": 23,
+       "ae": 0.96,
+       "z": -0.2
+      },
+      "kendi_pist": {
+       "n": 13,
+       "birinci": 3,
+       "ilk3": 10
+      },
+      "baba_pist": {
+       "n": 412,
+       "birinci": 53,
+       "ae": 1.07,
+       "z": 0.5
+      },
+      "kendi_aile": {
+       "n": 8,
+       "birinci": 3,
+       "ilk3": 7
+      },
+      "baba_aile": {
+       "n": 160,
+       "birinci": 23,
+       "ae": 1.1,
+       "z": 0.5
+      },
+      "kendi_hip": {
+       "n": 13,
+       "birinci": 4,
+       "ilk3": 10
+      },
+      "baba_hip": {
+       "n": 213,
+       "birinci": 27,
+       "ae": 1.11,
+       "z": 0.6
+      },
+      "annebaba": "TURBO",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        739,
+        71,
+        0.93,
+        -0.7
+       ],
+       "1300-1400": [
+        1084,
+        90,
+        0.82,
+        -2.1
+       ],
+       "1500-1700": [
+        439,
+        40,
+        0.88,
+        -0.9
+       ],
+       "1800-2100": [
+        589,
+        57,
+        0.84,
+        -1.4
+       ],
+       "2200+": [
+        63,
+        11,
+        1.7,
+        2.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        5,
+        2,
+        5
+       ],
+       "1300-1400": [
+        8,
+        1,
+        5
+       ],
+       "1500-1700": [
+        7,
+        1,
+        3
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        185,
+        25,
+        1.11,
+        0.6
+       ],
+       "1300-1400": [
+        243,
+        23,
+        0.96,
+        -0.2
+       ],
+       "1500-1700": [
+        103,
+        12,
+        1.06,
+        0.2
+       ],
+       "1800-2100": [
+        109,
+        15,
+        1.31,
+        1.2
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.033,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "AYTEKİNBEY",
+     "p_birlesik10": 0.0452,
+     "p_piyasa10": 0.0526,
+     "p_v9_agfli": 0.0848,
+     "p_v9_agfsiz": 0.0637,
+     "h2h": -0.25,
+     "tercih": {
+      "baba": "KAYAYÜREKLİ",
+      "kendi_mesafe": {
+       "n": 10,
+       "birinci": 3,
+       "ilk3": 5
+      },
+      "baba_mesafe": {
+       "n": 539,
+       "birinci": 65,
+       "ae": 1.21,
+       "z": 1.7
+      },
+      "kendi_pist": {
+       "n": 13,
+       "birinci": 2,
+       "ilk3": 5
+      },
+      "baba_pist": {
+       "n": 826,
+       "birinci": 98,
+       "ae": 1.17,
+       "z": 1.7
+      },
+      "kendi_aile": {
+       "n": 8,
+       "birinci": 1,
+       "ilk3": 3
+      },
+      "baba_aile": {
+       "n": 485,
+       "birinci": 51,
+       "ae": 0.89,
+       "z": -1.0
+      },
+      "kendi_hip": {
+       "n": 11,
+       "birinci": 2,
+       "ilk3": 5
+      },
+      "baba_hip": {
+       "n": 251,
+       "birinci": 33,
+       "ae": 1.25,
+       "z": 1.4
+      },
+      "annebaba": "AĞA KARACA",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        96,
+        9,
+        0.96,
+        -0.1
+       ],
+       "1300-1400": [
+        176,
+        18,
+        1.05,
+        0.2
+       ],
+       "1500-1700": [
+        94,
+        11,
+        1.09,
+        0.3
+       ],
+       "1800-2100": [
+        196,
+        20,
+        0.85,
+        -0.9
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        6,
+        0,
+        1
+       ],
+       "1300-1400": [
+        10,
+        3,
+        5
+       ],
+       "1500-1700": [
+        5,
+        0,
+        2
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        397,
+        54,
+        1.31,
+        2.2
+       ],
+       "1300-1400": [
+        539,
+        65,
+        1.21,
+        1.7
+       ],
+       "1500-1700": [
+        253,
+        39,
+        1.59,
+        3.2
+       ],
+       "1800-2100": [
+        292,
+        37,
+        1.1,
+        0.7
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.174,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "SAKIZ ADASI",
+     "p_birlesik10": 0.0684,
+     "p_piyasa10": 0.0702,
+     "p_v9_agfli": 0.0894,
+     "p_v9_agfsiz": 0.0737,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "GÜMBÜRGÜMBÜR",
+      "kendi_mesafe": {
+       "n": 15,
+       "birinci": 2,
+       "ilk3": 7
+      },
+      "baba_mesafe": {
+       "n": 549,
+       "birinci": 53,
+       "ae": 1.04,
+       "z": 0.3
+      },
+      "kendi_pist": {
+       "n": 17,
+       "birinci": 3,
+       "ilk3": 6
+      },
+      "baba_pist": {
+       "n": 825,
+       "birinci": 101,
+       "ae": 1.09,
+       "z": 1.0
+      },
+      "kendi_aile": {
+       "n": 15,
+       "birinci": 3,
+       "ilk3": 6
+      },
+      "baba_aile": {
+       "n": 414,
+       "birinci": 52,
+       "ae": 0.97,
+       "z": -0.2
+      },
+      "kendi_hip": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_hip": {
+       "n": 279,
+       "birinci": 31,
+       "ae": 1.01,
+       "z": 0.1
+      },
+      "annebaba": "TURBO",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        739,
+        71,
+        0.93,
+        -0.7
+       ],
+       "1300-1400": [
+        1084,
+        90,
+        0.82,
+        -2.1
+       ],
+       "1500-1700": [
+        439,
+        40,
+        0.88,
+        -0.9
+       ],
+       "1800-2100": [
+        589,
+        57,
+        0.84,
+        -1.4
+       ],
+       "2200+": [
+        63,
+        11,
+        1.7,
+        2.0
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        7,
+        1,
+        2
+       ],
+       "1300-1400": [
+        15,
+        2,
+        7
+       ],
+       "1500-1700": [
+        4,
+        1,
+        1
+       ],
+       "1800-2100": [
+        4,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        512,
+        69,
+        1.13,
+        1.1
+       ],
+       "1300-1400": [
+        549,
+        53,
+        1.04,
+        0.3
+       ],
+       "1500-1700": [
+        198,
+        17,
+        0.83,
+        -0.8
+       ],
+       "1800-2100": [
+        154,
+        17,
+        1.19,
+        0.8
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.033,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "DENİZ KESTANESİ",
+     "p_birlesik10": 0.5552,
+     "p_piyasa10": 0.5419,
+     "p_v9_agfli": 0.4868,
+     "p_v9_agfsiz": 0.2407,
+     "h2h": 0.1,
+     "tercih": {
+      "baba": "DENİZİM",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 2,
+       "ilk3": 3
+      },
+      "baba_mesafe": {
+       "n": 137,
+       "birinci": 12,
+       "ae": 1.0,
+       "z": 0.0
+      },
+      "kendi_pist": {
+       "n": 2,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "baba_pist": {
+       "n": 190,
+       "birinci": 23,
+       "ae": 1.4,
+       "z": 1.8
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 72,
+       "birinci": 6,
+       "ae": 1.01,
+       "z": 0.0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": "ARASLI",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        296,
+        37,
+        1.11,
+        0.7
+       ],
+       "1300-1400": [
+        486,
+        46,
+        0.98,
+        -0.1
+       ],
+       "1500-1700": [
+        239,
+        29,
+        1.22,
+        1.2
+       ],
+       "1800-2100": [
+        404,
+        46,
+        1.04,
+        0.3
+       ],
+       "2200+": [
+        58,
+        4,
+        0.74,
+        -0.7
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        4,
+        2,
+        3
+       ],
+       "1500-1700": [
+        5,
+        2,
+        3
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        108,
+        14,
+        1.6,
+        1.9
+       ],
+       "1300-1400": [
+        137,
+        12,
+        1.0,
+        0.0
+       ],
+       "1500-1700": [
+        60,
+        6,
+        0.94,
+        -0.2
+       ],
+       "1800-2100": [
+        31,
+        1,
+        0.41,
+        -1.0
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.001,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "İzmir"
+      }
+     }
+    },
+    {
+     "ad": "SUARTE",
+     "p_birlesik10": 0.0092,
+     "p_piyasa10": 0.0094,
+     "p_v9_agfli": 0.0171,
+     "p_v9_agfsiz": 0.0353,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "İzmir"
+      }
+     }
+    }
+   ]
   }
  }
 }
