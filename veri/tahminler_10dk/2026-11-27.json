@@ -1793,6 +1793,1767 @@
      }
     }
    ]
+  },
+  "Bursa|3": {
+   "tip": {
+    "tur": "Handikap 14",
+    "aile": "Handikap",
+    "irk": "Arap",
+    "yas": "4+",
+    "mesafe": "1400",
+    "mesafe_band": "1400-1699",
+    "pist": "Kum"
+   },
+   "hip": "Bursa",
+   "kosu": 3,
+   "saat": "15:00",
+   "olusturma_tr": "2026-11-27T14:49:40+03:00",
+   "goruntu_utc": "1148",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "HALİDAĞA",
+   "secim_ilk3": [
+    "HALİDAĞA",
+    "ERSELEFE",
+    "NEFESİMOL"
+   ],
+   "surpriz_riski": "yüksek",
+   "surpriz_p": 0.492,
+   "liste_uzunlugu": 5,
+   "secim_liste": [
+    "HALİDAĞA",
+    "ERSELEFE",
+    "NEFESİMOL",
+    "GÜRHANZADE",
+    "RÜZGARTEPESİ"
+   ],
+   "guven": "orta",
+   "atlar": [
+    {
+     "ad": "FETTAHZADE",
+     "p_birlesik10": 0.053,
+     "p_piyasa10": 0.0541,
+     "p_v9_agfli": 0.062,
+     "p_v9_agfsiz": 0.0827,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "OVA",
+      "kendi_mesafe": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_mesafe": {
+       "n": 108,
+       "birinci": 8,
+       "ae": 1.03,
+       "z": 0.1
+      },
+      "kendi_pist": {
+       "n": 30,
+       "birinci": 4,
+       "ilk3": 11
+      },
+      "baba_pist": {
+       "n": 162,
+       "birinci": 14,
+       "ae": 1.04,
+       "z": 0.2
+      },
+      "kendi_aile": {
+       "n": 17,
+       "birinci": 2,
+       "ilk3": 5
+      },
+      "baba_aile": {
+       "n": 89,
+       "birinci": 7,
+       "ae": 1.08,
+       "z": 0.2
+      },
+      "kendi_hip": {
+       "n": 6,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "baba_hip": {
+       "n": 33,
+       "birinci": 2,
+       "ae": 1.0,
+       "z": -0.0
+      },
+      "annebaba": "SANCAKBEYİ",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        180,
+        14,
+        0.79,
+        -1.0
+       ],
+       "1300-1400": [
+        193,
+        13,
+        0.86,
+        -0.6
+       ],
+       "1500-1700": [
+        99,
+        11,
+        1.12,
+        0.4
+       ],
+       "1800-2100": [
+        159,
+        12,
+        0.88,
+        -0.5
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        1
+       ],
+       "1300-1400": [
+        7,
+        0,
+        3
+       ],
+       "1500-1700": [
+        8,
+        1,
+        2
+       ],
+       "1800-2100": [
+        16,
+        3,
+        5
+       ],
+       "2200+": [
+        1,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        71,
+        4,
+        0.72,
+        -0.7
+       ],
+       "1300-1400": [
+        108,
+        8,
+        1.03,
+        0.1
+       ],
+       "1500-1700": [
+        46,
+        4,
+        1.15,
+        0.3
+       ],
+       "1800-2100": [
+        49,
+        3,
+        0.78,
+        -0.5
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.016,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "ERSELEFE",
+     "p_birlesik10": 0.2334,
+     "p_piyasa10": 0.2148,
+     "p_v9_agfli": 0.2155,
+     "p_v9_agfsiz": 0.1206,
+     "h2h": 0.208,
+     "tercih": {
+      "baba": "ARASLI",
+      "kendi_mesafe": {
+       "n": 14,
+       "birinci": 0,
+       "ilk3": 5
+      },
+      "baba_mesafe": {
+       "n": 125,
+       "birinci": 5,
+       "ae": 0.46,
+       "z": -1.9
+      },
+      "kendi_pist": {
+       "n": 25,
+       "birinci": 0,
+       "ilk3": 9
+      },
+      "baba_pist": {
+       "n": 298,
+       "birinci": 27,
+       "ae": 0.87,
+       "z": -0.8
+      },
+      "kendi_aile": {
+       "n": 21,
+       "birinci": 0,
+       "ilk3": 6
+      },
+      "baba_aile": {
+       "n": 105,
+       "birinci": 6,
+       "ae": 0.72,
+       "z": -0.9
+      },
+      "kendi_hip": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_hip": {
+       "n": 59,
+       "birinci": 2,
+       "ae": 0.34,
+       "z": -1.8
+      },
+      "annebaba": "HALİD",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        180,
+        8,
+        0.43,
+        -2.7
+       ],
+       "1300-1400": [
+        325,
+        21,
+        0.61,
+        -2.6
+       ],
+       "1500-1700": [
+        206,
+        26,
+        1.06,
+        0.4
+       ],
+       "1800-2100": [
+        316,
+        30,
+        0.82,
+        -1.2
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        5,
+        1,
+        2
+       ],
+       "1300-1400": [
+        14,
+        0,
+        5
+       ],
+       "1500-1700": [
+        4,
+        0,
+        0
+       ],
+       "1800-2100": [
+        10,
+        0,
+        3
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        62,
+        6,
+        1.13,
+        0.3
+       ],
+       "1300-1400": [
+        125,
+        5,
+        0.46,
+        -1.9
+       ],
+       "1500-1700": [
+        68,
+        6,
+        0.94,
+        -0.2
+       ],
+       "1800-2100": [
+        151,
+        12,
+        0.82,
+        -0.7
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.455,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "RÜZGARTEPESİ",
+     "p_birlesik10": 0.0588,
+     "p_piyasa10": 0.06,
+     "p_v9_agfli": 0.0432,
+     "p_v9_agfsiz": 0.0289,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "CANKARDEŞLER",
+      "kendi_mesafe": {
+       "n": 31,
+       "birinci": 3,
+       "ilk3": 11
+      },
+      "baba_mesafe": {
+       "n": 335,
+       "birinci": 45,
+       "ae": 1.32,
+       "z": 2.1
+      },
+      "kendi_pist": {
+       "n": 68,
+       "birinci": 5,
+       "ilk3": 24
+      },
+      "baba_pist": {
+       "n": 534,
+       "birinci": 72,
+       "ae": 1.21,
+       "z": 1.8
+      },
+      "kendi_aile": {
+       "n": 63,
+       "birinci": 5,
+       "ilk3": 23
+      },
+      "baba_aile": {
+       "n": 438,
+       "birinci": 52,
+       "ae": 1.38,
+       "z": 2.5
+      },
+      "kendi_hip": {
+       "n": 24,
+       "birinci": 2,
+       "ilk3": 3
+      },
+      "baba_hip": {
+       "n": 200,
+       "birinci": 27,
+       "ae": 1.51,
+       "z": 2.3
+      },
+      "annebaba": "BAYKAN.1",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        70,
+        6,
+        1.25,
+        0.6
+       ],
+       "1300-1400": [
+        99,
+        7,
+        1.06,
+        0.2
+       ],
+       "1500-1700": [
+        40,
+        1,
+        0.37,
+        -1.1
+       ],
+       "1800-2100": [
+        75,
+        7,
+        1.1,
+        0.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        13,
+        2,
+        6
+       ],
+       "1300-1400": [
+        31,
+        3,
+        11
+       ],
+       "1500-1700": [
+        15,
+        0,
+        3
+       ],
+       "1800-2100": [
+        23,
+        0,
+        5
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        78,
+        6,
+        0.92,
+        -0.2
+       ],
+       "1300-1400": [
+        335,
+        45,
+        1.32,
+        2.1
+       ],
+       "1500-1700": [
+        144,
+        14,
+        1.0,
+        -0.0
+       ],
+       "1800-2100": [
+        272,
+        31,
+        1.18,
+        1.0
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.245,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "GEWRE",
+     "p_birlesik10": 0.0515,
+     "p_piyasa10": 0.0528,
+     "p_v9_agfli": 0.0559,
+     "p_v9_agfsiz": 0.0435,
+     "h2h": -0.007,
+     "tercih": {
+      "baba": "TAYKUT",
+      "kendi_mesafe": {
+       "n": 8,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_mesafe": {
+       "n": 243,
+       "birinci": 23,
+       "ae": 0.96,
+       "z": -0.2
+      },
+      "kendi_pist": {
+       "n": 12,
+       "birinci": 2,
+       "ilk3": 6
+      },
+      "baba_pist": {
+       "n": 412,
+       "birinci": 53,
+       "ae": 1.07,
+       "z": 0.5
+      },
+      "kendi_aile": {
+       "n": 7,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "baba_aile": {
+       "n": 214,
+       "birinci": 24,
+       "ae": 1.06,
+       "z": 0.3
+      },
+      "kendi_hip": {
+       "n": 10,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_hip": {
+       "n": 79,
+       "birinci": 6,
+       "ae": 0.74,
+       "z": -0.8
+      },
+      "annebaba": "KAIZBERT (RU)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        341,
+        46,
+        1.4,
+        2.6
+       ],
+       "1300-1400": [
+        501,
+        57,
+        1.11,
+        0.9
+       ],
+       "1500-1700": [
+        196,
+        25,
+        1.37,
+        1.8
+       ],
+       "1800-2100": [
+        202,
+        14,
+        0.81,
+        -0.9
+       ],
+       "2200+": [
+        36,
+        3,
+        0.92,
+        -0.2
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        1
+       ],
+       "1300-1400": [
+        8,
+        0,
+        3
+       ],
+       "1500-1700": [
+        2,
+        1,
+        1
+       ],
+       "1800-2100": [
+        4,
+        1,
+        1
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        185,
+        25,
+        1.11,
+        0.6
+       ],
+       "1300-1400": [
+        243,
+        23,
+        0.96,
+        -0.2
+       ],
+       "1500-1700": [
+        103,
+        12,
+        1.06,
+        0.2
+       ],
+       "1800-2100": [
+        109,
+        15,
+        1.31,
+        1.2
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.033,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "HALİDAĞA",
+     "p_birlesik10": 0.2867,
+     "p_piyasa10": 0.2928,
+     "p_v9_agfli": 0.3032,
+     "p_v9_agfsiz": 0.2734,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "OVA",
+      "kendi_mesafe": {
+       "n": 6,
+       "birinci": 2,
+       "ilk3": 2
+      },
+      "baba_mesafe": {
+       "n": 108,
+       "birinci": 8,
+       "ae": 1.03,
+       "z": 0.1
+      },
+      "kendi_pist": {
+       "n": 26,
+       "birinci": 3,
+       "ilk3": 4
+      },
+      "baba_pist": {
+       "n": 162,
+       "birinci": 14,
+       "ae": 1.04,
+       "z": 0.2
+      },
+      "kendi_aile": {
+       "n": 14,
+       "birinci": 2,
+       "ilk3": 2
+      },
+      "baba_aile": {
+       "n": 89,
+       "birinci": 7,
+       "ae": 1.08,
+       "z": 0.2
+      },
+      "kendi_hip": {
+       "n": 4,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 33,
+       "birinci": 2,
+       "ae": 1.0,
+       "z": -0.0
+      },
+      "annebaba": "ODİNHAN",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        370,
+        28,
+        0.78,
+        -1.5
+       ],
+       "1300-1400": [
+        567,
+        51,
+        0.93,
+        -0.5
+       ],
+       "1500-1700": [
+        314,
+        31,
+        0.99,
+        -0.1
+       ],
+       "1800-2100": [
+        424,
+        36,
+        0.78,
+        -1.6
+       ],
+       "2200+": [
+        50,
+        7,
+        1.06,
+        0.2
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        8,
+        1,
+        2
+       ],
+       "1300-1400": [
+        6,
+        2,
+        2
+       ],
+       "1500-1700": [
+        6,
+        0,
+        0
+       ],
+       "1800-2100": [
+        8,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        71,
+        4,
+        0.72,
+        -0.7
+       ],
+       "1300-1400": [
+        108,
+        8,
+        1.03,
+        0.1
+       ],
+       "1500-1700": [
+        46,
+        4,
+        1.15,
+        0.3
+       ],
+       "1800-2100": [
+        49,
+        3,
+        0.78,
+        -0.5
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.016,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "GÜRHANZADE",
+     "p_birlesik10": 0.0775,
+     "p_piyasa10": 0.0843,
+     "p_v9_agfli": 0.0608,
+     "p_v9_agfsiz": 0.112,
+     "h2h": -0.125,
+     "tercih": {
+      "baba": "UÇANKRAL",
+      "kendi_mesafe": {
+       "n": 12,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_mesafe": {
+       "n": 55,
+       "birinci": 1,
+       "ae": 0.29,
+       "z": -1.4
+      },
+      "kendi_pist": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_pist": {
+       "n": 73,
+       "birinci": 6,
+       "ae": 1.06,
+       "z": 0.1
+      },
+      "kendi_aile": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_aile": {
+       "n": 56,
+       "birinci": 2,
+       "ae": 0.43,
+       "z": -1.3
+      },
+      "kendi_hip": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "annebaba": "TEKELİOĞLU",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        108,
+        9,
+        1.29,
+        0.8
+       ],
+       "1300-1400": [
+        144,
+        5,
+        0.45,
+        -2.0
+       ],
+       "1500-1700": [
+        74,
+        9,
+        1.65,
+        1.6
+       ],
+       "1800-2100": [
+        125,
+        7,
+        0.75,
+        -0.8
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        9,
+        0,
+        5
+       ],
+       "1300-1400": [
+        12,
+        0,
+        3
+       ],
+       "1500-1700": [
+        6,
+        0,
+        2
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        34,
+        2,
+        1.1,
+        0.1
+       ],
+       "1300-1400": [
+        55,
+        1,
+        0.29,
+        -1.4
+       ],
+       "1800-2100": [
+        37,
+        3,
+        0.88,
+        -0.2
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.335,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "PRENSES SEDA",
+     "p_birlesik10": 0.029,
+     "p_piyasa10": 0.0308,
+     "p_v9_agfli": 0.0446,
+     "p_v9_agfsiz": 0.1015,
+     "h2h": -0.076,
+     "tercih": {
+      "baba": "OĞLUM EMRE BEY",
+      "kendi_mesafe": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "kendi_pist": {
+       "n": 14,
+       "birinci": 2,
+       "ilk3": 4
+      },
+      "kendi_aile": {
+       "n": 10,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "kendi_hip": {
+       "n": 12,
+       "birinci": 2,
+       "ilk3": 3
+      },
+      "annebaba": "KAFKAS ŞAHI",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        35,
+        4,
+        1.23,
+        0.5
+       ],
+       "1800-2100": [
+        38,
+        4,
+        1.05,
+        0.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        3,
+        1,
+        1
+       ],
+       "1300-1400": [
+        3,
+        0,
+        0
+       ],
+       "1500-1700": [
+        2,
+        0,
+        0
+       ],
+       "1800-2100": [
+        10,
+        1,
+        3
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "NEFESİMOL",
+     "p_birlesik10": 0.0814,
+     "p_piyasa10": 0.0814,
+     "p_v9_agfli": 0.0435,
+     "p_v9_agfsiz": 0.0379,
+     "h2h": 0.042,
+     "tercih": {
+      "baba": "GÜNTAY",
+      "kendi_mesafe": {
+       "n": 12,
+       "birinci": 1,
+       "ilk3": 3
+      },
+      "baba_mesafe": {
+       "n": 315,
+       "birinci": 26,
+       "ae": 0.8,
+       "z": -1.3
+      },
+      "kendi_pist": {
+       "n": 17,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_pist": {
+       "n": 453,
+       "birinci": 42,
+       "ae": 0.95,
+       "z": -0.4
+      },
+      "kendi_aile": {
+       "n": 14,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_aile": {
+       "n": 341,
+       "birinci": 28,
+       "ae": 0.89,
+       "z": -0.7
+      },
+      "kendi_hip": {
+       "n": 15,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_hip": {
+       "n": 154,
+       "birinci": 7,
+       "ae": 0.55,
+       "z": -1.8
+      },
+      "annebaba": "YELGEÇEN",
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        5,
+        0,
+        2
+       ],
+       "1300-1400": [
+        12,
+        1,
+        3
+       ],
+       "1500-1700": [
+        4,
+        0,
+        0
+       ],
+       "1800-2100": [
+        9,
+        0,
+        1
+       ],
+       "2200+": [
+        1,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        183,
+        11,
+        0.61,
+        -1.8
+       ],
+       "1300-1400": [
+        315,
+        26,
+        0.8,
+        -1.3
+       ],
+       "1500-1700": [
+        192,
+        15,
+        0.82,
+        -0.8
+       ],
+       "1800-2100": [
+        245,
+        28,
+        1.13,
+        0.7
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.186,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "EMSALLİ ER",
+     "p_birlesik10": 0.0505,
+     "p_piyasa10": 0.0516,
+     "p_v9_agfli": 0.0636,
+     "p_v9_agfsiz": 0.0479,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": "UÇARER",
+      "kendi_mesafe": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "kendi_pist": {
+       "n": 8,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_pist": {
+       "n": 36,
+       "birinci": 8,
+       "ae": 2.01,
+       "z": 2.3
+      },
+      "kendi_aile": {
+       "n": 10,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "kendi_hip": {
+       "n": 15,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 38,
+       "birinci": 3,
+       "ae": 1.21,
+       "z": 0.4
+      },
+      "annebaba": "HABERBATUR",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        850,
+        65,
+        0.8,
+        -2.0
+       ],
+       "1300-1400": [
+        1403,
+        144,
+        1.02,
+        0.3
+       ],
+       "1500-1700": [
+        707,
+        77,
+        1.03,
+        0.3
+       ],
+       "1800-2100": [
+        1003,
+        123,
+        1.13,
+        1.5
+       ],
+       "2200+": [
+        84,
+        4,
+        0.4,
+        -2.2
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        5,
+        0,
+        0
+       ],
+       "1300-1400": [
+        7,
+        0,
+        1
+       ],
+       "1500-1700": [
+        5,
+        0,
+        1
+       ],
+       "1800-2100": [
+        7,
+        1,
+        2
+       ],
+       "2200+": [
+        2,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "DİYARLI DELİBAŞ",
+     "p_birlesik10": 0.037,
+     "p_piyasa10": 0.0362,
+     "p_v9_agfli": 0.071,
+     "p_v9_agfsiz": 0.0411,
+     "h2h": 0.083,
+     "tercih": {
+      "baba": "ATASOY",
+      "kendi_mesafe": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 55,
+       "birinci": 4,
+       "ae": 1.1,
+       "z": 0.2
+      },
+      "kendi_pist": {
+       "n": 8,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 117,
+       "birinci": 7,
+       "ae": 0.91,
+       "z": -0.3
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 47,
+       "birinci": 1,
+       "ae": 0.33,
+       "z": -1.2
+      },
+      "kendi_hip": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "annebaba": "ALTAHA",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        452,
+        40,
+        0.85,
+        -1.2
+       ],
+       "1300-1400": [
+        707,
+        65,
+        1.0,
+        0.0
+       ],
+       "1500-1700": [
+        394,
+        43,
+        1.1,
+        0.7
+       ],
+       "1800-2100": [
+        641,
+        62,
+        0.91,
+        -0.9
+       ],
+       "2200+": [
+        95,
+        10,
+        0.92,
+        -0.3
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        6,
+        0,
+        0
+       ],
+       "1300-1400": [
+        5,
+        0,
+        1
+       ],
+       "1500-1700": [
+        4,
+        1,
+        2
+       ],
+       "1800-2100": [
+        1,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        55,
+        3,
+        0.67,
+        -0.8
+       ],
+       "1300-1400": [
+        55,
+        4,
+        1.1,
+        0.2
+       ],
+       "1800-2100": [
+        30,
+        1,
+        0.57,
+        -0.6
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.039,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "CAYMAZBEY",
+     "p_birlesik10": 0.0057,
+     "p_piyasa10": 0.0061,
+     "p_v9_agfli": 0.0083,
+     "p_v9_agfsiz": 0.0618,
+     "h2h": -0.083,
+     "tercih": {
+      "baba": "GÜMBÜRGÜMBÜR",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 549,
+       "birinci": 53,
+       "ae": 1.04,
+       "z": 0.3
+      },
+      "kendi_pist": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 825,
+       "birinci": 101,
+       "ae": 1.09,
+       "z": 1.0
+      },
+      "kendi_aile": {
+       "n": 3,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 325,
+       "birinci": 41,
+       "ae": 1.37,
+       "z": 2.2
+      },
+      "kendi_hip": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 223,
+       "birinci": 15,
+       "ae": 0.75,
+       "z": -1.3
+      },
+      "annebaba": "SARUHANAĞA",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        63,
+        1,
+        0.26,
+        -1.6
+       ],
+       "1300-1400": [
+        86,
+        5,
+        0.88,
+        -0.3
+       ],
+       "1500-1700": [
+        44,
+        0,
+        0.0,
+        -2.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        0
+       ],
+       "1300-1400": [
+        4,
+        0,
+        0
+       ],
+       "1500-1700": [
+        2,
+        0,
+        0
+       ],
+       "1800-2100": [
+        1,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        512,
+        69,
+        1.13,
+        1.1
+       ],
+       "1300-1400": [
+        549,
+        53,
+        1.04,
+        0.3
+       ],
+       "1500-1700": [
+        198,
+        17,
+        0.83,
+        -0.8
+       ],
+       "1800-2100": [
+        154,
+        17,
+        1.19,
+        0.8
+       ]
+      },
+      "mesafe_uyum": "uyumsuz",
+      "baba_log_ae": 0.033,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "GÜNDEĞER",
+     "p_birlesik10": 0.0316,
+     "p_piyasa10": 0.031,
+     "p_v9_agfli": 0.0226,
+     "p_v9_agfsiz": 0.013,
+     "h2h": 0.083,
+     "tercih": {
+      "baba": "AYABAKAN",
+      "kendi_mesafe": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 742,
+       "birinci": 78,
+       "ae": 1.08,
+       "z": 0.8
+      },
+      "kendi_pist": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 873,
+       "birinci": 82,
+       "ae": 0.95,
+       "z": -0.6
+      },
+      "kendi_aile": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 722,
+       "birinci": 62,
+       "ae": 0.94,
+       "z": -0.5
+      },
+      "kendi_hip": {
+       "n": 1,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 378,
+       "birinci": 37,
+       "ae": 1.16,
+       "z": 1.0
+      },
+      "annebaba": "ÖZDURAN",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        65,
+        2,
+        0.29,
+        -2.1
+       ],
+       "1300-1400": [
+        102,
+        12,
+        1.21,
+        0.7
+       ],
+       "1500-1700": [
+        42,
+        7,
+        1.36,
+        1.0
+       ],
+       "1800-2100": [
+        48,
+        2,
+        0.4,
+        -1.5
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        0
+       ],
+       "1300-1400": [
+        2,
+        0,
+        0
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        2,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        400,
+        46,
+        1.01,
+        0.1
+       ],
+       "1300-1400": [
+        742,
+        78,
+        1.08,
+        0.8
+       ],
+       "1500-1700": [
+        349,
+        34,
+        1.15,
+        0.9
+       ],
+       "1800-2100": [
+        455,
+        49,
+        0.98,
+        -0.2
+       ],
+       "2200+": [
+        75,
+        12,
+        1.23,
+        0.8
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.072,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "OĞLUM KUTAY",
+     "p_birlesik10": 0.0038,
+     "p_piyasa10": 0.0041,
+     "p_v9_agfli": 0.0057,
+     "p_v9_agfsiz": 0.0356,
+     "h2h": -0.125,
+     "tercih": {
+      "baba": "DEMİRDÖVEN",
+      "kendi_mesafe": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 314,
+       "birinci": 26,
+       "ae": 1.12,
+       "z": 0.6
+      },
+      "kendi_pist": {
+       "n": 4,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_pist": {
+       "n": 766,
+       "birinci": 66,
+       "ae": 0.96,
+       "z": -0.3
+      },
+      "kendi_aile": {
+       "n": 2,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 297,
+       "birinci": 17,
+       "ae": 0.67,
+       "z": -1.8
+      },
+      "kendi_hip": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_hip": {
+       "n": 134,
+       "birinci": 8,
+       "ae": 0.95,
+       "z": -0.2
+      },
+      "annebaba": "KARATAŞ",
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        1,
+        0,
+        0
+       ],
+       "1300-1400": [
+        2,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        3,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        268,
+        26,
+        1.18,
+        0.9
+       ],
+       "1300-1400": [
+        314,
+        26,
+        1.12,
+        0.6
+       ],
+       "1500-1700": [
+        133,
+        6,
+        0.53,
+        -1.7
+       ],
+       "1800-2100": [
+        177,
+        11,
+        0.61,
+        -1.9
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.096,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Bursa"
+      }
+     }
+    }
+   ]
   }
  }
 }
