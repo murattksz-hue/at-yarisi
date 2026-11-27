@@ -995,3 +995,8 @@ Ders: kupon kararında önce −12 dk listesi uzunluğu ve 💰 işareti; "tek a
 
 ## 27.11.2026 apranti ve kilo testleri
 `scripts/apranti_kilo_testi.py` (ebayi ham JSON apranti indirimi + at_gecmisi 2022–2026, 238.962 at-koşu). Apranti A/E 0,97 (z −2,2); handikap apranti 0,94 (z −2,4); apranti × en ağır 3 at 0,84 (z −4,2, tek güçlü işaret: ağır kilo taşıyan apranti atlar piyasada fazla fiyatlı); kilo büyük farkta en hafif atlar 0,95 (Bursa 0,91). Apranti avantajı yok; Bursa 3. koşudaki apranti/hafif kilo üçlüsü (1., 2., 4.) bu verilerle sistematik bir kural değil. Rapor: `veri/apranti_kilo_testi.md`.
+
+## 27.11.2026 gözden kaçan kazanan kayıtları (öğleden sonra)
+- **Bursa 3. koşu, Emsalli Er** (resmî ganyan 11,45, AGF son %5,2, 13 at, Handikap 14, 52,5 kg apranti, HP 8. sıra, start 5): `G+A10+AS10`. Sıralama: 2. Oğlum Kutay (AGF %0,4, 50 kg apranti), 3. Gewre, 4. Gürhanzade, 5. Erselefe. Koşu riski yüksek (%45).
+- **Bursa 2. koşu, Rocking Island** (ganyan 3,70): `AS10` (sabah AGF %4,7 → son %15,8, para girişi 💰📈); gözden kaçan kazanan sayılmaz (kapanışta ikinci favori).
+- Kartlar: `veri/agf_kayit/2026-11-27/SURPRIZ.md`, toplu kayıt `veri/agf_kayit/surpriz_ayri.csv`, profil `veri/kazanan_profil.csv`.
