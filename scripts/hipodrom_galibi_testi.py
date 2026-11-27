@@ -12,6 +12,7 @@ for fn in sorted(glob.glob(os.path.join(K,'veri','at_gecmisi','*','*.csv.gz'))):
 win_hip=collections.defaultdict(list)   # kod -> [(hip,mesafe)]
 ran_hip=collections.defaultdict(set)    # kod -> {hip}
 win_all=collections.defaultdict(list)
+starts=collections.Counter(); wins=collections.Counter()   # (kod,hip)
 S=collections.defaultdict(lambda:[0,0,0.0,0,0.0,0,0.0])   # grup -> n,w,e, uzun_n(p<.10) ... , ilk yarı
 rows=[]
 for key in sorted(R):
@@ -22,15 +23,17 @@ for key in sorted(R):
         for r,x in zip(rs,g):
             kd=r['kod']; p=(1/x)/sv; w=r['sonuc'].strip()=='1'
             hw=[mm for h,mm in win_hip[kd] if h==key[1]]
-            F={'hip_galip':bool(hw),'hip_mes_galip':any(abs(mm-m)<=200 for mm in hw),'mes_galip':any(abs(mm-m)<=200 for h,mm in win_hip[kd]),'hip_kosmus':key[1] in ran_hip[kd]}
+            F={'hip_galip':bool(hw),'hip_mes_galip':any(abs(mm-m)<=200 for mm in hw),'mes_galip':any(abs(mm-m)<=200 for h,mm in win_hip[kd]),'hip_kosmus':key[1] in ran_hip[kd],
+               'hip_2+_galip':wins[(kd,key[1])]>=2,'hip_oran>=30%(>=3 start)':starts[(kd,key[1])]>=3 and wins[(kd,key[1])]/starts[(kd,key[1])]>=0.30}
             rows.append((key[0],p,w,x,F))
     for r in rs:
-        kd=r['kod']; ran_hip[kd].add(key[1])
+        kd=r['kod']; ran_hip[kd].add(key[1]); starts[(kd,key[1])]+=1
+        if r['sonuc'].strip()=='1': wins[(kd,key[1])]+=1
         if r['sonuc'].strip()=='1': win_hip[kd].append((key[1],f(r['mesafe']) or 0))
 mid=sorted({t for t,*_ in rows})[len({t for t,*_ in rows})//2]
 def tab(baslik,filt):
     L=[f'### {baslik}','','| Özellik | Değer | At | Kazanan | A/E | z | ilk yarı A/E | ganyan≥10 kazanan |','|---|---|---|---|---|---|---|---|']
-    for ad in ('hip_galip','hip_mes_galip','mes_galip','hip_kosmus'):
+    for ad in ('hip_galip','hip_2+_galip','hip_oran>=30%(>=3 start)','hip_mes_galip','mes_galip','hip_kosmus'):
         for val in (True,False):
             n=w=su=w1=0;e=e1=0.0
             for t,p,wi,x,F in rows:
