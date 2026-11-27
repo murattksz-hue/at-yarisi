@@ -861,5 +861,90 @@
     ]
    }
   ]
+ },
+ "İzmir-3": {
+  "hipodrom": "İzmir",
+  "kosu": 3,
+  "zaman": "19:00",
+  "tjk_goruntu": "19:00",
+  "ebayi_goruntu": "19:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "9",
+    "favori_ebayi": "9",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.18,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "9",
+    "sabah_favori_ebayi": "9",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "AÇANAY KG K GKR",
+      "tjk": 12.83,
+      "ebayi": 12.9,
+      "fark": 0.07
+     },
+     {
+      "at": "2",
+      "ad": "PATARA KG DB SK",
+      "tjk": 15.01,
+      "ebayi": 15.04,
+      "fark": 0.03
+     },
+     {
+      "at": "3",
+      "ad": "FELHAN GÜLÜ KG K DB",
+      "tjk": 3.48,
+      "ebayi": 3.5,
+      "fark": 0.02
+     },
+     {
+      "at": "4",
+      "ad": "GÜLNARLI KG",
+      "tjk": 17.22,
+      "ebayi": 17.19,
+      "fark": -0.03
+     },
+     {
+      "at": "5",
+      "ad": "BERRUNAZ KG SK",
+      "tjk": 5.01,
+      "ebayi": 5.04,
+      "fark": 0.03
+     },
+     {
+      "at": "6",
+      "ad": "BİBAHANIM KG DB SK GKR",
+      "tjk": 4.87,
+      "ebayi": 4.93,
+      "fark": 0.06
+     },
+     {
+      "at": "7",
+      "ad": "DENİZOVA KG K DB",
+      "tjk": 14.21,
+      "ebayi": 14.22,
+      "fark": 0.01
+     },
+     {
+      "at": "8",
+      "ad": "HASGÖKÇE KG SK",
+      "tjk": 4.66,
+      "ebayi": 4.66,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "ÖKE HATUN KG DB SK",
+      "tjk": 22.7,
+      "ebayi": 22.52,
+      "fark": -0.18
+     }
+    ]
+   }
+  ]
  }
 }
