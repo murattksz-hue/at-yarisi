@@ -1,0 +1,1 @@
+Kaynak: https://github.com/aleknitka/agent-critical-thinking-skills (plugins/critical-thinking-skills/skills/calibration-forecasting), MIT. 27.11.2026 kuruldu; gizli karakter yok, ag cagrisi yok, betikler cevrimdisi.

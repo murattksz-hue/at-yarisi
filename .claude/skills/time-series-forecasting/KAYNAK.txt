@@ -1,0 +1,1 @@
+Kaynak: https://github.com/pitcany/statistical-agent-skills (skills/time-series-forecasting), MIT. 27.11.2026 kuruldu; gizli karakter yok, ag cagrisi yok.
