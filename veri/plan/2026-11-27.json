@@ -97,6 +97,7 @@
 "Bursa 7. koşu para takibi +40",
 "Bursa 7. koşu son dakika özeti",
 "Bursa 7. koşu sonrası kontrol",
+"hipodrom sicili",
 "İzmir 1. koşu -10dk kayıt",
 "İzmir 1. koşu -12dk kayıt",
 "İzmir 1. koşu -30dk kayıt",
@@ -149,8 +150,10 @@
 "İzmir 5. koşu para takibi +15",
 "İzmir 5. koşu son dakika özeti",
 "İzmir 5. koşu sonrası kontrol",
+"İzmir 6. koşu -12dk kayıt",
 "İzmir 6. koşu -30dk kayıt",
-"İzmir 6. koşu -60dk kayıt"
+"İzmir 6. koşu -60dk kayıt",
+"İzmir 6. koşu son dakika özeti"
 ],
 "son_sabah": 555,
 "son_sabah2": 712,
