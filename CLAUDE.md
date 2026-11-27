@@ -38,6 +38,7 @@ Türkiye at yarışları (TJK): her koşuyu kaydet, koşudan önce tahmin yap, s
 
 ## Araçlar (claude-plugins-official)
 - `.claude/settings.json` marketplace'i ve şu plugin'leri açar: claude-md-management, hookify, code-review, pr-review-toolkit, code-simplifier, session-report, security-guidance, pyright-lsp (yeni oturumda yüklenir; onay istenirse kabul et).
+- `.claude/skills/root-cause-investigation/` (nimrodfisher/data-analytics-skills, MIT; 27.11 kuruldu): beklenmeyen sonucun (gözden kaçan kazanan, tutmayan kupon) nedenini sistematik arama; betik yalnızca csv okur.
 - `.claude/hookify.*.local.md` kuralları: canlı betik/CSV düzenleme uyarısı, eşitlikte sıralama sızıntı uyarısı, push öncesi kontrol hatırlatması, bota kapalı sitelere (agftablosu, agftahmin, liderform) istek **engeli**.
 
 ## task-observer (oturum gözlemleri → skill iyileştirmeleri)

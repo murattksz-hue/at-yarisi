@@ -1,0 +1,1 @@
+Kaynak: https://github.com/nimrodfisher/data-analytics-skills (03-data-analysis-investigation/root-cause-investigation), MIT. 27.11.2026 kuruldu; scripts/drilldown_analyzer.py yalnizca csv/argparse kullanir, ag cagrisi yok.
