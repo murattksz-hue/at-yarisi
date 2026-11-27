@@ -25,6 +25,7 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | İzmir | 3 | 19:00 | 1. | 9 | 9 | ✓ | ✓ | 0.18 | 9→9 | 9→9 |
 | İzmir | 4 | 19:30 | 1. | 4 | 4 | ✓ | ✓ | 0.0 | 4→4 | 4→4 |
 | İzmir | 5 | 20:00 | 1. | 5 | 5 | ✓ | ✓ | 0.0 | 5→5 | 5→5 |
+| İzmir | 6 | 20:31 | 1. | 7 | 7 | ✓ | ✓ | 0.0 | 2→7 | 2→7 |
 
 ### Farklı çıkan atlar
 

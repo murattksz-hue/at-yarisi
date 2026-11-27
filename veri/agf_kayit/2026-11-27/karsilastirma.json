@@ -1081,5 +1081,97 @@
     ]
    }
   ]
+ },
+ "İzmir-6": {
+  "hipodrom": "İzmir",
+  "kosu": 6,
+  "zaman": "20:31",
+  "tjk_goruntu": "19:18",
+  "ebayi_goruntu": "20:31",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "7",
+    "favori_ebayi": "7",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SARSALA KG DB SK",
+      "tjk": 11.4,
+      "ebayi": 11.4,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "TURBO KING SKG SK",
+      "tjk": 16.26,
+      "ebayi": 16.26,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "KIVIRCIK MEMET KG K DB",
+      "tjk": 13.51,
+      "ebayi": 13.51,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "AKSOYLUCAN KG DB SK GKR",
+      "tjk": 4.06,
+      "ebayi": 4.06,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "CİHAN ŞAHI KG DB GKR",
+      "tjk": 2.66,
+      "ebayi": 2.66,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "BAY TAYLAN KG SK",
+      "tjk": 9.6,
+      "ebayi": 9.6,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "COŞKUNTAY DB",
+      "tjk": 25.95,
+      "ebayi": 25.95,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "HAS TARKAN KG K",
+      "tjk": 1.86,
+      "ebayi": 1.86,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "SİLLETOKAT KG DB SK",
+      "tjk": 1.39,
+      "ebayi": 1.39,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "ÖZGÜNSULTAN KG DB SK ÖG",
+      "tjk": 13.32,
+      "ebayi": 13.32,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
