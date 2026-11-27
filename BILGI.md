@@ -1019,3 +1019,5 @@ Ders: kupon kararında önce −12 dk listesi uzunluğu ve 💰 işareti; "tek a
 
 ## 27.11.2026 Bursa 5 liste değişikliği analizi
 Bursa 5 (düşük risk): ilk kuponda Jalela, Sinoplu Merve, Bayan Altın; 14:00 AGF'sinde Sinoplu %20 → %6,8 düşünce Havzalı (AGF %16, v9 %15) ile değiştirildi. Sonuç: 1. Bayan Altın (2,20), 2. Sinoplu Merve (8,20), 3. Jalela, 6. Havzalı. Kazanan her iki kuponda da vardı; plase/ikili tutmadı. Ders: AGF-v9 ayrışmasında çıkarma yerine ekleme; "AGF'ye uy" kuralı test edilmemişti (CLAUDE.md'ye yazıldı).
+
+- **Bursa 6. koşu, Born To Shine** (resmî ganyan 8,50, AGF son %6,5, 11 at, Şartlı 1, 1300 m, Kum; tanım A10, ganyan <10 olduğu için G değil): yüksek riskli koşuda gözden kaçan kazanan (AGF'ye göre). 2. Avşarcan (6,55), 3. We Are Legends (5,60), 4. Selly Ela (14,95), 5. Sunset Lady (1,95; AGF %37 favori yıkıldı). −12 dk listesi (5 at: Sunset Lady, Avşarcan, We Are Legends, Born To Shine, Noble Beautiful) kazananı ve ikinciyi içeriyordu. Altılı kuponunda 5. ayakta yalnızca 2 at vardı (Sunset Lady, Avşarcan): yüksek riskli koşuya 2 at, kuralı ihlal.

@@ -1,6 +1,6 @@
 # Sürpriz kazananlar — 2026-11-27
 
-Kayıtlı kazanan: 4 · sürpriz (herhangi bir tanım): 3. Tanımlar: **G** ganyan ≥10 · **A10** kapanış AGF <%10 · **AS10** sabah AGF <%10 · **A5** kapanış AGF <%5.
+Kayıtlı kazanan: 6 · sürpriz (herhangi bir tanım): 4. Tanımlar: **G** ganyan ≥10 · **A10** kapanış AGF <%10 · **AS10** sabah AGF <%10 · **A5** kapanış AGF <%5.
 
 _Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._
 
@@ -28,19 +28,27 @@ _Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._
 - Önceki koşu: 2026-11-13 · 9. bitti (9 at, ganyan 11,20) · jokey değişti 1 · mesafe -100 m · pist değişti 0
 - **Olası notlar:** jokey değişti ; AGF sessiz (🤫)
 
+## Bursa 6. koşu — BORN TO SHINE  `A10`
+
+- ŞARTLI 1 · 1300 m · Kum · 10 koşan · kesin ganyan **8.5** (ganyan sırası 4)
+- AGF sabah 12.94 (3.) → son 6.47 (4.) · ganyan −60 dk — → −30 dk — → son —
+- Model sırası: AGF'li 3. (%15) · AGF'siz 4. · HP sırası 1. · start 4 · KGS 
+- Önceki koşu: ilk koşu/kayıt yok · . bitti ( at, ganyan ) · jokey değişti  · mesafe  m · pist değişti 
+- **Olası notlar:** AGF düştü 12.9→6.5
+
 ## Bütün günler: sürpriz kazananlar ve diğerleri
 
-Sürpriz **G**: 25 · **A10**: 40 · diğer kazananlar: 74
+Sürpriz **G**: 25 · **A10**: 41 · diğer kazananlar: 75
 
 | Özellik | Sürpriz G | Sürpriz A10 | Diğer kazananlar |
 |---|---|---|---|
-| jokey değişti | %84 (21/25) | %80 (32/40) | %54 (40/74) |
-| iç kulvar (start ≤3) | %36 (9/25) | %30 (12/40) | %31 (23/74) |
-| 💰 para girişi | %13 (3/23) | %19 (7/37) | %46 (28/61) |
-| 🤫 AGF sessiz | %43 (10/23) | %35 (13/37) | %13 (8/60) |
-| AGF'li model ilk 3'te | %8 (2/25) | %12 (5/40) | %84 (62/74) |
-| AGF'siz model ilk 3'te | %4 (1/25) | %20 (8/40) | %88 (65/74) |
-| pist yüzeyi değişti | %25 (6/24) | %26 (10/39) | %23 (16/69) |
-| mesafe ≥200 m değişti | %54 (13/24) | %49 (19/39) | %42 (29/69) |
+| jokey değişti | %84 (21/25) | %78 (32/41) | %53 (40/75) |
+| iç kulvar (start ≤3) | %36 (9/25) | %29 (12/41) | %31 (23/75) |
+| 💰 para girişi | %13 (3/23) | %19 (7/37) | %45 (28/62) |
+| 🤫 AGF sessiz | %43 (10/23) | %35 (13/37) | %13 (8/61) |
+| AGF'li model ilk 3'te | %8 (2/25) | %15 (6/41) | %84 (63/75) |
+| AGF'siz model ilk 3'te | %4 (1/25) | %20 (8/41) | %88 (66/75) |
+| pist yüzeyi değişti | %25 (6/24) | %26 (10/39) | %23 (16/70) |
+| mesafe ≥200 m değişti | %54 (13/24) | %49 (19/39) | %43 (30/70) |
 
 Not: örnek küçük; yorum için `BILGI.md` ve geçmiş veriyle (surpriz_ortak, surpriz_nerede) birlikte oku.
