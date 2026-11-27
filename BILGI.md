@@ -1000,3 +1000,6 @@ Ders: kupon kararında önce −12 dk listesi uzunluğu ve 💰 işareti; "tek a
 - **Bursa 3. koşu, Emsalli Er** (resmî ganyan 11,45, AGF son %5,2, 13 at, Handikap 14, 52,5 kg apranti, HP 8. sıra, start 5): `G+A10+AS10`. Sıralama: 2. Oğlum Kutay (AGF %0,4, 50 kg apranti), 3. Gewre, 4. Gürhanzade, 5. Erselefe. Koşu riski yüksek (%45).
 - **Bursa 2. koşu, Rocking Island** (ganyan 3,70): `AS10` (sabah AGF %4,7 → son %15,8, para girişi 💰📈); gözden kaçan kazanan sayılmaz (kapanışta ikinci favori).
 - Kartlar: `veri/agf_kayit/2026-11-27/SURPRIZ.md`, toplu kayıt `veri/agf_kayit/surpriz_ayri.csv`, profil `veri/kazanan_profil.csv`.
+
+## 27.11.2026 koşu riski modeli
+`scripts/kosu_riski_modeli.py`: hata düzeltildi (ilk sürümde `'rap' in grup` ile Arap koşuları İngiliz etiketlendi, Arap tahminleri anlamsızdı). Düzeltilmiş AUC 0,656, yalnızca piyasa riski + at sayısı ile aynı: çeşit/hipodrom/mesafe/zemin ek bilgi vermiyor. Bugünkü sıralama `veri/kosu_riski.md` (Bursa 3 ve 7 en riskli %26; İzmir 4 ve Bursa 4 en az %7).
