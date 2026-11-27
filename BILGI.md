@@ -992,3 +992,6 @@ Ders: kupon kararında önce −12 dk listesi uzunluğu ve 💰 işareti; "tek a
 ## 27.11.2026 ek analizler (kullanıcı isteği)
 - `gozden_kacan_ozellik.py`'ye **kilo sırası (sahada; eşitlikte sıra yok kuralıyla)** ve **zemin geçişi** (ilk kez kuma/çime/sentetiğe) eklendi. Sonuç: en ağır at A/E 1,00, en hafif 3 at 0,94; ilk kez çime 1,14 (n≈%2,9, z +2,2), ilk kez kuma 0,83 (z −2,7), ikisi de zayıf kanıt. Handikap kilo testi (≥8 kg fark): A/E 0,98/1,03/0,99.
 - Bursa 3. koşu gayriresmî sonuç: 9 Emsalli Er (AGF %5, ganyan 10,7), 2. 13 Oğlum Kutay (AGF %0,4), 3. Gewre, 4. Gürhanzade, 5. Erselefe; Halidağa ilk 5 dışı. Emsalli Er 1400 m'de 3 koşuda 5/9/10 bitirmişti, mesafe profili belirsiz; 52,5 kg (sahanın en hafiflerinden).
+
+## 27.11.2026 apranti ve kilo testleri
+`scripts/apranti_kilo_testi.py` (ebayi ham JSON apranti indirimi + at_gecmisi 2022–2026, 238.962 at-koşu). Apranti A/E 0,97 (z −2,2); handikap apranti 0,94 (z −2,4); apranti × en ağır 3 at 0,84 (z −4,2, tek güçlü işaret: ağır kilo taşıyan apranti atlar piyasada fazla fiyatlı); kilo büyük farkta en hafif atlar 0,95 (Bursa 0,91). Apranti avantajı yok; Bursa 3. koşudaki apranti/hafif kilo üçlüsü (1., 2., 4.) bu verilerle sistematik bir kural değil. Rapor: `veri/apranti_kilo_testi.md`.
