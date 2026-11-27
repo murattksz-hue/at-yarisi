@@ -1016,3 +1016,6 @@ Ders: kupon kararında önce −12 dk listesi uzunluğu ve 💰 işareti; "tek a
 
 ## 27.11.2026 koşu riski v2
 `scripts/kosu_riski_v2.py`: hedef kazananın piyasa ilk 3 dışından gelmesi. AUC 0,648 (yalnız piyasa riski 0,597); tersil kaçırma oranı %19/%33/%44. Gözden kaçan kazanan hedefinde ek katkı yok. Bugünkü koşular: Bursa 3 yüksek (%41), Bursa 4 orta (%25, eski sınıf düşüktü, kazanan ilk 3 dışından geldi), Bursa 2 düşük (%23). Kural: eski AGF sınıfı ile v2 çelişirse riskli olan.
+
+## 27.11.2026 Bursa 5 liste değişikliği analizi
+Bursa 5 (düşük risk): ilk kuponda Jalela, Sinoplu Merve, Bayan Altın; 14:00 AGF'sinde Sinoplu %20 → %6,8 düşünce Havzalı (AGF %16, v9 %15) ile değiştirildi. Sonuç: 1. Bayan Altın (2,20), 2. Sinoplu Merve (8,20), 3. Jalela, 6. Havzalı. Kazanan her iki kuponda da vardı; plase/ikili tutmadı. Ders: AGF-v9 ayrışmasında çıkarma yerine ekleme; "AGF'ye uy" kuralı test edilmemişti (CLAUDE.md'ye yazıldı).
