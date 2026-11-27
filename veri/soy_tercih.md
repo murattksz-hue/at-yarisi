@@ -1,18 +1,18 @@
 # Baba × koşul tercihleri (piyasa-düzeltmeli)
 
-Kaynak: at_gecmisi (2020-01-01 – 2026-11-25); n>=150 ve |z|>=2,5; 4587 hücreden 83 tanesi. A/E>1: yavrular o koşulda piyasadan iyi. Son sütun: yalnızca ikinci yarıdaki A/E (kalıcılık). Çok hücre bakıldığı için bir kısmı şans olabilir.
+Kaynak: at_gecmisi (2020-01-01 – 2026-11-26); n>=150 ve |z|>=2,5; 4588 hücreden 83 tanesi. A/E>1: yavrular o koşulda piyasadan iyi. Son sütun: yalnızca ikinci yarıdaki A/E (kalıcılık). Çok hücre bakıldığı için bir kısmı şans olabilir.
 
 | Baba | Boyut | Değer | n | Birinci | Beklenen | A/E | z | A/E (2. yarı) |
 |---|---|---|---|---|---|---|---|---|
 | FAST 'N' FAMOUS (AUS) | aile | Handikap | 218 | 49 | 26.1 | 1.88 | 5.0 | 1.54 |
 | KAYAYÜREKLİ | mesafe | 1500-1700 | 348 | 55 | 34.0 | 1.62 | 4.0 | 1.59 |
 | SUPER SAVER (USA) | hip | Şanlıurfa | 159 | 28 | 14.1 | 1.98 | 4.0 | 1.98 |
-| GOOD CURRY | pist | Kum | 460 | 91 | 64.1 | 1.42 | 3.9 | 1.42 |
 | KAYAYÜREKLİ | aile | Handikap | 631 | 89 | 61.1 | 1.46 | 3.9 | 1.52 |
+| GOOD CURRY | pist | Kum | 461 | 91 | 64.6 | 1.41 | 3.8 | 1.41 |
 | TOUGH GUY | pist | Kum | 200 | 54 | 35.9 | 1.51 | 3.7 | 1.48 |
 | ŞİMŞEĞİNOĞLU | hip | Şanlıurfa | 855 | 109 | 79.0 | 1.38 | 3.7 | 1.47 |
 | RUN AWAY AND HIDE (USA) | mesafe | ≤1200 | 288 | 52 | 33.6 | 1.55 | 3.6 | 1.44 |
-| TAMERİNOĞLU | pist | Kum | 3056 | 298 | 357.9 | 0.83 | -3.6 | 0.87 |
+| TAMERİNOĞLU | pist | Kum | 3058 | 298 | 358.0 | 0.83 | -3.6 | 0.87 |
 | KAYAYÜREKLİ | aile | Maiden (kazanmamışlar) | 477 | 64 | 43.4 | 1.48 | 3.5 | 1.5 |
 | TAMERİNOĞLU | aile | Şartlı | 1483 | 132 | 172.4 | 0.77 | -3.5 | 0.76 |
 | DERVİŞ AĞA | pist | Kum | 280 | 38 | 23.3 | 1.63 | 3.3 | 0.0 |
@@ -21,8 +21,8 @@ Kaynak: at_gecmisi (2020-01-01 – 2026-11-25); n>=150 ve |z|>=2,5; 4587 hücred
 | KINOWA | aile | Maiden (kazanmamışlar) | 180 | 4 | 15.8 | 0.25 | -3.3 | 0.25 |
 | TÜMÖZ BEY | hip | Kocaeli | 280 | 49 | 32.3 | 1.51 | 3.3 | 1.39 |
 | ÖZHABER | hip | Bursa | 668 | 99 | 74.0 | 1.34 | 3.3 | 1.1 |
+| ŞİMŞEĞİNOĞLU | pist | Kum | 2429 | 275 | 229.4 | 1.2 | 3.3 | 1.25 |
 | SON MARTI | aile | Handikap | 301 | 16 | 32.5 | 0.49 | -3.2 | 0.49 |
-| ŞİMŞEĞİNOĞLU | pist | Kum | 2428 | 274 | 229.3 | 1.2 | 3.2 | 1.24 |
 | AUTHORIZED (IRE) | hip | İstanbul | 458 | 25 | 43.4 | 0.58 | -3.1 | 0.5 |
 | HAKEEM (USA) | mesafe | 1300-1400 | 1314 | 195 | 161.2 | 1.21 | 3.1 | 1.09 |
 | POWERSCOURT (GB) | mesafe | 1300-1400 | 304 | 13 | 27.5 | 0.47 | -3.1 | 0.29 |
@@ -32,9 +32,9 @@ Kaynak: at_gecmisi (2020-01-01 – 2026-11-25); n>=150 ve |z|>=2,5; 4587 hücred
 | EXPANSION (USA) | pist | Kum | 277 | 47 | 32.6 | 1.44 | 2.9 | 1.57 |
 | KLUGER (JPN) | mesafe | ≤1200 | 151 | 24 | 14.4 | 1.67 | 2.9 | 1.67 |
 | ROCKMASTER (IRE) | pist | Kum | 514 | 69 | 50.3 | 1.37 | 2.9 | 1.34 |
-| TÜMÖZ BEY | mesafe | 1800-2100 | 793 | 122 | 96.9 | 1.26 | 2.9 | 1.18 |
-| TÜMÖZ BEY | pist | Kum | 2286 | 291 | 250.8 | 1.16 | 2.9 | 1.14 |
-| ÖZDURAN | pist | Kum | 1175 | 140 | 111.9 | 1.25 | 2.9 | 1.26 |
+| TÜMÖZ BEY | mesafe | 1800-2100 | 794 | 122 | 96.9 | 1.26 | 2.9 | 1.18 |
+| TÜMÖZ BEY | pist | Kum | 2287 | 291 | 250.8 | 1.16 | 2.9 | 1.13 |
+| ÖZDURAN | pist | Kum | 1176 | 140 | 111.9 | 1.25 | 2.9 | 1.26 |
 | BANKNOTE (GB) | pist | Kum | 239 | 5 | 14.9 | 0.34 | -2.8 | 0.0 |
 | BİTİRİMKARINCA | aile | Handikap | 160 | 22 | 12.9 | 1.7 | 2.8 | 1.53 |
 | CAPTAIN RIO (GB) | aile | Maiden (kazanmamışlar) | 556 | 73 | 54.9 | 1.33 | 2.8 | 1.44 |
@@ -51,16 +51,16 @@ Kaynak: at_gecmisi (2020-01-01 – 2026-11-25); n>=150 ve |z|>=2,5; 4587 hücred
 | KARA YAĞIZ | hip | Elazığ | 183 | 33 | 21.7 | 1.52 | 2.7 | 1.74 |
 | KLUGER (JPN) | mesafe | 1300-1400 | 283 | 42 | 29.1 | 1.44 | 2.7 | 1.44 |
 | LUXOR | hip | İstanbul | 1643 | 260 | 225.4 | 1.15 | 2.7 | 1.11 |
-| SEMEND | mesafe | 1800-2100 | 166 | 25 | 15.3 | 1.64 | 2.7 | 1.64 |
+| SEMEND | mesafe | 1800-2100 | 167 | 25 | 15.3 | 1.63 | 2.7 | 1.63 |
 | TÜMÖZ BEY | aile | Maiden (kazanmamışlar) | 643 | 75 | 56.7 | 1.32 | 2.7 | 1.19 |
 | APPROVE (IRE) | mesafe | ≤1200 | 967 | 138 | 113.0 | 1.22 | 2.6 | 1.16 |
 | AUTHORIZED (IRE) | mesafe | ≤1200 | 185 | 11 | 22.0 | 0.5 | -2.6 | 0.51 |
+| BABA MEVLÜT | hip | Antalya | 198 | 10 | 20.5 | 0.49 | -2.6 | 0.54 |
 | BİLGİN | hip | Kocaeli | 459 | 62 | 45.9 | 1.35 | 2.6 | 1.12 |
 | GENERAL QUARTERS (USA) | hip | Bursa | 284 | 50 | 36.6 | 1.36 | 2.6 | 1.33 |
 | GOOD CURRY | aile | Maiden (kazanmamışlar) | 156 | 26 | 16.6 | 1.57 | 2.6 | 1.57 |
 | HİSARBEY | mesafe | 1800-2100 | 237 | 11 | 22.2 | 0.5 | -2.6 | 0.63 |
 | JUSTENUFFHUMOR (USA) | pist | Çim | 315 | 46 | 32.5 | 1.41 | 2.6 | 1.68 |
 | KURTEL | hip | Ankara | 170 | 6 | 15.3 | 0.39 | -2.6 | 0.71 |
-| MADRABAZ | mesafe | 1300-1400 | 152 | 23 | 14.2 | 1.62 | 2.6 | 1.62 |
+| MADRABAZ | mesafe | 1300-1400 | 153 | 23 | 14.2 | 1.62 | 2.6 | 1.62 |
 | OFFLEE WILD (USA) | aile | Şartlı | 154 | 29 | 19.3 | 1.5 | 2.6 | 0.91 |
-| OYMAKBEYİ | aile | Şartlı | 217 | 35 | 23.7 | 1.47 | 2.6 | 1.04 |
