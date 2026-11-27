@@ -1,6 +1,6 @@
 # Sürpriz kazananlar — 2026-11-27
 
-Kayıtlı kazanan: 6 · sürpriz (herhangi bir tanım): 4. Tanımlar: **G** ganyan ≥10 · **A10** kapanış AGF <%10 · **AS10** sabah AGF <%10 · **A5** kapanış AGF <%5.
+Kayıtlı kazanan: 12 · sürpriz (herhangi bir tanım): 5. Tanımlar: **G** ganyan ≥10 · **A10** kapanış AGF <%10 · **AS10** sabah AGF <%10 · **A5** kapanış AGF <%5.
 
 _Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._
 
@@ -36,19 +36,27 @@ _Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._
 - Önceki koşu: ilk koşu/kayıt yok · . bitti ( at, ganyan ) · jokey değişti  · mesafe  m · pist değişti 
 - **Olası notlar:** AGF düştü 12.9→6.5
 
+## İzmir 5. koşu — KIRKLAR DAĞI  `AS10`
+
+- ŞARTLI 5 · 1400 m · Kum · 6 koşan · kesin ganyan **2.7** (ganyan sırası 2)
+- AGF sabah 8.99 (5.) → son 22.89 (2.) · ganyan −60 dk 3.55 → −30 dk 4.15 → son 2.7
+- Model sırası: AGF'li 3. (%15) · AGF'siz 1. · HP sırası 2. · start 5 · KGS 8
+- Önceki koşu: 2026-11-19 · 2. bitti (11 at, ganyan 4,55) · jokey değişti 1 · mesafe 100 m · pist değişti 0
+- **Olası notlar:** jokey değişti ; hipodrom değişti ; AGF yükseldi 9.0→22.9 (para girişi?) ; ganyan son 30 dk'da 4.15→2.7 (💰) ; AGF'siz model daha üstte (1. / AGF'li 3.)
+
 ## Bütün günler: sürpriz kazananlar ve diğerleri
 
-Sürpriz **G**: 25 · **A10**: 41 · diğer kazananlar: 75
+Sürpriz **G**: 25 · **A10**: 41 · diğer kazananlar: 80
 
 | Özellik | Sürpriz G | Sürpriz A10 | Diğer kazananlar |
 |---|---|---|---|
-| jokey değişti | %84 (21/25) | %78 (32/41) | %53 (40/75) |
-| iç kulvar (start ≤3) | %36 (9/25) | %29 (12/41) | %31 (23/75) |
-| 💰 para girişi | %13 (3/23) | %19 (7/37) | %45 (28/62) |
-| 🤫 AGF sessiz | %43 (10/23) | %35 (13/37) | %13 (8/61) |
-| AGF'li model ilk 3'te | %8 (2/25) | %15 (6/41) | %84 (63/75) |
-| AGF'siz model ilk 3'te | %4 (1/25) | %20 (8/41) | %88 (66/75) |
-| pist yüzeyi değişti | %25 (6/24) | %26 (10/39) | %23 (16/70) |
-| mesafe ≥200 m değişti | %54 (13/24) | %49 (19/39) | %43 (30/70) |
+| jokey değişti | %84 (21/25) | %78 (32/41) | %55 (44/80) |
+| iç kulvar (start ≤3) | %36 (9/25) | %29 (12/41) | %29 (23/80) |
+| 💰 para girişi | %13 (3/23) | %19 (7/37) | %45 (30/67) |
+| 🤫 AGF sessiz | %43 (10/23) | %35 (13/37) | %12 (8/66) |
+| AGF'li model ilk 3'te | %8 (2/25) | %15 (6/41) | %82 (66/80) |
+| AGF'siz model ilk 3'te | %4 (1/25) | %20 (8/41) | %88 (70/80) |
+| pist yüzeyi değişti | %25 (6/24) | %26 (10/39) | %21 (16/75) |
+| mesafe ≥200 m değişti | %54 (13/24) | %49 (19/39) | %43 (32/75) |
 
 Not: örnek küçük; yorum için `BILGI.md` ve geçmiş veriyle (surpriz_ortak, surpriz_nerede) birlikte oku.

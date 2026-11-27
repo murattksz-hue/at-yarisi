@@ -86,17 +86,17 @@ _Olası notlar kural tabanlıdır, kesin neden değildir; örnek az._
 
 ## Bütün günler: sürpriz kazananlar ve diğerleri
 
-Sürpriz **G**: 23 · **A10**: 38 · diğer kazananlar: 73
+Sürpriz **G**: 25 · **A10**: 41 · diğer kazananlar: 80
 
 | Özellik | Sürpriz G | Sürpriz A10 | Diğer kazananlar |
 |---|---|---|---|
-| jokey değişti | %83 (19/23) | %79 (30/38) | %53 (39/73) |
-| iç kulvar (start ≤3) | %39 (9/23) | %32 (12/38) | %30 (22/73) |
-| 💰 para girişi | %14 (3/22) | %19 (7/36) | %46 (27/59) |
-| 🤫 AGF sessiz | %41 (9/22) | %33 (12/36) | %14 (8/58) |
-| AGF'li model ilk 3'te | %9 (2/23) | %13 (5/38) | %84 (61/73) |
-| AGF'siz model ilk 3'te | %4 (1/23) | %21 (8/38) | %88 (64/73) |
-| pist yüzeyi değişti | %27 (6/22) | %27 (10/37) | %22 (15/68) |
-| mesafe ≥200 m değişti | %55 (12/22) | %49 (18/37) | %43 (29/68) |
+| jokey değişti | %84 (21/25) | %78 (32/41) | %55 (44/80) |
+| iç kulvar (start ≤3) | %36 (9/25) | %29 (12/41) | %29 (23/80) |
+| 💰 para girişi | %13 (3/23) | %19 (7/37) | %45 (30/67) |
+| 🤫 AGF sessiz | %43 (10/23) | %35 (13/37) | %12 (8/66) |
+| AGF'li model ilk 3'te | %8 (2/25) | %15 (6/41) | %82 (66/80) |
+| AGF'siz model ilk 3'te | %4 (1/25) | %20 (8/41) | %88 (70/80) |
+| pist yüzeyi değişti | %25 (6/24) | %26 (10/39) | %21 (16/75) |
+| mesafe ≥200 m değişti | %54 (13/24) | %49 (19/39) | %43 (32/75) |
 
 Not: örnek küçük; yorum için `BILGI.md` ve geçmiş veriyle (surpriz_ortak, surpriz_nerede) birlikte oku.
