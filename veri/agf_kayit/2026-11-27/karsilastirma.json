@@ -543,5 +543,132 @@
     ]
    }
   ]
+ },
+ "Bursa-7": {
+  "hipodrom": "Bursa",
+  "kosu": 7,
+  "zaman": "16:00",
+  "tjk_goruntu": "14:48",
+  "ebayi_goruntu": "16:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "3",
+    "favori_ebayi": "3",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "3",
+    "sabah_favori_ebayi": "3",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "GOZEYOĞLU KG DB GKR",
+      "tjk": 16.76,
+      "ebayi": 16.76,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "PERGA KG K",
+      "tjk": 15.33,
+      "ebayi": 15.33,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "ARDENSOY KG DB SK",
+      "tjk": 20.89,
+      "ebayi": 20.89,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "ALKATRAZ KUŞÇUSU KG K DB GKR",
+      "tjk": 12.41,
+      "ebayi": 12.41,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "HÜRRİYET KG K",
+      "tjk": 1.27,
+      "ebayi": 1.27,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "HATUN DİDEM DB SKG SK",
+      "tjk": 3.62,
+      "ebayi": 3.62,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "PARLAMA ZAMANI KG DB SK",
+      "tjk": 1.92,
+      "ebayi": 1.92,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "DELİNİN GÜCÜ SKG SK",
+      "tjk": 1.34,
+      "ebayi": 1.34,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "GÖLGE ADAM KG K DB GKR",
+      "tjk": 5.16,
+      "ebayi": 5.16,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "TOPLUSER KG DB SK",
+      "tjk": 2.95,
+      "ebayi": 2.95,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "ZORLU HAYAT K",
+      "tjk": 0.63,
+      "ebayi": 0.63,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "HİFA GÜZELİ KG K DB",
+      "tjk": 0.42,
+      "ebayi": 0.42,
+      "fark": 0.0
+     },
+     {
+      "at": "13",
+      "ad": "TÜMERK SK",
+      "tjk": 2.36,
+      "ebayi": 2.36,
+      "fark": 0.0
+     },
+     {
+      "at": "14",
+      "ad": "AKSA ASLANI KG DB SK",
+      "tjk": 5.83,
+      "ebayi": 5.83,
+      "fark": 0.0
+     },
+     {
+      "at": "15",
+      "ad": "DİSU BEY KG K",
+      "tjk": 9.11,
+      "ebayi": 9.11,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
