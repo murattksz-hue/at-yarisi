@@ -1029,3 +1029,6 @@ Bursa 5 (düşük risk): ilk kuponda Jalela, Sinoplu Merve, Bayan Altın; 14:00 
 Victor The Brave (İzmir 4, kazanan, ganyan 5,25): 4 Eylül İzmir 2200 m galibiyeti vardı; −12 dk kartında v9 AGF'siz modelde 1. (%27) ve 💰 (ganyan 7,3 → 3,7), listede yoktu. `hipodrom_galibi_testi.py` (290 bin at-koşu): bu hipodromda önceki galibiyeti olan atlar A/E 1,03 (z +3,2), olmayanlar 0,97; orta grupta (p %10–25) 1,04; uzun atlarda galibiyeti olmayan 0,88, olan 0,97. Küçük tutarlı etki. Victory Gallop yavruları 1800+ m'de A/E 0,89 (soy tek başına işaret değil). Karar: AGF'siz modelin 1. seçtiği ve piyasanın ilk 3'e koymadığı atı listeye ekle (kural yazılacak).
 
 - Hipodromda galibiyet oranı ≥%30 (≥3 start): A/E 1,08 (z +5,1; iki yarıda 1,08/1,08), orta 1,07, favori 1,09, uzun at 1,01 (diğer uzun atlar 0,92). Victor The Brave bugünden önce İzmir'de 4 startta 1 galibiyet (%25), bu eşiğin altındaydı; bugünle 5 startta 2 galibiyet (%40).
+
+## 27.11.2026 hipodrom sicili akışa bağlandı (kullanıcı onayı)
+`agf_plan.py` adım 2b: öğle kontrolünden sonra ve tüm hipodromların v9 dondurması bittiyse günde bir kez `hipodrom_sicil.py`; `.github/workflows/kayit.yml` commit listesine `veri/hipodrom_sicil` eklendi. Sahte saat denemesi (PLAN_DENEME=1, PLAN_SIMDI=12:30, scratch kopya): adım çalıştı. Gün sonu `gozden_kacan_ozellik.py` zaten sicil özelliklerini içeriyor.
