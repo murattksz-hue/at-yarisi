@@ -288,5 +288,83 @@
     ]
    }
   ]
+ },
+ "Bursa-4": {
+  "hipodrom": "Bursa",
+  "kosu": 4,
+  "zaman": "14:30",
+  "tjk_goruntu": "14:30",
+  "ebayi_goruntu": "14:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "4",
+    "ayni_favori": false,
+    "ilk3_ayni": false,
+    "max_fark": 0.19,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "2",
+    "sabah_favori_ebayi": "2",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "GENÇAY NALAN DB SKG SK",
+      "tjk": 5.85,
+      "ebayi": 5.82,
+      "fark": -0.03
+     },
+     {
+      "at": "2",
+      "ad": "THUNDER JEST KG K",
+      "tjk": 25.52,
+      "ebayi": 25.36,
+      "fark": -0.16
+     },
+     {
+      "at": "3",
+      "ad": "BELLA MARE DB SK",
+      "tjk": 18.21,
+      "ebayi": 18.38,
+      "fark": 0.17
+     },
+     {
+      "at": "4",
+      "ad": "DUCENS MULIER DB SK",
+      "tjk": 25.41,
+      "ebayi": 25.6,
+      "fark": 0.19
+     },
+     {
+      "at": "5",
+      "ad": "KIZIM BERİL KG K DB",
+      "tjk": 4.54,
+      "ebayi": 4.5,
+      "fark": -0.04
+     },
+     {
+      "at": "6",
+      "ad": "OLAYIN ASLI K DB",
+      "tjk": 1.44,
+      "ebayi": 1.38,
+      "fark": -0.06
+     },
+     {
+      "at": "7",
+      "ad": "TM BATAILE SK",
+      "tjk": 14.47,
+      "ebayi": 14.39,
+      "fark": -0.08
+     },
+     {
+      "at": "8",
+      "ad": "MEGA LOVE DB SK",
+      "tjk": 4.56,
+      "ebayi": 4.57,
+      "fark": 0.01
+     }
+    ]
+   }
+  ]
  }
 }
