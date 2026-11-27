@@ -1,0 +1,1 @@
+Kaynak: https://github.com/nimrodfisher/data-analytics-skills (05-stakeholder-communication/analysis-qa-checklist), MIT. 27.11.2026 kuruldu; betikler yalnizca pandas/argparse, ag cagrisi yok, yalnizca --output ile verilen yola yazar.
