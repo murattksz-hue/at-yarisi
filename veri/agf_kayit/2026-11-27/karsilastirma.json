@@ -946,5 +946,76 @@
     ]
    }
   ]
+ },
+ "İzmir-4": {
+  "hipodrom": "İzmir",
+  "kosu": 4,
+  "zaman": "19:30",
+  "tjk_goruntu": "19:18",
+  "ebayi_goruntu": "19:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "TYPHOON DB SK",
+      "tjk": 2.3,
+      "ebayi": 2.3,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "STAR SWORD KG SK",
+      "tjk": 14.85,
+      "ebayi": 14.85,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "VICTOR THE BRAVE K",
+      "tjk": 13.88,
+      "ebayi": 13.88,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "CANVELO DB SK",
+      "tjk": 34.55,
+      "ebayi": 34.55,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "YİĞENİM NEHİR KG K ÖG",
+      "tjk": 7.37,
+      "ebayi": 7.37,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "BORN HERO KG DB SK BB",
+      "tjk": 25.82,
+      "ebayi": 25.82,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ÇİFTE YÜREKLİ DB",
+      "tjk": 1.23,
+      "ebayi": 1.23,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
