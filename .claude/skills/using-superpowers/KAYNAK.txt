@@ -1,0 +1,1 @@
+Kaynak: https://github.com/obra/superpowers (murattksz-hue/superpowers fork, 22f0b46, 2026-11-03), MIT. 27.11.2026 kuruldu. SessionStart kancasi (hooks/) KURULMADI: using-superpowers her yanitta skill zorunlu kilar.
