@@ -9,11 +9,14 @@ Amaç anlamak, tahmin etmek değil. Çok sayıda hücre bakıldığı için |z|�
 |---|---|---|---|---|---|---|
 | HP (ortalamadan) | düşük (≤−4) | 109896 | 0.86 | -8.8 | 0.87 | 0.84 |
 | HP (ortalamadan) | orta | 82570 | 1.10 | +6.2 | 1.09 | 1.12 |
+| bu hipodromda ilk 3 oranı | ilk 3 oranı >=%50 (>=3 start) | 37464 | 1.12 | +5.4 | 1.16 | 1.08 |
 | cinsiyet | genç dişi | 63079 | 0.90 | -4.9 | 0.89 | 0.91 |
 | cinsiyet | aygır | 83722 | 1.07 | +4.4 | 1.06 | 1.08 |
 | son koşudan beri | 90+ gün | 14438 | 0.82 | -4.1 | 0.91 | 0.73 |
 | çeşit | Handikap | 83947 | 1.06 | +3.6 | 1.07 | 1.05 |
 | hipodrom | Diyarbakır | 5897 | 1.21 | +3.4 | 1.19 | 1.30 |
+| bu hipodromda sicil | 3+ start, galibiyet yok | 63061 | 0.93 | -3.4 | 0.91 | 0.96 |
+| bu hipodromda sicil | 3+ start, galibiyet oranı >=%30 | 12725 | 1.13 | +3.3 | 1.16 | 1.09 |
 | kilo sırası (sahada) | orta | 92169 | 1.05 | +3.2 | 1.05 | 1.06 |
 | cinsiyet | kısrak | 48433 | 0.93 | -3.1 | 0.95 | 0.91 |
 | mesafe farkı | kısaldı (≤−200) | 62004 | 1.06 | +3.1 | 1.07 | 1.05 |
@@ -25,12 +28,10 @@ Amaç anlamak, tahmin etmek değil. Çok sayıda hücre bakıldığı için |z|�
 | pist/hipodrom | ilk koşu (geçmiş yok) | 17431 | 0.89 | -2.9 | 0.87 | 0.92 |
 | mesafe farkı | ilk koşu (geçmiş yok) | 17431 | 0.89 | -2.9 | 0.87 | 0.92 |
 | jokey | ilk koşu (geçmiş yok) | 17431 | 0.89 | -2.9 | 0.87 | 0.92 |
+| bu hipodromda sicil | 3+ start, galibiyet oranı <%30 | 76573 | 1.05 | +2.9 | 1.08 | 1.02 |
 | cinsiyet | genç erkek | 58101 | 1.06 | +2.8 | 1.05 | 1.06 |
 | son koşudan beri | ≤14 gün | 121171 | 1.04 | +2.8 | 1.03 | 1.04 |
 | kilo sırası (sahada) | alt 3 (en hafif 3) | 52831 | 0.94 | -2.7 | 0.92 | 0.95 |
-| HP (ortalamadan) | yüksek (≥+4) | 64185 | 1.05 | +2.7 | 1.05 | 1.04 |
-| zemin geçişi | ilk kez kuma (önce çim/sentetik) | 6383 | 0.83 | -2.7 | 0.72 | 0.94 |
-| yaş | 2 | 22465 | 0.92 | -2.6 | 0.88 | 0.95 |
 
 ## yaş
 
@@ -86,6 +87,26 @@ Amaç anlamak, tahmin etmek değil. Çok sayıda hücre bakıldığı için |z|�
 | ilk kez çime (önce kum/sentetik) | %2.9 | %2.7 | 1.14 | +2.2 | 1.09 | 1.21 |
 | ilk kez kuma (önce çim/sentetik) | %2.5 | %1.8 | 0.83 | -2.7 | 0.72 | 0.94 |
 | ilk kez sentetiğe | %2.0 | %1.8 | 0.99 | -0.2 | 1.03 | 0.96 |
+
+## bu hipodromda sicil
+
+| Değer | Uzun at payı | Kazanan payı | göreli A/E | z | ilk yarı | ikinci yarı |
+|---|---|---|---|---|---|---|
+| 3+ start, galibiyet oranı <%30 | %29.8 | %34.4 | 1.05 | +2.9 | 1.08 | 1.02 |
+| 3+ start, galibiyet yok | %24.6 | %21.5 | 0.93 | -3.4 | 0.91 | 0.96 |
+| 1-2 start, galibiyet yok | %20.3 | %17.2 | 0.95 | -2.3 | 0.93 | 0.97 |
+| ilk kez bu hipodromda | %18.3 | %17.2 | 1.00 | -0.1 | 0.98 | 1.01 |
+| 3+ start, galibiyet oranı >=%30 | %5.0 | %7.0 | 1.13 | +3.3 | 1.16 | 1.09 |
+| 1-2 start, galibiyet var | %2.0 | %2.7 | 1.08 | +1.3 | 1.12 | 1.03 |
+
+## bu hipodromda ilk 3 oranı
+
+| Değer | Uzun at payı | Kazanan payı | göreli A/E | z | ilk yarı | ikinci yarı |
+|---|---|---|---|---|---|---|
+| ilk 3 oranı <%50 (>=3 start) | %44.8 | %42.2 | 0.97 | -2.2 | 0.96 | 0.97 |
+| 1-2 start | %22.3 | %19.9 | 0.96 | -1.8 | 0.95 | 0.98 |
+| ilk kez | %18.3 | %17.2 | 1.00 | -0.1 | 0.98 | 1.01 |
+| ilk 3 oranı >=%50 (>=3 start) | %14.6 | %20.7 | 1.12 | +5.4 | 1.16 | 1.08 |
 
 ## HP (ortalamadan)
 

@@ -13,6 +13,7 @@ for fn in sorted(glob.glob(os.path.join(K,'veri','at_gecmisi','*','*.csv.gz'))):
     for r in csv.DictReader(io.TextIOWrapper(gzip.open(fn),encoding='utf-8')): R[(r['tarih'],r['hip'],r['kosu'])].append(r)
 import datetime
 seen={}   # kod -> görülen zeminler
+hs={}     # (kod,hip) -> [start, galibiyet, ilk3]
 last={}   # kod -> (tarih, jokey, mesafe, pist, hip, sira)
 rows=[]   # (tarih, p, kazandı, {özellik: değer})
 def d(t): return datetime.date.fromisoformat(t)
@@ -35,6 +36,9 @@ for key in sorted(R):
             F['kilo sırası (sahada)']=('en ağır at' if kr==1 else 'üst 3 (2-3. ağır)' if kr<=3 else 'orta' if kr<=n-3 else 'alt 3 (en hafif 3)') if n>=8 else 'koşu <8 at'
             sv_=seen.get(r['kod']); pz=(r['pist'] or '').strip()
             F['zemin geçişi']=('ilk koşu (geçmiş yok)' if not sv_ else 'daha önce bu zeminde koşmuş' if pz in sv_ else 'ilk kez kuma (önce çim/sentetik)' if pz=='Kum' else 'ilk kez çime (önce kum/sentetik)' if pz=='Çim' else 'ilk kez sentetiğe' if pz=='Sentetik' else '?')
+            _h=hs.get((r['kod'],r['hip']),[0,0,0])
+            F['bu hipodromda sicil']=('ilk kez bu hipodromda' if _h[0]==0 else '1-2 start, galibiyet yok' if _h[0]<=2 and _h[1]==0 else '1-2 start, galibiyet var' if _h[0]<=2 else '3+ start, galibiyet yok' if _h[1]==0 else '3+ start, galibiyet oranı <%30' if _h[1]/_h[0]<0.30 else '3+ start, galibiyet oranı >=%30')
+            F['bu hipodromda ilk 3 oranı']=('ilk kez' if _h[0]==0 else 'ilk 3 oranı >=%50 (>=3 start)' if _h[0]>=3 and _h[2]/_h[0]>=0.5 else 'ilk 3 oranı <%50 (>=3 start)' if _h[0]>=3 else '1-2 start')
             F['HP (ortalamadan)']=('yüksek (≥+4)' if hp[i]-hm>=4 else 'düşük (≤−4)' if hp[i]-hm<=-4 else 'orta')
             F['koşan at sayısı']='5-8' if n<=8 else '9-11' if n<=11 else '12-14' if n<=14 else '15+'
             F['çeşit']=aile; F['hipodrom']=r['hip']; F['ay']=key[0][5:7]
@@ -50,6 +54,8 @@ for key in sorted(R):
             rows.append((key[0],p,r['sonuc'].strip()=='1',F))
     for r in rs:
         if (r['pist'] or '').strip(): seen.setdefault(r['kod'],set()).add(r['pist'].strip())
+        _x=hs.setdefault((r['kod'],r['hip']),[0,0,0]); _s=r['sonuc'].strip()
+        if _s.isdigit(): _x[0]+=1; _x[1]+=_s=='1'; _x[2]+=int(_s)<=3
         if r['sonuc'].strip().isdigit():
             last[r['kod']]=(key[0],r['jokey'],f(r['mesafe']),r['pist'],r['hip'],int(r['sonuc']))
 tarihler=sorted({x[0] for x in rows}); orta=tarihler[len(tarihler)//2]
