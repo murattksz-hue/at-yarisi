@@ -1,0 +1,73 @@
+{
+ "Bursa-1": {
+  "hipodrom": "Bursa",
+  "kosu": 1,
+  "zaman": "13:01",
+  "tjk_goruntu": "13:00",
+  "ebayi_goruntu": "13:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": null,
+    "favori_ebayi": null,
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": null,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": null,
+    "sabah_favori_ebayi": null,
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "ARCANE SOVEREIGN KG K DB",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "2",
+      "ad": "AURELIA BLITZ DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "3",
+      "ad": "SİRENE DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "4",
+      "ad": "ALTIN KELEBEK KG K DB",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "5",
+      "ad": "STEEL HUNTER KG K DB",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "6",
+      "ad": "GOLDEN RHYTHM KG DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     },
+     {
+      "at": "7",
+      "ad": "EYLÜL MASALI DB SK",
+      "tjk": null,
+      "ebayi": null,
+      "fark": null
+     }
+    ]
+   }
+  ]
+ }
+}
