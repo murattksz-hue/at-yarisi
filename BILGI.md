@@ -1003,3 +1003,5 @@ Ders: kupon kararında önce −12 dk listesi uzunluğu ve 💰 işareti; "tek a
 
 ## 27.11.2026 koşu riski modeli
 `scripts/kosu_riski_modeli.py`: hata düzeltildi (ilk sürümde `'rap' in grup` ile Arap koşuları İngiliz etiketlendi, Arap tahminleri anlamsızdı). Düzeltilmiş AUC 0,656, yalnızca piyasa riski + at sayısı ile aynı: çeşit/hipodrom/mesafe/zemin ek bilgi vermiyor. Bugünkü sıralama `veri/kosu_riski.md` (Bursa 3 ve 7 en riskli %26; İzmir 4 ve Bursa 4 en az %7).
+
+- **Bursa 4. koşu, Kızım Beril** (resmî ganyan 10,50, AGF son %4,5, 8 at, Şartlı 5, 1300 m, Kum; `G+A10+AS10+A5`): düşük riskli koşu (%16, olasılık %7) olmasına rağmen gözden kaçan kazanan. 2. Mega Love (ganyan 23,65, AGF %4,6), 3. Thunder Jest (3,85), 4. Bella Mare. −12 dk listemiz (Thunder Jest, Ducens Mulier, Bella Mare) kazananı ve ikinciyi kaçırdı. Düşük risk sınıfı %7 ile işaretliydi: tek örnek.
