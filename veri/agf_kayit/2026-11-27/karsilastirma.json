@@ -762,5 +762,104 @@
     ]
    }
   ]
+ },
+ "İzmir-2": {
+  "hipodrom": "İzmir",
+  "kosu": 2,
+  "zaman": "18:31",
+  "tjk_goruntu": "18:30",
+  "ebayi_goruntu": "18:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "2",
+    "favori_ebayi": "2",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.04,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "1",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "WAR STORM DB SKG SK",
+      "tjk": 13.08,
+      "ebayi": 13.09,
+      "fark": 0.01
+     },
+     {
+      "at": "2",
+      "ad": "STORM QUEEN DB SKG SK",
+      "tjk": 46.41,
+      "ebayi": 46.37,
+      "fark": -0.04
+     },
+     {
+      "at": "3",
+      "ad": "VIOLET EIGHTEEN DB SK ÖG",
+      "tjk": 1.79,
+      "ebayi": 1.79,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "QUEEN SEV KG K ÖG",
+      "tjk": 8.79,
+      "ebayi": 8.82,
+      "fark": 0.03
+     },
+     {
+      "at": "5",
+      "ad": "AMONİ KG DB SK",
+      "tjk": 2.54,
+      "ebayi": 2.53,
+      "fark": -0.01
+     },
+     {
+      "at": "6",
+      "ad": "KARA THRACE KG K",
+      "tjk": 10.85,
+      "ebayi": 10.86,
+      "fark": 0.01
+     },
+     {
+      "at": "7",
+      "ad": "KIZIM ÇINAR KG SK GKR",
+      "tjk": 3.89,
+      "ebayi": 3.91,
+      "fark": 0.02
+     },
+     {
+      "at": "8",
+      "ad": "BEYOND THE SEA DB SK",
+      "tjk": 3.1,
+      "ebayi": 3.1,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "GULAZER KG SK",
+      "tjk": 2.76,
+      "ebayi": 2.75,
+      "fark": -0.01
+     },
+     {
+      "at": "10",
+      "ad": "PERFECT WHITE K DB",
+      "tjk": 1.19,
+      "ebayi": 1.18,
+      "fark": -0.01
+     },
+     {
+      "at": "11",
+      "ad": "MASTER KINGDOM KG DB SK",
+      "tjk": 5.61,
+      "ebayi": 5.6,
+      "fark": -0.01
+     }
+    ]
+   }
+  ]
  }
 }

@@ -21,6 +21,7 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 | Bursa | 6 | 15:30 | 1. | 10 | 10 | ✓ | ✓ | 0.0 | 11→10 | 11→10 |
 | Bursa | 7 | 16:00 | 1. | 3 | 3 | ✓ | ✓ | 0.0 | 3→3 | 3→3 |
 | İzmir | 1 | 18:00 | 1. | 10 | 10 | ✓ | ✓ | 0.06 | 10→10 | 10→10 |
+| İzmir | 2 | 18:31 | 1. | 2 | 2 | ✓ | ✓ | 0.04 | 1→2 | 1→2 |
 
 ### Farklı çıkan atlar
 
@@ -28,3 +29,4 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 - Bursa 3. koşu (1. altılı; TJK görüntüsü 14:00, ebayi 14:00): 1 FETTAHZADE KG K TJK %4.84 / ebayi %4.87, 2 ERSELEFE KG DB SK TJK %21.73 / ebayi %21.72, 3 RÜZGARTEPESİ KG TJK %5.69 / ebayi %5.7, 4 GEWRE KG DB SK TJK %5.46 / ebayi %5.45, 5 HALİDAĞA KG DB SK TJK %31.05 / ebayi %31.0, 6 GÜRHANZADE KG DB SK TJK %8.69 / ebayi %8.66, 8 NEFESİMOL KG K DB TJK %7.54 / ebayi %7.56, 10 DİYARLI DELİBAŞ K TJK %3.51 / ebayi %3.54, 11 CAYMAZBEY KG SK TJK %0.56 / ebayi %0.55, 12 GÜNDEĞER KG DB SK TJK %2.85 / ebayi %2.87, 13 OĞLUM KUTAY SKG SK TJK %0.36 / ebayi %0.35
 - Bursa 4. koşu (1. altılı; TJK görüntüsü 14:30, ebayi 14:30): 1 GENÇAY NALAN DB SKG SK TJK %5.85 / ebayi %5.82, 2 THUNDER JEST KG K TJK %25.52 / ebayi %25.36, 3 BELLA MARE DB SK TJK %18.21 / ebayi %18.38, 4 DUCENS MULIER DB SK TJK %25.41 / ebayi %25.6, 5 KIZIM BERİL KG K DB TJK %4.54 / ebayi %4.5, 6 OLAYIN ASLI K DB TJK %1.44 / ebayi %1.38, 7 TM BATAILE SK TJK %14.47 / ebayi %14.39, 8 MEGA LOVE DB SK TJK %4.56 / ebayi %4.57
 - İzmir 1. koşu (1. altılı; TJK görüntüsü 18:00, ebayi 18:00): 1 CAN AYDINIM KG SK TJK %1.72 / ebayi %1.71, 2 ÇİMEN BERA K DB TJK %14.6 / ebayi %14.57, 3 FRAMEZ KG K DB TJK %15.26 / ebayi %15.24, 4 FUATHAN BEY KG K DB TJK %15.09 / ebayi %15.14, 5 MIO ZIO KG DB SK TJK %9.86 / ebayi %9.84, 6 MÖSYÖ DENİZ KG DB SK TJK %0.96 / ebayi %0.95, 7 RAŞAMO KG K DB TJK %10.53 / ebayi %10.51, 8 SHADOW KG DB SK TJK %3.45 / ebayi %3.44, 10 NINJA QUEEN KG DB SK TJK %27.46 / ebayi %27.52
+- İzmir 2. koşu (1. altılı; TJK görüntüsü 18:30, ebayi 18:30): 1 WAR STORM DB SKG SK TJK %13.08 / ebayi %13.09, 2 STORM QUEEN DB SKG SK TJK %46.41 / ebayi %46.37, 4 QUEEN SEV KG K ÖG TJK %8.79 / ebayi %8.82, 5 AMONİ KG DB SK TJK %2.54 / ebayi %2.53, 6 KARA THRACE KG K TJK %10.85 / ebayi %10.86, 7 KIZIM ÇINAR KG SK GKR TJK %3.89 / ebayi %3.91, 9 GULAZER KG SK TJK %2.76 / ebayi %2.75, 10 PERFECT WHITE K DB TJK %1.19 / ebayi %1.18, 11 MASTER KINGDOM KG DB SK TJK %5.61 / ebayi %5.6
