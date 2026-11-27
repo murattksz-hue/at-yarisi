@@ -1013,6 +1013,786 @@
      }
     }
    ]
+  },
+  "Bursa|2": {
+   "tip": {
+    "tur": "Şartlı 1",
+    "aile": "Şartlı",
+    "irk": "İngiliz",
+    "yas": "2",
+    "mesafe": "1300",
+    "mesafe_band": "1200-1399",
+    "pist": "Kum"
+   },
+   "hip": "Bursa",
+   "kosu": 2,
+   "saat": "14:30",
+   "olusturma_tr": "2026-11-27T14:19:33+03:00",
+   "goruntu_utc": "1118",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "STERN COMMANDER",
+   "secim_ilk3": [
+    "STERN COMMANDER",
+    "ROCKING ISLAND",
+    "VICTORIA DE ORO"
+   ],
+   "surpriz_riski": "orta",
+   "surpriz_p": 0.275,
+   "liste_uzunlugu": 4,
+   "secim_liste": [
+    "STERN COMMANDER",
+    "ROCKING ISLAND",
+    "VICTORIA DE ORO",
+    "SURPRISE ME"
+   ],
+   "guven": "net",
+   "atlar": [
+    {
+     "ad": "STEPS OF STEPS",
+     "p_birlesik10": 0.0375,
+     "p_piyasa10": 0.0375,
+     "p_v9_agfli": 0.0244,
+     "p_v9_agfsiz": 0.0891,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "STERN COMMANDER",
+     "p_birlesik10": 0.4218,
+     "p_piyasa10": 0.4218,
+     "p_v9_agfli": 0.3517,
+     "p_v9_agfsiz": 0.1371,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "VENGAR",
+     "p_birlesik10": 0.0197,
+     "p_piyasa10": 0.0197,
+     "p_v9_agfli": 0.0155,
+     "p_v9_agfsiz": 0.0772,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "AVŞALI CEREN",
+     "p_birlesik10": 0.0287,
+     "p_piyasa10": 0.0287,
+     "p_v9_agfli": 0.0253,
+     "p_v9_agfsiz": 0.0722,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "BLAZE GIRL",
+     "p_birlesik10": 0.0153,
+     "p_piyasa10": 0.0153,
+     "p_v9_agfli": 0.0153,
+     "p_v9_agfsiz": 0.0679,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "GOLD LUPER",
+     "p_birlesik10": 0.0084,
+     "p_piyasa10": 0.0084,
+     "p_v9_agfli": 0.0112,
+     "p_v9_agfsiz": 0.0475,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "LADY ALARA",
+     "p_birlesik10": 0.0043,
+     "p_piyasa10": 0.0043,
+     "p_v9_agfli": 0.0074,
+     "p_v9_agfsiz": 0.0187,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "QUEEN AFRA",
+     "p_birlesik10": 0.0281,
+     "p_piyasa10": 0.0281,
+     "p_v9_agfli": 0.0246,
+     "p_v9_agfsiz": 0.0764,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "ROCKING ISLAND",
+     "p_birlesik10": 0.1572,
+     "p_piyasa10": 0.1572,
+     "p_v9_agfli": 0.0863,
+     "p_v9_agfsiz": 0.111,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "SCARLET FLOWER",
+     "p_birlesik10": 0.043,
+     "p_piyasa10": 0.043,
+     "p_v9_agfli": 0.0192,
+     "p_v9_agfsiz": 0.0764,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "SURPRISE ME",
+     "p_birlesik10": 0.0898,
+     "p_piyasa10": 0.0898,
+     "p_v9_agfli": 0.122,
+     "p_v9_agfsiz": 0.1429,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    },
+    {
+     "ad": "VICTORIA DE ORO",
+     "p_birlesik10": 0.1461,
+     "p_piyasa10": 0.1461,
+     "p_v9_agfli": 0.297,
+     "p_v9_agfsiz": 0.0837,
+     "h2h": 0.0,
+     "tercih": {
+      "baba": null,
+      "kendi_mesafe": {
+       "n": 0
+      },
+      "kendi_pist": {
+       "n": 0
+      },
+      "kendi_aile": {
+       "n": 0
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "annebaba": null,
+      "annebaba_mesafe_hepsi": {},
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        0,
+        0,
+        0
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        0,
+        0,
+        0
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {},
+      "mesafe_uyum": null,
+      "baba_log_ae": null,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1300-1400",
+       "pist": "Kum",
+       "aile": "Şartlı",
+       "hip": "Bursa"
+      }
+     }
+    }
+   ]
   }
  }
 }
