@@ -175,5 +175,118 @@
     ]
    }
   ]
+ },
+ "Bursa-3": {
+  "hipodrom": "Bursa",
+  "kosu": 3,
+  "zaman": "14:00",
+  "tjk_goruntu": "14:00",
+  "ebayi_goruntu": "14:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.05,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "5",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "FETTAHZADE KG K",
+      "tjk": 4.84,
+      "ebayi": 4.87,
+      "fark": 0.03
+     },
+     {
+      "at": "2",
+      "ad": "ERSELEFE KG DB SK",
+      "tjk": 21.73,
+      "ebayi": 21.72,
+      "fark": -0.01
+     },
+     {
+      "at": "3",
+      "ad": "RÜZGARTEPESİ KG",
+      "tjk": 5.69,
+      "ebayi": 5.7,
+      "fark": 0.01
+     },
+     {
+      "at": "4",
+      "ad": "GEWRE KG DB SK",
+      "tjk": 5.46,
+      "ebayi": 5.45,
+      "fark": -0.01
+     },
+     {
+      "at": "5",
+      "ad": "HALİDAĞA KG DB SK",
+      "tjk": 31.05,
+      "ebayi": 31.0,
+      "fark": -0.05
+     },
+     {
+      "at": "6",
+      "ad": "GÜRHANZADE KG DB SK",
+      "tjk": 8.69,
+      "ebayi": 8.66,
+      "fark": -0.03
+     },
+     {
+      "at": "7",
+      "ad": "PRENSES SEDA KG DB SK",
+      "tjk": 3.23,
+      "ebayi": 3.23,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "NEFESİMOL KG K DB",
+      "tjk": 7.54,
+      "ebayi": 7.56,
+      "fark": 0.02
+     },
+     {
+      "at": "9",
+      "ad": "EMSALLİ ER KG DB SK",
+      "tjk": 4.49,
+      "ebayi": 4.49,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "DİYARLI DELİBAŞ K",
+      "tjk": 3.51,
+      "ebayi": 3.54,
+      "fark": 0.03
+     },
+     {
+      "at": "11",
+      "ad": "CAYMAZBEY KG SK",
+      "tjk": 0.56,
+      "ebayi": 0.55,
+      "fark": -0.01
+     },
+     {
+      "at": "12",
+      "ad": "GÜNDEĞER KG DB SK",
+      "tjk": 2.85,
+      "ebayi": 2.87,
+      "fark": 0.02
+     },
+     {
+      "at": "13",
+      "ad": "OĞLUM KUTAY SKG SK",
+      "tjk": 0.36,
+      "ebayi": 0.35,
+      "fark": -0.01
+     }
+    ]
+   }
+  ]
  }
 }
