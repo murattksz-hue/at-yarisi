@@ -1032,3 +1032,6 @@ Victor The Brave (İzmir 4, kazanan, ganyan 5,25): 4 Eylül İzmir 2200 m galibi
 
 ## 27.11.2026 hipodrom sicili akışa bağlandı (kullanıcı onayı)
 `agf_plan.py` adım 2b: öğle kontrolünden sonra ve tüm hipodromların v9 dondurması bittiyse günde bir kez `hipodrom_sicil.py`; `.github/workflows/kayit.yml` commit listesine `veri/hipodrom_sicil` eklendi. Sahte saat denemesi (PLAN_DENEME=1, PLAN_SIMDI=12:30, scratch kopya): adım çalıştı. Gün sonu `gozden_kacan_ozellik.py` zaten sicil özelliklerini içeriyor.
+
+## 27.11.2026 geçmiş koşular için hipodrom sicili
+`scripts/hipodrom_sicil_gecmis.py` → `veri/hipodrom_sicil_gecmis.csv.gz` (403.662 at-koşu, 2020+, koşu öncesi sicil: start, galibiyet, ilk 3, son sıra; sızıntı yok; anahtar tarih,hip,kosu,kod). 19–26 Kasım için günlük `veri/hipodrom_sicil/<gün>.md` dosyaları üretildi. Analizler (`hipodrom_galibi_testi.py`, `gozden_kacan_ozellik.py`) bu bilgiyi zaten satır içinde hesaplıyordu; yeni dosya model ve kartlarda birleştirmek içindir.
