@@ -1024,3 +1024,6 @@ Bursa 5 (düşük risk): ilk kuponda Jalela, Sinoplu Merve, Bayan Altın; 14:00 
 
 ## 27.11.2026 İzmir 4'lü ganyan (3-6) yattı
 4'lü ganyan 52,50 TL (30 kolon, birim 1,75 TL, ekuri tek birim): 1. ayak tuttu (Patara), 2. ayakta tek at Canvelo (AGF/v9 %37) 2. bitirdi; kazanan Victor The Brave (AGF %14, ganyan 5,25) listede yoktu. Her kolon Canvelo'ya bağlıydı. Hata: tek at kuralı yalnızca risk sınıfına bakılarak uygulandı. Yeni kural: tek at yalnızca düşük risk VE favori payı >=%50. Listeler İzmir 1-3'te kazananı içeriyordu (Ninja Queen, War Storm, Patara); AGF-v9 ayrışmasında eklenen Fuathan Bey 1. koşuda ikinci oldu.
+
+## 27.11.2026 hipodromda önceki galibiyet testi (Victor The Brave örneğiyle)
+Victor The Brave (İzmir 4, kazanan, ganyan 5,25): 4 Eylül İzmir 2200 m galibiyeti vardı; −12 dk kartında v9 AGF'siz modelde 1. (%27) ve 💰 (ganyan 7,3 → 3,7), listede yoktu. `hipodrom_galibi_testi.py` (290 bin at-koşu): bu hipodromda önceki galibiyeti olan atlar A/E 1,03 (z +3,2), olmayanlar 0,97; orta grupta (p %10–25) 1,04; uzun atlarda galibiyeti olmayan 0,88, olan 0,97. Küçük tutarlı etki. Victory Gallop yavruları 1800+ m'de A/E 0,89 (soy tek başına işaret değil). Karar: AGF'siz modelin 1. seçtiği ve piyasanın ilk 3'e koymadığı atı listeye ekle (kural yazılacak).
