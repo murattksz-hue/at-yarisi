@@ -1017,5 +1017,69 @@
     ]
    }
   ]
+ },
+ "İzmir-5": {
+  "hipodrom": "İzmir",
+  "kosu": 5,
+  "zaman": "20:00",
+  "tjk_goruntu": "19:18",
+  "ebayi_goruntu": "20:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "5",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "OĞUL ÇINAR KG K DB SK",
+      "tjk": 9.7,
+      "ebayi": 9.7,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "KIRKLAR DAĞI KG DB SK",
+      "tjk": 22.89,
+      "ebayi": 22.89,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "AYTEKİNBEY KG K",
+      "tjk": 5.26,
+      "ebayi": 5.26,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "SAKIZ ADASI KG K DB",
+      "tjk": 7.02,
+      "ebayi": 7.02,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "DENİZ KESTANESİ KG SK",
+      "tjk": 54.19,
+      "ebayi": 54.19,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "SUARTE KG DB SK",
+      "tjk": 0.94,
+      "ebayi": 0.94,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
