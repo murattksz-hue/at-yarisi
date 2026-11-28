@@ -21,7 +21,7 @@ for fn in sorted(glob.glob(os.path.join(K,'veri','at_gecmisi','*','*.csv.gz'))):
         ad=r['at'].strip()
         if ad in adlar and r['tarih']<GUN:
             s=r['sonuc'].strip()
-            H[ad].append((r['tarih'],r['hip'],r['mesafe'],(r['pist'] or '').strip(),int(s) if s.isdigit() else None,r['kosan'],(r['jokey'] or '').strip(),_fl(r['kilo']),_fl(r['hp'])))
+            H[ad].append((r['tarih'],r['hip'],r['mesafe'],(r['pist'] or '').strip(),int(s) if s.isdigit() else None,r['kosan'],(r['jokey'] or '').strip(),_fl(r['kilo']),_fl(r['hp']),(r['tur'] or '').strip()))
 # mesafe tipi (mesafe_tipi.py çıktısı; yoksa tip alanları boş kalır)
 try:
     _TT=json.load(open(os.path.join(K,'veri','mesafe_profil','at_tipi.json'),encoding='utf-8'))
@@ -63,11 +63,13 @@ def _prog(hip):
         m=re.match(r'(\d+)\. Kosu\s*:\s*([\d.]+);(.*)',l)
         if m:
             race=m.group(1); pz=re.search(r';\s*(Kum|Çim|Sentetik)\s*;',l); ms=re.search(r'(\d{3,4})\s*m\b',l)
-            out[race]={'zemin':pz.group(1) if pz else None,'mesafe':int(ms.group(1)) if ms else None,'atlar':{}}; continue
+            out[race]={'zemin':pz.group(1) if pz else None,'mesafe':int(ms.group(1)) if ms else None,'tur':_temiz(m.group(3).split(';')[0]),'ikramiye':None,'atlar':{}}; continue
+        if race and l.startswith('1.)') and out[race].get('ikramiye') is None:
+            _ik=re.match(r'1\.\)\s*([\d.]+)',l); out[race]['ikramiye']=int(_ik.group(1).replace('.','')) if _ik else None; continue
         c=l.split(';')
         if race and c[0].isdigit() and len(c)>11:
             kg=re.match(r'[\d,.]+',c[5]); hp=re.match(r'\d+',c[11])
-            out[race]['atlar'][c[0]]={'jokey':_temiz(c[6]),'kilo':_fl(kg.group(0)) if kg else None,'hp':float(hp.group(0)) if hp else None,'st':c[9]}
+            out[race]['atlar'][c[0]]={'jokey':_temiz(c[6]),'kilo':_fl(kg.group(0)) if kg else None,'hp':float(hp.group(0)) if hp else None,'st':c[9],'adham':c[1],'yas':_temiz(c[2]),'antrenor':_temiz(c[8]),'son6':_temiz(c[12]) if len(c)>12 else '','kgs':_temiz(c[13]) if len(c)>13 else ''}
     return out
 def _jk_key(n):   # program 'M.UYAR AP' ile sonuç 'MERT UYAR' aynı jokey: soyad + ilk harf
     t=re.sub(r'\bAP\b','',n.upper().replace('.',' ')).split()
@@ -79,7 +81,7 @@ for hip,J in hiplar.items():
         P=PR.get(str(r['kosu']),{'zemin':None,'mesafe':None,'atlar':{}})
         _hpl=[v['hp'] for v in P['atlar'].values() if v['hp']]; _kll=[v['kilo'] for v in P['atlar'].values() if v['kilo']]
         _ort=sum(_hpl)/len(_hpl) if _hpl else None; _std=(sum((x-_ort)**2 for x in _hpl)/len(_hpl))**0.5 if _hpl else None
-        grup={'hp_ort':round(_ort,1) if _ort else None,'hp_std':round(_std,1) if _std is not None else None,'hp_aralik':[min(_hpl),max(_hpl)] if _hpl else None,'kilo_aralik':[min(_kll),max(_kll)] if _kll else None,'zemin':P['zemin'],'mesafe':P['mesafe'],'at_sayisi':len(r['atlar'])}
+        grup={'ikramiye':P.get('ikramiye'),'tur':P.get('tur'),'hp_ort':round(_ort,1) if _ort else None,'hp_std':round(_std,1) if _std is not None else None,'hp_aralik':[min(_hpl),max(_hpl)] if _hpl else None,'kilo_aralik':[min(_kll),max(_kll)] if _kll else None,'zemin':P['zemin'],'mesafe':P['mesafe'],'at_sayisi':len(r['atlar'])}
         for a in r['atlar']:
             ad=a['ad'].strip(); pg=P['atlar'].get(str(a.get('no')),{}); _all=sorted(H.get(ad,[]))
             zs={z:[sum(1 for x in _all if x[3]==z and x[4]),sum(1 for x in _all if x[3]==z and x[4]==1),sum(1 for x in _all if x[3]==z and x[4] and x[4]<=3)] for z in ('Kum','Çim','Sentetik')}
@@ -105,7 +107,7 @@ for hip,J in hiplar.items():
                 'son':({'tarih':son[0],'hip':son[1],'mesafe':sm,'zemin':son[3],'sira':son[4],'kosan':son[5],'jokey':onceki_jk,'kilo':son[7],'hp':son[8]} if son else None),
                 'mesafe_degisim':mdeg,'jokey':jk,'onceki_jokey':onceki_jk,'jokey_degisti':(None if not jk or not onceki_jk else _jk_key(jk)!=_jk_key(onceki_jk)),
                 'apranti':bool(jk and re.search(r'\bAP\b',jk)),'kilo':kln,'kilo_sira':kl_sira,'kilo_fark_son':(round(kln-son[7],1) if kln and son and son[7] else None),
-                'hp':hpn,'hp_sira':hp_sira,'hp_fark_ort':(round(hpn-_ort,1) if hpn and _ort else None),'hp_fark_son':(round(hpn-son[8],1) if hpn and son and son[8] else None)}
+                'yas':pg.get('yas'),'kulvar':pg.get('st'),'kgs':pg.get('kgs'),'son6':pg.get('son6'),'antrenor':pg.get('antrenor'),'taki':(_temiz(pg['adham'][len(ad):]) if pg.get('adham','').upper().startswith(ad.upper()) else ''),'ekuri':bool(a.get('ekuri')),'ort_sira_8':(round(sum(x[4] for x in _all[-8:] if x[4])/max(1,sum(1 for x in _all[-8:] if x[4])),1) if any(x[4] for x in _all[-8:]) else None),'son_tur':(son[9] if son and len(son)>9 else None),'bugun_tur':P.get('tur'),'hp':hpn,'hp_sira':hp_sira,'hp_fark_ort':(round(hpn-_ort,1) if hpn and _ort else None),'hp_fark_son':(round(hpn-son[8],1) if hpn and son and son[8] else None)}
 os.makedirs(os.path.join(K,'veri','hipodrom_sicil'),exist_ok=True)
 json.dump(JS,open(os.path.join(K,'veri','hipodrom_sicil',f'{GUN}.json'),'w',encoding='utf-8'),ensure_ascii=False)
 json.dump(JM,open(os.path.join(K,'veri','hipodrom_sicil',f'{GUN}_mesafe.json'),'w',encoding='utf-8'),ensure_ascii=False)

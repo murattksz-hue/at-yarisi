@@ -1,6 +1,6 @@
 # Analiz indeksi (yeni oturum önce bunu oku)
 
-`BILGI.md` ayrıntılı günlük (tarihli bölümler, ~1000 satır); bu dosya ne bulduğumuzu **tek bakışta** verir. Durum: ✅ sağlam, ◐ işaret var kanıtlanmadı, ❌ etkisiz/geçersiz, ↩ geri çekildi. Her satırın ayrıntısı için `BILGI.md`'de bölüm başlığını ara.
+**Her koşu için canlı analiz listesi (hepsi birleştirilmiş): `ANALIZ_LISTESI.md`, çıktı `veri/analiz_listesi/<gün>/`.** `BILGI.md` ayrıntılı günlük (tarihli bölümler, ~1000 satır); bu dosya ne bulduğumuzu **tek bakışta** verir. Durum: ✅ sağlam, ◐ işaret var kanıtlanmadı, ❌ etkisiz/geçersiz, ↩ geri çekildi. Her satırın ayrıntısı için `BILGI.md`'de bölüm başlığını ara.
 
 ## 1. Ana sonuç
 Piyasa (kapanış ganyan/AGF) iyi kalibre ve güçlü; hiçbir modelimiz piyasayı kanıtlanmış biçimde geçemedi, düz oyun getirisi ~%70–80 (kesinti). Hedef: tahminlerimizi kaydedip hatamızı bulmak, "gözden kaçan kazanan"ın nedenini anlamak. Dış projelerin dürüst sonuçları da aynı (fatihbozdag/Ganyan, pedigreeall-ai: ROI negatif).

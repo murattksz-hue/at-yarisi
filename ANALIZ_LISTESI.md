@@ -1,22 +1,47 @@
-# Analiz listesi (her koşu için, −12 dk, otomatik)
+# Analiz listesi: tüm analizler, tek yerde (birleştirilmiş, 28.11)
 
-Kullanıcının 28.11'de verdiği liste. Her koşu için `veri/analiz_listesi/<gün>/<hipodrom>_<koşu>.md` dosyasında atlar piyasa sırasıyla bu 12 bölümle yazılır (`scripts/son_dakika_ozet.py`; veri `scripts/hipodrom_sicil.py` günlük çıktısı `veri/hipodrom_sicil/<gün>_analiz.json` ve program CSV, eBayi görüntüleri).
+Her koşu için `veri/analiz_listesi/<gün>/<hipodrom>_<koşu>.md` dosyası otomatik yazılır (−12 dk, `scripts/son_dakika_ozet.py`): önce mevcut kart (bölüm 0), sonra 15 bölüm. Veri: `veri/hipodrom_sicil/<gün>_analiz.json` (günlük, `hipodrom_sicil.py`), `<gün>_mesafe.json`, `<gün>.json`, program CSV, eBayi görüntüleri. Hiçbir eski analiz silinmedi; aynı olanlar birleştirildi, eksik olanlar eklendi. Testlerin sonuçları ve durumları `ANALIZ_INDEKSI.md`'de.
 
-| # | Analiz | Kaynak |
-|---|---|---|
-| 1 | Çim / kum / sentetik tablosu (tüm hipodromlar, start/gal/ilk 3), hipodrom adı yok | at_gecmisi |
-| 2 | Çimden kuma / kumdan çime geçiş (bu zeminde ilk kez) | at_gecmisi, program |
-| 3 | Kilo avantajı: kilo, sahada sıra, en ağırdan fark, son koşuya göre kg, apranti | program, at_gecmisi |
-| 4 | Atın hipodrom sicili (start/gal/ilk 3) ve liste çarpanı | hipodrom_sicil.py |
-| 5 | Soyların uzun / orta / kısa mesafe durumu (at, baba, anne babası) | mesafe_tipi.py |
-| 6 | Mesafe artmış mı azalmış mı; bu mesafede (±200 m) ne kadar koşmuş, uzun / kısa sicil | hipodrom_sicil.py |
-| 7 | Çimi seven / kumu seven (zemin tercihi) | at_gecmisi |
-| 8 | Para girişleri / çıkışları (ganyan −60 → −30 → şimdi) | eBayi görüntüleri |
-| 9 | AGF yükselen / düşen (sabah → şimdi) | eBayi görüntüleri |
-| 10 | Sabah AGF – öğleden sonra AGF (12:00 TR) – şimdi | eBayi görüntüleri |
-| 11 | Jokey değişimi (önceki, bugünkü, değişti mi) | program, at_gecmisi |
-| 12 | At kalitesi, bu grupta denge: HP, grup ortalaması/std/aralık, HP sırası | program |
+## Koşu başına dosyadaki bölümler
 
-**Listeden çıkarılanlar:** Bursa pist yönü (28.11, kullanıcı kararı; yön sabit, etki yok). Çim/kum tablosu artık hipodrom adına bağlı değil, her koşuda tüm atlar için.
+| Bölüm | Analiz | Eski mi / yeni mi | Not |
+|---|---|---|---|
+| Üst satır | Koşu çeşidi, mesafe, zemin, at sayısı, 1. ikramiye | YENİ | program CSV |
+| 0 | Piyasa %, sabah AGF, ganyan −60 → şimdi, v9 AGF'li / AGF'siz, BİRLEŞİK_10 (sicil çarpanlı), işaretler (💰📈📉⚖🤫🎯), favoriler, açık koşu riski ve liste (3/4/5), mesafe tercihi (kendi + baba bantları), koşu çeşidi tarihsel ve canlı sicil | ESKİ (korundu) | mevcut kart aynen gömülü |
+| 1 | Çim / kum / sentetik tablosu (tüm hipodromlar) | YENİ | |
+| 2 | Çimden kuma / kumdan çime geçiş, bu zeminde ilk kez | YENİ | gün sonu `gozden_kacan_ozellik` zaten ölçüyor |
+| 3 | Kilo avantajı: kilo, sahada sıra, en ağırdan fark, son koşuya göre, apranti | YENİ | |
+| 4 | Hipodrom sicili (start/gal/ilk 3) ve liste çarpanı | YENİ | BİRLEŞİK_10'a uygulanıyor |
+| 5 | Soyların uzun / orta / kısa mesafe durumu: at, baba, anne babası | YENİ | `mesafe_tipi.py` |
+| 6 | Mesafe artmış mı azalmış mı; bu mesafede (±200 m) ve uzun / kısa sicil | YENİ (0'daki mesafe tercihiyle birlikte okunur) | |
+| 7 | Çimi seven / kumu seven atlar | YENİ | |
+| 8 | Para girişleri / çıkışları (ganyan −60 → −30 → şimdi) | ESKİ 💰'nın genişletilmişi | 0'daki 💰 ile aynı eşik |
+| 9 | AGF yükselen / düşen (sabah → şimdi) | ESKİ 📈📉'nin genişletilmişi | |
+| 10 | Sabah AGF – öğleden sonra AGF (12:00 TR) – şimdi | YENİ | |
+| 11 | Jokey değişimi (önceki, bugünkü) | YENİ (eski işaret yalnızca bayrak) | soyad + ilk harf eşleşmesi |
+| 12 | At kalitesi, grupta denge: HP, grup ortalaması / std / aralık, HP sırası, son koşuya göre HP | YENİ | |
+| 13 | Yaş / cinsiyet, kulvar, KGS, son 6 yarış, takı, antrenör, ekuri | YENİ (eksik olanlar tamamlandı) | |
+| 14 | Form ve sınıf: tabela (son 8 ort. sıra), son koşu, tür değişimi, ilk kez hipodrom / mesafe / zemin | YENİ (eksik olanlar tamamlandı) | |
+| 15 | Baş-başa (h2h) skoru ve BİRLEŞİK % | ESKİ (kartta yoktu, eklendi) | |
 
-Bu liste bilgi içindir. Liste çarpanı yalnızca madde 4'te (hipodrom sicili) uygulanır; diğer maddeler çarpana girmez (mesafe çarpanı onay bekliyor).
+## Gün sonu ve ayrı raporlar (silinmedi)
+
+| Analiz | Dosya |
+|---|---|
+| Gözden kaçan kazananların özellikleri (yaş, cinsiyet, kulvar, kilo, kilo sırası, HP, zemin geçişi, hipodrom sicili ...) | `veri/gozden_kacan_ozellik.md` |
+| Hata raporu, büyük hatalar, favori yıkılması | `veri/hata_raporu/<gün>.md` |
+| Puanlama (BİRLEŞİK_10, piyasa, v9) | `veri/tahminler_10dk/SONUC.md` |
+| Koşu çeşidi tablosu | `veri/kosu_tipi_rapor.md` |
+| Soy tercihi (aygır × mesafe / pist / çeşit) | `veri/soy_tercih.md` |
+| Koşu riski modelleri | `veri/kosu_riski.md`, `veri/kosu_riski_v2.md` |
+| Hipodrom ve mesafe sicili testleri, apranti ve kilo testi | `veri/hipodrom_galibi_testi.md`, `veri/mesafe_sicil_testi.md`, `veri/apranti_kilo_testi.md` |
+| Atların mesafe tipleri (baba, anne babası) | `veri/mesafe_profil/` |
+| yenibeygir Blt – AGF karşılaştırması (elle) | `veri/yenibeygir_el_kayit/` |
+
+## Henüz koşu dosyasında olmayanlar
+
+- Hava / pist durumu (hava etkisi küçük çıkmıştı; koşu dosyasına eklenmedi).
+- Mesafe sicili liste çarpanı (test sonucu var, onay bekliyor).
+- Hipodrom ve mesafe çarpanının birlikte testi.
+
+**Listeden çıkarılan:** Bursa pist yönü (kullanıcı kararı, yön sabit, etki yok). Çim / kum tablosu artık hipodrom adına bağlı değil.
