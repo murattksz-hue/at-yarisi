@@ -76,5 +76,97 @@
     ]
    }
   ]
+ },
+ "Adana-2": {
+  "hipodrom": "Adana",
+  "kosu": 2,
+  "zaman": "14:00",
+  "tjk_goruntu": "14:00",
+  "ebayi_goruntu": "14:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "10",
+    "favori_ebayi": "10",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.05,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "9",
+    "sabah_favori_ebayi": "10",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "SUFERING KG DB SK",
+      "tjk": 10.09,
+      "ebayi": 10.08,
+      "fark": -0.01
+     },
+     {
+      "at": "2",
+      "ad": "CAN BALAM SK",
+      "tjk": 1.24,
+      "ebayi": 1.22,
+      "fark": -0.02
+     },
+     {
+      "at": "3",
+      "ad": "GOLDEN CREST KG K DB",
+      "tjk": 1.74,
+      "ebayi": 1.73,
+      "fark": -0.01
+     },
+     {
+      "at": "4",
+      "ad": "GURURLAN KG SK",
+      "tjk": 2.39,
+      "ebayi": 2.4,
+      "fark": 0.01
+     },
+     {
+      "at": "5",
+      "ad": "JOYFUL RUNNER KG K DB",
+      "tjk": 4.52,
+      "ebayi": 4.55,
+      "fark": 0.03
+     },
+     {
+      "at": "6",
+      "ad": "MISSBANG DB SK",
+      "tjk": 1.48,
+      "ebayi": 1.49,
+      "fark": 0.01
+     },
+     {
+      "at": "7",
+      "ad": "ROLLER DEĞİŞTİ KG SK",
+      "tjk": 1.95,
+      "ebayi": 1.92,
+      "fark": -0.03
+     },
+     {
+      "at": "8",
+      "ad": "SOLAR DUCHESS DB SK",
+      "tjk": 10.54,
+      "ebayi": 10.5,
+      "fark": -0.04
+     },
+     {
+      "at": "9",
+      "ad": "TALVERA DB SKG SK",
+      "tjk": 6.57,
+      "ebayi": 6.57,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "VEKOMA LIGHT SK YP",
+      "tjk": 59.49,
+      "ebayi": 59.54,
+      "fark": 0.05
+     }
+    ]
+   }
+  ]
  }
 }
