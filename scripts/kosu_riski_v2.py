@@ -55,9 +55,16 @@ for hip in HIPS:
         pp=[x[0]/s for x in v];head=H[r][1];sn=K.sinif(head.replace(';',' '))
         f=feat(pp,[x[1] for x in v],[x[2] for x in v],int('Arap' in head),sn['mesafe'],datetime.date.fromisoformat(GUN).weekday(),sn['pist'],hip,sn['aile'],float(H[r][0][:2]))
         p3=M3.predict_proba([f])[0][1];p4=M4.predict_proba([f])[0][1]
-        out.append((p3,p4,hip,r,H[r][0],len(v),sn['aile'],'Arap' if 'Arap' in head else 'İng',sn['mesafe']))
+        out.append((p3,p4,hip,r,H[r][0],len(v),sn['aile'],'Arap' if 'Arap' in head else 'İng',sn['mesafe'],float(sum(q for q in pp if q<.10)),float(max(pp))))
 L=[f'# Koşu riski v2 — {GUN}','',f'Olasılıklar: kazananın piyasa ilk 3 (3 atlık liste kaçırır) / ilk 4 dışından gelmesi (eğitim tabanı %{100*np.mean(Y3):.0f} / %{100*np.mean(Y4):.0f}). Sınıf eşikleri eğitim tersilleri: ilk 3 dışı ≤%{100*Q3[0]:.0f} düşük, ≤%{100*Q3[1]:.0f} orta, üstü yüksek. Canlı girdi son AGF görüntüsü, yaklaşık.','','| Sınıf (ilk 3) | Kaçırma ilk 3 | Kaçırma ilk 4 | Hip | Koşu | Saat | At | Çeşit | Irk | Mesafe |','|---|---|---|---|---|---|---|---|---|---|']
 for o in sorted(out):
     L.append(f'| {sinif(o[0],Q3)} | %{100*o[0]:.0f} | %{100*o[1]:.0f} | {o[2]} | {o[3]} | {o[4]} | {o[5]} | {o[6]} | {o[7]} | {o[8]} |')
 open(D+'veri/kosu_riski_v2.md','w',encoding='utf-8').write('\n'.join(L)+'\n')
+import json as _j
+_SR={'düşük':0,'orta':1,'yüksek':2}; _J={}
+for o in out:
+    _c2=sinif(o[0],Q3); _cp='yüksek' if o[9]>0.31 else 'orta' if o[9]>0.198 else 'düşük'; _cs=max((_c2,_cp),key=lambda x:_SR[x])
+    _J[f'{o[2]}|{o[3]}']={'p3':round(float(o[0]),3),'p4':round(float(o[1]),3),'ps':round(o[9],3),'favori':round(o[10],3),'sinif_v2':_c2,'sinif_ps':_cp,'sinif':_cs,'liste_k':{'düşük':3,'orta':4,'yüksek':5}[_cs],'at':o[5],'saat':o[4]}
+os.makedirs(D+'veri/kosu_riski',exist_ok=True); _j.dump(_J,open(D+f'veri/kosu_riski/{GUN}.json','w',encoding='utf-8'),ensure_ascii=False)
+
 print('\n'.join(L))

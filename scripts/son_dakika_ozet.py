@@ -155,6 +155,34 @@ try:
     _grup=_AJ.get('grup') or {}
     A=[f'# Analiz listesi — {hip} {kno}. koşu ({saat}), {gun}','',f'Görüntü {simdi[0]//60:02d}:{simdi[0]%60:02d} UTC (koşuya {tdk-simdi[0]} dk). Atlar piyasa sırasıyla. Veri: at_gecmisi (2020+), program CSV, eBayi görüntüleri. Yorum değil kayıt; test notları `ANALIZ_INDEKSI.md`den.','']
     _ikr=_grup.get('ikramiye'); A.extend([f"**Koşu:** {_grup.get('tur') or '—'} | {_grup.get('mesafe') or '—'} m {_grup.get('zemin') or '—'} | {_grup.get('at_sayisi') or '—'} at | 1. ikramiye {('%s TL'%format(_ikr,',').replace(',','.')) if _ikr else '—'}",''])
+    # ---- koşu riski: geçmişten öğrenilen (v2 modeli + piyasa riski + segment oranları), riskli olan alınır
+    _KRJ=(yukle(os.path.join(K,'veri','kosu_riski',f'{gun}.json')) or {}).get(f'{hip}|{kno}') or {}
+    _GS=yukle(os.path.join(K,'veri','kosu_riski','gecmis_segment.json')) or {}
+    _SRn={'düşük':0,'orta':1,'yüksek':2}
+    _kart_r=_r if _r in _SRn else 'orta'; _v2r=_KRJ.get('sinif_v2')
+    _son_r=max([x for x in (_kart_r,_v2r) if x],key=lambda x:_SRn[x]); _kk={'düşük':3,'orta':4,'yüksek':5}[_son_r]
+    _fav=max([x for x in piyasa.values() if x is not None] or [0])
+    _bs=next((k.get('baslik','') for k in (yukle(os.path.join(K,'veri','tahminler',f'{gun}_{hip}.json')) or []) if str(k['kosu'])==str(kno)),'')
+    _ti=kosu_tipi.sinif(_bs) if _bs else None; _nat=len(N)
+    _atb='5-8 at' if _nat<=8 else '9-11 at' if _nat<=11 else '12-14 at' if _nat<=14 else '15+ at'
+    A.extend(['## Koşu riski (geçmiş koşulardan öğrenilen; iki ölçüden riskli olanı alınır)',''])
+    A.append(f"**Sonuç: {_son_r.upper()} risk, liste {_kk} at.** Tek at izni: " + ('VAR (düşük risk ve favori >=%50)' if (_son_r=='düşük' and _fav>=0.5) else f"YOK (favori %{100*_fav:.0f}; tek at yalnızca düşük risk ve favori >=%50)")+'.')
+    A.append('')
+    A.append('| Ölçü | Değer | Sınıf |'); A.append('|---|---|---|')
+    A.append(f"| Piyasada %10 altı atların payı (şimdi) | %{100*_ps:.0f} | {_kart_r} |")
+    if _KRJ: A.append(f"| v2 modeli: kazananın piyasa ilk 3 / ilk 4 dışından gelme olasılığı | %{100*_KRJ['p3']:.0f} / %{100*_KRJ['p4']:.0f} | {_v2r} |")
+    else: A.append('| v2 modeli | bu koşu için hesaplanmadı | — |')
+    A.append('')
+    if _GS and _ti:
+        _gk=[(f"hipodrom: {hip}",f'hip:{hip}'),(f"çeşit: {_ti['irk']} {_ti['aile']}",f"cesit:{_ti['irk']} {_ti['aile']}"),(f"mesafe: {_ti['mesafe_band']}",f"mesafe:{_ti['mesafe_band']}"),(f"at sayısı: {_atb}",f'at:{_atb}'),(f"zemin: {_ti['pist']}",f"zemin:{_ti['pist']}"),(f"kombinasyon: {hip} | {_ti['irk']} {_ti['aile']} | {_atb}",f"kombo:{hip}|{_ti['irk']} {_ti['aile']}|{_atb}")]
+        _gt=[sum(v[i] for k,v in _GS.items() if k.startswith('at:')) for i in range(4)]
+        A.append('| Geçmiş segment (2022+) | Koşu | Favori kazandı | Ganyan>=10 kazanan | Kazanan ilk 3 dışı |'); A.append('|---|---|---|---|---|')
+        for ad_,key in _gk:
+            v=_GS.get(key)
+            if v: A.append(f"| {ad_} | {v[0]:,} | %{100*v[1]/v[0]:.0f} | %{100*v[2]/v[0]:.0f} | %{100*v[3]/v[0]:.0f} |")
+            else: A.append(f"| {ad_} | <50 | — | — | — |")
+        if _gt[0]: A.append(f"| **Genel ortalama** | {_gt[0]:,} | %{100*_gt[1]/_gt[0]:.0f} | %{100*_gt[2]/_gt[0]:.0f} | %{100*_gt[3]/_gt[0]:.0f} |")
+        A.append('')
     A.extend(['## 0. Mevcut kart: piyasa, modeller (v9 AGF\'li/AGF\'siz, BİRLEŞİK_10 + sicil çarpanı), işaretler (💰📈📉⚖🤫🎯), açık koşu riski, mesafe tercihi, koşu çeşidi',''])
     A.extend([(x.replace('# ','### ',1) if x.startswith('# ') else x) for x in L]); A.append('')
     def tablo(baslik,not_,basliklar,satir):

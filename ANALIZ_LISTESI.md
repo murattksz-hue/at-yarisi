@@ -45,3 +45,7 @@ Her koşu için `veri/analiz_listesi/<gün>/<hipodrom>_<koşu>.md` dosyası otom
 - Hipodrom ve mesafe çarpanının birlikte testi.
 
 **Listeden çıkarılan:** Bursa pist yönü (kullanıcı kararı, yön sabit, etki yok). Çim / kum tablosu artık hipodrom adına bağlı değil.
+
+## Koşu riski (geçmişten öğrenilen, her koşu dosyasının başında)
+
+`veri/analiz_listesi/<gün>/<hip>_<koşu>.md` en üstte "Koşu riski" bölümünü taşır: (1) piyasada %10 altı atların payı (şimdi), (2) v2 modeli (`kosu_riski_v2.py`, geçmiş koşulardan eğitilmiş: kazananın piyasa ilk 3 ve ilk 4 dışından gelme olasılığı), (3) geçmiş segment oranları (`kosu_riski_gecmis.py` → `veri/kosu_riski/gecmis_segment.md`: hipodrom, çeşit + ırk, mesafe, at sayısı, zemin, kombinasyon; favori kazandı, ganyan>=10 kazanan, kazanan ilk 3 dışı). Sınıf iki ölçüden riskli olandır; liste 3/4/5 at; tek at yalnızca düşük risk ve favori >=%50. Günlük adım: `agf_plan.py` 2b (`mesafe_tipi`, `hipodrom_sicil`, `kosu_riski_gecmis`, `kosu_riski_v2`), veri `veri/kosu_riski/<gün>.json`.
