@@ -168,5 +168,166 @@
     ]
    }
   ]
+ },
+ "Adana-3": {
+  "hipodrom": "Adana",
+  "kosu": 3,
+  "zaman": "14:31",
+  "tjk_goruntu": "14:31",
+  "ebayi_goruntu": "14:31",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.08,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "8",
+    "sabah_favori_ebayi": "7",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "İSKİT ALP KG K",
+      "tjk": 3.76,
+      "ebayi": 3.8,
+      "fark": 0.04
+     },
+     {
+      "at": "2",
+      "ad": "BÜYÜK YÜREKLİ KG",
+      "tjk": 9.62,
+      "ebayi": 9.69,
+      "fark": 0.07
+     },
+     {
+      "at": "3",
+      "ad": "ÇALIŞTAY KG DB SK",
+      "tjk": 4.53,
+      "ebayi": 4.55,
+      "fark": 0.02
+     },
+     {
+      "at": "4",
+      "ad": "SİYAH PENÇE DB SKG SK",
+      "tjk": 23.41,
+      "ebayi": 23.33,
+      "fark": -0.08
+     },
+     {
+      "at": "5",
+      "ad": "YEDİKARDEŞLER KG SK",
+      "tjk": 3.8,
+      "ebayi": 3.82,
+      "fark": 0.02
+     },
+     {
+      "at": "6",
+      "ad": "ÇELİKOVİÇ DB SK",
+      "tjk": 18.87,
+      "ebayi": 18.87,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "ATEŞ AYAZ K DB",
+      "tjk": 18.31,
+      "ebayi": 18.32,
+      "fark": 0.01
+     },
+     {
+      "at": "8",
+      "ad": "DELİKANLI POYRAZ KG DB SK",
+      "tjk": 15.36,
+      "ebayi": 15.3,
+      "fark": -0.06
+     },
+     {
+      "at": "9",
+      "ad": "FOTOROMAN KG DB SK",
+      "tjk": 2.33,
+      "ebayi": 2.32,
+      "fark": -0.01
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.11,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "4",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "İSKİT ALP KG K",
+      "tjk": 3.25,
+      "ebayi": 3.25,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "BÜYÜK YÜREKLİ KG",
+      "tjk": 8.48,
+      "ebayi": 8.46,
+      "fark": -0.02
+     },
+     {
+      "at": "3",
+      "ad": "ÇALIŞTAY KG DB SK",
+      "tjk": 4.34,
+      "ebayi": 4.33,
+      "fark": -0.01
+     },
+     {
+      "at": "4",
+      "ad": "SİYAH PENÇE DB SKG SK",
+      "tjk": 24.52,
+      "ebayi": 24.48,
+      "fark": -0.04
+     },
+     {
+      "at": "5",
+      "ad": "YEDİKARDEŞLER KG SK",
+      "tjk": 3.55,
+      "ebayi": 3.57,
+      "fark": 0.02
+     },
+     {
+      "at": "6",
+      "ad": "ÇELİKOVİÇ DB SK",
+      "tjk": 20.01,
+      "ebayi": 20.12,
+      "fark": 0.11
+     },
+     {
+      "at": "7",
+      "ad": "ATEŞ AYAZ K DB",
+      "tjk": 17.97,
+      "ebayi": 17.94,
+      "fark": -0.03
+     },
+     {
+      "at": "8",
+      "ad": "DELİKANLI POYRAZ KG DB SK",
+      "tjk": 15.79,
+      "ebayi": 15.76,
+      "fark": -0.03
+     },
+     {
+      "at": "9",
+      "ad": "FOTOROMAN KG DB SK",
+      "tjk": 2.09,
+      "ebayi": 2.08,
+      "fark": -0.01
+     }
+    ]
+   }
+  ]
  }
 }
