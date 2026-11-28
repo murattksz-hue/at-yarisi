@@ -19,6 +19,12 @@ for fn in sorted(glob.glob(os.path.join(K,'veri','at_gecmisi','*','*.csv.gz'))):
         if ad in adlar and r['tarih']<GUN:
             s=r['sonuc'].strip()
             H[ad].append((r['tarih'],r['hip'],r['mesafe'],(r['pist'] or '').strip(),int(s) if s.isdigit() else None,r['kosan']))
+# mesafe tipi (mesafe_tipi.py çıktısı; yoksa tip alanları boş kalır)
+try:
+    _TT=json.load(open(os.path.join(K,'veri','mesafe_profil','at_tipi.json'),encoding='utf-8'))
+    _BT={r['baba']:r['tip'] for r in csv.DictReader(open(os.path.join(K,'veri','mesafe_profil','baba_tipi.csv'),encoding='utf-8'))}
+    _AT={r['anne_babasi']:r['tip'] for r in csv.DictReader(open(os.path.join(K,'veri','mesafe_profil','annebaba_tipi.csv'),encoding='utf-8'))}
+except Exception: _TT={}; _BT={}; _AT={}
 JS={}; JM={}   # JM: hip -> ad -> {'bugun':[start,gal,ilk3] (bugünkü mesafe ±200 m, her hipodrom), 'uzun':[...] (>=1900 m), 'kisa':[...] (<=1500 m)}
 import re
 L=[f'# Hipodrom sicili — {GUN}','','Her atın bu hipodromdaki geçmişi (start / galibiyet / ilk 3). Kaynak at_gecmisi 2020+, ad eşleşmesi. Aynı adlı farklı at olabilir. Yorum değil kayıt.','']
@@ -31,7 +37,7 @@ for hip,J in hiplar.items():
             ad=a['ad'].strip(); h=[x for x in H.get(ad,[]) if x[1]==hip]; h.sort()
             _m=re.search(r'(\d{3,4})\s*m\b',r.get('baslik','')); _md=int(_m.group(1)) if _m else None; _all=H.get(ad,[])
             _st=lambda L:[sum(1 for x in L if x[4]),sum(1 for x in L if x[4]==1),sum(1 for x in L if x[4] and x[4]<=3)]
-            JM.setdefault(hip,{}).setdefault(ad,{}).update({'mesafe':_md,'bugun':_st([x for x in _all if _md and abs(int(x[2] or 0)-_md)<=200]),'uzun':_st([x for x in _all if int(x[2] or 0)>=1900]),'kisa':_st([x for x in _all if int(x[2] or 0)<=1500])})
+            _t=_TT.get(ad,{}); JM.setdefault(hip,{}).setdefault(ad,{}).update({'tip':_t.get('tip'),'baba':_t.get('baba'),'baba_tip':_BT.get(_t.get('baba')),'annebaba':_t.get('annebaba'),'annebaba_tip':_AT.get(_t.get('annebaba')),'mesafe':_md,'bugun':_st([x for x in _all if _md and abs(int(x[2] or 0)-_md)<=200]),'uzun':_st([x for x in _all if int(x[2] or 0)>=1900]),'kisa':_st([x for x in _all if int(x[2] or 0)<=1500])})
             n=len(h); w=sum(1 for x in h if x[4]==1); t=sum(1 for x in h if x[4] and x[4]<=3)
             JS.setdefault(hip,{})[ad]=[sum(1 for x in h if x[4]),w,t]   # start (sonuçlu), galibiyet, ilk 3
             son=f"{h[-1][0]} {h[-1][2]} m {h[-1][4]}." if h else '-'

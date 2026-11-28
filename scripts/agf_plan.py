@@ -59,7 +59,7 @@ if bekleyen and dk(hm)-P.get('son_analiz',-99)>=5:
 ilk_kosu=min(dk(t) for R in KS.values() for t in R.values()); ogle=min(12*60,ilk_kosu-90)
 if dk(hm)>=ogle and (ilk_tamam or hm>'10:30'): is_('12:00 kontrol',lambda:(calis('agf_kayit.py'),ALINDI.__setitem__(0,False),calis('agf_sonrasi_analiz.py')))
 # 2b) hipodrom sicili (koşacak atların bu hipodromdaki geçmişi), v9 dondurmadan sonra günde bir kez (kullanıcı onayı 27.11)
-if dk(hm)>=ogle and all(os.path.exists(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{h}.json")) for h in KS): is_('hipodrom sicili',lambda:calis('hipodrom_sicil.py',g.isoformat()))
+if dk(hm)>=ogle and all(os.path.exists(os.path.join(K,'veri','tahminler',f"{g.isoformat()}_{h}.json")) for h in KS): is_('hipodrom sicili',lambda:(calis('mesafe_tipi.py',g.isoformat()),calis('hipodrom_sicil.py',g.isoformat())))
 # 3) koşudan 1 saat önce  4) koşudan sonra
 for h,R in KS.items():
     for no,t in R.items():
