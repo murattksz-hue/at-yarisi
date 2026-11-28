@@ -140,3 +140,52 @@ try:
 except Exception as e: print('koşu çeşidi bilgisi eklenemedi:',e,file=sys.stderr)
 od=os.path.join(K,'veri','son_dakika',gun); os.makedirs(od,exist_ok=True)
 open(os.path.join(od,f'{hip}_{kno}.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n'); print('\n'.join(L))
+# ---- ANALİZ LİSTESİ (28.11, kullanıcı listesi): ayrı dosya veri/analiz_listesi/<gün>/<hip>_<koşu>.md (kart bozulmaz)
+try:
+    _AJ=((yukle(os.path.join(K,'veri','hipodrom_sicil',f'{gun}_analiz.json')) or {}).get(hip,{}) or {}).get(str(kno)) or {}
+    _MJ=(yukle(os.path.join(K,'veri','hipodrom_sicil',f'{gun}_mesafe.json')) or {}).get(hip,{})
+    _SJ=(yukle(os.path.join(K,'veri','hipodrom_sicil',f'{gun}.json')) or {}).get(hip,{})
+    _a={ak(a):d for a,d in (_AJ.get('atlar') or {}).items()}; _m={ak(a):d for a,d in _MJ.items()}; _s={ak(a):d for a,d in _SJ.items()}
+    _c30=once(tdk-30); O30=oku(yukle(_c30[1]),kno) if _c30 else {}
+    _o=[x for x in S if 8*60+30<=x[0]<=9*60+5]; O12=oku(yukle(_o[-1][1]),kno) if _o else {}
+    _f=lambda x,n=1:'—' if x is None else (f'{x:.{n}f}')
+    _fv=lambda v:'—' if not v or not v[0] else '/'.join(str(i) for i in v)
+    _sg=lambda x,n=1:'—' if x is None else f'{x:+.{n}f}'
+    _sira=[(k,v) for k,v,_ in rows]
+    _grup=_AJ.get('grup') or {}
+    A=[f'# Analiz listesi — {hip} {kno}. koşu ({saat}), {gun}','',f'Görüntü {simdi[0]//60:02d}:{simdi[0]%60:02d} UTC (koşuya {tdk-simdi[0]} dk). Atlar piyasa sırasıyla. Veri: at_gecmisi (2020+), program CSV, eBayi görüntüleri. Yorum değil kayıt; test notları `ANALIZ_INDEKSI.md`den.','']
+    def tablo(baslik,not_,basliklar,satir):
+        A.extend([f'## {baslik}',''])
+        if not_: A.extend([f'_{not_}_',''])
+        A.append('| At | '+' | '.join(basliklar)+' |'); A.append('|---|'+'---|'*len(basliklar))
+        for k,v in _sira:
+            d=_a.get(k,{}); A.append(f"| {v['ad'][:18]} | "+' | '.join(str(x) for x in satir(k,v,d))+' |')
+        A.append('')
+    tablo('1. Çim / kum / sentetik tablosu (tüm hipodromlar, start/gal/ilk 3)',f"Bugünkü zemin: {_grup.get('zemin') or '—'}.",['Kum','Çim','Sentetik'],lambda k,v,d:[_fv((d.get('zemin_sicil') or {}).get(z)) for z in ('Kum','Çim','Sentetik')])
+    tablo('2. Çimden kuma / kumdan çime geçiş','Test (gozden_kacan_ozellik, uzun atlar): bu zemine ilk kez çıkan çim için A/E 1,14, kuma için 0,83 (zayıf kanıt).',['Son koşu zemini','Geçiş'],lambda k,v,d:[d.get('son_zemin') or '—',d.get('zemin_gecis') or '—'])
+    tablo('3. Kilo avantajı','Test: kilo sırası piyasa ötesi bilgi vermedi (A/E ~1,0); apranti A/E 0,97; sahanın en ağır 3 atı apranti ise 0,84 (handikap, fark ≥8 kg).',['Kilo','Sahada sıra (1 = en ağır)','En ağırdan fark','Son koşuya göre kg','Apranti'],lambda k,v,d:[_f(d.get('kilo')),d.get('kilo_sira') or '—',_f((_grup.get('kilo_aralik') or [None,None])[1]-d['kilo']) if d.get('kilo') and _grup.get('kilo_aralik') else '—',_sg(d.get('kilo_fark_son')),'AP' if d.get('apranti') else '—'])
+    tablo('4. Atın hipodrom sicili (bu hipodrom, start/gal/ilk 3)','Test: >=3 start ve galibiyet oranı >=%30 A/E 1,08; ilk 3 oranı >=%50 uzun atlarda 1,12. BİRLEŞİK_10 bu çarpanı uyguluyor.',['Sicil','Liste çarpanı'],lambda k,v,d:[_fv(_s.get(k)),next((a.get('sicil_carpan') for a in (R10 or {}).get('atlar',[]) if ak(a['ad'])==k),'—') if R10 else '—'])
+    tablo('5. Soyların uzun / orta / kısa mesafe durumu','Bant: kısa <=1400, orta 1500-1799, uzun >=1800 m. Soy tipi yavruların piyasaya göre A/E değerinden (mesafe_tipi.py).',['At tipi','Baba (tip)','Anne babası (tip)'],lambda k,v,d:[(_m.get(k) or {}).get('tip') or '—',f"{(_m.get(k) or {}).get('baba') or '—'} ({(_m.get(k) or {}).get('baba_tip') or '—'})",f"{(_m.get(k) or {}).get('annebaba') or '—'} ({(_m.get(k) or {}).get('annebaba_tip') or '—'})"])
+    tablo('6. Mesafe artmış mı azalmış mı; bu mesafede ne kadar koşmuş',f"Bugünkü mesafe {_grup.get('mesafe') or '—'} m. Test: ±200 m'de >=3 start galibiyet oranı >=%30 A/E 1,06; uzun atta bu mesafede hiç koşmamış 0,87.",['Son koşu mesafesi','Değişim (m)','Bu mesafede ±200 m (start/gal/ilk3)','Uzun / Kısa'],lambda k,v,d:[((d.get('son') or {}).get('mesafe') or '—'),('—' if d.get('mesafe_degisim') is None else ('artış '+_sg(d['mesafe_degisim'],0) if d['mesafe_degisim']>0 else 'azalış '+_sg(d['mesafe_degisim'],0) if d['mesafe_degisim']<0 else 'aynı')),_fv((_m.get(k) or {}).get('bugun')),f"{_fv((_m.get(k) or {}).get('uzun'))} / {_fv((_m.get(k) or {}).get('kisa'))}"])
+    tablo('7. Çimi seven / kumu seven atlar','Tercih: >=3 start olan zeminlerde ilk 3 oranı en yüksek zemin, diğerinden >=15 puan önde.',['Tercih','Kum ilk3 oranı','Çim ilk3 oranı'],lambda k,v,d:[d.get('zemin_tercih') or '—']+[('—' if not (d.get('zemin_sicil') or {}).get(z,[0])[0] else f"%{100*d['zemin_sicil'][z][2]/d['zemin_sicil'][z][0]:.0f} ({d['zemin_sicil'][z][0]} start)") for z in ('Kum','Çim')])
+    def _para(k):
+        g=lambda O:(O.get(k) or {}).get('gan'); a,b,c=g(O60),g(O30),g(N); x=''
+        if a and c and a/c>=1.3: x='GİRİŞ 💰'
+        elif a and c and c/a>=1.3: x='ÇIKIŞ'
+        return f"{_f(a)} → {_f(b)} → {_f(c)}",x or '—'
+    tablo('8. Para girişleri / çıkışları (ganyan −60 → −30 → şimdi)','İşaret: ganyan −60 dk\'ya göre >=%30 düştü = GİRİŞ, >=%30 yükseldi = ÇIKIŞ (test edilmedi, bilgi).',['Ganyan','Yön'],lambda k,v,d:list(_para(k)))
+    def _agf(k):
+        a0=(OS.get(k) or {}).get('agf'); a1=(N.get(k) or {}).get('agf'); fl=''
+        if a0 and a1 and a1>=1.3*a0 and a1-a0>=3: fl='📈 yükselen'
+        elif a0 and a1 and a1<=0.7*a0 and a0-a1>=3: fl='📉 düşen'
+        return f"{_f(a0)} → {_f(a1)}",_sg(None if a0 is None or a1 is None else a1-a0),fl or '—'
+    tablo('9. AGF yükselen / düşen (sabah → şimdi, %)','Sabah = TAM+15 dk görüntü.',['AGF','Fark (puan)','Yön'],lambda k,v,d:list(_agf(k)))
+    def _of(k):
+        a0=(OS.get(k) or {}).get('agf'); a2=(O12.get(k) or {}).get('agf'); a1=(N.get(k) or {}).get('agf')
+        return f"{_f(a0)} → {_f(a2)} → {_f(a1)}",_sg(None if a0 is None or a2 is None else a2-a0),_sg(None if a2 is None or a1 is None else a1-a2)
+    tablo('10. Sabah AGF – öğleden sonra AGF (12:00 TR görüntüsü) – şimdi','Öğle görüntüsü yoksa "—".',['Sabah → öğle → şimdi','Öğle − sabah','Şimdi − öğle'],lambda k,v,d:list(_of(k)))
+    tablo('11. Jokey değişimi','Test (tarihsel): jokey değişimi tek başına ayırt edici değil; apranti işaretli.',['Önceki jokey','Bugünkü jokey','Değişti mi'],lambda k,v,d:[d.get('onceki_jokey') or '—',d.get('jokey') or '—','—' if d.get('jokey_degisti') is None else ('EVET' if d['jokey_degisti'] else 'hayır')])
+    tablo('12. At kalitesi: bu grupta denge',f"Grup HP ortalaması {_grup.get('hp_ort') or '—'}, std {_grup.get('hp_std') or '—'}, aralık {'–'.join(str(int(x)) for x in _grup['hp_aralik']) if _grup.get('hp_aralik') else '—'}, kilo aralığı {'–'.join(str(x) for x in _grup['kilo_aralik']) if _grup.get('kilo_aralik') else '—'}, {_grup.get('at_sayisi') or '—'} at. Test: HP sırası piyasa ötesi bilgi vermedi (HP ilk 3 sızıntısı geri çekildi).",['HP','HP sırası (1 = en yüksek)','Grup ortalamasına fark','Son koşuya göre HP'],lambda k,v,d:[_f(d.get('hp'),0),d.get('hp_sira') or '—',_sg(d.get('hp_fark_ort')),_sg(d.get('hp_fark_son'))])
+    ad_=os.path.join(K,'veri','analiz_listesi',gun); os.makedirs(ad_,exist_ok=True)
+    open(os.path.join(ad_,f'{hip}_{kno}.md'),'w',encoding='utf-8').write('\n'.join(A)+'\n')
+except Exception as e: print('analiz listesi eklenemedi:',e,file=sys.stderr)
