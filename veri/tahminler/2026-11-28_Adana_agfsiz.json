@@ -1,0 +1,714 @@
+[
+{
+"kosu": "1",
+"baslik": "1. Kosu :   14.30 Handikap 16/Dişi /H1 3 Yaşlı İngilizler kg 2000m Kum",
+"coklu_ganyan_baslar": [
+6
+],
+"agf_yok": false,
+"oneri_at": 7,
+"ek_aday": [
+"2"
+],
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "PRINCESS DENİZ",
+"p": 0.0953,
+"agf": 0.0271,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "2",
+"ad": "DİNAMİT KIZ",
+"p": 0.0783,
+"agf": 0.0761,
+"ekuri": false,
+"ganyan": 15.4
+},
+{
+"no": "3",
+"ad": "MY LADY BUG",
+"p": 0.1354,
+"agf": 0.1502,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "4",
+"ad": "FEMALE WARRIOR",
+"p": 0.0987,
+"agf": 0.1976,
+"ekuri": false,
+"ganyan": 15.4
+},
+{
+"no": "5",
+"ad": "KARDAHA",
+"p": 0.1255,
+"agf": 0.0492,
+"ekuri": false,
+"ganyan": 15.4
+},
+{
+"no": "6",
+"ad": "SOUTHERN SECRET",
+"p": 0.2424,
+"agf": 0.1212,
+"ekuri": false,
+"ganyan": 15.4
+},
+{
+"no": "7",
+"ad": "QUEEN SEÇİL",
+"p": 0.0487,
+"agf": 0.0603,
+"ekuri": false,
+"ganyan": 1.4
+},
+{
+"no": "8",
+"ad": "ICE DROPS",
+"p": 0.0828,
+"agf": 0.2918,
+"ekuri": false,
+"ganyan": 15.4
+},
+{
+"no": "9",
+"ad": "DEEP GIRL",
+"p": 0.0929,
+"agf": 0.0265,
+"ekuri": false,
+"ganyan": 2.55
+}
+]
+},
+{
+"kosu": "2",
+"baslik": "2. Kosu :   15.00 Maiden/Dişi 2 Yaşlı İngilizler 57.00kg 1300m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 4,
+"ek_aday": [
+"4"
+],
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "SUFERING",
+"p": 0.0502,
+"agf": 0.1829,
+"ekuri": false,
+"ganyan": 13.4
+},
+{
+"no": "2",
+"ad": "CAN BALAM",
+"p": 0.0189,
+"agf": 0.0224,
+"ekuri": false,
+"ganyan": 9.6
+},
+{
+"no": "3",
+"ad": "GOLDEN CREST",
+"p": 0.0181,
+"agf": 0.0342,
+"ekuri": false,
+"ganyan": 13.4
+},
+{
+"no": "4",
+"ad": "GURURLAN",
+"p": 0.0559,
+"agf": 0.0389,
+"ekuri": false,
+"ganyan": 9.6
+},
+{
+"no": "5",
+"ad": "JOYFUL RUNNER",
+"p": 0.1308,
+"agf": 0.0459,
+"ekuri": false,
+"ganyan": 5.6
+},
+{
+"no": "6",
+"ad": "MISSBANG",
+"p": 0.0303,
+"agf": 0.0267,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "7",
+"ad": "ROLLER DEĞİŞTİ",
+"p": 0.0668,
+"agf": 0.0214,
+"ekuri": false,
+"ganyan": 2.65
+},
+{
+"no": "8",
+"ad": "SOLAR DUCHESS",
+"p": 0.1775,
+"agf": 0.1975,
+"ekuri": false,
+"ganyan": 13.4
+},
+{
+"no": "9",
+"ad": "TALVERA",
+"p": 0.1614,
+"agf": 0.1436,
+"ekuri": false,
+"ganyan": 13.4
+},
+{
+"no": "10",
+"ad": "VEKOMA LIGHT",
+"p": 0.2903,
+"agf": 0.2865,
+"ekuri": false,
+"ganyan": 2.65
+}
+]
+},
+{
+"kosu": "3",
+"baslik": "3. Kosu :   15.30 ŞARTLI 3/DHÖW 4 ve Yukarı Araplar 57.50kg 59.50 kg 2000m",
+"coklu_ganyan_baslar": [
+6
+],
+"agf_yok": false,
+"oneri_at": 4,
+"ek_aday": [
+"9"
+],
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "İSKİT ALP",
+"p": 0.0609,
+"agf": 0.0482,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "2",
+"ad": "BÜYÜK YÜREKLİ",
+"p": 0.073,
+"agf": 0.0773,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "3",
+"ad": "ÇALIŞTAY",
+"p": 0.0366,
+"agf": 0.1349,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "4",
+"ad": "SİYAH PENÇE",
+"p": 0.2449,
+"agf": 0.1769,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "5",
+"ad": "YEDİKARDEŞLER",
+"p": 0.0095,
+"agf": 0.0208,
+"ekuri": true,
+"ganyan": 999.99
+},
+{
+"no": "6",
+"ad": "ÇELİKOVİÇ",
+"p": 0.0685,
+"agf": 0.1259,
+"ekuri": true,
+"ganyan": 999.99
+},
+{
+"no": "7",
+"ad": "ATEŞ AYAZ",
+"p": 0.2134,
+"agf": 0.2301,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "8",
+"ad": "DELİKANLI POYRAZ",
+"p": 0.2511,
+"agf": 0.1593,
+"ekuri": false,
+"ganyan": 1.05
+},
+{
+"no": "9",
+"ad": "FOTOROMAN",
+"p": 0.0422,
+"agf": 0.0267,
+"ekuri": false,
+"ganyan": 999.99
+}
+]
+},
+{
+"kosu": "4",
+"baslik": "4. Kosu :   16.00 SATIŞ 2 2 Yaşlı İngilizler 57.00kg 1400m Sentetik",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 7,
+"ek_aday": [
+"4"
+],
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "BECENE REİS",
+"p": 0.1041,
+"agf": 0.2048,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "2",
+"ad": "PIPO DAYI",
+"p": 0.0685,
+"agf": 0.1649,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "3",
+"ad": "AŞAN STAR",
+"p": 0.1134,
+"agf": 0.0892,
+"ekuri": false,
+"ganyan": 1.05
+},
+{
+"no": "4",
+"ad": "GREENLIFE",
+"p": 0.0478,
+"agf": 0.0308,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "5",
+"ad": "LA MUNECA",
+"p": 0.2148,
+"agf": 0.2616,
+"ekuri": false,
+"ganyan": 36.4
+},
+{
+"no": "6",
+"ad": "MONIQUE",
+"p": 0.1482,
+"agf": 0.0662,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "7",
+"ad": "POWER OF LIGHT",
+"p": 0.0284,
+"agf": 0.0269,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "8",
+"ad": "VICTORY MARIA",
+"p": 0.1148,
+"agf": 0.0666,
+"ekuri": false,
+"ganyan": 36.4
+},
+{
+"no": "9",
+"ad": "ASYA KIZ",
+"p": 0.0081,
+"agf": 0.0105,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "10",
+"ad": "QUEEN CANSU",
+"p": 0.0079,
+"agf": 0.0155,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "11",
+"ad": "PAPA CLAS",
+"p": 0.1239,
+"agf": 0.0492,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "12",
+"ad": "REDBAD",
+"p": 0.0201,
+"agf": 0.0138,
+"ekuri": false,
+"ganyan": 999.99
+}
+]
+},
+{
+"kosu": "5",
+"baslik": "5. Kosu :   16.30 Maiden/Dişi 2 Yaşlı İngilizler 57.00kg 1300m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 4,
+"ek_aday": [],
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "SUBE LA MAREA",
+"p": 0.1308,
+"agf": 0.2394,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "2",
+"ad": "WHITE WRIST",
+"p": 0.0525,
+"agf": 0.1571,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "3",
+"ad": "BED OF ROSES",
+"p": 0.0432,
+"agf": 0.0107,
+"ekuri": false,
+"ganyan": 1.05
+},
+{
+"no": "4",
+"ad": "BELIEVER",
+"p": 0.2379,
+"agf": 0.0707,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "5",
+"ad": "BITTERSWEET",
+"p": 0.0658,
+"agf": 0.0492,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "6",
+"ad": "CEYHAN SULTANI",
+"p": 0.0322,
+"agf": 0.0068,
+"ekuri": false,
+"ganyan": 2.45
+},
+{
+"no": "7",
+"ad": "DEFNE NELE",
+"p": 0.1173,
+"agf": 0.1215,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "8",
+"ad": "KAGAMI",
+"p": 0.0219,
+"agf": 0.0207,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "9",
+"ad": "PRINCESS DİDİ",
+"p": 0.0343,
+"agf": 0.0225,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "10",
+"ad": "ROYAL PRYTANIA",
+"p": 0.264,
+"agf": 0.3014,
+"ekuri": false,
+"ganyan": 999.99
+}
+]
+},
+{
+"kosu": "6",
+"baslik": "6. Kosu :   17.00 Handikap 16/DHÖW /H1 4 Yaşlı Araplar kg 1200m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 2,
+"ek_aday": [
+"1"
+],
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "SÜKANBEY",
+"p": 0.0581,
+"agf": 0.2223,
+"ekuri": false,
+"ganyan": 25.2
+},
+{
+"no": "2",
+"ad": "DİCLE FIRAT",
+"p": 0.1096,
+"agf": 0.1511,
+"ekuri": false,
+"ganyan": 1.05
+},
+{
+"no": "3",
+"ad": "ALİMENDER",
+"p": 0.2907,
+"agf": 0.1905,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "4",
+"ad": "GAZNELİ",
+"p": 0.0201,
+"agf": 0.0449,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "5",
+"ad": "BAY ARAZ",
+"p": 0.4689,
+"agf": 0.312,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "6",
+"ad": "BÖRÜTAY",
+"p": 0.034,
+"agf": 0.0384,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "7",
+"ad": "GÜZELMİNE",
+"p": 0.0186,
+"agf": 0.0408,
+"ekuri": false,
+"ganyan": 999.99
+}
+]
+},
+{
+"kosu": "7",
+"baslik": "7. Kosu :   17.30 ŞARTLI 5 3 ve Yukarı İngilizler 58.00kg 60.00 kg 60.00 kg",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 3,
+"ek_aday": [],
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "CUCURELLA",
+"p": 0.0283,
+"agf": 0.047,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "2",
+"ad": "LUPELYAN",
+"p": 0.0424,
+"agf": 0.1482,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "3",
+"ad": "CONSULTANT",
+"p": 0.5489,
+"agf": 0.3901,
+"ekuri": false,
+"ganyan": 1.05
+},
+{
+"no": "4",
+"ad": "ESCAPE PATH",
+"p": 0.1839,
+"agf": 0.1695,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "5",
+"ad": "TORPİL",
+"p": 0.0889,
+"agf": 0.0435,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "6",
+"ad": "MADAM ORACLE",
+"p": 0.0466,
+"agf": 0.1335,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "7",
+"ad": "OĞLUM GALİBEY",
+"p": 0.0611,
+"agf": 0.0683,
+"ekuri": false,
+"ganyan": 999.99
+}
+]
+},
+{
+"kosu": "8",
+"baslik": "8. Kosu :   18.00 Handikap 15 /H1 3 ve Yukarı İngilizler kg 1900m Kum",
+"coklu_ganyan_baslar": [],
+"agf_yok": false,
+"oneri_at": 7,
+"ek_aday": [
+"3"
+],
+"model": "agfsiz",
+"atlar": [
+{
+"no": "1",
+"ad": "SECRET STORM",
+"p": 0.1965,
+"agf": 0.1606,
+"ekuri": false,
+"ganyan": 1.05
+},
+{
+"no": "2",
+"ad": "LORD VİDAR",
+"p": 0.1762,
+"agf": 0.0863,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "3",
+"ad": "BERİD",
+"p": 0.0345,
+"agf": 0.0217,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "4",
+"ad": "KİKİ FERRO",
+"p": 0.0585,
+"agf": 0.0339,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "5",
+"ad": "EL QUİMİCO",
+"p": 0.059,
+"agf": 0.0208,
+"ekuri": false,
+"ganyan": 11.35
+},
+{
+"no": "6",
+"ad": "ASLAN SAİM",
+"p": 0.1678,
+"agf": 0.143,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "7",
+"ad": "ORIRI",
+"p": 0.1451,
+"agf": 0.0561,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "8",
+"ad": "SİGUEME",
+"p": 0.0219,
+"agf": 0.0103,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "9",
+"ad": "MAJESTIC ENDEAVOUR",
+"p": 0.0117,
+"agf": 0.028,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "10",
+"ad": "FAST FOTON",
+"p": 0.0208,
+"agf": 0.0534,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "11",
+"ad": "MY SON NADİR",
+"p": 0.037,
+"agf": 0.045,
+"ekuri": false,
+"ganyan": 999.99
+},
+{
+"no": "12",
+"ad": "MERT KHAN",
+"p": 0.0709,
+"agf": 0.341,
+"ekuri": false,
+"ganyan": 45.5
+}
+]
+}
+]
