@@ -1,0 +1,1434 @@
+{
+ "tarih": "2026-11-28",
+ "surum": "tahmin_10dk_v1",
+ "ayarlar": {
+  "b_h2h": 0.5,
+  "k_ganyan": 1.05
+ },
+ "kosular": {
+  "Adana|1": {
+   "tip": {
+    "tur": "Handikap 16",
+    "aile": "Handikap",
+    "irk": "İngiliz",
+    "yas": "3",
+    "mesafe": "2000",
+    "mesafe_band": "2000+",
+    "pist": "Kum"
+   },
+   "hip": "Adana",
+   "kosu": 1,
+   "saat": "14:30",
+   "olusturma_tr": "2026-11-28T14:18:45+03:00",
+   "goruntu_utc": "1118",
+   "goruntu_koşuya_dk": 12,
+   "piyasa_kaynak": "AGF",
+   "secim_1": "SOUTHERN SECRET",
+   "secim_ilk3": [
+    "SOUTHERN SECRET",
+    "FEMALE WARRIOR",
+    "MY LADY BUG"
+   ],
+   "surpriz_riski": "orta",
+   "surpriz_p": 0.306,
+   "liste_uzunlugu": 4,
+   "secim_liste": [
+    "SOUTHERN SECRET",
+    "FEMALE WARRIOR",
+    "MY LADY BUG",
+    "ICE DROPS"
+   ],
+   "guven": "düşük",
+   "atlar": [
+    {
+     "ad": "PRINCESS DENİZ",
+     "p_birlesik10": 0.0546,
+     "p_piyasa10": 0.0546,
+     "p_v9_agfli": 0.0189,
+     "p_v9_agfsiz": 0.1034,
+     "h2h": -0.024,
+     "tercih": {
+      "baba": "AGRESIVO (USA)",
+      "kendi_mesafe": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 2
+      },
+      "baba_mesafe": {
+       "n": 269,
+       "birinci": 23,
+       "ae": 0.69,
+       "z": -2.1
+      },
+      "kendi_pist": {
+       "n": 25,
+       "birinci": 5,
+       "ilk3": 17
+      },
+      "baba_pist": {
+       "n": 862,
+       "birinci": 111,
+       "ae": 1.03,
+       "z": 0.3
+      },
+      "kendi_aile": {
+       "n": 6,
+       "birinci": 0,
+       "ilk3": 4
+      },
+      "baba_aile": {
+       "n": 330,
+       "birinci": 29,
+       "ae": 0.81,
+       "z": -1.3
+      },
+      "kendi_hip": {
+       "n": 13,
+       "birinci": 3,
+       "ilk3": 8
+      },
+      "baba_hip": {
+       "n": 360,
+       "birinci": 43,
+       "ae": 0.96,
+       "z": -0.3
+      },
+      "annebaba": "CUVEE (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        217,
+        21,
+        0.93,
+        -0.4
+       ],
+       "1300-1400": [
+        477,
+        53,
+        1.21,
+        1.6
+       ],
+       "1500-1700": [
+        195,
+        18,
+        0.98,
+        -0.1
+       ],
+       "1800-2100": [
+        252,
+        21,
+        0.99,
+        -0.1
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        4,
+        1,
+        3
+       ],
+       "1300-1400": [
+        14,
+        2,
+        10
+       ],
+       "1500-1700": [
+        2,
+        2,
+        2
+       ],
+       "1800-2100": [
+        5,
+        0,
+        2
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        296,
+        40,
+        1.16,
+        1.1
+       ],
+       "1300-1400": [
+        466,
+        48,
+        0.92,
+        -0.7
+       ],
+       "1500-1700": [
+        146,
+        19,
+        1.07,
+        0.3
+       ],
+       "1800-2100": [
+        269,
+        23,
+        0.69,
+        -2.1
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.314,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Adana"
+      }
+     },
+     "sicil": [
+      13,
+      3,
+      8
+     ],
+     "sicil_carpan": 1.12,
+     "mesafe_sicil": {
+      "tip": "kisa",
+      "baba": "AGRESIVO (USA)",
+      "baba_tip": "kisa",
+      "annebaba": "CUVEE (USA)",
+      "annebaba_tip": "nötr",
+      "mesafe": 2000,
+      "bugun": [
+       5,
+       0,
+       2
+      ],
+      "uzun": [
+       4,
+       0,
+       1
+      ],
+      "kisa": [
+       20,
+       5,
+       15
+      ]
+     }
+    },
+    {
+     "ad": "MY LADY BUG",
+     "p_birlesik10": 0.1885,
+     "p_piyasa10": 0.1713,
+     "p_v9_agfli": 0.1255,
+     "p_v9_agfsiz": 0.1469,
+     "h2h": 0.167,
+     "tercih": {
+      "baba": "HASAFET",
+      "kendi_mesafe": {
+       "n": 10,
+       "birinci": 0,
+       "ilk3": 6
+      },
+      "baba_mesafe": {
+       "n": 45,
+       "birinci": 5,
+       "ae": 0.88,
+       "z": -0.3
+      },
+      "kendi_pist": {
+       "n": 20,
+       "birinci": 2,
+       "ilk3": 12
+      },
+      "baba_pist": {
+       "n": 103,
+       "birinci": 10,
+       "ae": 0.98,
+       "z": -0.1
+      },
+      "kendi_aile": {
+       "n": 9,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_aile": {
+       "n": 40,
+       "birinci": 6,
+       "ae": 1.29,
+       "z": 0.7
+      },
+      "kendi_hip": {
+       "n": 11,
+       "birinci": 2,
+       "ilk3": 8
+      },
+      "baba_hip": {
+       "n": 66,
+       "birinci": 6,
+       "ae": 0.96,
+       "z": -0.1
+      },
+      "annebaba": "LION HEART (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        747,
+        93,
+        1.09,
+        0.9
+       ],
+       "1300-1400": [
+        1472,
+        161,
+        0.98,
+        -0.3
+       ],
+       "1500-1700": [
+        683,
+        61,
+        0.91,
+        -0.8
+       ],
+       "1800-2100": [
+        1226,
+        136,
+        0.99,
+        -0.1
+       ],
+       "2200+": [
+        131,
+        21,
+        1.42,
+        1.8
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        3,
+        0,
+        1
+       ],
+       "1300-1400": [
+        9,
+        2,
+        4
+       ],
+       "1500-1700": [
+        1,
+        0,
+        1
+       ],
+       "1800-2100": [
+        10,
+        0,
+        6
+       ],
+       "2200+": [
+        1,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        45,
+        0,
+        0.0,
+        -1.8
+       ],
+       "1300-1400": [
+        66,
+        7,
+        1.39,
+        1.0
+       ],
+       "1800-2100": [
+        45,
+        5,
+        0.88,
+        -0.3
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.067,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Adana"
+      }
+     },
+     "sicil": [
+      11,
+      2,
+      8
+     ],
+     "sicil_carpan": 1.12,
+     "mesafe_sicil": {
+      "tip": "karma",
+      "baba": "HASAFET",
+      "baba_tip": null,
+      "annebaba": "LION HEART (USA)",
+      "annebaba_tip": "uzun",
+      "mesafe": 2000,
+      "bugun": [
+       11,
+       0,
+       6
+      ],
+      "uzun": [
+       11,
+       0,
+       6
+      ],
+      "kisa": [
+       13,
+       2,
+       6
+      ]
+     }
+    },
+    {
+     "ad": "FEMALE WARRIOR",
+     "p_birlesik10": 0.1987,
+     "p_piyasa10": 0.1964,
+     "p_v9_agfli": 0.1752,
+     "p_v9_agfsiz": 0.1071,
+     "h2h": 0.071,
+     "tercih": {
+      "baba": "AGRESIVO (USA)",
+      "kendi_mesafe": {
+       "n": 6,
+       "birinci": 2,
+       "ilk3": 6
+      },
+      "baba_mesafe": {
+       "n": 269,
+       "birinci": 23,
+       "ae": 0.69,
+       "z": -2.1
+      },
+      "kendi_pist": {
+       "n": 13,
+       "birinci": 3,
+       "ilk3": 9
+      },
+      "baba_pist": {
+       "n": 862,
+       "birinci": 111,
+       "ae": 1.03,
+       "z": 0.3
+      },
+      "kendi_aile": {
+       "n": 10,
+       "birinci": 2,
+       "ilk3": 6
+      },
+      "baba_aile": {
+       "n": 330,
+       "birinci": 29,
+       "ae": 0.81,
+       "z": -1.3
+      },
+      "kendi_hip": {
+       "n": 3,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_hip": {
+       "n": 360,
+       "birinci": 43,
+       "ae": 0.96,
+       "z": -0.3
+      },
+      "annebaba": "STRIKE THE GOLD (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        145,
+        12,
+        0.78,
+        -1.0
+       ],
+       "1300-1400": [
+        343,
+        52,
+        1.3,
+        2.2
+       ],
+       "1500-1700": [
+        226,
+        31,
+        1.12,
+        0.7
+       ],
+       "1800-2100": [
+        535,
+        79,
+        1.15,
+        1.4
+       ],
+       "2200+": [
+        66,
+        9,
+        1.15,
+        0.5
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        5,
+        0,
+        1
+       ],
+       "1300-1400": [
+        5,
+        1,
+        1
+       ],
+       "1500-1700": [
+        2,
+        0,
+        1
+       ],
+       "1800-2100": [
+        6,
+        2,
+        6
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        296,
+        40,
+        1.16,
+        1.1
+       ],
+       "1300-1400": [
+        466,
+        48,
+        0.92,
+        -0.7
+       ],
+       "1500-1700": [
+        146,
+        19,
+        1.07,
+        0.3
+       ],
+       "1800-2100": [
+        269,
+        23,
+        0.69,
+        -2.1
+       ]
+      },
+      "mesafe_uyum": "uyumlu",
+      "baba_log_ae": -0.314,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Adana"
+      }
+     },
+     "sicil": [
+      3,
+      1,
+      1
+     ],
+     "sicil_carpan": 1.08,
+     "mesafe_sicil": {
+      "tip": "uzun",
+      "baba": "AGRESIVO (USA)",
+      "baba_tip": "kisa",
+      "annebaba": "STRIKE THE GOLD (USA)",
+      "annebaba_tip": "nötr",
+      "mesafe": 2000,
+      "bugun": [
+       6,
+       2,
+       6
+      ],
+      "uzun": [
+       5,
+       2,
+       5
+      ],
+      "kisa": [
+       11,
+       1,
+       3
+      ]
+     }
+    },
+    {
+     "ad": "KARDAHA",
+     "p_birlesik10": 0.1078,
+     "p_piyasa10": 0.0907,
+     "p_v9_agfli": 0.0785,
+     "p_v9_agfsiz": 0.1362,
+     "h2h": 0.321,
+     "tercih": {
+      "baba": "KLIMT (USA)",
+      "kendi_mesafe": {
+       "n": 4,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 161,
+       "birinci": 20,
+       "ae": 0.94,
+       "z": -0.3
+      },
+      "kendi_pist": {
+       "n": 23,
+       "birinci": 3,
+       "ilk3": 11
+      },
+      "baba_pist": {
+       "n": 550,
+       "birinci": 77,
+       "ae": 0.99,
+       "z": -0.1
+      },
+      "kendi_aile": {
+       "n": 10,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_aile": {
+       "n": 221,
+       "birinci": 19,
+       "ae": 0.7,
+       "z": -1.8
+      },
+      "kendi_hip": {
+       "n": 6,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_hip": {
+       "n": 145,
+       "birinci": 19,
+       "ae": 1.06,
+       "z": 0.3
+      },
+      "annebaba": "ZANJERO (USA)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        67,
+        5,
+        0.75,
+        -0.7
+       ],
+       "1300-1400": [
+        104,
+        12,
+        1.0,
+        0.0
+       ],
+       "1500-1700": [
+        43,
+        5,
+        1.1,
+        0.2
+       ],
+       "1800-2100": [
+        71,
+        10,
+        1.62,
+        1.7
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        5,
+        0,
+        2
+       ],
+       "1300-1400": [
+        14,
+        2,
+        7
+       ],
+       "1500-1700": [
+        2,
+        0,
+        1
+       ],
+       "1800-2100": [
+        4,
+        1,
+        1
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        253,
+        41,
+        1.08,
+        0.6
+       ],
+       "1300-1400": [
+        373,
+        50,
+        1.02,
+        0.2
+       ],
+       "1500-1700": [
+        138,
+        17,
+        1.09,
+        0.4
+       ],
+       "1800-2100": [
+        161,
+        20,
+        0.94,
+        -0.3
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.053,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Adana"
+      }
+     },
+     "sicil": [
+      6,
+      1,
+      4
+     ],
+     "sicil_carpan": 1.12,
+     "mesafe_sicil": {
+      "tip": "kisa",
+      "baba": "KLIMT (USA)",
+      "baba_tip": "orta",
+      "annebaba": "ZANJERO (USA)",
+      "annebaba_tip": "veri yetersiz",
+      "mesafe": 2000,
+      "bugun": [
+       4,
+       1,
+       1
+      ],
+      "uzun": [
+       2,
+       0,
+       0
+      ],
+      "kisa": [
+       20,
+       2,
+       10
+      ]
+     }
+    },
+    {
+     "ad": "SOUTHERN SECRET",
+     "p_birlesik10": 0.2016,
+     "p_piyasa10": 0.1832,
+     "p_v9_agfli": 0.1295,
+     "p_v9_agfsiz": 0.263,
+     "h2h": 0.167,
+     "tercih": {
+      "baba": "KANEKO",
+      "kendi_mesafe": {
+       "n": 11,
+       "birinci": 2,
+       "ilk3": 4
+      },
+      "baba_mesafe": {
+       "n": 898,
+       "birinci": 127,
+       "ae": 1.11,
+       "z": 1.4
+      },
+      "kendi_pist": {
+       "n": 8,
+       "birinci": 2,
+       "ilk3": 5
+      },
+      "baba_pist": {
+       "n": 1449,
+       "birinci": 215,
+       "ae": 1.09,
+       "z": 1.4
+      },
+      "kendi_aile": {
+       "n": 8,
+       "birinci": 2,
+       "ilk3": 2
+      },
+      "baba_aile": {
+       "n": 749,
+       "birinci": 91,
+       "ae": 0.93,
+       "z": -0.8
+      },
+      "kendi_hip": {
+       "n": 9,
+       "birinci": 3,
+       "ilk3": 6
+      },
+      "baba_hip": {
+       "n": 350,
+       "birinci": 54,
+       "ae": 1.08,
+       "z": 0.7
+      },
+      "annebaba": "POWERSCOURT (GB)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        201,
+        21,
+        1.02,
+        0.1
+       ],
+       "1300-1400": [
+        343,
+        27,
+        0.75,
+        -1.7
+       ],
+       "1500-1700": [
+        184,
+        21,
+        0.98,
+        -0.1
+       ],
+       "1800-2100": [
+        364,
+        33,
+        0.88,
+        -0.8
+       ],
+       "2200+": [
+        33,
+        4,
+        1.1,
+        0.2
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        2,
+        1,
+        2
+       ],
+       "1500-1700": [
+        0,
+        0,
+        0
+       ],
+       "1800-2100": [
+        11,
+        2,
+        4
+       ],
+       "2200+": [
+        1,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        335,
+        43,
+        0.87,
+        -1.0
+       ],
+       "1300-1400": [
+        764,
+        93,
+        0.93,
+        -0.8
+       ],
+       "1500-1700": [
+        464,
+        50,
+        0.93,
+        -0.6
+       ],
+       "1800-2100": [
+        898,
+        127,
+        1.11,
+        1.4
+       ],
+       "2200+": [
+        109,
+        17,
+        1.03,
+        0.1
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": 0.102,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Adana"
+      }
+     },
+     "sicil": [
+      9,
+      3,
+      6
+     ],
+     "sicil_carpan": 1.12,
+     "mesafe_sicil": {
+      "tip": "belirsiz",
+      "baba": "KANEKO",
+      "baba_tip": "nötr",
+      "annebaba": "POWERSCOURT (GB)",
+      "annebaba_tip": "nötr",
+      "mesafe": 2000,
+      "bugun": [
+       12,
+       2,
+       4
+      ],
+      "uzun": [
+       12,
+       2,
+       4
+      ],
+      "kisa": [
+       2,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "ad": "QUEEN SEÇİL",
+     "p_birlesik10": 0.0732,
+     "p_piyasa10": 0.095,
+     "p_v9_agfli": 0.056,
+     "p_v9_agfsiz": 0.0528,
+     "h2h": -0.321,
+     "tercih": {
+      "baba": "AGRESIVO (USA)",
+      "kendi_mesafe": {
+       "n": 5,
+       "birinci": 1,
+       "ilk3": 1
+      },
+      "baba_mesafe": {
+       "n": 269,
+       "birinci": 23,
+       "ae": 0.69,
+       "z": -2.1
+      },
+      "kendi_pist": {
+       "n": 20,
+       "birinci": 3,
+       "ilk3": 6
+      },
+      "baba_pist": {
+       "n": 862,
+       "birinci": 111,
+       "ae": 1.03,
+       "z": 0.3
+      },
+      "kendi_aile": {
+       "n": 15,
+       "birinci": 0,
+       "ilk3": 3
+      },
+      "baba_aile": {
+       "n": 330,
+       "birinci": 29,
+       "ae": 0.81,
+       "z": -1.3
+      },
+      "kendi_hip": {
+       "n": 27,
+       "birinci": 3,
+       "ilk3": 7
+      },
+      "baba_hip": {
+       "n": 360,
+       "birinci": 43,
+       "ae": 0.96,
+       "z": -0.3
+      },
+      "annebaba": "COMMON GROUNDS (GB)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        80,
+        17,
+        1.73,
+        2.6
+       ],
+       "1300-1400": [
+        177,
+        17,
+        1.05,
+        0.2
+       ],
+       "1500-1700": [
+        81,
+        8,
+        1.14,
+        0.4
+       ],
+       "1800-2100": [
+        144,
+        12,
+        0.95,
+        -0.2
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        6,
+        1,
+        1
+       ],
+       "1300-1400": [
+        13,
+        1,
+        3
+       ],
+       "1500-1700": [
+        4,
+        0,
+        2
+       ],
+       "1800-2100": [
+        5,
+        1,
+        1
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        296,
+        40,
+        1.16,
+        1.1
+       ],
+       "1300-1400": [
+        466,
+        48,
+        0.92,
+        -0.7
+       ],
+       "1500-1700": [
+        146,
+        19,
+        1.07,
+        0.3
+       ],
+       "1800-2100": [
+        269,
+        23,
+        0.69,
+        -2.1
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.314,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Adana"
+      }
+     },
+     "sicil": [
+      27,
+      3,
+      7
+     ],
+     "sicil_carpan": 1.0,
+     "mesafe_sicil": {
+      "tip": "orta",
+      "baba": "AGRESIVO (USA)",
+      "baba_tip": "kisa",
+      "annebaba": "COMMON GROUNDS (GB)",
+      "annebaba_tip": "kisa",
+      "mesafe": 2000,
+      "bugun": [
+       5,
+       1,
+       1
+      ],
+      "uzun": [
+       4,
+       1,
+       1
+      ],
+      "kisa": [
+       23,
+       2,
+       6
+      ]
+     }
+    },
+    {
+     "ad": "ICE DROPS",
+     "p_birlesik10": 0.125,
+     "p_piyasa10": 0.1433,
+     "p_v9_agfli": 0.374,
+     "p_v9_agfsiz": 0.0898,
+     "h2h": -0.071,
+     "tercih": {
+      "baba": "NATIVE KHAN (FR)",
+      "kendi_mesafe": {
+       "n": 10,
+       "birinci": 1,
+       "ilk3": 4
+      },
+      "baba_mesafe": {
+       "n": 536,
+       "birinci": 55,
+       "ae": 0.86,
+       "z": -1.3
+      },
+      "kendi_pist": {
+       "n": 11,
+       "birinci": 1,
+       "ilk3": 3
+      },
+      "baba_pist": {
+       "n": 587,
+       "birinci": 55,
+       "ae": 0.84,
+       "z": -1.4
+      },
+      "kendi_aile": {
+       "n": 7,
+       "birinci": 0,
+       "ilk3": 1
+      },
+      "baba_aile": {
+       "n": 583,
+       "birinci": 60,
+       "ae": 0.81,
+       "z": -1.8
+      },
+      "kendi_hip": {
+       "n": 0
+      },
+      "baba_hip": {
+       "n": 159,
+       "birinci": 20,
+       "ae": 1.05,
+       "z": 0.3
+      },
+      "annebaba": "CAPTAIN RIO (GB)",
+      "annebaba_mesafe_hepsi": {
+       "≤1200": [
+        111,
+        14,
+        1.14,
+        0.5
+       ],
+       "1300-1400": [
+        165,
+        15,
+        0.85,
+        -0.7
+       ],
+       "1500-1700": [
+        67,
+        2,
+        0.29,
+        -2.1
+       ],
+       "1800-2100": [
+        58,
+        4,
+        0.82,
+        -0.5
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        2,
+        0,
+        1
+       ],
+       "1300-1400": [
+        6,
+        0,
+        1
+       ],
+       "1500-1700": [
+        3,
+        0,
+        1
+       ],
+       "1800-2100": [
+        10,
+        1,
+        4
+       ],
+       "2200+": [
+        0,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        274,
+        31,
+        0.89,
+        -0.7
+       ],
+       "1300-1400": [
+        587,
+        68,
+        0.9,
+        -1.0
+       ],
+       "1500-1700": [
+        360,
+        37,
+        0.84,
+        -1.2
+       ],
+       "1800-2100": [
+        536,
+        55,
+        0.86,
+        -1.3
+       ],
+       "2200+": [
+        81,
+        13,
+        1.15,
+        0.6
+       ]
+      },
+      "mesafe_uyum": null,
+      "baba_log_ae": -0.143,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Adana"
+      }
+     },
+     "sicil": [
+      0,
+      0,
+      0
+     ],
+     "sicil_carpan": 1.0,
+     "mesafe_sicil": {
+      "tip": "karma",
+      "baba": "NATIVE KHAN (FR)",
+      "baba_tip": "nötr",
+      "annebaba": "CAPTAIN RIO (GB)",
+      "annebaba_tip": "veri yetersiz",
+      "mesafe": 2000,
+      "bugun": [
+       10,
+       1,
+       4
+      ],
+      "uzun": [
+       8,
+       0,
+       3
+      ],
+      "kisa": [
+       10,
+       0,
+       3
+      ]
+     }
+    },
+    {
+     "ad": "DEEP GIRL",
+     "p_birlesik10": 0.0507,
+     "p_piyasa10": 0.0655,
+     "p_v9_agfli": 0.0426,
+     "p_v9_agfsiz": 0.1008,
+     "h2h": -0.31,
+     "tercih": {
+      "baba": "GOOD CURRY",
+      "kendi_mesafe": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_mesafe": {
+       "n": 143,
+       "birinci": 28,
+       "ae": 1.59,
+       "z": 2.8
+      },
+      "kendi_pist": {
+       "n": 7,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "baba_pist": {
+       "n": 462,
+       "birinci": 91,
+       "ae": 1.41,
+       "z": 3.8
+      },
+      "kendi_aile": {
+       "n": 5,
+       "birinci": 0,
+       "ilk3": 0
+      },
+      "baba_aile": {
+       "n": 227,
+       "birinci": 38,
+       "ae": 1.37,
+       "z": 2.2
+      },
+      "kendi_hip": {
+       "n": 9,
+       "birinci": 1,
+       "ilk3": 2
+      },
+      "baba_hip": {
+       "n": 124,
+       "birinci": 25,
+       "ae": 1.23,
+       "z": 1.2
+      },
+      "annebaba": "EXPANSION (USA)",
+      "annebaba_mesafe_hepsi": {
+       "1300-1400": [
+        48,
+        8,
+        1.74,
+        1.8
+       ]
+      },
+      "kendi_mesafe_hepsi": {
+       "≤1200": [
+        0,
+        0,
+        0
+       ],
+       "1300-1400": [
+        6,
+        1,
+        2
+       ],
+       "1500-1700": [
+        1,
+        0,
+        0
+       ],
+       "1800-2100": [
+        5,
+        0,
+        0
+       ],
+       "2200+": [
+        1,
+        0,
+        0
+       ]
+      },
+      "baba_mesafe_hepsi": {
+       "≤1200": [
+        140,
+        21,
+        1.13,
+        0.6
+       ],
+       "1300-1400": [
+        287,
+        48,
+        1.32,
+        2.2
+       ],
+       "1500-1700": [
+        101,
+        15,
+        1.38,
+        1.4
+       ],
+       "1800-2100": [
+        143,
+        28,
+        1.59,
+        2.8
+       ]
+      },
+      "mesafe_uyum": "uyumsuz",
+      "baba_log_ae": 0.376,
+      "hedef": false,
+      "baslik": {
+       "mesafe": "1800-2100",
+       "pist": "Kum",
+       "aile": "Handikap",
+       "hip": "Adana"
+      }
+     },
+     "sicil": [
+      9,
+      1,
+      2
+     ],
+     "sicil_carpan": 1.0,
+     "mesafe_sicil": {
+      "tip": "kisa",
+      "baba": "GOOD CURRY",
+      "baba_tip": "nötr",
+      "annebaba": "EXPANSION (USA)",
+      "annebaba_tip": null,
+      "mesafe": 2000,
+      "bugun": [
+       6,
+       0,
+       0
+      ],
+      "uzun": [
+       6,
+       0,
+       0
+      ],
+      "kisa": [
+       7,
+       1,
+       2
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
