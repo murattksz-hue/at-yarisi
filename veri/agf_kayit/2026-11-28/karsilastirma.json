@@ -329,5 +329,208 @@
     ]
    }
   ]
+ },
+ "Adana-4": {
+  "hipodrom": "Adana",
+  "kosu": 4,
+  "zaman": "15:00",
+  "tjk_goruntu": "15:00",
+  "ebayi_goruntu": "15:00",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.0,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "1",
+    "sabah_favori_ebayi": "5",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "BECENE REİS KG DB SK",
+      "tjk": 17.87,
+      "ebayi": 17.87,
+      "fark": 0.0
+     },
+     {
+      "at": "2",
+      "ad": "PIPO DAYI SK",
+      "tjk": 9.78,
+      "ebayi": 9.78,
+      "fark": 0.0
+     },
+     {
+      "at": "3",
+      "ad": "AŞAN STAR DB SK",
+      "tjk": 9.36,
+      "ebayi": 9.36,
+      "fark": 0.0
+     },
+     {
+      "at": "4",
+      "ad": "GREENLIFE SK ÖG",
+      "tjk": 2.54,
+      "ebayi": 2.54,
+      "fark": 0.0
+     },
+     {
+      "at": "5",
+      "ad": "LA MUNECA SK",
+      "tjk": 28.03,
+      "ebayi": 28.03,
+      "fark": 0.0
+     },
+     {
+      "at": "6",
+      "ad": "MONIQUE DB SKG SK",
+      "tjk": 12.77,
+      "ebayi": 12.77,
+      "fark": 0.0
+     },
+     {
+      "at": "7",
+      "ad": "POWER OF LIGHT DB SKG SK",
+      "tjk": 2.41,
+      "ebayi": 2.41,
+      "fark": 0.0
+     },
+     {
+      "at": "8",
+      "ad": "VICTORY MARIA DB SKG SK",
+      "tjk": 9.17,
+      "ebayi": 9.17,
+      "fark": 0.0
+     },
+     {
+      "at": "9",
+      "ad": "ASYA KIZ K DB",
+      "tjk": 0.36,
+      "ebayi": 0.36,
+      "fark": 0.0
+     },
+     {
+      "at": "10",
+      "ad": "QUEEN CANSU KG K DB",
+      "tjk": 0.69,
+      "ebayi": 0.69,
+      "fark": 0.0
+     },
+     {
+      "at": "11",
+      "ad": "PAPA CLAS",
+      "tjk": 6.34,
+      "ebayi": 6.34,
+      "fark": 0.0
+     },
+     {
+      "at": "12",
+      "ad": "REDBAD KG K DB",
+      "tjk": 0.69,
+      "ebayi": 0.69,
+      "fark": 0.0
+     }
+    ]
+   },
+   {
+    "altili": 2,
+    "favori_tjk": "5",
+    "favori_ebayi": "5",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.02,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "5",
+    "sabah_favori_ebayi": "5",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "BECENE REİS KG DB SK",
+      "tjk": 19.2,
+      "ebayi": 19.18,
+      "fark": -0.02
+     },
+     {
+      "at": "2",
+      "ad": "PIPO DAYI SK",
+      "tjk": 10.09,
+      "ebayi": 10.07,
+      "fark": -0.02
+     },
+     {
+      "at": "3",
+      "ad": "AŞAN STAR DB SK",
+      "tjk": 9.37,
+      "ebayi": 9.38,
+      "fark": 0.01
+     },
+     {
+      "at": "4",
+      "ad": "GREENLIFE SK ÖG",
+      "tjk": 2.25,
+      "ebayi": 2.24,
+      "fark": -0.01
+     },
+     {
+      "at": "5",
+      "ad": "LA MUNECA SK",
+      "tjk": 27.07,
+      "ebayi": 27.06,
+      "fark": -0.01
+     },
+     {
+      "at": "6",
+      "ad": "MONIQUE DB SKG SK",
+      "tjk": 12.04,
+      "ebayi": 12.06,
+      "fark": 0.02
+     },
+     {
+      "at": "7",
+      "ad": "POWER OF LIGHT DB SKG SK",
+      "tjk": 2.16,
+      "ebayi": 2.15,
+      "fark": -0.01
+     },
+     {
+      "at": "8",
+      "ad": "VICTORY MARIA DB SKG SK",
+      "tjk": 9.79,
+      "ebayi": 9.81,
+      "fark": 0.02
+     },
+     {
+      "at": "9",
+      "ad": "ASYA KIZ K DB",
+      "tjk": 0.38,
+      "ebayi": 0.39,
+      "fark": 0.01
+     },
+     {
+      "at": "10",
+      "ad": "QUEEN CANSU KG K DB",
+      "tjk": 0.74,
+      "ebayi": 0.73,
+      "fark": -0.01
+     },
+     {
+      "at": "11",
+      "ad": "PAPA CLAS",
+      "tjk": 6.22,
+      "ebayi": 6.23,
+      "fark": 0.01
+     },
+     {
+      "at": "12",
+      "ad": "REDBAD KG K DB",
+      "tjk": 0.69,
+      "ebayi": 0.69,
+      "fark": 0.0
+     }
+    ]
+   }
+  ]
  }
 }
