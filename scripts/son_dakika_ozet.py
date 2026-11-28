@@ -82,8 +82,13 @@ def top(d):
 favs={'piyasa':top(piyasa),'v9 AGF\'li':top(P9),'v9 AGF\'siz':top(P9s),'BİRLEŞİK':top(PB)}
 ad=lambda k:N[k]['ad'] if k in N else '—'
 L=[f'# Son dakika özeti — {hip} {kno}. koşu ({saat}), {gun}','',f'Görüntü: {simdi[0]//60:02d}:{simdi[0]%60:02d} UTC (koşuya {tdk-simdi[0]} dk); karşılaştırma: −60 dk ≈ {s60[0]//60:02d}:{s60[0]%60:02d} UTC, sabah = TAM/ilk görüntü. Piyasa kaynağı: {kaynak}. İşaretler yalnızca bilgi, test edilmedi.','',
-   '| At | Piyasa % | Sabah AGF | Ganyan −60 → şimdi | v9 AGF\'li % | v9 AGF\'siz % | BİRLEŞİK % | Hip. sicil (start/gal/ilk3) | İşaret |','|---|---|---|---|---|---|---|---|---|']
+   '| At | Piyasa % | Sabah AGF | Ganyan −60 → şimdi | v9 AGF\'li % | v9 AGF\'siz % | BİRLEŞİK % | Hip. sicil (start/gal/ilk3) | Mesafe sicili ±200 m | Uzun ≥1900 / Kısa ≤1500 | İşaret |','|---|---|---|---|---|---|---|---|---|---|---|']
 fm=lambda x:'—' if x is None else f'{100*x:.0f}'
+def _ms_txt(k,anahtar):
+    if not R10: return '—'
+    _m=next((a.get('mesafe_sicil') for a in R10['atlar'] if ak(a['ad'])==k),None)
+    _v=(_m or {}).get(anahtar)
+    return '—' if not _v or not _v[0] else f'{_v[0]}/{_v[1]}/{_v[2]}'
 def _sic_txt(k):
     if not R10: return '—'
     _s=next((a.get('sicil') for a in R10['atlar'] if ak(a['ad'])==k),None)
@@ -91,7 +96,7 @@ def _sic_txt(k):
 for k,v,fl in rows:
     g0=O60.get(k,{}).get('gan'); a0=OS.get(k,{}).get('agf'); g1=v['gan']
     gtxt=('—' if g0 is None else f'{g0:g}')+' → '+('—' if g1 is None else f'{g1:g}')
-    L.append(f"| {v['ad'][:18]} | {fm(piyasa.get(k))} | {'—' if a0 is None else f'{a0:.1f}'} | {gtxt} | {fm(P9.get(k))} | {fm(P9s.get(k))} | {fm(PB.get(k))} | {_sic_txt(k)} | {' '.join(fl)} |")
+    L.append(f"| {v['ad'][:18]} | {fm(piyasa.get(k))} | {'—' if a0 is None else f'{a0:.1f}'} | {gtxt} | {fm(P9.get(k))} | {fm(P9s.get(k))} | {fm(PB.get(k))} | {_sic_txt(k)} | {_ms_txt(k,'bugun')} | {_ms_txt(k,'uzun')} / {_ms_txt(k,'kisa')} | {' '.join(fl)} |")
 L+=['','**Favoriler:** '+' · '.join(f"{n}: {ad(k) if k else '—'}" for n,k in favs.items()),'']
 farkli={n for n,k in favs.items() if k and k!=favs['piyasa'] and favs['piyasa']}
 L.append('Bizim kollarla piyasa favorisi **ayrışıyor**: '+', '.join(sorted(farkli)) if farkli else 'Bizim kollar piyasa favorisiyle **aynı atta birleşiyor** (ya da tahmin yok).')

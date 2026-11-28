@@ -1054,3 +1054,6 @@ Kurulan: pitcany/statistical-agent-skills (12 skill, 8 komut; data-quality-audit
 ## 28.11.2026 sabah: 27.11 özet düzeltmesi ve kupon betiği
 - `scripts/kupon_degerlendir.py` yazıldı (kupon ayaklarını ebayi resmî sonucundan TUTTU/YATTI çıkarır). Deneme: 27.11 İzmir 4'lü 2/4, Bursa altılı 2/6.
 - analysis-qa-checklist uygulandı: 27.11 özetindeki kupon sonuçları ve favori sayıları kaynaktan yeniden okundu. Bulunan hatalar: (a) İzmir 4'lüde 3. ayağın da yattığı yazılmamıştı (12 saat önce kullanıcı fark etti); (b) Bursa altılının yalnızca 1. ayakta yattığı yazılmıştı, gerçekte 4 ayak yattı, 2'si tuttu; (c) favori listesinde AGF ve ganyan favorisi karışmıştı (8 isim yerine 9 isim, Thunder Jest ganyan favorisi değildi). SONUC.md sayıları (4/13, %69, risk tablosu, getiri %75/%76) kaynakla uyumlu çıktı.
+
+## 28.11.2026 mesafe sicili akışa eklendi (kullanıcı talimatı)
+Kullanıcı atların uzun/kısa mesafe durumunun her analize girmesini defalarca istemişti, 28.11 Adana 1 tahmininde ayrıca bakılmamıştı. `hipodrom_sicil.py` bugünkü mesafe ±200 m, uzun (>=1900) ve kısa (<=1500) sicili yazıyor (`<gün>_mesafe.json`); `tahmin_10dk.py` `mesafe_sicil` alanını, `son_dakika_ozet.py` 2 yeni sütunu ekliyor. Deneme (scratch, Adana 1): sütun kayması bulundu ve düzeltildi. Liste çarpanı eklenmedi (önce test: atın mesafe sicilinin piyasa ötesi bilgisi daha önce çıkmamıştı).

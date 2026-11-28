@@ -19,15 +19,19 @@ for fn in sorted(glob.glob(os.path.join(K,'veri','at_gecmisi','*','*.csv.gz'))):
         if ad in adlar and r['tarih']<GUN:
             s=r['sonuc'].strip()
             H[ad].append((r['tarih'],r['hip'],r['mesafe'],(r['pist'] or '').strip(),int(s) if s.isdigit() else None,r['kosan']))
-JS={}
+JS={}; JM={}   # JM: hip -> ad -> {'bugun':[start,gal,ilk3] (bugünkü mesafe ±200 m, her hipodrom), 'uzun':[...] (>=1900 m), 'kisa':[...] (<=1500 m)}
+import re
 L=[f'# Hipodrom sicili — {GUN}','','Her atın bu hipodromdaki geçmişi (start / galibiyet / ilk 3). Kaynak at_gecmisi 2020+, ad eşleşmesi. Aynı adlı farklı at olabilir. Yorum değil kayıt.','']
 for hip,J in hiplar.items():
     L+=[f'## {hip}','']
     for r in J:
         baslik=r.get('baslik','').split('Kosu :')[-1].strip()[:90]
-        L+=[f"### {r['kosu']}. koşu — {baslik}",'','| At | Bu hip. start | Galibiyet | İlk 3 | Oran | Son bu hipodromda | Bu hipodromda en iyi mesafe |','|---|---|---|---|---|---|---|']
+        L+=[f"### {r['kosu']}. koşu — {baslik}",'','| At | Bu hip. start | Galibiyet | İlk 3 | Oran | Son bu hipodromda | Bu hipodromda en iyi mesafe | Bugünkü mesafe ±200 m (start/gal/ilk3) | Uzun ≥1900 m | Kısa ≤1500 m |','|---|---|---|---|---|---|---|---|---|---|']
         for a in r['atlar']:
             ad=a['ad'].strip(); h=[x for x in H.get(ad,[]) if x[1]==hip]; h.sort()
+            _m=re.search(r'(\d{3,4})\s*m\b',r.get('baslik','')); _md=int(_m.group(1)) if _m else None; _all=H.get(ad,[])
+            _st=lambda L:[sum(1 for x in L if x[4]),sum(1 for x in L if x[4]==1),sum(1 for x in L if x[4] and x[4]<=3)]
+            JM.setdefault(hip,{}).setdefault(ad,{}).update({'mesafe':_md,'bugun':_st([x for x in _all if _md and abs(int(x[2] or 0)-_md)<=200]),'uzun':_st([x for x in _all if int(x[2] or 0)>=1900]),'kisa':_st([x for x in _all if int(x[2] or 0)<=1500])})
             n=len(h); w=sum(1 for x in h if x[4]==1); t=sum(1 for x in h if x[4] and x[4]<=3)
             JS.setdefault(hip,{})[ad]=[sum(1 for x in h if x[4]),w,t]   # start (sonuçlu), galibiyet, ilk 3
             son=f"{h[-1][0]} {h[-1][2]} m {h[-1][4]}." if h else '-'
@@ -35,9 +39,11 @@ for hip,J in hiplar.items():
             if h:
                 m=collections.Counter(x[2] for x in h if x[4] and x[4]<=3)
                 iyi=', '.join(f'{k} m ({v}x ilk3)' for k,v in m.most_common(2))
-            L.append(f"| {ad} | {n} | {w} | {t} | {('%'+str(round(100*w/n))) if n else '-'} | {son} | {iyi or '-'} |")
+            _j=JM[hip][ad]; _f=lambda v:'/'.join(map(str,v)) if v[0] else '-'
+            L.append(f"| {ad} | {n} | {w} | {t} | {('%'+str(round(100*w/n))) if n else '-'} | {son} | {iyi or '-'} | {_f(_j['bugun'])} | {_f(_j['uzun'])} | {_f(_j['kisa'])} |")
         L.append('')
 os.makedirs(os.path.join(K,'veri','hipodrom_sicil'),exist_ok=True)
 json.dump(JS,open(os.path.join(K,'veri','hipodrom_sicil',f'{GUN}.json'),'w',encoding='utf-8'),ensure_ascii=False)
+json.dump(JM,open(os.path.join(K,'veri','hipodrom_sicil',f'{GUN}_mesafe.json'),'w',encoding='utf-8'),ensure_ascii=False)
 open(os.path.join(K,'veri','hipodrom_sicil',f'{GUN}.md'),'w',encoding='utf-8').write('\n'.join(L)+'\n')
 print('yazıldı veri/hipodrom_sicil/%s.md | %d hipodrom, %d at'%(GUN,len(hiplar),len(adlar)))
