@@ -13,3 +13,8 @@ Saatler İstanbul saatidir ve kontrol turunun saatidir (kontroller 5 dk arayla).
 
 | Hipodrom | Koşu | Saat | Altılı | Favori TJK | Favori ebayi | Aynı favori | İlk 3 aynı | Maks fark | Sabah→şimdi favori TJK | Sabah→şimdi favori ebayi |
 |---|---|---|---|---|---|---|---|---|---|---|
+| Adana | 1 | 13:30 | 1. | 4 | 4 | ✓ | ✓ | 0.07 | 4→4 | 8→4 |
+
+### Farklı çıkan atlar
+
+- Adana 1. koşu (1. altılı; TJK görüntüsü 13:30, ebayi 13:30): 1 PRINCESS DENİZ KG K DB TJK %4.9 / ebayi %4.89, 3 MY LADY BUG KG DB SK TJK %16.1 / ebayi %16.15, 4 FEMALE WARRIOR DB SK TJK %18.88 / ebayi %18.94, 5 KARDAHA KG SK TJK %8.15 / ebayi %8.18, 6 SOUTHERN SECRET DB SKG SK TJK %17.78 / ebayi %17.85, 7 QUEEN SEÇİL KG K TJK %8.95 / ebayi %8.97, 8 ICE DROPS DB SK TJK %14.74 / ebayi %14.69, 9 DEEP GIRL KG K DB TJK %5.9 / ebayi %5.86

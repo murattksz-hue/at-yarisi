@@ -1,0 +1,80 @@
+{
+ "Adana-1": {
+  "hipodrom": "Adana",
+  "kosu": 1,
+  "zaman": "13:30",
+  "tjk_goruntu": "13:30",
+  "ebayi_goruntu": "13:30",
+  "altililar": [
+   {
+    "altili": 1,
+    "favori_tjk": "4",
+    "favori_ebayi": "4",
+    "ayni_favori": true,
+    "ilk3_ayni": true,
+    "max_fark": 0.07,
+    "eslesmeyen": [],
+    "sabah_favori_tjk": "4",
+    "sabah_favori_ebayi": "8",
+    "atlar": [
+     {
+      "at": "1",
+      "ad": "PRINCESS DENİZ KG K DB",
+      "tjk": 4.9,
+      "ebayi": 4.89,
+      "fark": -0.01
+     },
+     {
+      "at": "3",
+      "ad": "MY LADY BUG KG DB SK",
+      "tjk": 16.1,
+      "ebayi": 16.15,
+      "fark": 0.05
+     },
+     {
+      "at": "4",
+      "ad": "FEMALE WARRIOR DB SK",
+      "tjk": 18.88,
+      "ebayi": 18.94,
+      "fark": 0.06
+     },
+     {
+      "at": "5",
+      "ad": "KARDAHA KG SK",
+      "tjk": 8.15,
+      "ebayi": 8.18,
+      "fark": 0.03
+     },
+     {
+      "at": "6",
+      "ad": "SOUTHERN SECRET DB SKG SK",
+      "tjk": 17.78,
+      "ebayi": 17.85,
+      "fark": 0.07
+     },
+     {
+      "at": "7",
+      "ad": "QUEEN SEÇİL KG K",
+      "tjk": 8.95,
+      "ebayi": 8.97,
+      "fark": 0.02
+     },
+     {
+      "at": "8",
+      "ad": "ICE DROPS DB SK",
+      "tjk": 14.74,
+      "ebayi": 14.69,
+      "fark": -0.05
+     },
+     {
+      "at": "9",
+      "ad": "DEEP GIRL KG K DB",
+      "tjk": 5.9,
+      "ebayi": 5.86,
+      "fark": -0.04
+     }
+    ]
+   }
+  ]
+ }
+}
