@@ -10,6 +10,12 @@ Türkiye at yarışları (TJK) için notlar, veri toplama ve analiz araçları. 
 |---|---|
 | `scripts/agf_karsilastir.py` | Koşudan 1 saat önce TJK ve ebayi AGF'lerini karşılaştırır; günlük rapor `veri/agf_kayit/<tarih>/GUNLUK.md` (sabah hangi kaynak önce yayınladı + karşılaştırmalar). `agf_plan.py` çağırır |
 | `CLAUDE.md`, `ANALIZ_INDEKSI.md` | Yeni oturum için kurallar, günlük akış ve tüm analizlerin sonuç indeksi |
+| `ANALIZ_LISTESI.md` | Her koşu için otomatik üretilen analiz listesinin (15 bölüm + koşu riski + mevcut kart) tek yerde listesi; çıktı `veri/analiz_listesi/<gün>/<hip>_<koşu>.md` |
+| `scripts/hipodrom_sicil.py`, `scripts/hipodrom_sicil_gecmis.py` | Atın hipodrom, mesafe, zemin sicili, kilo, jokey, HP ve grup dengesi (günlük JSON) ve geçmiş koşular için koşu öncesi sicil veri seti |
+| `scripts/mesafe_tipi.py` | Atların, babaların ve anne babalarının kısa / orta / uzun mesafe tipi (`veri/mesafe_profil/`) |
+| `scripts/kosu_riski_gecmis.py`, `scripts/kosu_riski_v2.py`, `scripts/kosu_riski_modeli.py` | Geçmiş koşulardan öğrenilen koşu riski: segment oranları ve kazananın piyasa ilk 3 dışından gelme modeli (`veri/kosu_riski/`) |
+| `scripts/hipodrom_galibi_testi.py`, `scripts/mesafe_sicil_testi.py`, `scripts/apranti_kilo_testi.py` | Hipodrom sicili, mesafe sicili, apranti ve kilo etkilerinin piyasaya göre testleri |
+| `scripts/kupon_degerlendir.py` | Kuponun her ayağını resmî sonuçtan TUTTU / YATTI çıkarır |
 | `YAPILACAK_TESTLER.md` | Bekleyen testlerin listesi (önkoşul ve ölçütleriyle). "Yapılacak testleri yap" denince buradan çalışılır |
 | `scripts/sonuc_indir.py` | Son N günün TJK sonuç CSV'lerini indirir |
 | `scripts/aygir_stat.py` | Sonuçlardan aygır kan istatistiği (ırk/zemin/mesafe A/E) üretir |
